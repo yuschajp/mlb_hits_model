@@ -89,13 +89,34 @@ def build_predictions_for_game(game, park_factors):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dump-raw", action="store_true",
-                         help="Print raw schedule JSON for today and exit, for verifying the API shape.")
+                         help="Print raw schedule JSON for today and exit.")
+    parser.add_argument("--dump-boxscore", type=int, metavar="GAME_PK",
+                         help="Print raw boxscore JSON for a given game_pk and exit. "
+                              "Use this to verify the battingOrder/pitchHand field paths.")
+    parser.add_argument("--dump-player-stats", type=int, metavar="PLAYER_ID",
+                         help="Print raw season/recent/splits stats JSON for a player and exit. "
+                              "Use this to verify the people/stats field paths, especially sitCodes.")
     args = parser.parse_args()
 
+    import json
+
     if args.dump_raw:
-        import json
         raw = client._get("/schedule", {"sportId": 1, "date": date.today().strftime("%Y-%m-%d")})
         print(json.dumps(raw, indent=2)[:4000])
+        return
+
+    if args.dump_boxscore:
+        raw = client._get(f"/game/{args.dump_boxscore}/boxscore")
+        print(json.dumps(raw, indent=2)[:6000])
+        print("\n... (truncated -- look for teams.home.players.{ID...}.battingOrder and .pitchHand)")
+        return
+
+    if args.dump_player_stats:
+        pid = args.dump_player_stats
+        print("--- season hitting ---")
+        print(json.dumps(client._get(f"/people/{pid}/stats", {"stats": "season", "group": "hitting"}), indent=2)[:2000])
+        print("\n--- vs RHP split (sitCodes=vr) ---")
+        print(json.dumps(client._get(f"/people/{pid}/stats", {"stats": "statSplits", "sitCodes": "vr", "group": "hitting"}), indent=2)[:2000])
         return
 
     park_factors = load_park_factors()
