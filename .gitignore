@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Daily prediction ledger grows continuously and is environment-specific --
+# don't commit it, but keep the directory in version control.
+data/ledger/*.csv
+!data/ledger/.gitkeep

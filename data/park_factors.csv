@@ -1,0 +1,31 @@
+team,venue,park_factor,note
+Colorado Rockies,Coors Field,1.13,thin air; consistently the most hitter-friendly park in MLB
+Boston Red Sox,Fenway Park,1.06,Green Monster inflates BABIP on balls to left
+Cincinnati Reds,Great American Ball Park,1.05,small dimensions favor hitters
+New York Yankees,Yankee Stadium,1.04,short porch in right field
+Philadelphia Phillies,Citizens Bank Park,1.03,hitter-friendly dimensions
+Arizona Diamondbacks,Chase Field,1.02,neutral-to-hitter-friendly with roof closed
+Milwaukee Brewers,American Family Field,1.02,roof park; fairly neutral
+Chicago White Sox,Guaranteed Rate Field,1.02,slightly hitter-friendly
+Texas Rangers,Globe Life Field,1.02,roof park; close to neutral
+Atlanta Braves,Truist Park,1.01,close to league neutral
+Houston Astros,Minute Maid Park,1.00,short porch in left; deep in center; close to neutral
+Chicago Cubs,Wrigley Field,1.00,highly wind-dependent; neutral on average
+Toronto Blue Jays,Rogers Centre,1.00,roof park; close to neutral
+Tampa Bay Rays,Tropicana Field,0.97,roof park; close to neutral
+Baltimore Orioles,Camden Yards,0.97,deeper left field fences installed in 2022 cut home runs
+Washington Nationals,Nationals Park,0.99,close to neutral
+Los Angeles Angels,Angel Stadium,0.99,close to neutral
+Minnesota Twins,Target Field,0.98,slightly pitcher-friendly; especially early season cold
+Cleveland Guardians,Progressive Field,0.99,close to neutral
+New York Mets,Citi Field,0.97,spacious outfield suppresses hits
+Pittsburgh Pirates,PNC Park,0.97,deep right-center power alley
+St. Louis Cardinals,Busch Stadium,0.97,large foul territory; spacious outfield
+Detroit Tigers,Comerica Park,0.95,historically one of the most spacious outfields in MLB
+Kansas City Royals,Kauffman Stadium,0.94,large foul territory and deep outfield
+Miami Marlins,loanDepot Park,0.93,large dimensions; roof control limits carry
+Athletics,Sutter Health Park,0.93,small-sample interim home; treat with extra caution
+Los Angeles Dodgers,Dodger Stadium,0.96,marine layer suppresses offense; especially at night
+San Diego Padres,Petco Park,0.92,historically pitcher-friendly marine air and dimensions
+Seattle Mariners,T-Mobile Park,0.92,marine air; spacious outfield
+San Francisco Giants,Oracle Park,0.91,heavy marine air; especially right field
