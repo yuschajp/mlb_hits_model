@@ -89,6 +89,53 @@ before relying on this -- park factors genuinely shift over time (Camden
 Yards moved its left-field fences back in 2022 and meaningfully changed
 its profile overnight).
 
+## Home run model
+
+`src/hr_model.py` is the home run version of the hits model, sharing the
+same data client, ledger, calibration, odds, and name-matching plumbing.
+Two real modeling differences from the hits model, both because home runs
+are a much rarer per-at-bat event (roughly 1 in 30-35 vs. roughly 1 in 4
+for any hit):
+
+**Poisson instead of binomial.** `P(>=1 HR) = 1 - e^(-lambda)` where
+`lambda = adjusted_hr_rate * expected_AB`. This is both a better statistical
+fit for a rare event and mathematically cleaner than the hits model's
+approach -- there's no integer-AB-rounding step, so `hr_probability()` and
+`hr_over_under_probability(..., line=0.5)` are guaranteed to agree exactly
+(checked in the test suite), unlike the analogous hits-model situation
+where rounding caused a real, caught-by-testing inconsistency.
+
+**Much stronger shrinkage priors.** A batter who's gone deep twice in his
+last 15 at-bats is not actually a 13% HR hitter; HR rate needs far more
+at-bats than batting average to mean anything, so `stabilized_hr_rate()`
+uses a prior_ab of 400 versus the hits model's 200.
+
+**A separate, HR-specific park factor table** (`data/hr_park_factors.csv`).
+Hits-friendly and HR-friendly aren't the same thing -- Fenway Park is
+hits-friendly (1.06) but HR-suppressing (0.92), since the Green Monster
+turns many would-be home runs into doubles instead. Same illustrative-not-
+authoritative caveat as the hits park factors: refresh from a real source
+before relying on these.
+
+Daily workflow is identical in shape to the hits model, just with `_hr`
+suffixed scripts and a separate ledger file so the two never collide:
+
+```bash
+python3 scripts/run_daily_hr.py        # log today's HR predictions
+python3 scripts/grade_yesterday_hr.py  # grade yesterday's, build calibration history
+python3 scripts/find_value_hr.py       # compare to live "Over 0.5 home runs" odds
+```
+
+**Honest gap, flagged deliberately rather than addressed:** home run rate
+is driven much more by quality-of-contact (exit velocity, launch angle,
+barrel rate, flyball rate) than by anything in the basic MLB Stats API
+hitting line this pulls. This v1 will beat a naive baseline using the same
+season/recent/platoon-split approach as the hits model, but Statcast data
+(via Baseball Savant) is the real next step to materially improve it --
+batting-average-style logic captures most of what matters for the hits
+model, but captures noticeably less of what actually separates real power
+hitters for this one.
+
 ## Finding value against real odds
 
 `scripts/find_value.py` compares today's logged predictions to live

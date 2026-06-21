@@ -18,9 +18,16 @@ import pandas as pd
 DEFAULT_PATH = Path(__file__).resolve().parents[1] / "data" / "park_factors.csv"
 
 
-def load_park_factors(path=DEFAULT_PATH):
+def load_park_factors(path=DEFAULT_PATH, value_col="park_factor"):
+    """
+    value_col defaults to "park_factor" (the hits table's column name) for
+    backward compatibility. Pass value_col="hr_park_factor" when loading
+    data/hr_park_factors.csv, which uses a different column name since it's
+    a genuinely different metric -- see that file's notes for examples of
+    where the two diverge (Fenway being hits-friendly but HR-suppressing).
+    """
     df = pd.read_csv(path)
-    return dict(zip(df["team"], df["park_factor"]))
+    return dict(zip(df["team"], df[value_col]))
 
 
 def get_park_factor(team_name, factors=None, default=1.0):

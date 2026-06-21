@@ -172,6 +172,58 @@ def get_game_batting_results(game_pk):
     return results
 
 
+def get_season_hr_stats(player_id, season=None):
+    """Returns (homers, at_bats) for the player's season-to-date hitting line."""
+    season = season or date.today().year
+    raw = _get(f"/people/{player_id}/stats", {"stats": "season", "group": "hitting", "season": season})
+    return _extract_stat_ab(raw, "homeRuns")
+
+
+def get_recent_hr_stats(player_id, days=30):
+    """Returns (homers, at_bats) over the trailing N days."""
+    end = date.today()
+    start = end - timedelta(days=days)
+    raw = _get(f"/people/{player_id}/stats", {
+        "stats": "byDateRange",
+        "startDate": start.strftime("%Y-%m-%d"),
+        "endDate": end.strftime("%Y-%m-%d"),
+        "group": "hitting",
+    })
+    return _extract_stat_ab(raw, "homeRuns")
+
+
+def get_hr_splits_vs_hand(player_id, hand, season=None):
+    """Returns (homers, at_bats) for the player's career-to-date HR split against LHP or RHP."""
+    season = season or date.today().year
+    sit_code = "vl" if hand == "L" else "vr"
+    raw = _get(f"/people/{player_id}/stats", {
+        "stats": "statSplits", "sitCodes": sit_code, "group": "hitting", "season": season,
+    })
+    return _extract_stat_ab(raw, "homeRuns")
+
+
+def get_pitcher_hr_stats_against(player_id, season=None):
+    """Returns (homers_allowed, at_bats_faced) for the pitcher's season-to-date pitching line."""
+    season = season or date.today().year
+    raw = _get(f"/people/{player_id}/stats", {"stats": "season", "group": "pitching", "season": season})
+    return _extract_stat_ab(raw, "homeRuns")
+
+
+def get_game_hr_results(game_pk):
+    """Returns {player_id: homers} for every batter in a completed game's boxscore."""
+    raw = _get(f"/game/{game_pk}/boxscore")
+    results = {}
+    for side in ("home", "away"):
+        players = raw.get("teams", {}).get(side, {}).get("players", {})
+        for _, p in players.items():
+            person = p.get("person", {})
+            player_id = person.get("id")
+            batting = p.get("stats", {}).get("batting", {})
+            if player_id is not None and "homeRuns" in batting:
+                results[player_id] = int(batting["homeRuns"])
+    return results
+
+
 def get_season_hitting_stats(player_id, season=None):
     """Returns (hits, at_bats) for the player's season-to-date hitting line."""
     season = season or date.today().year
@@ -217,19 +269,24 @@ def get_pitcher_stats_against(player_id, season=None):
 
 
 def _extract_hit_ab(raw_stats_response):
+    """Shared parsing for the people/stats response shape: stats[].splits[].stat. Hits-specific wrapper."""
+    return _extract_stat_ab(raw_stats_response, "hits")
+
+
+def _extract_stat_ab(raw_stats_response, stat_key):
     """
-    Shared parsing for the people/stats response shape: stats[].splits[].stat.
-    Falls back to (0, 0) if the structure doesn't match what's expected --
-    callers should treat (0, 0) as "no data yet" and let the model's
-    shrinkage handle it gracefully (it'll fall back toward league average).
+    Generalized version of _extract_hit_ab: pulls (stat_key value, atBats)
+    from the stats[].splits[].stat shape, defaulting to (0, 0) if the
+    structure doesn't match. stat_key is "hits" for the hits model,
+    "homeRuns" for the home run model -- same response shape either way.
     """
     try:
         splits = raw_stats_response["stats"][0]["splits"]
         if not splits:
             return (0, 0)
         stat = splits[0]["stat"]
-        hits = int(stat.get("hits", 0))
+        value = int(stat.get(stat_key, 0))
         at_bats = int(stat.get("atBats", 0))
-        return (hits, at_bats)
+        return (value, at_bats)
     except (KeyError, IndexError, TypeError, ValueError):
         return (0, 0)

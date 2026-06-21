@@ -50,6 +50,8 @@ def main():
     print(f"Found {len(events)} MLB events with odds today.\n")
 
     value_rows = []
+    unmatched_count = 0
+    matched_count = 0
     for event in events:
         try:
             best_odds = odds.get_best_over_0_5_hits_odds(event["event_id"])
@@ -60,9 +62,11 @@ def main():
         for odds_player_name, info in best_odds.items():
             matched_name = match_name(odds_player_name, name_index)
             if matched_name is None:
+                unmatched_count += 1
                 print(f"  [no match] '{odds_player_name}' not found in today's predictions -- "
                       f"check name_matching.py if this happens a lot")
                 continue
+            matched_count += 1
 
             pred = pred_by_name[matched_name]
             implied_prob = odds.american_to_implied_prob(info["price"])
@@ -78,6 +82,13 @@ def main():
                     "best_price": info["price"],
                     "bookmaker": info["bookmaker"],
                 })
+
+    total = matched_count + unmatched_count
+    print(f"\nMatched {matched_count}/{total} odds-feed batters to a logged prediction "
+          f"({len(today_predictions)} predictions were logged today). If the unmatched count is "
+          f"high, it's most likely games whose lineups weren't confirmed yet when run_daily.py ran -- "
+          f"rerun run_daily.py closer to first pitch across the full slate, then rerun this script, "
+          f"before concluding it's a name-formatting problem.")
 
     if not value_rows:
         print("\nNo value found above the edge threshold today.")

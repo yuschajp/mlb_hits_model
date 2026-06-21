@@ -65,21 +65,33 @@ def get_best_over_0_5_hits_odds(event_id, regions="us"):
     available bookmakers for the "Over 0.5 hits" line -- i.e. the best
     available price for "this player records a hit."
     """
+    return _get_best_over_05(event_id, market_key="batter_hits", regions=regions)
+
+
+def get_best_over_0_5_hr_odds(event_id, regions="us"):
+    """
+    Same as get_best_over_0_5_hits_odds() but for the batter_home_runs
+    market -- "Over 0.5 home runs" is the "hits at least one HR" prop.
+    """
+    return _get_best_over_05(event_id, market_key="batter_home_runs", regions=regions)
+
+
+def _get_best_over_05(event_id, market_key, regions="us"):
     resp = requests.get(
         f"{BASE_URL}/sports/baseball_mlb/events/{event_id}/odds",
-        params={"apiKey": _api_key(), "regions": regions, "markets": "batter_hits", "oddsFormat": "american"},
+        params={"apiKey": _api_key(), "regions": regions, "markets": market_key, "oddsFormat": "american"},
         timeout=TIMEOUT,
     )
     resp.raise_for_status()
-    return _extract_best_over_05(resp.json())
+    return _extract_best_over_05(resp.json(), market_key=market_key)
 
 
-def _extract_best_over_05(raw_event_odds_response):
+def _extract_best_over_05(raw_event_odds_response, market_key="batter_hits"):
     best = {}
     for bookmaker in raw_event_odds_response.get("bookmakers", []):
         bk_key = bookmaker.get("key")
         for market in bookmaker.get("markets", []):
-            if market.get("key") != "batter_hits":
+            if market.get("key") != market_key:
                 continue
             for outcome in market.get("outcomes", []):
                 if outcome.get("name") != "Over" or outcome.get("point") != 0.5:

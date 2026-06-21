@@ -153,6 +153,36 @@ def test_get_game_batting_results_parses_hits(monkeypatch):
     assert results == {100001: 2, 100002: 0, 200001: 1}
 
 
+HR_STATS_FIXTURE = {
+    "stats": [{
+        "splits": [{"stat": {"hits": 88, "homeRuns": 14, "atBats": 310, "avg": ".284"}}],
+    }],
+}
+
+
+def test_extract_stat_ab_pulls_home_runs():
+    assert client._extract_stat_ab(HR_STATS_FIXTURE, "homeRuns") == (14, 310)
+
+
+def test_extract_stat_ab_still_pulls_hits():
+    assert client._extract_stat_ab(HR_STATS_FIXTURE, "hits") == (88, 310)
+
+
+def test_get_game_hr_results_parses_home_runs(monkeypatch):
+    boxscore_with_hr = {
+        "teams": {
+            "home": {"players": {
+                "ID1": {"person": {"id": 1}, "stats": {"batting": {"hits": 2, "homeRuns": 1}}},
+                "ID2": {"person": {"id": 2}, "stats": {"batting": {"hits": 1, "homeRuns": 0}}},
+            }},
+            "away": {"players": {}},
+        },
+    }
+    monkeypatch.setattr(client, "_get", lambda path, params=None: boxscore_with_hr)
+    results = client.get_game_hr_results(745000)
+    assert results == {1: 1, 2: 0}
+
+
 if __name__ == "__main__":
     # Minimal monkeypatch shim so this can run without pytest installed.
     class _MonkeyPatch:

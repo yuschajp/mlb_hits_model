@@ -89,6 +89,40 @@ def test_get_todays_mlb_events_requires_api_key(monkeypatch):
         assert "ODDS_API_KEY" in str(e)
 
 
+HR_ODDS_FIXTURE = {
+    "id": "xyz789",
+    "bookmakers": [
+        {
+            "key": "betmgm",
+            "markets": [
+                {
+                    "key": "batter_home_runs",
+                    "outcomes": [
+                        {"name": "Over", "description": "Yordan Alvarez", "price": 350, "point": 0.5},
+                        {"name": "Under", "description": "Yordan Alvarez", "price": -450, "point": 0.5},
+                    ],
+                },
+                {
+                    # A different market in the same response -- must be ignored when asking for HR
+                    "key": "batter_hits",
+                    "outcomes": [
+                        {"name": "Over", "description": "Yordan Alvarez", "price": -120, "point": 0.5},
+                    ],
+                },
+            ],
+        },
+    ],
+}
+
+
+def test_extract_best_over_05_filters_by_market_key():
+    hr_best = odds._extract_best_over_05(HR_ODDS_FIXTURE, market_key="batter_home_runs")
+    assert hr_best == {"Yordan Alvarez": {"price": 350, "bookmaker": "betmgm"}}
+
+    hits_best = odds._extract_best_over_05(HR_ODDS_FIXTURE, market_key="batter_hits")
+    assert hits_best == {"Yordan Alvarez": {"price": -120, "bookmaker": "betmgm"}}
+
+
 if __name__ == "__main__":
     class _MonkeyPatch:
         def __init__(self):

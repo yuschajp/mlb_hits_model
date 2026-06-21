@@ -1,0 +1,31 @@
+team,venue,hr_park_factor,note
+Colorado Rockies,Coors Field,1.28,thin air dramatically increases fly ball carry distance
+New York Yankees,Yankee Stadium,1.18,short right field porch; especially boosts lefty power
+Cincinnati Reds,Great American Ball Park,1.15,small dimensions; especially favors HR over other hit types
+Houston Astros,Minute Maid Park,1.10,short left field Crawford Boxes favor lefty power
+Milwaukee Brewers,American Family Field,1.08,roof park; historically hitter/power-friendly
+Chicago White Sox,Guaranteed Rate Field,1.07,carries well for a non-altitude park
+Toronto Blue Jays,Rogers Centre,1.05,roof park; close to neutral with a slight power lean
+Arizona Diamondbacks,Chase Field,1.05,dry desert air with roof closed aids carry
+Philadelphia Phillies,Citizens Bank Park,1.07,favors power even more than it favors plain hits
+Atlanta Braves,Truist Park,1.02,close to league neutral
+Texas Rangers,Globe Life Field,1.00,roof park; neutral for HR
+Los Angeles Dodgers,Dodger Stadium,1.02,fairly neutral; slight power lean in summer heat
+Chicago Cubs,Wrigley Field,1.00,wind-dependent; can swing far in either direction day to day
+Washington Nationals,Nationals Park,0.98,close to neutral
+Cleveland Guardians,Progressive Field,0.98,close to neutral
+Minnesota Twins,Target Field,0.95,cooler air and dimensions suppress HR more than they suppress hits
+Los Angeles Angels,Angel Stadium,0.97,close to neutral
+Boston Red Sox,Fenway Park,0.92,the Green Monster turns many would-be HR into doubles -- HR-suppressing despite being hits-friendly
+Baltimore Orioles,Camden Yards,0.85,2022 fence relocation specifically targeted and cut left-center HR
+New York Mets,Citi Field,0.90,spacious outfield suppresses HR more than it suppresses singles
+Pittsburgh Pirates,PNC Park,0.92,deep right-center power alley
+St. Louis Cardinals,Busch Stadium,0.90,large foul territory and spacious outfield
+Detroit Tigers,Comerica Park,0.88,historically one of the most HR-suppressing parks in MLB
+Miami Marlins,loanDepot Park,0.85,large dimensions and humidity control significantly cut carry
+Kansas City Royals,Kauffman Stadium,0.85,large foul territory and deep outfield
+Athletics,Sutter Health Park,1.00,small-sample interim home; treat with extra caution
+Seattle Mariners,T-Mobile Park,0.85,heavy marine air suppresses fly ball carry
+San Diego Padres,Petco Park,0.85,marine air and dimensions historically suppress HR
+San Francisco Giants,Oracle Park,0.78,notoriously suppresses HR to right field; the most extreme in MLB
+Tampa Bay Rays,Tropicana Field,0.97,roof park; close to neutral; dead air doesn't carry as far as open parks
