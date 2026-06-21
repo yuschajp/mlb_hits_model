@@ -19,6 +19,8 @@ early pinch-hit removal, rain delays etc. all move the real number around).
 Good enough to start; refining this is on the roadmap.
 """
 
+import math
+
 LEAGUE_AVG_BA = 0.245  # rough modern-era MLB league average -- refresh yearly
 
 # Approximate at-bats per game by batting-order slot. These are typical
@@ -104,3 +106,43 @@ def hit_probability(season, recent, vs_hand, lineup_spot,
     expected_ab = EXPECTED_AB_BY_SLOT.get(lineup_spot, 3.8)
     p_hit = 1 - (1 - adjusted_ba) ** expected_ab
     return p_hit, adjusted_ba, expected_ab
+
+
+def _binomial_pmf(k, n, p):
+    return math.comb(n, k) * (p ** k) * ((1 - p) ** (n - k))
+
+
+def hits_count_distribution(adjusted_ba, expected_ab):
+    """
+    Treats expected_ab as a fixed at-bat count (rounded to the nearest
+    integer) and models hit count as Binomial(n=expected_ab, p=adjusted_ba).
+    Returns a list where index k is P(exactly k hits).
+
+    NOTE: this rounds expected_ab to an integer to get a proper count
+    distribution, whereas hit_probability() above uses the unrounded
+    fractional value directly in a continuous formula. That means
+    over_under_probability(..., line=0.5) will be CLOSE to but not bit-
+    for-bit identical to hit_probability()'s output -- rounding collapses
+    the sub-1-at-bat differences between lineup spots (e.g. 4.3 vs 3.5 both
+    round to 4). hit_probability() is the one with real calibration data
+    behind it; treat this binomial version as a reasonable extension for
+    higher lines (1.5, 2.5...) where there's no existing baseline to
+    preserve, not as a drop-in replacement for the "any hit" prop.
+    """
+    n = round(expected_ab)
+    return [_binomial_pmf(k, n, adjusted_ba) for k in range(n + 1)]
+
+
+def over_under_probability(adjusted_ba, expected_ab, line):
+    """
+    For a standard sportsbook hits-total line (a half-integer like 0.5,
+    1.5, 2.5), returns (p_over, p_under). See hits_count_distribution()'s
+    docstring for why line=0.5 is only approximately equal to
+    hit_probability()'s output, not exactly equal -- checked directly in
+    the test suite with a tolerance reflecting that rounding gap.
+    """
+    n = round(expected_ab)
+    dist = hits_count_distribution(adjusted_ba, expected_ab)
+    threshold = math.floor(line) + 1  # e.g. Over 1.5 means >=2 hits
+    p_over = sum(dist[threshold:]) if threshold <= n else 0.0
+    return p_over, 1 - p_over

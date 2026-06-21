@@ -35,24 +35,20 @@ BOXSCORE_FIXTURE = {
             "players": {
                 "ID592789": {
                     "person": {"id": 592789, "fullName": "Starter Pitcher"},
-                    "pitchHand": {"code": "R"},
                 },
                 "ID100001": {
                     "person": {"id": 100001, "fullName": "Leadoff Hitter"},
                     "battingOrder": "100",
-                    "batSide": {"code": "L"},
                 },
                 "ID100002": {
                     "person": {"id": 100002, "fullName": "Cleanup Hitter"},
                     "battingOrder": "400",
-                    "batSide": {"code": "R"},
                 },
                 "ID100003": {
                     # A pinch hitter who isn't a starter -- battingOrder
                     # doesn't end in "00", so should be excluded.
                     "person": {"id": 100003, "fullName": "Bench Player"},
                     "battingOrder": "401",
-                    "batSide": {"code": "R"},
                 },
             },
         },
@@ -90,24 +86,48 @@ def test_get_schedule_parses_games(monkeypatch):
     assert games[0]["game_pk"] == 745000
 
 
+PEOPLE_FIXTURE = {
+    "people": [
+        {"id": 100001, "fullName": "Leadoff Hitter", "batSide": {"code": "L"}, "pitchHand": {"code": "R"}},
+        {"id": 100002, "fullName": "Cleanup Hitter", "batSide": {"code": "R"}, "pitchHand": {"code": "R"}},
+        {"id": 592789, "fullName": "Starter Pitcher", "batSide": {"code": "R"}, "pitchHand": {"code": "R"}},
+    ],
+}
+
+
+def _fake_get_dispatch(path, params=None):
+    """Routes a fake _get call to the right fixture based on the endpoint path."""
+    if "/people" in path:
+        return PEOPLE_FIXTURE
+    return BOXSCORE_FIXTURE
+
+
 def test_get_confirmed_lineup_only_includes_starters(monkeypatch):
-    monkeypatch.setattr(client, "_get", lambda path, params=None: BOXSCORE_FIXTURE)
+    monkeypatch.setattr(client, "_get", _fake_get_dispatch)
     lineups = client.get_confirmed_lineup(745000)
     home = lineups["home"]
     assert len(home) == 2  # the bench player (battingOrder "401") must be excluded
     assert home[0]["name"] == "Leadoff Hitter"
     assert home[0]["lineup_spot"] == 1
+    assert home[0]["hand"] == "L"  # from the /people lookup, not the boxscore
     assert home[1]["name"] == "Cleanup Hitter"
     assert home[1]["lineup_spot"] == 4
     assert lineups["away"] == []
 
 
 def test_get_probable_pitchers_parses_starter(monkeypatch):
-    monkeypatch.setattr(client, "_get", lambda path, params=None: BOXSCORE_FIXTURE)
+    monkeypatch.setattr(client, "_get", _fake_get_dispatch)
     pitchers = client.get_probable_pitchers(745000)
     assert pitchers["home"]["name"] == "Starter Pitcher"
-    assert pitchers["home"]["hand"] == "R"
+    assert pitchers["home"]["hand"] == "R"  # from the /people lookup, not the boxscore
     assert pitchers["away"] is None
+
+
+def test_get_handedness_batch_parses_multiple_players(monkeypatch):
+    monkeypatch.setattr(client, "_get", _fake_get_dispatch)
+    handedness = client.get_handedness_batch([100001, 100002])
+    assert handedness[100001] == {"bats": "L", "throws": "R"}
+    assert handedness[100002] == {"bats": "R", "throws": "R"}
 
 
 BOXSCORE_WITH_RESULTS_FIXTURE = {

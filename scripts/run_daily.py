@@ -123,9 +123,14 @@ def main():
     games = client.get_schedule()
     print(f"Found {len(games)} games today ({date.today().isoformat()}).\n")
 
+    finished = [g for g in games if g["status"] == "Final"]
+    games = [g for g in games if g["status"] != "Final"]
+    if finished:
+        print(f"Skipping {len(finished)} already-final game(s) -- nothing actionable left to predict there.\n")
+
     all_rows = []
     for game in games:
-        print(f"{game['away_team']} @ {game['home_team']} ({game['venue']})")
+        print(f"{game['away_team']} @ {game['home_team']} ({game['venue']}) [{game['status']}]")
         all_rows.extend(build_predictions_for_game(game, park_factors))
 
     if not all_rows:

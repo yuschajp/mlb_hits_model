@@ -89,6 +89,68 @@ before relying on this -- park factors genuinely shift over time (Camden
 Yards moved its left-field fences back in 2022 and meaningfully changed
 its profile overnight).
 
+## Finding value against real odds
+
+`scripts/find_value.py` compares today's logged predictions to live
+"Over 0.5 hits" odds (mathematically identical to the "record a hit" prop)
+and flags batters where the model beats the best available price by at
+least 5 percentage points.
+
+```bash
+export ODDS_API_KEY=your_key_here   # free signup at https://the-odds-api.com/
+python3 scripts/run_daily.py        # log today's predictions first
+python3 scripts/find_value.py       # then compare to live odds
+```
+
+Two things worth knowing before trusting this:
+
+**It's deliberately conservative, not de-vigged.** The comparison uses the
+raw implied probability of the best available price across bookmakers,
+not a fair/de-vigged line -- proper de-vigging needs the Over and Under
+price from the *same* bookmaker, and the best Over price and best Under
+price might come from different books. Using the raw (vig-inflated)
+implied probability as the bar is a safer overstatement of how good the
+market price is, not an understatement -- so flagged value is a
+conservative signal, not an inflated one. Pulling matched same-book
+Over/Under pairs and de-vigging properly is on the roadmap.
+
+**Name matching across vendors is unverified against live data.**
+`src/name_matching.py` normalizes accents, casing, periods, and Jr./Sr./
+II/III suffixes so "Andrés Giménez" matches "Andres Gimenez," but it's
+exact-after-normalization, not true fuzzy matching. If a meaningful
+number of players come back as `[no match]` when you run this for real,
+that's the thing to look at first -- either extend the normalization or
+swap in a real fuzzy-matching library like `rapidfuzz`.
+
+Also check `the-odds-api.com`'s current pricing page for the live free-tier
+quota before running this across a full daily slate -- player-prop calls
+cost usage credits separately from the free schedule/odds endpoints, and
+exact limits change over time.
+
+## Over/under hits-total prop
+
+The same underlying batter-quality estimate also powers the over/under
+market (e.g. "Over 1.5 hits"), via `src/hit_model.py`'s
+`over_under_probability()`:
+
+```python
+from src.hit_model import hit_probability, over_under_probability
+
+p_hit, adjusted_ba, expected_ab = hit_probability(...)
+p_over, p_under = over_under_probability(adjusted_ba, expected_ab, line=1.5)
+```
+
+One honest wrinkle: `over_under_probability()` rounds `expected_ab` to an
+integer at-bat count to build a proper Binomial count distribution, while
+`hit_probability()` itself uses the unrounded fractional value in a
+continuous formula. That means `over_under_probability(..., line=0.5)`
+will be *close to* but not bit-for-bit identical to `hit_probability()`'s
+own output -- the rounding collapses some of the sub-1-at-bat differences
+between lineup spots. `hit_probability()` is the one with real calibration
+data behind it (see the daily grading history); treat the binomial version
+as a reasonable extension for higher lines where there's no existing
+baseline to preserve, not as a literal replacement for the "any hit" prop.
+
 ## Known limitations / roadmap
 
 - **Expected at-bats is a fixed point estimate per lineup slot**, not a
@@ -106,9 +168,12 @@ its profile overnight).
 - **No injury/lineup-change handling beyond what the boxscore shows at
   call time** -- a late scratch after the script runs won't be caught
   without rerunning closer to first pitch.
-- [ ] Verify and fix the live API field paths flagged above
-- [ ] Add market odds comparison once a data source is wired in
+- [ ] Verify and fix the live API field paths flagged above (the
+      `sitCodes` platoon-split param is the remaining unverified one)
+- [x] Add market odds comparison (`scripts/find_value.py`)
+- [x] Extend to the over/under hits-total prop (`over_under_probability()`)
 - [ ] Team-specific expected-AB-by-slot instead of one league-wide table
-- [ ] Extend to the over/under hits-total prop using the same building
-      blocks (the per-AB rate this already estimates, applied to a
-      binomial/Poisson model over expected AB instead of just "any hit")
+- [ ] Proper de-vigged odds comparison (matched same-bookmaker Over/Under
+      pairs instead of the current conservative raw-implied-probability bar)
+- [ ] Verify name_matching.py against live odds data; upgrade to a real
+      fuzzy-matching library if normalization alone isn't catching enough
