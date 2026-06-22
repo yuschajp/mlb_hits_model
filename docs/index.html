@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MLB Hit & HR Model — Joseph Yuschak</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --bg:        #0D1117;
+    --surface:   #161B22;
+    --border:    #21262D;
+    --accent:    #00E5A0;
+    --accent-dim:#00966A;
+    --warn:      #F0A500;
+    --text:      #E6EDF3;
+    --muted:     #7D8590;
+    --mono: 'IBM Plex Mono', monospace;
+    --sans: 'IBM Plex Sans', sans-serif;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--sans);
+    font-size: 14px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── HEADER ── */
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+  }
+  .wordmark {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .header-sub {
+    font-size: 12px;
+    color: var(--muted);
+    font-family: var(--mono);
+  }
+  .header-links {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+  }
+  .header-links a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 12px;
+    font-family: var(--mono);
+    transition: color 0.15s;
+  }
+  .header-links a:hover { color: var(--accent); }
+
+  /* ── HERO ── */
+  .hero {
+    padding: 48px 32px 40px;
+    border-bottom: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    align-items: start;
+  }
+  .hero-left h1 {
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .hero-left p {
+    font-size: 14px;
+    color: var(--muted);
+    max-width: 480px;
+    line-height: 1.7;
+  }
+  .hero-left p strong { color: var(--text); font-weight: 500; }
+
+  .brier-hero {
+    display: flex;
+    gap: 32px;
+    align-items: flex-start;
+  }
+  .brier-block { flex: 1; }
+  .brier-label {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .brier-num {
+    font-family: var(--mono);
+    font-size: 52px;
+    font-weight: 600;
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .brier-baseline {
+    margin-top: 8px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--accent-dim);
+  }
+  .brier-baseline .naive { color: var(--muted); text-decoration: line-through; }
+
+  .stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 24px;
+  }
+  .stat-cell {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 16px;
+  }
+  .stat-cell-label {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .stat-cell-value {
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  /* ── TABS ── */
+  .tabs {
+    padding: 0 32px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    gap: 0;
+  }
+  .tab {
+    padding: 14px 20px;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: color 0.15s, border-color 0.15s;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .tab:hover:not(.active) { color: var(--text); }
+
+  /* ── PANELS ── */
+  .panels { padding: 32px; }
+  .panel { display: none; }
+  .panel.active { display: block; }
+
+  .panel-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card-header {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .card-title {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .card-badge {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    background: rgba(0, 229, 160, 0.1);
+    border: 1px solid var(--accent-dim);
+    border-radius: 4px;
+    padding: 2px 8px;
+  }
+
+  /* ── PREDICTION TABLE ── */
+  .pred-table { width: 100%; }
+  .pred-row {
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border);
+    gap: 12px;
+    transition: background 0.1s;
+  }
+  .pred-row:last-child { border-bottom: none; }
+  .pred-row:hover { background: rgba(255,255,255,0.02); }
+  .pred-rank {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    text-align: right;
+  }
+  .pred-name { font-weight: 500; font-size: 13px; }
+  .pred-meta {
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 2px;
+    font-family: var(--mono);
+  }
+  .pred-prob {
+    font-family: var(--mono);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--accent);
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  /* ── CALIBRATION TABLE ── */
+  .cal-table { width: 100%; border-collapse: collapse; }
+  .cal-table th {
+    font-family: var(--mono);
+    font-size: 9px;
+    color: var(--muted);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .cal-table td {
+    font-family: var(--mono);
+    font-size: 12px;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .cal-table tr:last-child td { border-bottom: none; }
+  .cal-table tr:hover td { background: rgba(255,255,255,0.02); }
+  .cal-good { color: var(--accent); }
+  .cal-warn { color: var(--warn); }
+
+  /* BAR track */
+  .bar-track {
+    height: 3px;
+    background: var(--border);
+    border-radius: 2px;
+    margin-top: 4px;
+    width: 80px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .bar-fill {
+    height: 100%;
+    border-radius: 2px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 20px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-note {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .footer-note a { color: var(--accent-dim); text-decoration: none; }
+  .footer-note a:hover { color: var(--accent); }
+
+  /* ── EMPTY STATE ── */
+  .empty {
+    padding: 40px 20px;
+    text-align: center;
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    .hero { grid-template-columns: 1fr; gap: 32px; }
+    .panel-grid { grid-template-columns: 1fr; }
+    .brier-num { font-size: 40px; }
+    header { flex-wrap: wrap; }
+    .header-links { margin-left: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <span class="wordmark">MLB Prop Model</span>
+  <span class="header-sub">Joseph Yuschak · Capital Markets × ML</span>
+  <nav class="header-links">
+    <a href="https://github.com/yuschajp/mlb_hits_model" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/joseph-yuschak" target="_blank">LinkedIn</a>
+    <a href="https://joseph-yuschak.notion.site" target="_blank">Portfolio</a>
+  </nav>
+</header>
+
+<section class="hero" id="hero">
+  <div class="hero-left">
+    <h1>What this is</h1>
+    <p>
+      A <strong>live daily prediction system</strong> for MLB batter props — hit probability and home run probability —
+      built on empirical-Bayes shrinkage, pitcher/park adjustments, and Poisson modeling for rare events.
+      Predictions are logged each morning, graded each night against real outcomes, and compared against
+      live sportsbook odds to surface edge. The numbers below are real — generated from actual games, not a backtest.
+    </p>
+  </div>
+  <div id="hero-stats">
+    <div class="brier-hero">
+      <div class="brier-block">
+        <div class="brier-label">Hits · Brier Score</div>
+        <div class="brier-num" id="hits-brier">—</div>
+        <div class="brier-baseline" id="hits-baseline"></div>
+      </div>
+      <div class="brier-block">
+        <div class="brier-label">HR · Brier Score</div>
+        <div class="brier-num" id="hr-brier">—</div>
+        <div class="brier-baseline" id="hr-baseline"></div>
+      </div>
+    </div>
+    <div class="stat-grid" id="stat-grid">
+      <div class="stat-cell">
+        <div class="stat-cell-label">Graded Predictions</div>
+        <div class="stat-cell-value" id="stat-graded">—</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-cell-label">Today's Predictions</div>
+        <div class="stat-cell-value" id="stat-today">—</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-cell-label">Avg Predicted P(hit)</div>
+        <div class="stat-cell-value" id="stat-avg-pred">—</div>
+      </div>
+      <div class="stat-cell">
+        <div class="stat-cell-label">Actual Hit Rate</div>
+        <div class="stat-cell-value" id="stat-actual">—</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<nav class="tabs">
+  <div class="tab active" onclick="switchTab('hits')">Hits Model</div>
+  <div class="tab" onclick="switchTab('hr')">Home Run Model</div>
+</nav>
+
+<main class="panels">
+
+  <!-- HITS PANEL -->
+  <div class="panel active" id="panel-hits">
+    <div class="panel-grid">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Today's Top 10 — Hit Probability</span>
+          <span class="card-badge" id="hits-date"></span>
+        </div>
+        <div class="pred-table" id="hits-top10"></div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Calibration — All Graded Predictions</span>
+        </div>
+        <div style="padding:0">
+          <table class="cal-table" id="hits-cal">
+            <thead>
+              <tr>
+                <th>Pred Range</th>
+                <th>N</th>
+                <th>Avg Predicted</th>
+                <th>Actual Rate</th>
+                <th>Delta</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HR PANEL -->
+  <div class="panel" id="panel-hr">
+    <div class="panel-grid">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Today's Top 10 — HR Probability</span>
+          <span class="card-badge" id="hr-date"></span>
+        </div>
+        <div class="pred-table" id="hr-top10"></div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Calibration — All Graded Predictions</span>
+        </div>
+        <div style="padding:0">
+          <table class="cal-table" id="hr-cal">
+            <thead>
+              <tr>
+                <th>Pred Range</th>
+                <th>N</th>
+                <th>Avg Predicted</th>
+                <th>Actual Rate</th>
+                <th>Delta</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <span class="footer-note">
+    Data via <a href="https://statsapi.mlb.com" target="_blank">MLB Stats API</a> ·
+    Odds via <a href="https://the-odds-api.com" target="_blank">The Odds API</a> ·
+    Updated daily · Not financial or gambling advice
+  </span>
+  <span class="footer-note" id="generated-at"></span>
+</footer>
+
+<script>
+  function switchTab(name) {
+    document.querySelectorAll('.tab').forEach((t, i) => {
+      t.classList.toggle('active', ['hits','hr'][i] === name);
+    });
+    document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('panel-' + name).classList.add('active');
+  }
+
+  function pct(v) { return v != null ? (v * 100).toFixed(1) + '%' : '—'; }
+
+  function renderTop10(containerId, rows, probKey) {
+    const el = document.getElementById(containerId);
+    if (!rows || rows.length === 0) {
+      el.innerHTML = '<div class="empty">No predictions logged today yet.</div>';
+      return;
+    }
+    el.innerHTML = rows.map((r, i) => `
+      <div class="pred-row">
+        <span class="pred-rank">${i + 1}</span>
+        <div>
+          <div class="pred-name">${r.player_name}</div>
+          <div class="pred-meta">${r.team} · vs ${r.opponent_pitcher} · ${r.venue}</div>
+        </div>
+        <div class="pred-prob">${pct(r[probKey])}</div>
+      </div>
+    `).join('');
+  }
+
+  function renderCal(tableId, rows) {
+    const tbody = document.querySelector('#' + tableId + ' tbody');
+    if (!rows || rows.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="5" style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">Not enough graded data yet.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = rows.map(r => {
+      const delta = (r.actual - r.predicted).toFixed(3);
+      const sign = delta >= 0 ? '+' : '';
+      const cls = Math.abs(delta) < 0.05 ? 'cal-good' : 'cal-warn';
+      const fillPct = Math.min(100, r.actual * 100);
+      return `
+        <tr>
+          <td>${r.range}</td>
+          <td>${r.n}</td>
+          <td>${pct(r.predicted)}</td>
+          <td>
+            ${pct(r.actual)}
+            <span class="bar-track"><span class="bar-fill ${cls}" style="width:${fillPct}%;background:currentColor;display:block"></span></span>
+          </td>
+          <td class="${cls}">${sign}${delta}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  async function loadData() {
+    try {
+      const res = await fetch('./dashboard_data.json?t=' + Date.now());
+      const d = await res.json();
+
+      // Hero
+      const hb = d.hits?.brier_score;
+      const hrb = d.hr?.brier_score;
+      const naive = d.hits?.naive_brier ?? 0.235;
+
+      document.getElementById('hits-brier').textContent = hb != null ? hb.toFixed(3) : '—';
+      document.getElementById('hr-brier').textContent = hrb != null ? hrb.toFixed(3) : '—';
+
+      if (hb != null) {
+        const improvement = ((naive - hb) / naive * 100).toFixed(1);
+        document.getElementById('hits-baseline').innerHTML =
+          `beats naive by <strong>${improvement}%</strong> &nbsp;<span class="naive">${naive}</span>`;
+      }
+      if (hrb != null) {
+        document.getElementById('hr-baseline').innerHTML =
+          `vs naive <span class="naive">${naive}</span>`;
+      }
+
+      document.getElementById('stat-graded').textContent =
+        (d.hits?.total_graded ?? 0) + (d.hr?.total_graded ?? 0);
+      document.getElementById('stat-today').textContent =
+        (d.hits?.today_count ?? 0) + (d.hr?.today_count ?? 0);
+      document.getElementById('stat-avg-pred').textContent = pct(d.hits?.avg_predicted);
+      document.getElementById('stat-actual').textContent = pct(d.hits?.actual_hit_rate);
+
+      // Hits tab
+      document.getElementById('hits-date').textContent = d.generated_at ?? '';
+      renderTop10('hits-top10', d.hits?.top10_today, 'p_hit');
+      renderCal('hits-cal', d.hits?.calibration);
+
+      // HR tab
+      document.getElementById('hr-date').textContent = d.generated_at ?? '';
+      renderTop10('hr-top10', d.hr?.top10_today, 'p_hr');
+      renderCal('hr-cal', d.hr?.calibration);
+
+      document.getElementById('generated-at').textContent = 'Last updated ' + d.generated_at;
+
+    } catch (e) {
+      console.error('Failed to load dashboard data:', e);
+      document.getElementById('hits-brier').textContent = 'No data';
+    }
+  }
+
+  loadData();
+</script>
+
+</body>
+</html>
