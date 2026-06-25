@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-25",
   "hits": {
-    "today_count": 0,
+    "today_count": 54,
     "total_graded": 803,
     "since_date": "2026-06-20",
     "brier_score": 0.2343,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6594,
     "actual_hit_rate": 0.6189,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Seth Lugo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.8004
+      },
+      {
+        "player_name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Seth Lugo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7495
+      },
+      {
+        "player_name": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Casey Legumina",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hit": 0.747
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Seth Lugo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7381
+      },
+      {
+        "player_name": "Jung Hoo Lee",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Oracle Park",
+        "lineup_spot": 6,
+        "p_hit": 0.7354
+      },
+      {
+        "player_name": "Carter Jensen",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Casey Legumina",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7301
+      },
+      {
+        "player_name": "Nick Loftin",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Casey Legumina",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7259
+      },
+      {
+        "player_name": "Wyatt Langford",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Kevin Gausman",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hit": 0.7155
+      },
+      {
+        "player_name": "Casey Schmitt",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Oracle Park",
+        "lineup_spot": 3,
+        "p_hit": 0.7142
+      },
+      {
+        "player_name": "Bryce Eldridge",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Oracle Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7116
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -70,14 +151,95 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 63,
     "total_graded": 623,
     "since_date": "2026-06-21",
     "brier_score": 0.1031,
     "naive_brier": 0.235,
     "avg_predicted": 0.1232,
     "actual_hr_rate": 0.1156,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Kevin Gausman",
+        "venue": "Rogers Centre",
+        "lineup_spot": 1,
+        "p_hr": 0.1789
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Cade Cavalli",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.176
+      },
+      {
+        "player_name": "Casey Schmitt",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Oracle Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1732
+      },
+      {
+        "player_name": "Bryce Eldridge",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Oracle Park",
+        "lineup_spot": 2,
+        "p_hr": 0.167
+      },
+      {
+        "player_name": "Willy Adames",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Oracle Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1653
+      },
+      {
+        "player_name": "Matt Chapman",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Oracle Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1615
+      },
+      {
+        "player_name": "Wyatt Langford",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Kevin Gausman",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hr": 0.1614
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Oracle Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1564
+      },
+      {
+        "player_name": "Corey Seager",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Kevin Gausman",
+        "venue": "Rogers Centre",
+        "lineup_spot": 3,
+        "p_hr": 0.1557
+      },
+      {
+        "player_name": "Kazuma Okamoto",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "MacKenzie Gore",
+        "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hr": 0.1514
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -125,8 +287,425 @@
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "picks": {
-    "singles": [],
-    "parlays": [],
-    "round_robins": []
+    "singles": [
+      {
+        "player_name": "Davis Schneider",
+        "team": "Toronto Blue Jays",
+        "model_p_hit": 0.5907,
+        "implied_prob": 0.4608,
+        "edge": 0.1299,
+        "best_price": 117,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      },
+      {
+        "player_name": "Nick Kurtz",
+        "team": "Athletics",
+        "model_p_hit": 0.6778,
+        "implied_prob": 0.5556,
+        "edge": 0.1222,
+        "best_price": -125,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      },
+      {
+        "player_name": "Nathan Lukes",
+        "team": "Toronto Blue Jays",
+        "model_p_hit": 0.6656,
+        "implied_prob": 0.5455,
+        "edge": 0.1201,
+        "best_price": -120,
+        "bookmaker": "betmgm",
+        "type": "hit"
+      },
+      {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "model_p_hit": 0.695,
+        "implied_prob": 0.5885,
+        "edge": 0.1065,
+        "best_price": -143,
+        "bookmaker": "betonlineag",
+        "type": "hit"
+      },
+      {
+        "player_name": "Kyle Higashioka",
+        "team": "Texas Rangers",
+        "model_p_hit": 0.6156,
+        "implied_prob": 0.5098,
+        "edge": 0.1058,
+        "best_price": -104,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      },
+      {
+        "player_name": "Nicky Lopez",
+        "team": "Texas Rangers",
+        "model_p_hit": 0.6527,
+        "implied_prob": 0.5575,
+        "edge": 0.0952,
+        "best_price": -126,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      },
+      {
+        "player_name": "Jonah Cox",
+        "team": "San Francisco Giants",
+        "model_p_hit": 0.6279,
+        "implied_prob": 0.5349,
+        "edge": 0.093,
+        "best_price": -115,
+        "bookmaker": "betrivers",
+        "type": "hit"
+      },
+      {
+        "player_name": "Victor Bericoto",
+        "team": "San Francisco Giants",
+        "model_p_hit": 0.6261,
+        "implied_prob": 0.5455,
+        "edge": 0.0806,
+        "best_price": -120,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      },
+      {
+        "player_name": "Henry Bolte",
+        "team": "Athletics",
+        "model_p_hit": 0.691,
+        "implied_prob": 0.6154,
+        "edge": 0.0756,
+        "best_price": -160,
+        "bookmaker": "betmgm",
+        "type": "hit"
+      },
+      {
+        "player_name": "Alejandro Osuna",
+        "team": "Texas Rangers",
+        "model_p_hit": 0.6391,
+        "implied_prob": 0.5652,
+        "edge": 0.0739,
+        "best_price": -130,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      },
+      {
+        "player_name": "Jake Burger",
+        "team": "Texas Rangers",
+        "model_p_hit": 0.6711,
+        "implied_prob": 0.6047,
+        "edge": 0.0664,
+        "best_price": -153,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      },
+      {
+        "player_name": "Bryce Eldridge",
+        "team": "San Francisco Giants",
+        "model_p_hit": 0.7116,
+        "implied_prob": 0.6528,
+        "edge": 0.0588,
+        "best_price": -188,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      },
+      {
+        "player_name": "Ezequiel Duran",
+        "team": "Texas Rangers",
+        "model_p_hit": 0.6644,
+        "implied_prob": 0.6078,
+        "edge": 0.0566,
+        "best_price": -155,
+        "bookmaker": "draftkings",
+        "type": "hit"
+      }
+    ],
+    "parlays": [
+      {
+        "legs": [
+          {
+            "player_name": "Nick Kurtz",
+            "team": "Athletics",
+            "type": "hit",
+            "best_price": -125,
+            "bookmaker": "draftkings"
+          },
+          {
+            "player_name": "Nathan Lukes",
+            "team": "Toronto Blue Jays",
+            "type": "hit",
+            "best_price": -120,
+            "bookmaker": "betmgm"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.4511,
+        "implied_prob": 0.303,
+        "edge": 0.1481,
+        "payout": 230
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Davis Schneider",
+            "team": "Toronto Blue Jays",
+            "type": "hit",
+            "best_price": 117,
+            "bookmaker": "draftkings"
+          },
+          {
+            "player_name": "Nick Kurtz",
+            "team": "Athletics",
+            "type": "hit",
+            "best_price": -125,
+            "bookmaker": "draftkings"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.4004,
+        "implied_prob": 0.256,
+        "edge": 0.1444,
+        "payout": 291
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Nick Kurtz",
+            "team": "Athletics",
+            "type": "hit",
+            "best_price": -125,
+            "bookmaker": "draftkings"
+          },
+          {
+            "player_name": "Joc Pederson",
+            "team": "Texas Rangers",
+            "type": "hit",
+            "best_price": -143,
+            "bookmaker": "betonlineag"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.4711,
+        "implied_prob": 0.3269,
+        "edge": 0.1441,
+        "payout": 206
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Davis Schneider",
+            "team": "Toronto Blue Jays",
+            "type": "hit",
+            "best_price": 117,
+            "bookmaker": "draftkings"
+          },
+          {
+            "player_name": "Nathan Lukes",
+            "team": "Toronto Blue Jays",
+            "type": "hit",
+            "best_price": -120,
+            "bookmaker": "betmgm"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.3932,
+        "implied_prob": 0.2514,
+        "edge": 0.1418,
+        "payout": 298
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Nathan Lukes",
+            "team": "Toronto Blue Jays",
+            "type": "hit",
+            "best_price": -120,
+            "bookmaker": "betmgm"
+          },
+          {
+            "player_name": "Joc Pederson",
+            "team": "Texas Rangers",
+            "type": "hit",
+            "best_price": -143,
+            "bookmaker": "betonlineag"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.4626,
+        "implied_prob": 0.321,
+        "edge": 0.1416,
+        "payout": 212
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Davis Schneider",
+            "team": "Toronto Blue Jays",
+            "type": "hit",
+            "best_price": 117,
+            "bookmaker": "draftkings"
+          },
+          {
+            "player_name": "Joc Pederson",
+            "team": "Texas Rangers",
+            "type": "hit",
+            "best_price": -143,
+            "bookmaker": "betonlineag"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.4105,
+        "implied_prob": 0.2712,
+        "edge": 0.1393,
+        "payout": 269
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Nick Kurtz",
+            "team": "Athletics",
+            "type": "hit",
+            "best_price": -125,
+            "bookmaker": "draftkings"
+          },
+          {
+            "player_name": "Nathan Lukes",
+            "team": "Toronto Blue Jays",
+            "type": "hit",
+            "best_price": -120,
+            "bookmaker": "betmgm"
+          },
+          {
+            "player_name": "Joc Pederson",
+            "team": "Texas Rangers",
+            "type": "hit",
+            "best_price": -143,
+            "bookmaker": "betonlineag"
+          }
+        ],
+        "n_legs": 3,
+        "model_prob": 0.3135,
+        "implied_prob": 0.1783,
+        "edge": 0.1352,
+        "payout": 461
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Nick Kurtz",
+            "team": "Athletics",
+            "type": "hit",
+            "best_price": -125,
+            "bookmaker": "draftkings"
+          },
+          {
+            "player_name": "Kyle Higashioka",
+            "team": "Texas Rangers",
+            "type": "hit",
+            "best_price": -104,
+            "bookmaker": "draftkings"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.4173,
+        "implied_prob": 0.2832,
+        "edge": 0.134,
+        "payout": 253
+      }
+    ],
+    "round_robins": [
+      {
+        "size": 3,
+        "picks": [
+          "Davis Schneider",
+          "Nick Kurtz",
+          "Nathan Lukes"
+        ],
+        "parlays": [
+          {
+            "players": [
+              "Davis Schneider",
+              "Nick Kurtz"
+            ],
+            "payout": 291,
+            "model_prob": 0.4004
+          },
+          {
+            "players": [
+              "Davis Schneider",
+              "Nathan Lukes"
+            ],
+            "payout": 298,
+            "model_prob": 0.3932
+          },
+          {
+            "players": [
+              "Nick Kurtz",
+              "Nathan Lukes"
+            ],
+            "payout": 230,
+            "model_prob": 0.4511
+          }
+        ]
+      },
+      {
+        "size": 4,
+        "picks": [
+          "Davis Schneider",
+          "Nick Kurtz",
+          "Nathan Lukes",
+          "Joc Pederson"
+        ],
+        "parlays": [
+          {
+            "players": [
+              "Davis Schneider",
+              "Nick Kurtz"
+            ],
+            "payout": 291,
+            "model_prob": 0.4004
+          },
+          {
+            "players": [
+              "Davis Schneider",
+              "Nathan Lukes"
+            ],
+            "payout": 298,
+            "model_prob": 0.3932
+          },
+          {
+            "players": [
+              "Davis Schneider",
+              "Joc Pederson"
+            ],
+            "payout": 269,
+            "model_prob": 0.4105
+          },
+          {
+            "players": [
+              "Nick Kurtz",
+              "Nathan Lukes"
+            ],
+            "payout": 230,
+            "model_prob": 0.4511
+          },
+          {
+            "players": [
+              "Nick Kurtz",
+              "Joc Pederson"
+            ],
+            "payout": 206,
+            "model_prob": 0.4711
+          },
+          {
+            "players": [
+              "Nathan Lukes",
+              "Joc Pederson"
+            ],
+            "payout": 212,
+            "model_prob": 0.4626
+          }
+        ]
+      }
+    ]
   }
 }
