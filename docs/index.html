@@ -330,6 +330,50 @@
     color: var(--muted);
   }
 
+  /* ── PICKS ── */
+  .parlay-block {
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--border);
+  }
+  .parlay-block:last-child { border-bottom: none; }
+  .parlay-legs {
+    font-family: var(--mono);
+    font-size: 12px;
+    color: var(--text);
+    margin-bottom: 6px;
+  }
+  .parlay-leg { display: block; padding: 2px 0; }
+  .parlay-leg .leg-type {
+    font-size: 9px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: var(--border);
+    border-radius: 3px;
+    padding: 1px 5px;
+    margin-right: 6px;
+  }
+  .parlay-meta {
+    display: flex;
+    gap: 16px;
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+  .parlay-payout { color: var(--accent); font-weight: 600; }
+  .edge-pill {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--accent);
+    background: rgba(0,229,160,0.08);
+    border: 1px solid var(--accent-dim);
+    border-radius: 3px;
+    padding: 1px 6px;
+  }
+  .type-hit { color: var(--accent); }
+  .type-hr  { color: var(--warn); }
+
   /* ── RESPONSIVE ── */
   @media (max-width: 768px) {
     .hero { grid-template-columns: 1fr; gap: 32px; }
@@ -402,6 +446,7 @@
 <nav class="tabs">
   <div class="tab active" onclick="switchTab('hits')">Hits Model</div>
   <div class="tab" onclick="switchTab('hr')">Home Run Model</div>
+  <div class="tab" onclick="switchTab('picks')">Picks</div>
 </nav>
 
 <main class="panels">
@@ -470,6 +515,54 @@
     </div>
   </div>
 
+  <!-- PICKS PANEL -->
+  <div class="panel" id="panel-picks">
+
+    <!-- Singles -->
+    <div style="margin-bottom:28px">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Single Bet Recommendations</span>
+          <span class="card-badge" id="singles-badge">0 picks</span>
+        </div>
+        <div style="padding:0">
+          <table class="cal-table" id="singles-table" style="width:100%">
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>Type</th>
+                <th>Model %</th>
+                <th>Market %</th>
+                <th>Edge</th>
+                <th>Best Price</th>
+                <th>Book</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- Parlays + Round Robins -->
+    <div class="panel-grid">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Top Parlays</span>
+          <span class="card-badge" id="parlay-badge"></span>
+        </div>
+        <div id="parlay-list" style="padding:0"></div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Round Robins</span>
+        </div>
+        <div id="rr-list" style="padding:0"></div>
+      </div>
+    </div>
+
+  </div>
+
 </main>
 
 <footer>
@@ -485,7 +578,7 @@
 <script>
   function switchTab(name) {
     document.querySelectorAll('.tab').forEach((t, i) => {
-      t.classList.toggle('active', ['hits','hr'][i] === name);
+      t.classList.toggle('active', ['hits','hr','picks'][i] === name);
     });
     document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
     document.getElementById('panel-' + name).classList.add('active');
@@ -583,10 +676,85 @@
       document.getElementById('fetched-at').textContent =
         'Fetched ' + now.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', second: '2-digit'});
 
+      // Picks tab
+      renderSingles(d.picks?.singles);
+      renderParlays(d.picks?.parlays);
+      renderRoundRobins(d.picks?.round_robins);
+
     } catch (e) {
       console.error('Failed to load dashboard data:', e);
       document.getElementById('hits-brier').textContent = 'No data';
     }
+  }
+
+  function fmtPrice(p) { return p > 0 ? '+' + p : '' + p; }
+
+  function renderSingles(picks) {
+    const tbody = document.querySelector('#singles-table tbody');
+    const badge = document.getElementById('singles-badge');
+    if (!picks || picks.length === 0) {
+      badge.textContent = '0 picks';
+      tbody.innerHTML = '<tr><td colspan="7" style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No value picks today — check back after lineups post.</td></tr>';
+      return;
+    }
+    badge.textContent = picks.length + ' pick' + (picks.length !== 1 ? 's' : '');
+    tbody.innerHTML = picks.map(p => {
+      const isHit = p.type === 'hit';
+      const modelP = isHit ? p.model_p_hit : p.model_p_hr;
+      return `
+        <tr>
+          <td style="font-weight:500">${p.player_name}</td>
+          <td><span class="${isHit ? 'type-hit' : 'type-hr'}" style="font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.06em">${isHit ? 'Hit' : 'HR'}</span></td>
+          <td>${pct(modelP)}</td>
+          <td>${pct(p.implied_prob)}</td>
+          <td><span class="edge-pill">+${(p.edge * 100).toFixed(1)}%</span></td>
+          <td style="color:var(--accent);font-family:var(--mono)">${fmtPrice(p.best_price)}</td>
+          <td style="color:var(--muted);font-family:var(--mono);font-size:11px">${p.bookmaker}</td>
+        </tr>`;
+    }).join('');
+  }
+
+  function renderParlays(parlays) {
+    const el = document.getElementById('parlay-list');
+    const badge = document.getElementById('parlay-badge');
+    if (!parlays || parlays.length === 0) {
+      badge.textContent = '';
+      el.innerHTML = '<div class="empty">No parlays — need 2+ value picks.</div>';
+      return;
+    }
+    badge.textContent = parlays.length + ' combos';
+    el.innerHTML = parlays.map(p => `
+      <div class="parlay-block">
+        <div class="parlay-legs">
+          ${p.legs.map(l => `<span class="parlay-leg"><span class="leg-type">${l.type}</span>${l.player_name} <span style="color:var(--muted)">${fmtPrice(l.best_price)} @ ${l.bookmaker}</span></span>`).join('')}
+        </div>
+        <div class="parlay-meta">
+          <span>${p.n_legs}-leg parlay</span>
+          <span>Model: ${pct(p.model_prob)}</span>
+          <span>Edge: <span class="edge-pill">+${(p.edge * 100).toFixed(1)}%</span></span>
+          <span class="parlay-payout">${fmtPrice(p.payout)}</span>
+        </div>
+      </div>`).join('');
+  }
+
+  function renderRoundRobins(rrs) {
+    const el = document.getElementById('rr-list');
+    if (!rrs || rrs.length === 0) {
+      el.innerHTML = '<div class="empty">No round robins — need 3+ value picks.</div>';
+      return;
+    }
+    el.innerHTML = rrs.map(rr => `
+      <div class="parlay-block">
+        <div style="font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">
+          ${rr.size}-pick pool · pick any 2
+        </div>
+        <div style="font-size:12px;margin-bottom:10px;color:var(--text)">${rr.picks.join(' · ')}</div>
+        ${rr.parlays.map(leg => `
+          <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;padding:4px 0;border-top:1px solid var(--border)">
+            <span style="color:var(--muted)">${leg.players.join(' + ')}</span>
+            <span style="color:var(--accent)">${fmtPrice(leg.payout)} <span style="color:var(--muted)">(${pct(leg.model_prob)})</span></span>
+          </div>`).join('')}
+      </div>`).join('');
   }
 
   async function refreshModels() {
