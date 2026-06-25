@@ -1,0 +1,52 @@
+name: Update Dashboard
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # every hour
+  workflow_dispatch:        # allow manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run hits model
+        run: python scripts/run_daily.py
+
+      - name: Run value picks (hits)
+        run: python scripts/find_value.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        continue-on-error: true   # skip gracefully if key not set or market closed
+
+      - name: Run HR model
+        run: python scripts/run_daily_hr.py
+
+      - name: Run value picks (HR)
+        run: python scripts/find_value_hr.py
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        continue-on-error: true
+
+      - name: Publish dashboard
+        run: python scripts/publish_dashboard.py
+
+      - name: Commit and push dashboard data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/dashboard_data.json data/value_picks_hits.json data/value_picks_hr.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "dashboard: auto-update $(date -u +%Y-%m-%d\ %H:%M\ UTC)"
+          git push
