@@ -580,6 +580,26 @@
       <span><span style="color:#F0A500">●</span> HR — <span id="hr-returns-label"></span></span>
       <span style="margin-left:auto">Flat 1-unit bets · simulated (not actual book odds)</span>
     </div>
+    <div style="padding:0 24px 24px;border-top:1px solid var(--border)">
+      <p style="font-size:13px;color:var(--muted);line-height:1.8;max-width:860px;margin-top:16px">
+        This chart tracks the <strong style="color:var(--text)">simulated cumulative profit and loss</strong> of flat betting
+        every prediction above the model's confidence threshold, assuming standard market prices.
+        Each point on the <span style="color:#00E5A0;font-weight:500">green line</span> represents the running total after
+        betting 1 unit on every batter where the hits model predicted a <strong style="color:var(--text)">60% or greater</strong>
+        probability of recording a hit, priced at <strong style="color:var(--text)">-110</strong> (the standard juice on most sportsbooks).
+        The <span style="color:#F0A500;font-weight:500">orange line</span> does the same for the home run model, using a
+        <strong style="color:var(--text)">15% or greater</strong> HR probability threshold and an assumed price of
+        <strong style="color:var(--text)">+350</strong> — a conservative estimate of what the market typically offers on
+        players with that level of HR probability.
+      </p>
+      <p style="font-size:13px;color:var(--muted);line-height:1.8;max-width:860px;margin-top:10px">
+        <strong style="color:var(--text)">What a unit means:</strong> if your standard bet is $100, then +10u = +$1,000 profit.
+        These numbers are <em>theoretical</em> — they assume you bet every qualifying prediction at the stated price and do not
+        account for line shopping, line movement, or bet limits. The Picks tab surfaces only the bets where the model has a
+        measurable edge over the actual market price, which is where real-world returns will differ from this simulation.
+        The longer this model runs, the more meaningful these curves become — five days is a sample, not a signal.
+      </p>
+    </div>
   </div>
 </section>
 
