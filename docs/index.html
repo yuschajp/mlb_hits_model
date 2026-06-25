@@ -301,6 +301,26 @@
   .footer-note a { color: var(--accent-dim); text-decoration: none; }
   .footer-note a:hover { color: var(--accent); }
 
+  .refresh-btn {
+    color: var(--muted);
+    font-size: 12px;
+    font-family: var(--mono);
+    cursor: pointer;
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 4px 10px;
+    transition: color 0.15s, border-color 0.15s;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .refresh-btn:hover { color: var(--accent); border-color: var(--accent-dim); }
+  .refresh-btn.spinning { color: var(--accent); border-color: var(--accent-dim); }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .refresh-btn.spinning .spin-icon { display: inline-block; animation: spin 1s linear infinite; }
+
   /* ── EMPTY STATE ── */
   .empty {
     padding: 40px 20px;
@@ -329,6 +349,9 @@
     <a href="https://github.com/yuschajp/mlb_hits_model" target="_blank">GitHub</a>
     <a href="https://linkedin.com/in/joseph-yuschak" target="_blank">LinkedIn</a>
     <a href="https://joseph-yuschak.notion.site" target="_blank">Portfolio</a>
+    <button class="refresh-btn" id="refresh-btn" onclick="refreshModels()">
+      <span class="spin-icon">↻</span> Run Models
+    </button>
   </nav>
 </header>
 
@@ -456,6 +479,7 @@
     Updated daily · Not financial or gambling advice
   </span>
   <span class="footer-note" id="generated-at"></span>
+  <span class="footer-note" id="fetched-at" style="color:var(--muted)"></span>
 </footer>
 
 <script>
@@ -555,13 +579,52 @@
 
       document.getElementById('generated-at').textContent = 'Last updated ' + d.generated_at;
 
+      const now = new Date();
+      document.getElementById('fetched-at').textContent =
+        'Fetched ' + now.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', second: '2-digit'});
+
     } catch (e) {
       console.error('Failed to load dashboard data:', e);
       document.getElementById('hits-brier').textContent = 'No data';
     }
   }
 
+  async function refreshModels() {
+    const btn = document.getElementById('refresh-btn');
+    btn.classList.add('spinning');
+    btn.disabled = true;
+    try {
+      await fetch('/refresh', {method: 'POST'});
+      // Poll for completion then reload data
+      let attempts = 0;
+      const poll = setInterval(async () => {
+        attempts++;
+        try {
+          const s = await fetch('/status');
+          const st = await s.json();
+          if (st.status === 'done' || attempts > 60) {
+            clearInterval(poll);
+            btn.classList.remove('spinning');
+            btn.disabled = false;
+            await loadData();
+          }
+        } catch (_) {
+          clearInterval(poll);
+          btn.classList.remove('spinning');
+          btn.disabled = false;
+        }
+      }, 2000);
+    } catch (e) {
+      // Not running locally — just refresh the data
+      btn.classList.remove('spinning');
+      btn.disabled = false;
+      await loadData();
+    }
+  }
+
   loadData();
+  // Auto-refresh data every 5 minutes
+  setInterval(loadData, 5 * 60 * 1000);
 </script>
 
 </body>

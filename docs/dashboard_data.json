@@ -1,57 +1,57 @@
 {
-  "generated_at": "2026-06-22",
+  "generated_at": "2026-06-25",
   "hits": {
     "today_count": 0,
-    "total_graded": 414,
+    "total_graded": 803,
     "since_date": "2026-06-20",
-    "brier_score": 0.2226,
-    "recent_brier_score": 0.2226,
+    "brier_score": 0.2343,
+    "recent_brier_score": 0.2343,
     "naive_brier": 0.235,
-    "avg_predicted": 0.661,
-    "actual_hit_rate": 0.6256,
+    "avg_predicted": 0.6594,
+    "actual_hit_rate": 0.6189,
     "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 58,
-        "predicted": 0.571,
-        "actual": 0.379
+        "n": 122,
+        "predicted": 0.573,
+        "actual": 0.541
       },
       {
         "range": "0.6-0.8",
-        "n": 344,
-        "predicted": 0.671,
-        "actual": 0.657
+        "n": 661,
+        "predicted": 0.67,
+        "actual": 0.629
       },
       {
         "range": "0.8-1.0",
-        "n": 12,
-        "predicted": 0.825,
-        "actual": 0.917
+        "n": 20,
+        "predicted": 0.824,
+        "actual": 0.75
       }
     ]
   },
   "hr": {
     "today_count": 0,
-    "total_graded": 234,
+    "total_graded": 623,
     "since_date": "2026-06-21",
-    "brier_score": 0.1102,
+    "brier_score": 0.1031,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1224,
-    "actual_hr_rate": 0.1282,
+    "avg_predicted": 0.1232,
+    "actual_hr_rate": 0.1156,
     "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 227,
+        "n": 601,
         "predicted": 0.119,
-        "actual": 0.115
+        "actual": 0.113
       },
       {
         "range": "0.2-0.4",
-        "n": 7,
-        "predicted": 0.219,
-        "actual": 0.571
+        "n": 22,
+        "predicted": 0.224,
+        "actual": 0.182
       }
     ]
   }
