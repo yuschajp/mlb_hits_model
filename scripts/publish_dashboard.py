@@ -124,6 +124,29 @@ def _build_picks_payload(today):
     }
 
 
+def compute_returns(df, prob_col, outcome_col, threshold, american_odds):
+    """Daily + cumulative P&L assuming 1-unit flat bets on picks above threshold."""
+    graded = df[(df["graded"] == True) & (df[prob_col] >= threshold)].copy().sort_values("date")
+    if graded.empty:
+        return []
+    win_payout = american_odds / 100 if american_odds > 0 else 100 / (-american_odds)
+    result = []
+    cumulative = 0.0
+    for day, group in graded.groupby(graded["date"].dt.date):
+        wins = float(group[outcome_col].sum())
+        losses = len(group) - wins
+        daily_pnl = wins * win_payout - losses
+        cumulative += daily_pnl
+        result.append({
+            "date": str(day),
+            "n_bets": len(group),
+            "n_wins": int(wins),
+            "daily_pnl": round(daily_pnl, 3),
+            "cumulative_pnl": round(cumulative, 3),
+        })
+    return result
+
+
 def summarize_hits(ledger_path):
     df = load_ledger(ledger_path)
     if df.empty:
@@ -177,6 +200,8 @@ def summarize_hits(ledger_path):
             }
             for r in cal_rows
         ],
+        "returns": compute_returns(df, "p_hit", "actual_hit", threshold=0.60, american_odds=-110),
+        "returns_label": "p_hit ≥ 60% · flat -110",
     }
 
 
@@ -228,6 +253,8 @@ def summarize_hr(ledger_path):
             }
             for r in cal_rows
         ],
+        "returns": compute_returns(df, "p_hr", "actual_hr", threshold=0.15, american_odds=350),
+        "returns_label": "p_hr ≥ 15% · flat +350",
     }
 
 

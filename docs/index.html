@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MLB Hit & HR Model — Joseph Yuschak</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
 
@@ -565,6 +566,23 @@
 
 </main>
 
+<section style="padding:0 32px 40px">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-title">Cumulative Return — Units P&amp;L</span>
+      <span class="card-badge" id="returns-badge"></span>
+    </div>
+    <div style="padding:20px 24px 16px;position:relative;height:280px">
+      <canvas id="returns-chart"></canvas>
+    </div>
+    <div style="padding:0 24px 14px;display:flex;gap:24px;font-family:var(--mono);font-size:10px;color:var(--muted)">
+      <span><span style="color:#00E5A0">●</span> Hits — <span id="hits-returns-label"></span></span>
+      <span><span style="color:#F0A500">●</span> HR — <span id="hr-returns-label"></span></span>
+      <span style="margin-left:auto">Flat 1-unit bets · simulated (not actual book odds)</span>
+    </div>
+  </div>
+</section>
+
 <footer>
   <span class="footer-note">
     Data via <a href="https://statsapi.mlb.com" target="_blank">MLB Stats API</a> ·
@@ -676,6 +694,9 @@
       document.getElementById('fetched-at').textContent =
         'Fetched ' + now.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', second: '2-digit'});
 
+      // Returns chart
+      renderReturnsChart(d.hits?.returns, d.hr?.returns, d.hits?.returns_label, d.hr?.returns_label);
+
       // Picks tab
       renderSingles(d.picks?.singles);
       renderParlays(d.picks?.parlays);
@@ -685,6 +706,104 @@
       console.error('Failed to load dashboard data:', e);
       document.getElementById('hits-brier').textContent = 'No data';
     }
+  }
+
+  let returnsChart = null;
+
+  function renderReturnsChart(hitsReturns, hrReturns, hitsLabel, hrLabel) {
+    document.getElementById('hits-returns-label').textContent = hitsLabel ?? '';
+    document.getElementById('hr-returns-label').textContent = hrLabel ?? '';
+
+    // Merge all dates
+    const allDates = [...new Set([
+      ...(hitsReturns ?? []).map(r => r.date),
+      ...(hrReturns ?? []).map(r => r.date),
+    ])].sort();
+
+    if (allDates.length === 0) return;
+
+    const hitsMap = Object.fromEntries((hitsReturns ?? []).map(r => [r.date, r.cumulative_pnl]));
+    const hrMap   = Object.fromEntries((hrReturns ?? []).map(r => [r.date, r.cumulative_pnl]));
+
+    const hitsData = allDates.map(d => hitsMap[d] ?? null);
+    const hrData   = allDates.map(d => hrMap[d]   ?? null);
+
+    const lastHits = hitsReturns?.at(-1)?.cumulative_pnl;
+    const lastHr   = hrReturns?.at(-1)?.cumulative_pnl;
+    const parts = [];
+    if (lastHits != null) parts.push(`Hits: ${lastHits >= 0 ? '+' : ''}${lastHits.toFixed(1)}u`);
+    if (lastHr   != null) parts.push(`HR: ${lastHr >= 0 ? '+' : ''}${lastHr.toFixed(1)}u`);
+    document.getElementById('returns-badge').textContent = parts.join(' · ');
+
+    const ctx = document.getElementById('returns-chart').getContext('2d');
+    if (returnsChart) returnsChart.destroy();
+
+    returnsChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: allDates,
+        datasets: [
+          {
+            label: 'Hits',
+            data: hitsData,
+            borderColor: '#00E5A0',
+            backgroundColor: 'rgba(0,229,160,0.08)',
+            borderWidth: 2,
+            pointRadius: 4,
+            pointHoverRadius: 6,
+            tension: 0.3,
+            fill: true,
+            spanGaps: true,
+          },
+          {
+            label: 'HR',
+            data: hrData,
+            borderColor: '#F0A500',
+            backgroundColor: 'rgba(240,165,0,0.06)',
+            borderWidth: 2,
+            pointRadius: 4,
+            pointHoverRadius: 6,
+            tension: 0.3,
+            fill: true,
+            spanGaps: true,
+          },
+        ],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        interaction: { mode: 'index', intersect: false },
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#161B22',
+            borderColor: '#21262D',
+            borderWidth: 1,
+            titleColor: '#7D8590',
+            bodyColor: '#E6EDF3',
+            titleFont: { family: 'IBM Plex Mono', size: 11 },
+            bodyFont: { family: 'IBM Plex Mono', size: 12 },
+            callbacks: {
+              label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y >= 0 ? '+' : ''}${ctx.parsed.y.toFixed(2)}u`,
+            },
+          },
+        },
+        scales: {
+          x: {
+            grid: { color: '#21262D' },
+            ticks: { color: '#7D8590', font: { family: 'IBM Plex Mono', size: 10 } },
+          },
+          y: {
+            grid: { color: '#21262D' },
+            ticks: {
+              color: '#7D8590',
+              font: { family: 'IBM Plex Mono', size: 10 },
+              callback: v => (v >= 0 ? '+' : '') + v.toFixed(0) + 'u',
+            },
+          },
+        },
+      },
+    });
   }
 
   function fmtPrice(p) { return p > 0 ? '+' + p : '' + p; }
