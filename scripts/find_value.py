@@ -21,7 +21,6 @@ Run with: python3 scripts/find_value.py
 """
 
 import sys
-import json
 from datetime import date
 from pathlib import Path
 
@@ -32,7 +31,6 @@ from src.ledger import load_ledger
 from src.name_matching import build_name_index, match_name
 
 LEDGER_PATH = Path(__file__).resolve().parents[1] / "data" / "ledger" / "predictions_log.csv"
-VALUE_PICKS_PATH = Path(__file__).resolve().parents[1] / "data" / "value_picks_hits.json"
 EDGE_THRESHOLD = 0.05
 
 
@@ -102,9 +100,6 @@ def main():
         print(f"  {r['player_name']:<22} {r['team']:<20} model={r['model_p_hit']:.1%}  "
               f"market={r['implied_prob']:.1%}  edge=+{r['edge']:.1%}  "
               f"({r['best_price']:+d} @ {r['bookmaker']})")
-
-    VALUE_PICKS_PATH.write_text(json.dumps({"date": today.isoformat(), "picks": value_rows}, indent=2))
-    print(f"\nValue picks written to {VALUE_PICKS_PATH.name}")
 
 
 if __name__ == "__main__":

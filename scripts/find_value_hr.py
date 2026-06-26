@@ -11,7 +11,6 @@ see that file's docstring for the reasoning.
 Run with: python3 scripts/find_value_hr.py
 """
 
-import json
 import sys
 from datetime import date
 from pathlib import Path
@@ -23,7 +22,6 @@ from src.ledger import hr_columns, load_ledger
 from src.name_matching import build_name_index, match_name
 
 HR_LEDGER_PATH = Path(__file__).resolve().parents[1] / "data" / "ledger" / "hr_predictions_log.csv"
-VALUE_PICKS_PATH = Path(__file__).resolve().parents[1] / "data" / "value_picks_hr.json"
 EDGE_THRESHOLD = 0.03  # smaller than the hits threshold (0.05) since HR probabilities are themselves smaller
 
 
@@ -88,9 +86,6 @@ def main():
         print(f"  {r['player_name']:<22} {r['team']:<20} model={r['model_p_hr']:.1%}  "
               f"market={r['implied_prob']:.1%}  edge=+{r['edge']:.1%}  "
               f"({r['best_price']:+d} @ {r['bookmaker']})")
-
-    VALUE_PICKS_PATH.write_text(json.dumps({"date": today.isoformat(), "picks": value_rows}, indent=2))
-    print(f"\nValue picks written to {VALUE_PICKS_PATH.name}")
 
 
 if __name__ == "__main__":

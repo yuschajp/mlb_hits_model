@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-25",
+  "picks": [
+    {
+      "player_name": "Casey Schmitt",
+      "team": "San Francisco Giants",
+      "model_p_hr": 0.1732,
+      "implied_prob": 0.0952,
+      "edge": 0.078,
+      "best_price": 950,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Jung Hoo Lee",
+      "team": "San Francisco Giants",
+      "model_p_hr": 0.1188,
+      "implied_prob": 0.0435,
+      "edge": 0.0753,
+      "best_price": 2200,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Bryce Eldridge",
+      "team": "San Francisco Giants",
+      "model_p_hr": 0.167,
+      "implied_prob": 0.1053,
+      "edge": 0.0617,
+      "best_price": 850,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Matt Chapman",
+      "team": "San Francisco Giants",
+      "model_p_hr": 0.1615,
+      "implied_prob": 0.1111,
+      "edge": 0.0504,
+      "best_price": 800,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Jonah Cox",
+      "team": "San Francisco Giants",
+      "model_p_hr": 0.1284,
+      "implied_prob": 0.08,
+      "edge": 0.0484,
+      "best_price": 1150,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Rafael Devers",
+      "team": "San Francisco Giants",
+      "model_p_hr": 0.1564,
+      "implied_prob": 0.1111,
+      "edge": 0.0453,
+      "best_price": 800,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Victor Bericoto",
+      "team": "San Francisco Giants",
+      "model_p_hr": 0.1482,
+      "implied_prob": 0.1053,
+      "edge": 0.0429,
+      "best_price": 850,
+      "bookmaker": "betrivers"
+    }
+  ]
+}

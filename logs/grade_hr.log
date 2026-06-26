@@ -1,0 +1,22 @@
+Grading 20 HR predictions across 2 completed game(s)...
+HR ledger updated.
+
+Rolling stats over 502 graded HR predictions (since 2026-06-21):
+  Brier score: 0.102 (0 = perfect, 0.25 = always guessing 50%)
+  Average predicted P(HR): 12.2%   Actual HR rate: 11.4%
+
+Calibration by predicted-probability bucket:
+PredRange   N  AvgPredicted  ActualFrequency
+  0.0-0.2 486          0.12             0.11
+  0.2-0.4  16          0.23             0.25
+Grading 7 HR predictions across 2 completed game(s)...
+HR ledger updated.
+
+Rolling stats over 623 graded HR predictions (since 2026-06-21):
+  Brier score: 0.103 (0 = perfect, 0.25 = always guessing 50%)
+  Average predicted P(HR): 12.3%   Actual HR rate: 11.6%
+
+Calibration by predicted-probability bucket:
+PredRange   N  AvgPredicted  ActualFrequency
+  0.0-0.2 601          0.12             0.11
+  0.2-0.4  22          0.22             0.18

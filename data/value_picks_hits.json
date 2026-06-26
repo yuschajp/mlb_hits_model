@@ -1,0 +1,167 @@
+{
+  "date": "2026-06-25",
+  "picks": [
+    {
+      "player_name": "Bryce Eldridge",
+      "team": "San Francisco Giants",
+      "model_p_hit": 0.7116,
+      "implied_prob": 0.4167,
+      "edge": 0.2949,
+      "best_price": 140,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Jung Hoo Lee",
+      "team": "San Francisco Giants",
+      "model_p_hit": 0.7354,
+      "implied_prob": 0.4444,
+      "edge": 0.291,
+      "best_price": 125,
+      "bookmaker": "betmgm"
+    },
+    {
+      "player_name": "Victor Bericoto",
+      "team": "San Francisco Giants",
+      "model_p_hit": 0.6261,
+      "implied_prob": 0.3704,
+      "edge": 0.2557,
+      "best_price": 170,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Rafael Devers",
+      "team": "San Francisco Giants",
+      "model_p_hit": 0.6374,
+      "implied_prob": 0.3922,
+      "edge": 0.2452,
+      "best_price": 155,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Casey Schmitt",
+      "team": "San Francisco Giants",
+      "model_p_hit": 0.7142,
+      "implied_prob": 0.4762,
+      "edge": 0.238,
+      "best_price": 110,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Jonah Cox",
+      "team": "San Francisco Giants",
+      "model_p_hit": 0.6279,
+      "implied_prob": 0.4082,
+      "edge": 0.2197,
+      "best_price": 145,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Nick Kurtz",
+      "team": "Athletics",
+      "model_p_hit": 0.6778,
+      "implied_prob": 0.4762,
+      "edge": 0.2016,
+      "best_price": 110,
+      "bookmaker": "betmgm"
+    },
+    {
+      "player_name": "Jonah Heim",
+      "team": "Athletics",
+      "model_p_hit": 0.6222,
+      "implied_prob": 0.4545,
+      "edge": 0.1677,
+      "best_price": 120,
+      "bookmaker": "betmgm"
+    },
+    {
+      "player_name": "Lawrence Butler",
+      "team": "Athletics",
+      "model_p_hit": 0.5751,
+      "implied_prob": 0.4167,
+      "edge": 0.1584,
+      "best_price": 140,
+      "bookmaker": "betmgm"
+    },
+    {
+      "player_name": "Shea Langeliers",
+      "team": "Athletics",
+      "model_p_hit": 0.6269,
+      "implied_prob": 0.5,
+      "edge": 0.1269,
+      "best_price": 100,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Nathan Lukes",
+      "team": "Toronto Blue Jays",
+      "model_p_hit": 0.6656,
+      "implied_prob": 0.5455,
+      "edge": 0.1201,
+      "best_price": -120,
+      "bookmaker": "betmgm"
+    },
+    {
+      "player_name": "Davis Schneider",
+      "team": "Toronto Blue Jays",
+      "model_p_hit": 0.5907,
+      "implied_prob": 0.4717,
+      "edge": 0.119,
+      "best_price": 112,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Joc Pederson",
+      "team": "Texas Rangers",
+      "model_p_hit": 0.695,
+      "implied_prob": 0.5885,
+      "edge": 0.1065,
+      "best_price": -143,
+      "bookmaker": "betonlineag"
+    },
+    {
+      "player_name": "Nicky Lopez",
+      "team": "Texas Rangers",
+      "model_p_hit": 0.6527,
+      "implied_prob": 0.5495,
+      "edge": 0.1032,
+      "best_price": -122,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Daniel Susac",
+      "team": "San Francisco Giants",
+      "model_p_hit": 0.6222,
+      "implied_prob": 0.5238,
+      "edge": 0.0984,
+      "best_price": -110,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Kyle Higashioka",
+      "team": "Texas Rangers",
+      "model_p_hit": 0.6156,
+      "implied_prob": 0.5192,
+      "edge": 0.0964,
+      "best_price": -108,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Ezequiel Duran",
+      "team": "Texas Rangers",
+      "model_p_hit": 0.6644,
+      "implied_prob": 0.6016,
+      "edge": 0.0628,
+      "best_price": -151,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Alejandro Osuna",
+      "team": "Texas Rangers",
+      "model_p_hit": 0.6391,
+      "implied_prob": 0.5781,
+      "edge": 0.061,
+      "best_price": -137,
+      "bookmaker": "betrivers"
+    }
+  ]
+}

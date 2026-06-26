@@ -25,6 +25,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from src import mlb_api_client as client
+from src.calibration import apply_calibration, load_calibration_params
 from src.hit_model import hit_probability
 from src.ledger import append_predictions
 from src.park_factors import get_park_factor, load_park_factors
@@ -32,7 +33,7 @@ from src.park_factors import get_park_factor, load_park_factors
 LEDGER_PATH = Path(__file__).resolve().parents[1] / "data" / "ledger" / "predictions_log.csv"
 
 
-def build_predictions_for_game(game, park_factors):
+def build_predictions_for_game(game, park_factors, cal_slope=1.0, cal_intercept=0.0):
     game_pk = game["game_pk"]
     lineups = client.get_confirmed_lineup(game_pk)
     pitchers = client.get_probable_pitchers(game_pk)
@@ -61,12 +62,15 @@ def build_predictions_for_game(game, park_factors):
             vs_hand = client.get_splits_vs_hand(batter["player_id"], opp_pitcher["hand"])
             pitcher_line = client.get_pitcher_stats_against(opp_pitcher["player_id"])
 
-            p_hit, adjusted_ba, expected_ab = hit_probability(
+            p_hit_raw, adjusted_ba, expected_ab = hit_probability(
                 season=season, recent=recent, vs_hand=vs_hand,
                 lineup_spot=batter["lineup_spot"],
                 pitcher_hits_allowed=pitcher_line[0], pitcher_ab_faced=pitcher_line[1],
                 park_factor=park_factor,
             )
+
+            # Apply Platt scaling calibration if params file exists (identity if not)
+            p_hit = apply_calibration(p_hit_raw, slope=cal_slope, intercept=cal_intercept)
 
             rows.append({
                 "date": date.today().isoformat(),
@@ -120,6 +124,10 @@ def main():
         return
 
     park_factors = load_park_factors()
+    cal_slope, cal_intercept = load_calibration_params()
+    if cal_slope != 1.0 or cal_intercept != 0.0:
+        print(f"Applying Platt scaling calibration (slope={cal_slope:.4f}, intercept={cal_intercept:.4f})\n")
+
     games = client.get_schedule()
     print(f"Found {len(games)} games today ({date.today().isoformat()}).\n")
 
@@ -131,7 +139,7 @@ def main():
     all_rows = []
     for game in games:
         print(f"{game['away_team']} @ {game['home_team']} ({game['venue']}) [{game['status']}]")
-        all_rows.extend(build_predictions_for_game(game, park_factors))
+        all_rows.extend(build_predictions_for_game(game, park_factors, cal_slope, cal_intercept))
 
     if not all_rows:
         print("\nNo confirmed lineups available yet -- try again closer to first pitch.")

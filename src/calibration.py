@@ -1,19 +1,22 @@
 """
 calibration.py
 
-Calibration diagnostics for binary prop predictions (hits, home runs).
-Same philosophy as the soccer-trading-engine repo: always check whether
-predicted probabilities actually match realized frequencies, not just
-whether picks "won" -- a model can look profitable on a lucky stretch
-while being badly overconfident, and this is the check that would catch it.
+Calibration diagnostics for binary prop predictions (hits, home runs),
+plus Platt scaling correction for systematic over/underconfidence.
 
 prob_col/outcome_col default to the hits schema ("p_hit"/"actual_hit") so
 existing callers work unchanged; pass prob_col="p_hr", outcome_col=
 "actual_hr" for the home run ledger.
 """
 
+import json
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
+
+ROOT = Path(__file__).resolve().parents[1]
+HIT_CALIBRATION_PATH = ROOT / "data" / "hit_calibration.json"
 
 
 def brier_score(graded_df, prob_col="p_hit", outcome_col="actual_hit"):
@@ -45,3 +48,35 @@ def calibration_table(graded_df, n_bins=5, prob_col="p_hit", outcome_col="actual
             "ActualFrequency": df[outcome_col].to_numpy()[mask].mean(),
         })
     return pd.DataFrame(rows)
+
+
+# ── Platt scaling ─────────────────────────────────────────────────────────────
+
+def _logit(p):
+    p = np.clip(np.asarray(p, dtype=float), 1e-6, 1 - 1e-6)
+    return np.log(p / (1 - p))
+
+
+def _sigmoid(x):
+    return 1 / (1 + np.exp(-np.asarray(x, dtype=float)))
+
+
+def load_calibration_params(path=None):
+    """
+    Load saved Platt scaling parameters from disk.
+    Returns (slope, intercept) or (1.0, 0.0) if no params file exists
+    (identity transform -- no correction applied).
+    """
+    path = Path(path) if path else HIT_CALIBRATION_PATH
+    if not path.exists():
+        return 1.0, 0.0
+    params = json.loads(path.read_text())
+    return float(params["slope"]), float(params["intercept"])
+
+
+def apply_calibration(raw_prob, slope=1.0, intercept=0.0):
+    """
+    Apply Platt scaling to a single raw probability or an array of them.
+    With slope=1.0, intercept=0.0 this is the identity (no correction).
+    """
+    return float(_sigmoid(slope * _logit(raw_prob) + intercept))

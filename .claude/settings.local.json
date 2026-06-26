@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(loop)",
+      "Bash(python scripts/serve_dashboard.py)",
+      "Bash(curl -s http://localhost:8765/status)",
+      "Bash(python3 -m json.tool)",
+      "Bash(echo \"Server PID: $!\")",
+      "Bash(open *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(python *)",
+      "Bash(gh api *)",
+      "Bash(curl *)",
+      "Bash(git ls-remote *)",
+      "Bash(python3 *)"
+    ]
+  }
+}
