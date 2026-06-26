@@ -29,7 +29,52 @@
         "predicted": 0.823,
         "actual": 0.762
       }
-    ]
+    ],
+    "returns": [
+      {
+        "date": "2026-06-20",
+        "n_bets": 154,
+        "n_wins": 103,
+        "daily_pnl": 42.636,
+        "cumulative_pnl": 42.636
+      },
+      {
+        "date": "2026-06-21",
+        "n_bets": 202,
+        "n_wins": 134,
+        "daily_pnl": 53.818,
+        "cumulative_pnl": 96.455
+      },
+      {
+        "date": "2026-06-22",
+        "n_bets": 132,
+        "n_wins": 72,
+        "daily_pnl": 5.455,
+        "cumulative_pnl": 101.909
+      },
+      {
+        "date": "2026-06-23",
+        "n_bets": 104,
+        "n_wins": 67,
+        "daily_pnl": 23.909,
+        "cumulative_pnl": 125.818
+      },
+      {
+        "date": "2026-06-24",
+        "n_bets": 89,
+        "n_wins": 55,
+        "daily_pnl": 16.0,
+        "cumulative_pnl": 141.818
+      },
+      {
+        "date": "2026-06-25",
+        "n_bets": 49,
+        "n_wins": 28,
+        "daily_pnl": 4.455,
+        "cumulative_pnl": 146.273
+      }
+    ],
+    "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
     "today_count": 0,
@@ -53,6 +98,49 @@
         "predicted": 0.224,
         "actual": 0.182
       }
-    ]
+    ],
+    "returns": [
+      {
+        "date": "2026-06-21",
+        "n_bets": 52,
+        "n_wins": 8,
+        "daily_pnl": -16.0,
+        "cumulative_pnl": -16.0
+      },
+      {
+        "date": "2026-06-22",
+        "n_bets": 40,
+        "n_wins": 1,
+        "daily_pnl": -35.5,
+        "cumulative_pnl": -51.5
+      },
+      {
+        "date": "2026-06-23",
+        "n_bets": 19,
+        "n_wins": 0,
+        "daily_pnl": -19.0,
+        "cumulative_pnl": -70.5
+      },
+      {
+        "date": "2026-06-24",
+        "n_bets": 20,
+        "n_wins": 2,
+        "daily_pnl": -11.0,
+        "cumulative_pnl": -81.5
+      },
+      {
+        "date": "2026-06-25",
+        "n_bets": 10,
+        "n_wins": 4,
+        "daily_pnl": 8.0,
+        "cumulative_pnl": -73.5
+      }
+    ],
+    "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
+  },
+  "picks": {
+    "singles": [],
+    "parlays": [],
+    "round_robins": []
   }
 }
