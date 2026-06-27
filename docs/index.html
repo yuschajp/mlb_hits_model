@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MLB Hit & HR Model — Joseph Yuschak</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500&display=swap');
 
@@ -302,26 +301,6 @@
   .footer-note a { color: var(--accent-dim); text-decoration: none; }
   .footer-note a:hover { color: var(--accent); }
 
-  .refresh-btn {
-    color: var(--muted);
-    font-size: 12px;
-    font-family: var(--mono);
-    cursor: pointer;
-    background: none;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    padding: 4px 10px;
-    transition: color 0.15s, border-color 0.15s;
-    text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-  }
-  .refresh-btn:hover { color: var(--accent); border-color: var(--accent-dim); }
-  .refresh-btn.spinning { color: var(--accent); border-color: var(--accent-dim); }
-  @keyframes spin { to { transform: rotate(360deg); } }
-  .refresh-btn.spinning .spin-icon { display: inline-block; animation: spin 1s linear infinite; }
-
   /* ── EMPTY STATE ── */
   .empty {
     padding: 40px 20px;
@@ -330,50 +309,6 @@
     font-size: 12px;
     color: var(--muted);
   }
-
-  /* ── PICKS ── */
-  .parlay-block {
-    padding: 14px 20px;
-    border-bottom: 1px solid var(--border);
-  }
-  .parlay-block:last-child { border-bottom: none; }
-  .parlay-legs {
-    font-family: var(--mono);
-    font-size: 12px;
-    color: var(--text);
-    margin-bottom: 6px;
-  }
-  .parlay-leg { display: block; padding: 2px 0; }
-  .parlay-leg .leg-type {
-    font-size: 9px;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--muted);
-    background: var(--border);
-    border-radius: 3px;
-    padding: 1px 5px;
-    margin-right: 6px;
-  }
-  .parlay-meta {
-    display: flex;
-    gap: 16px;
-    font-family: var(--mono);
-    font-size: 11px;
-    color: var(--muted);
-    margin-top: 6px;
-  }
-  .parlay-payout { color: var(--accent); font-weight: 600; }
-  .edge-pill {
-    font-family: var(--mono);
-    font-size: 10px;
-    color: var(--accent);
-    background: rgba(0,229,160,0.08);
-    border: 1px solid var(--accent-dim);
-    border-radius: 3px;
-    padding: 1px 6px;
-  }
-  .type-hit { color: var(--accent); }
-  .type-hr  { color: var(--warn); }
 
   /* ── RESPONSIVE ── */
   @media (max-width: 768px) {
@@ -394,9 +329,6 @@
     <a href="https://github.com/yuschajp/mlb_hits_model" target="_blank">GitHub</a>
     <a href="https://linkedin.com/in/joseph-yuschak" target="_blank">LinkedIn</a>
     <a href="https://joseph-yuschak.notion.site" target="_blank">Portfolio</a>
-    <button class="refresh-btn" id="refresh-btn" onclick="refreshModels()">
-      <span class="spin-icon">↻</span> Run Models
-    </button>
   </nav>
 </header>
 
@@ -447,7 +379,8 @@
 <nav class="tabs">
   <div class="tab active" onclick="switchTab('hits')">Hits Model</div>
   <div class="tab" onclick="switchTab('hr')">Home Run Model</div>
-  <div class="tab" onclick="switchTab('picks')">Picks</div>
+  <div class="tab" onclick="switchTab('k')">Strikeouts</div>
+  <div class="tab" onclick="switchTab('f1')">F1 Racing</div>
 </nav>
 
 <main class="panels">
@@ -516,27 +449,29 @@
     </div>
   </div>
 
-  <!-- PICKS PANEL -->
-  <div class="panel" id="panel-picks">
-
-    <!-- Singles -->
-    <div style="margin-bottom:28px">
+  <!-- K MODEL PANEL -->
+  <div class="panel" id="panel-k">
+    <div class="panel-grid">
       <div class="card">
         <div class="card-header">
-          <span class="card-title">Single Bet Recommendations</span>
-          <span class="card-badge" id="singles-badge">0 picks</span>
+          <span class="card-title">Today's Starters — Strikeout Predictions</span>
+          <span class="card-badge" id="k-date"></span>
+        </div>
+        <div class="pred-table" id="k-top10"></div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <span class="card-title">Calibration — All Graded Predictions</span>
         </div>
         <div style="padding:0">
-          <table class="cal-table" id="singles-table" style="width:100%">
+          <table class="cal-table" id="k-cal">
             <thead>
               <tr>
-                <th>Player</th>
-                <th>Type</th>
-                <th>Model %</th>
-                <th>Market %</th>
-                <th>Edge</th>
-                <th>Best Price</th>
-                <th>Book</th>
+                <th>Pred Range</th>
+                <th>N</th>
+                <th>Avg Predicted</th>
+                <th>Actual Rate</th>
+                <th>Delta</th>
               </tr>
             </thead>
             <tbody></tbody>
@@ -544,64 +479,48 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Parlays + Round Robins -->
+  <!-- F1 PANEL -->
+  <div class="panel" id="panel-f1">
     <div class="panel-grid">
       <div class="card">
         <div class="card-header">
-          <span class="card-title">Top Parlays</span>
-          <span class="card-badge" id="parlay-badge"></span>
+          <span class="card-title">Qualifying Prediction Grid</span>
+          <span class="card-badge" id="f1-circuit"></span>
         </div>
-        <div id="parlay-list" style="padding:0"></div>
+        <div style="padding:0">
+          <table class="cal-table" id="f1-quali-grid">
+            <thead>
+              <tr>
+                <th>Pred</th>
+                <th>Actual</th>
+                <th>Driver</th>
+                <th>Team</th>
+                <th>P(Pole)</th>
+                <th>P(Q3)</th>
+                <th>Gap</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
       </div>
       <div class="card">
         <div class="card-header">
-          <span class="card-title">Round Robins</span>
+          <span class="card-title">Race Predictions — P(Podium)</span>
+          <span class="card-badge" id="f1-race-name"></span>
         </div>
-        <div id="rr-list" style="padding:0"></div>
+        <div class="pred-table" id="f1-race-top10"></div>
+        <div style="padding:14px 20px;border-top:1px solid var(--border)">
+          <div class="card-title" style="margin-bottom:8px">Calibration History</div>
+          <div id="f1-stats" style="font-family:var(--mono);font-size:12px;color:var(--muted);line-height:1.8"></div>
+        </div>
       </div>
     </div>
-
   </div>
 
 </main>
-
-<section style="padding:0 32px 40px">
-  <div class="card">
-    <div class="card-header">
-      <span class="card-title">Cumulative Return — Units P&amp;L</span>
-      <span class="card-badge" id="returns-badge"></span>
-    </div>
-    <div style="padding:20px 24px 16px;position:relative;height:280px">
-      <canvas id="returns-chart"></canvas>
-    </div>
-    <div style="padding:0 24px 14px;display:flex;gap:24px;font-family:var(--mono);font-size:10px;color:var(--muted)">
-      <span><span style="color:#00E5A0">●</span> Hits — <span id="hits-returns-label"></span></span>
-      <span><span style="color:#F0A500">●</span> HR — <span id="hr-returns-label"></span></span>
-      <span style="margin-left:auto">Flat 1-unit bets · simulated (not actual book odds)</span>
-    </div>
-    <div style="padding:0 24px 24px;border-top:1px solid var(--border)">
-      <p style="font-size:13px;color:var(--muted);line-height:1.8;max-width:860px;margin-top:16px">
-        This chart tracks the <strong style="color:var(--text)">simulated cumulative profit and loss</strong> of flat betting
-        every prediction above the model's confidence threshold, assuming standard market prices.
-        Each point on the <span style="color:#00E5A0;font-weight:500">green line</span> represents the running total after
-        betting 1 unit on every batter where the hits model predicted a <strong style="color:var(--text)">60% or greater</strong>
-        probability of recording a hit, priced at <strong style="color:var(--text)">-110</strong> (the standard juice on most sportsbooks).
-        The <span style="color:#F0A500;font-weight:500">orange line</span> does the same for the home run model, using a
-        <strong style="color:var(--text)">15% or greater</strong> HR probability threshold and an assumed price of
-        <strong style="color:var(--text)">+350</strong> — a conservative estimate of what the market typically offers on
-        players with that level of HR probability.
-      </p>
-      <p style="font-size:13px;color:var(--muted);line-height:1.8;max-width:860px;margin-top:10px">
-        <strong style="color:var(--text)">What a unit means:</strong> if your standard bet is $100, then +10u = +$1,000 profit.
-        These numbers are <em>theoretical</em> — they assume you bet every qualifying prediction at the stated price and do not
-        account for line shopping, line movement, or bet limits. The Picks tab surfaces only the bets where the model has a
-        measurable edge over the actual market price, which is where real-world returns will differ from this simulation.
-        The longer this model runs, the more meaningful these curves become — five days is a sample, not a signal.
-      </p>
-    </div>
-  </div>
-</section>
 
 <footer>
   <span class="footer-note">
@@ -610,19 +529,93 @@
     Updated daily · Not financial or gambling advice
   </span>
   <span class="footer-note" id="generated-at"></span>
-  <span class="footer-note" id="fetched-at" style="color:var(--muted)"></span>
 </footer>
 
 <script>
   function switchTab(name) {
+    const tabNames = ['hits', 'hr', 'k', 'f1'];
     document.querySelectorAll('.tab').forEach((t, i) => {
-      t.classList.toggle('active', ['hits','hr','picks'][i] === name);
+      t.classList.toggle('active', tabNames[i] === name);
     });
     document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
     document.getElementById('panel-' + name).classList.add('active');
   }
 
   function pct(v) { return v != null ? (v * 100).toFixed(1) + '%' : '—'; }
+
+  function renderKPitchers(containerId, rows) {
+    const el = document.getElementById(containerId);
+    if (!rows || rows.length === 0) {
+      el.innerHTML = '<div class="empty">No K predictions logged today yet — run scripts/run_daily_k.py</div>';
+      return;
+    }
+    el.innerHTML = rows.map((r, i) => {
+      const overColor = r.p_over > 0.50 ? 'var(--accent)' : r.p_over > 0.35 ? 'var(--warn)' : 'var(--muted)';
+      return `
+      <div class="pred-row">
+        <span class="pred-rank">${i + 1}</span>
+        <div>
+          <div class="pred-name">${r.pitcher_name}</div>
+          <div class="pred-meta">${r.team} · vs ${r.opponent} · line ${r.line} · λ=${r.lambda_k}</div>
+        </div>
+        <div class="pred-prob" style="color:${overColor}">${pct(r.p_over)}</div>
+      </div>`;
+    }).join('');
+  }
+
+  function renderF1Quali(grid, circuit) {
+    document.getElementById('f1-circuit').textContent = circuit || '';
+    const tbody = document.querySelector('#f1-quali-grid tbody');
+    if (!grid || grid.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="7" style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No qualifying predictions yet — run predict_quali.py before qualifying.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = grid.map(r => {
+      const actual = r.actual_grid != null ? `P${r.actual_grid}` : '—';
+      const gap = r.gap_predicted > 0 ? `+${r.gap_predicted.toFixed(3)}s` : 'POLE';
+      const correct = r.actual_grid != null && r.actual_grid === r.predicted_grid;
+      const rowStyle = correct ? 'background:rgba(0,229,160,0.05)' : '';
+      return `<tr style="${rowStyle}">
+        <td style="font-family:var(--mono)">P${r.predicted_grid}</td>
+        <td style="font-family:var(--mono);color:${r.actual_grid != null ? 'var(--accent)' : 'var(--muted)'}">${actual}</td>
+        <td style="font-weight:500">${r.driver_name}</td>
+        <td style="font-size:11px;color:var(--muted)">${r.team}</td>
+        <td style="font-family:var(--mono)">${pct(r.p_pole)}</td>
+        <td style="font-family:var(--mono);color:${r.p_q3 > 0.5 ? 'var(--accent)' : 'var(--muted)'}">${pct(r.p_q3)}</td>
+        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${gap}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  function renderF1Race(top10, raceName, stats) {
+    document.getElementById('f1-race-name').textContent = raceName || '';
+    const el = document.getElementById('f1-race-top10');
+    if (!top10 || top10.length === 0) {
+      el.innerHTML = '<div class="empty">No race predictions yet — run run_prerace.py after qualifying.</div>';
+    } else {
+      el.innerHTML = top10.map((r, i) => `
+        <div class="pred-row">
+          <span class="pred-rank">${i + 1}</span>
+          <div>
+            <div class="pred-name">${r.driver_name}</div>
+            <div class="pred-meta">${r.team} · Grid P${r.grid} · P(points)=${pct(r.p_points)}</div>
+          </div>
+          <div class="pred-prob">${pct(r.p_podium)}</div>
+        </div>
+      `).join('');
+    }
+
+    const statsEl = document.getElementById('f1-stats');
+    if (stats) {
+      statsEl.innerHTML = [
+        stats.podium_brier  != null ? `Podium Brier: <strong style="color:var(--accent)">${stats.podium_brier.toFixed(3)}</strong> (naive: 0.203)` : 'Podium Brier: not yet graded',
+        stats.points_brier  != null ? `Points Brier: <strong style="color:var(--accent)">${stats.points_brier.toFixed(3)}</strong> (naive: 0.250)` : '',
+        stats.total_graded  != null ? `${stats.total_graded} graded driver-race predictions` : '',
+      ].filter(Boolean).join('<br>');
+    } else {
+      statsEl.innerHTML = 'No graded race predictions yet.';
+    }
+  }
 
   function renderTop10(containerId, rows, probKey) {
     const el = document.getElementById(containerId);
@@ -708,19 +701,17 @@
       renderTop10('hr-top10', d.hr?.top10_today, 'p_hr');
       renderCal('hr-cal', d.hr?.calibration);
 
+      // K tab
+      document.getElementById('k-date').textContent = d.generated_at ?? '';
+      renderKPitchers('k-top10', d.k?.top10_today);
+      renderCal('k-cal', d.k?.calibration);
+
+      // F1 tab
+      const f1 = d.f1 ?? {};
+      renderF1Quali(f1.quali?.grid, f1.quali?.circuit);
+      renderF1Race(f1.race?.top10, f1.race?.race_name, f1.race?.stats);
+
       document.getElementById('generated-at').textContent = 'Last updated ' + d.generated_at;
-
-      const now = new Date();
-      document.getElementById('fetched-at').textContent =
-        'Fetched ' + now.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit', second: '2-digit'});
-
-      // Returns chart
-      renderReturnsChart(d.hits?.returns, d.hr?.returns, d.hits?.returns_label, d.hr?.returns_label);
-
-      // Picks tab
-      renderSingles(d.picks?.singles);
-      renderParlays(d.picks?.parlays);
-      renderRoundRobins(d.picks?.round_robins);
 
     } catch (e) {
       console.error('Failed to load dashboard data:', e);
@@ -728,210 +719,7 @@
     }
   }
 
-  let returnsChart = null;
-
-  function renderReturnsChart(hitsReturns, hrReturns, hitsLabel, hrLabel) {
-    document.getElementById('hits-returns-label').textContent = hitsLabel ?? '';
-    document.getElementById('hr-returns-label').textContent = hrLabel ?? '';
-
-    // Merge all dates
-    const allDates = [...new Set([
-      ...(hitsReturns ?? []).map(r => r.date),
-      ...(hrReturns ?? []).map(r => r.date),
-    ])].sort();
-
-    if (allDates.length === 0) return;
-
-    const hitsMap = Object.fromEntries((hitsReturns ?? []).map(r => [r.date, r.cumulative_pnl]));
-    const hrMap   = Object.fromEntries((hrReturns ?? []).map(r => [r.date, r.cumulative_pnl]));
-
-    const hitsData = allDates.map(d => hitsMap[d] ?? null);
-    const hrData   = allDates.map(d => hrMap[d]   ?? null);
-
-    const lastHits = hitsReturns?.at(-1)?.cumulative_pnl;
-    const lastHr   = hrReturns?.at(-1)?.cumulative_pnl;
-    const parts = [];
-    if (lastHits != null) parts.push(`Hits: ${lastHits >= 0 ? '+' : ''}${lastHits.toFixed(1)}u`);
-    if (lastHr   != null) parts.push(`HR: ${lastHr >= 0 ? '+' : ''}${lastHr.toFixed(1)}u`);
-    document.getElementById('returns-badge').textContent = parts.join(' · ');
-
-    const ctx = document.getElementById('returns-chart').getContext('2d');
-    if (returnsChart) returnsChart.destroy();
-
-    returnsChart = new Chart(ctx, {
-      type: 'line',
-      data: {
-        labels: allDates,
-        datasets: [
-          {
-            label: 'Hits',
-            data: hitsData,
-            borderColor: '#00E5A0',
-            backgroundColor: 'rgba(0,229,160,0.08)',
-            borderWidth: 2,
-            pointRadius: 4,
-            pointHoverRadius: 6,
-            tension: 0.3,
-            fill: true,
-            spanGaps: true,
-          },
-          {
-            label: 'HR',
-            data: hrData,
-            borderColor: '#F0A500',
-            backgroundColor: 'rgba(240,165,0,0.06)',
-            borderWidth: 2,
-            pointRadius: 4,
-            pointHoverRadius: 6,
-            tension: 0.3,
-            fill: true,
-            spanGaps: true,
-          },
-        ],
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        interaction: { mode: 'index', intersect: false },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            backgroundColor: '#161B22',
-            borderColor: '#21262D',
-            borderWidth: 1,
-            titleColor: '#7D8590',
-            bodyColor: '#E6EDF3',
-            titleFont: { family: 'IBM Plex Mono', size: 11 },
-            bodyFont: { family: 'IBM Plex Mono', size: 12 },
-            callbacks: {
-              label: ctx => ` ${ctx.dataset.label}: ${ctx.parsed.y >= 0 ? '+' : ''}${ctx.parsed.y.toFixed(2)}u`,
-            },
-          },
-        },
-        scales: {
-          x: {
-            grid: { color: '#21262D' },
-            ticks: { color: '#7D8590', font: { family: 'IBM Plex Mono', size: 10 } },
-          },
-          y: {
-            grid: { color: '#21262D' },
-            ticks: {
-              color: '#7D8590',
-              font: { family: 'IBM Plex Mono', size: 10 },
-              callback: v => (v >= 0 ? '+' : '') + v.toFixed(0) + 'u',
-            },
-          },
-        },
-      },
-    });
-  }
-
-  function fmtPrice(p) { return p > 0 ? '+' + p : '' + p; }
-
-  function renderSingles(picks) {
-    const tbody = document.querySelector('#singles-table tbody');
-    const badge = document.getElementById('singles-badge');
-    if (!picks || picks.length === 0) {
-      badge.textContent = '0 picks';
-      tbody.innerHTML = '<tr><td colspan="7" style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No value picks today — check back after lineups post.</td></tr>';
-      return;
-    }
-    badge.textContent = picks.length + ' pick' + (picks.length !== 1 ? 's' : '');
-    tbody.innerHTML = picks.map(p => {
-      const isHit = p.type === 'hit';
-      const modelP = isHit ? p.model_p_hit : p.model_p_hr;
-      return `
-        <tr>
-          <td style="font-weight:500">${p.player_name}</td>
-          <td><span class="${isHit ? 'type-hit' : 'type-hr'}" style="font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.06em">${isHit ? 'Hit' : 'HR'}</span></td>
-          <td>${pct(modelP)}</td>
-          <td>${pct(p.implied_prob)}</td>
-          <td><span class="edge-pill">+${(p.edge * 100).toFixed(1)}%</span></td>
-          <td style="color:var(--accent);font-family:var(--mono)">${fmtPrice(p.best_price)}</td>
-          <td style="color:var(--muted);font-family:var(--mono);font-size:11px">${p.bookmaker}</td>
-        </tr>`;
-    }).join('');
-  }
-
-  function renderParlays(parlays) {
-    const el = document.getElementById('parlay-list');
-    const badge = document.getElementById('parlay-badge');
-    if (!parlays || parlays.length === 0) {
-      badge.textContent = '';
-      el.innerHTML = '<div class="empty">No parlays — need 2+ value picks.</div>';
-      return;
-    }
-    badge.textContent = parlays.length + ' combos';
-    el.innerHTML = parlays.map(p => `
-      <div class="parlay-block">
-        <div class="parlay-legs">
-          ${p.legs.map(l => `<span class="parlay-leg"><span class="leg-type">${l.type}</span>${l.player_name} <span style="color:var(--muted)">${fmtPrice(l.best_price)} @ ${l.bookmaker}</span></span>`).join('')}
-        </div>
-        <div class="parlay-meta">
-          <span>${p.n_legs}-leg parlay</span>
-          <span>Model: ${pct(p.model_prob)}</span>
-          <span>Edge: <span class="edge-pill">+${(p.edge * 100).toFixed(1)}%</span></span>
-          <span class="parlay-payout">${fmtPrice(p.payout)}</span>
-        </div>
-      </div>`).join('');
-  }
-
-  function renderRoundRobins(rrs) {
-    const el = document.getElementById('rr-list');
-    if (!rrs || rrs.length === 0) {
-      el.innerHTML = '<div class="empty">No round robins — need 3+ value picks.</div>';
-      return;
-    }
-    el.innerHTML = rrs.map(rr => `
-      <div class="parlay-block">
-        <div style="font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:0.1em;text-transform:uppercase;margin-bottom:8px">
-          ${rr.size}-pick pool · pick any 2
-        </div>
-        <div style="font-size:12px;margin-bottom:10px;color:var(--text)">${rr.picks.join(' · ')}</div>
-        ${rr.parlays.map(leg => `
-          <div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;padding:4px 0;border-top:1px solid var(--border)">
-            <span style="color:var(--muted)">${leg.players.join(' + ')}</span>
-            <span style="color:var(--accent)">${fmtPrice(leg.payout)} <span style="color:var(--muted)">(${pct(leg.model_prob)})</span></span>
-          </div>`).join('')}
-      </div>`).join('');
-  }
-
-  async function refreshModels() {
-    const btn = document.getElementById('refresh-btn');
-    btn.classList.add('spinning');
-    btn.disabled = true;
-    try {
-      await fetch('/refresh', {method: 'POST'});
-      // Poll for completion then reload data
-      let attempts = 0;
-      const poll = setInterval(async () => {
-        attempts++;
-        try {
-          const s = await fetch('/status');
-          const st = await s.json();
-          if (st.status === 'done' || attempts > 60) {
-            clearInterval(poll);
-            btn.classList.remove('spinning');
-            btn.disabled = false;
-            await loadData();
-          }
-        } catch (_) {
-          clearInterval(poll);
-          btn.classList.remove('spinning');
-          btn.disabled = false;
-        }
-      }, 2000);
-    } catch (e) {
-      // Not running locally — just refresh the data
-      btn.classList.remove('spinning');
-      btn.disabled = false;
-      await loadData();
-    }
-  }
-
   loadData();
-  // Auto-refresh data every 5 minutes
-  setInterval(loadData, 5 * 60 * 1000);
 </script>
 
 </body>
