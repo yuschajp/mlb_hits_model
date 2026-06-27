@@ -444,7 +444,7 @@
         "over_2_5": 0.4816,
         "btts": 0.5292,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Algeria",
@@ -458,7 +458,7 @@
         "over_2_5": 0.3899,
         "btts": 0.4554,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Jordan",
@@ -472,7 +472,7 @@
         "over_2_5": 0.6337,
         "btts": 0.6256,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Colombia",
@@ -486,7 +486,7 @@
         "over_2_5": 0.8481,
         "btts": 0.8119,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "DR Congo",
@@ -500,7 +500,7 @@
         "over_2_5": 0.2205,
         "btts": 0.2736,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Panama",
@@ -514,7 +514,7 @@
         "over_2_5": 0.4815,
         "btts": 0.4753,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Croatia",
@@ -528,7 +528,7 @@
         "over_2_5": 0.5995,
         "btts": 0.4975,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "South Africa",
@@ -542,7 +542,7 @@
         "over_2_5": 0.6508,
         "btts": 0.5994,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Germany",
@@ -556,7 +556,7 @@
         "over_2_5": 0.6967,
         "btts": 0.6513,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Netherlands",
@@ -570,7 +570,7 @@
         "over_2_5": 0.7944,
         "btts": 0.744,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Brazil",
@@ -584,7 +584,7 @@
         "over_2_5": 0.8674,
         "btts": 0.8205,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "1I",
@@ -598,7 +598,7 @@
         "over_2_5": 0.4816,
         "btts": 0.5292,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Ivory Coast",
@@ -612,7 +612,7 @@
         "over_2_5": 0.5847,
         "btts": 0.6008,
         "graded": false,
-        "result": NaN
+        "result": null
       },
       {
         "home_team": "Mexico",
@@ -626,7 +626,7 @@
         "over_2_5": 0.7947,
         "btts": 0.7467,
         "graded": false,
-        "result": NaN
+        "result": null
       }
     ]
   },
