@@ -22,7 +22,8 @@ from src.ledger import hr_columns, load_ledger
 from src.name_matching import build_name_index, match_name
 
 HR_LEDGER_PATH = Path(__file__).resolve().parents[1] / "data" / "ledger" / "hr_predictions_log.csv"
-EDGE_THRESHOLD = 0.03  # smaller than the hits threshold (0.05) since HR probabilities are themselves smaller
+EDGE_THRESHOLD = 0.03
+SUSPICIOUS_EDGE = 0.10  # HR props above this are almost certainly a wrong market type
 
 
 def main():
@@ -41,6 +42,7 @@ def main():
     print(f"Found {len(events)} MLB events with odds today.\n")
 
     value_rows = []
+    suspicious_rows = []
     unmatched_count = 0
     matched_count = 0
     for event in events:
@@ -61,23 +63,36 @@ def main():
             implied_prob = odds.american_to_implied_prob(info["price"])
             edge = pred["p_hr"] - implied_prob
 
-            if edge >= EDGE_THRESHOLD:
-                value_rows.append({
-                    "player_name": matched_name,
-                    "team": pred["team"],
-                    "model_p_hr": round(pred["p_hr"], 4),
-                    "implied_prob": round(implied_prob, 4),
-                    "edge": round(edge, 4),
-                    "best_price": info["price"],
-                    "bookmaker": info["bookmaker"],
-                })
+            row = {
+                "player_name": matched_name,
+                "team": pred["team"],
+                "model_p_hr": round(pred["p_hr"], 4),
+                "implied_prob": round(implied_prob, 4),
+                "edge": round(edge, 4),
+                "best_price": info["price"],
+                "bookmaker": info["bookmaker"],
+            }
+
+            if edge >= SUSPICIOUS_EDGE:
+                suspicious_rows.append(row)
+            elif edge >= EDGE_THRESHOLD:
+                value_rows.append(row)
 
     total = matched_count + unmatched_count
     print(f"Matched {matched_count}/{total} odds-feed batters to a logged HR prediction "
           f"({len(today_predictions)} predictions were logged today).")
 
+    if suspicious_rows:
+        suspicious_rows.sort(key=lambda r: r["edge"], reverse=True)
+        print(f"\n⚠️  {len(suspicious_rows)} batter(s) with edge >= {SUSPICIOUS_EDGE:.0%} -- "
+              f"VERIFY MARKET TYPE before acting:\n")
+        for r in suspicious_rows:
+            print(f"  {r['player_name']:<22} {r['team']:<20} model={r['model_p_hr']:.1%}  "
+                  f"market={r['implied_prob']:.1%}  edge=+{r['edge']:.1%}  "
+                  f"({r['best_price']:+d} @ {r['bookmaker']})")
+
     if not value_rows:
-        print("\nNo HR value found above the edge threshold today.")
+        print("\nNo clean HR value found above the edge threshold today.")
         return
 
     value_rows.sort(key=lambda r: r["edge"], reverse=True)

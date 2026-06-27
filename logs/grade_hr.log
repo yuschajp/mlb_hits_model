@@ -20,3 +20,27 @@ Calibration by predicted-probability bucket:
 PredRange   N  AvgPredicted  ActualFrequency
   0.0-0.2 601          0.12             0.11
   0.2-0.4  22          0.22             0.18
+Grading 7 HR predictions across 2 completed game(s)...
+HR ledger updated.
+
+Rolling stats over 686 graded HR predictions (since 2026-06-21):
+  Brier score: 0.106 (0 = perfect, 0.25 = always guessing 50%)
+  Average predicted P(HR): 12.2%   Actual HR rate: 12.1%
+
+Calibration by predicted-probability bucket:
+PredRange   N  AvgPredicted  ActualFrequency
+  0.0-0.2 664          0.12             0.12
+  0.2-0.4  22          0.22             0.18
+/Users/victoria/Documents/anaconda3/lib/python3.11/site-packages/pandas/core/arrays/masked.py:61: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.5' currently installed).
+  from pandas.core import (
+Grading 7 HR predictions across 2 completed game(s)...
+HR ledger updated.
+
+Rolling stats over 902 graded HR predictions (since 2026-06-21):
+  Brier score: 0.105 (0 = perfect, 0.25 = always guessing 50%)
+  Average predicted P(HR): 12.2%   Actual HR rate: 12.1%
+
+Calibration by predicted-probability bucket:
+PredRange   N  AvgPredicted  ActualFrequency
+  0.0-0.2 873          0.12             0.12
+  0.2-0.4  29          0.22             0.28

@@ -1,8 +1,8 @@
 {
-  "slope": 0.8890081906044126,
-  "intercept": -0.11619953820529987,
-  "fitted_on_n": 857,
-  "brier_before": 0.2353,
-  "brier_after": 0.2335,
+  "slope": 0.8985970695789594,
+  "intercept": -0.11983898758799884,
+  "fitted_on_n": 1055,
+  "brier_before": 0.2366,
+  "brier_after": 0.2348,
   "note": "Platt scaling correction fitted on graded hit predictions. Apply via: p_calibrated = sigmoid(slope * logit(p_raw) + intercept). Refit after every ~200 new graded predictions."
 }

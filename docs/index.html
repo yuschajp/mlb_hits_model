@@ -380,6 +380,7 @@
   <div class="tab active" onclick="switchTab('hits')">Hits Model</div>
   <div class="tab" onclick="switchTab('hr')">Home Run Model</div>
   <div class="tab" onclick="switchTab('k')">Strikeouts</div>
+  <div class="tab" onclick="switchTab('wc')">World Cup</div>
   <div class="tab" onclick="switchTab('f1')">F1 Racing</div>
 </nav>
 
@@ -481,6 +482,37 @@
     </div>
   </div>
 
+  <!-- WORLD CUP PANEL -->
+  <div class="panel" id="panel-wc">
+    <div class="panel-grid">
+      <div class="card" style="grid-column: 1 / -1">
+        <div class="card-header">
+          <span class="card-title">World Cup 2026 — Match Predictions</span>
+          <span class="card-badge" id="wc-date"></span>
+        </div>
+        <div style="padding:0">
+          <table class="cal-table" id="wc-matches">
+            <thead>
+              <tr>
+                <th>Home</th>
+                <th>Away</th>
+                <th>Stage</th>
+                <th>xG</th>
+                <th>P(Home)</th>
+                <th>P(Draw)</th>
+                <th>P(Away)</th>
+                <th>O2.5</th>
+                <th>BTTS</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- F1 PANEL -->
   <div class="panel" id="panel-f1">
     <div class="panel-grid">
@@ -533,7 +565,7 @@
 
 <script>
   function switchTab(name) {
-    const tabNames = ['hits', 'hr', 'k', 'f1'];
+    const tabNames = ['hits', 'hr', 'k', 'wc', 'f1'];
     document.querySelectorAll('.tab').forEach((t, i) => {
       t.classList.toggle('active', tabNames[i] === name);
     });
@@ -542,6 +574,33 @@
   }
 
   function pct(v) { return v != null ? (v * 100).toFixed(1) + '%' : '—'; }
+
+  function renderWCMatches(matches) {
+    document.getElementById('wc-date').textContent = matches?.length ? 'Today' : '';
+    const tbody = document.querySelector('#wc-matches tbody');
+    if (!matches || matches.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="10" style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No WC predictions yet — run scripts/run_daily_wc.py (needs FOOTBALL_DATA_API_KEY)</td></tr>';
+      return;
+    }
+    tbody.innerHTML = matches.map(m => {
+      const xg = `${m.xg_home.toFixed(2)} - ${m.xg_away.toFixed(2)}`;
+      const result = m.result ? `<span style="color:var(--accent)">${m.result.toUpperCase()}</span>` : '—';
+      const bestSide = m.p_home > m.p_draw && m.p_home > m.p_away ? 'home' :
+                       m.p_away > m.p_home && m.p_away > m.p_draw ? 'away' : 'draw';
+      return `<tr>
+        <td style="font-weight:${bestSide==='home'?'600':'400'};color:${bestSide==='home'?'var(--accent)':'var(--text)'}">${m.home_team}</td>
+        <td style="font-weight:${bestSide==='away'?'600':'400'};color:${bestSide==='away'?'var(--accent)':'var(--text)'}">${m.away_team}</td>
+        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${m.stage.replace('_',' ')}</td>
+        <td style="font-family:var(--mono)">${xg}</td>
+        <td style="font-family:var(--mono);color:${bestSide==='home'?'var(--accent)':'var(--text)'}">${pct(m.p_home)}</td>
+        <td style="font-family:var(--mono)">${pct(m.p_draw)}</td>
+        <td style="font-family:var(--mono);color:${bestSide==='away'?'var(--accent)':'var(--text)'}">${pct(m.p_away)}</td>
+        <td style="font-family:var(--mono)">${pct(m.over_2_5)}</td>
+        <td style="font-family:var(--mono)">${pct(m.btts)}</td>
+        <td>${result}</td>
+      </tr>`;
+    }).join('');
+  }
 
   function renderKPitchers(containerId, rows) {
     const el = document.getElementById(containerId);
@@ -700,6 +759,9 @@
       document.getElementById('hr-date').textContent = d.generated_at ?? '';
       renderTop10('hr-top10', d.hr?.top10_today, 'p_hr');
       renderCal('hr-cal', d.hr?.calibration);
+
+      // WC tab
+      renderWCMatches(d.wc?.matches_today);
 
       // K tab
       document.getElementById('k-date').textContent = d.generated_at ?? '';

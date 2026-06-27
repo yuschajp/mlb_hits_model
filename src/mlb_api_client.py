@@ -290,3 +290,127 @@ def _extract_stat_ab(raw_stats_response, stat_key):
         return (value, at_bats)
     except (KeyError, IndexError, TypeError, ValueError):
         return (0, 0)
+
+
+# ── Strikeout-specific functions ──────────────────────────────────────────────
+
+def _extract_k_innings(raw_stats_response):
+    """
+    Pulls (strikeouts, innings_pitched_as_float) from a pitching stats
+    response. innings_pitched in the API is a string like "34.1" meaning
+    34 full innings + 1 out, which equals 34 + 1/3 = 34.333 innings.
+    """
+    try:
+        splits = raw_stats_response["stats"][0]["splits"]
+        if not splits:
+            return (0, 0.0)
+        stat = splits[0]["stat"]
+        ks = int(stat.get("strikeOuts", 0))
+        ip_str = stat.get("inningsPitched", "0.0")
+        # Convert "34.1" to 34.333 etc.
+        parts = str(ip_str).split(".")
+        full_innings = int(parts[0])
+        outs = int(parts[1]) if len(parts) > 1 else 0
+        ip_float = full_innings + outs / 3.0
+        return (ks, round(ip_float, 3))
+    except (KeyError, IndexError, TypeError, ValueError):
+        return (0, 0.0)
+
+
+def get_pitcher_season_k_stats(player_id, season=None):
+    """
+    Returns (strikeouts, innings_pitched) for a pitcher's season-to-date.
+    innings_pitched is a float (e.g. 34.333 for 34.1 innings).
+    """
+    season = season or date.today().year
+    raw = _get(f"/people/{player_id}/stats", {"stats": "season", "group": "pitching", "season": season})
+    return _extract_k_innings(raw)
+
+
+def get_pitcher_recent_k_stats(player_id, days=35):
+    """
+    Returns (strikeouts, innings_pitched) over the trailing N days.
+    35 days ≈ last 5-6 starts for a regular rotation starter.
+    """
+    end = date.today()
+    start = end - timedelta(days=days)
+    raw = _get(f"/people/{player_id}/stats", {
+        "stats": "byDateRange",
+        "startDate": start.strftime("%Y-%m-%d"),
+        "endDate": end.strftime("%Y-%m-%d"),
+        "group": "pitching",
+    })
+    return _extract_k_innings(raw)
+
+
+def get_pitcher_start_log(player_id, season=None):
+    """
+    Returns a list of individual game logs for the pitcher this season,
+    used to compute average innings per start and number of starts made.
+    Returns list of dicts with 'inningsPitched', 'strikeOuts', 'date'.
+    """
+    season = season or date.today().year
+    raw = _get(f"/people/{player_id}/stats", {"stats": "gameLog", "group": "pitching", "season": season})
+    starts = []
+    try:
+        splits = raw["stats"][0]["splits"]
+        for s in splits:
+            stat = s.get("stat", {})
+            # Only count starts, not relief appearances
+            if stat.get("gamesStarted", 0) > 0 or int(stat.get("inningsPitched", "0").split(".")[0]) >= 3:
+                ip_str = stat.get("inningsPitched", "0.0")
+                parts = str(ip_str).split(".")
+                ip_float = int(parts[0]) + (int(parts[1]) if len(parts) > 1 else 0) / 3.0
+                starts.append({
+                    "date":   s.get("date", ""),
+                    "ks":     int(stat.get("strikeOuts", 0)),
+                    "ip":     round(ip_float, 3),
+                })
+    except (KeyError, IndexError, TypeError):
+        pass
+    return starts
+
+
+def get_team_k_rate(team_id, season=None):
+    """
+    Returns a team's strikeout rate (Ks per plate appearance) from their
+    season batting stats. Used as the opponent K rate input to k_model.py.
+    Returns a float like 0.227 (league average).
+    """
+    season = season or date.today().year
+    raw = _get(f"/teams/{team_id}/stats", {"stats": "season", "group": "hitting", "season": season})
+    try:
+        splits = raw["stats"][0]["splits"]
+        if not splits:
+            return 0.227
+        stat = splits[0]["stat"]
+        ks  = int(stat.get("strikeOuts", 0))
+        pas = int(stat.get("plateAppearances", 0))
+        return round(ks / pas, 4) if pas > 0 else 0.227
+    except (KeyError, IndexError, TypeError, ValueError):
+        return 0.227
+
+
+def get_game_pitcher_k_results(game_pk):
+    """
+    Returns {pitcher_id: strikeouts} for both starting pitchers in a
+    completed game's boxscore. Only returns starters (excludes relievers).
+    """
+    raw = _get(f"/game/{game_pk}/boxscore")
+    results = {}
+    for side in ("home", "away"):
+        pitchers = raw.get("teams", {}).get(side, {}).get("pitchers", [])
+        players  = raw.get("teams", {}).get(side, {}).get("players", {})
+        if not pitchers:
+            continue
+        # The first pitcher listed is the starter
+        starter_id = pitchers[0] if pitchers else None
+        if starter_id is None:
+            continue
+        pitcher_key = f"ID{starter_id}"
+        pitcher_data = players.get(pitcher_key, {})
+        person_id = pitcher_data.get("person", {}).get("id")
+        pitching  = pitcher_data.get("stats", {}).get("pitching", {})
+        if person_id and "strikeOuts" in pitching:
+            results[person_id] = int(pitching["strikeOuts"])
+    return results

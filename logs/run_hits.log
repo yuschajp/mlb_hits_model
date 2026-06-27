@@ -95,3 +95,39 @@ Top 10 highest hit-probability batters today:
   Richie Palacios        Tampa Bay Rays       P(hit)=67.1%  vs Seth Lugo (Tropicana Field)
 
 Logged 18 predictions to /Users/victoria/Desktop/mlb_hits_model/data/ledger/predictions_log.csv
+Applying Platt scaling calibration (slope=0.8890, intercept=-0.1162)
+
+Found 15 games today (2026-06-26).
+
+Houston Astros @ Detroit Tigers (Comerica Park) [Scheduled]
+  [skip] Houston Astros @ Detroit Tigers: lineups not posted yet
+Cincinnati Reds @ Pittsburgh Pirates (PNC Park) [Scheduled]
+  [skip] Cincinnati Reds @ Pittsburgh Pirates: lineups not posted yet
+Washington Nationals @ Baltimore Orioles (Oriole Park at Camden Yards) [Scheduled]
+  [skip] Washington Nationals @ Baltimore Orioles: lineups not posted yet
+Texas Rangers @ Toronto Blue Jays (Rogers Centre) [Scheduled]
+  [skip] Texas Rangers @ Toronto Blue Jays: lineups not posted yet
+Seattle Mariners @ Cleveland Guardians (Progressive Field) [Scheduled]
+  [skip] Seattle Mariners @ Cleveland Guardians: lineups not posted yet
+Arizona Diamondbacks @ Tampa Bay Rays (Tropicana Field) [Scheduled]
+  [skip] Arizona Diamondbacks @ Tampa Bay Rays: lineups not posted yet
+Philadelphia Phillies @ New York Mets (Citi Field) [Scheduled]
+  [skip] Philadelphia Phillies @ New York Mets: lineups not posted yet
+New York Yankees @ Boston Red Sox (Fenway Park) [Scheduled]
+  [skip] New York Yankees @ Boston Red Sox: lineups not posted yet
+Kansas City Royals @ Chicago White Sox (Rate Field) [Scheduled]
+  [skip] Kansas City Royals @ Chicago White Sox: lineups not posted yet
+Chicago Cubs @ Milwaukee Brewers (American Family Field) [Scheduled]
+  [skip] Chicago Cubs @ Milwaukee Brewers: lineups not posted yet
+Colorado Rockies @ Minnesota Twins (Target Field) [Scheduled]
+  [skip] Colorado Rockies @ Minnesota Twins: lineups not posted yet
+Miami Marlins @ St. Louis Cardinals (Busch Stadium) [Scheduled]
+  [skip] Miami Marlins @ St. Louis Cardinals: lineups not posted yet
+Athletics @ Los Angeles Angels (Angel Stadium) [Scheduled]
+  [skip] Athletics @ Los Angeles Angels: lineups not posted yet
+Los Angeles Dodgers @ San Diego Padres (Petco Park) [Scheduled]
+  [skip] Los Angeles Dodgers @ San Diego Padres: lineups not posted yet
+Atlanta Braves @ San Francisco Giants (Oracle Park) [Scheduled]
+  [skip] Atlanta Braves @ San Francisco Giants: lineups not posted yet
+
+No confirmed lineups available yet -- try again closer to first pitch.
