@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-27",
   "hits": {
-    "today_count": 0,
+    "today_count": 126,
     "total_graded": 1055,
     "since_date": "2026-06-20",
     "brier_score": 0.2366,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6508,
     "actual_hit_rate": 0.6095,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Paul Goldschmidt",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Jake Bennett",
+        "venue": "Fenway Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7224
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jose Cabrera",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.722
+      },
+      {
+        "player_name": "Nathan Lukes",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Cal Quantrill",
+        "venue": "Rogers Centre",
+        "lineup_spot": 1,
+        "p_hit": 0.7064
+      },
+      {
+        "player_name": "Ceddanne Rafaela",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Fenway Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7037
+      },
+      {
+        "player_name": "Sam Antonacci",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7014
+      },
+      {
+        "player_name": "Bobby Witt Jr.",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Davis Martin",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7007
+      },
+      {
+        "player_name": "Gabriel Moreno",
+        "team": "Arizona Diamondbacks",
+        "opponent_pitcher": "Cole Sulser",
+        "venue": "Tropicana Field",
+        "lineup_spot": 4,
+        "p_hit": 0.693
+      },
+      {
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Framber Valdez",
+        "venue": "Comerica Park",
+        "lineup_spot": 1,
+        "p_hit": 0.6908
+      },
+      {
+        "player_name": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Davis Martin",
+        "venue": "Rate Field",
+        "lineup_spot": 3,
+        "p_hit": 0.6886
+      },
+      {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Fenway Park",
+        "lineup_spot": 4,
+        "p_hit": 0.6849
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -84,14 +165,95 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 126,
     "total_graded": 902,
     "since_date": "2026-06-21",
     "brier_score": 0.1054,
     "naive_brier": 0.235,
     "avg_predicted": 0.1219,
     "actual_hr_rate": 0.1208,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Christian Scott",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1857
+      },
+      {
+        "player_name": "Kazuma Okamoto",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Cal Quantrill",
+        "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hr": 0.1848
+      },
+      {
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Rate Field",
+        "lineup_spot": 4,
+        "p_hr": 0.172
+      },
+      {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Fenway Park",
+        "lineup_spot": 4,
+        "p_hr": 0.171
+      },
+      {
+        "player_name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "PNC Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1702
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jose Cabrera",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1658
+      },
+      {
+        "player_name": "Kerry Carpenter",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Kai-Wei Teng",
+        "venue": "Comerica Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1628
+      },
+      {
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1621
+      },
+      {
+        "player_name": "Brandon Lowe",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "PNC Park",
+        "lineup_spot": 2,
+        "p_hr": 0.157
+      },
+      {
+        "player_name": "Andrew Benintendi",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Rate Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1565
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -151,6 +313,118 @@
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
+  },
+  "k": {
+    "today_count": 17,
+    "total_graded": 0,
+    "since_date": null,
+    "brier_score": null,
+    "naive_brier": 0.25,
+    "avg_lambda": 5.02,
+    "over_rate": null,
+    "top10_today": [
+      {
+        "pitcher_name": "Dylan Cease",
+        "team": "Texas Rangers",
+        "opponent": "Toronto Blue Jays",
+        "venue": "Rogers Centre",
+        "line": 6.5,
+        "lambda_k": 7.15,
+        "p_over": 0.5726,
+        "p_under": 0.4274
+      },
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Cincinnati Reds",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 6.84,
+        "p_over": 0.5259,
+        "p_under": 0.4741
+      },
+      {
+        "pitcher_name": "Jared Jones",
+        "team": "Cincinnati Reds",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.55,
+        "p_over": 0.3218,
+        "p_under": 0.6782
+      },
+      {
+        "pitcher_name": "Christian Scott",
+        "team": "Philadelphia Phillies",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 5.38,
+        "p_over": 0.2952,
+        "p_under": 0.7048
+      },
+      {
+        "pitcher_name": "Jake Bennett",
+        "team": "New York Yankees",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.17,
+        "p_over": 0.2633,
+        "p_under": 0.7367
+      },
+      {
+        "pitcher_name": "Gerrit Cole",
+        "team": "Boston Red Sox",
+        "opponent": "New York Yankees",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.11,
+        "p_over": 0.2539,
+        "p_under": 0.7461
+      },
+      {
+        "pitcher_name": "Michael Wacha",
+        "team": "Chicago White Sox",
+        "opponent": "Kansas City Royals",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.03,
+        "p_over": 0.2422,
+        "p_under": 0.7578
+      },
+      {
+        "pitcher_name": "Davis Martin",
+        "team": "Kansas City Royals",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.03,
+        "p_over": 0.2419,
+        "p_under": 0.7581
+      },
+      {
+        "pitcher_name": "Kai-Wei Teng",
+        "team": "Detroit Tigers",
+        "opponent": "Houston Astros",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 4.97,
+        "p_over": 0.2338,
+        "p_under": 0.7662
+      },
+      {
+        "pitcher_name": "Cole Sulser",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 4.87,
+        "p_over": 0.2195,
+        "p_under": 0.7805
+      }
+    ],
+    "calibration": []
   },
   "picks": {
     "singles": [],
