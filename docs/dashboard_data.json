@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-27",
   "hits": {
-    "today_count": 36,
+    "today_count": 144,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -11,20 +11,60 @@
     "actual_hit_rate": null,
     "top10_today": [
       {
+        "player_name": "Trevor Larnach",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Target Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7797
+      },
+      {
+        "player_name": "Byron Buxton",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Target Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7724
+      },
+      {
+        "player_name": "Josh Bell",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Target Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7341
+      },
+      {
+        "player_name": "Victor Caratini",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Target Field",
+        "lineup_spot": 5,
+        "p_hit": 0.7293
+      },
+      {
         "player_name": "Paul Goldschmidt",
         "team": "New York Yankees",
         "opponent_pitcher": "Jake Bennett",
         "venue": "Fenway Park",
         "lineup_spot": 1,
-        "p_hit": 0.7453
+        "p_hit": 0.729
       },
       {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jake Bennett",
-        "venue": "Fenway Park",
-        "lineup_spot": 2,
-        "p_hit": 0.703
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7277
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jose Cabrera",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7204
       },
       {
         "player_name": "Ceddanne Rafaela",
@@ -32,69 +72,29 @@
         "opponent_pitcher": "Gerrit Cole",
         "venue": "Fenway Park",
         "lineup_spot": 2,
-        "p_hit": 0.6918
+        "p_hit": 0.7051
       },
       {
-        "player_name": "Willson Contreras",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Fenway Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6761
-      },
-      {
-        "player_name": "Cody Bellinger",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jake Bennett",
-        "venue": "Fenway Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6758
-      },
-      {
-        "player_name": "Jeremy Pe\u00f1a",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Framber Valdez",
-        "venue": "Comerica Park",
+        "player_name": "Nathan Lukes",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Cal Quantrill",
+        "venue": "Rogers Centre",
         "lineup_spot": 1,
-        "p_hit": 0.6745
+        "p_hit": 0.705
       },
       {
-        "player_name": "Wilyer Abreu",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6644
-      },
-      {
-        "player_name": "Jasson Dom\u00ednguez",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jake Bennett",
-        "venue": "Fenway Park",
-        "lineup_spot": 5,
-        "p_hit": 0.6576
-      },
-      {
-        "player_name": "Masataka Yoshida",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Fenway Park",
+        "player_name": "Sam Antonacci",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Rate Field",
         "lineup_spot": 1,
-        "p_hit": 0.6567
-      },
-      {
-        "player_name": "Amed Rosario",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jake Bennett",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6557
+        "p_hit": 0.7
       }
     ],
     "calibration": []
   },
   "hr": {
-    "today_count": 36,
+    "today_count": 144,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -103,12 +103,76 @@
     "actual_hr_rate": null,
     "top10_today": [
       {
+        "player_name": "Byron Buxton",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Target Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2165
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Christian Scott",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1857
+      },
+      {
+        "player_name": "Kazuma Okamoto",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Cal Quantrill",
+        "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hr": 0.1848
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Mike Paredes",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1842
+      },
+      {
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Rate Field",
+        "lineup_spot": 4,
+        "p_hr": 0.172
+      },
+      {
         "player_name": "Willson Contreras",
         "team": "Boston Red Sox",
         "opponent_pitcher": "Gerrit Cole",
         "venue": "Fenway Park",
         "lineup_spot": 4,
-        "p_hr": 0.1595
+        "p_hr": 0.1703
+      },
+      {
+        "player_name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "PNC Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1702
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jose Cabrera",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1658
+      },
+      {
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hr": 0.165
       },
       {
         "player_name": "Kerry Carpenter",
@@ -116,71 +180,7 @@
         "opponent_pitcher": "Kai-Wei Teng",
         "venue": "Comerica Park",
         "lineup_spot": 5,
-        "p_hr": 0.1543
-      },
-      {
-        "player_name": "Paul Goldschmidt",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jake Bennett",
-        "venue": "Fenway Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1468
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jake Bennett",
-        "venue": "Fenway Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1378
-      },
-      {
-        "player_name": "Spencer Torkelson",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Kai-Wei Teng",
-        "venue": "Comerica Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1363
-      },
-      {
-        "player_name": "Jarren Duran",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Fenway Park",
-        "lineup_spot": 5,
-        "p_hr": 0.13
-      },
-      {
-        "player_name": "Colt Keith",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Kai-Wei Teng",
-        "venue": "Comerica Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1292
-      },
-      {
-        "player_name": "Wilyer Abreu",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1287
-      },
-      {
-        "player_name": "Riley Greene",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Kai-Wei Teng",
-        "venue": "Comerica Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1277
-      },
-      {
-        "player_name": "Caleb Durbin",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Fenway Park",
-        "lineup_spot": 6,
-        "p_hr": 0.1172
+        "p_hr": 0.1626
       }
     ],
     "calibration": []
