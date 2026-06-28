@@ -329,14 +329,115 @@
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 0,
+    "today_count": 22,
     "total_graded": 17,
     "since_date": "2026-06-27",
     "brier_score": 0.0966,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.9,
     "over_rate": 0.176,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Jes\u00fas Luzardo",
+        "team": "Philadelphia Phillies",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 6.25,
+        "p_over": 0.4339,
+        "p_under": 0.5661
+      },
+      {
+        "pitcher_name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "opponent": "Seattle Mariners",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 6.18,
+        "p_over": 0.4223,
+        "p_under": 0.5777
+      },
+      {
+        "pitcher_name": "Hunter Brown",
+        "team": "Houston Astros",
+        "opponent": "Detroit Tigers",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.93,
+        "p_over": 0.3822,
+        "p_under": 0.6178
+      },
+      {
+        "pitcher_name": "Mitch Keller",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Cincinnati Reds",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.42,
+        "p_over": 0.3011,
+        "p_under": 0.6989
+      },
+      {
+        "pitcher_name": "Kyle Bradish",
+        "team": "Baltimore Orioles",
+        "opponent": "Washington Nationals",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.38,
+        "p_over": 0.2945,
+        "p_under": 0.7055
+      },
+      {
+        "pitcher_name": "Brandon Woodruff",
+        "team": "Milwaukee Brewers",
+        "opponent": "Chicago Cubs",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.29,
+        "p_over": 0.2806,
+        "p_under": 0.7194
+      },
+      {
+        "pitcher_name": "Connor Prielipp",
+        "team": "Minnesota Twins",
+        "opponent": "Colorado Rockies",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 5.25,
+        "p_over": 0.2752,
+        "p_under": 0.7248
+      },
+      {
+        "pitcher_name": "Cionel P\u00e9rez",
+        "team": "New York Mets",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 5.23,
+        "p_over": 0.2726,
+        "p_under": 0.7274
+      },
+      {
+        "pitcher_name": "Drew Rasmussen",
+        "team": "Tampa Bay Rays",
+        "opponent": "Arizona Diamondbacks",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.08,
+        "p_over": 0.2488,
+        "p_under": 0.7512
+      },
+      {
+        "pitcher_name": "Jack Flaherty",
+        "team": "Detroit Tigers",
+        "opponent": "Houston Astros",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.05,
+        "p_over": 0.2448,
+        "p_under": 0.7552
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
