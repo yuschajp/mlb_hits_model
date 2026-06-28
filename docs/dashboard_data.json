@@ -1,7 +1,194 @@
 {
   "generated_at": "2026-06-28",
-  "hits": {},
-  "hr": {},
+  "hits": {
+    "today_count": 180,
+    "total_graded": 0,
+    "since_date": null,
+    "brier_score": null,
+    "recent_brier_score": null,
+    "naive_brier": 0.235,
+    "avg_predicted": null,
+    "actual_hit_rate": null,
+    "top10_today": [
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7737
+      },
+      {
+        "player_name": "Sam Antonacci",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Luinder Avila",
+        "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7308
+      },
+      {
+        "player_name": "Josh Jung",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hit": 0.7242
+      },
+      {
+        "player_name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7195
+      },
+      {
+        "player_name": "Konnor Griffin",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "PNC Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7167
+      },
+      {
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "PNC Park",
+        "lineup_spot": 3,
+        "p_hit": 0.7164
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7156
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Jack Flaherty",
+        "venue": "Comerica Park",
+        "lineup_spot": 2,
+        "p_hit": 0.714
+      },
+      {
+        "player_name": "Bobby Witt Jr.",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Anthony Kay",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7137
+      },
+      {
+        "player_name": "Nick Gonzales",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "PNC Park",
+        "lineup_spot": 4,
+        "p_hit": 0.7108
+      }
+    ],
+    "calibration": [],
+    "returns": [],
+    "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
+  },
+  "hr": {
+    "today_count": 180,
+    "total_graded": 0,
+    "since_date": null,
+    "brier_score": null,
+    "naive_brier": 0.235,
+    "avg_predicted": null,
+    "actual_hr_rate": null,
+    "top10_today": [
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2259
+      },
+      {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Zack Littell",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 4,
+        "p_hr": 0.2235
+      },
+      {
+        "player_name": "Brandon Lowe",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "PNC Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2195
+      },
+      {
+        "player_name": "Byron Buxton",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Target Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2103
+      },
+      {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 1,
+        "p_hr": 0.208
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Cionel P\u00e9rez",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2032
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Brandon Woodruff",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1973
+      },
+      {
+        "player_name": "Corey Seager",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 3,
+        "p_hr": 0.1966
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Connor Prielipp",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1904
+      },
+      {
+        "player_name": "Samuel Basallo",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Zack Littell",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 5,
+        "p_hr": 0.1901
+      }
+    ],
+    "calibration": [],
+    "returns": [],
+    "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
+  },
   "k": {},
   "wc": {},
   "picks": {
