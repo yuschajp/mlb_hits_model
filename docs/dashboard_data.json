@@ -1,108 +1,27 @@
 {
-  "generated_at": "2026-06-28",
+  "generated_at": "2026-06-29",
   "hits": {
-    "today_count": 198,
-    "total_graded": 1180,
+    "today_count": 0,
+    "total_graded": 1378,
     "since_date": "2026-06-20",
-    "brier_score": 0.2353,
-    "recent_brier_score": 0.2375,
+    "brier_score": 0.2367,
+    "recent_brier_score": 0.2427,
     "naive_brier": 0.235,
-    "avg_predicted": 0.6468,
-    "actual_hit_rate": 0.6136,
-    "top10_today": [
-      {
-        "player_name": "Yandy D\u00edaz",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Merrill Kelly",
-        "venue": "Tropicana Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7737
-      },
-      {
-        "player_name": "Otto Lopez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Kyle Leahy",
-        "venue": "Busch Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.7549
-      },
-      {
-        "player_name": "Sam Antonacci",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Luinder Avila",
-        "venue": "Rate Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7308
-      },
-      {
-        "player_name": "Josh Jung",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Rogers Centre",
-        "lineup_spot": 2,
-        "p_hit": 0.7242
-      },
-      {
-        "player_name": "Jonathan Aranda",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Merrill Kelly",
-        "venue": "Tropicana Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7195
-      },
-      {
-        "player_name": "Konnor Griffin",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "PNC Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7167
-      },
-      {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hit": 0.7164
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Merrill Kelly",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hit": 0.7156
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Jack Flaherty",
-        "venue": "Comerica Park",
-        "lineup_spot": 2,
-        "p_hit": 0.714
-      },
-      {
-        "player_name": "Bobby Witt Jr.",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Anthony Kay",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7137
-      }
-    ],
+    "avg_predicted": 0.6431,
+    "actual_hit_rate": 0.6118,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 252,
-        "predicted": 0.565,
-        "actual": 0.56
+        "n": 322,
+        "predicted": 0.566,
+        "actual": 0.578
       },
       {
         "range": "0.6-0.8",
-        "n": 906,
-        "predicted": 0.665,
-        "actual": 0.625
+        "n": 1034,
+        "predicted": 0.663,
+        "actual": 0.619
       },
       {
         "range": "0.8-1.0",
@@ -167,112 +86,38 @@
         "n_wins": 51,
         "daily_pnl": 22.364,
         "cumulative_pnl": 185.0
+      },
+      {
+        "date": "2026-06-28",
+        "n_bets": 128,
+        "n_wins": 74,
+        "daily_pnl": 13.273,
+        "cumulative_pnl": 198.273
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 198,
-    "total_graded": 1027,
+    "today_count": 0,
+    "total_graded": 1225,
     "since_date": "2026-06-21",
-    "brier_score": 0.1058,
+    "brier_score": 0.104,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1208,
-    "actual_hr_rate": 0.1217,
-    "top10_today": [
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Merrill Kelly",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2259
-      },
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Zack Littell",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 4,
-        "p_hr": 0.2235
-      },
-      {
-        "player_name": "Brandon Lowe",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "PNC Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2195
-      },
-      {
-        "player_name": "Byron Buxton",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "Target Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2103
-      },
-      {
-        "player_name": "Joc Pederson",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Rogers Centre",
-        "lineup_spot": 1,
-        "p_hr": 0.208
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Cionel P\u00e9rez",
-        "venue": "Citi Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2032
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Brandon Woodruff",
-        "venue": "American Family Field",
-        "lineup_spot": 1,
-        "p_hr": 0.1973
-      },
-      {
-        "player_name": "Corey Seager",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Rogers Centre",
-        "lineup_spot": 3,
-        "p_hr": 0.1966
-      },
-      {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Connor Prielipp",
-        "venue": "Target Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1904
-      },
-      {
-        "player_name": "Samuel Basallo",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Zack Littell",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 5,
-        "p_hr": 0.1901
-      }
-    ],
+    "avg_predicted": 0.1214,
+    "actual_hr_rate": 0.12,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 998,
+        "n": 1190,
         "predicted": 0.118,
-        "actual": 0.117
+        "actual": 0.113
       },
       {
         "range": "0.2-0.4",
-        "n": 29,
-        "predicted": 0.224,
-        "actual": 0.276
+        "n": 35,
+        "predicted": 0.223,
+        "actual": 0.343
       }
     ],
     "returns": [
@@ -324,161 +169,53 @@
         "n_wins": 3,
         "daily_pnl": 2.5,
         "cumulative_pnl": -73.0
+      },
+      {
+        "date": "2026-06-28",
+        "n_bets": 42,
+        "n_wins": 11,
+        "daily_pnl": 7.5,
+        "cumulative_pnl": -65.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 22,
-    "total_graded": 17,
+    "today_count": 0,
+    "total_graded": 39,
     "since_date": "2026-06-27",
-    "brier_score": 0.0966,
+    "brier_score": 0.1022,
     "naive_brier": 0.25,
-    "avg_lambda": 4.9,
-    "over_rate": 0.176,
-    "top10_today": [
-      {
-        "pitcher_name": "Jes\u00fas Luzardo",
-        "team": "Philadelphia Phillies",
-        "opponent": "New York Mets",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 6.25,
-        "p_over": 0.4339,
-        "p_under": 0.5661
-      },
-      {
-        "pitcher_name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "opponent": "Seattle Mariners",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 6.18,
-        "p_over": 0.4223,
-        "p_under": 0.5777
-      },
-      {
-        "pitcher_name": "Hunter Brown",
-        "team": "Houston Astros",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.93,
-        "p_over": 0.3822,
-        "p_under": 0.6178
-      },
-      {
-        "pitcher_name": "Mitch Keller",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Cincinnati Reds",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.42,
-        "p_over": 0.3011,
-        "p_under": 0.6989
-      },
-      {
-        "pitcher_name": "Kyle Bradish",
-        "team": "Baltimore Orioles",
-        "opponent": "Washington Nationals",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 5.38,
-        "p_over": 0.2945,
-        "p_under": 0.7055
-      },
-      {
-        "pitcher_name": "Brandon Woodruff",
-        "team": "Milwaukee Brewers",
-        "opponent": "Chicago Cubs",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 5.29,
-        "p_over": 0.2806,
-        "p_under": 0.7194
-      },
-      {
-        "pitcher_name": "Connor Prielipp",
-        "team": "Minnesota Twins",
-        "opponent": "Colorado Rockies",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 5.25,
-        "p_over": 0.2752,
-        "p_under": 0.7248
-      },
-      {
-        "pitcher_name": "Cionel P\u00e9rez",
-        "team": "New York Mets",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 5.23,
-        "p_over": 0.2726,
-        "p_under": 0.7274
-      },
-      {
-        "pitcher_name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "opponent": "Arizona Diamondbacks",
-        "venue": "Tropicana Field",
-        "line": 6.5,
-        "lambda_k": 5.08,
-        "p_over": 0.2488,
-        "p_under": 0.7512
-      },
-      {
-        "pitcher_name": "Jack Flaherty",
-        "team": "Detroit Tigers",
-        "opponent": "Houston Astros",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.05,
-        "p_over": 0.2448,
-        "p_under": 0.7552
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.128,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 7,
-        "predicted": 0.151,
+        "n": 16,
+        "predicted": 0.143,
         "actual": 0.0
       },
       {
         "range": "0.2-0.4",
-        "n": 8,
-        "predicted": 0.259,
-        "actual": 0.125
+        "n": 19,
+        "predicted": 0.267,
+        "actual": 0.158
       },
       {
         "range": "0.4-0.6",
-        "n": 2,
-        "predicted": 0.549,
-        "actual": 1.0
+        "n": 4,
+        "predicted": 0.489,
+        "actual": 0.5
       }
     ]
   },
   "wc": {
-    "today_count": 10,
-    "total_graded": 0,
-    "brier_home": null,
+    "today_count": 12,
+    "total_graded": 1,
+    "brier_home": 0.0315,
     "naive_brier": 0.222,
     "matches_today": [
-      {
-        "home_team": "South Africa",
-        "away_team": "Canada",
-        "stage": "Round of 32",
-        "xg_home": 1.11,
-        "xg_away": 2.24,
-        "p_home": 0.1774,
-        "p_draw": 0.1941,
-        "p_away": 0.6285,
-        "over_2_5": 0.6508,
-        "btts": 0.5994,
-        "graded": false,
-        "result": null
-      },
       {
         "home_team": "Germany",
         "away_team": "Paraguay",
@@ -602,6 +339,48 @@
         "p_away": 0.6568,
         "over_2_5": 0.7487,
         "btts": 0.6735,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Portugal",
+        "away_team": "Croatia",
+        "stage": "Round of 32",
+        "xg_home": 1.45,
+        "xg_away": 2.36,
+        "p_home": 0.2278,
+        "p_draw": 0.1935,
+        "p_away": 0.5786,
+        "over_2_5": 0.7314,
+        "btts": 0.6918,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Spain",
+        "away_team": "Austria",
+        "stage": "Round of 32",
+        "xg_home": 1.17,
+        "xg_away": 3.3,
+        "p_home": 0.097,
+        "p_draw": 0.1226,
+        "p_away": 0.7804,
+        "over_2_5": 0.816,
+        "btts": 0.6591,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Switzerland",
+        "away_team": "Algeria",
+        "stage": "Round of 32",
+        "xg_home": 1.3,
+        "xg_away": 1.68,
+        "p_home": 0.2976,
+        "p_draw": 0.2394,
+        "p_away": 0.463,
+        "over_2_5": 0.5716,
+        "btts": 0.5914,
         "graded": false,
         "result": null
       }
