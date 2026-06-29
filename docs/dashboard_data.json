@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-29",
   "hits": {
-    "today_count": 108,
+    "today_count": 126,
     "total_graded": 1378,
     "since_date": "2026-06-20",
     "brier_score": 0.2367,
@@ -10,6 +10,14 @@
     "avg_predicted": 0.6431,
     "actual_hit_rate": 0.6118,
     "top10_today": [
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Griffin Canning",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7413
+      },
       {
         "player_name": "Ceddanne Rafaela",
         "team": "Boston Red Sox",
@@ -27,19 +35,19 @@
         "p_hit": 0.7208
       },
       {
-        "player_name": "Willson Contreras",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Miles Mikolas",
-        "venue": "Fenway Park",
-        "lineup_spot": 4,
-        "p_hit": 0.7118
-      },
-      {
         "player_name": "Sam Antonacci",
         "team": "Chicago White Sox",
         "opponent_pitcher": "Shane Baz",
         "venue": "Oriole Park at Camden Yards",
         "lineup_spot": 1,
+        "p_hit": 0.7118
+      },
+      {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Fenway Park",
+        "lineup_spot": 4,
         "p_hit": 0.7118
       },
       {
@@ -81,14 +89,6 @@
         "venue": "Fenway Park",
         "lineup_spot": 7,
         "p_hit": 0.6816
-      },
-      {
-        "player_name": "Chase DeLauter",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Tyler Alexander",
-        "venue": "Progressive Field",
-        "lineup_spot": 3,
-        "p_hit": 0.6795
       }
     ],
     "calibration": [
@@ -179,7 +179,7 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 108,
+    "today_count": 126,
     "total_graded": 1225,
     "since_date": "2026-06-21",
     "brier_score": 0.104,
@@ -204,6 +204,22 @@
         "p_hr": 0.2481
       },
       {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Griffin Canning",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2179
+      },
+      {
+        "player_name": "Manny Machado",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2095
+      },
+      {
         "player_name": "Christian Walker",
         "team": "Houston Astros",
         "opponent_pitcher": "Zebby Matthews",
@@ -218,6 +234,14 @@
         "venue": "Yankee Stadium",
         "lineup_spot": 4,
         "p_hr": 0.2007
+      },
+      {
+        "player_name": "Ty France",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1967
       },
       {
         "player_name": "Willson Contreras",
@@ -242,30 +266,6 @@
         "venue": "Daikin Park",
         "lineup_spot": 1,
         "p_hr": 0.1869
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Casey Mize",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1817
-      },
-      {
-        "player_name": "Matt Vierling",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1718
-      },
-      {
-        "player_name": "Hao-Yu Lee",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.1706
       }
     ],
     "calibration": [
@@ -343,12 +343,12 @@
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 16,
+    "today_count": 17,
     "total_graded": 39,
     "since_date": "2026-06-27",
     "brier_score": 0.1022,
     "naive_brier": 0.25,
-    "avg_lambda": 4.84,
+    "avg_lambda": 4.82,
     "over_rate": 0.128,
     "top10_today": [
       {
