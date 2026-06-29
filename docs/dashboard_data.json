@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-29",
   "hits": {
-    "today_count": 18,
+    "today_count": 234,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -11,84 +11,84 @@
     "actual_hit_rate": null,
     "top10_today": [
       {
-        "player_name": "Sam Antonacci",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Otto Lopez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Sean Sullivan",
+        "venue": "Coors Field",
         "lineup_spot": 1,
-        "p_hit": 0.7118
+        "p_hit": 0.8131
       },
       {
-        "player_name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Sandy Alcantara",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7752
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7604
+      },
+      {
+        "player_name": "Xavier Edwards",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Sean Sullivan",
+        "venue": "Coors Field",
         "lineup_spot": 2,
-        "p_hit": 0.6687
+        "p_hit": 0.7602
       },
       {
-        "player_name": "Tristan Peters",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 7,
-        "p_hit": 0.6503
-      },
-      {
-        "player_name": "Randal Grichuk",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 5,
-        "p_hit": 0.6404
-      },
-      {
-        "player_name": "Kyle Teel",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "TJ Rumfield",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Sandy Alcantara",
+        "venue": "Coors Field",
         "lineup_spot": 4,
-        "p_hit": 0.6372
+        "p_hit": 0.7489
       },
       {
-        "player_name": "Chase Meidroth",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 8,
-        "p_hit": 0.6334
-      },
-      {
-        "player_name": "Taylor Ward",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Ceddanne Rafaela",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Fenway Park",
         "lineup_spot": 2,
-        "p_hit": 0.6307
+        "p_hit": 0.7464
       },
       {
-        "player_name": "Blaze Alexander",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 8,
-        "p_hit": 0.6275
-      },
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Andrew Vaughn",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "American Family Field",
         "lineup_spot": 4,
-        "p_hit": 0.6268
+        "p_hit": 0.7456
       },
       {
-        "player_name": "Braden Montgomery",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "William Contreras",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "American Family Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7435
+      },
+      {
+        "player_name": "Troy Johnston",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Sandy Alcantara",
+        "venue": "Coors Field",
         "lineup_spot": 6,
-        "p_hit": 0.6235
+        "p_hit": 0.7435
+      },
+      {
+        "player_name": "Esteury Ruiz",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Sean Sullivan",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7424
       }
     ],
     "calibration": [],
@@ -96,7 +96,7 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 234,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -105,84 +105,84 @@
     "actual_hr_rate": null,
     "top10_today": [
       {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 4,
-        "p_hr": 0.1526
-      },
-      {
-        "player_name": "Colson Montgomery",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Nick Kurtz",
+        "team": "Athletics",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "Sutter Health Park",
         "lineup_spot": 3,
-        "p_hr": 0.1373
+        "p_hr": 0.2529
       },
       {
-        "player_name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Daikin Park",
         "lineup_spot": 2,
-        "p_hr": 0.1302
+        "p_hr": 0.2481
       },
       {
-        "player_name": "Gunnar Henderson",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 1,
-        "p_hr": 0.1247
-      },
-      {
-        "player_name": "Samuel Basallo",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 5,
-        "p_hr": 0.1223
-      },
-      {
-        "player_name": "Randal Grichuk",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 5,
-        "p_hr": 0.1189
-      },
-      {
-        "player_name": "Colton Cowser",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 7,
-        "p_hr": 0.1179
-      },
-      {
-        "player_name": "Adley Rutschman",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Sandy Alcantara",
+        "venue": "Coors Field",
         "lineup_spot": 3,
-        "p_hr": 0.11
+        "p_hr": 0.2475
       },
       {
-        "player_name": "Jackson Holliday",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 9,
-        "p_hr": 0.1045
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2466
       },
       {
-        "player_name": "Kyle Teel",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Brandon Lowe",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2428
+      },
+      {
+        "player_name": "Shea Langeliers",
+        "team": "Athletics",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2379
+      },
+      {
+        "player_name": "Jonah Heim",
+        "team": "Athletics",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "Sutter Health Park",
         "lineup_spot": 4,
-        "p_hr": 0.0962
+        "p_hr": 0.2266
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Braxton Ashcraft",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2223
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Griffin Canning",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2179
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 5,
+        "p_hr": 0.2161
       }
     ],
     "calibration": [],
