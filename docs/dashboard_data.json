@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-06-29",
   "hits": {
-    "today_count": 0,
+    "today_count": 108,
     "total_graded": 1378,
     "since_date": "2026-06-20",
     "brier_score": 0.2367,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6431,
     "actual_hit_rate": 0.6118,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Ceddanne Rafaela",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Fenway Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7338
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7208
+      },
+      {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Fenway Park",
+        "lineup_spot": 4,
+        "p_hit": 0.7118
+      },
+      {
+        "player_name": "Sam Antonacci",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Shane Baz",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 1,
+        "p_hit": 0.7118
+      },
+      {
+        "player_name": "Masataka Yoshida",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Fenway Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7094
+      },
+      {
+        "player_name": "Nathan Lukes",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Sean Manaea",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hit": 0.7075
+      },
+      {
+        "player_name": "Wilyer Abreu",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Fenway Park",
+        "lineup_spot": 3,
+        "p_hit": 0.6967
+      },
+      {
+        "player_name": "Ernie Clement",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Sean Manaea",
+        "venue": "Rogers Centre",
+        "lineup_spot": 5,
+        "p_hit": 0.6927
+      },
+      {
+        "player_name": "Anthony Seigler",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Fenway Park",
+        "lineup_spot": 7,
+        "p_hit": 0.6816
+      },
+      {
+        "player_name": "Chase DeLauter",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Tyler Alexander",
+        "venue": "Progressive Field",
+        "lineup_spot": 3,
+        "p_hit": 0.6795
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -98,14 +179,95 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 108,
     "total_graded": 1225,
     "since_date": "2026-06-21",
     "brier_score": 0.104,
     "naive_brier": 0.235,
     "avg_predicted": 0.1214,
     "actual_hr_rate": 0.12,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2508
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2481
+      },
+      {
+        "player_name": "Christian Walker",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Daikin Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2041
+      },
+      {
+        "player_name": "Spencer Torkelson",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2007
+      },
+      {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Fenway Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1906
+      },
+      {
+        "player_name": "Isaac Paredes",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Daikin Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1904
+      },
+      {
+        "player_name": "Jose Altuve",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Daikin Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1869
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Casey Mize",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.1817
+      },
+      {
+        "player_name": "Matt Vierling",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.1718
+      },
+      {
+        "player_name": "Hao-Yu Lee",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.1706
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -181,14 +343,115 @@
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 0,
+    "today_count": 16,
     "total_graded": 39,
     "since_date": "2026-06-27",
     "brier_score": 0.1022,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.84,
     "over_rate": 0.128,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 5.5,
+        "lambda_k": 5.89,
+        "p_over": 0.5362,
+        "p_under": 0.4638
+      },
+      {
+        "pitcher_name": "Ryan Weathers",
+        "team": "New York Yankees",
+        "opponent": "Detroit Tigers",
+        "venue": "Yankee Stadium",
+        "line": 5.5,
+        "lambda_k": 5.75,
+        "p_over": 0.5135,
+        "p_under": 0.4865
+      },
+      {
+        "pitcher_name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "opponent": "Texas Rangers",
+        "venue": "Progressive Field",
+        "line": 5.5,
+        "lambda_k": 5.7,
+        "p_over": 0.5045,
+        "p_under": 0.4955
+      },
+      {
+        "pitcher_name": "Ranger Suarez",
+        "team": "Boston Red Sox",
+        "opponent": "Washington Nationals",
+        "venue": "Fenway Park",
+        "line": 5.5,
+        "lambda_k": 5.37,
+        "p_over": 0.4481,
+        "p_under": 0.5519
+      },
+      {
+        "pitcher_name": "Shane Baz",
+        "team": "Baltimore Orioles",
+        "opponent": "Chicago White Sox",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 5.5,
+        "lambda_k": 5.34,
+        "p_over": 0.4442,
+        "p_under": 0.5558
+      },
+      {
+        "pitcher_name": "Aaron Nola",
+        "team": "Philadelphia Phillies",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Citizens Bank Park",
+        "line": 5.5,
+        "lambda_k": 5.33,
+        "p_over": 0.441,
+        "p_under": 0.559
+      },
+      {
+        "pitcher_name": "Casey Mize",
+        "team": "Detroit Tigers",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 5.5,
+        "lambda_k": 5.28,
+        "p_over": 0.4337,
+        "p_under": 0.5663
+      },
+      {
+        "pitcher_name": "Shota Imanaga",
+        "team": "Chicago Cubs",
+        "opponent": "San Diego Padres",
+        "venue": "Wrigley Field",
+        "line": 5.5,
+        "lambda_k": 5.1,
+        "p_over": 0.4021,
+        "p_under": 0.5979
+      },
+      {
+        "pitcher_name": "Trey Yesavage",
+        "team": "Toronto Blue Jays",
+        "opponent": "New York Mets",
+        "venue": "Rogers Centre",
+        "line": 5.5,
+        "lambda_k": 4.86,
+        "p_over": 0.3599,
+        "p_under": 0.6401
+      },
+      {
+        "pitcher_name": "Peter Lambert",
+        "team": "Houston Astros",
+        "opponent": "Minnesota Twins",
+        "venue": "Daikin Park",
+        "line": 5.5,
+        "lambda_k": 4.76,
+        "p_over": 0.3417,
+        "p_under": 0.6583
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -248,13 +511,13 @@
         "home_team": "Brazil",
         "away_team": "Japan",
         "stage": "Round of 32",
-        "xg_home": 2.05,
-        "xg_away": 2.89,
-        "p_home": 0.2704,
-        "p_draw": 0.1738,
-        "p_away": 0.5558,
-        "over_2_5": 0.8674,
-        "btts": 0.8205,
+        "xg_home": 1.88,
+        "xg_away": 2.62,
+        "p_home": 0.2758,
+        "p_draw": 0.1843,
+        "p_away": 0.5399,
+        "over_2_5": 0.8254,
+        "btts": 0.7849,
         "graded": false,
         "result": null
       },
