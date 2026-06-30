@@ -9,3 +9,4 @@ venv/
 # don't commit it, but keep the directory in version control.
 data/ledger/*.csv
 !data/ledger/.gitkeep
+ai-alpha-labs/
