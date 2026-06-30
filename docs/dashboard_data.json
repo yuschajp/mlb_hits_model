@@ -1,18 +1,1652 @@
 {
   "generated_at": "2026-06-30",
-  "hits": {},
-  "hr": {},
-  "k": {},
-  "wc": {},
-  "tennis": {},
+  "hits": {
+    "today_count": 72,
+    "total_graded": 1504,
+    "since_date": "2026-06-20",
+    "brier_score": 0.236,
+    "recent_brier_score": 0.2373,
+    "naive_brier": 0.235,
+    "avg_predicted": 0.6409,
+    "actual_hit_rate": 0.6144,
+    "top10_today": [
+      {
+        "player_name": "Ozzie Albies",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7411
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hit": 0.7377
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 4,
+        "p_hit": 0.7322
+      },
+      {
+        "player_name": "Mauricio Dub\u00f3n",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 5,
+        "p_hit": 0.7092
+      },
+      {
+        "player_name": "Drake Baldwin",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 1,
+        "p_hit": 0.6919
+      },
+      {
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hit": 0.6847
+      },
+      {
+        "player_name": "Konnor Griffin",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hit": 0.6837
+      },
+      {
+        "player_name": "Brandon Marsh",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Bubba Chandler",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hit": 0.682
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6775
+      },
+      {
+        "player_name": "Eli White",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 6,
+        "p_hit": 0.6644
+      }
+    ],
+    "calibration": [
+      {
+        "range": "0.4-0.6",
+        "n": 369,
+        "predicted": 0.566,
+        "actual": 0.585
+      },
+      {
+        "range": "0.6-0.8",
+        "n": 1113,
+        "predicted": 0.662,
+        "actual": 0.621
+      },
+      {
+        "range": "0.8-1.0",
+        "n": 22,
+        "predicted": 0.822,
+        "actual": 0.773
+      }
+    ],
+    "returns": [
+      {
+        "date": "2026-06-20",
+        "n_bets": 154,
+        "n_wins": 103,
+        "daily_pnl": 42.636,
+        "cumulative_pnl": 42.636
+      },
+      {
+        "date": "2026-06-21",
+        "n_bets": 202,
+        "n_wins": 134,
+        "daily_pnl": 53.818,
+        "cumulative_pnl": 96.455
+      },
+      {
+        "date": "2026-06-22",
+        "n_bets": 132,
+        "n_wins": 72,
+        "daily_pnl": 5.455,
+        "cumulative_pnl": 101.909
+      },
+      {
+        "date": "2026-06-23",
+        "n_bets": 104,
+        "n_wins": 66,
+        "daily_pnl": 22.0,
+        "cumulative_pnl": 123.909
+      },
+      {
+        "date": "2026-06-24",
+        "n_bets": 89,
+        "n_wins": 55,
+        "daily_pnl": 16.0,
+        "cumulative_pnl": 139.909
+      },
+      {
+        "date": "2026-06-25",
+        "n_bets": 49,
+        "n_wins": 28,
+        "daily_pnl": 4.455,
+        "cumulative_pnl": 144.364
+      },
+      {
+        "date": "2026-06-26",
+        "n_bets": 123,
+        "n_wins": 74,
+        "daily_pnl": 18.273,
+        "cumulative_pnl": 162.636
+      },
+      {
+        "date": "2026-06-27",
+        "n_bets": 75,
+        "n_wins": 51,
+        "daily_pnl": 22.364,
+        "cumulative_pnl": 185.0
+      },
+      {
+        "date": "2026-06-28",
+        "n_bets": 128,
+        "n_wins": 74,
+        "daily_pnl": 13.273,
+        "cumulative_pnl": 198.273
+      },
+      {
+        "date": "2026-06-29",
+        "n_bets": 80,
+        "n_wins": 51,
+        "daily_pnl": 17.364,
+        "cumulative_pnl": 215.636
+      }
+    ],
+    "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
+  },
+  "hr": {
+    "today_count": 72,
+    "total_graded": 1351,
+    "since_date": "2026-06-21",
+    "brier_score": 0.1013,
+    "naive_brier": 0.235,
+    "avg_predicted": 0.1219,
+    "actual_hr_rate": 0.1162,
+    "top10_today": [
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Bubba Chandler",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2253
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2109
+      },
+      {
+        "player_name": "Drake Baldwin",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2057
+      },
+      {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "Progressive Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1945
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Bubba Chandler",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1894
+      },
+      {
+        "player_name": "Corey Seager",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "Progressive Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1826
+      },
+      {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Erick Fedde",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 4,
+        "p_hr": 0.1816
+      },
+      {
+        "player_name": "Ozzie Albies",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1815
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 4,
+        "p_hr": 0.173
+      },
+      {
+        "player_name": "Mauricio Dub\u00f3n",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Truist Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1655
+      }
+    ],
+    "calibration": [
+      {
+        "range": "0.0-0.2",
+        "n": 1310,
+        "predicted": 0.119,
+        "actual": 0.111
+      },
+      {
+        "range": "0.2-0.4",
+        "n": 41,
+        "predicted": 0.222,
+        "actual": 0.293
+      }
+    ],
+    "returns": [
+      {
+        "date": "2026-06-21",
+        "n_bets": 52,
+        "n_wins": 8,
+        "daily_pnl": -16.0,
+        "cumulative_pnl": -16.0
+      },
+      {
+        "date": "2026-06-22",
+        "n_bets": 40,
+        "n_wins": 1,
+        "daily_pnl": -35.5,
+        "cumulative_pnl": -51.5
+      },
+      {
+        "date": "2026-06-23",
+        "n_bets": 19,
+        "n_wins": 0,
+        "daily_pnl": -19.0,
+        "cumulative_pnl": -70.5
+      },
+      {
+        "date": "2026-06-24",
+        "n_bets": 20,
+        "n_wins": 2,
+        "daily_pnl": -11.0,
+        "cumulative_pnl": -81.5
+      },
+      {
+        "date": "2026-06-25",
+        "n_bets": 10,
+        "n_wins": 4,
+        "daily_pnl": 8.0,
+        "cumulative_pnl": -73.5
+      },
+      {
+        "date": "2026-06-26",
+        "n_bets": 38,
+        "n_wins": 8,
+        "daily_pnl": -2.0,
+        "cumulative_pnl": -75.5
+      },
+      {
+        "date": "2026-06-27",
+        "n_bets": 11,
+        "n_wins": 3,
+        "daily_pnl": 2.5,
+        "cumulative_pnl": -73.0
+      },
+      {
+        "date": "2026-06-28",
+        "n_bets": 42,
+        "n_wins": 11,
+        "daily_pnl": 7.5,
+        "cumulative_pnl": -65.5
+      },
+      {
+        "date": "2026-06-29",
+        "n_bets": 33,
+        "n_wins": 3,
+        "daily_pnl": -19.5,
+        "cumulative_pnl": -85.0
+      }
+    ],
+    "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
+  },
+  "k": {
+    "today_count": 12,
+    "total_graded": 56,
+    "since_date": "2026-06-27",
+    "brier_score": 0.1255,
+    "naive_brier": 0.25,
+    "avg_lambda": 5.17,
+    "over_rate": 0.179,
+    "top10_today": [
+      {
+        "pitcher_name": "Cristopher S\u00e1nchez",
+        "team": "Philadelphia Phillies",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 6.96,
+        "p_over": 0.5436,
+        "p_under": 0.4564
+      },
+      {
+        "pitcher_name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "opponent": "Detroit Tigers",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 6.58,
+        "p_over": 0.4857,
+        "p_under": 0.5143
+      },
+      {
+        "pitcher_name": "Jacob deGrom",
+        "team": "Texas Rangers",
+        "opponent": "Cleveland Guardians",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 5.93,
+        "p_over": 0.3823,
+        "p_under": 0.6177
+      },
+      {
+        "pitcher_name": "Kevin Gausman",
+        "team": "Toronto Blue Jays",
+        "opponent": "New York Mets",
+        "venue": "Rogers Centre",
+        "line": 6.5,
+        "lambda_k": 5.41,
+        "p_over": 0.3005,
+        "p_under": 0.6995
+      },
+      {
+        "pitcher_name": "Trey Gibson",
+        "team": "Baltimore Orioles",
+        "opponent": "Chicago White Sox",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.09,
+        "p_over": 0.2509,
+        "p_under": 0.7491
+      },
+      {
+        "pitcher_name": "Cade Cavalli",
+        "team": "Washington Nationals",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 4.96,
+        "p_over": 0.2318,
+        "p_under": 0.7682
+      },
+      {
+        "pitcher_name": "Tanner Bibee",
+        "team": "Cleveland Guardians",
+        "opponent": "Texas Rangers",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 4.92,
+        "p_over": 0.2266,
+        "p_under": 0.7734
+      },
+      {
+        "pitcher_name": "Bubba Chandler",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 4.88,
+        "p_over": 0.2212,
+        "p_under": 0.7788
+      },
+      {
+        "pitcher_name": "Erick Fedde",
+        "team": "Chicago White Sox",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 4.46,
+        "p_over": 0.1641,
+        "p_under": 0.8359
+      },
+      {
+        "pitcher_name": "Matthew Liberatore",
+        "team": "St. Louis Cardinals",
+        "opponent": "Atlanta Braves",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 4.36,
+        "p_over": 0.1509,
+        "p_under": 0.8491
+      }
+    ],
+    "calibration": [
+      {
+        "range": "0.0-0.2",
+        "n": 18,
+        "predicted": 0.143,
+        "actual": 0.0
+      },
+      {
+        "range": "0.2-0.4",
+        "n": 26,
+        "predicted": 0.273,
+        "actual": 0.154
+      },
+      {
+        "range": "0.4-0.6",
+        "n": 12,
+        "predicted": 0.473,
+        "actual": 0.5
+      }
+    ]
+  },
+  "wc": {
+    "today_count": 12,
+    "total_graded": 4,
+    "brier_home": 0.3377,
+    "naive_brier": 0.222,
+    "matches_today": [
+      {
+        "home_team": "France",
+        "away_team": "Sweden",
+        "stage": "Round of 32",
+        "xg_home": 1.66,
+        "xg_away": 2.4,
+        "p_home": 0.2634,
+        "p_draw": 0.1937,
+        "p_away": 0.5429,
+        "over_2_5": 0.7696,
+        "btts": 0.7354,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Ivory Coast",
+        "away_team": "Norway",
+        "stage": "Round of 32",
+        "xg_home": 0.97,
+        "xg_away": 2.29,
+        "p_home": 0.1461,
+        "p_draw": 0.1849,
+        "p_away": 0.6689,
+        "over_2_5": 0.6317,
+        "btts": 0.5581,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Mexico",
+        "away_team": "Ecuador",
+        "stage": "Round of 32",
+        "xg_home": 2.18,
+        "xg_away": 1.97,
+        "p_home": 0.4394,
+        "p_draw": 0.2021,
+        "p_away": 0.3585,
+        "over_2_5": 0.7821,
+        "btts": 0.7624,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "England",
+        "away_team": "DR Congo",
+        "stage": "Round of 32",
+        "xg_home": 1.86,
+        "xg_away": 1.74,
+        "p_home": 0.4157,
+        "p_draw": 0.2188,
+        "p_away": 0.3655,
+        "over_2_5": 0.6981,
+        "btts": 0.6967,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "USA",
+        "away_team": "Bosnia & Herzegovina",
+        "stage": "Round of 32",
+        "xg_home": 1.56,
+        "xg_away": 1.46,
+        "p_home": 0.4009,
+        "p_draw": 0.2415,
+        "p_away": 0.3576,
+        "over_2_5": 0.5828,
+        "btts": 0.6076,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Belgium",
+        "away_team": "Senegal",
+        "stage": "Round of 32",
+        "xg_home": 1.3,
+        "xg_away": 2.62,
+        "p_home": 0.171,
+        "p_draw": 0.1722,
+        "p_away": 0.6568,
+        "over_2_5": 0.7487,
+        "btts": 0.6735,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Portugal",
+        "away_team": "Croatia",
+        "stage": "Round of 32",
+        "xg_home": 1.45,
+        "xg_away": 2.36,
+        "p_home": 0.2278,
+        "p_draw": 0.1935,
+        "p_away": 0.5786,
+        "over_2_5": 0.7314,
+        "btts": 0.6918,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Spain",
+        "away_team": "Austria",
+        "stage": "Round of 32",
+        "xg_home": 1.17,
+        "xg_away": 3.3,
+        "p_home": 0.097,
+        "p_draw": 0.1226,
+        "p_away": 0.7804,
+        "over_2_5": 0.816,
+        "btts": 0.6591,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Switzerland",
+        "away_team": "Algeria",
+        "stage": "Round of 32",
+        "xg_home": 1.3,
+        "xg_away": 1.68,
+        "p_home": 0.2976,
+        "p_draw": 0.2394,
+        "p_away": 0.463,
+        "over_2_5": 0.5716,
+        "btts": 0.5914,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Argentina",
+        "away_team": "Cape Verde",
+        "stage": "Round of 32",
+        "xg_home": 2.62,
+        "xg_away": 1.56,
+        "p_home": 0.6025,
+        "p_draw": 0.1798,
+        "p_away": 0.2177,
+        "over_2_5": 0.7864,
+        "btts": 0.7322,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Colombia",
+        "away_team": "Ghana",
+        "stage": "Round of 32",
+        "xg_home": 1.74,
+        "xg_away": 1.56,
+        "p_home": 0.4224,
+        "p_draw": 0.2291,
+        "p_away": 0.3484,
+        "over_2_5": 0.6417,
+        "btts": 0.6521,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Australia",
+        "away_team": "Egypt",
+        "stage": "Round of 32",
+        "xg_home": 1.11,
+        "xg_away": 1.96,
+        "p_home": 0.2116,
+        "p_draw": 0.2176,
+        "p_away": 0.5708,
+        "over_2_5": 0.5928,
+        "btts": 0.5765,
+        "graded": false,
+        "result": null
+      }
+    ]
+  },
+  "tennis": {
+    "today_count": 66,
+    "total_graded": 7,
+    "accuracy": 0.0,
+    "matches": [
+      {
+        "tour": "atp",
+        "round": "Adrian Mannarino (FRA) bt Titouan Droguet (FRA) 6-2 6-4 6-1",
+        "player_a": "Adrian Mannarino",
+        "player_b": "Titouan Droguet",
+        "elo_a": 1465.1,
+        "elo_b": 1486.0,
+        "p_a_wins": 0.47,
+        "winner": "Adrian Mannarino"
+      },
+      {
+        "tour": "atp",
+        "round": "Maria Sakkari (GRE) bt (24) Clara Tauson (DEN) 6-3 6-3",
+        "player_a": "Maria Sakkari",
+        "player_b": "Clara Tauson",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Maria Sakkari"
+      },
+      {
+        "tour": "atp",
+        "round": "Tyra Caterina Grant (ITA) bt Katie Boulter (GBR) 6-4 6-2",
+        "player_a": "Tyra Caterina Grant",
+        "player_b": "Katie Boulter",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Tyra Caterina Grant"
+      },
+      {
+        "tour": "atp",
+        "round": "Katie Swan (GBR) bt Irina-Camelia Begu (ROM) 6-4 6-4",
+        "player_a": "Katie Swan",
+        "player_b": "Irina-Camelia Begu",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Katie Swan"
+      },
+      {
+        "tour": "atp",
+        "round": "Karolina Pliskova (CZE) bt Tereza Valentova (CZE) 6-3 6-4",
+        "player_a": "Karolina Pliskova",
+        "player_b": "Tereza Valentova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Karolina Pliskova"
+      },
+      {
+        "tour": "atp",
+        "round": "Sofia Kenin (USA) bt Petra Marcinko (CRO) 7-6 (7-4) 6-4",
+        "player_a": "Sofia Kenin",
+        "player_b": "Petra Marcinko",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Sofia Kenin"
+      },
+      {
+        "tour": "atp",
+        "round": "(6) Amanda Anisimova (USA) bt Lina Gjorcheska (MKD) 6-3 6-2",
+        "player_a": "Amanda Anisimova",
+        "player_b": "Lina Gjorcheska",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Amanda Anisimova"
+      },
+      {
+        "tour": "atp",
+        "round": "Sho Shimabukuro (JPN) leads Jaime Faria (POR) 6-7 (6-8) 3-6 2-2",
+        "player_a": "Jaime Faria",
+        "player_b": "Sho Shimabukuro",
+        "elo_a": 1419.1,
+        "elo_b": 1508.6,
+        "p_a_wins": 0.374,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Valentin Royer (FRA) leads Harry Wendelken (GBR) 4-6 6-3 2-2",
+        "player_a": "Harry Wendelken",
+        "player_b": "Valentin Royer",
+        "elo_a": 1500.0,
+        "elo_b": 1492.2,
+        "p_a_wins": 0.5112,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Kamil Majchrzak (POL) leads (30) Alejandro Tabilo (CHI) 6-3 7-5 4-3",
+        "player_a": "Alejandro Tabilo",
+        "player_b": "Kamil Majchrzak",
+        "elo_a": 1542.8,
+        "elo_b": 1544.2,
+        "p_a_wins": 0.498,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Yannick Hanfmann (GER) leads Giovanni Mpetshi Perricard (FRA) 6-7 (6-8) 6-6",
+        "player_a": "Giovanni Mpetshi Perricard",
+        "player_b": "Yannick Hanfmann",
+        "elo_a": 1516.0,
+        "elo_b": 1507.9,
+        "p_a_wins": 0.5116,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Otto Virtanen (FIN) leads (4) Ben Shelton (USA) 3-3",
+        "player_a": "Ben Shelton",
+        "player_b": "Otto Virtanen",
+        "elo_a": 1546.6,
+        "elo_b": 1468.7,
+        "p_a_wins": 0.6104,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Alex Michelsen (USA) leads Jacob Fearnley (GBR) 3-2",
+        "player_a": "Jacob Fearnley",
+        "player_b": "Alex Michelsen",
+        "elo_a": 1486.9,
+        "elo_b": 1519.5,
+        "p_a_wins": 0.4532,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Roman Andres Burruchaga (ARG) leads (5) Alex de Minaur (AUS) 3-0",
+        "player_a": "Roman Andres Burruchaga",
+        "player_b": "Alex de Minaur",
+        "elo_a": 1469.1,
+        "elo_b": 1616.6,
+        "p_a_wins": 0.2996,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(32) Matteo Arnaldi (ITA) leads Quentin Halys (FRA) 2-2",
+        "player_a": "Quentin Halys",
+        "player_b": "Matteo Arnaldi",
+        "elo_a": 1477.3,
+        "elo_b": 1507.0,
+        "p_a_wins": 0.4573,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Damir Dzumhur (BIH) leads Arthur Fery (GBR) 1-1",
+        "player_a": "Arthur Fery",
+        "player_b": "Damir Dzumhur",
+        "elo_a": 1485.8,
+        "elo_b": 1458.2,
+        "p_a_wins": 0.5396,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Jesper de Jong (NED) leads Rinky Hijikata (AUS) 7-6 (7-4) 3-6 5-5",
+        "player_a": "Rinky Hijikata",
+        "player_b": "Jesper de Jong",
+        "elo_a": 1448.7,
+        "elo_b": 1517.3,
+        "p_a_wins": 0.4026,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Zachary Svajda",
+        "player_b": "Pablo Llamas Ruiz",
+        "elo_a": 1452.3,
+        "elo_b": 1492.0,
+        "p_a_wins": 0.4432,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Zizou Bergs",
+        "player_b": "Ugo Humbert",
+        "elo_a": 1522.2,
+        "elo_b": 1529.3,
+        "p_a_wins": 0.4898,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Dusan Lajovic",
+        "player_b": "Taylor Fritz",
+        "elo_a": 1450.4,
+        "elo_b": 1680.9,
+        "p_a_wins": 0.2097,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Gabriel Diallo",
+        "player_b": "Benjamin Bonzi",
+        "elo_a": 1565.2,
+        "elo_b": 1493.0,
+        "p_a_wins": 0.6025,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Alexander Bublik",
+        "player_b": "Thanasi Kokkinakis",
+        "elo_a": 1580.3,
+        "elo_b": 1534.8,
+        "p_a_wins": 0.5651,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Francisco Cerundolo",
+        "player_b": "Jaume Munar",
+        "elo_a": 1554.6,
+        "elo_b": 1518.3,
+        "p_a_wins": 0.552,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(28) Brandon Nakashima (USA) bt Jack Pinnington Jones (GBR) 6-3 7-6 (7-5) 4-3",
+        "player_a": "Jack Pinnington Jones",
+        "player_b": "Brandon Nakashima",
+        "elo_a": 1489.8,
+        "elo_b": 1563.6,
+        "p_a_wins": 0.3953,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Vilius Gaubas",
+        "player_b": "Kyrian Jacquet",
+        "elo_a": 1487.0,
+        "elo_b": 1494.4,
+        "p_a_wins": 0.4893,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Tomas Martin Etcheverry",
+        "player_b": "Lorenzo Sonego",
+        "elo_a": 1486.9,
+        "elo_b": 1517.4,
+        "p_a_wins": 0.4562,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Mackenzie McDonald",
+        "player_b": "Patrick Kypson",
+        "elo_a": 1464.5,
+        "elo_b": 1476.4,
+        "p_a_wins": 0.4828,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Marcos Giron",
+        "player_b": "Corentin Moutet",
+        "elo_a": 1552.5,
+        "elo_b": 1554.8,
+        "p_a_wins": 0.4967,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Toby Samuel",
+        "player_b": "Jakub Mensik",
+        "elo_a": 1500.0,
+        "elo_b": 1538.7,
+        "p_a_wins": 0.4445,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Arthur Fils",
+        "player_b": "Raphael Collignon",
+        "elo_a": 1588.2,
+        "elo_b": 1502.4,
+        "p_a_wins": 0.6211,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Billy Harris",
+        "player_b": "Karen Khachanov",
+        "elo_a": 1502.7,
+        "elo_b": 1563.3,
+        "p_a_wins": 0.4137,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Alexander Zverev",
+        "player_b": "Alexander Blockx",
+        "elo_a": 1607.9,
+        "elo_b": 1483.1,
+        "p_a_wins": 0.6723,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Terence Atmane",
+        "player_b": "Frances Tiafoe",
+        "elo_a": 1459.2,
+        "elo_b": 1528.6,
+        "p_a_wins": 0.4015,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Jan Choinski",
+        "player_b": "Vit Kopriva",
+        "elo_a": 1463.9,
+        "elo_b": 1442.9,
+        "p_a_wins": 0.5301,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Daniel Altmaier",
+        "player_b": "Alex Molcan",
+        "elo_a": 1474.5,
+        "elo_b": 1513.2,
+        "p_a_wins": 0.4445,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Flavio Cobolli",
+        "player_b": "Mariano Navone",
+        "elo_a": 1546.3,
+        "elo_b": 1468.8,
+        "p_a_wins": 0.6097,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "James Duckworth",
+        "player_b": "Tallon Griekspoor",
+        "elo_a": 1462.2,
+        "elo_b": 1559.9,
+        "p_a_wins": 0.3629,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Alexei Popyrin",
+        "player_b": "Jiri Lehecka",
+        "elo_a": 1507.1,
+        "elo_b": 1602.1,
+        "p_a_wins": 0.3666,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Grigor Dimitrov",
+        "player_b": "Dane Sweeny",
+        "elo_a": 1606.0,
+        "elo_b": 1468.9,
+        "p_a_wins": 0.6877,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Matteo Berrettini",
+        "player_b": "Stan Wawrinka",
+        "elo_a": 1578.6,
+        "elo_b": 1422.8,
+        "p_a_wins": 0.7104,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Talia Gibson (AUS) leads (21) Marie Bouzkova (CZE) 1-6 6-3 0-0",
+        "player_a": "Marie Bouzkova",
+        "player_b": "Talia Gibson",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(13) Jasmine Paolini (ITA) leads Robin Montgomery (USA) 0-6 6-4 2-2",
+        "player_a": "Robin Montgomery",
+        "player_b": "Jasmine Paolini",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Anhelina Kalinina (UKR) leads Kamilla Rakhimova (UZB) 6-4 4-6 0-0",
+        "player_a": "Kamilla Rakhimova",
+        "player_b": "Anhelina Kalinina",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(26) Madison Keys (USA) is tied with Kayla Day (USA) 6-7 (5-7) 4-3",
+        "player_a": "Madison Keys",
+        "player_b": "Kayla Day",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Maria Timofeeva",
+        "player_b": "Beatriz Haddad Maia",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Viktorija Golubic",
+        "player_b": "Iryna Shymanovich",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Alina Korneeva",
+        "player_b": "Kimberly Birrell",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Iga Swiatek",
+        "player_b": "Taylor Townsend",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Leolia Jeanjean",
+        "player_b": "Veronika Erjavec",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Paula Badosa",
+        "player_b": "Emma Navarro",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Anna Blinkova",
+        "player_b": "Yuliia Starodubtseva",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Sinja Kraus",
+        "player_b": "Oksana Selekhmeteva",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Daria Snigur",
+        "player_b": "Elina Svitolina",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Renata Zarazua",
+        "player_b": "Alexandra Eala",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Elena Rybakina",
+        "player_b": "Lois Boisson",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Laura Siegemund",
+        "player_b": "Elise Mertens",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Catherine McNally",
+        "player_b": "Elena-Gabriela Ruse",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Sara Bejlek",
+        "player_b": "Sorana Cirstea",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Simona Waltert",
+        "player_b": "Camila Osorio",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Liudmila Samsonova",
+        "player_b": "Polina Kudermetova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Eva Lys",
+        "player_b": "Diana Shnaider",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Mariam Bolkvadze",
+        "player_b": "Ajla Tomljanovic",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Marta Kostyuk",
+        "player_b": "Nadia Podoroska",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Donna Vekic",
+        "player_b": "Ashlyn Krueger",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Maya Joint",
+        "player_b": "Serena Williams",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": null,
+        "player_a": "Linda Noskova",
+        "player_b": "Ella Seidel",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      }
+    ]
+  },
   "picks": {
     "singles": [],
     "parlays": [],
     "round_robins": []
   },
   "f1": {
-    "quali": {},
-    "race": {},
+    "quali": {
+      "circuit": "Spielberg",
+      "meeting_key": 1288,
+      "graded": true,
+      "grid": [
+        {
+          "predicted_grid": 1,
+          "actual_grid": 4,
+          "driver_id": "ANT",
+          "driver_name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "p_pole": 0.3534,
+          "p_q3": 1.0,
+          "gap_predicted": 0.0
+        },
+        {
+          "predicted_grid": 2,
+          "actual_grid": 1,
+          "driver_id": "RUS",
+          "driver_name": "George Russell",
+          "team": "Mercedes",
+          "p_pole": 0.3596,
+          "p_q3": 1.0,
+          "gap_predicted": 0.0042
+        },
+        {
+          "predicted_grid": 3,
+          "actual_grid": 3,
+          "driver_id": "HAM",
+          "driver_name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "p_pole": 0.1316,
+          "p_q3": 1.0,
+          "gap_predicted": 0.1269
+        },
+        {
+          "predicted_grid": 4,
+          "actual_grid": 5,
+          "driver_id": "VER",
+          "driver_name": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "p_pole": 0.0574,
+          "p_q3": 1.0,
+          "gap_predicted": 0.2181
+        },
+        {
+          "predicted_grid": 5,
+          "actual_grid": 6,
+          "driver_id": "NOR",
+          "driver_name": "Lando Norris",
+          "team": "McLaren",
+          "p_pole": 0.04,
+          "p_q3": 0.9998,
+          "gap_predicted": 0.2501
+        },
+        {
+          "predicted_grid": 6,
+          "actual_grid": 7,
+          "driver_id": "PIA",
+          "driver_name": "Oscar Piastri",
+          "team": "McLaren",
+          "p_pole": 0.0398,
+          "p_q3": 1.0,
+          "gap_predicted": 0.254
+        },
+        {
+          "predicted_grid": 7,
+          "actual_grid": 2,
+          "driver_id": "LEC",
+          "driver_name": "Charles Leclerc",
+          "team": "Ferrari",
+          "p_pole": 0.018,
+          "p_q3": 1.0,
+          "gap_predicted": 0.3216
+        },
+        {
+          "predicted_grid": 8,
+          "actual_grid": 8,
+          "driver_id": "HAD",
+          "driver_name": "Isack Hadjar",
+          "team": "Red Bull Racing",
+          "p_pole": 0.0002,
+          "p_q3": 0.9966,
+          "gap_predicted": 0.6519
+        },
+        {
+          "predicted_grid": 9,
+          "actual_grid": 9,
+          "driver_id": "LAW",
+          "driver_name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "p_pole": 0.0,
+          "p_q3": 0.9758,
+          "gap_predicted": 0.7721
+        },
+        {
+          "predicted_grid": 10,
+          "actual_grid": 10,
+          "driver_id": "LIN",
+          "driver_name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "p_pole": 0.0,
+          "p_q3": 0.5428,
+          "gap_predicted": 1.1219
+        },
+        {
+          "predicted_grid": 11,
+          "actual_grid": 14,
+          "driver_id": "HUL",
+          "driver_name": "Nico Hulkenberg",
+          "team": "Audi",
+          "p_pole": 0.0,
+          "p_q3": 0.1966,
+          "gap_predicted": 1.2665
+        },
+        {
+          "predicted_grid": 12,
+          "actual_grid": 16,
+          "driver_id": "COL",
+          "driver_name": "Franco Colapinto",
+          "team": "Alpine",
+          "p_pole": 0.0,
+          "p_q3": 0.141,
+          "gap_predicted": 1.3016
+        },
+        {
+          "predicted_grid": 13,
+          "actual_grid": 11,
+          "driver_id": "GAS",
+          "driver_name": "Pierre Gasly",
+          "team": "Alpine",
+          "p_pole": 0.0,
+          "p_q3": 0.1338,
+          "gap_predicted": 1.3234
+        },
+        {
+          "predicted_grid": 14,
+          "actual_grid": 13,
+          "driver_id": "BEA",
+          "driver_name": "Oliver Bearman",
+          "team": "Haas F1 Team",
+          "p_pole": 0.0,
+          "p_q3": 0.0078,
+          "gap_predicted": 1.6074
+        },
+        {
+          "predicted_grid": 15,
+          "actual_grid": 18,
+          "driver_id": "ALB",
+          "driver_name": "Alexander Albon",
+          "team": "Williams",
+          "p_pole": 0.0,
+          "p_q3": 0.0028,
+          "gap_predicted": 1.6876
+        },
+        {
+          "predicted_grid": 16,
+          "actual_grid": 17,
+          "driver_id": "SAI",
+          "driver_name": "Carlos Sainz",
+          "team": "Williams",
+          "p_pole": 0.0,
+          "p_q3": 0.0012,
+          "gap_predicted": 1.7069
+        },
+        {
+          "predicted_grid": 17,
+          "actual_grid": 12,
+          "driver_id": "BOR",
+          "driver_name": "Gabriel Bortoleto",
+          "team": "Audi",
+          "p_pole": 0.0,
+          "p_q3": 0.0012,
+          "gap_predicted": 1.7136
+        },
+        {
+          "predicted_grid": 18,
+          "actual_grid": 15,
+          "driver_id": "OCO",
+          "driver_name": "Esteban Ocon",
+          "team": "Haas F1 Team",
+          "p_pole": 0.0,
+          "p_q3": 0.0006,
+          "gap_predicted": 1.8089
+        },
+        {
+          "predicted_grid": 19,
+          "actual_grid": 19,
+          "driver_id": "PER",
+          "driver_name": "Sergio Perez",
+          "team": "Cadillac",
+          "p_pole": 0.0,
+          "p_q3": 0.0,
+          "gap_predicted": 2.6519
+        },
+        {
+          "predicted_grid": 20,
+          "actual_grid": 20,
+          "driver_id": "BOT",
+          "driver_name": "Valtteri Bottas",
+          "team": "Cadillac",
+          "p_pole": 0.0,
+          "p_q3": 0.0,
+          "gap_predicted": 2.946
+        },
+        {
+          "predicted_grid": 21,
+          "actual_grid": 21,
+          "driver_id": "ALO",
+          "driver_name": "Fernando Alonso",
+          "team": "Aston Martin",
+          "p_pole": 0.0,
+          "p_q3": 0.0,
+          "gap_predicted": 3.2275
+        },
+        {
+          "predicted_grid": 22,
+          "actual_grid": 22,
+          "driver_id": "STR",
+          "driver_name": "Lance Stroll",
+          "team": "Aston Martin",
+          "p_pole": 0.0,
+          "p_q3": 0.0,
+          "gap_predicted": 3.5002
+        }
+      ],
+      "stats": {
+        "total_graded": 22,
+        "pole_brier": 0.0254,
+        "q3_brier": 0.013,
+        "avg_pos_error": 1.55,
+        "within_3_spots": 0.864
+      }
+    },
+    "race": {
+      "race_name": "Austrian GP",
+      "race_date": "2026-06-28",
+      "round": 1288,
+      "top10": [
+        {
+          "driver_name": "George Russell",
+          "team": "Mercedes",
+          "grid": 1,
+          "p_podium": 0.9775,
+          "p_points": 0.9853
+        },
+        {
+          "driver_name": "Charles Leclerc",
+          "team": "Ferrari",
+          "grid": 2,
+          "p_podium": 0.944,
+          "p_points": 0.9709
+        },
+        {
+          "driver_name": "Lewis Hamilton",
+          "team": "Ferrari",
+          "grid": 3,
+          "p_podium": 0.939,
+          "p_points": 0.969
+        },
+        {
+          "driver_name": "Kimi Antonelli",
+          "team": "Mercedes",
+          "grid": 4,
+          "p_podium": 0.93,
+          "p_points": 0.9655
+        },
+        {
+          "driver_name": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "grid": 5,
+          "p_podium": 0.8382,
+          "p_points": 0.9335
+        },
+        {
+          "driver_name": "Lando Norris",
+          "team": "McLaren",
+          "grid": 6,
+          "p_podium": 0.7991,
+          "p_points": 0.9201
+        },
+        {
+          "driver_name": "Oscar Piastri",
+          "team": "McLaren",
+          "grid": 7,
+          "p_podium": 0.7349,
+          "p_points": 0.8983
+        },
+        {
+          "driver_name": "Isack Hadjar",
+          "team": "Red Bull Racing",
+          "grid": 8,
+          "p_podium": 0.4634,
+          "p_points": 0.7879
+        },
+        {
+          "driver_name": "Liam Lawson",
+          "team": "Racing Bulls",
+          "grid": 9,
+          "p_podium": 0.3386,
+          "p_points": 0.7161
+        },
+        {
+          "driver_name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "grid": 10,
+          "p_podium": 0.2417,
+          "p_points": 0.6399
+        }
+      ]
+    },
     "history": []
   }
 }
