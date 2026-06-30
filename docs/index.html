@@ -381,6 +381,7 @@
   <div class="tab" onclick="switchTab('hr')">Home Run Model</div>
   <div class="tab" onclick="switchTab('k')">Strikeouts</div>
   <div class="tab" onclick="switchTab('wc')">World Cup</div>
+  <div class="tab" onclick="switchTab('tennis')">Tennis</div>
   <div class="tab" onclick="switchTab('f1')">F1 Racing</div>
 </nav>
 
@@ -513,6 +514,35 @@
     </div>
   </div>
 
+  <!-- TENNIS PANEL -->
+  <div class="panel" id="panel-tennis">
+    <div class="panel-grid">
+      <div class="card" style="grid-column: 1 / -1">
+        <div class="card-header">
+          <span class="card-title">Wimbledon — Match Predictions (Elo)</span>
+          <span class="card-badge" id="tennis-date"></span>
+        </div>
+        <div style="padding:0">
+          <table class="cal-table" id="tennis-matches">
+            <thead>
+              <tr>
+                <th>Tour</th>
+                <th>Round</th>
+                <th>Player A</th>
+                <th>Elo A</th>
+                <th>Player B</th>
+                <th>Elo B</th>
+                <th>P(A wins)</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- F1 PANEL -->
   <div class="panel" id="panel-f1">
     <div class="panel-grid">
@@ -565,7 +595,7 @@
 
 <script>
   function switchTab(name) {
-    const tabNames = ['hits', 'hr', 'k', 'wc', 'f1'];
+    const tabNames = ['hits', 'hr', 'k', 'wc', 'tennis', 'f1'];
     document.querySelectorAll('.tab').forEach((t, i) => {
       t.classList.toggle('active', tabNames[i] === name);
     });
@@ -574,6 +604,28 @@
   }
 
   function pct(v) { return v != null ? (v * 100).toFixed(1) + '%' : '—'; }
+
+  function renderTennisMatches(matches) {
+    const tbody = document.querySelector('#tennis-matches tbody');
+    if (!matches || matches.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="8" style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No tennis predictions yet — run scripts/run_daily_tennis.py</td></tr>';
+      return;
+    }
+    tbody.innerHTML = matches.map(m => {
+      const aFav = m.p_a_wins > 0.5;
+      const result = m.winner ? `<span style="color:var(--accent)">${m.winner}</span>` : '—';
+      return `<tr>
+        <td style="font-family:var(--mono);font-size:11px;text-transform:uppercase;color:var(--muted)">${m.tour}</td>
+        <td style="font-family:var(--mono);font-size:11px;color:var(--muted)">${m.round}</td>
+        <td style="font-weight:${aFav?'600':'400'};color:${aFav?'var(--accent)':'var(--text)'}">${m.player_a}</td>
+        <td style="font-family:var(--mono)">${m.elo_a}</td>
+        <td style="font-weight:${!aFav?'600':'400'};color:${!aFav?'var(--accent)':'var(--text)'}">${m.player_b}</td>
+        <td style="font-family:var(--mono)">${m.elo_b}</td>
+        <td style="font-family:var(--mono);color:${aFav?'var(--accent)':'var(--text)'}">${pct(m.p_a_wins)}</td>
+        <td>${result}</td>
+      </tr>`;
+    }).join('');
+  }
 
   function renderWCMatches(matches) {
     document.getElementById('wc-date').textContent = matches?.length ? 'Today' : '';
@@ -767,6 +819,9 @@
       document.getElementById('k-date').textContent = d.generated_at ?? '';
       renderKPitchers('k-top10', d.k?.top10_today);
       renderCal('k-cal', d.k?.calibration);
+
+      // Tennis tab
+      renderTennisMatches(d.tennis?.matches);
 
       // F1 tab
       const f1 = d.f1 ?? {};

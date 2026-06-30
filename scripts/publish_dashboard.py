@@ -28,6 +28,7 @@ HITS_LEDGER      = ROOT / "data" / "ledger" / "predictions_log.csv"
 HR_LEDGER        = ROOT / "data" / "ledger" / "hr_predictions_log.csv"
 K_LEDGER         = ROOT / "data" / "ledger" / "k_predictions_log.csv"
 WC_LEDGER        = ROOT / "data" / "ledger" / "wc_predictions_log.csv"
+TENNIS_LEDGER    = ROOT / "data" / "ledger" / "tennis_predictions_log.csv"
 VALUE_PICKS_HITS = ROOT / "data" / "value_picks_hits.json"
 VALUE_PICKS_HR   = ROOT / "data" / "value_picks_hr.json"
 OUT              = ROOT / "docs" / "dashboard_data.json"
@@ -389,6 +390,47 @@ def summarize_wc():
         return {}
 
 
+def summarize_tennis():
+    """Reads the tennis prediction ledger and returns dashboard summary."""
+    if not TENNIS_LEDGER.exists():
+        return {}
+    try:
+        df = pd.read_csv(TENNIS_LEDGER, parse_dates=["date"])
+        if df.empty:
+            return {}
+
+        today      = date.today()
+        today_rows = df[df["date"].dt.date == today]
+        graded     = df[df["graded"] == True].copy()  # noqa: E712
+
+        if not graded.empty:
+            graded["correct"] = (graded["p_a_wins"] > 0.5).astype(int)
+
+        matches = [
+            {
+                "tour":      r["tour"],
+                "round":     r["round"],
+                "player_a":  r["player_a"],
+                "player_b":  r["player_b"],
+                "elo_a":     round(float(r["elo_a"]), 1),
+                "elo_b":     round(float(r["elo_b"]), 1),
+                "p_a_wins":  round(float(r["p_a_wins"]), 4),
+                "winner":    r.get("winner", None),
+            }
+            for _, r in today_rows.iterrows()
+        ]
+
+        return {
+            "today_count":  len(today_rows),
+            "total_graded": len(graded),
+            "accuracy":     round(float(graded["correct"].mean()), 3) if not graded.empty else None,
+            "matches": matches,
+        }
+    except Exception as e:
+        print(f"  [warn] Could not read tennis ledger: {e}")
+        return {}
+
+
 def summarize_f1():
     """
     Reads qualifying and race prediction ledgers from the sibling f1_model
@@ -490,18 +532,27 @@ def main():
     f1_data = summarize_f1()
     k_data  = summarize_k()
     wc_data = summarize_wc()
+    tennis_data = summarize_tennis()
     payload = {
         "generated_at": today.isoformat(),
         "hits":  summarize_hits(HITS_LEDGER),
         "hr":    summarize_hr(HR_LEDGER),
         "k":     k_data,
         "wc":    wc_data,
+        "tennis": tennis_data,
         "picks": _build_picks_payload(today),
         "f1":    f1_data,
     }
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps(payload, indent=2))
+    # Sanitize NaN/Inf values which are invalid JSON -- replace with null
+    clean = json.loads(
+        json.dumps(payload, indent=2)
+        .replace(': NaN', ': null')
+        .replace(': Infinity', ': null')
+        .replace(': -Infinity', ': null')
+    )
+    OUT.write_text(json.dumps(clean, indent=2))
     print(f"Dashboard data written to {OUT}")
     print(f"  Hits: {payload['hits'].get('today_count', 0)} predictions today, "
           f"{payload['hits'].get('total_graded', 0)} graded total")
