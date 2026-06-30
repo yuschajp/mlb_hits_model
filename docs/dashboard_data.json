@@ -1,96 +1,15 @@
 {
-  "generated_at": "2026-06-29",
+  "generated_at": "2026-06-30",
   "hits": {
-    "today_count": 126,
+    "today_count": 0,
     "total_graded": 1378,
     "since_date": "2026-06-20",
     "brier_score": 0.2367,
-    "recent_brier_score": 0.2427,
+    "recent_brier_score": 0.2387,
     "naive_brier": 0.235,
     "avg_predicted": 0.6431,
     "actual_hit_rate": 0.6118,
-    "top10_today": [
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Griffin Canning",
-        "venue": "Wrigley Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7413
-      },
-      {
-        "player_name": "Ceddanne Rafaela",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Miles Mikolas",
-        "venue": "Fenway Park",
-        "lineup_spot": 2,
-        "p_hit": 0.7338
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Zebby Matthews",
-        "venue": "Daikin Park",
-        "lineup_spot": 2,
-        "p_hit": 0.7208
-      },
-      {
-        "player_name": "Sam Antonacci",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 1,
-        "p_hit": 0.7118
-      },
-      {
-        "player_name": "Willson Contreras",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Miles Mikolas",
-        "venue": "Fenway Park",
-        "lineup_spot": 4,
-        "p_hit": 0.7118
-      },
-      {
-        "player_name": "Masataka Yoshida",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Miles Mikolas",
-        "venue": "Fenway Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7094
-      },
-      {
-        "player_name": "Nathan Lukes",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Sean Manaea",
-        "venue": "Rogers Centre",
-        "lineup_spot": 2,
-        "p_hit": 0.7075
-      },
-      {
-        "player_name": "Wilyer Abreu",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Miles Mikolas",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6967
-      },
-      {
-        "player_name": "Ernie Clement",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Sean Manaea",
-        "venue": "Rogers Centre",
-        "lineup_spot": 5,
-        "p_hit": 0.6927
-      },
-      {
-        "player_name": "Anthony Seigler",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Miles Mikolas",
-        "venue": "Fenway Park",
-        "lineup_spot": 7,
-        "p_hit": 0.6816
-      }
-    ],
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -179,95 +98,14 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 126,
+    "today_count": 0,
     "total_graded": 1225,
     "since_date": "2026-06-21",
     "brier_score": 0.104,
     "naive_brier": 0.235,
     "avg_predicted": 0.1214,
     "actual_hr_rate": 0.12,
-    "top10_today": [
-      {
-        "player_name": "Dillon Dingler",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.2508
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Zebby Matthews",
-        "venue": "Daikin Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2481
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Griffin Canning",
-        "venue": "Wrigley Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2179
-      },
-      {
-        "player_name": "Manny Machado",
-        "team": "San Diego Padres",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Wrigley Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2095
-      },
-      {
-        "player_name": "Christian Walker",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Zebby Matthews",
-        "venue": "Daikin Park",
-        "lineup_spot": 4,
-        "p_hr": 0.2041
-      },
-      {
-        "player_name": "Spencer Torkelson",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.2007
-      },
-      {
-        "player_name": "Ty France",
-        "team": "San Diego Padres",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Wrigley Field",
-        "lineup_spot": 5,
-        "p_hr": 0.1967
-      },
-      {
-        "player_name": "Willson Contreras",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Miles Mikolas",
-        "venue": "Fenway Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1906
-      },
-      {
-        "player_name": "Isaac Paredes",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Zebby Matthews",
-        "venue": "Daikin Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1904
-      },
-      {
-        "player_name": "Jose Altuve",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Zebby Matthews",
-        "venue": "Daikin Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1869
-      }
-    ],
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -343,115 +181,14 @@
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 17,
+    "today_count": 0,
     "total_graded": 39,
     "since_date": "2026-06-27",
     "brier_score": 0.1022,
     "naive_brier": 0.25,
-    "avg_lambda": 4.82,
+    "avg_lambda": null,
     "over_rate": 0.128,
-    "top10_today": [
-      {
-        "pitcher_name": "Sean Burke",
-        "team": "Chicago White Sox",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 5.5,
-        "lambda_k": 5.89,
-        "p_over": 0.5362,
-        "p_under": 0.4638
-      },
-      {
-        "pitcher_name": "Ryan Weathers",
-        "team": "New York Yankees",
-        "opponent": "Detroit Tigers",
-        "venue": "Yankee Stadium",
-        "line": 5.5,
-        "lambda_k": 5.75,
-        "p_over": 0.5135,
-        "p_under": 0.4865
-      },
-      {
-        "pitcher_name": "Parker Messick",
-        "team": "Cleveland Guardians",
-        "opponent": "Texas Rangers",
-        "venue": "Progressive Field",
-        "line": 5.5,
-        "lambda_k": 5.7,
-        "p_over": 0.5045,
-        "p_under": 0.4955
-      },
-      {
-        "pitcher_name": "Ranger Suarez",
-        "team": "Boston Red Sox",
-        "opponent": "Washington Nationals",
-        "venue": "Fenway Park",
-        "line": 5.5,
-        "lambda_k": 5.37,
-        "p_over": 0.4481,
-        "p_under": 0.5519
-      },
-      {
-        "pitcher_name": "Shane Baz",
-        "team": "Baltimore Orioles",
-        "opponent": "Chicago White Sox",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 5.5,
-        "lambda_k": 5.34,
-        "p_over": 0.4442,
-        "p_under": 0.5558
-      },
-      {
-        "pitcher_name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "Citizens Bank Park",
-        "line": 5.5,
-        "lambda_k": 5.33,
-        "p_over": 0.441,
-        "p_under": 0.559
-      },
-      {
-        "pitcher_name": "Casey Mize",
-        "team": "Detroit Tigers",
-        "opponent": "New York Yankees",
-        "venue": "Yankee Stadium",
-        "line": 5.5,
-        "lambda_k": 5.28,
-        "p_over": 0.4337,
-        "p_under": 0.5663
-      },
-      {
-        "pitcher_name": "Shota Imanaga",
-        "team": "Chicago Cubs",
-        "opponent": "San Diego Padres",
-        "venue": "Wrigley Field",
-        "line": 5.5,
-        "lambda_k": 5.1,
-        "p_over": 0.4021,
-        "p_under": 0.5979
-      },
-      {
-        "pitcher_name": "Trey Yesavage",
-        "team": "Toronto Blue Jays",
-        "opponent": "New York Mets",
-        "venue": "Rogers Centre",
-        "line": 5.5,
-        "lambda_k": 4.86,
-        "p_over": 0.3599,
-        "p_under": 0.6401
-      },
-      {
-        "pitcher_name": "Peter Lambert",
-        "team": "Houston Astros",
-        "opponent": "Minnesota Twins",
-        "venue": "Daikin Park",
-        "line": 5.5,
-        "lambda_k": 4.76,
-        "p_over": 0.3417,
-        "p_under": 0.6583
-      }
-    ],
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -474,181 +211,13 @@
     ]
   },
   "wc": {
-    "today_count": 12,
+    "today_count": 0,
     "total_graded": 1,
     "brier_home": 0.0315,
     "naive_brier": 0.222,
-    "matches_today": [
-      {
-        "home_team": "Germany",
-        "away_team": "Paraguay",
-        "stage": "Round of 32",
-        "xg_home": 2.29,
-        "xg_away": 0.97,
-        "p_home": 0.6692,
-        "p_draw": 0.1849,
-        "p_away": 0.1459,
-        "over_2_5": 0.6315,
-        "btts": 0.5578,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Netherlands",
-        "away_team": "Morocco",
-        "stage": "Round of 32",
-        "xg_home": 2.62,
-        "xg_away": 1.63,
-        "p_home": 0.5891,
-        "p_draw": 0.1812,
-        "p_away": 0.2296,
-        "over_2_5": 0.7944,
-        "btts": 0.744,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Brazil",
-        "away_team": "Japan",
-        "stage": "Round of 32",
-        "xg_home": 1.88,
-        "xg_away": 2.62,
-        "p_home": 0.2758,
-        "p_draw": 0.1843,
-        "p_away": 0.5399,
-        "over_2_5": 0.8254,
-        "btts": 0.7849,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "France",
-        "away_team": "Sweden",
-        "stage": "Round of 32",
-        "xg_home": 1.66,
-        "xg_away": 2.4,
-        "p_home": 0.2634,
-        "p_draw": 0.1937,
-        "p_away": 0.5429,
-        "over_2_5": 0.7696,
-        "btts": 0.7354,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Ivory Coast",
-        "away_team": "Norway",
-        "stage": "Round of 32",
-        "xg_home": 0.94,
-        "xg_away": 2.62,
-        "p_home": 0.1121,
-        "p_draw": 0.1556,
-        "p_away": 0.7323,
-        "over_2_5": 0.6893,
-        "btts": 0.5649,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Mexico",
-        "away_team": "Ecuador",
-        "stage": "Round of 32",
-        "xg_home": 2.18,
-        "xg_away": 1.97,
-        "p_home": 0.4394,
-        "p_draw": 0.2021,
-        "p_away": 0.3585,
-        "over_2_5": 0.7821,
-        "btts": 0.7624,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "England",
-        "away_team": "DR Congo",
-        "stage": "Round of 32",
-        "xg_home": 1.86,
-        "xg_away": 1.74,
-        "p_home": 0.4157,
-        "p_draw": 0.2188,
-        "p_away": 0.3655,
-        "over_2_5": 0.6981,
-        "btts": 0.6967,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "USA",
-        "away_team": "Bosnia & Herzegovina",
-        "stage": "Round of 32",
-        "xg_home": 1.56,
-        "xg_away": 1.46,
-        "p_home": 0.4009,
-        "p_draw": 0.2415,
-        "p_away": 0.3576,
-        "over_2_5": 0.5828,
-        "btts": 0.6076,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Belgium",
-        "away_team": "Senegal",
-        "stage": "Round of 32",
-        "xg_home": 1.3,
-        "xg_away": 2.62,
-        "p_home": 0.171,
-        "p_draw": 0.1722,
-        "p_away": 0.6568,
-        "over_2_5": 0.7487,
-        "btts": 0.6735,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Portugal",
-        "away_team": "Croatia",
-        "stage": "Round of 32",
-        "xg_home": 1.45,
-        "xg_away": 2.36,
-        "p_home": 0.2278,
-        "p_draw": 0.1935,
-        "p_away": 0.5786,
-        "over_2_5": 0.7314,
-        "btts": 0.6918,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Spain",
-        "away_team": "Austria",
-        "stage": "Round of 32",
-        "xg_home": 1.17,
-        "xg_away": 3.3,
-        "p_home": 0.097,
-        "p_draw": 0.1226,
-        "p_away": 0.7804,
-        "over_2_5": 0.816,
-        "btts": 0.6591,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Switzerland",
-        "away_team": "Algeria",
-        "stage": "Round of 32",
-        "xg_home": 1.3,
-        "xg_away": 1.68,
-        "p_home": 0.2976,
-        "p_draw": 0.2394,
-        "p_away": 0.463,
-        "over_2_5": 0.5716,
-        "btts": 0.5914,
-        "graded": false,
-        "result": null
-      }
-    ]
+    "matches_today": []
   },
+  "tennis": {},
   "picks": {
     "singles": [],
     "parlays": [],
