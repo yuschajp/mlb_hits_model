@@ -28,6 +28,7 @@ HITS_LEDGER      = ROOT / "data" / "ledger" / "predictions_log.csv"
 HR_LEDGER        = ROOT / "data" / "ledger" / "hr_predictions_log.csv"
 K_LEDGER         = ROOT / "data" / "ledger" / "k_predictions_log.csv"
 WC_LEDGER        = ROOT / "data" / "ledger" / "wc_predictions_log.csv"
+WC_GS_LEDGER     = ROOT / "data" / "ledger" / "wc_gs_predictions_log.csv"
 TENNIS_LEDGER    = ROOT / "data" / "ledger" / "tennis_predictions_log.csv"
 VALUE_PICKS_HITS = ROOT / "data" / "value_picks_hits.json"
 VALUE_PICKS_HR   = ROOT / "data" / "value_picks_hr.json"
@@ -390,6 +391,72 @@ def summarize_wc():
         return {}
 
 
+def summarize_wc_gs():
+    """
+    Reads the WC anytime-goalscorer prediction ledger and returns a
+    summary for the dashboard. Mirrors summarize_wc() in structure, but
+    was previously missing entirely -- goalscorer predictions were being
+    generated and logged by run_daily_wc_gs.py, but nothing ever read
+    wc_gs_predictions_log.csv into the dashboard payload, so they never
+    reached docs/dashboard_data.json regardless of how often the pipeline
+    ran.
+    """
+    if not WC_GS_LEDGER.exists():
+        return {}
+    try:
+        df = pd.read_csv(WC_GS_LEDGER, parse_dates=["date"])
+        if df.empty:
+            return {}
+
+        today      = date.today()
+        today_rows = df[df["date"].dt.date == today]
+        graded     = df[df["graded"] == True].copy()  # noqa: E712
+        graded     = graded.dropna(subset=["actual_scored"])
+
+        top_today = (
+            today_rows.sort_values("p_scores", ascending=False)
+            .head(15)[["player", "team", "opponent", "home_team", "away_team",
+                       "tournament_goals", "lambda", "p_scores"]]
+            .to_dict(orient="records")
+        )
+
+        score = brier_score(graded, prob_col="p_scores", outcome_col="actual_scored") if not graded.empty else None
+        cal   = calibration_table(graded, prob_col="p_scores", outcome_col="actual_scored") if not graded.empty else None
+        cal_rows = cal.to_dict(orient="records") if cal is not None else []
+
+        return {
+            "today_count":  len(today_rows),
+            "total_graded": len(graded),
+            "since_date":   str(graded["date"].min().date()) if not graded.empty else None,
+            "brier_score":  round(score, 4) if score else None,
+            "naive_brier":  0.20,
+            "top15_today": [
+                {
+                    "player":            r["player"],
+                    "team":              r["team"],
+                    "opponent":          r["opponent"],
+                    "match":             f"{r['home_team']} vs {r['away_team']}",
+                    "tournament_goals":  int(r["tournament_goals"]),
+                    "lambda":            round(float(r["lambda"]), 3),
+                    "p_scores":          round(float(r["p_scores"]), 4),
+                }
+                for r in top_today
+            ],
+            "calibration": [
+                {
+                    "range":     r["PredRange"],
+                    "n":         int(r["N"]),
+                    "predicted": round(float(r["AvgPredicted"]), 3),
+                    "actual":    round(float(r["ActualFrequency"]), 3),
+                }
+                for r in cal_rows
+            ],
+        }
+    except Exception as e:
+        print(f"  [warn] Could not read WC goalscorer ledger: {e}")
+        return {}
+
+
 def summarize_tennis():
     """Reads the tennis prediction ledger and returns dashboard summary."""
     if not TENNIS_LEDGER.exists():
@@ -532,6 +599,7 @@ def main():
     f1_data = summarize_f1()
     k_data  = summarize_k()
     wc_data = summarize_wc()
+    wc_gs_data = summarize_wc_gs()
     tennis_data = summarize_tennis()
     payload = {
         "generated_at": today.isoformat(),
@@ -539,6 +607,7 @@ def main():
         "hr":    summarize_hr(HR_LEDGER),
         "k":     k_data,
         "wc":    wc_data,
+        "wc_gs": wc_gs_data,
         "tennis": tennis_data,
         "picks": _build_picks_payload(today),
         "f1":    f1_data,
@@ -560,6 +629,10 @@ def main():
           f"{payload['hr'].get('total_graded', 0)} graded total")
     print(f"  K:    {k_data.get('today_count', 0)} predictions today, "
           f"{k_data.get('total_graded', 0)} graded total")
+    print(f"  WC:   {wc_data.get('today_count', 0)} match predictions today, "
+          f"{wc_data.get('total_graded', 0)} graded total")
+    print(f"  WC-GS: {wc_gs_data.get('today_count', 0)} goalscorer predictions today, "
+          f"{wc_gs_data.get('total_graded', 0)} graded total")
     quali_graded = f1_data.get("quali", {}).get("stats", {}).get("total_graded", 0)
     print(f"  F1:   {len(f1_data.get('quali', {}).get('grid', []))} quali predictions, "
           f"{quali_graded} graded total")
