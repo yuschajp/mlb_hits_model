@@ -511,6 +511,13 @@
           </table>
         </div>
       </div>
+      <div class="card" style="grid-column: 1 / -1">
+        <div class="card-header">
+          <span class="card-title">Anytime Goalscorer Predictions</span>
+          <span class="card-badge" id="wc-gs-date"></span>
+        </div>
+        <div class="pred-table" id="wc-gs-top15"></div>
+      </div>
     </div>
   </div>
 
@@ -651,6 +658,27 @@
         <td style="font-family:var(--mono)">${pct(m.btts)}</td>
         <td>${result}</td>
       </tr>`;
+    }).join('');
+  }
+
+  function renderWCGoalscorers(rows) {
+    const el = document.getElementById('wc-gs-top15');
+    document.getElementById('wc-gs-date').textContent = rows?.length ? 'Today' : '';
+    if (!rows || rows.length === 0) {
+      el.innerHTML = '<div class="empty">No goalscorer predictions logged today yet — run scripts/run_daily_wc_gs.py</div>';
+      return;
+    }
+    el.innerHTML = rows.map((r, i) => {
+      const probColor = r.p_scores > 0.5 ? 'var(--accent)' : r.p_scores > 0.3 ? 'var(--warn)' : 'var(--muted)';
+      return `
+      <div class="pred-row">
+        <span class="pred-rank">${i + 1}</span>
+        <div>
+          <div class="pred-name">${r.player}</div>
+          <div class="pred-meta">${r.team} · ${r.match} · tourn. goals=${r.tournament_goals} · λ=${r.lambda}</div>
+        </div>
+        <div class="pred-prob" style="color:${probColor}">${pct(r.p_scores)}</div>
+      </div>`;
     }).join('');
   }
 
@@ -814,6 +842,7 @@
 
       // WC tab
       renderWCMatches(d.wc?.matches_today);
+      renderWCGoalscorers(d.wc_gs?.top15_today);
 
       // K tab
       document.getElementById('k-date').textContent = d.generated_at ?? '';
