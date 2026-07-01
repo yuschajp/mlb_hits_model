@@ -1,10 +1,10 @@
 """
 k_model.py
 
-Predicts P(pitcher records Over X strikeouts) using a Poisson model.
+Predicts P(pitcher records Over X strikeouts).
 
     lambda = blended_k_per_9 * opponent_k_rate_factor * expected_innings / 9
-    P(over line) = 1 - sum(Poisson PMF for k=0 to floor(line))
+    P(over line) = 1 - sum(NB or Poisson PMF for k=0 to floor(line))
 
 Three inputs blended via empirical-Bayes shrinkage (same philosophy as
 hit_model.py and hr_model.py):
@@ -21,13 +21,39 @@ pitcher can accumulate. Uses the starter's season average innings/start,
 shrunk toward 5.5 (the rough modern-era average for starters who take
 the mound).
 
-Why Poisson works here: pitcher strikeout counts per start are well-
-approximated by a Poisson process -- each batter faced is an independent
-trial with a roughly constant K probability. This is more valid for Ks
-than for hits (where batter quality varies more across lineup slots) and
-HR (where park/weather effects are larger). The main violation is that
-K rate varies batter-to-batter through the order, but the aggregate
-per-game total is Poisson-distributed to a good approximation.
+--- Distribution: Poisson vs Negative Binomial ---
+
+Originally this used a pure Poisson model, on the reasoning that each
+batter faced is roughly an independent trial with constant K probability.
+That's a fine approximation for lambda itself, but rolling calibration
+(68 graded games, ledger since 2026-06-27) showed a specific pattern:
+
+    PredRange  N  AvgPredicted  ActualFrequency
+      0.0-0.2 22          0.14             0.05
+      0.2-0.4 32          0.27             0.22
+      0.4-0.6 14          0.48             0.50
+
+Bias concentrated in the low bucket, roughly fine in the middle -- that's
+the signature of overdispersion: start-to-start variance in Ks (command
+variance, bullpen hooks, umpire zone, matchup-specific whiff rates) is
+larger than Poisson's variance=mean assumption allows for. Poisson
+underweights the chance of a real blowout/bust game and compensates by
+smearing probability mass toward the middle, which inflates P(over) for
+pitchers whose true lambda is low.
+
+The fix: Negative Binomial with the same mean (lambda) but a fitted
+dispersion parameter alpha, where variance = lambda + alpha * lambda^2.
+alpha=0 recovers Poisson exactly, so this is a strict generalization, not
+a different model family.
+
+K_DISPERSION below defaults to 0.0 (pure Poisson, original behavior) so
+nothing changes until you set it. Fit alpha from graded games with
+fit_k_dispersion.py, then paste the result in here:
+
+    python3 fit_k_dispersion.py data/ledger/k_predictions_log.csv
+
+Re-fit periodically (e.g. every ~50 new graded games) as the sample grows
+and as roster/rule changes shift the true variance.
 """
 
 import math
@@ -35,6 +61,13 @@ import math
 LEAGUE_AVG_K_PER_9 = 8.9          # rough 2024-era MLB average for starters
 LEAGUE_AVG_INNINGS = 5.5           # average innings per start, modern era
 LEAGUE_AVG_OPP_K_RATE = 0.227      # league-average team K rate (K/PA)
+
+# Negative Binomial dispersion parameter for the strikeout count distribution.
+# variance = lambda + K_DISPERSION * lambda^2
+# 0.0 = pure Poisson (original behavior, variance == mean).
+# Fit this from graded games with fit_k_dispersion.py -- do not guess a
+# value by hand, the MLE fit is what makes this correction trustworthy.
+K_DISPERSION = 0.0
 
 
 def stabilized_k_per_9(ks, innings_pitched, prior_innings=50.0):
@@ -108,12 +141,42 @@ def _poisson_pmf(k, lam):
     return math.exp(-lam) * (lam ** k) / math.factorial(k)
 
 
+def _nb_pmf(k, mu, alpha):
+    """
+    Negative Binomial PMF parameterized by mean (mu) and dispersion
+    (alpha), where variance = mu + alpha * mu^2. Falls back to exact
+    Poisson when alpha is ~0, so this is safe to call unconditionally.
+    """
+    if mu <= 0:
+        return 1.0 if k == 0 else 0.0
+    if alpha <= 1e-8:
+        return _poisson_pmf(k, mu)
+    r = 1.0 / alpha
+    p = r / (r + mu)
+    log_pmf = (
+        math.lgamma(k + r)
+        - math.lgamma(r)
+        - math.lgamma(k + 1)
+        + r * math.log(p)
+        + k * math.log(1 - p)
+    )
+    return math.exp(log_pmf)
+
+
+def _count_pmf(k, lam, dispersion):
+    """Single switch point for the count distribution used everywhere
+    below -- change K_DISPERSION, not this function, unless you're
+    testing a different distribution family entirely."""
+    return _nb_pmf(k, lam, dispersion)
+
+
 def k_over_probability(season, recent, opp_k_rate,
                         avg_innings, n_starts, line,
-                        weights=(0.60, 0.40)):
+                        weights=(0.60, 0.40), dispersion=None):
     """
     Full pipeline: blended K/9 → opponent adjustment → expected innings
-    → Poisson lambda → P(over line).
+    → lambda → P(over line) via Negative Binomial (or Poisson if
+    dispersion is 0).
 
     season: (ks, innings_pitched) season-to-date
     recent: (ks, innings_pitched) last ~5 starts
@@ -121,9 +184,16 @@ def k_over_probability(season, recent, opp_k_rate,
     avg_innings: pitcher's average innings per start this season
     n_starts: number of starts made this season (for innings stabilization)
     line: the sportsbook's strikeout total (e.g. 6.5, 7.5)
+    dispersion: NB dispersion parameter. Defaults to module-level
+        K_DISPERSION if not passed explicitly -- pass this in only if you
+        want to override it for a specific call (e.g. A/B testing a new
+        fit before committing it to the module constant).
 
     Returns (p_over, p_under, expected_ks)
     """
+    if dispersion is None:
+        dispersion = K_DISPERSION
+
     base_k_per_9 = blended_k_per_9(season, recent, weights)
     opp_factor    = opponent_k_rate_factor(opp_k_rate)
     adjusted_k9   = base_k_per_9 * opp_factor
@@ -135,17 +205,19 @@ def k_over_probability(season, recent, opp_k_rate,
 
     # P(over line) = 1 - P(<=floor(line))
     threshold = math.floor(line)
-    p_under_or_eq = sum(_poisson_pmf(k, lam) for k in range(threshold + 1))
+    p_under_or_eq = sum(_count_pmf(k, lam, dispersion) for k in range(threshold + 1))
     p_over  = 1 - p_under_or_eq
     p_under = p_under_or_eq
 
     return round(p_over, 4), round(p_under, 4), round(lam, 3)
 
 
-def expected_k_distribution(lam, max_k=20):
+def expected_k_distribution(lam, max_k=20, dispersion=None):
     """
     Full probability distribution of K totals for a given lambda.
     Useful for pricing any Over/Under line from a single model run.
     Returns {k: probability} for k in 0..max_k.
     """
-    return {k: round(_poisson_pmf(k, lam), 5) for k in range(max_k + 1)}
+    if dispersion is None:
+        dispersion = K_DISPERSION
+    return {k: round(_count_pmf(k, lam, dispersion), 5) for k in range(max_k + 1)}
