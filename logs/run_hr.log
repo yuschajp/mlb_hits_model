@@ -233,3 +233,37 @@ San Francisco Giants @ Arizona Diamondbacks (Chase Field) [Scheduled]
   [skip] San Francisco Giants @ Arizona Diamondbacks: lineups not posted yet
 
 No confirmed lineups available yet -- try again closer to first pitch.
+/Users/victoria/Documents/anaconda3/lib/python3.11/site-packages/pandas/core/arrays/masked.py:61: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.5' currently installed).
+  from pandas.core import (
+Found 14 games today (2026-07-01).
+
+Chicago White Sox @ Baltimore Orioles (Oriole Park at Camden Yards) [Pre-Game]
+  [skip] Chicago White Sox batters: no probable pitcher found for Baltimore Orioles
+Texas Rangers @ Cleveland Guardians (Progressive Field) [Pre-Game]
+  [skip] Cleveland Guardians batters: no probable pitcher found for Texas Rangers
+Washington Nationals @ Boston Red Sox (Fenway Park) [Scheduled]
+  [skip] Washington Nationals @ Boston Red Sox: lineups not posted yet
+Detroit Tigers @ New York Yankees (Yankee Stadium) [Scheduled]
+  [skip] Detroit Tigers @ New York Yankees: lineups not posted yet
+San Diego Padres @ Chicago Cubs (Wrigley Field) [Scheduled]
+  [skip] San Diego Padres @ Chicago Cubs: lineups not posted yet
+New York Mets @ Toronto Blue Jays (Rogers Centre) [Scheduled]
+  [skip] New York Mets @ Toronto Blue Jays: lineups not posted yet
+Pittsburgh Pirates @ Philadelphia Phillies (Citizens Bank Park) [Scheduled]
+  [skip] Pittsburgh Pirates @ Philadelphia Phillies: lineups not posted yet
+St. Louis Cardinals @ Atlanta Braves (Truist Park) [Scheduled]
+  [skip] St. Louis Cardinals @ Atlanta Braves: lineups not posted yet
+Tampa Bay Rays @ Kansas City Royals (Kauffman Stadium) [Scheduled]
+  [skip] Tampa Bay Rays @ Kansas City Royals: lineups not posted yet
+Minnesota Twins @ Houston Astros (Daikin Park) [Scheduled]
+  [skip] Minnesota Twins @ Houston Astros: lineups not posted yet
+Cincinnati Reds @ Milwaukee Brewers (American Family Field) [Scheduled]
+  [skip] Cincinnati Reds @ Milwaukee Brewers: lineups not posted yet
+Miami Marlins @ Colorado Rockies (Coors Field) [Scheduled]
+  [skip] Miami Marlins @ Colorado Rockies: lineups not posted yet
+Los Angeles Dodgers @ Athletics (Sutter Health Park) [Scheduled]
+  [skip] Los Angeles Dodgers @ Athletics: lineups not posted yet
+San Francisco Giants @ Arizona Diamondbacks (Chase Field) [Scheduled]
+  [skip] San Francisco Giants @ Arizona Diamondbacks: lineups not posted yet
+
+No confirmed lineups available yet -- try again closer to first pitch.
