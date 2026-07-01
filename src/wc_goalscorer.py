@@ -12,7 +12,40 @@ Model:
 Data source: openfootball worldcup.json (already used for match predictions)
 -- goalscorer names and minutes are embedded in each completed match.
 
-Limitations:
+--- Bug fix: minutes tracked per goal instead of per match appearance ---
+
+The original version incremented `minutes` by EXPECTED_MINUTES every time
+a goal was recorded, inside the per-goal loop. That meant minutes was
+always exactly `goals * EXPECTED_MINUTES` for every player -- so
+`observed = (goals / minutes) * 90` reduced to a constant
+(90 / EXPECTED_MINUTES) for every player who had scored at least once,
+completely independent of how many goals they'd actually scored. This
+was caught because it produced identical lambda/P(scores) values across
+unrelated players (defenders and attackers alike) who happened to share a
+goal count -- e.g. every 1-goal scorer got the exact same probability.
+
+It also double-counted minutes within a single match: a brace or
+hat-trick added 160 or 240 minutes of "playing time" for one 90-minute
+game, since the loop increments minutes once per goal event rather than
+once per match.
+
+Fix: track minutes per unique match the player is known to have appeared
+in (via goals1/goals2 entries), not per goal. A hat-trick in one match
+now correctly contributes one match's worth of minutes, and goals/minutes
+varies properly across players instead of being a fixed identity.
+
+Remaining limitation (unchanged from before, and NOT fixable from this
+data source alone): openfootball only tells us which matches a player
+scored in, not which matches they played in without scoring. A player
+who scored in 1 of 5 appearances will still be scored as if they only
+played 1 game, inflating their apparent rate relative to a similarly
+-skilled player who happened to play more scoreless minutes. Fixing this
+properly requires real appearance/lineup data per player across all
+matches (scored or not), not just goalscorer events -- flagging this so
+it isn't mistaken for solved. Treat P(scores) outputs as directional
+until that data is sourced.
+
+Limitations (original, still applicable):
     - Small sample (only tournament games, 2-3 per player max)
     - No position data (strikers vs defenders treated equally)
     - Expected minutes defaulted to 80 (assumes starter)
@@ -37,18 +70,26 @@ def extract_goalscorers(completed_matches):
     completed_matches: list of match dicts from wc_data_client.get_all_completed_matches()
     but we need the raw data with goals1/goals2 arrays.
 
+    Minutes are tracked per unique match appearance (via a match key, not
+    goal count) so a multi-goal game only contributes one match's worth
+    of minutes -- see module docstring for why this matters.
+
     Returns:
         player_stats: {player_name: {"goals": int, "minutes": float, "team": str}}
         team_defense: {team_name: {"goals_conceded": int, "matches": int}}
     """
     player_stats  = defaultdict(lambda: {"goals": 0, "minutes": 0.0, "team": ""})
     team_defense  = defaultdict(lambda: {"goals_conceded": 0, "matches": 0})
+    player_matches_seen = defaultdict(set)  # name -> set of match keys already credited minutes
 
-    for m in completed_matches:
+    for match_idx, m in enumerate(completed_matches):
         home  = m.get("home_team", "")
         away  = m.get("away_team", "")
         hg    = m.get("home_goals", 0) or 0
         ag    = m.get("away_goals", 0) or 0
+
+        # Use a stable per-match key; fall back to index if no explicit id
+        match_key = m.get("match_id", match_idx)
 
         # Defense ratings
         team_defense[home]["goals_conceded"] += ag
@@ -61,22 +102,34 @@ def extract_goalscorers(completed_matches):
             name = scorer.get("name", "").strip()
             if not name:
                 continue
-            player_stats[name]["goals"]   += 1
-            player_stats[name]["minutes"] += EXPECTED_MINUTES
-            player_stats[name]["team"]     = home
+            player_stats[name]["goals"] += 1
+            player_stats[name]["team"]   = home
+            # Only credit minutes once per match, no matter how many
+            # goals this player scored in it (fixes brace/hat-trick
+            # double-counting and the goals-cancel-out identity bug)
+            if match_key not in player_matches_seen[name]:
+                player_stats[name]["minutes"] += EXPECTED_MINUTES
+                player_matches_seen[name].add(match_key)
 
         for scorer in m.get("goals2", []):
             name = scorer.get("name", "").strip()
             if not name:
                 continue
-            player_stats[name]["goals"]   += 1
-            player_stats[name]["minutes"] += EXPECTED_MINUTES
-            player_stats[name]["team"]     = away
+            player_stats[name]["goals"] += 1
+            player_stats[name]["team"]   = away
+            if match_key not in player_matches_seen[name]:
+                player_stats[name]["minutes"] += EXPECTED_MINUTES
+                player_matches_seen[name].add(match_key)
 
         # Players who played but didn't score also need minutes tracked
         # We can't know who played from openfootball without lineup data,
         # so we only track confirmed scorers -- this means non-scorers
-        # default to the league average prior (correct Bayesian behavior)
+        # default to the league average prior (correct Bayesian behavior).
+        # NOTE: this also means a scorer's minutes only reflect matches
+        # where they scored, not all matches they appeared in -- see
+        # module docstring "Remaining limitation" for why this still
+        # understates minutes for players who scored in only some of
+        # their appearances.
 
     return dict(player_stats), dict(team_defense)
 
