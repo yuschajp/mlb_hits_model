@@ -7,17 +7,65 @@ Poisson model fitted on tournament results so far.
 For each team, we maintain:
   attack_rating  -- goals scored per 90 min, shrunk toward tournament avg
   defense_rating -- goals conceded per 90 min, shrunk toward tournament avg
+                    (LOWER = stronger defense, since it's goals *conceded*)
 
 Expected goals in a match:
-  xG_A = attack_A * (1/defense_B) * home_factor * tournament_avg_goals
-  xG_B = attack_B * (1/defense_A) * tournament_avg_goals
+  xG_A = attack_A * (defense_B / tournament_avg_goals)
+  xG_B = attack_B * (defense_A / tournament_avg_goals)
+
+--- Bug fix: inverted defense term ---
+
+The previous version computed:
+    xg_a = attack_a * avg / defense_b
+
+Since defense_b is "goals conceded per game" (lower = better defense),
+dividing by it is backwards: it means facing a STRONGER defense (lower
+defense_b) produced a HIGHER expected goals for the attacking team, and
+facing a WEAKER defense (higher defense_b) suppressed it. That's the
+opposite of reality.
+
+This was caught on the Belgium vs Senegal Round of 32 prediction: Belgium
+had conceded only 2 goals in 3 group games (defense=0.98, well below the
+1.30 tournament average -- a strong defense), while Senegal had conceded
+6 goals in 3 games including two losses (defense=1.65, a leaky defense).
+The buggy formula divided Senegal's attack by Belgium's low defense
+number, inflating Senegal's expected goals specifically BECAUSE Belgium's
+defense was good -- and produced Away 65.7% / Home 17.1%, with Senegal
+favored despite a losing group-stage record. The corrected formula
+(multiplying by defense_b/avg instead of dividing by defense_b) flips
+this to Home 51.3% / Away 27.6%, which matches the actual underlying
+results far better.
+
+This bug likely explains why Home Brier (0.318) had been running worse
+than the naive 0.222 baseline while Away Brier (0.148) looked artificially
+good on the 7 graded matches so far: home teams were being systematically
+underrated whenever they had a genuinely strong defense, and away teams
+were being overrated when facing one. Re-grade and recheck calibration
+once more matches accumulate under the corrected formula.
 
 Match probabilities are computed by summing over all (i,j) goal combinations
-via independent Poisson distributions -- the core of Dixon-Coles.
+via independent Poisson distributions.
 
-Team ratings are initialized from FIFA ranking points (provided as input)
-and updated from tournament results via a simple Bayesian update. The
-prior is stronger for teams with fewer games played.
+--- Note: this is NOT full Dixon-Coles, despite earlier claims ---
+
+True Dixon-Coles adds a correlation correction term (tau) for low
+scorelines (0-0, 1-0, 0-1, 1-1) to correct for the empirically-observed
+fact that real match results are more correlated at low scores than
+independent Poisson predicts -- mainly, more draws than independent
+Poisson alone would produce. This model does NOT implement that
+correction; it's plain independent bivariate Poisson. This is a likely
+contributor to the known issue of draws being underweighted (Draw Brier
+0.217, barely beating the 0.222 naive baseline). Fixing this properly
+would mean implementing the actual tau adjustment, which is a separate,
+larger change from the defense-term bug fixed here -- flagging so it
+isn't mistaken for solved.
+
+Team ratings are updated from tournament results via a simple Bayesian
+shrinkage toward the tournament average. The prior is stronger for teams
+with fewer games played (PRIOR_GAMES=3.0 means a team with 3 games gets
+a 50/50 blend of observed rate and tournament average -- looser shrinkage
+than the K/HR models use, worth revisiting if ratings look unstable
+early in the tournament).
 """
 
 import math
@@ -92,7 +140,13 @@ def expected_goals(team_a, team_b, ratings, neutral_venue=True):
     team_a: attacking team name
     team_b: defending team name
     ratings: output of compute_team_ratings()
-    neutral_venue: World Cup knockout games are on neutral ground
+    neutral_venue: World Cup knockout games are on neutral ground. No
+        home-field-advantage term is currently modeled either way (this
+        parameter was previously accepted but silently unused -- flagging
+        that explicitly here rather than pretending it does something).
+        If you want home-field advantage for group-stage matches with a
+        genuine host-nation edge, that needs to be added as a real
+        multiplicative term, not implied by this flag.
 
     Returns (xg_a, xg_b)
     """
@@ -101,9 +155,15 @@ def expected_goals(team_a, team_b, ratings, neutral_venue=True):
     a = ratings.get(team_a, {"attack": avg, "defense": avg})
     b = ratings.get(team_b, {"attack": avg, "defense": avg})
 
-    # Dixon-Coles style expected goals
-    xg_a = (a["attack"] / avg) * (avg / b["defense"]) * avg
-    xg_b = (b["attack"] / avg) * (avg / a["defense"]) * avg
+    # Expected goals = attacker's scoring rate, scaled by how the
+    # opponent's defense compares to average. A defense number ABOVE
+    # average (leaky defense, concedes more than average) should SCALE
+    # UP the attacker's expected goals; a defense number BELOW average
+    # (stingy defense) should scale it DOWN. That means multiplying by
+    # (opponent_defense / avg), not dividing by opponent_defense -- see
+    # module docstring for the bug this replaces and why it mattered.
+    xg_a = a["attack"] * (b["defense"] / avg)
+    xg_b = b["attack"] * (a["defense"] / avg)
 
     # Clip to reasonable range
     xg_a = max(0.3, min(4.0, xg_a))
