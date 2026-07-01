@@ -65,9 +65,32 @@ LEAGUE_AVG_OPP_K_RATE = 0.227      # league-average team K rate (K/PA)
 # Negative Binomial dispersion parameter for the strikeout count distribution.
 # variance = lambda + K_DISPERSION * lambda^2
 # 0.0 = pure Poisson (original behavior, variance == mean).
-# Fit this from graded games with fit_k_dispersion.py -- do not guess a
-# value by hand, the MLE fit is what makes this correction trustworthy.
+#
+# NOTE: tested against 68 graded games via fit_k_dispersion.py and it did
+# NOT help -- fitted alpha=0.073 made the already-overconfident low-lambda
+# bucket worse (0.144->0.168 predicted vs 0.045 actual), because widening
+# the distribution around an already-too-high mean pushes MORE probability
+# past the line, not less. Leave this at 0.0 unless a future fit on a
+# larger sample shows a genuine improvement in the bucket table, not just
+# the aggregate log-likelihood.
 K_DISPERSION = 0.0
+
+# Empirical-Bayes shrinkage strength for season/recent K/9, in innings.
+# Higher = pulls harder toward LEAGUE_AVG_K_PER_9 for pitchers with less
+# data. diagnose_k_lambda_bias.py on the same 68 games found lambda_k is
+# overpredicted by ~0.7-0.9 Ks specifically for pitchers whose
+# season_k_per_9 is below the league average (~8.9), and the bias mostly
+# vanishes once season_k_per_9 crosses that line -- consistent with these
+# priors pulling weak-K pitchers up too hard. These were the original
+# hardcoded values (50.0 season / 20.0 recent); lowering them shrinks less
+# aggressively. This is an experiment, not a validated fix -- there was
+# not enough ledger history with season_ip/recent_ip logged to confirm the
+# innings-weighted relationship directly, only inferred through K/9
+# buckets as a proxy. Change one constant at a time, log predictions
+# forward for a few weeks, and re-run diagnose_k_lambda_bias.py on the new
+# data before trusting a change here.
+PRIOR_INNINGS_SEASON = 50.0
+PRIOR_INNINGS_RECENT = 20.0
 
 
 def stabilized_k_per_9(ks, innings_pitched, prior_innings=50.0):
@@ -99,8 +122,8 @@ def blended_k_per_9(season, recent, weights=(0.60, 0.40)):
     if abs(sum(weights) - 1.0) > 1e-6:
         raise ValueError("weights must sum to 1")
 
-    r_season = stabilized_k_per_9(*season, prior_innings=50.0)
-    r_recent = stabilized_k_per_9(*recent, prior_innings=20.0)
+    r_season = stabilized_k_per_9(*season, prior_innings=PRIOR_INNINGS_SEASON)
+    r_recent = stabilized_k_per_9(*recent, prior_innings=PRIOR_INNINGS_RECENT)
 
     return w_season * r_season + w_recent * r_recent
 

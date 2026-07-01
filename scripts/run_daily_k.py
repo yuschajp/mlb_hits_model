@@ -8,8 +8,24 @@ Run with: python3 scripts/run_daily_k.py
 
 The default line is 6.5 -- the most common strikeout total line offered by
 sportsbooks. If you want predictions at a different line (e.g. 5.5 or 7.5),
-use --line 5.5. The model computes the full Poisson distribution so any
-line can be priced from a single run.
+use --line 5.5. The model computes the full distribution so any line can
+be priced from a single run.
+
+--- season_ip / recent_ip columns ---
+
+Added after a bias diagnostic (diagnose_k_lambda_bias.py) on 68 graded
+games found lambda_k is overpredicted specifically for below-average
+season_k_per_9 pitchers (bias mostly vanishes once season_k_per_9 crosses
+~8.9, the league average) -- consistent with the empirical-Bayes
+shrinkage in k_model.py's stabilized_k_per_9 (prior_innings=50 for
+season, 20 for recent) pulling weak-K pitchers too hard toward league
+average. That hypothesis was only checkable indirectly through K/9
+buckets because the ledger didn't record how many innings backed each
+prediction -- shrinkage strength depends directly on innings pitched
+(weight = ip / (ip + prior_innings)), not on K/9 itself. These two new
+columns let future diagnostic runs regress bias directly against innings
+pitched, which is the actual lever, instead of inferring it through K/9
+as a proxy.
 """
 
 import argparse
@@ -30,6 +46,7 @@ K_COLUMNS = [
     "date", "game_pk", "pitcher_id", "pitcher_name", "team", "opponent",
     "venue", "park_factor", "line",
     "season_k_per_9", "recent_k_per_9", "opp_k_rate",
+    "season_ip", "recent_ip",
     "expected_innings", "lambda_k", "p_over", "p_under",
     "actual_ks", "graded",
 ]
@@ -50,6 +67,13 @@ def _upsert_predictions(rows, ledger_path):
 
     if ledger_path.exists():
         df_existing = pd.read_csv(ledger_path, parse_dates=["date"])
+        # Old rows won't have season_ip/recent_ip -- add as NaN so
+        # concat doesn't break. Diagnostic scripts should dropna on
+        # these columns when they need them, same as any other column.
+        for col in K_COLUMNS:
+            if col not in df_existing.columns:
+                df_existing[col] = None
+        df_existing = df_existing[K_COLUMNS]
         new_keys  = set(map(tuple, df_new[key_cols].astype(str).to_numpy()))
         exist_keys = df_existing[key_cols].astype(str).apply(tuple, axis=1)
         df_existing = df_existing[~exist_keys.isin(new_keys)]
@@ -110,6 +134,8 @@ def build_k_prediction(game, pitcher, side, opp_team_id, line, park_factors):
         "season_k_per_9":  round(season_k_per_9, 3),
         "recent_k_per_9":  round((recent_ks / recent_ip * 9) if recent_ip > 0 else LEAGUE_AVG_K_PER_9, 3),
         "opp_k_rate":      round(opp_k_rate, 4),
+        "season_ip":       round(season_ip, 1),
+        "recent_ip":       round(recent_ip, 1),
         "expected_innings": round(avg_ip, 2),
         "lambda_k":        lam,
         "p_over":          p_over,
