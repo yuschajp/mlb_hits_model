@@ -1,0 +1,7 @@
+{
+  "alpha": 0.07336532353302624,
+  "n_games": 68,
+  "nll_poisson": 156.9417772360992,
+  "nll_nb": 155.44001207160917,
+  "note": "variance = lambda + alpha * lambda^2. Paste `alpha` into k_model.py's K_DISPERSION constant."
+}
