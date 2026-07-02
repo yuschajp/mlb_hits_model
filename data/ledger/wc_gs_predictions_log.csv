@@ -1,0 +1,138 @@
+date,home_team,away_team,player,team,opponent,tournament_goals,tournament_minutes,lambda,p_scores,actual_scored,graded
+2026-06-27,Algeria,Austria,Romano Schmid,Austria,Algeria,1,80.0,0.7101,0.5084,,False
+2026-06-27,Algeria,Austria,Yazan Al-Arab,Austria,Algeria,1,80.0,0.7101,0.5084,,False
+2026-06-27,Algeria,Austria,Marko Arnautovic,Austria,Algeria,1,80.0,0.7101,0.5084,,False
+2026-06-27,Algeria,Austria,Nadhir Benbouali,Algeria,Austria,1,80.0,0.5325,0.4129,,False
+2026-06-27,Algeria,Austria,Amine Gouiri,Algeria,Austria,1,80.0,0.5325,0.4129,,False
+2026-06-27,Jordan,Argentina,Lionel Messi,Argentina,Jordan,5,400.0,1.4589,0.7675,,False
+2026-06-27,Jordan,Argentina,Ali Olwan,Jordan,Argentina,1,80.0,0.2308,0.2061,,False
+2026-06-27,Jordan,Argentina,Nizar Al-Rashdan,Jordan,Argentina,1,80.0,0.2308,0.2061,,False
+2026-06-27,Colombia,Portugal,Daniel Muñoz,Colombia,Portugal,2,160.0,0.2941,0.2548,,False
+2026-06-27,Colombia,Portugal,Cristiano Ronaldo,Portugal,Colombia,2,160.0,0.2941,0.2548,,False
+2026-06-27,Colombia,Portugal,João Neves,Portugal,Colombia,1,80.0,0.2308,0.2061,,False
+2026-06-27,Colombia,Portugal,Luis Díaz,Colombia,Portugal,1,80.0,0.2308,0.2061,,False
+2026-06-27,Colombia,Portugal,Jáminton Campaz,Colombia,Portugal,1,80.0,0.2308,0.2061,,False
+2026-06-27,Colombia,Portugal,Nuno Mendes,Portugal,Colombia,1,80.0,0.2308,0.2061,,False
+2026-06-27,Colombia,Portugal,Abduvohid Nematov,Portugal,Colombia,1,80.0,0.2308,0.2061,,False
+2026-06-27,Colombia,Portugal,Rafael Leão,Portugal,Colombia,1,80.0,0.2308,0.2061,,False
+2026-06-27,DR Congo,Uzbekistan,Yoane Wissa,DR Congo,Uzbekistan,1,80.0,0.9231,0.6027,,False
+2026-06-27,DR Congo,Uzbekistan,Abbosbek Fayzullaev,Uzbekistan,DR Congo,1,80.0,0.355,0.2988,,False
+2026-06-27,Panama,England,Harry Kane,England,Panama,3,240.0,0.6838,0.4953,,False
+2026-06-27,Panama,England,Jude Bellingham,England,Panama,2,160.0,0.6033,0.453,,False
+2026-06-27,Panama,England,Marcus Rashford,England,Panama,1,80.0,0.4734,0.3771,,False
+2026-06-27,Panama,England,(Panama scorer),Panama,England,0,0,0.114,0.1077,,False
+2026-06-27,Croatia,Ghana,Caleb Yirenkyi,Ghana,Croatia,1,80.0,0.5917,0.4466,,False
+2026-06-27,Croatia,Ghana,Derrick Luckassen,Ghana,Croatia,1,80.0,0.5917,0.4466,,False
+2026-06-27,Croatia,Ghana,Martin Baturina,Croatia,Ghana,1,80.0,0.2367,0.2108,,False
+2026-06-27,Croatia,Ghana,Petar Musa,Croatia,Ghana,1,80.0,0.2367,0.2108,,False
+2026-06-27,Croatia,Ghana,Ante Budimir,Croatia,Ghana,1,80.0,0.2367,0.2108,,False
+2026-06-27,Croatia,Ghana,Petar Sucic,Croatia,Ghana,1,80.0,0.2367,0.2108,,False
+2026-06-27,Croatia,Ghana,Nikola Vlasic,Croatia,Ghana,1,80.0,0.2367,0.2108,,False
+2026-06-29,Germany,Paraguay,Deniz Undav,Germany,Paraguay,3,240.0,0.6838,0.4953,,False
+2026-06-29,Germany,Paraguay,Kai Havertz,Germany,Paraguay,2,160.0,0.6033,0.453,,False
+2026-06-29,Germany,Paraguay,Mauricio,Paraguay,Germany,1,80.0,0.4734,0.3771,,False
+2026-06-29,Germany,Paraguay,Matías Galarza,Paraguay,Germany,1,80.0,0.4734,0.3771,,False
+2026-06-29,Germany,Paraguay,Felix Nmecha,Germany,Paraguay,1,80.0,0.4734,0.3771,,False
+2026-06-29,Germany,Paraguay,Nico Schlotterbeck,Germany,Paraguay,1,80.0,0.4734,0.3771,,False
+2026-06-29,Germany,Paraguay,Jamal Musiala,Germany,Paraguay,1,80.0,0.4734,0.3771,,False
+2026-06-29,Germany,Paraguay,Nathaniel Brown,Germany,Paraguay,1,80.0,0.4734,0.3771,,False
+2026-06-29,Germany,Paraguay,Leroy Sané,Germany,Paraguay,1,80.0,0.4734,0.3771,,False
+2026-06-29,Netherlands,Morocco,Ismael Saibari,Morocco,Netherlands,3,240.0,0.6838,0.4953,,False
+2026-06-29,Netherlands,Morocco,Brian Brobbey,Netherlands,Morocco,3,240.0,0.5128,0.4012,,False
+2026-06-29,Netherlands,Morocco,Achraf Hakimi,Morocco,Netherlands,1,80.0,0.4734,0.3771,,False
+2026-06-29,Netherlands,Morocco,Soufiane Rahimi,Morocco,Netherlands,1,80.0,0.4734,0.3771,,False
+2026-06-29,Netherlands,Morocco,Gessime Yassine,Morocco,Netherlands,1,80.0,0.4734,0.3771,,False
+2026-06-29,Netherlands,Morocco,Crysencio Summerville,Netherlands,Morocco,2,160.0,0.4525,0.364,,False
+2026-06-29,Netherlands,Morocco,Cody Gakpo,Netherlands,Morocco,2,160.0,0.4525,0.364,,False
+2026-06-29,Netherlands,Morocco,Virgil van Dijk,Netherlands,Morocco,1,80.0,0.355,0.2988,,False
+2026-06-29,Netherlands,Morocco,Ellyes Skhiri,Netherlands,Morocco,1,80.0,0.355,0.2988,,False
+2026-06-29,Netherlands,Morocco,Jan Paul van Hecke,Netherlands,Morocco,1,80.0,0.355,0.2988,,False
+2026-06-29,Brazil,Japan,Vinícius Júnior,Brazil,Japan,4,320.0,0.5538,0.4253,,False
+2026-06-29,Brazil,Japan,Matheus Cunha,Brazil,Japan,3,240.0,0.5128,0.4012,,False
+2026-06-29,Brazil,Japan,Daichi Kamada,Japan,Brazil,2,160.0,0.2941,0.2548,,False
+2026-06-29,Brazil,Japan,Ayase Ueda,Japan,Brazil,2,160.0,0.2941,0.2548,,False
+2026-06-29,Brazil,Japan,Keito Nakamura,Japan,Brazil,1,80.0,0.2308,0.2061,,False
+2026-06-29,Brazil,Japan,Junya Ito,Japan,Brazil,1,80.0,0.2308,0.2061,,False
+2026-06-29,Brazil,Japan,Daizen Maeda,Japan,Brazil,1,80.0,0.2308,0.2061,,False
+2026-06-29,Brazil,Japan,Casemiro,Brazil,Japan,1,80.0,0.4438,0.3584,,False
+2026-06-29,Brazil,Japan,Gabriel Martinelli,Brazil,Japan,1,80.0,0.4438,0.3584,,False
+2026-06-29,Brazil,Japan,Kaishu Sano,Japan,Brazil,1,80.0,0.2308,0.2061,,False
+2026-06-30,France,Sweden,Kylian Mbappé,France,Sweden,4,320.0,1.2923,0.7254,,False
+2026-06-30,France,Sweden,Ousmane Dembélé,France,Sweden,4,320.0,1.2923,0.7254,,False
+2026-06-30,France,Sweden,Bradley Barcola,France,Sweden,1,80.0,0.8284,0.5633,,False
+2026-06-30,France,Sweden,Désiré Doué,France,Sweden,1,80.0,0.8284,0.5633,,False
+2026-06-30,France,Sweden,Yasin Ayari,Sweden,France,2,160.0,0.3017,0.2604,,False
+2026-06-30,France,Sweden,Anthony Elanga,Sweden,France,2,160.0,0.3017,0.2604,,False
+2026-06-30,France,Sweden,Alexander Isak,Sweden,France,1,80.0,0.2367,0.2108,,False
+2026-06-30,France,Sweden,Viktor Gyökeres,Sweden,France,1,80.0,0.2367,0.2108,,False
+2026-06-30,France,Sweden,Mattias Svanberg,Sweden,France,1,80.0,0.2367,0.2108,,False
+2026-06-30,Ivory Coast,Norway,Nicolas Pépé,Ivory Coast,Norway,2,160.0,1.0558,0.6521,,False
+2026-06-30,Ivory Coast,Norway,Amad Diallo,Ivory Coast,Norway,1,80.0,0.8284,0.5633,,False
+2026-06-30,Ivory Coast,Norway,Franck Kessié,Ivory Coast,Norway,1,80.0,0.8284,0.5633,,False
+2026-06-30,Ivory Coast,Norway,Erling Haaland,Norway,Ivory Coast,4,320.0,0.3692,0.3087,,False
+2026-06-30,Ivory Coast,Norway,Aymen Hussein,Norway,Ivory Coast,2,160.0,0.3017,0.2604,,False
+2026-06-30,Ivory Coast,Norway,Leo Østigard,Norway,Ivory Coast,1,80.0,0.2367,0.2108,,False
+2026-06-30,Ivory Coast,Norway,Marcus Holmgren Pedersen,Norway,Ivory Coast,1,80.0,0.2367,0.2108,,False
+2026-06-30,Ivory Coast,Norway,Thelo Aasgaard,Norway,Ivory Coast,1,80.0,0.2367,0.2108,,False
+2026-06-30,Mexico,Ecuador,Julián Quiñones,Mexico,Ecuador,2,160.0,0.3017,0.2604,,False
+2026-06-30,Mexico,Ecuador,Raúl Jiménez,Mexico,Ecuador,1,80.0,0.2367,0.2108,,False
+2026-06-30,Mexico,Ecuador,Luis Romo,Mexico,Ecuador,1,80.0,0.2367,0.2108,,False
+2026-06-30,Mexico,Ecuador,Mateo Chávez,Mexico,Ecuador,1,80.0,0.2367,0.2108,,False
+2026-06-30,Mexico,Ecuador,Álvaro Fidalgo,Mexico,Ecuador,1,80.0,0.2367,0.2108,,False
+2026-06-30,Mexico,Ecuador,Nilson Angulo,Ecuador,Mexico,1,80.0,0.2308,0.2061,,False
+2026-06-30,Mexico,Ecuador,Gonzalo Plata,Ecuador,Mexico,1,80.0,0.2308,0.2061,,False
+2026-06-30,Ivory Coast,Norway,Antonio Nusa,Norway,Ivory Coast,1,80.0,0.355,0.2988,,False
+2026-07-01,England,DR Congo,Harry Kane,England,DR Congo,3,240.0,0.5128,0.4012,,False
+2026-07-01,England,DR Congo,Jude Bellingham,England,DR Congo,2,160.0,0.4525,0.364,,False
+2026-07-01,England,DR Congo,Marcus Rashford,England,DR Congo,1,80.0,0.355,0.2988,,False
+2026-07-01,England,DR Congo,Yoane Wissa,DR Congo,England,3,240.0,0.3419,0.2896,,False
+2026-07-01,England,DR Congo,Fiston Mayele,DR Congo,England,1,80.0,0.2367,0.2108,,False
+2026-07-01,USA,Bosnia & Herzegovina,Folarin Balogun,USA,Bosnia & Herzegovina,2,160.0,0.905,0.5954,,False
+2026-07-01,USA,Bosnia & Herzegovina,Damian Bobadilla,USA,Bosnia & Herzegovina,1,80.0,0.7101,0.5084,,False
+2026-07-01,USA,Bosnia & Herzegovina,Giovanni Reyna,USA,Bosnia & Herzegovina,1,80.0,0.7101,0.5084,,False
+2026-07-01,USA,Bosnia & Herzegovina,Cameron Burgess,USA,Bosnia & Herzegovina,1,80.0,0.7101,0.5084,,False
+2026-07-01,USA,Bosnia & Herzegovina,Alex Freeman,USA,Bosnia & Herzegovina,1,80.0,0.7101,0.5084,,False
+2026-07-01,USA,Bosnia & Herzegovina,Auston Trusty,USA,Bosnia & Herzegovina,1,80.0,0.7101,0.5084,,False
+2026-07-01,USA,Bosnia & Herzegovina,Sebastian Berhalter,USA,Bosnia & Herzegovina,1,80.0,0.7101,0.5084,,False
+2026-07-01,USA,Bosnia & Herzegovina,Ermin Mahmic,Bosnia & Herzegovina,USA,2,160.0,0.6033,0.453,,False
+2026-07-01,USA,Bosnia & Herzegovina,Jovo Lukić,Bosnia & Herzegovina,USA,1,80.0,0.4734,0.3771,,False
+2026-07-01,USA,Bosnia & Herzegovina,Kerim Alajbegovic,Bosnia & Herzegovina,USA,1,80.0,0.4734,0.3771,,False
+2026-07-01,USA,Bosnia & Herzegovina,Mahmoud Abunada,Bosnia & Herzegovina,USA,1,80.0,0.4734,0.3771,,False
+2026-07-01,Belgium,Senegal,Leandro Trossard,Belgium,Senegal,2,160.0,0.905,0.5954,,False
+2026-07-01,Belgium,Senegal,Mohamed Hany,Belgium,Senegal,1,80.0,0.7101,0.5084,,False
+2026-07-01,Belgium,Senegal,Kevin De Bruyne,Belgium,Senegal,1,80.0,0.7101,0.5084,,False
+2026-07-01,Belgium,Senegal,Romelu Lukaku,Belgium,Senegal,1,80.0,0.7101,0.5084,,False
+2026-07-01,Belgium,Senegal,Alexis Saelemaekers,Belgium,Senegal,1,80.0,0.7101,0.5084,,False
+2026-07-01,Belgium,Senegal,Ismaïla Sarr,Senegal,Belgium,3,240.0,0.3419,0.2896,,False
+2026-07-01,Belgium,Senegal,Pape Gueye,Senegal,Belgium,2,160.0,0.3017,0.2604,,False
+2026-07-01,Belgium,Senegal,Ibrahim Mbaye,Senegal,Belgium,1,80.0,0.2367,0.2108,,False
+2026-07-01,Belgium,Senegal,Habib Diarra,Senegal,Belgium,1,80.0,0.2367,0.2108,,False
+2026-07-01,Belgium,Senegal,Iliman Ndiaye,Senegal,Belgium,1,80.0,0.2367,0.2108,,False
+2026-07-01,England,DR Congo,Brian Cipenga,DR Congo,England,1,80.0,0.2663,0.2338,,False
+2026-07-02,Portugal,Croatia,Cristiano Ronaldo,Portugal,Croatia,2,80.0,0.9862,0.627,,False
+2026-07-02,Portugal,Croatia,João Neves,Portugal,Croatia,1,80.0,0.5917,0.4466,,False
+2026-07-02,Portugal,Croatia,Nuno Mendes,Portugal,Croatia,1,80.0,0.5917,0.4466,,False
+2026-07-02,Portugal,Croatia,Abduvohid Nematov,Portugal,Croatia,1,80.0,0.5917,0.4466,,False
+2026-07-02,Portugal,Croatia,Rafael Leão,Portugal,Croatia,1,80.0,0.5917,0.4466,,False
+2026-07-02,Portugal,Croatia,Martin Baturina,Croatia,Portugal,1,80.0,0.2308,0.2061,,False
+2026-07-02,Portugal,Croatia,Petar Musa,Croatia,Portugal,1,80.0,0.2308,0.2061,,False
+2026-07-02,Portugal,Croatia,Ante Budimir,Croatia,Portugal,1,80.0,0.2308,0.2061,,False
+2026-07-02,Portugal,Croatia,Petar Sucic,Croatia,Portugal,1,80.0,0.2308,0.2061,,False
+2026-07-02,Portugal,Croatia,Nikola Vlasic,Croatia,Portugal,1,80.0,0.2308,0.2061,,False
+2026-07-02,Spain,Austria,Mikel Oyarzabal,Spain,Austria,2,80.0,1.1834,0.6938,,False
+2026-07-02,Spain,Austria,Lamine Yamal,Spain,Austria,1,80.0,0.7101,0.5084,,False
+2026-07-02,Spain,Austria,Hassan Al-Tambakti,Spain,Austria,1,80.0,0.7101,0.5084,,False
+2026-07-02,Spain,Austria,Álex Baena,Spain,Austria,1,80.0,0.7101,0.5084,,False
+2026-07-02,Spain,Austria,Marko Arnautovic,Austria,Spain,2,160.0,0.2941,0.2548,,False
+2026-07-02,Spain,Austria,Romano Schmid,Austria,Spain,1,80.0,0.2308,0.2061,,False
+2026-07-02,Spain,Austria,Yazan Al-Arab,Austria,Spain,1,80.0,0.2308,0.2061,,False
+2026-07-02,Spain,Austria,Marcel Sabitzer,Austria,Spain,1,80.0,0.2308,0.2061,,False
+2026-07-02,Spain,Austria,Sasa Kalajdzic,Austria,Spain,1,80.0,0.2308,0.2061,,False
+2026-07-02,Switzerland,Algeria,Johan Manzambi,Switzerland,Algeria,3,160.0,1.4781,0.7719,,False
+2026-07-02,Switzerland,Algeria,Rubén Vargas,Switzerland,Algeria,2,160.0,1.0558,0.6521,,False
+2026-07-02,Switzerland,Algeria,Breel Embolo,Switzerland,Algeria,1,80.0,0.8284,0.5633,,False
+2026-07-02,Switzerland,Algeria,Granit Xhaka,Switzerland,Algeria,1,80.0,0.8284,0.5633,,False
+2026-07-02,Switzerland,Algeria,Riyad Mahrez,Algeria,Switzerland,2,80.0,0.5917,0.4466,,False
+2026-07-02,Switzerland,Algeria,Nadhir Benbouali,Algeria,Switzerland,1,80.0,0.355,0.2988,,False
+2026-07-02,Switzerland,Algeria,Amine Gouiri,Algeria,Switzerland,1,80.0,0.355,0.2988,,False
+2026-07-02,Switzerland,Algeria,Rafik Belghali,Algeria,Switzerland,1,80.0,0.355,0.2988,,False

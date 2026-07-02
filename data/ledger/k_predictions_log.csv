@@ -1,0 +1,90 @@
+date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season_k_per_9,recent_k_per_9,opp_k_rate,season_ip,recent_ip,expected_innings,lambda_k,p_over,p_under,actual_ks,graded
+2026-06-27,824257,678906,Kai-Wei Teng,Detroit Tigers,Houston Astros,Comerica Park,1.0,6.5,8.859,9.0,0.2303,,,4.4,4.972,0.2338,0.7662,1.0,True
+2026-06-27,824257,664285,Framber Valdez,Houston Astros,Detroit Tigers,Comerica Park,0.95,6.5,7.244,7.082,0.2153,,,5.63,4.563,0.1772,0.8228,2.0,True
+2026-06-27,824745,543037,Gerrit Cole,Boston Red Sox,New York Yankees,Fenway Park,1.04,6.5,8.124,9.095,0.2189,,,5.38,5.109,0.2539,0.7461,5.0,True
+2026-06-27,824745,687562,Jake Bennett,New York Yankees,Boston Red Sox,Fenway Park,1.06,6.5,6.818,8.338,0.2319,,,5.5,5.172,0.2633,0.7367,3.0,True
+2026-06-27,822794,615698,Cal Quantrill,Toronto Blue Jays,Texas Rangers,Rogers Centre,1.02,6.5,5.745,5.25,0.1975,,,2.89,3.332,0.0531,0.9469,5.0,True
+2026-06-27,822794,656302,Dylan Cease,Texas Rangers,Toronto Blue Jays,Rogers Centre,1.0,6.5,13.5,14.344,0.224,,,5.62,7.152,0.5726,0.4274,10.0,True
+2026-06-27,823364,695505,Chase Burns,Pittsburgh Pirates,Cincinnati Reds,PNC Park,1.05,6.5,10.716,12.825,0.2368,,,5.71,6.838,0.5259,0.4741,10.0,True
+2026-06-27,823364,683003,Jared Jones,Cincinnati Reds,Pittsburgh Pirates,PNC Park,0.97,6.5,9.295,9.295,0.2495,,,4.07,5.55,0.3218,0.6782,4.0,True
+2026-06-27,823609,641835,Tim Mayza,New York Mets,Philadelphia Phillies,Citi Field,1.03,6.5,8.915,8.437,0.2229,,,1.5,4.661,0.1902,0.8098,1.0,True
+2026-06-27,823609,681035,Christian Scott,Philadelphia Phillies,New York Mets,Citi Field,0.97,6.5,10.402,9.429,0.2319,,,4.52,5.38,0.2952,0.7048,6.0,True
+2026-06-27,824581,608379,Michael Wacha,Chicago White Sox,Kansas City Royals,Rate Field,0.94,6.5,6.861,5.257,0.2402,,,6.31,5.03,0.2422,0.7578,7.0,True
+2026-06-27,824581,663436,Davis Martin,Kansas City Royals,Chicago White Sox,Rate Field,1.02,6.5,8.932,7.269,0.2107,,,5.84,5.028,0.2419,0.7581,3.0,True
+2026-06-27,822960,703615,Jose Cabrera,Tampa Bay Rays,Arizona Diamondbacks,Tropicana Field,1.02,6.5,5.4,5.4,0.1888,,,5.0,4.249,0.1382,0.8618,4.0,True
+2026-06-27,822960,642121,Cole Sulser,Arizona Diamondbacks,Tampa Bay Rays,Tropicana Field,0.97,6.5,9.379,15.827,0.1938,,,2.0,4.873,0.2195,0.7805,1.0,True
+2026-06-27,824421,677944,Slade Cecconi,Seattle Mariners,Cleveland Guardians,Progressive Field,0.99,6.5,7.044,6.75,0.2291,,,5.27,4.61,0.1833,0.8167,4.0,True
+2026-06-27,823689,547179,Michael Lorenzen,Minnesota Twins,Colorado Rockies,Target Field,1.13,6.5,7.697,9.549,0.2169,,,4.69,4.573,0.1784,0.8216,1.0,True
+2026-06-27,823689,702474,Mike Paredes,Colorado Rockies,Minnesota Twins,Target Field,0.98,6.5,4.95,4.95,0.2334,,,4.0,4.246,0.1378,0.8622,2.0,True
+2026-06-28,824821,641793,Zack Littell,Washington Nationals,Baltimore Orioles,Oriole Park at Camden Yards,0.99,6.5,5.52,7.221,0.2426,,,4.69,4.327,0.1474,0.8526,3.0,True
+2026-06-28,824821,680694,Kyle Bradish,Baltimore Orioles,Washington Nationals,Oriole Park at Camden Yards,0.97,6.5,9.506,8.836,0.2175,,,5.56,5.375,0.2945,0.7055,2.0,True
+2026-06-28,823362,663903,Brady Singer,Cincinnati Reds,Pittsburgh Pirates,PNC Park,1.05,6.5,7.274,8.333,0.2375,,,4.87,4.875,0.2198,0.7802,6.0,True
+2026-06-28,823362,656605,Mitch Keller,Pittsburgh Pirates,Cincinnati Reds,PNC Park,0.97,6.5,7.03,8.4,0.249,,,5.52,5.418,0.3011,0.6989,4.0,True
+2026-06-28,822795,677958,Kumar Rocker,Texas Rangers,Toronto Blue Jays,Rogers Centre,1.02,6.5,7.905,8.69,0.1986,,,4.93,4.261,0.1396,0.8604,5.0,True
+2026-06-28,822795,669456,Shane Bieber,Toronto Blue Jays,Texas Rangers,Rogers Centre,1.0,6.5,4.909,4.909,0.225,,,3.67,4.986,0.2358,0.7642,4.0,True
+2026-06-28,824256,686613,Hunter Brown,Houston Astros,Detroit Tigers,Comerica Park,1.0,6.5,13.035,11.423,0.2305,,,4.83,5.929,0.3822,0.6178,4.0,True
+2026-06-28,824256,656427,Jack Flaherty,Detroit Tigers,Houston Astros,Comerica Park,0.95,6.5,10.69,11.089,0.2151,,,4.38,5.048,0.2448,0.7552,9.0,True
+2026-06-28,824422,676106,Emerson Hancock,Seattle Mariners,Cleveland Guardians,Progressive Field,0.92,6.5,8.576,7.177,0.2188,,,5.67,5.03,0.2422,0.7578,6.0,True
+2026-06-28,824422,668909,Gavin Williams,Cleveland Guardians,Seattle Mariners,Progressive Field,0.99,6.5,10.334,8.89,0.2286,,,6.04,6.178,0.4223,0.5777,6.0,True
+2026-06-28,822959,518876,Merrill Kelly,Arizona Diamondbacks,Tampa Bay Rays,Tropicana Field,1.02,6.5,5.233,4.413,0.1891,,,5.82,3.385,0.0568,0.9432,3.0,True
+2026-06-28,822959,656876,Drew Rasmussen,Tampa Bay Rays,Arizona Diamondbacks,Tropicana Field,0.97,6.5,9.314,10.421,0.1944,,,5.73,5.075,0.2488,0.7512,5.0,True
+2026-06-28,823608,666200,Jesús Luzardo,Philadelphia Phillies,New York Mets,Citi Field,1.03,6.5,10.722,10.8,0.2231,,,5.77,6.251,0.4339,0.5661,6.0,True
+2026-06-28,823608,672335,Cionel Pérez,New York Mets,Philadelphia Phillies,Citi Field,0.97,6.5,6.75,8.591,0.2326,,,5.5,5.233,0.2726,0.7274,2.0,True
+2026-06-28,823686,663372,Ryan Feltner,Colorado Rockies,Minnesota Twins,Target Field,1.13,6.5,6.702,6.0,0.2155,,,4.7,4.086,0.1198,0.8802,0.0,True
+2026-06-28,823686,687570,Connor Prielipp,Minnesota Twins,Colorado Rockies,Target Field,0.98,6.5,8.892,8.437,0.2315,,,5.06,5.25,0.2752,0.7248,10.0,True
+2026-06-28,824580,679883,Luinder Avila,Kansas City Royals,Chicago White Sox,Rate Field,0.94,6.5,8.226,7.397,0.2401,,,3.7,4.581,0.1795,0.8205,4.0,True
+2026-06-28,824580,641743,Anthony Kay,Chicago White Sox,Kansas City Royals,Rate Field,1.02,6.5,7.428,8.7,0.2112,,,4.91,4.426,0.1596,0.8404,2.0,True
+2026-06-28,823769,669020,Ryan Rolison,Chicago Cubs,Milwaukee Brewers,American Family Field,1.0,6.5,8.798,8.591,0.2107,,,2.17,4.5,0.169,0.831,2.0,True
+2026-06-28,823769,605540,Brandon Woodruff,Milwaukee Brewers,Chicago Cubs,American Family Field,1.02,6.5,8.75,15.0,0.214,,,5.14,5.285,0.2806,0.7194,6.0,True
+2026-06-28,823037,663969,Tyler Phillips,Miami Marlins,St. Louis Cardinals,Busch Stadium,0.93,6.5,7.56,6.988,0.2035,,,4.03,3.807,0.0916,0.9084,1.0,True
+2026-06-28,823037,681517,Kyle Leahy,St. Louis Cardinals,Miami Marlins,Busch Stadium,0.97,6.5,7.31,7.013,0.2198,,,5.09,4.465,0.1644,0.8356,5.0,True
+2026-06-29,824822,680732,Sean Burke,Chicago White Sox,Baltimore Orioles,Oriole Park at Camden Yards,1.02,5.5,8.966,10.748,0.2415,,,5.46,5.888,0.5362,0.4638,8.0,True
+2026-06-29,824822,669358,Shane Baz,Baltimore Orioles,Chicago White Sox,Oriole Park at Camden Yards,0.97,5.5,7.755,8.1,0.2392,,,5.88,5.344,0.4442,0.5558,6.0,True
+2026-06-29,823444,605400,Aaron Nola,Philadelphia Phillies,Pittsburgh Pirates,Citizens Bank Park,1.03,5.5,9.149,9.3,0.2376,,,5.04,5.326,0.441,0.559,5.0,True
+2026-06-29,823529,663554,Casey Mize,Detroit Tigers,New York Yankees,Yankee Stadium,0.95,5.5,9.0,9.419,0.233,,,5.27,5.284,0.4337,0.5663,10.0,True
+2026-06-29,823529,677960,Ryan Weathers,New York Yankees,Detroit Tigers,Yankee Stadium,1.04,5.5,9.865,9.205,0.2295,,,5.78,5.751,0.5135,0.4865,3.0,True
+2026-06-29,822792,640455,Sean Manaea,New York Mets,Toronto Blue Jays,Rogers Centre,0.97,5.5,9.419,9.57,0.199,,,4.0,4.013,0.217,0.783,4.0,True
+2026-06-29,822792,702056,Trey Yesavage,Toronto Blue Jays,New York Mets,Rogers Centre,1.0,5.5,8.604,7.387,0.2231,,,5.52,4.862,0.3599,0.6401,3.0,True
+2026-06-29,824741,571945,Miles Mikolas,Washington Nationals,Boston Red Sox,Fenway Park,0.99,5.5,5.121,3.815,0.2191,,,4.55,3.142,0.0989,0.9011,3.0,True
+2026-06-29,824741,624133,Ranger Suarez,Boston Red Sox,Washington Nationals,Fenway Park,1.06,5.5,9.145,10.853,0.2168,,,5.51,5.367,0.4481,0.5519,8.0,True
+2026-06-29,824420,641302,Tyler Alexander,Texas Rangers,Cleveland Guardians,Progressive Field,1.02,5.5,7.078,6.75,0.2181,,,1.0,3.886,0.1972,0.8028,2.0,True
+2026-06-29,824420,800048,Parker Messick,Cleveland Guardians,Texas Rangers,Progressive Field,0.99,5.5,9.636,9.3,0.2254,,,5.9,5.697,0.5045,0.4955,5.0,True
+2026-06-29,823771,666157,Nick Lodolo,Cincinnati Reds,Milwaukee Brewers,American Family Field,1.05,5.5,7.329,7.674,0.2117,,,5.19,4.309,0.2649,0.7351,4.0,True
+2026-06-29,824662,656288,Griffin Canning,San Diego Padres,Chicago Cubs,Wrigley Field,0.92,5.5,9.07,8.1,0.215,,,4.67,4.496,0.2964,0.7036,3.0,True
+2026-06-29,824662,684007,Shota Imanaga,Chicago Cubs,San Diego Padres,Wrigley Field,1.0,5.5,8.609,6.915,0.2298,,,5.75,5.103,0.4021,0.5979,4.0,True
+2026-06-29,824176,805673,Zebby Matthews,Minnesota Twins,Houston Astros,Daikin Park,0.98,5.5,7.115,6.936,0.2162,,,6.17,4.604,0.315,0.685,7.0,True
+2026-06-29,824176,663567,Peter Lambert,Houston Astros,Minnesota Twins,Daikin Park,1.0,5.5,8.388,7.624,0.2138,,,5.72,4.758,0.3417,0.6583,4.0,True
+2026-06-29,824339,807743,Sean Sullivan,Colorado Rockies,Miami Marlins,Coors Field,1.13,5.5,5.25,5.25,0.2204,,,4.0,4.082,0.2278,0.7722,5.0,True
+2026-06-30,824819,607200,Erick Fedde,Chicago White Sox,Baltimore Orioles,Oriole Park at Camden Yards,1.02,6.5,6.027,6.75,0.2429,,,4.8,4.462,0.1641,0.8359,3.0,True
+2026-06-30,824819,694346,Trey Gibson,Baltimore Orioles,Chicago White Sox,Oriole Park at Camden Yards,0.97,6.5,7.418,7.986,0.2386,,,4.72,5.089,0.2509,0.7491,5.0,True
+2026-06-30,824418,594798,Jacob deGrom,Texas Rangers,Cleveland Guardians,Progressive Field,1.02,6.5,10.759,10.8,0.2171,,,5.54,5.929,0.3823,0.6177,9.0,True
+2026-06-30,824418,676440,Tanner Bibee,Cleveland Guardians,Texas Rangers,Progressive Field,0.99,6.5,7.647,7.237,0.2259,,,5.61,4.923,0.2266,0.7734,2.0,True
+2026-06-30,823445,696149,Bubba Chandler,Pittsburgh Pirates,Philadelphia Phillies,Citizens Bank Park,0.97,6.5,8.282,7.237,0.2338,,,4.96,4.885,0.2212,0.7788,6.0,True
+2026-06-30,823445,650911,Cristopher Sánchez,Philadelphia Phillies,Pittsburgh Pirates,Citizens Bank Park,1.03,6.5,10.391,9.796,0.2385,,,6.47,6.955,0.5436,0.4564,9.0,True
+2026-06-30,823528,693645,Cam Schlittler,New York Yankees,Detroit Tigers,Yankee Stadium,1.04,6.5,10.62,11.382,0.2292,,,5.88,6.578,0.4857,0.5143,5.0,True
+2026-06-30,822793,592332,Kevin Gausman,Toronto Blue Jays,New York Mets,Rogers Centre,1.0,6.5,8.811,9.29,0.2222,,,5.59,5.414,0.3005,0.6995,7.0,True
+2026-06-30,824742,676917,Cade Cavalli,Washington Nationals,Boston Red Sox,Fenway Park,0.99,6.5,9.612,8.494,0.218,,,4.9,4.959,0.2318,0.7682,13.0,True
+2026-06-30,824907,669461,Matthew Liberatore,St. Louis Cardinals,Atlanta Braves,Truist Park,0.97,6.5,8.112,7.286,0.2106,,,4.85,4.356,0.1509,0.8491,9.0,True
+2026-06-30,824907,527048,Martín Pérez,Atlanta Braves,St. Louis Cardinals,Truist Park,1.01,6.5,7.5,7.105,0.2023,,,5.0,4.127,0.1244,0.8756,1.0,True
+2026-06-30,824096,702070,Noah Cameron,Kansas City Royals,Tampa Bay Rays,Kauffman Stadium,0.94,6.5,8.438,8.629,0.1886,,,5.33,4.318,0.1464,0.8536,0.0,True
+2026-07-01,824818,702273,Noah Schultz,Chicago White Sox,Baltimore Orioles,Oriole Park at Camden Yards,1.02,6.5,7.681,8.9,0.242,38.7,0.0,4.83,5.289,0.2812,0.7188,7.0,True
+2026-07-01,824818,665152,Dean Kremer,Baltimore Orioles,Chicago White Sox,Oriole Park at Camden Yards,0.97,6.5,13.091,8.9,0.2394,11.0,0.0,5.5,6.028,0.3982,0.6018,4.0,True
+2026-07-01,824419,669022,MacKenzie Gore,Texas Rangers,Cleveland Guardians,Progressive Field,1.02,6.5,9.593,8.75,0.2187,91.0,36.0,5.35,5.285,0.2805,0.7195,7.0,True
+2026-07-01,824419,676282,Joey Cantillo,Cleveland Guardians,Texas Rangers,Progressive Field,0.99,6.5,8.895,10.607,0.2251,86.0,28.0,5.06,5.349,0.2904,0.7096,4.0,True
+2026-07-01,824740,695418,Brad Lord,Washington Nationals,Boston Red Sox,Fenway Park,0.99,6.5,8.259,9.554,0.2204,56.7,21.7,2.92,4.146,0.1265,0.8735,1.0,True
+2026-07-01,824740,801139,Payton Tolle,Boston Red Sox,Washington Nationals,Fenway Park,1.06,6.5,8.96,8.363,0.2179,74.3,37.7,5.72,5.266,0.2777,0.7223,5.0,True
+2026-07-01,823530,675512,Troy Melton,Detroit Tigers,New York Yankees,Yankee Stadium,0.95,6.5,6.545,6.809,0.2365,44.0,38.3,6.29,5.183,0.2651,0.7349,7.0,True
+2026-07-01,823530,701542,Will Warren,New York Yankees,Detroit Tigers,Yankee Stadium,1.04,6.5,9.168,7.548,0.2289,89.3,31.0,5.25,5.195,0.2669,0.7331,7.0,True
+2026-07-01,824660,621111,Walker Buehler,San Diego Padres,Chicago Cubs,Wrigley Field,0.92,6.5,8.341,8.832,0.2145,82.0,35.7,4.82,4.621,0.1848,0.8152,6.0,True
+2026-07-01,824660,607067,Colin Rea,Chicago Cubs,San Diego Padres,Wrigley Field,1.0,6.5,6.851,6.113,0.2274,89.3,35.3,4.96,4.246,0.1378,0.8622,5.0,True
+2026-07-01,822791,642547,Freddy Peralta,New York Mets,Toronto Blue Jays,Rogers Centre,0.97,6.5,8.713,7.714,0.1999,94.0,32.7,5.22,4.443,0.1617,0.8383,4.0,True
+2026-07-01,822791,680755,Braydon Fisher,Toronto Blue Jays,New York Mets,Rogers Centre,1.0,6.5,8.6,6.907,0.2236,45.0,14.3,1.11,3.578,0.0715,0.9285,1.0,True
+2026-07-01,823446,694973,Paul Skenes,Pittsburgh Pirates,Philadelphia Phillies,Citizens Bank Park,0.97,6.5,11.032,13.364,0.2334,93.0,33.0,5.47,6.791,0.5186,0.4814,5.0,True
+2026-07-01,823446,554430,Zack Wheeler,Philadelphia Phillies,Pittsburgh Pirates,Citizens Bank Park,1.03,6.5,8.841,9.08,0.2398,75.3,37.7,6.28,6.207,0.4268,0.5732,10.0,True
+2026-07-01,824905,700241,Michael McGreevy,St. Louis Cardinals,Atlanta Braves,Truist Park,0.97,6.5,5.743,4.345,0.2117,89.3,29.0,5.58,3.801,0.0909,0.9091,3.0,True
+2026-07-01,824905,625643,Reynaldo López,Atlanta Braves,St. Louis Cardinals,Truist Park,1.01,6.5,7.714,6.907,0.2018,46.7,14.3,3.95,3.95,0.1055,0.8945,6.0,True
+2026-07-01,824094,607625,Seth Lugo,Kansas City Royals,Tampa Bay Rays,Kauffman Stadium,0.94,6.5,6.875,5.329,0.1865,90.3,25.3,5.65,3.735,0.0849,0.9151,7.0,True
+2026-07-01,824174,671737,Taj Bradley,Minnesota Twins,Houston Astros,Daikin Park,0.98,6.5,9.789,9.095,0.2168,83.7,31.7,5.58,5.463,0.3082,0.6918,11.0,True
+2026-07-01,824174,837227,Tatsuya Imai,Houston Astros,Minnesota Twins,Daikin Park,1.0,6.5,11.106,13.31,0.2141,47.0,23.7,4.27,5.343,0.2896,0.7104,2.0,True
+2026-07-01,823767,671096,Andrew Abbott,Cincinnati Reds,Milwaukee Brewers,American Family Field,1.05,6.5,7.0,8.64,0.2123,90.0,33.3,5.29,4.522,0.1717,0.8283,3.0,True
+2026-07-01,824337,607536,Kyle Freeland,Colorado Rockies,Miami Marlins,Coors Field,1.13,6.5,7.625,6.674,0.2174,72.0,29.7,5.14,4.458,0.1636,0.8364,7.0,True
