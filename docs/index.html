@@ -385,6 +385,7 @@
   <div class="tab" onclick="switchTab('wc')">World Cup</div>
   <div class="tab" onclick="switchTab('tennis')">Tennis</div>
   <div class="tab" onclick="switchTab('f1')">F1 Racing</div>
+  <div class="tab" onclick="switchTab('picks')">Picks &amp; Parlays</div>
 </nav>
 
 <main class="panels">
@@ -591,6 +592,61 @@
     </div>
   </div>
 
+  <!-- PICKS & PARLAYS PANEL -->
+  <div class="panel" id="panel-picks">
+    <div class="panel-grid">
+      <div class="card" style="grid-column: 1 / -1">
+        <div class="card-header">
+          <span class="card-title">Value Singles — Model Edge vs. Best Available Price</span>
+          <span class="card-badge" id="picks-date"></span>
+        </div>
+        <div style="padding:0">
+          <table class="cal-table" id="picks-singles">
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>Team</th>
+                <th>Type</th>
+                <th>Model P</th>
+                <th>Market Implied</th>
+                <th>Edge</th>
+                <th>Price</th>
+                <th>Book</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card" style="grid-column: 1 / -1">
+        <div class="card-header">
+          <span class="card-title">Parlays — Top Edge Combinations</span>
+        </div>
+        <div style="padding:0">
+          <table class="cal-table" id="picks-parlays">
+            <thead>
+              <tr>
+                <th>Legs</th>
+                <th>#</th>
+                <th>Model Prob</th>
+                <th>Implied Prob</th>
+                <th>Edge</th>
+                <th>Payout</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card" style="grid-column: 1 / -1">
+        <div class="card-header">
+          <span class="card-title">Round Robins</span>
+        </div>
+        <div id="picks-round-robins" style="padding:20px"></div>
+      </div>
+    </div>
+  </div>
+
 </main>
 
 <footer>
@@ -605,7 +661,7 @@
 
 <script>
   function switchTab(name) {
-    const tabNames = ['hits', 'hr', 'k', 'wc', 'tennis', 'f1'];
+    const tabNames = ['hits', 'hr', 'k', 'wc', 'tennis', 'f1', 'picks'];
     document.querySelectorAll('.tab').forEach((t, i) => {
       t.classList.toggle('active', tabNames[i] === name);
     });
@@ -759,6 +815,82 @@
     }
   }
 
+  function americanStr(price) {
+    if (price == null) return '—';
+    return price > 0 ? `+${price}` : `${price}`;
+  }
+
+  function renderPicksSingles(rows) {
+    document.getElementById('picks-date').textContent = rows?.length ? 'Today' : '';
+    const tbody = document.querySelector('#picks-singles tbody');
+    if (!rows || rows.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="8" style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No value picks yet — run scripts/find_value.py / find_value_hr.py (needs ODDS_API_KEY)</td></tr>';
+      return;
+    }
+    tbody.innerHTML = rows.map(p => {
+      const modelP = p.model_p_hit ?? p.model_p_hr;
+      const impliedP = p.best_price > 0 ? 100 / (p.best_price + 100) : (-p.best_price) / ((-p.best_price) + 100);
+      const edgeColor = p.edge >= 0.08 ? 'var(--accent)' : p.edge >= 0.05 ? 'var(--warn)' : 'var(--text)';
+      return `<tr>
+        <td style="font-weight:500">${p.player_name}</td>
+        <td style="font-size:11px;color:var(--muted)">${p.team}</td>
+        <td style="font-family:var(--mono);font-size:11px;text-transform:uppercase;color:var(--muted)">${p.type}</td>
+        <td style="font-family:var(--mono)">${pct(modelP)}</td>
+        <td style="font-family:var(--mono);color:var(--muted)">${pct(impliedP)}</td>
+        <td style="font-family:var(--mono);font-weight:600;color:${edgeColor}">+${(p.edge*100).toFixed(1)}%</td>
+        <td style="font-family:var(--mono)">${americanStr(p.best_price)}</td>
+        <td style="font-size:11px;color:var(--muted)">${p.bookmaker}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  function renderPicksParlays(rows) {
+    const tbody = document.querySelector('#picks-parlays tbody');
+    if (!rows || rows.length === 0) {
+      tbody.innerHTML = '<tr><td colspan="6" style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No parlays available — needs at least 2 value singles.</td></tr>';
+      return;
+    }
+    tbody.innerHTML = rows.map(r => {
+      const legsStr = r.legs.map(l => `${l.player_name} (${l.type})`).join(' + ');
+      const edgeColor = r.edge >= 0.08 ? 'var(--accent)' : r.edge >= 0.03 ? 'var(--warn)' : 'var(--text)';
+      return `<tr>
+        <td style="font-size:12px">${legsStr}</td>
+        <td style="font-family:var(--mono);color:var(--muted)">${r.n_legs}</td>
+        <td style="font-family:var(--mono)">${pct(r.model_prob)}</td>
+        <td style="font-family:var(--mono);color:var(--muted)">${pct(r.implied_prob)}</td>
+        <td style="font-family:var(--mono);font-weight:600;color:${edgeColor}">+${(r.edge*100).toFixed(1)}%</td>
+        <td style="font-family:var(--mono)">${americanStr(r.payout)}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  function renderRoundRobins(pools) {
+    const el = document.getElementById('picks-round-robins');
+    if (!pools || pools.length === 0) {
+      el.innerHTML = '<div class="empty">No round robins available yet.</div>';
+      return;
+    }
+    el.innerHTML = pools.map(pool => `
+      <div style="margin-bottom:20px">
+        <div class="card-title" style="margin-bottom:8px">
+          ${pool.size}-pick pool: ${pool.picks.join(', ')}
+        </div>
+        <table class="cal-table">
+          <thead><tr><th>Pair</th><th>Model Prob</th><th>Payout</th></tr></thead>
+          <tbody>
+            ${pool.parlays.map(p => `
+              <tr>
+                <td style="font-size:12px">${p.players.join(' + ')}</td>
+                <td style="font-family:var(--mono)">${pct(p.model_prob)}</td>
+                <td style="font-family:var(--mono)">${americanStr(p.payout)}</td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </div>
+    `).join('');
+  }
+
   function renderTop10(containerId, rows, probKey) {
     const el = document.getElementById(containerId);
     if (!rows || rows.length === 0) {
@@ -859,6 +991,12 @@
       const f1 = d.f1 ?? {};
       renderF1Quali(f1.quali?.grid, f1.quali?.circuit);
       renderF1Race(f1.race?.top10, f1.race?.race_name, f1.race?.stats);
+
+      // Picks & Parlays tab
+      const picks = d.picks ?? {};
+      renderPicksSingles(picks.singles);
+      renderPicksParlays(picks.parlays);
+      renderRoundRobins(picks.round_robins);
 
       document.getElementById('generated-at').textContent = 'Last updated ' + d.generated_at;
 
