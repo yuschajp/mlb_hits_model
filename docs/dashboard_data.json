@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-02",
   "hits": {
-    "today_count": 36,
+    "today_count": 54,
     "total_graded": 1738,
     "since_date": "2026-06-20",
     "brier_score": 0.2361,
@@ -11,84 +11,84 @@
     "actual_hit_rate": 0.6128,
     "top10_today": [
       {
-        "player_name": "Brandon Marsh",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 4,
-        "p_hit": 0.7322
-      },
-      {
-        "player_name": "Jake Mangum",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7262
-      },
-      {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hit": 0.7072
-      },
-      {
-        "player_name": "Trea Turner",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hit": 0.693
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
+        "player_name": "Otto Lopez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
         "lineup_spot": 2,
-        "p_hit": 0.6916
+        "p_hit": 0.8608
       },
       {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hit": 0.687
+        "player_name": "Liam Hicks",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.8431
       },
       {
-        "player_name": "Nick Gonzales",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 6,
-        "p_hit": 0.68
-      },
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
+        "player_name": "Xavier Edwards",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
         "lineup_spot": 4,
-        "p_hit": 0.6774
+        "p_hit": 0.825
       },
       {
-        "player_name": "Ryan O'Hearn",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
+        "player_name": "Griffin Conine",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
         "lineup_spot": 5,
-        "p_hit": 0.673
+        "p_hit": 0.7866
       },
       {
-        "player_name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Chase Burns",
-        "venue": "American Family Field",
-        "lineup_spot": 2,
-        "p_hit": 0.6565
+        "player_name": "Kyle Stowers",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7795
+      },
+      {
+        "player_name": "Javier Sanoja",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 8,
+        "p_hit": 0.7753
+      },
+      {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Ryan Gusto",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.767
+      },
+      {
+        "player_name": "Owen Caissie",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 6,
+        "p_hit": 0.7608
+      },
+      {
+        "player_name": "TJ Rumfield",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Ryan Gusto",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7562
+      },
+      {
+        "player_name": "Troy Johnston",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Ryan Gusto",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hit": 0.7539
       }
     ],
     "calibration": [
@@ -200,7 +200,7 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 36,
+    "today_count": 54,
     "total_graded": 1585,
     "since_date": "2026-06-21",
     "brier_score": 0.1059,
@@ -225,12 +225,36 @@
         "p_hr": 0.215
       },
       {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Ryan Gusto",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.199
+      },
+      {
         "player_name": "Brandon Marsh",
         "team": "Philadelphia Phillies",
         "opponent_pitcher": "Jared Jones",
         "venue": "Citizens Bank Park",
         "lineup_spot": 4,
         "p_hr": 0.1965
+      },
+      {
+        "player_name": "Liam Hicks",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1935
+      },
+      {
+        "player_name": "Owen Caissie",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 6,
+        "p_hr": 0.1924
       },
       {
         "player_name": "Jackson Chourio",
@@ -249,44 +273,20 @@
         "p_hr": 0.1768
       },
       {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Chase Burns",
-        "venue": "American Family Field",
-        "lineup_spot": 5,
-        "p_hr": 0.1738
-      },
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1586
-      },
-      {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Chase Burns",
-        "venue": "American Family Field",
+        "player_name": "Kyle Stowers",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
         "lineup_spot": 3,
-        "p_hr": 0.1512
+        "p_hr": 0.1753
       },
       {
-        "player_name": "Trea Turner",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.15
-      },
-      {
-        "player_name": "Alec Bohm",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1452
+        "player_name": "Joe Mack",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 9,
+        "p_hr": 0.1752
       }
     ],
     "calibration": [
@@ -385,12 +385,12 @@
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 5,
+    "today_count": 6,
     "total_graded": 89,
     "since_date": "2026-06-27",
     "brier_score": 0.1704,
     "naive_brier": 0.25,
-    "avg_lambda": 5.87,
+    "avg_lambda": 5.69,
     "over_rate": 0.258,
     "top10_today": [
       {
@@ -419,9 +419,9 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "Citizens Bank Park",
         "line": 6.5,
-        "lambda_k": 5.39,
-        "p_over": 0.2974,
-        "p_under": 0.7026
+        "lambda_k": 5.37,
+        "p_over": 0.2937,
+        "p_under": 0.7063
       },
       {
         "pitcher_name": "Jared Jones",
@@ -432,6 +432,16 @@
         "lambda_k": 5.13,
         "p_over": 0.257,
         "p_under": 0.743
+      },
+      {
+        "pitcher_name": "Ryan Gusto",
+        "team": "Miami Marlins",
+        "opponent": "Colorado Rockies",
+        "venue": "Coors Field",
+        "line": 6.5,
+        "lambda_k": 4.85,
+        "p_over": 0.216,
+        "p_under": 0.784
       },
       {
         "pitcher_name": "Michael Lorenzen",
@@ -759,7 +769,7 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 54,
+    "today_count": 63,
     "total_graded": 50,
     "accuracy": 0.38,
     "matches": [
@@ -1298,6 +1308,96 @@
         "round": "Maria Timofeeva (UZB) leads (25) Elise Mertens (BEL) 2-0",
         "player_a": "Maria Timofeeva",
         "player_b": "Elise Mertens",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Jaume Munar (ESP) leads Jacob Fearnley (GBR) 6-4 7-6 (7-3) 3-2",
+        "player_a": "Jaume Munar",
+        "player_b": "Jacob Fearnley",
+        "elo_a": 1518.3,
+        "elo_b": 1486.9,
+        "p_a_wins": 0.5451,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Matteo Berrettini (ITA) leads (20) Arthur Fils (FRA) 6-4 7-5 3-6 1-0",
+        "player_a": "Arthur Fils",
+        "player_b": "Matteo Berrettini",
+        "elo_a": 1588.2,
+        "elo_b": 1578.6,
+        "p_a_wins": 0.5138,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 4-3",
+        "player_a": "Flavio Cobolli",
+        "player_b": "James Duckworth",
+        "elo_a": 1546.3,
+        "elo_b": 1462.2,
+        "p_a_wins": 0.6187,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Yannick Hanfmann (GER) leads (19) Karen Khachanov (RUS) 3-6 4-6 3-2",
+        "player_a": "Yannick Hanfmann",
+        "player_b": "Karen Khachanov",
+        "elo_a": 1507.9,
+        "elo_b": 1563.3,
+        "p_a_wins": 0.421,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(13) Jiri Lehecka (CZE) leads Alex Molcan (SVK) 3-2",
+        "player_a": "Alex Molcan",
+        "player_b": "Jiri Lehecka",
+        "elo_a": 1513.2,
+        "elo_b": 1602.1,
+        "p_a_wins": 0.3748,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Kamilla Rakhimova (UZB) leads Maria Sakkari (GRE) 3-6 6-0 0-0",
+        "player_a": "Maria Sakkari",
+        "player_b": "Kamilla Rakhimova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Maria Timofeeva (UZB) leads (25) Elise Mertens (BEL) 3-2",
+        "player_a": "Maria Timofeeva",
+        "player_b": "Elise Mertens",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "wta",
+        "round": "James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 4-4",
+        "player_a": "Flavio Cobolli",
+        "player_b": "James Duckworth",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "wta",
+        "round": "(17) Frances Tiafoe (USA) is tied with Jan Choinski (GBR)",
+        "player_a": "Jan Choinski",
+        "player_b": "Frances Tiafoe",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
