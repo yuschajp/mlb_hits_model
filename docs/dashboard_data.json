@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-02",
   "hits": {
-    "today_count": 0,
+    "today_count": 36,
     "total_graded": 1738,
     "since_date": "2026-06-20",
     "brier_score": 0.2361,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.637,
     "actual_hit_rate": 0.6128,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Brandon Marsh",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hit": 0.7322
+      },
+      {
+        "player_name": "Jake Mangum",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7262
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hit": 0.7072
+      },
+      {
+        "player_name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hit": 0.693
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6916
+      },
+      {
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hit": 0.687
+      },
+      {
+        "player_name": "Nick Gonzales",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 6,
+        "p_hit": 0.68
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hit": 0.6774
+      },
+      {
+        "player_name": "Ryan O'Hearn",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 5,
+        "p_hit": 0.673
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "American Family Field",
+        "lineup_spot": 2,
+        "p_hit": 0.6565
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -119,14 +200,95 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 36,
     "total_graded": 1585,
     "since_date": "2026-06-21",
     "brier_score": 0.1059,
     "naive_brier": 0.235,
     "avg_predicted": 0.1228,
     "actual_hr_rate": 0.1218,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.255
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.215
+      },
+      {
+        "player_name": "Brandon Marsh",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1965
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "American Family Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1853
+      },
+      {
+        "player_name": "Brandon Lowe",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1768
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "American Family Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1738
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1586
+      },
+      {
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "American Family Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1512
+      },
+      {
+        "player_name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.15
+      },
+      {
+        "player_name": "Alec Bohm",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1452
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -223,14 +385,65 @@
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 0,
+    "today_count": 5,
     "total_graded": 89,
     "since_date": "2026-06-27",
     "brier_score": 0.1704,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.87,
     "over_rate": 0.258,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "opponent": "Cincinnati Reds",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 8.23,
+        "p_over": 0.7137,
+        "p_under": 0.2863
+      },
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "opponent": "Milwaukee Brewers",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 6.23,
+        "p_over": 0.4308,
+        "p_under": 0.5692
+      },
+      {
+        "pitcher_name": "Alan Rangel",
+        "team": "Philadelphia Phillies",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 5.39,
+        "p_over": 0.2974,
+        "p_under": 0.7026
+      },
+      {
+        "pitcher_name": "Jared Jones",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 5.13,
+        "p_over": 0.257,
+        "p_under": 0.743
+      },
+      {
+        "pitcher_name": "Michael Lorenzen",
+        "team": "Colorado Rockies",
+        "opponent": "Miami Marlins",
+        "venue": "Coors Field",
+        "line": 6.5,
+        "lambda_k": 4.35,
+        "p_over": 0.1499,
+        "p_under": 0.8501
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -546,9 +759,9 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 34,
-    "total_graded": 37,
-    "accuracy": 0.378,
+    "today_count": 54,
+    "total_graded": 50,
+    "accuracy": 0.38,
     "matches": [
       {
         "tour": "atp",
@@ -885,6 +1098,206 @@
         "round": null,
         "player_a": "Elena Rybakina",
         "player_b": "Catherine McNally",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Arthur Fery (GBR) bt Otto Virtanen (FIN) 5-7 7-6 (7-3) 6-3 6-3",
+        "player_a": "Arthur Fery",
+        "player_b": "Otto Virtanen",
+        "elo_a": 1485.8,
+        "elo_b": 1468.7,
+        "p_a_wins": 0.5246,
+        "winner": "Arthur Fery"
+      },
+      {
+        "tour": "atp",
+        "round": "Lorenzo Sonego (ITA) bt Gabriel Diallo (CAN) 7-6 (7-4) 4-6 7-6 (7-4) 6-7 (6-8) 6-2",
+        "player_a": "Lorenzo Sonego",
+        "player_b": "Gabriel Diallo",
+        "elo_a": 1517.4,
+        "elo_b": 1565.2,
+        "p_a_wins": 0.4316,
+        "winner": "Lorenzo Sonego"
+      },
+      {
+        "tour": "atp",
+        "round": "Zizou Bergs (BEL) bt Jaime Faria (POR) 7-6 (8-6) 4-6 6-2 6-3",
+        "player_a": "Zizou Bergs",
+        "player_b": "Jaime Faria",
+        "elo_a": 1522.2,
+        "elo_b": 1419.1,
+        "p_a_wins": 0.6442,
+        "winner": "Zizou Bergs"
+      },
+      {
+        "tour": "atp",
+        "round": "Zachary Svajda (USA) bt Kamil Majchrzak (POL) 2-6 6-2 6-7 (5-7) 6-4 6-3",
+        "player_a": "Zachary Svajda",
+        "player_b": "Kamil Majchrzak",
+        "elo_a": 1452.3,
+        "elo_b": 1544.2,
+        "p_a_wins": 0.3708,
+        "winner": "Zachary Svajda"
+      },
+      {
+        "tour": "atp",
+        "round": "(23) Rafael Jodar (ESP) bt Pablo Carreno Busta (ESP) 3-6 6-3 1-6 6-3 6-4",
+        "player_a": "Rafael Jodar",
+        "player_b": "Pablo Carreno Busta",
+        "elo_a": 1516.4,
+        "elo_b": 1488.1,
+        "p_a_wins": 0.5405,
+        "winner": "Rafael Jodar"
+      },
+      {
+        "tour": "atp",
+        "round": "Jan-Lennard Struff (GER) bt (28) Brandon Nakashima (USA) 4-6 7-6 (8-6) 7-6 (7-5) 6-7 (6-8) 7-6 (10-7)",
+        "player_a": "Jan-Lennard Struff",
+        "player_b": "Brandon Nakashima",
+        "elo_a": 1534.7,
+        "elo_b": 1563.6,
+        "p_a_wins": 0.4585,
+        "winner": "Jan-Lennard Struff"
+      },
+      {
+        "tour": "atp",
+        "round": "Marcos Giron (USA) bt Quentin Halys (FRA) 7-6 (7-5) 6-3 6-4",
+        "player_a": "Marcos Giron",
+        "player_b": "Quentin Halys",
+        "elo_a": 1552.5,
+        "elo_b": 1477.3,
+        "p_a_wins": 0.6066,
+        "winner": "Marcos Giron"
+      },
+      {
+        "tour": "atp",
+        "round": "(2) Alexander Zverev (GER) bt Valentin Royer (FRA) 6-1 6-3 7-6 (7-3)",
+        "player_a": "Alexander Zverev",
+        "player_b": "Valentin Royer",
+        "elo_a": 1607.9,
+        "elo_b": 1492.2,
+        "p_a_wins": 0.6606,
+        "winner": "Alexander Zverev"
+      },
+      {
+        "tour": "atp",
+        "round": "(26) Madison Keys (USA) bt Katie Swan (GBR) 6-1 6-4",
+        "player_a": "Madison Keys",
+        "player_b": "Katie Swan",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Madison Keys"
+      },
+      {
+        "tour": "atp",
+        "round": "(29) Alexandra Eala (PHI) bt Maya Joint (AUS) 3-6 6-2 6-0",
+        "player_a": "Alexandra Eala",
+        "player_b": "Maya Joint",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Alexandra Eala"
+      },
+      {
+        "tour": "atp",
+        "round": "(3) Iga Swiatek (POL) bt Karolina Pliskova (CZE) 6-1 6-3",
+        "player_a": "Iga Swiatek",
+        "player_b": "Karolina Pliskova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Iga Swiatek"
+      },
+      {
+        "tour": "atp",
+        "round": "(12) Marta Kostyuk (UKR) bt Anna Blinkova (RUS) 6-7 (5-7) 6-3 6-3",
+        "player_a": "Marta Kostyuk",
+        "player_b": "Anna Blinkova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Marta Kostyuk"
+      },
+      {
+        "tour": "atp",
+        "round": "(6) Amanda Anisimova (USA) bt Sofia Kenin (USA) 6-2 4-6 7-6 (10-3)",
+        "player_a": "Amanda Anisimova",
+        "player_b": "Sofia Kenin",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Amanda Anisimova"
+      },
+      {
+        "tour": "atp",
+        "round": "Jaume Munar (ESP) leads Jacob Fearnley (GBR) 6-4 7-6 (7-3) 2-0",
+        "player_a": "Jaume Munar",
+        "player_b": "Jacob Fearnley",
+        "elo_a": 1518.3,
+        "elo_b": 1486.9,
+        "p_a_wins": 0.5451,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(20) Arthur Fils (FRA) bt Matteo Berrettini (ITA) 4-6 5-7 6-3",
+        "player_a": "Arthur Fils",
+        "player_b": "Matteo Berrettini",
+        "elo_a": 1588.2,
+        "elo_b": 1578.6,
+        "p_a_wins": 0.5138,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 3-3",
+        "player_a": "Flavio Cobolli",
+        "player_b": "James Duckworth",
+        "elo_a": 1546.3,
+        "elo_b": 1462.2,
+        "p_a_wins": 0.6187,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(19) Karen Khachanov (RUS) leads Yannick Hanfmann (GER) 6-3 6-4 1-1",
+        "player_a": "Yannick Hanfmann",
+        "player_b": "Karen Khachanov",
+        "elo_a": 1507.9,
+        "elo_b": 1563.3,
+        "p_a_wins": 0.421,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(13) Jiri Lehecka (CZE) leads Alex Molcan (SVK) 2-1",
+        "player_a": "Alex Molcan",
+        "player_b": "Jiri Lehecka",
+        "elo_a": 1513.2,
+        "elo_b": 1602.1,
+        "p_a_wins": 0.3748,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Kamilla Rakhimova (UZB) is tied with Maria Sakkari (GRE) 3-6 3-0",
+        "player_a": "Maria Sakkari",
+        "player_b": "Kamilla Rakhimova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Maria Timofeeva (UZB) leads (25) Elise Mertens (BEL) 2-0",
+        "player_a": "Maria Timofeeva",
+        "player_b": "Elise Mertens",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
