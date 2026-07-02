@@ -200,7 +200,7 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 72,
+    "today_count": 108,
     "total_graded": 1585,
     "since_date": "2026-06-21",
     "brier_score": 0.1059,
@@ -222,7 +222,7 @@
         "opponent_pitcher": "Ryan Gusto",
         "venue": "Coors Field",
         "lineup_spot": 2,
-        "p_hr": 0.2203
+        "p_hr": 0.2172
       },
       {
         "player_name": "Bryce Harper",
@@ -233,6 +233,22 @@
         "p_hr": 0.215
       },
       {
+        "player_name": "Kerry Carpenter",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Globe Life Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2072
+      },
+      {
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Globe Life Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2057
+      },
+      {
         "player_name": "Brandon Marsh",
         "team": "Philadelphia Phillies",
         "opponent_pitcher": "Jared Jones",
@@ -241,12 +257,20 @@
         "p_hr": 0.1965
       },
       {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Stephen Kolek",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.1893
+      },
+      {
         "player_name": "Liam Hicks",
         "team": "Miami Marlins",
         "opponent_pitcher": "Michael Lorenzen",
         "venue": "Coors Field",
         "lineup_spot": 1,
-        "p_hr": 0.1903
+        "p_hr": 0.1887
       },
       {
         "player_name": "Owen Caissie",
@@ -254,7 +278,7 @@
         "opponent_pitcher": "Michael Lorenzen",
         "venue": "Coors Field",
         "lineup_spot": 6,
-        "p_hr": 0.1898
+        "p_hr": 0.1881
       },
       {
         "player_name": "Jackson Chourio",
@@ -263,30 +287,6 @@
         "venue": "American Family Field",
         "lineup_spot": 2,
         "p_hr": 0.1868
-      },
-      {
-        "player_name": "Brandon Lowe",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1768
-      },
-      {
-        "player_name": "TJ Rumfield",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Ryan Gusto",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1767
-      },
-      {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Chase Burns",
-        "venue": "American Family Field",
-        "lineup_spot": 5,
-        "p_hr": 0.1751
       }
     ],
     "calibration": [
