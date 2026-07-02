@@ -161,3 +161,32 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-02,atp,Wimbledon,,Kimberly Birrell,Sorana Cirstea,1500.0,1500.0,0.5,0.5,,False
 2026-07-02,atp,Wimbledon,,Viktorija Golubic,Jasmine Paolini,1500.0,1500.0,0.5,0.5,,False
 2026-07-02,atp,Wimbledon,,Elena Rybakina,Catherine McNally,1500.0,1500.0,0.5,0.5,,False
+2026-07-02,atp,Wimbledon,Arthur Fery (GBR) bt Otto Virtanen (FIN) 5-7 7-6 (7-3) 6-3 6-3,Arthur Fery,Otto Virtanen,1485.8,1468.7,0.5246,0.4754,Arthur Fery,True
+2026-07-02,atp,Wimbledon,Lorenzo Sonego (ITA) bt Gabriel Diallo (CAN) 7-6 (7-4) 4-6 7-6 (7-4) 6-7 (6-8) 6-2,Lorenzo Sonego,Gabriel Diallo,1517.4,1565.2,0.4316,0.5684,Lorenzo Sonego,True
+2026-07-02,atp,Wimbledon,Zizou Bergs (BEL) bt Jaime Faria (POR) 7-6 (8-6) 4-6 6-2 6-3,Zizou Bergs,Jaime Faria,1522.2,1419.1,0.6442,0.3558,Zizou Bergs,True
+2026-07-02,atp,Wimbledon,Zachary Svajda (USA) bt Kamil Majchrzak (POL) 2-6 6-2 6-7 (5-7) 6-4 6-3,Zachary Svajda,Kamil Majchrzak,1452.3,1544.2,0.3708,0.6292,Zachary Svajda,True
+2026-07-02,atp,Wimbledon,(23) Rafael Jodar (ESP) bt Pablo Carreno Busta (ESP) 3-6 6-3 1-6 6-3 6-4,Rafael Jodar,Pablo Carreno Busta,1516.4,1488.1,0.5405,0.4595,Rafael Jodar,True
+2026-07-02,atp,Wimbledon,Jan-Lennard Struff (GER) bt (28) Brandon Nakashima (USA) 4-6 7-6 (8-6) 7-6 (7-5) 6-7 (6-8) 7-6 (10-7),Jan-Lennard Struff,Brandon Nakashima,1534.7,1563.6,0.4585,0.5415,Jan-Lennard Struff,True
+2026-07-02,atp,Wimbledon,Marcos Giron (USA) bt Quentin Halys (FRA) 7-6 (7-5) 6-3 6-4,Marcos Giron,Quentin Halys,1552.5,1477.3,0.6066,0.3934,Marcos Giron,True
+2026-07-02,atp,Wimbledon,(2) Alexander Zverev (GER) bt Valentin Royer (FRA) 6-1 6-3 7-6 (7-3),Alexander Zverev,Valentin Royer,1607.9,1492.2,0.6606,0.3394,Alexander Zverev,True
+2026-07-02,atp,Wimbledon,(26) Madison Keys (USA) bt Katie Swan (GBR) 6-1 6-4,Madison Keys,Katie Swan,1500.0,1500.0,0.5,0.5,Madison Keys,True
+2026-07-02,atp,Wimbledon,(29) Alexandra Eala (PHI) bt Maya Joint (AUS) 3-6 6-2 6-0,Alexandra Eala,Maya Joint,1500.0,1500.0,0.5,0.5,Alexandra Eala,True
+2026-07-02,atp,Wimbledon,(3) Iga Swiatek (POL) bt Karolina Pliskova (CZE) 6-1 6-3,Iga Swiatek,Karolina Pliskova,1500.0,1500.0,0.5,0.5,Iga Swiatek,True
+2026-07-02,atp,Wimbledon,(12) Marta Kostyuk (UKR) bt Anna Blinkova (RUS) 6-7 (5-7) 6-3 6-3,Marta Kostyuk,Anna Blinkova,1500.0,1500.0,0.5,0.5,Marta Kostyuk,True
+2026-07-02,atp,Wimbledon,(6) Amanda Anisimova (USA) bt Sofia Kenin (USA) 6-2 4-6 7-6 (10-3),Amanda Anisimova,Sofia Kenin,1500.0,1500.0,0.5,0.5,Amanda Anisimova,True
+2026-07-02,atp,Wimbledon,Jaume Munar (ESP) leads Jacob Fearnley (GBR) 6-4 7-6 (7-3) 2-0,Jaume Munar,Jacob Fearnley,1518.3,1486.9,0.5451,0.4549,,False
+2026-07-02,atp,Wimbledon,(20) Arthur Fils (FRA) bt Matteo Berrettini (ITA) 4-6 5-7 6-3,Arthur Fils,Matteo Berrettini,1588.2,1578.6,0.5138,0.4862,,False
+2026-07-02,atp,Wimbledon,James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 3-3,Flavio Cobolli,James Duckworth,1546.3,1462.2,0.6187,0.3813,,False
+2026-07-02,atp,Wimbledon,(19) Karen Khachanov (RUS) leads Yannick Hanfmann (GER) 6-3 6-4 1-1,Yannick Hanfmann,Karen Khachanov,1507.9,1563.3,0.421,0.579,,False
+2026-07-02,atp,Wimbledon,(13) Jiri Lehecka (CZE) leads Alex Molcan (SVK) 2-1,Alex Molcan,Jiri Lehecka,1513.2,1602.1,0.3748,0.6252,,False
+2026-07-02,atp,Wimbledon,Kamilla Rakhimova (UZB) is tied with Maria Sakkari (GRE) 3-6 3-0,Maria Sakkari,Kamilla Rakhimova,1500.0,1500.0,0.5,0.5,,False
+2026-07-02,atp,Wimbledon,Maria Timofeeva (UZB) leads (25) Elise Mertens (BEL) 2-0,Maria Timofeeva,Elise Mertens,1500.0,1500.0,0.5,0.5,,False
+2026-07-02,atp,Wimbledon,Jaume Munar (ESP) leads Jacob Fearnley (GBR) 6-4 7-6 (7-3) 3-2,Jaume Munar,Jacob Fearnley,1518.3,1486.9,0.5451,0.4549,,False
+2026-07-02,atp,Wimbledon,Matteo Berrettini (ITA) leads (20) Arthur Fils (FRA) 6-4 7-5 3-6 1-0,Arthur Fils,Matteo Berrettini,1588.2,1578.6,0.5138,0.4862,,False
+2026-07-02,atp,Wimbledon,James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 4-3,Flavio Cobolli,James Duckworth,1546.3,1462.2,0.6187,0.3813,,False
+2026-07-02,atp,Wimbledon,Yannick Hanfmann (GER) leads (19) Karen Khachanov (RUS) 3-6 4-6 3-2,Yannick Hanfmann,Karen Khachanov,1507.9,1563.3,0.421,0.579,,False
+2026-07-02,atp,Wimbledon,(13) Jiri Lehecka (CZE) leads Alex Molcan (SVK) 3-2,Alex Molcan,Jiri Lehecka,1513.2,1602.1,0.3748,0.6252,,False
+2026-07-02,atp,Wimbledon,Kamilla Rakhimova (UZB) leads Maria Sakkari (GRE) 3-6 6-0 0-0,Maria Sakkari,Kamilla Rakhimova,1500.0,1500.0,0.5,0.5,,False
+2026-07-02,atp,Wimbledon,Maria Timofeeva (UZB) leads (25) Elise Mertens (BEL) 3-2,Maria Timofeeva,Elise Mertens,1500.0,1500.0,0.5,0.5,,False
+2026-07-02,wta,Wimbledon,James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 4-4,Flavio Cobolli,James Duckworth,1500.0,1500.0,0.5,0.5,,False
+2026-07-02,wta,Wimbledon,(17) Frances Tiafoe (USA) is tied with Jan Choinski (GBR),Jan Choinski,Frances Tiafoe,1500.0,1500.0,0.5,0.5,,False

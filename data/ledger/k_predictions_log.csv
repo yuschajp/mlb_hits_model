@@ -88,3 +88,9 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-01,824174,837227,Tatsuya Imai,Houston Astros,Minnesota Twins,Daikin Park,1.0,6.5,11.106,13.31,0.2141,47.0,23.7,4.27,5.343,0.2896,0.7104,2.0,True
 2026-07-01,823767,671096,Andrew Abbott,Cincinnati Reds,Milwaukee Brewers,American Family Field,1.05,6.5,7.0,8.64,0.2123,90.0,33.3,5.29,4.522,0.1717,0.8283,3.0,True
 2026-07-01,824337,607536,Kyle Freeland,Colorado Rockies,Miami Marlins,Coors Field,1.13,6.5,7.625,6.674,0.2174,72.0,29.7,5.14,4.458,0.1636,0.8364,7.0,True
+2026-07-02,823442,683003,Jared Jones,Pittsburgh Pirates,Philadelphia Phillies,Citizens Bank Park,0.97,6.5,9.0,9.0,0.2344,25.0,25.0,4.17,5.13,0.257,0.743,,False
+2026-07-02,823442,660604,Alan Rangel,Philadelphia Phillies,Pittsburgh Pirates,Citizens Bank Park,1.03,6.5,9.75,7.715,0.2406,12.0,9.3,4.0,5.37,0.2937,0.7063,,False
+2026-07-02,823765,695505,Chase Burns,Cincinnati Reds,Milwaukee Brewers,American Family Field,1.05,6.5,10.996,13.171,0.2109,91.7,27.3,5.73,6.231,0.4308,0.5692,,False
+2026-07-02,823765,694819,Jacob Misiorowski,Milwaukee Brewers,Cincinnati Reds,American Family Field,1.02,6.5,13.273,11.829,0.2492,99.0,35.0,6.19,8.228,0.7137,0.2863,,False
+2026-07-02,824335,687473,Ryan Gusto,Miami Marlins,Colorado Rockies,Coors Field,0.93,6.5,8.438,8.41,0.2324,21.3,20.3,3.67,4.848,0.216,0.784,,False
+2026-07-02,824335,547179,Michael Lorenzen,Colorado Rockies,Miami Marlins,Coors Field,1.13,6.5,7.273,8.036,0.2184,81.7,28.0,4.75,4.347,0.1499,0.8501,,False
