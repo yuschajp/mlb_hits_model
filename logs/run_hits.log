@@ -277,3 +277,29 @@ San Francisco Giants @ Arizona Diamondbacks (Chase Field) [Scheduled]
   [skip] San Francisco Giants @ Arizona Diamondbacks: lineups not posted yet
 
 No confirmed lineups available yet -- try again closer to first pitch.
+/Users/victoria/Documents/anaconda3/lib/python3.11/site-packages/pandas/core/arrays/masked.py:61: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.5' currently installed).
+  from pandas.core import (
+Applying Platt scaling calibration (slope=0.8986, intercept=-0.1198)
+
+Found 9 games today (2026-07-02).
+
+Pittsburgh Pirates @ Philadelphia Phillies (Citizens Bank Park) [Scheduled]
+  [skip] Pittsburgh Pirates @ Philadelphia Phillies: lineups not posted yet
+Cincinnati Reds @ Milwaukee Brewers (American Family Field) [Scheduled]
+  [skip] Cincinnati Reds @ Milwaukee Brewers: lineups not posted yet
+Miami Marlins @ Colorado Rockies (Coors Field) [Scheduled]
+  [skip] Miami Marlins @ Colorado Rockies: lineups not posted yet
+Chicago White Sox @ Cleveland Guardians (Progressive Field) [Scheduled]
+  [skip] Chicago White Sox @ Cleveland Guardians: lineups not posted yet
+St. Louis Cardinals @ Atlanta Braves (Truist Park) [Scheduled]
+  [skip] St. Louis Cardinals @ Atlanta Braves: lineups not posted yet
+Tampa Bay Rays @ Kansas City Royals (Kauffman Stadium) [Scheduled]
+  [skip] Tampa Bay Rays @ Kansas City Royals: lineups not posted yet
+Detroit Tigers @ Texas Rangers (Globe Life Field) [Scheduled]
+  [skip] Detroit Tigers @ Texas Rangers: lineups not posted yet
+Los Angeles Angels @ Seattle Mariners (T-Mobile Park) [Scheduled]
+  [skip] Los Angeles Angels @ Seattle Mariners: lineups not posted yet
+San Diego Padres @ Los Angeles Dodgers (UNIQLO Field at Dodger Stadium) [Scheduled]
+  [skip] San Diego Padres @ Los Angeles Dodgers: lineups not posted yet
+
+No confirmed lineups available yet -- try again closer to first pitch.

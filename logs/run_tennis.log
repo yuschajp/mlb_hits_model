@@ -1,0 +1,173 @@
+
+============================================================
+  ATP — Wimbledon Predictions
+============================================================
+
+Fetching recent match history for Elo computation...
+  6157 matches in recent history.
+Computing overall and grass-surface Elo ratings...
+  Rated 584 players, 202 with grass-court history.
+
+Fetching Wimbledon matches from ESPN (full tournament draw)...
+  478 total matches in tournament so far (34 dated today, 444 other days).
+
+  Found 7 completed and 27 in-progress/upcoming match(es):
+
+  [(5) Alex de Minaur (AUS) bt Adrian Mannarino (FRA) 6-3 6-2 6-2] Alex de Minaur def. Adrian Mannarino
+    Elo: 1617 vs 1465  |  Model favored Alex de Minaur (70.5%)  
+  [(6) Taylor Fritz (USA) bt Patrick Kypson (USA) 6-2 6-2 7-5] Taylor Fritz def. Patrick Kypson
+    Elo: 1681 vs 1476  |  Model favored Taylor Fritz (76.4%)  
+  [(23) Emma Navarro (USA) bt Oksana Selekhmeteva (ESP) 3-6 6-4 6-1] Emma Navarro def. Oksana Selekhmeteva
+    Elo: 1500 vs 1500  |  Model favored Oksana Selekhmeteva (50.0%)  
+  [Liudmila Samsonova (RUS) bt (15) Diana Shnaider (RUS) 6-4 4-6 6-2] Liudmila Samsonova def. Diana Shnaider
+    Elo: 1500 vs 1500  |  Model favored Diana Shnaider (50.0%)  
+  [Daria Snigur (UKR) bt Leolia Jeanjean (FRA) 6-4 6-3] Daria Snigur def. Leolia Jeanjean
+    Elo: 1500 vs 1500  |  Model favored Leolia Jeanjean (50.0%)  
+  [(21) Marie Bouzkova (CZE) bt Tyra Caterina Grant (ITA) 7-5 6-3] Marie Bouzkova def. Tyra Caterina Grant
+    Elo: 1500 vs 1500  |  Model favored Tyra Caterina Grant (50.0%)  
+  [Ashlyn Krueger (USA) bt Mariam Bolkvadze (GEO) 6-1 6-0] Ashlyn Krueger def. Mariam Bolkvadze
+    Elo: 1500 vs 1500  |  Model favored Mariam Bolkvadze (50.0%)  
+  [Arthur Fery (GBR) leads Otto Virtanen (FIN) 5-7 7-6 (7-3) 6-3 4-2] Otto Virtanen vs Arthur Fery  (upcoming/in-progress)
+    Elo: 1469 vs 1486  |  Model favors Arthur Fery (52.5%)
+  [Gabriel Diallo (CAN) leads Lorenzo Sonego (ITA) 6-7 (4-7) 6-4 6-7 (4-7) 1-1] Lorenzo Sonego vs Gabriel Diallo  (upcoming/in-progress)
+    Elo: 1517 vs 1565  |  Model favors Gabriel Diallo (56.8%)
+  [Jaime Faria (POR) is tied with Zizou Bergs (BEL) 6-7 (6-8) 1-0] Jaime Faria vs Zizou Bergs  (upcoming/in-progress)
+    Elo: 1419 vs 1522  |  Model favors Zizou Bergs (64.4%)
+  [Zachary Svajda (USA) is tied with Kamil Majchrzak (POL) 2-6 3-1] Kamil Majchrzak vs Zachary Svajda  (upcoming/in-progress)
+    Elo: 1544 vs 1452  |  Model favors Kamil Majchrzak (62.9%)
+  [(23) Rafael Jodar (ESP) is tied with Pablo Carreno Busta (ESP) 3-6 6-3 1-6 5-3] Pablo Carreno Busta vs Rafael Jodar  (upcoming/in-progress)
+    Elo: 1488 vs 1516  |  Model favors Rafael Jodar (54.0%)
+  [(28) Brandon Nakashima (USA) leads Jan-Lennard Struff (GER) 6-4 6-7 (6-8) 6-7 (5-7) 7-6 (8-6) 3-3] Jan-Lennard Struff vs Brandon Nakashima  (upcoming/in-progress)
+    Elo: 1535 vs 1564  |  Model favors Brandon Nakashima (54.1%)
+  [] Marcos Giron vs Quentin Halys  (upcoming/in-progress)
+    Elo: 1552 vs 1477  |  Model favors Marcos Giron (60.7%)
+  [] Yannick Hanfmann vs Karen Khachanov  (upcoming/in-progress)
+    Elo: 1508 vs 1563  |  Model favors Karen Khachanov (57.9%)
+  [] Flavio Cobolli vs James Duckworth  (upcoming/in-progress)
+    Elo: 1546 vs 1462  |  Model favors Flavio Cobolli (61.9%)
+  [] Alexander Zverev vs Valentin Royer  (upcoming/in-progress)
+    Elo: 1608 vs 1492  |  Model favors Alexander Zverev (66.1%)
+  [] Jaume Munar vs Jacob Fearnley  (upcoming/in-progress)
+    Elo: 1518 vs 1487  |  Model favors Jaume Munar (54.5%)
+  [] Arthur Fils vs Matteo Berrettini  (upcoming/in-progress)
+    Elo: 1588 vs 1579  |  Model favors Arthur Fils (51.4%)
+  [] Alex Molcan vs Jiri Lehecka  (upcoming/in-progress)
+    Elo: 1513 vs 1602  |  Model favors Jiri Lehecka (62.5%)
+  [] Jan Choinski vs Frances Tiafoe  (upcoming/in-progress)
+    Elo: 1464 vs 1529  |  Model favors Frances Tiafoe (59.2%)
+  [] Grigor Dimitrov vs Jakub Mensik  (upcoming/in-progress)
+    Elo: 1606 vs 1539  |  Model favors Grigor Dimitrov (59.6%)
+  [] Alexander Bublik vs Kyrian Jacquet  (upcoming/in-progress)
+    Elo: 1580 vs 1494  |  Model favors Alexander Bublik (62.1%)
+  [Katie Swan (GBR) leads (26) Madison Keys (USA) 1-6 1-1] Madison Keys vs Katie Swan  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Katie Swan (50.0%)
+  [Maya Joint (AUS) leads (29) Alexandra Eala (PHI) 6-3 1-0] Maya Joint vs Alexandra Eala  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Alexandra Eala (50.0%)
+  [(3) Iga Swiatek (POL) leads Karolina Pliskova (CZE) 4-1] Iga Swiatek vs Karolina Pliskova  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Karolina Pliskova (50.0%)
+  [] Marta Kostyuk vs Anna Blinkova  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Anna Blinkova (50.0%)
+  [] Maria Sakkari vs Kamilla Rakhimova  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Kamilla Rakhimova (50.0%)
+  [] Sofia Kenin vs Amanda Anisimova  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Amanda Anisimova (50.0%)
+  [] Maria Timofeeva vs Elise Mertens  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Elise Mertens (50.0%)
+  [] Linda Noskova vs Camila Osorio  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Camila Osorio (50.0%)
+  [] Kimberly Birrell vs Sorana Cirstea  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Sorana Cirstea (50.0%)
+  [] Viktorija Golubic vs Jasmine Paolini  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Jasmine Paolini (50.0%)
+  [] Elena Rybakina vs Catherine McNally  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Catherine McNally (50.0%)
+
+Logged 34 new prediction(s) for ATP.
+
+============================================================
+  WTA — Wimbledon Predictions
+============================================================
+
+Fetching recent match history for Elo computation...
+  [warn] TML-Database is ATP-only. No WTA data source configured yet.
+  0 matches in recent history.
+  No historical data available for wta -- skipping Elo computation.
+  (Live Wimbledon matches below will use default 1500 Elo for all players.)
+Computing overall and grass-surface Elo ratings...
+  Rated 0 players, 0 with grass-court history.
+
+Fetching Wimbledon matches from ESPN (full tournament draw)...
+  478 total matches in tournament so far (34 dated today, 444 other days).
+
+  Found 7 completed and 27 in-progress/upcoming match(es):
+
+  [(5) Alex de Minaur (AUS) bt Adrian Mannarino (FRA) 6-3 6-2 6-2] Alex de Minaur def. Adrian Mannarino
+    Elo: 1500 vs 1500  |  Model favored Adrian Mannarino (50.0%)  
+  [(6) Taylor Fritz (USA) bt Patrick Kypson (USA) 6-2 6-2 7-5] Taylor Fritz def. Patrick Kypson
+    Elo: 1500 vs 1500  |  Model favored Patrick Kypson (50.0%)  
+  [(23) Emma Navarro (USA) bt Oksana Selekhmeteva (ESP) 3-6 6-4 6-1] Emma Navarro def. Oksana Selekhmeteva
+    Elo: 1500 vs 1500  |  Model favored Oksana Selekhmeteva (50.0%)  
+  [Liudmila Samsonova (RUS) bt (15) Diana Shnaider (RUS) 6-4 4-6 6-2] Liudmila Samsonova def. Diana Shnaider
+    Elo: 1500 vs 1500  |  Model favored Diana Shnaider (50.0%)  
+  [Daria Snigur (UKR) bt Leolia Jeanjean (FRA) 6-4 6-3] Daria Snigur def. Leolia Jeanjean
+    Elo: 1500 vs 1500  |  Model favored Leolia Jeanjean (50.0%)  
+  [(21) Marie Bouzkova (CZE) bt Tyra Caterina Grant (ITA) 7-5 6-3] Marie Bouzkova def. Tyra Caterina Grant
+    Elo: 1500 vs 1500  |  Model favored Tyra Caterina Grant (50.0%)  
+  [Ashlyn Krueger (USA) bt Mariam Bolkvadze (GEO) 6-1 6-0] Ashlyn Krueger def. Mariam Bolkvadze
+    Elo: 1500 vs 1500  |  Model favored Mariam Bolkvadze (50.0%)  
+  [Arthur Fery (GBR) leads Otto Virtanen (FIN) 5-7 7-6 (7-3) 6-3 4-2] Otto Virtanen vs Arthur Fery  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Arthur Fery (50.0%)
+  [Gabriel Diallo (CAN) leads Lorenzo Sonego (ITA) 6-7 (4-7) 6-4 6-7 (4-7) 1-1] Lorenzo Sonego vs Gabriel Diallo  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Gabriel Diallo (50.0%)
+  [Jaime Faria (POR) is tied with Zizou Bergs (BEL) 6-7 (6-8) 1-0] Jaime Faria vs Zizou Bergs  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Zizou Bergs (50.0%)
+  [Zachary Svajda (USA) is tied with Kamil Majchrzak (POL) 2-6 3-1] Kamil Majchrzak vs Zachary Svajda  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Zachary Svajda (50.0%)
+  [(23) Rafael Jodar (ESP) is tied with Pablo Carreno Busta (ESP) 3-6 6-3 1-6 5-3] Pablo Carreno Busta vs Rafael Jodar  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Rafael Jodar (50.0%)
+  [(28) Brandon Nakashima (USA) leads Jan-Lennard Struff (GER) 6-4 6-7 (6-8) 6-7 (5-7) 7-6 (8-6) 3-3] Jan-Lennard Struff vs Brandon Nakashima  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Brandon Nakashima (50.0%)
+  [] Marcos Giron vs Quentin Halys  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Quentin Halys (50.0%)
+  [] Yannick Hanfmann vs Karen Khachanov  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Karen Khachanov (50.0%)
+  [] Flavio Cobolli vs James Duckworth  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors James Duckworth (50.0%)
+  [] Alexander Zverev vs Valentin Royer  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Valentin Royer (50.0%)
+  [] Jaume Munar vs Jacob Fearnley  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Jacob Fearnley (50.0%)
+  [] Arthur Fils vs Matteo Berrettini  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Matteo Berrettini (50.0%)
+  [] Alex Molcan vs Jiri Lehecka  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Jiri Lehecka (50.0%)
+  [] Jan Choinski vs Frances Tiafoe  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Frances Tiafoe (50.0%)
+  [] Grigor Dimitrov vs Jakub Mensik  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Jakub Mensik (50.0%)
+  [] Alexander Bublik vs Kyrian Jacquet  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Kyrian Jacquet (50.0%)
+  [Katie Swan (GBR) leads (26) Madison Keys (USA) 1-6 1-1] Madison Keys vs Katie Swan  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Katie Swan (50.0%)
+  [Maya Joint (AUS) leads (29) Alexandra Eala (PHI) 6-3 1-0] Maya Joint vs Alexandra Eala  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Alexandra Eala (50.0%)
+  [(3) Iga Swiatek (POL) leads Karolina Pliskova (CZE) 4-1] Iga Swiatek vs Karolina Pliskova  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Karolina Pliskova (50.0%)
+  [] Marta Kostyuk vs Anna Blinkova  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Anna Blinkova (50.0%)
+  [] Maria Sakkari vs Kamilla Rakhimova  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Kamilla Rakhimova (50.0%)
+  [] Sofia Kenin vs Amanda Anisimova  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Amanda Anisimova (50.0%)
+  [] Maria Timofeeva vs Elise Mertens  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Elise Mertens (50.0%)
+  [] Linda Noskova vs Camila Osorio  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Camila Osorio (50.0%)
+  [] Kimberly Birrell vs Sorana Cirstea  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Sorana Cirstea (50.0%)
+  [] Viktorija Golubic vs Jasmine Paolini  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Jasmine Paolini (50.0%)
+  [] Elena Rybakina vs Catherine McNally  (upcoming/in-progress)
+    Elo: 1500 vs 1500  |  Model favors Catherine McNally (50.0%)
+
+Logged 0 new prediction(s) for WTA.

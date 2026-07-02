@@ -1,0 +1,21 @@
+/Users/victoria/Documents/anaconda3/lib/python3.11/site-packages/pandas/core/arrays/masked.py:61: UserWarning: Pandas requires version '1.3.6' or newer of 'bottleneck' (version '1.3.5' currently installed).
+  from pandas.core import (
+No ungraded K predictions from prior days.
+Rolling stats over 89 graded K predictions (since 2026-06-27):
+  Brier score: 0.1704  (naive baseline: 0.2500)
+  Avg predicted P(over): 26.4%   Actual over rate: 25.8%
+  Avg expected Ks (λ): 4.9   Avg actual Ks: 4.8
+
+Calibration by predicted-probability bucket:
+PredRange  N  AvgPredicted  ActualFrequency
+  0.0-0.2 32          0.14             0.09
+  0.2-0.4 41          0.28             0.29
+  0.4-0.6 16          0.48             0.50
+
+Most accurate predictions (λ closest to actual):
+  pitcher_name  lambda_k  actual_ks  p_over  line
+   Sean Manaea     4.013        4.0  0.2170   5.5
+Drew Rasmussen     5.075        5.0  0.2488   6.5
+   Trey Gibson     5.089        5.0  0.2509   6.5
+   Gerrit Cole     5.109        5.0  0.2539   6.5
+ Miles Mikolas     3.142        3.0  0.0989   5.5
