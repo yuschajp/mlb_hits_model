@@ -200,7 +200,7 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 54,
+    "today_count": 72,
     "total_graded": 1585,
     "since_date": "2026-06-21",
     "brier_score": 0.1059,
@@ -217,20 +217,20 @@
         "p_hr": 0.255
       },
       {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Ryan Gusto",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2203
+      },
+      {
         "player_name": "Bryce Harper",
         "team": "Philadelphia Phillies",
         "opponent_pitcher": "Jared Jones",
         "venue": "Citizens Bank Park",
         "lineup_spot": 3,
         "p_hr": 0.215
-      },
-      {
-        "player_name": "Mickey Moniak",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Ryan Gusto",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hr": 0.199
       },
       {
         "player_name": "Brandon Marsh",
@@ -246,7 +246,7 @@
         "opponent_pitcher": "Michael Lorenzen",
         "venue": "Coors Field",
         "lineup_spot": 1,
-        "p_hr": 0.1935
+        "p_hr": 0.1903
       },
       {
         "player_name": "Owen Caissie",
@@ -254,7 +254,7 @@
         "opponent_pitcher": "Michael Lorenzen",
         "venue": "Coors Field",
         "lineup_spot": 6,
-        "p_hr": 0.1924
+        "p_hr": 0.1898
       },
       {
         "player_name": "Jackson Chourio",
@@ -262,7 +262,7 @@
         "opponent_pitcher": "Chase Burns",
         "venue": "American Family Field",
         "lineup_spot": 2,
-        "p_hr": 0.1853
+        "p_hr": 0.1868
       },
       {
         "player_name": "Brandon Lowe",
@@ -273,20 +273,20 @@
         "p_hr": 0.1768
       },
       {
-        "player_name": "Kyle Stowers",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
+        "player_name": "TJ Rumfield",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Ryan Gusto",
         "venue": "Coors Field",
         "lineup_spot": 3,
-        "p_hr": 0.1753
+        "p_hr": 0.1767
       },
       {
-        "player_name": "Joe Mack",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 9,
-        "p_hr": 0.1752
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "American Family Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1751
       }
     ],
     "calibration": [
