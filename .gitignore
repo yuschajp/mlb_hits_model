@@ -10,3 +10,4 @@ venv/
 data/ledger/*.csv
 !data/ledger/.gitkeep
 ai-alpha-labs/
+logs/*.log
