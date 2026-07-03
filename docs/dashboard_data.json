@@ -1,114 +1,33 @@
 {
-  "generated_at": "2026-07-02",
+  "generated_at": "2026-07-03",
   "hits": {
-    "today_count": 54,
-    "total_graded": 1738,
+    "today_count": 0,
+    "total_graded": 1792,
     "since_date": "2026-06-20",
-    "brier_score": 0.2361,
-    "recent_brier_score": 0.2373,
+    "brier_score": 0.2362,
+    "recent_brier_score": 0.2366,
     "naive_brier": 0.235,
-    "avg_predicted": 0.637,
-    "actual_hit_rate": 0.6128,
-    "top10_today": [
-      {
-        "player_name": "Otto Lopez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hit": 0.8608
-      },
-      {
-        "player_name": "Liam Hicks",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 1,
-        "p_hit": 0.8431
-      },
-      {
-        "player_name": "Xavier Edwards",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hit": 0.825
-      },
-      {
-        "player_name": "Griffin Conine",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 5,
-        "p_hit": 0.7866
-      },
-      {
-        "player_name": "Kyle Stowers",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hit": 0.7795
-      },
-      {
-        "player_name": "Javier Sanoja",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 8,
-        "p_hit": 0.7753
-      },
-      {
-        "player_name": "Jake McCarthy",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Ryan Gusto",
-        "venue": "Coors Field",
-        "lineup_spot": 1,
-        "p_hit": 0.767
-      },
-      {
-        "player_name": "Owen Caissie",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 6,
-        "p_hit": 0.7608
-      },
-      {
-        "player_name": "TJ Rumfield",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Ryan Gusto",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hit": 0.7562
-      },
-      {
-        "player_name": "Troy Johnston",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Ryan Gusto",
-        "venue": "Coors Field",
-        "lineup_spot": 5,
-        "p_hit": 0.7539
-      }
-    ],
+    "avg_predicted": 0.6374,
+    "actual_hit_rate": 0.6144,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 459,
-        "predicted": 0.566,
-        "actual": 0.588
+        "n": 474,
+        "predicted": 0.564,
+        "actual": 0.591
       },
       {
         "range": "0.6-0.8",
-        "n": 1257,
-        "predicted": 0.66,
-        "actual": 0.619
+        "n": 1293,
+        "predicted": 0.661,
+        "actual": 0.62
       },
       {
         "range": "0.8-1.0",
-        "n": 22,
-        "predicted": 0.822,
-        "actual": 0.773
+        "n": 25,
+        "predicted": 0.824,
+        "actual": 0.76
       }
     ],
     "returns": [
@@ -195,112 +114,38 @@
         "n_wins": 61,
         "daily_pnl": 19.455,
         "cumulative_pnl": 237.727
+      },
+      {
+        "date": "2026-07-02",
+        "n_bets": 39,
+        "n_wins": 26,
+        "daily_pnl": 10.636,
+        "cumulative_pnl": 248.364
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 108,
-    "total_graded": 1585,
+    "today_count": 0,
+    "total_graded": 1693,
     "since_date": "2026-06-21",
-    "brier_score": 0.1059,
+    "brier_score": 0.1075,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1228,
-    "actual_hr_rate": 0.1218,
-    "top10_today": [
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.255
-      },
-      {
-        "player_name": "Mickey Moniak",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Ryan Gusto",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2172
-      },
-      {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hr": 0.215
-      },
-      {
-        "player_name": "Kerry Carpenter",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Nathan Eovaldi",
-        "venue": "Globe Life Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2072
-      },
-      {
-        "player_name": "Dillon Dingler",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Nathan Eovaldi",
-        "venue": "Globe Life Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2057
-      },
-      {
-        "player_name": "Brandon Marsh",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jared Jones",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1965
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Stephen Kolek",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.1893
-      },
-      {
-        "player_name": "Liam Hicks",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 1,
-        "p_hr": 0.1887
-      },
-      {
-        "player_name": "Owen Caissie",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 6,
-        "p_hr": 0.1881
-      },
-      {
-        "player_name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Chase Burns",
-        "venue": "American Family Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1868
-      }
-    ],
+    "avg_predicted": 0.1231,
+    "actual_hr_rate": 0.1234,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 1538,
+        "n": 1641,
         "predicted": 0.12,
-        "actual": 0.118
+        "actual": 0.119
       },
       {
         "range": "0.2-0.4",
-        "n": 47,
+        "n": 52,
         "predicted": 0.222,
-        "actual": 0.255
+        "actual": 0.25
       }
     ],
     "returns": [
@@ -380,149 +225,59 @@
         "n_wins": 5,
         "daily_pnl": -14.5,
         "cumulative_pnl": -104.0
+      },
+      {
+        "date": "2026-07-02",
+        "n_bets": 27,
+        "n_wins": 2,
+        "daily_pnl": -18.0,
+        "cumulative_pnl": -122.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 6,
-    "total_graded": 89,
+    "today_count": 0,
+    "total_graded": 103,
     "since_date": "2026-06-27",
-    "brier_score": 0.1704,
+    "brier_score": 0.1656,
     "naive_brier": 0.25,
-    "avg_lambda": 5.69,
-    "over_rate": 0.258,
-    "top10_today": [
-      {
-        "pitcher_name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "opponent": "Cincinnati Reds",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 8.23,
-        "p_over": 0.7137,
-        "p_under": 0.2863
-      },
-      {
-        "pitcher_name": "Chase Burns",
-        "team": "Cincinnati Reds",
-        "opponent": "Milwaukee Brewers",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 6.23,
-        "p_over": 0.4308,
-        "p_under": 0.5692
-      },
-      {
-        "pitcher_name": "Alan Rangel",
-        "team": "Philadelphia Phillies",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "Citizens Bank Park",
-        "line": 6.5,
-        "lambda_k": 5.37,
-        "p_over": 0.2937,
-        "p_under": 0.7063
-      },
-      {
-        "pitcher_name": "Jared Jones",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Citizens Bank Park",
-        "line": 6.5,
-        "lambda_k": 5.13,
-        "p_over": 0.257,
-        "p_under": 0.743
-      },
-      {
-        "pitcher_name": "Ryan Gusto",
-        "team": "Miami Marlins",
-        "opponent": "Colorado Rockies",
-        "venue": "Coors Field",
-        "line": 6.5,
-        "lambda_k": 4.85,
-        "p_over": 0.216,
-        "p_under": 0.784
-      },
-      {
-        "pitcher_name": "Michael Lorenzen",
-        "team": "Colorado Rockies",
-        "opponent": "Miami Marlins",
-        "venue": "Coors Field",
-        "line": 6.5,
-        "lambda_k": 4.35,
-        "p_over": 0.1499,
-        "p_under": 0.8501
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.262,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 32,
-        "predicted": 0.14,
-        "actual": 0.094
+        "n": 37,
+        "predicted": 0.142,
+        "actual": 0.108
       },
       {
         "range": "0.2-0.4",
-        "n": 41,
-        "predicted": 0.277,
-        "actual": 0.293
+        "n": 46,
+        "predicted": 0.274,
+        "actual": 0.261
       },
       {
         "range": "0.4-0.6",
-        "n": 16,
-        "predicted": 0.478,
-        "actual": 0.5
+        "n": 19,
+        "predicted": 0.475,
+        "actual": 0.526
+      },
+      {
+        "range": "0.6-0.8",
+        "n": 1,
+        "predicted": 0.714,
+        "actual": 1.0
       }
     ]
   },
   "wc": {
-    "today_count": 10,
-    "total_graded": 10,
-    "brier_home": 0.2869,
+    "today_count": 9,
+    "total_graded": 13,
+    "brier_home": 0.2541,
     "naive_brier": 0.222,
     "matches_today": [
-      {
-        "home_team": "Portugal",
-        "away_team": "Croatia",
-        "stage": "Round of 32",
-        "xg_home": 1.88,
-        "xg_away": 0.93,
-        "p_home": 0.5968,
-        "p_draw": 0.2212,
-        "p_away": 0.182,
-        "over_2_5": 0.534,
-        "btts": 0.5139,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Spain",
-        "away_team": "Austria",
-        "stage": "Round of 32",
-        "xg_home": 1.88,
-        "xg_away": 0.82,
-        "p_home": 0.6234,
-        "p_draw": 0.2182,
-        "p_away": 0.1585,
-        "over_2_5": 0.5082,
-        "btts": 0.4762,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Switzerland",
-        "away_team": "Algeria",
-        "stage": "Round of 32",
-        "xg_home": 2.54,
-        "xg_away": 1.31,
-        "p_home": 0.6398,
-        "p_draw": 0.1783,
-        "p_away": 0.1819,
-        "over_2_5": 0.738,
-        "btts": 0.6721,
-        "graded": false,
-        "result": null
-      },
       {
         "home_team": "Argentina",
         "away_team": "Cape Verde",
@@ -620,394 +375,292 @@
         "btts": 0.375,
         "graded": false,
         "result": null
+      },
+      {
+        "home_team": "W83",
+        "away_team": "W84",
+        "stage": "Round of 16",
+        "xg_home": 1.3,
+        "xg_away": 1.3,
+        "p_home": 0.368,
+        "p_draw": 0.2639,
+        "p_away": 0.368,
+        "over_2_5": 0.4816,
+        "btts": 0.5292,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "USA",
+        "away_team": "Belgium",
+        "stage": "Round of 16",
+        "xg_home": 1.72,
+        "xg_away": 1.48,
+        "p_home": 0.4366,
+        "p_draw": 0.2324,
+        "p_away": 0.3309,
+        "over_2_5": 0.62,
+        "btts": 0.6338,
+        "graded": false,
+        "result": null
       }
     ]
   },
   "wc_gs": {
-    "today_count": 27,
+    "today_count": 17,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
     "top15_today": [
       {
-        "player": "Johan Manzambi",
-        "team": "Switzerland",
-        "opponent": "Algeria",
-        "match": "Switzerland vs Algeria",
-        "tournament_goals": 3,
-        "lambda": 1.478,
-        "p_scores": 0.7719
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "opponent": "Cape Verde",
+        "match": "Argentina vs Cape Verde",
+        "tournament_goals": 6,
+        "lambda": 0.635,
+        "p_scores": 0.47
       },
       {
-        "player": "Mikel Oyarzabal",
-        "team": "Spain",
-        "opponent": "Austria",
-        "match": "Spain vs Austria",
-        "tournament_goals": 2,
-        "lambda": 1.183,
-        "p_scores": 0.6938
-      },
-      {
-        "player": "Rub\u00e9n Vargas",
-        "team": "Switzerland",
-        "opponent": "Algeria",
-        "match": "Switzerland vs Algeria",
-        "tournament_goals": 2,
-        "lambda": 1.056,
-        "p_scores": 0.6521
-      },
-      {
-        "player": "Cristiano Ronaldo",
-        "team": "Portugal",
-        "opponent": "Croatia",
-        "match": "Portugal vs Croatia",
-        "tournament_goals": 2,
-        "lambda": 0.986,
-        "p_scores": 0.627
-      },
-      {
-        "player": "Granit Xhaka",
-        "team": "Switzerland",
-        "opponent": "Algeria",
-        "match": "Switzerland vs Algeria",
-        "tournament_goals": 1,
-        "lambda": 0.828,
-        "p_scores": 0.5633
-      },
-      {
-        "player": "Breel Embolo",
-        "team": "Switzerland",
-        "opponent": "Algeria",
-        "match": "Switzerland vs Algeria",
-        "tournament_goals": 1,
-        "lambda": 0.828,
-        "p_scores": 0.5633
-      },
-      {
-        "player": "Lamine Yamal",
-        "team": "Spain",
-        "opponent": "Austria",
-        "match": "Spain vs Austria",
-        "tournament_goals": 1,
-        "lambda": 0.71,
-        "p_scores": 0.5084
-      },
-      {
-        "player": "Hassan Al-Tambakti",
-        "team": "Spain",
-        "opponent": "Austria",
-        "match": "Spain vs Austria",
-        "tournament_goals": 1,
-        "lambda": 0.71,
-        "p_scores": 0.5084
-      },
-      {
-        "player": "\u00c1lex Baena",
-        "team": "Spain",
-        "opponent": "Austria",
-        "match": "Spain vs Austria",
-        "tournament_goals": 1,
-        "lambda": 0.71,
-        "p_scores": 0.5084
-      },
-      {
-        "player": "Nuno Mendes",
-        "team": "Portugal",
-        "opponent": "Croatia",
-        "match": "Portugal vs Croatia",
-        "tournament_goals": 1,
-        "lambda": 0.592,
-        "p_scores": 0.4466
-      },
-      {
-        "player": "Jo\u00e3o Neves",
-        "team": "Portugal",
-        "opponent": "Croatia",
-        "match": "Portugal vs Croatia",
-        "tournament_goals": 1,
-        "lambda": 0.592,
-        "p_scores": 0.4466
-      },
-      {
-        "player": "Abduvohid Nematov",
-        "team": "Portugal",
-        "opponent": "Croatia",
-        "match": "Portugal vs Croatia",
-        "tournament_goals": 1,
-        "lambda": 0.592,
-        "p_scores": 0.4466
-      },
-      {
-        "player": "Rafael Le\u00e3o",
-        "team": "Portugal",
-        "opponent": "Croatia",
-        "match": "Portugal vs Croatia",
-        "tournament_goals": 1,
-        "lambda": 0.592,
-        "p_scores": 0.4466
-      },
-      {
-        "player": "Riyad Mahrez",
-        "team": "Algeria",
-        "opponent": "Switzerland",
-        "match": "Switzerland vs Algeria",
-        "tournament_goals": 2,
-        "lambda": 0.592,
-        "p_scores": 0.4466
-      },
-      {
-        "player": "Amine Gouiri",
-        "team": "Algeria",
-        "opponent": "Switzerland",
-        "match": "Switzerland vs Algeria",
+        "player": "Connor Metcalfe",
+        "team": "Australia",
+        "opponent": "Egypt",
+        "match": "Australia vs Egypt",
         "tournament_goals": 1,
         "lambda": 0.355,
         "p_scores": 0.2988
+      },
+      {
+        "player": "Nestory Irankunda",
+        "team": "Australia",
+        "opponent": "Egypt",
+        "match": "Australia vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.355,
+        "p_scores": 0.2988
+      },
+      {
+        "player": "Daniel Mu\u00f1oz",
+        "team": "Colombia",
+        "opponent": "Ghana",
+        "match": "Colombia vs Ghana",
+        "tournament_goals": 2,
+        "lambda": 0.302,
+        "p_scores": 0.2604
+      },
+      {
+        "player": "Giovani Lo Celso",
+        "team": "Argentina",
+        "opponent": "Cape Verde",
+        "match": "Argentina vs Cape Verde",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "J\u00e1minton Campaz",
+        "team": "Colombia",
+        "opponent": "Ghana",
+        "match": "Colombia vs Ghana",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Emam Ashour",
+        "team": "Egypt",
+        "opponent": "Australia",
+        "match": "Australia vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Luis D\u00edaz",
+        "team": "Colombia",
+        "opponent": "Ghana",
+        "match": "Colombia vs Ghana",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Lautaro Mart\u00ednez",
+        "team": "Argentina",
+        "opponent": "Cape Verde",
+        "match": "Argentina vs Cape Verde",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Tr\u00e9z\u00e9guet",
+        "team": "Egypt",
+        "opponent": "Australia",
+        "match": "Australia vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Mohamed Salah",
+        "team": "Egypt",
+        "opponent": "Australia",
+        "match": "Australia vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Mahmoud Saber",
+        "team": "Egypt",
+        "opponent": "Australia",
+        "match": "Australia vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Mostafa Zico",
+        "team": "Egypt",
+        "opponent": "Australia",
+        "match": "Australia vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Caleb Yirenkyi",
+        "team": "Ghana",
+        "opponent": "Colombia",
+        "match": "Colombia vs Ghana",
+        "tournament_goals": 1,
+        "lambda": 0.231,
+        "p_scores": 0.2061
+      },
+      {
+        "player": "H\u00e9lio Varela",
+        "team": "Cape Verde",
+        "opponent": "Argentina",
+        "match": "Argentina vs Cape Verde",
+        "tournament_goals": 1,
+        "lambda": 0.231,
+        "p_scores": 0.2061
       }
     ],
     "calibration": []
   },
   "tennis": {
-    "today_count": 63,
-    "total_graded": 50,
-    "accuracy": 0.38,
+    "today_count": 16,
+    "total_graded": 53,
+    "accuracy": 0.358,
     "matches": [
       {
         "tour": "atp",
-        "round": "(5) Alex de Minaur (AUS) bt Adrian Mannarino (FRA) 6-3 6-2 6-2",
-        "player_a": "Alex de Minaur",
-        "player_b": "Adrian Mannarino",
-        "elo_a": 1616.6,
-        "elo_b": 1465.1,
-        "p_a_wins": 0.7052,
-        "winner": "Alex de Minaur"
+        "round": "Roman Safiullin (RUS) bt (24) Joao Fonseca (BRA) 6-3 6-3 6-3",
+        "player_a": "Roman Safiullin",
+        "player_b": "Joao Fonseca",
+        "elo_a": 1455.8,
+        "elo_b": 1578.4,
+        "p_a_wins": 0.3306,
+        "winner": "Roman Safiullin"
       },
       {
         "tour": "atp",
-        "round": "(6) Taylor Fritz (USA) bt Patrick Kypson (USA) 6-2 6-2 7-5",
-        "player_a": "Taylor Fritz",
-        "player_b": "Patrick Kypson",
-        "elo_a": 1680.9,
-        "elo_b": 1476.4,
-        "p_a_wins": 0.7644,
-        "winner": "Taylor Fritz"
-      },
-      {
-        "tour": "atp",
-        "round": "(23) Emma Navarro (USA) bt Oksana Selekhmeteva (ESP) 3-6 6-4 6-1",
-        "player_a": "Emma Navarro",
-        "player_b": "Oksana Selekhmeteva",
+        "round": "(11) Belinda Bencic (SUI) bt (19) Anna Kalinskaya (RUS) 6-4 4-6 7-6 (10-6)",
+        "player_a": "Belinda Bencic",
+        "player_b": "Anna Kalinskaya",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Emma Navarro"
+        "winner": "Belinda Bencic"
       },
       {
         "tour": "atp",
-        "round": "Liudmila Samsonova (RUS) bt (15) Diana Shnaider (RUS) 6-4 4-6 6-2",
-        "player_a": "Liudmila Samsonova",
-        "player_b": "Diana Shnaider",
+        "round": "(14) Naomi Osaka (JPN) bt Daria Kasatkina (AUS) 6-1 6-3",
+        "player_a": "Naomi Osaka",
+        "player_b": "Daria Kasatkina",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Liudmila Samsonova"
+        "winner": "Naomi Osaka"
       },
       {
         "tour": "atp",
-        "round": "Daria Snigur (UKR) bt Leolia Jeanjean (FRA) 6-4 6-3",
-        "player_a": "Daria Snigur",
-        "player_b": "Leolia Jeanjean",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Daria Snigur"
-      },
-      {
-        "tour": "atp",
-        "round": "(21) Marie Bouzkova (CZE) bt Tyra Caterina Grant (ITA) 7-5 6-3",
-        "player_a": "Marie Bouzkova",
-        "player_b": "Tyra Caterina Grant",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Marie Bouzkova"
-      },
-      {
-        "tour": "atp",
-        "round": "Ashlyn Krueger (USA) bt Mariam Bolkvadze (GEO) 6-1 6-0",
-        "player_a": "Ashlyn Krueger",
-        "player_b": "Mariam Bolkvadze",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Ashlyn Krueger"
-      },
-      {
-        "tour": "atp",
-        "round": "Arthur Fery (GBR) leads Otto Virtanen (FIN) 5-7 7-6 (7-3) 6-3 4-2",
-        "player_a": "Otto Virtanen",
-        "player_b": "Arthur Fery",
-        "elo_a": 1468.7,
-        "elo_b": 1485.8,
-        "p_a_wins": 0.4754,
+        "round": "(7) Novak Djokovic (SER) leads (25) Arthur Rinderknech (FRA) 6-5",
+        "player_a": "Novak Djokovic",
+        "player_b": "Arthur Rinderknech",
+        "elo_a": 1669.8,
+        "elo_b": 1526.4,
+        "p_a_wins": 0.6954,
         "winner": null
       },
       {
         "tour": "atp",
-        "round": "Gabriel Diallo (CAN) leads Lorenzo Sonego (ITA) 6-7 (4-7) 6-4 6-7 (4-7) 1-1",
-        "player_a": "Lorenzo Sonego",
-        "player_b": "Gabriel Diallo",
-        "elo_a": 1517.4,
-        "elo_b": 1565.2,
-        "p_a_wins": 0.4316,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Jaime Faria (POR) is tied with Zizou Bergs (BEL) 6-7 (6-8) 1-0",
-        "player_a": "Jaime Faria",
-        "player_b": "Zizou Bergs",
-        "elo_a": 1419.1,
-        "elo_b": 1522.2,
-        "p_a_wins": 0.3558,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Zachary Svajda (USA) is tied with Kamil Majchrzak (POL) 2-6 3-1",
-        "player_a": "Kamil Majchrzak",
-        "player_b": "Zachary Svajda",
-        "elo_a": 1544.2,
-        "elo_b": 1452.3,
-        "p_a_wins": 0.6292,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(23) Rafael Jodar (ESP) is tied with Pablo Carreno Busta (ESP) 3-6 6-3 1-6 5-3",
-        "player_a": "Pablo Carreno Busta",
+        "round": "(23) Rafael Jodar (ESP) leads Shintaro Mochizuki (JPN) 6-1 2-1",
+        "player_a": "Shintaro Mochizuki",
         "player_b": "Rafael Jodar",
-        "elo_a": 1488.1,
+        "elo_a": 1422.0,
         "elo_b": 1516.4,
-        "p_a_wins": 0.4595,
+        "p_a_wins": 0.3675,
         "winner": null
       },
       {
         "tour": "atp",
-        "round": "(28) Brandon Nakashima (USA) leads Jan-Lennard Struff (GER) 6-4 6-7 (6-8) 6-7 (5-7) 7-6 (8-6) 3-3",
-        "player_a": "Jan-Lennard Struff",
-        "player_b": "Brandon Nakashima",
-        "elo_a": 1534.7,
-        "elo_b": 1563.6,
-        "p_a_wins": 0.4585,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Marcos Giron",
-        "player_b": "Quentin Halys",
-        "elo_a": 1552.5,
-        "elo_b": 1477.3,
-        "p_a_wins": 0.6066,
+        "round": "Jan-Lennard Struff (GER) leads (8) Daniil Medvedev (RUS) 1-1",
+        "player_a": "Daniil Medvedev",
+        "player_b": "Jan-Lennard Struff",
+        "elo_a": 1597.2,
+        "elo_b": 1534.7,
+        "p_a_wins": 0.5891,
         "winner": null
       },
       {
         "tour": "atp",
         "round": null,
-        "player_a": "Yannick Hanfmann",
-        "player_b": "Karen Khachanov",
-        "elo_a": 1507.9,
-        "elo_b": 1563.3,
-        "p_a_wins": 0.421,
+        "player_a": "Marton Fucsovics",
+        "player_b": "Alejandro Davidovich Fokina",
+        "elo_a": 1529.9,
+        "elo_b": 1579.5,
+        "p_a_wins": 0.4291,
         "winner": null
       },
       {
         "tour": "atp",
         "round": null,
-        "player_a": "Flavio Cobolli",
-        "player_b": "James Duckworth",
-        "elo_a": 1546.3,
-        "elo_b": 1462.2,
-        "p_a_wins": 0.6187,
+        "player_a": "Jenson Brooksby",
+        "player_b": "Jannik Sinner",
+        "elo_a": 1565.1,
+        "elo_b": 1675.8,
+        "p_a_wins": 0.3458,
         "winner": null
       },
       {
         "tour": "atp",
         "round": null,
-        "player_a": "Alexander Zverev",
-        "player_b": "Valentin Royer",
-        "elo_a": 1607.9,
-        "elo_b": 1492.2,
-        "p_a_wins": 0.6606,
+        "player_a": "Tommy Paul",
+        "player_b": "Hubert Hurkacz",
+        "elo_a": 1603.7,
+        "elo_b": 1598.0,
+        "p_a_wins": 0.5081,
         "winner": null
       },
       {
         "tour": "atp",
         "round": null,
-        "player_a": "Jaume Munar",
-        "player_b": "Jacob Fearnley",
-        "elo_a": 1518.3,
-        "elo_b": 1486.9,
-        "p_a_wins": 0.5451,
+        "player_a": "Michael Zheng",
+        "player_b": "Felix Auger-Aliassime",
+        "elo_a": 1500.0,
+        "elo_b": 1572.3,
+        "p_a_wins": 0.3974,
         "winner": null
       },
       {
         "tour": "atp",
-        "round": null,
-        "player_a": "Arthur Fils",
-        "player_b": "Matteo Berrettini",
-        "elo_a": 1588.2,
-        "elo_b": 1578.6,
-        "p_a_wins": 0.5138,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Alex Molcan",
-        "player_b": "Jiri Lehecka",
-        "elo_a": 1513.2,
-        "elo_b": 1602.1,
-        "p_a_wins": 0.3748,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Jan Choinski",
-        "player_b": "Frances Tiafoe",
-        "elo_a": 1463.9,
-        "elo_b": 1528.6,
-        "p_a_wins": 0.4079,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Grigor Dimitrov",
-        "player_b": "Jakub Mensik",
-        "elo_a": 1606.0,
-        "elo_b": 1538.7,
-        "p_a_wins": 0.5956,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Alexander Bublik",
-        "player_b": "Kyrian Jacquet",
-        "elo_a": 1580.3,
-        "elo_b": 1494.4,
-        "p_a_wins": 0.6212,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Katie Swan (GBR) leads (26) Madison Keys (USA) 1-6 1-1",
-        "player_a": "Madison Keys",
-        "player_b": "Katie Swan",
+        "round": "(18) Ekaterina Alexandrova (RUS) is tied with (16) Iva Jovic (USA) 3-6 3-0",
+        "player_a": "Iva Jovic",
+        "player_b": "Ekaterina Alexandrova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
@@ -1015,19 +668,9 @@
       },
       {
         "tour": "atp",
-        "round": "Maya Joint (AUS) leads (29) Alexandra Eala (PHI) 6-3 1-0",
-        "player_a": "Maya Joint",
-        "player_b": "Alexandra Eala",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(3) Iga Swiatek (POL) leads Karolina Pliskova (CZE) 4-1",
-        "player_a": "Iga Swiatek",
-        "player_b": "Karolina Pliskova",
+        "round": "(4) Jessica Pegula (USA) leads Jessica Bouzas Maneiro (ESP) 6-1 3-2",
+        "player_a": "Jessica Bouzas Maneiro",
+        "player_b": "Jessica Pegula",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
@@ -1036,8 +679,8 @@
       {
         "tour": "atp",
         "round": null,
-        "player_a": "Marta Kostyuk",
-        "player_b": "Anna Blinkova",
+        "player_a": "Barbora Krejcikova",
+        "player_b": "Nikola Bartunkova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
@@ -1046,8 +689,8 @@
       {
         "tour": "atp",
         "round": null,
-        "player_a": "Maria Sakkari",
-        "player_b": "Kamilla Rakhimova",
+        "player_a": "Mananchaya Sawangkaew",
+        "player_b": "Karolina Muchova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
@@ -1056,8 +699,8 @@
       {
         "tour": "atp",
         "round": null,
-        "player_a": "Sofia Kenin",
-        "player_b": "Amanda Anisimova",
+        "player_a": "Jelena Ostapenko",
+        "player_b": "Aryna Sabalenka",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
@@ -1066,338 +709,8 @@
       {
         "tour": "atp",
         "round": null,
-        "player_a": "Maria Timofeeva",
-        "player_b": "Elise Mertens",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Linda Noskova",
-        "player_b": "Camila Osorio",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Kimberly Birrell",
-        "player_b": "Sorana Cirstea",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Viktorija Golubic",
-        "player_b": "Jasmine Paolini",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Elena Rybakina",
-        "player_b": "Catherine McNally",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Arthur Fery (GBR) bt Otto Virtanen (FIN) 5-7 7-6 (7-3) 6-3 6-3",
-        "player_a": "Arthur Fery",
-        "player_b": "Otto Virtanen",
-        "elo_a": 1485.8,
-        "elo_b": 1468.7,
-        "p_a_wins": 0.5246,
-        "winner": "Arthur Fery"
-      },
-      {
-        "tour": "atp",
-        "round": "Lorenzo Sonego (ITA) bt Gabriel Diallo (CAN) 7-6 (7-4) 4-6 7-6 (7-4) 6-7 (6-8) 6-2",
-        "player_a": "Lorenzo Sonego",
-        "player_b": "Gabriel Diallo",
-        "elo_a": 1517.4,
-        "elo_b": 1565.2,
-        "p_a_wins": 0.4316,
-        "winner": "Lorenzo Sonego"
-      },
-      {
-        "tour": "atp",
-        "round": "Zizou Bergs (BEL) bt Jaime Faria (POR) 7-6 (8-6) 4-6 6-2 6-3",
-        "player_a": "Zizou Bergs",
-        "player_b": "Jaime Faria",
-        "elo_a": 1522.2,
-        "elo_b": 1419.1,
-        "p_a_wins": 0.6442,
-        "winner": "Zizou Bergs"
-      },
-      {
-        "tour": "atp",
-        "round": "Zachary Svajda (USA) bt Kamil Majchrzak (POL) 2-6 6-2 6-7 (5-7) 6-4 6-3",
-        "player_a": "Zachary Svajda",
-        "player_b": "Kamil Majchrzak",
-        "elo_a": 1452.3,
-        "elo_b": 1544.2,
-        "p_a_wins": 0.3708,
-        "winner": "Zachary Svajda"
-      },
-      {
-        "tour": "atp",
-        "round": "(23) Rafael Jodar (ESP) bt Pablo Carreno Busta (ESP) 3-6 6-3 1-6 6-3 6-4",
-        "player_a": "Rafael Jodar",
-        "player_b": "Pablo Carreno Busta",
-        "elo_a": 1516.4,
-        "elo_b": 1488.1,
-        "p_a_wins": 0.5405,
-        "winner": "Rafael Jodar"
-      },
-      {
-        "tour": "atp",
-        "round": "Jan-Lennard Struff (GER) bt (28) Brandon Nakashima (USA) 4-6 7-6 (8-6) 7-6 (7-5) 6-7 (6-8) 7-6 (10-7)",
-        "player_a": "Jan-Lennard Struff",
-        "player_b": "Brandon Nakashima",
-        "elo_a": 1534.7,
-        "elo_b": 1563.6,
-        "p_a_wins": 0.4585,
-        "winner": "Jan-Lennard Struff"
-      },
-      {
-        "tour": "atp",
-        "round": "Marcos Giron (USA) bt Quentin Halys (FRA) 7-6 (7-5) 6-3 6-4",
-        "player_a": "Marcos Giron",
-        "player_b": "Quentin Halys",
-        "elo_a": 1552.5,
-        "elo_b": 1477.3,
-        "p_a_wins": 0.6066,
-        "winner": "Marcos Giron"
-      },
-      {
-        "tour": "atp",
-        "round": "(2) Alexander Zverev (GER) bt Valentin Royer (FRA) 6-1 6-3 7-6 (7-3)",
-        "player_a": "Alexander Zverev",
-        "player_b": "Valentin Royer",
-        "elo_a": 1607.9,
-        "elo_b": 1492.2,
-        "p_a_wins": 0.6606,
-        "winner": "Alexander Zverev"
-      },
-      {
-        "tour": "atp",
-        "round": "(26) Madison Keys (USA) bt Katie Swan (GBR) 6-1 6-4",
-        "player_a": "Madison Keys",
-        "player_b": "Katie Swan",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Madison Keys"
-      },
-      {
-        "tour": "atp",
-        "round": "(29) Alexandra Eala (PHI) bt Maya Joint (AUS) 3-6 6-2 6-0",
-        "player_a": "Alexandra Eala",
-        "player_b": "Maya Joint",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Alexandra Eala"
-      },
-      {
-        "tour": "atp",
-        "round": "(3) Iga Swiatek (POL) bt Karolina Pliskova (CZE) 6-1 6-3",
-        "player_a": "Iga Swiatek",
-        "player_b": "Karolina Pliskova",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Iga Swiatek"
-      },
-      {
-        "tour": "atp",
-        "round": "(12) Marta Kostyuk (UKR) bt Anna Blinkova (RUS) 6-7 (5-7) 6-3 6-3",
-        "player_a": "Marta Kostyuk",
-        "player_b": "Anna Blinkova",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Marta Kostyuk"
-      },
-      {
-        "tour": "atp",
-        "round": "(6) Amanda Anisimova (USA) bt Sofia Kenin (USA) 6-2 4-6 7-6 (10-3)",
-        "player_a": "Amanda Anisimova",
-        "player_b": "Sofia Kenin",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Amanda Anisimova"
-      },
-      {
-        "tour": "atp",
-        "round": "Jaume Munar (ESP) leads Jacob Fearnley (GBR) 6-4 7-6 (7-3) 2-0",
-        "player_a": "Jaume Munar",
-        "player_b": "Jacob Fearnley",
-        "elo_a": 1518.3,
-        "elo_b": 1486.9,
-        "p_a_wins": 0.5451,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(20) Arthur Fils (FRA) bt Matteo Berrettini (ITA) 4-6 5-7 6-3",
-        "player_a": "Arthur Fils",
-        "player_b": "Matteo Berrettini",
-        "elo_a": 1588.2,
-        "elo_b": 1578.6,
-        "p_a_wins": 0.5138,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 3-3",
-        "player_a": "Flavio Cobolli",
-        "player_b": "James Duckworth",
-        "elo_a": 1546.3,
-        "elo_b": 1462.2,
-        "p_a_wins": 0.6187,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(19) Karen Khachanov (RUS) leads Yannick Hanfmann (GER) 6-3 6-4 1-1",
-        "player_a": "Yannick Hanfmann",
-        "player_b": "Karen Khachanov",
-        "elo_a": 1507.9,
-        "elo_b": 1563.3,
-        "p_a_wins": 0.421,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(13) Jiri Lehecka (CZE) leads Alex Molcan (SVK) 2-1",
-        "player_a": "Alex Molcan",
-        "player_b": "Jiri Lehecka",
-        "elo_a": 1513.2,
-        "elo_b": 1602.1,
-        "p_a_wins": 0.3748,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Kamilla Rakhimova (UZB) is tied with Maria Sakkari (GRE) 3-6 3-0",
-        "player_a": "Maria Sakkari",
-        "player_b": "Kamilla Rakhimova",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Maria Timofeeva (UZB) leads (25) Elise Mertens (BEL) 2-0",
-        "player_a": "Maria Timofeeva",
-        "player_b": "Elise Mertens",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Jaume Munar (ESP) leads Jacob Fearnley (GBR) 6-4 7-6 (7-3) 3-2",
-        "player_a": "Jaume Munar",
-        "player_b": "Jacob Fearnley",
-        "elo_a": 1518.3,
-        "elo_b": 1486.9,
-        "p_a_wins": 0.5451,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Matteo Berrettini (ITA) leads (20) Arthur Fils (FRA) 6-4 7-5 3-6 1-0",
-        "player_a": "Arthur Fils",
-        "player_b": "Matteo Berrettini",
-        "elo_a": 1588.2,
-        "elo_b": 1578.6,
-        "p_a_wins": 0.5138,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 4-3",
-        "player_a": "Flavio Cobolli",
-        "player_b": "James Duckworth",
-        "elo_a": 1546.3,
-        "elo_b": 1462.2,
-        "p_a_wins": 0.6187,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Yannick Hanfmann (GER) leads (19) Karen Khachanov (RUS) 3-6 4-6 3-2",
-        "player_a": "Yannick Hanfmann",
-        "player_b": "Karen Khachanov",
-        "elo_a": 1507.9,
-        "elo_b": 1563.3,
-        "p_a_wins": 0.421,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(13) Jiri Lehecka (CZE) leads Alex Molcan (SVK) 3-2",
-        "player_a": "Alex Molcan",
-        "player_b": "Jiri Lehecka",
-        "elo_a": 1513.2,
-        "elo_b": 1602.1,
-        "p_a_wins": 0.3748,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Kamilla Rakhimova (UZB) leads Maria Sakkari (GRE) 3-6 6-0 0-0",
-        "player_a": "Maria Sakkari",
-        "player_b": "Kamilla Rakhimova",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Maria Timofeeva (UZB) leads (25) Elise Mertens (BEL) 3-2",
-        "player_a": "Maria Timofeeva",
-        "player_b": "Elise Mertens",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "wta",
-        "round": "James Duckworth (AUS) leads (9) Flavio Cobolli (ITA) 6-7 (4-7) 6-3 4-4",
-        "player_a": "Flavio Cobolli",
-        "player_b": "James Duckworth",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "wta",
-        "round": "(17) Frances Tiafoe (USA) is tied with Jan Choinski (GBR)",
-        "player_a": "Jan Choinski",
-        "player_b": "Frances Tiafoe",
+        "player_a": "Coco Gauff",
+        "player_b": "Claire Liu",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
