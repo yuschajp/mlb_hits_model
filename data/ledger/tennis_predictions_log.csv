@@ -211,3 +211,19 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-03,atp,Wimbledon,Shintaro Mochizuki (JPN) is tied with (23) Rafael Jodar (ESP) 1-6 4-3,Shintaro Mochizuki,Rafael Jodar,1422.0,1516.4,0.3675,0.6325,,False
 2026-07-03,atp,Wimbledon,Jan-Lennard Struff (GER) leads (8) Daniil Medvedev (RUS) 4-3,Daniil Medvedev,Jan-Lennard Struff,1597.2,1534.7,0.5891,0.4109,,False
 2026-07-03,atp,Wimbledon,(18) Ekaterina Alexandrova (RUS) is tied with (16) Iva Jovic (USA) 3-6 5-2,Iva Jovic,Ekaterina Alexandrova,1500.0,1500.0,0.5,0.5,,False
+2026-07-03,atp,Wimbledon,Round 3,Roman Safiullin,Joao Fonseca,1455.8,1578.4,0.3306,0.6694,Roman Safiullin,True
+2026-07-03,atp,Wimbledon,Round 3,Novak Djokovic,Arthur Rinderknech,1669.8,1526.4,0.6954,0.3046,Novak Djokovic,True
+2026-07-03,atp,Wimbledon,Round 3,Shintaro Mochizuki,Rafael Jodar,1422.0,1516.4,0.3675,0.6325,Shintaro Mochizuki,True
+2026-07-03,atp,Wimbledon,Round 3,Jan-Lennard Struff,Daniil Medvedev,1534.7,1597.2,0.4109,0.5891,Jan-Lennard Struff,True
+2026-07-03,atp,Wimbledon,Round 3,Jannik Sinner,Jenson Brooksby,1675.8,1565.1,0.6542,0.3458,Jannik Sinner,True
+2026-07-03,atp,Wimbledon,Round 3,Hubert Hurkacz,Tommy Paul,1598.0,1603.7,0.4919,0.5081,Hubert Hurkacz,True
+2026-07-03,atp,Wimbledon,Round 3,Alejandro Davidovich Fokina,Marton Fucsovics,1579.5,1529.9,0.5709,0.4291,Alejandro Davidovich Fokina,True
+2026-07-03,atp,Wimbledon,Round 3,Michael Zheng,Felix Auger-Aliassime,1500.0,1572.3,0.3974,0.6026,,False
+2026-07-03,wta,Wimbledon,Round 3,Belinda Bencic,Anna Kalinskaya,1500.0,1500.0,0.5,0.5,Belinda Bencic,True
+2026-07-03,wta,Wimbledon,Round 3,Naomi Osaka,Daria Kasatkina,1500.0,1500.0,0.5,0.5,Naomi Osaka,True
+2026-07-03,wta,Wimbledon,Round 3,Iva Jovic,Ekaterina Alexandrova,1500.0,1500.0,0.5,0.5,Iva Jovic,True
+2026-07-03,wta,Wimbledon,Round 3,Jessica Pegula,Jessica Bouzas Maneiro,1500.0,1500.0,0.5,0.5,Jessica Pegula,True
+2026-07-03,wta,Wimbledon,Round 3,Barbora Krejcikova,Nikola Bartunkova,1500.0,1500.0,0.5,0.5,Barbora Krejcikova,True
+2026-07-03,wta,Wimbledon,Round 3,Aryna Sabalenka,Jelena Ostapenko,1500.0,1500.0,0.5,0.5,Aryna Sabalenka,True
+2026-07-03,wta,Wimbledon,Round 3,Coco Gauff,Claire Liu,1500.0,1500.0,0.5,0.5,Coco Gauff,True
+2026-07-03,wta,Wimbledon,Round 3,Karolina Muchova,Mananchaya Sawangkaew,1500.0,1500.0,0.5,0.5,Karolina Muchova,True

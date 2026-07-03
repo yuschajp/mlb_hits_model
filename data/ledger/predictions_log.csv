@@ -1817,3 +1817,75 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-02,824335,805300,Jakob Marsee,Miami Marlins,Colorado Rockies,7,Coors Field,1.13,Michael Lorenzen,0.6927,0.304,3.7,0.0,True
 2026-07-02,824335,691594,Javier Sanoja,Miami Marlins,Colorado Rockies,8,Coors Field,1.13,Michael Lorenzen,0.7753,0.3783,3.6,1.0,True
 2026-07-02,824335,691788,Joe Mack,Miami Marlins,Colorado Rockies,9,Coors Field,1.13,Michael Lorenzen,0.7529,0.3668,3.5,0.0,True
+2026-07-03,824659,691718,Pete Crow-Armstrong,Chicago Cubs,St. Louis Cardinals,1,Wrigley Field,1.0,Andre Pallante,0.7204,0.2868,4.3,,False
+2026-07-03,824659,608324,Alex Bregman,Chicago Cubs,St. Louis Cardinals,2,Wrigley Field,1.0,Andre Pallante,0.633,0.2359,4.2,,False
+2026-07-03,824659,683737,Michael Busch,Chicago Cubs,St. Louis Cardinals,3,Wrigley Field,1.0,Andre Pallante,0.6269,0.2373,4.1,,False
+2026-07-03,824659,673548,Seiya Suzuki,Chicago Cubs,St. Louis Cardinals,4,Wrigley Field,1.0,Andre Pallante,0.6747,0.2727,4.0,,False
+2026-07-03,824659,664023,Ian Happ,Chicago Cubs,St. Louis Cardinals,5,Wrigley Field,1.0,Andre Pallante,0.6041,0.234,3.9,,False
+2026-07-03,824659,663538,Nico Hoerner,Chicago Cubs,St. Louis Cardinals,6,Wrigley Field,1.0,Andre Pallante,0.5962,0.2346,3.8,,False
+2026-07-03,824659,624424,Michael Conforto,Chicago Cubs,St. Louis Cardinals,7,Wrigley Field,1.0,Andre Pallante,0.5996,0.2422,3.7,,False
+2026-07-03,824659,608348,Carson Kelly,Chicago Cubs,St. Louis Cardinals,8,Wrigley Field,1.0,Andre Pallante,0.6162,0.2585,3.6,,False
+2026-07-03,824659,621020,Dansby Swanson,Chicago Cubs,St. Louis Cardinals,9,Wrigley Field,1.0,Andre Pallante,0.5706,0.2362,3.5,,False
+2026-07-03,824659,802139,JJ Wetherholt,St. Louis Cardinals,Chicago Cubs,1,Wrigley Field,1.0,David Peterson,0.7219,0.2878,4.3,,False
+2026-07-03,824659,671056,Iván Herrera,St. Louis Cardinals,Chicago Cubs,2,Wrigley Field,1.0,David Peterson,0.6957,0.2754,4.2,,False
+2026-07-03,824659,691023,Jordan Walker,St. Louis Cardinals,Chicago Cubs,3,Wrigley Field,1.0,David Peterson,0.7318,0.3068,4.1,,False
+2026-07-03,824659,676369,Nelson Velázquez,St. Louis Cardinals,Chicago Cubs,4,Wrigley Field,1.0,David Peterson,0.6933,0.2852,4.0,,False
+2026-07-03,824659,676475,Alec Burleson,St. Louis Cardinals,Chicago Cubs,5,Wrigley Field,1.0,David Peterson,0.6769,0.2801,3.9,,False
+2026-07-03,824659,691026,Masyn Winn,St. Louis Cardinals,Chicago Cubs,6,Wrigley Field,1.0,David Peterson,0.6746,0.2847,3.8,,False
+2026-07-03,824659,665877,José Fermín,St. Louis Cardinals,Chicago Cubs,7,Wrigley Field,1.0,David Peterson,0.6751,0.2915,3.7,,False
+2026-07-03,824659,691458,Blaze Jordan,St. Louis Cardinals,Chicago Cubs,8,Wrigley Field,1.0,David Peterson,0.627,0.2655,3.6,,False
+2026-07-03,824659,701675,Nathan Church,St. Louis Cardinals,Chicago Cubs,9,Wrigley Field,1.0,David Peterson,0.6419,0.282,3.5,,False
+2026-07-03,823527,663757,Trent Grisham,New York Yankees,Minnesota Twins,1,Yankee Stadium,1.04,Mike Paredes,0.6761,0.2572,4.3,,False
+2026-07-03,823527,700250,Ben Rice,New York Yankees,Minnesota Twins,2,Yankee Stadium,1.04,Mike Paredes,0.6667,0.2564,4.2,,False
+2026-07-03,823527,691176,Jasson Domínguez,New York Yankees,Minnesota Twins,3,Yankee Stadium,1.04,Mike Paredes,0.6305,0.2394,4.1,,False
+2026-07-03,823527,641355,Cody Bellinger,New York Yankees,Minnesota Twins,4,Yankee Stadium,1.04,Mike Paredes,0.6383,0.2494,4.0,,False
+2026-07-03,823527,502671,Paul Goldschmidt,New York Yankees,Minnesota Twins,5,Yankee Stadium,1.04,Mike Paredes,0.6533,0.2644,3.9,,False
+2026-07-03,823527,665862,Jazz Chisholm Jr.,New York Yankees,Minnesota Twins,6,Yankee Stadium,1.04,Mike Paredes,0.5977,0.2356,3.8,,False
+2026-07-03,823527,641857,Ryan McMahon,New York Yankees,Minnesota Twins,7,Yankee Stadium,1.04,Mike Paredes,0.592,0.2376,3.7,,False
+2026-07-03,823527,676609,José Caballero,New York Yankees,Minnesota Twins,8,Yankee Stadium,1.04,Mike Paredes,0.6025,0.2498,3.6,,False
+2026-07-03,823527,669224,Austin Wells,New York Yankees,Minnesota Twins,9,Yankee Stadium,1.04,Mike Paredes,0.5247,0.2094,3.5,,False
+2026-07-03,823527,663616,Trevor Larnach,Minnesota Twins,New York Yankees,1,Yankee Stadium,1.04,Gerrit Cole,0.7248,0.2899,4.3,,False
+2026-07-03,823527,686797,Brooks Lee,Minnesota Twins,New York Yankees,2,Yankee Stadium,1.04,Gerrit Cole,0.6705,0.2589,4.2,,False
+2026-07-03,823527,665019,Kody Clemens,Minnesota Twins,New York Yankees,3,Yankee Stadium,1.04,Gerrit Cole,0.6582,0.2564,4.1,,False
+2026-07-03,823527,605137,Josh Bell,Minnesota Twins,New York Yankees,4,Yankee Stadium,1.04,Gerrit Cole,0.6552,0.26,4.0,,False
+2026-07-03,823527,668904,Royce Lewis,Minnesota Twins,New York Yankees,5,Yankee Stadium,1.04,Gerrit Cole,0.6237,0.2458,3.9,,False
+2026-07-03,823527,605170,Victor Caratini,Minnesota Twins,New York Yankees,6,Yankee Stadium,1.04,Gerrit Cole,0.6492,0.2677,3.8,,False
+2026-07-03,823527,668952,Ryan Kreidler,Minnesota Twins,New York Yankees,7,Yankee Stadium,1.04,Gerrit Cole,0.6487,0.2735,3.7,,False
+2026-07-03,823527,656484,Tristan Gray,Minnesota Twins,New York Yankees,8,Yankee Stadium,1.04,Gerrit Cole,0.5967,0.2463,3.6,,False
+2026-07-03,823527,807712,Luke Keaschall,Minnesota Twins,New York Yankees,9,Yankee Stadium,1.04,Gerrit Cole,0.6009,0.255,3.5,,False
+2026-07-03,824498,682829,Elly De La Cruz,Cincinnati Reds,Baltimore Orioles,1,Great American Ball Park,1.05,Trevor Rogers,0.7089,0.2788,4.3,,False
+2026-07-03,824498,701398,Sal Stewart,Cincinnati Reds,Baltimore Orioles,2,Great American Ball Park,1.05,Trevor Rogers,0.6953,0.2751,4.2,,False
+2026-07-03,824498,668715,Spencer Steer,Cincinnati Reds,Baltimore Orioles,3,Great American Ball Park,1.05,Trevor Rogers,0.6463,0.249,4.1,,False
+2026-07-03,824498,553993,Eugenio Suárez,Cincinnati Reds,Baltimore Orioles,4,Great American Ball Park,1.05,Trevor Rogers,0.6317,0.2453,4.0,,False
+2026-07-03,824498,682622,Noelvi Marte,Cincinnati Reds,Baltimore Orioles,5,Great American Ball Park,1.05,Trevor Rogers,0.6333,0.2518,3.9,,False
+2026-07-03,824498,668709,JJ Bleday,Cincinnati Reds,Baltimore Orioles,6,Great American Ball Park,1.05,Trevor Rogers,0.6188,0.2484,3.8,,False
+2026-07-03,824498,663886,Tyler Stephenson,Cincinnati Reds,Baltimore Orioles,7,Great American Ball Park,1.05,Trevor Rogers,0.6473,0.2726,3.7,,False
+2026-07-03,824498,680574,Matt McLain,Cincinnati Reds,Baltimore Orioles,8,Great American Ball Park,1.05,Trevor Rogers,0.5903,0.2423,3.6,,False
+2026-07-03,824498,695490,Edwin Arroyo,Cincinnati Reds,Baltimore Orioles,9,Great American Ball Park,1.05,Trevor Rogers,0.6288,0.2732,3.5,,False
+2026-07-03,824498,683002,Gunnar Henderson,Baltimore Orioles,Cincinnati Reds,1,Great American Ball Park,1.05,Brady Singer,0.7157,0.2834,4.3,,False
+2026-07-03,824498,668939,Adley Rutschman,Baltimore Orioles,Cincinnati Reds,2,Great American Ball Park,1.05,Brady Singer,0.7263,0.2967,4.2,,False
+2026-07-03,824498,621493,Taylor Ward,Baltimore Orioles,Cincinnati Reds,3,Great American Ball Park,1.05,Brady Singer,0.7181,0.2968,4.1,,False
+2026-07-03,824498,624413,Pete Alonso,Baltimore Orioles,Cincinnati Reds,4,Great American Ball Park,1.05,Brady Singer,0.7126,0.2989,4.0,,False
+2026-07-03,824498,694212,Samuel Basallo,Baltimore Orioles,Cincinnati Reds,5,Great American Ball Park,1.05,Brady Singer,0.6938,0.2917,3.9,,False
+2026-07-03,824498,687637,Dylan Beavers,Baltimore Orioles,Cincinnati Reds,6,Great American Ball Park,1.05,Brady Singer,0.6705,0.2819,3.8,,False
+2026-07-03,824498,681297,Colton Cowser,Baltimore Orioles,Cincinnati Reds,7,Great American Ball Park,1.05,Brady Singer,0.6642,0.284,3.7,,False
+2026-07-03,824498,677942,Blaze Alexander,Baltimore Orioles,Cincinnati Reds,8,Great American Ball Park,1.05,Brady Singer,0.7279,0.3381,3.6,,False
+2026-07-03,824498,702616,Jackson Holliday,Baltimore Orioles,Cincinnati Reds,9,Great American Ball Park,1.05,Brady Singer,0.6193,0.2668,3.5,,False
+2026-07-03,824904,686948,Drake Baldwin,Atlanta Braves,New York Mets,1,Truist Park,1.01,Christian Scott,0.6198,0.2236,4.3,,False
+2026-07-03,824904,645277,Ozzie Albies,Atlanta Braves,New York Mets,2,Truist Park,1.01,Christian Scott,0.6566,0.2502,4.2,,False
+2026-07-03,824904,621566,Matt Olson,Atlanta Braves,New York Mets,3,Truist Park,1.01,Christian Scott,0.6561,0.2551,4.1,,False
+2026-07-03,824904,643289,Mauricio Dubón,Atlanta Braves,New York Mets,4,Truist Park,1.01,Christian Scott,0.6578,0.2617,4.0,,False
+2026-07-03,824904,671739,Michael Harris II,Atlanta Braves,New York Mets,5,Truist Park,1.01,Christian Scott,0.646,0.2598,3.9,,False
+2026-07-03,824904,642086,Dominic Smith,Atlanta Braves,New York Mets,6,Truist Park,1.01,Christian Scott,0.6152,0.2461,3.8,,False
+2026-07-03,824904,663586,Austin Riley,Atlanta Braves,New York Mets,7,Truist Park,1.01,Christian Scott,0.5583,0.2179,3.7,,False
+2026-07-03,824904,573262,Mike Yastrzemski,Atlanta Braves,New York Mets,8,Truist Park,1.01,Christian Scott,0.5519,0.2196,3.6,,False
+2026-07-03,824904,622761,Jorge Mateo,Atlanta Braves,New York Mets,9,Truist Park,1.01,Christian Scott,0.5655,0.2331,3.5,,False
+2026-07-03,824904,805999,A.J. Ewing,New York Mets,Atlanta Braves,1,Truist Park,1.01,Grant Holmes,0.6753,0.2567,4.3,,False
+2026-07-03,824904,665742,Juan Soto,New York Mets,Atlanta Braves,2,Truist Park,1.01,Grant Holmes,0.678,0.2637,4.2,,False
+2026-07-03,824904,666182,Bo Bichette,New York Mets,Atlanta Braves,3,Truist Park,1.01,Grant Holmes,0.6585,0.2566,4.1,,False
+2026-07-03,824904,596019,Francisco Lindor,New York Mets,Atlanta Braves,4,Truist Park,1.01,Grant Holmes,0.6024,0.2279,4.0,,False
+2026-07-03,824904,701807,Carson Benge,New York Mets,Atlanta Braves,5,Truist Park,1.01,Grant Holmes,0.6274,0.2481,3.9,,False
+2026-07-03,824904,676724,Jared Young,New York Mets,Atlanta Braves,6,Truist Park,1.01,Grant Holmes,0.5879,0.2298,3.8,,False
+2026-07-03,824904,682626,Francisco Alvarez,New York Mets,Atlanta Braves,7,Truist Park,1.01,Grant Holmes,0.5957,0.2399,3.7,,False
+2026-07-03,824904,683146,Brett Baty,New York Mets,Atlanta Braves,8,Truist Park,1.01,Grant Holmes,0.5441,0.2151,3.6,,False
+2026-07-03,824904,620443,Luis Torrens,New York Mets,Atlanta Braves,9,Truist Park,1.01,Grant Holmes,0.5588,0.2292,3.5,,False
