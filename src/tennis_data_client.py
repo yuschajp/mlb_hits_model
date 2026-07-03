@@ -12,11 +12,41 @@ Two data sources:
 
        git clone https://github.com/Tennismylife/TML-Database.git ~/Desktop/tennis_data
 
+   NOTE: TML-Database is ATP-only. get_recent_matches(tour="wta") returns
+   an empty list -- there is currently no WTA historical data source
+   wired up. This means WTA Elo ratings default to INITIAL_ELO (1500)
+   for every player, producing meaningless 50/50 predictions rather than
+   real ones. This was caught via a cluster of exact-1500/1500/50.0%
+   predictions on the dashboard for WTA players. Fixing this properly
+   needs a real WTA-equivalent dataset -- flagging clearly rather than
+   silently guessing, since a fake "no opinion" prediction is worse than
+   an honest gap.
+
 2. LIVE WIMBLEDON MATCHES (today's draw and results) -- pulled from
    ESPN's public (unofficial) tennis API, which has no auth requirement:
 
        https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard
        https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard
+
+--- Bug fixes (found via live API inspection) ---
+
+1. ROUND FIELD: previously read from comp["notes"][0]["text"], which is
+   actually a plain-English match recap string (e.g. "Zsombor Piros
+   (HUN) bt Ivan Ivanov (BUL) 6-2 6-2"), not a round label at all. The
+   real round name is at comp["round"]["displayName"] (e.g. "Qualifying
+   1st Round"), confirmed by dumping the raw ESPN response.
+
+2. TOUR/GENDER MISLABELING: both the "atp" and "wta" league URLs return
+   the SAME combined Wimbledon event, with ALL groupings (Men's Singles,
+   Women's Singles, Men's Doubles, Women's Doubles, Mixed Doubles)
+   bundled together regardless of which league endpoint you call. The
+   previous code only filtered "singles" vs "doubles" by grouping name,
+   then labeled every match with whatever `tour` string the CALLER
+   passed in -- meaning a call with tour="atp" pulled in real WTA
+   players' matches too, mislabeled as "atp". Fixed by filtering on each
+   competition's own comp["type"]["text"] field (e.g. "Men's Singles" /
+   "Women's Singles"), confirmed present per-competition in the raw
+   response, instead of trusting the caller's label.
 """
 
 import csv
@@ -28,6 +58,11 @@ TENNIS_DATA_DIR = Path.home() / "Desktop" / "tennis_data"
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/tennis"
 TIMEOUT = 15
 _cache = {}
+
+TOUR_TYPE_TEXT = {
+    "atp": "men's singles",
+    "wta": "women's singles",
+}
 
 
 # ── Historical matches (local TML-Database clone) ─────────────────────────────
@@ -68,11 +103,17 @@ def _parse_matches(rows):
 def get_recent_matches(tour="atp", years=None):
     """
     Returns matches from recent years from the local TML-Database clone.
-    tour is accepted for API compatibility but TML-Database is ATP-only --
-    WTA calls will return empty until a WTA equivalent is wired up.
+
+    tour="wta" currently returns an empty list -- see module docstring.
+    This means WTA predictions get NO real Elo signal right now. Do not
+    remove this warning without wiring up a real WTA data source; the
+    resulting empty-list-fallback silently producing "confident-looking"
+    50/50 predictions caused a real, hard-to-spot dashboard bug.
     """
     if tour != "atp":
         print(f"  [warn] TML-Database is ATP-only. No WTA data source configured yet.")
+        print(f"  [warn] WTA Elo ratings will default to 1500 for every player -- "
+              f"predictions will be uninformative 50/50 splits, not real forecasts.")
         return []
 
     current_year = date.today().year
@@ -109,19 +150,27 @@ def _espn_get(league, resource, params=None):
 
 def get_wimbledon_draw(tour="atp", date_range=None):
     """
-    Returns Wimbledon matches from ESPN.
+    Returns Wimbledon SINGLES matches from ESPN for the requested tour.
 
-    ESPN's tennis scoreboard returns ONE event per Slam (e.g. "Wimbledon"),
-    with individual matches nested under event['groupings'][i]['competitions'],
-    where each grouping corresponds to a draw (Men's Singles, Women's Singles,
-    Men's Doubles, etc). We flatten all singles competitions across all
-    groupings into a single match list.
+    IMPORTANT: ESPN's "atp" and "wta" scoreboard endpoints return the
+    SAME combined Wimbledon event -- all groupings (Men's/Women's
+    Singles, Men's/Women's/Mixed Doubles) come back regardless of which
+    league URL is called. This function filters to singles matches for
+    the SPECIFIC requested tour using each competition's own
+    comp["type"]["text"] field (e.g. "Men's Singles"), not just the
+    grouping name -- confirmed via direct inspection of the live API
+    response that this field is reliably present per-competition.
 
     Returns list of dicts: {date, round, completed, player1, player2,
                              winner, loser (if completed)}
     """
-    league = "atp" if tour == "atp" else "wta"
-    data = _espn_get(league, "scoreboard", {})
+    if tour not in TOUR_TYPE_TEXT:
+        raise ValueError(f"tour must be one of {list(TOUR_TYPE_TEXT)}, got {tour!r}")
+    wanted_type_text = TOUR_TYPE_TEXT[tour]
+
+    # Either league URL returns the same combined event, so "atp" works
+    # as the fetch target regardless of which tour was requested.
+    data = _espn_get("atp", "scoreboard", {})
     events = data.get("events", [])
 
     wimbledon_event = next(
@@ -138,6 +187,15 @@ def get_wimbledon_draw(tour="atp", date_range=None):
             continue
 
         for comp in grouping.get("competitions", []):
+            # Filter by the competition's OWN type field, not just the
+            # grouping name -- this is what actually distinguishes
+            # Men's from Women's Singles reliably, and is what was
+            # missing before (grouping-level filtering only excluded
+            # doubles, never separated the two singles draws).
+            comp_type_text = comp.get("type", {}).get("text", "").lower()
+            if comp_type_text != wanted_type_text:
+                continue
+
             competitors = comp.get("competitors", [])
             if len(competitors) != 2:
                 continue
@@ -149,8 +207,10 @@ def get_wimbledon_draw(tour="atp", date_range=None):
             p1_name = p1.get("athlete", {}).get("displayName", "")
             p2_name = p2.get("athlete", {}).get("displayName", "")
 
-            notes = comp.get("notes", [])
-            round_label = notes[0].get("text", "") if notes else ""
+            # Real round label, e.g. "Qualifying 1st Round", "Quarterfinal".
+            # comp["notes"][0]["text"] (the old source) is a plain-English
+            # match recap, not a round name -- see module docstring.
+            round_label = comp.get("round", {}).get("displayName", "")
 
             match = {
                 "date":      comp.get("date", "")[:10],
