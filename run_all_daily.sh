@@ -64,7 +64,30 @@ run_step "Run WC matches"      "scripts/run_daily_wc.py"       "run_wc.log"
 run_step "Run WC goalscorers"  "scripts/run_daily_wc_gs.py"    "run_wc_gs.log"
 run_step "Run tennis"          "scripts/run_daily_tennis.py"   "run_tennis.log"
 
-# ── 3. Publish + push dashboard ───────────────────────────────────────────
+# ── 3. Commit ledger updates ───────────────────────────────────────────────
+# The grading/prediction steps above modify data/ledger/*.csv every run.
+# If those changes are left uncommitted, push_dashboard.sh's internal
+# `git pull --rebase` fails with "You have unstaged changes" and the
+# whole publish step gets blocked -- this happened repeatedly before this
+# step existed. Commit them here, before publish/push, so that never
+# blocks the pipeline again.
+echo ""
+echo "── Commit ledger updates ──────────────────────"
+if git diff --quiet data/ledger/ 2>/dev/null; then
+    echo "  Nothing to commit."
+    RESULTS+=("OK    Commit ledger updates (nothing to commit)")
+else
+    git add data/ledger/*.csv
+    if git commit -m "Update ledger data ($(date '+%Y-%m-%d %H:%M'))" >> "$LOG_DIR/ledger_commit.log" 2>&1; then
+        echo "  OK"
+        RESULTS+=("OK    Commit ledger updates")
+    else
+        echo "  FAILED -- see $LOG_DIR/ledger_commit.log for details"
+        RESULTS+=("FAIL  Commit ledger updates")
+    fi
+fi
+
+# ── 4. Publish + push dashboard ───────────────────────────────────────────
 echo ""
 echo "── Publish dashboard ──────────────────────────"
 if $PYTHON scripts/publish_dashboard.py >> "$LOG_DIR/publish.log" 2>&1; then
