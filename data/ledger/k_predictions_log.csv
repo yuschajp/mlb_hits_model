@@ -88,9 +88,17 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-01,824174,837227,Tatsuya Imai,Houston Astros,Minnesota Twins,Daikin Park,1.0,6.5,11.106,13.31,0.2141,47.0,23.7,4.27,5.343,0.2896,0.7104,2.0,True
 2026-07-01,823767,671096,Andrew Abbott,Cincinnati Reds,Milwaukee Brewers,American Family Field,1.05,6.5,7.0,8.64,0.2123,90.0,33.3,5.29,4.522,0.1717,0.8283,3.0,True
 2026-07-01,824337,607536,Kyle Freeland,Colorado Rockies,Miami Marlins,Coors Field,1.13,6.5,7.625,6.674,0.2174,72.0,29.7,5.14,4.458,0.1636,0.8364,7.0,True
-2026-07-02,823442,683003,Jared Jones,Pittsburgh Pirates,Philadelphia Phillies,Citizens Bank Park,0.97,6.5,9.0,9.0,0.2344,25.0,25.0,4.17,5.13,0.257,0.743,,False
-2026-07-02,823442,660604,Alan Rangel,Philadelphia Phillies,Pittsburgh Pirates,Citizens Bank Park,1.03,6.5,9.75,7.715,0.2406,12.0,9.3,4.0,5.37,0.2937,0.7063,,False
-2026-07-02,823765,695505,Chase Burns,Cincinnati Reds,Milwaukee Brewers,American Family Field,1.05,6.5,10.996,13.171,0.2109,91.7,27.3,5.73,6.231,0.4308,0.5692,,False
-2026-07-02,823765,694819,Jacob Misiorowski,Milwaukee Brewers,Cincinnati Reds,American Family Field,1.02,6.5,13.273,11.829,0.2492,99.0,35.0,6.19,8.228,0.7137,0.2863,,False
-2026-07-02,824335,687473,Ryan Gusto,Miami Marlins,Colorado Rockies,Coors Field,0.93,6.5,8.438,8.41,0.2324,21.3,20.3,3.67,4.848,0.216,0.784,,False
-2026-07-02,824335,547179,Michael Lorenzen,Colorado Rockies,Miami Marlins,Coors Field,1.13,6.5,7.273,8.036,0.2184,81.7,28.0,4.75,4.347,0.1499,0.8501,,False
+2026-07-02,823442,683003,Jared Jones,Pittsburgh Pirates,Philadelphia Phillies,Citizens Bank Park,0.97,6.5,9.0,9.0,0.2344,25.0,25.0,4.17,5.13,0.257,0.743,6.0,True
+2026-07-02,823442,660604,Alan Rangel,Philadelphia Phillies,Pittsburgh Pirates,Citizens Bank Park,1.03,6.5,9.75,7.715,0.2406,12.0,9.3,4.0,5.37,0.2937,0.7063,4.0,True
+2026-07-02,823765,695505,Chase Burns,Cincinnati Reds,Milwaukee Brewers,American Family Field,1.05,6.5,10.996,13.171,0.2109,91.7,27.3,5.73,6.231,0.4308,0.5692,4.0,True
+2026-07-02,823765,694819,Jacob Misiorowski,Milwaukee Brewers,Cincinnati Reds,American Family Field,1.02,6.5,13.273,11.829,0.2492,99.0,35.0,6.19,8.228,0.7137,0.2863,10.0,True
+2026-07-02,824335,687473,Ryan Gusto,Miami Marlins,Colorado Rockies,Coors Field,0.93,6.5,8.137,8.1,0.2316,24.3,23.3,3.56,4.639,0.1872,0.8128,2.0,True
+2026-07-02,824335,547179,Michael Lorenzen,Colorado Rockies,Miami Marlins,Coors Field,1.13,6.5,7.012,7.237,0.2168,86.0,32.3,4.72,4.124,0.124,0.876,1.0,True
+2026-07-02,824416,663436,Davis Martin,Chicago White Sox,Cleveland Guardians,Progressive Field,1.02,6.5,8.71,6.894,0.2186,93.0,31.3,5.81,5.077,0.2492,0.7508,0.0,True
+2026-07-02,824416,677944,Slade Cecconi,Cleveland Guardians,Chicago White Sox,Progressive Field,0.99,6.5,6.974,6.273,0.2389,90.3,33.0,5.31,4.722,0.1984,0.8016,3.0,True
+2026-07-02,824906,694462,Hurston Waldrep,Atlanta Braves,St. Louis Cardinals,Truist Park,1.01,6.5,13.5,13.5,0.2034,2.0,2.0,5.5,5.023,0.2412,0.7588,4.0,True
+2026-07-02,824093,693855,Ian Seymour,Tampa Bay Rays,Kansas City Royals,Kauffman Stadium,0.97,6.5,9.36,8.591,0.2111,50.0,22.0,4.2,4.698,0.1951,0.8049,8.0,True
+2026-07-02,824093,663568,Stephen Kolek,Kansas City Royals,Tampa Bay Rays,Kauffman Stadium,0.94,6.5,5.885,6.923,0.1875,52.0,26.0,5.78,3.892,0.0997,0.9003,0.0,True
+2026-07-02,822884,664285,Framber Valdez,Detroit Tigers,Texas Rangers,Globe Life Field,0.95,6.5,7.244,7.01,0.2248,95.7,34.7,5.63,4.77,0.205,0.795,1.0,True
+2026-07-02,822884,543135,Nathan Eovaldi,Texas Rangers,Detroit Tigers,Globe Life Field,1.02,6.5,9.06,9.31,0.2289,100.3,38.7,6.27,6.073,0.4054,0.5946,9.0,True
+2026-07-02,823119,682243,Bryce Miller,Seattle Mariners,Los Angeles Angels,T-Mobile Park,0.92,6.5,10.642,12.135,0.2485,45.7,29.7,5.71,6.919,0.5382,0.4618,8.0,True

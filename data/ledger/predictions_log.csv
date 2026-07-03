@@ -1763,57 +1763,57 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-01,824174,668952,Ryan Kreidler,Minnesota Twins,Houston Astros,7,Daikin Park,1.0,Tatsuya Imai,0.6104,0.2489,3.7,0.0,True
 2026-07-01,824174,656484,Tristan Gray,Minnesota Twins,Houston Astros,8,Daikin Park,1.0,Tatsuya Imai,0.5665,0.2281,3.6,0.0,True
 2026-07-01,824174,807712,Luke Keaschall,Minnesota Twins,Houston Astros,9,Daikin Park,1.0,Tatsuya Imai,0.5578,0.2286,3.5,1.0,True
-2026-07-02,823442,607208,Trea Turner,Philadelphia Phillies,Pittsburgh Pirates,1,Citizens Bank Park,1.03,Jared Jones,0.693,0.2681,4.3,,False
-2026-07-02,823442,656941,Kyle Schwarber,Philadelphia Phillies,Pittsburgh Pirates,2,Citizens Bank Park,1.03,Jared Jones,0.6916,0.2726,4.2,,False
-2026-07-02,823442,547180,Bryce Harper,Philadelphia Phillies,Pittsburgh Pirates,3,Citizens Bank Park,1.03,Jared Jones,0.7072,0.289,4.1,,False
-2026-07-02,823442,669016,Brandon Marsh,Philadelphia Phillies,Pittsburgh Pirates,4,Citizens Bank Park,1.03,Jared Jones,0.7322,0.3134,4.0,,False
-2026-07-02,823442,664761,Alec Bohm,Philadelphia Phillies,Pittsburgh Pirates,5,Citizens Bank Park,1.03,Jared Jones,0.6368,0.2539,3.9,,False
-2026-07-02,823442,681082,Bryson Stott,Philadelphia Phillies,Pittsburgh Pirates,6,Citizens Bank Park,1.03,Jared Jones,0.6511,0.2689,3.8,,False
-2026-07-02,823442,687282,Gabriel Rincones Jr.,Philadelphia Phillies,Pittsburgh Pirates,7,Citizens Bank Park,1.03,Jared Jones,0.6029,0.2443,3.7,,False
-2026-07-02,823442,702222,Justin Crawford,Philadelphia Phillies,Pittsburgh Pirates,8,Citizens Bank Park,1.03,Jared Jones,0.6466,0.2785,3.6,,False
-2026-07-02,823442,665561,Rafael Marchán,Philadelphia Phillies,Pittsburgh Pirates,9,Citizens Bank Park,1.03,Jared Jones,0.5678,0.2345,3.5,,False
-2026-07-02,823442,663968,Jake Mangum,Pittsburgh Pirates,Philadelphia Phillies,1,Citizens Bank Park,1.03,Alan Rangel,0.7262,0.2908,4.3,,False
-2026-07-02,823442,664040,Brandon Lowe,Pittsburgh Pirates,Philadelphia Phillies,2,Citizens Bank Park,1.03,Alan Rangel,0.6493,0.2457,4.2,,False
-2026-07-02,823442,668804,Bryan Reynolds,Pittsburgh Pirates,Philadelphia Phillies,3,Citizens Bank Park,1.03,Alan Rangel,0.687,0.2751,4.1,,False
-2026-07-02,823442,699013,Esmerlyn Valdez,Pittsburgh Pirates,Philadelphia Phillies,4,Citizens Bank Park,1.03,Alan Rangel,0.6774,0.2745,4.0,,False
-2026-07-02,823442,656811,Ryan O'Hearn,Pittsburgh Pirates,Philadelphia Phillies,5,Citizens Bank Park,1.03,Alan Rangel,0.673,0.2775,3.9,,False
-2026-07-02,823442,693304,Nick Gonzales,Pittsburgh Pirates,Philadelphia Phillies,6,Citizens Bank Park,1.03,Alan Rangel,0.68,0.2884,3.8,,False
-2026-07-02,823442,542303,Marcell Ozuna,Pittsburgh Pirates,Philadelphia Phillies,7,Citizens Bank Park,1.03,Alan Rangel,0.592,0.2377,3.7,,False
-2026-07-02,823442,682848,Endy Rodríguez,Pittsburgh Pirates,Philadelphia Phillies,8,Citizens Bank Park,1.03,Alan Rangel,0.6279,0.2661,3.6,,False
-2026-07-02,823442,669707,Jared Triolo,Pittsburgh Pirates,Philadelphia Phillies,9,Citizens Bank Park,1.03,Alan Rangel,0.5912,0.2489,3.5,,False
-2026-07-02,823765,592885,Christian Yelich,Milwaukee Brewers,Cincinnati Reds,1,American Family Field,1.02,Chase Burns,0.6238,0.2258,4.3,,False
-2026-07-02,823765,694192,Jackson Chourio,Milwaukee Brewers,Cincinnati Reds,2,American Family Field,1.02,Chase Burns,0.6565,0.2501,4.2,,False
-2026-07-02,823765,668930,Brice Turang,Milwaukee Brewers,Cincinnati Reds,3,American Family Field,1.02,Chase Burns,0.6168,0.2314,4.1,,False
-2026-07-02,823765,661388,William Contreras,Milwaukee Brewers,Cincinnati Reds,4,American Family Field,1.02,Chase Burns,0.6426,0.252,4.0,,False
-2026-07-02,823765,641343,Jake Bauers,Milwaukee Brewers,Cincinnati Reds,5,American Family Field,1.02,Chase Burns,0.6028,0.2333,3.9,,False
-2026-07-02,823765,669003,Garrett Mitchell,Milwaukee Brewers,Cincinnati Reds,6,American Family Field,1.02,Chase Burns,0.6082,0.2419,3.8,,False
-2026-07-02,823765,686217,Sal Frelick,Milwaukee Brewers,Cincinnati Reds,7,American Family Field,1.02,Chase Burns,0.5965,0.2404,3.7,,False
-2026-07-02,823765,806198,Cooper Pratt,Milwaukee Brewers,Cincinnati Reds,8,American Family Field,1.02,Chase Burns,0.5421,0.2139,3.6,,False
-2026-07-02,823765,666152,David Hamilton,Milwaukee Brewers,Cincinnati Reds,9,American Family Field,1.02,Chase Burns,0.5362,0.2159,3.5,,False
-2026-07-02,823765,682829,Elly De La Cruz,Cincinnati Reds,Milwaukee Brewers,1,American Family Field,1.02,Jacob Misiorowski,0.5446,0.1837,4.3,,False
-2026-07-02,823765,701398,Sal Stewart,Cincinnati Reds,Milwaukee Brewers,2,American Family Field,1.02,Jacob Misiorowski,0.5322,0.1815,4.2,,False
-2026-07-02,823765,668709,JJ Bleday,Cincinnati Reds,Milwaukee Brewers,3,American Family Field,1.02,Jacob Misiorowski,0.4934,0.1665,4.1,,False
-2026-07-02,823765,553993,Eugenio Suárez,Cincinnati Reds,Milwaukee Brewers,4,American Family Field,1.02,Jacob Misiorowski,0.4712,0.1596,4.0,,False
-2026-07-02,823765,663993,Nathaniel Lowe,Cincinnati Reds,Milwaukee Brewers,5,American Family Field,1.02,Jacob Misiorowski,0.5083,0.1817,3.9,,False
-2026-07-02,823765,682622,Noelvi Marte,Cincinnati Reds,Milwaukee Brewers,6,American Family Field,1.02,Jacob Misiorowski,0.4753,0.1693,3.8,,False
-2026-07-02,823765,695490,Edwin Arroyo,Cincinnati Reds,Milwaukee Brewers,7,American Family Field,1.02,Jacob Misiorowski,0.494,0.183,3.7,,False
-2026-07-02,823765,624431,Jose Trevino,Cincinnati Reds,Milwaukee Brewers,8,American Family Field,1.02,Jacob Misiorowski,0.4642,0.1721,3.6,,False
-2026-07-02,823765,670770,TJ Friedl,Cincinnati Reds,Milwaukee Brewers,9,American Family Field,1.02,Jacob Misiorowski,0.4244,0.1565,3.5,,False
-2026-07-02,824335,664983,Jake McCarthy,Colorado Rockies,Miami Marlins,1,Coors Field,1.13,Ryan Gusto,0.767,0.3215,4.3,,False
-2026-07-02,824335,666160,Mickey Moniak,Colorado Rockies,Miami Marlins,2,Coors Field,1.13,Ryan Gusto,0.733,0.3016,4.2,,False
-2026-07-02,824335,681198,TJ Rumfield,Colorado Rockies,Miami Marlins,3,Coors Field,1.13,Ryan Gusto,0.7562,0.3255,4.1,,False
-2026-07-02,824335,650489,Willi Castro,Colorado Rockies,Miami Marlins,4,Coors Field,1.13,Ryan Gusto,0.721,0.305,4.0,,False
-2026-07-02,824335,687859,Troy Johnston,Colorado Rockies,Miami Marlins,5,Coors Field,1.13,Ryan Gusto,0.7539,0.3371,3.9,,False
-2026-07-02,824335,694249,Cole Carrigg,Colorado Rockies,Miami Marlins,6,Coors Field,1.13,Ryan Gusto,0.6911,0.2962,3.8,,False
-2026-07-02,824335,691720,Kyle Karros,Colorado Rockies,Miami Marlins,7,Coors Field,1.13,Ryan Gusto,0.7023,0.311,3.7,,False
-2026-07-02,824335,664954,Brett Sullivan,Colorado Rockies,Miami Marlins,8,Coors Field,1.13,Ryan Gusto,0.6487,0.2799,3.6,,False
-2026-07-02,824335,666397,Edouard Julien,Colorado Rockies,Miami Marlins,9,Coors Field,1.13,Ryan Gusto,0.6577,0.2929,3.5,,False
-2026-07-02,824335,689414,Liam Hicks,Miami Marlins,Colorado Rockies,1,Coors Field,1.13,Michael Lorenzen,0.8431,0.3907,4.3,,False
-2026-07-02,824335,672640,Otto Lopez,Miami Marlins,Colorado Rockies,2,Coors Field,1.13,Michael Lorenzen,0.8608,0.4176,4.2,,False
-2026-07-02,824335,669065,Kyle Stowers,Miami Marlins,Colorado Rockies,3,Coors Field,1.13,Michael Lorenzen,0.7795,0.3447,4.1,,False
-2026-07-02,824335,669364,Xavier Edwards,Miami Marlins,Colorado Rockies,4,Coors Field,1.13,Michael Lorenzen,0.825,0.394,4.0,,False
-2026-07-02,824335,665052,Griffin Conine,Miami Marlins,Colorado Rockies,5,Coors Field,1.13,Michael Lorenzen,0.7866,0.3651,3.9,,False
-2026-07-02,824335,683357,Owen Caissie,Miami Marlins,Colorado Rockies,6,Coors Field,1.13,Michael Lorenzen,0.7608,0.35,3.8,,False
-2026-07-02,824335,805300,Jakob Marsee,Miami Marlins,Colorado Rockies,7,Coors Field,1.13,Michael Lorenzen,0.6927,0.304,3.7,,False
-2026-07-02,824335,691594,Javier Sanoja,Miami Marlins,Colorado Rockies,8,Coors Field,1.13,Michael Lorenzen,0.7753,0.3783,3.6,,False
-2026-07-02,824335,691788,Joe Mack,Miami Marlins,Colorado Rockies,9,Coors Field,1.13,Michael Lorenzen,0.7529,0.3668,3.5,,False
+2026-07-02,823442,607208,Trea Turner,Philadelphia Phillies,Pittsburgh Pirates,1,Citizens Bank Park,1.03,Jared Jones,0.693,0.2681,4.3,1.0,True
+2026-07-02,823442,656941,Kyle Schwarber,Philadelphia Phillies,Pittsburgh Pirates,2,Citizens Bank Park,1.03,Jared Jones,0.6916,0.2726,4.2,0.0,True
+2026-07-02,823442,547180,Bryce Harper,Philadelphia Phillies,Pittsburgh Pirates,3,Citizens Bank Park,1.03,Jared Jones,0.7072,0.289,4.1,1.0,True
+2026-07-02,823442,669016,Brandon Marsh,Philadelphia Phillies,Pittsburgh Pirates,4,Citizens Bank Park,1.03,Jared Jones,0.7322,0.3134,4.0,0.0,True
+2026-07-02,823442,664761,Alec Bohm,Philadelphia Phillies,Pittsburgh Pirates,5,Citizens Bank Park,1.03,Jared Jones,0.6368,0.2539,3.9,1.0,True
+2026-07-02,823442,681082,Bryson Stott,Philadelphia Phillies,Pittsburgh Pirates,6,Citizens Bank Park,1.03,Jared Jones,0.6511,0.2689,3.8,1.0,True
+2026-07-02,823442,687282,Gabriel Rincones Jr.,Philadelphia Phillies,Pittsburgh Pirates,7,Citizens Bank Park,1.03,Jared Jones,0.6029,0.2443,3.7,0.0,True
+2026-07-02,823442,702222,Justin Crawford,Philadelphia Phillies,Pittsburgh Pirates,8,Citizens Bank Park,1.03,Jared Jones,0.6466,0.2785,3.6,0.0,True
+2026-07-02,823442,665561,Rafael Marchán,Philadelphia Phillies,Pittsburgh Pirates,9,Citizens Bank Park,1.03,Jared Jones,0.5678,0.2345,3.5,0.0,True
+2026-07-02,823442,663968,Jake Mangum,Pittsburgh Pirates,Philadelphia Phillies,1,Citizens Bank Park,1.03,Alan Rangel,0.7262,0.2908,4.3,1.0,True
+2026-07-02,823442,664040,Brandon Lowe,Pittsburgh Pirates,Philadelphia Phillies,2,Citizens Bank Park,1.03,Alan Rangel,0.6493,0.2457,4.2,1.0,True
+2026-07-02,823442,668804,Bryan Reynolds,Pittsburgh Pirates,Philadelphia Phillies,3,Citizens Bank Park,1.03,Alan Rangel,0.687,0.2751,4.1,1.0,True
+2026-07-02,823442,699013,Esmerlyn Valdez,Pittsburgh Pirates,Philadelphia Phillies,4,Citizens Bank Park,1.03,Alan Rangel,0.6774,0.2745,4.0,1.0,True
+2026-07-02,823442,656811,Ryan O'Hearn,Pittsburgh Pirates,Philadelphia Phillies,5,Citizens Bank Park,1.03,Alan Rangel,0.673,0.2775,3.9,1.0,True
+2026-07-02,823442,693304,Nick Gonzales,Pittsburgh Pirates,Philadelphia Phillies,6,Citizens Bank Park,1.03,Alan Rangel,0.68,0.2884,3.8,1.0,True
+2026-07-02,823442,542303,Marcell Ozuna,Pittsburgh Pirates,Philadelphia Phillies,7,Citizens Bank Park,1.03,Alan Rangel,0.592,0.2377,3.7,1.0,True
+2026-07-02,823442,682848,Endy Rodríguez,Pittsburgh Pirates,Philadelphia Phillies,8,Citizens Bank Park,1.03,Alan Rangel,0.6279,0.2661,3.6,1.0,True
+2026-07-02,823442,669707,Jared Triolo,Pittsburgh Pirates,Philadelphia Phillies,9,Citizens Bank Park,1.03,Alan Rangel,0.5912,0.2489,3.5,0.0,True
+2026-07-02,823765,592885,Christian Yelich,Milwaukee Brewers,Cincinnati Reds,1,American Family Field,1.02,Chase Burns,0.6238,0.2258,4.3,0.0,True
+2026-07-02,823765,694192,Jackson Chourio,Milwaukee Brewers,Cincinnati Reds,2,American Family Field,1.02,Chase Burns,0.6565,0.2501,4.2,1.0,True
+2026-07-02,823765,668930,Brice Turang,Milwaukee Brewers,Cincinnati Reds,3,American Family Field,1.02,Chase Burns,0.6168,0.2314,4.1,1.0,True
+2026-07-02,823765,661388,William Contreras,Milwaukee Brewers,Cincinnati Reds,4,American Family Field,1.02,Chase Burns,0.6426,0.252,4.0,0.0,True
+2026-07-02,823765,641343,Jake Bauers,Milwaukee Brewers,Cincinnati Reds,5,American Family Field,1.02,Chase Burns,0.6028,0.2333,3.9,0.0,True
+2026-07-02,823765,669003,Garrett Mitchell,Milwaukee Brewers,Cincinnati Reds,6,American Family Field,1.02,Chase Burns,0.6082,0.2419,3.8,1.0,True
+2026-07-02,823765,686217,Sal Frelick,Milwaukee Brewers,Cincinnati Reds,7,American Family Field,1.02,Chase Burns,0.5965,0.2404,3.7,0.0,True
+2026-07-02,823765,806198,Cooper Pratt,Milwaukee Brewers,Cincinnati Reds,8,American Family Field,1.02,Chase Burns,0.5421,0.2139,3.6,0.0,True
+2026-07-02,823765,666152,David Hamilton,Milwaukee Brewers,Cincinnati Reds,9,American Family Field,1.02,Chase Burns,0.5362,0.2159,3.5,1.0,True
+2026-07-02,823765,682829,Elly De La Cruz,Cincinnati Reds,Milwaukee Brewers,1,American Family Field,1.02,Jacob Misiorowski,0.5446,0.1837,4.3,1.0,True
+2026-07-02,823765,701398,Sal Stewart,Cincinnati Reds,Milwaukee Brewers,2,American Family Field,1.02,Jacob Misiorowski,0.5322,0.1815,4.2,1.0,True
+2026-07-02,823765,668709,JJ Bleday,Cincinnati Reds,Milwaukee Brewers,3,American Family Field,1.02,Jacob Misiorowski,0.4934,0.1665,4.1,1.0,True
+2026-07-02,823765,553993,Eugenio Suárez,Cincinnati Reds,Milwaukee Brewers,4,American Family Field,1.02,Jacob Misiorowski,0.4712,0.1596,4.0,1.0,True
+2026-07-02,823765,663993,Nathaniel Lowe,Cincinnati Reds,Milwaukee Brewers,5,American Family Field,1.02,Jacob Misiorowski,0.5083,0.1817,3.9,1.0,True
+2026-07-02,823765,682622,Noelvi Marte,Cincinnati Reds,Milwaukee Brewers,6,American Family Field,1.02,Jacob Misiorowski,0.4753,0.1693,3.8,1.0,True
+2026-07-02,823765,695490,Edwin Arroyo,Cincinnati Reds,Milwaukee Brewers,7,American Family Field,1.02,Jacob Misiorowski,0.494,0.183,3.7,0.0,True
+2026-07-02,823765,624431,Jose Trevino,Cincinnati Reds,Milwaukee Brewers,8,American Family Field,1.02,Jacob Misiorowski,0.4642,0.1721,3.6,1.0,True
+2026-07-02,823765,670770,TJ Friedl,Cincinnati Reds,Milwaukee Brewers,9,American Family Field,1.02,Jacob Misiorowski,0.4244,0.1565,3.5,1.0,True
+2026-07-02,824335,664983,Jake McCarthy,Colorado Rockies,Miami Marlins,1,Coors Field,1.13,Ryan Gusto,0.767,0.3215,4.3,1.0,True
+2026-07-02,824335,666160,Mickey Moniak,Colorado Rockies,Miami Marlins,2,Coors Field,1.13,Ryan Gusto,0.733,0.3016,4.2,1.0,True
+2026-07-02,824335,681198,TJ Rumfield,Colorado Rockies,Miami Marlins,3,Coors Field,1.13,Ryan Gusto,0.7562,0.3255,4.1,1.0,True
+2026-07-02,824335,650489,Willi Castro,Colorado Rockies,Miami Marlins,4,Coors Field,1.13,Ryan Gusto,0.721,0.305,4.0,1.0,True
+2026-07-02,824335,687859,Troy Johnston,Colorado Rockies,Miami Marlins,5,Coors Field,1.13,Ryan Gusto,0.7539,0.3371,3.9,1.0,True
+2026-07-02,824335,694249,Cole Carrigg,Colorado Rockies,Miami Marlins,6,Coors Field,1.13,Ryan Gusto,0.6911,0.2962,3.8,1.0,True
+2026-07-02,824335,691720,Kyle Karros,Colorado Rockies,Miami Marlins,7,Coors Field,1.13,Ryan Gusto,0.7023,0.311,3.7,0.0,True
+2026-07-02,824335,664954,Brett Sullivan,Colorado Rockies,Miami Marlins,8,Coors Field,1.13,Ryan Gusto,0.6487,0.2799,3.6,1.0,True
+2026-07-02,824335,666397,Edouard Julien,Colorado Rockies,Miami Marlins,9,Coors Field,1.13,Ryan Gusto,0.6577,0.2929,3.5,1.0,True
+2026-07-02,824335,689414,Liam Hicks,Miami Marlins,Colorado Rockies,1,Coors Field,1.13,Michael Lorenzen,0.8431,0.3907,4.3,1.0,True
+2026-07-02,824335,672640,Otto Lopez,Miami Marlins,Colorado Rockies,2,Coors Field,1.13,Michael Lorenzen,0.8608,0.4176,4.2,1.0,True
+2026-07-02,824335,669065,Kyle Stowers,Miami Marlins,Colorado Rockies,3,Coors Field,1.13,Michael Lorenzen,0.7795,0.3447,4.1,1.0,True
+2026-07-02,824335,669364,Xavier Edwards,Miami Marlins,Colorado Rockies,4,Coors Field,1.13,Michael Lorenzen,0.825,0.394,4.0,0.0,True
+2026-07-02,824335,665052,Griffin Conine,Miami Marlins,Colorado Rockies,5,Coors Field,1.13,Michael Lorenzen,0.7866,0.3651,3.9,0.0,True
+2026-07-02,824335,683357,Owen Caissie,Miami Marlins,Colorado Rockies,6,Coors Field,1.13,Michael Lorenzen,0.7608,0.35,3.8,0.0,True
+2026-07-02,824335,805300,Jakob Marsee,Miami Marlins,Colorado Rockies,7,Coors Field,1.13,Michael Lorenzen,0.6927,0.304,3.7,0.0,True
+2026-07-02,824335,691594,Javier Sanoja,Miami Marlins,Colorado Rockies,8,Coors Field,1.13,Michael Lorenzen,0.7753,0.3783,3.6,1.0,True
+2026-07-02,824335,691788,Joe Mack,Miami Marlins,Colorado Rockies,9,Coors Field,1.13,Michael Lorenzen,0.7529,0.3668,3.5,0.0,True

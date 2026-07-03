@@ -552,9 +552,11 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 16,
-    "total_graded": 53,
-    "accuracy": 0.358,
+    "today_count": 21,
+    "total_graded": 54,
+    "accuracy": 0.76,
+    "no_signal_count": 29,
+    "no_signal_rate": 0.537,
     "matches": [
       {
         "tour": "atp",
@@ -711,6 +713,56 @@
         "round": null,
         "player_a": "Coco Gauff",
         "player_b": "Claire Liu",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(4) Jessica Pegula (USA) bt Jessica Bouzas Maneiro (ESP) 6-1 6-3",
+        "player_a": "Jessica Pegula",
+        "player_b": "Jessica Bouzas Maneiro",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Jessica Pegula"
+      },
+      {
+        "tour": "atp",
+        "round": "(25) Arthur Rinderknech (FRA) is tied with (7) Novak Djokovic (SER) 5-7 1-0",
+        "player_a": "Novak Djokovic",
+        "player_b": "Arthur Rinderknech",
+        "elo_a": 1669.8,
+        "elo_b": 1526.4,
+        "p_a_wins": 0.6954,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Shintaro Mochizuki (JPN) is tied with (23) Rafael Jodar (ESP) 1-6 4-3",
+        "player_a": "Shintaro Mochizuki",
+        "player_b": "Rafael Jodar",
+        "elo_a": 1422.0,
+        "elo_b": 1516.4,
+        "p_a_wins": 0.3675,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Jan-Lennard Struff (GER) leads (8) Daniil Medvedev (RUS) 4-3",
+        "player_a": "Daniil Medvedev",
+        "player_b": "Jan-Lennard Struff",
+        "elo_a": 1597.2,
+        "elo_b": 1534.7,
+        "p_a_wins": 0.5891,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "(18) Ekaterina Alexandrova (RUS) is tied with (16) Iva Jovic (USA) 3-6 5-2",
+        "player_a": "Iva Jovic",
+        "player_b": "Ekaterina Alexandrova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
