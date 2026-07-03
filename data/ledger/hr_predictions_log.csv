@@ -1718,6 +1718,24 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-03,824659,665877,José Fermín,St. Louis Cardinals,Chicago Cubs,7,Wrigley Field,1.0,David Peterson,0.0896,0.0254,3.7,,False
 2026-07-03,824659,691458,Blaze Jordan,St. Louis Cardinals,Chicago Cubs,8,Wrigley Field,1.0,David Peterson,0.0881,0.0256,3.6,,False
 2026-07-03,824659,701675,Nathan Church,St. Louis Cardinals,Chicago Cubs,9,Wrigley Field,1.0,David Peterson,0.0929,0.0279,3.5,,False
+2026-07-03,822714,695578,James Wood,Washington Nationals,Pittsburgh Pirates,1,Nationals Park,0.98,Mitch Keller,0.1567,0.0396,4.3,,False
+2026-07-03,822714,671277,Luis García Jr.,Washington Nationals,Pittsburgh Pirates,2,Nationals Park,0.98,Mitch Keller,0.1682,0.0439,4.2,,False
+2026-07-03,822714,677588,José Tena,Washington Nationals,Pittsburgh Pirates,3,Nationals Park,0.98,Mitch Keller,0.0937,0.024,4.1,,False
+2026-07-03,822714,682928,CJ Abrams,Washington Nationals,Pittsburgh Pirates,4,Nationals Park,0.98,Mitch Keller,0.1431,0.0386,4.0,,False
+2026-07-03,822714,686611,Dylan Crews,Washington Nationals,Pittsburgh Pirates,5,Nationals Park,0.98,Mitch Keller,0.1058,0.0287,3.9,,False
+2026-07-03,822714,695734,Daylen Lile,Washington Nationals,Pittsburgh Pirates,6,Nationals Park,0.98,Mitch Keller,0.0874,0.0241,3.8,,False
+2026-07-03,822714,660688,Keibert Ruiz,Washington Nationals,Pittsburgh Pirates,7,Nationals Park,0.98,Mitch Keller,0.0948,0.0269,3.7,,False
+2026-07-03,822714,678391,Jorbit Vivas,Washington Nationals,Pittsburgh Pirates,8,Nationals Park,0.98,Mitch Keller,0.0896,0.0261,3.6,,False
+2026-07-03,822714,683083,Nasim Nuñez,Washington Nationals,Pittsburgh Pirates,9,Nationals Park,0.98,Mitch Keller,0.0658,0.0194,3.5,,False
+2026-07-03,822714,804606,Konnor Griffin,Pittsburgh Pirates,Washington Nationals,1,Nationals Park,0.98,Foster Griffin,0.1435,0.036,4.3,,False
+2026-07-03,822714,664040,Brandon Lowe,Pittsburgh Pirates,Washington Nationals,2,Nationals Park,0.98,Foster Griffin,0.1851,0.0487,4.2,,False
+2026-07-03,822714,668804,Bryan Reynolds,Pittsburgh Pirates,Washington Nationals,3,Nationals Park,0.98,Foster Griffin,0.1568,0.0416,4.1,,False
+2026-07-03,822714,699013,Esmerlyn Valdez,Pittsburgh Pirates,Washington Nationals,4,Nationals Park,0.98,Foster Griffin,0.1805,0.0498,4.0,,False
+2026-07-03,822714,656811,Ryan O'Hearn,Pittsburgh Pirates,Washington Nationals,5,Nationals Park,0.98,Foster Griffin,0.1574,0.0439,3.9,,False
+2026-07-03,822714,693304,Nick Gonzales,Pittsburgh Pirates,Washington Nationals,6,Nationals Park,0.98,Foster Griffin,0.1126,0.0314,3.8,,False
+2026-07-03,822714,663968,Jake Mangum,Pittsburgh Pirates,Washington Nationals,7,Nationals Park,0.98,Foster Griffin,0.0958,0.0272,3.7,,False
+2026-07-03,822714,682848,Endy Rodríguez,Pittsburgh Pirates,Washington Nationals,8,Nationals Park,0.98,Foster Griffin,0.1435,0.043,3.6,,False
+2026-07-03,822714,669707,Jared Triolo,Pittsburgh Pirates,Washington Nationals,9,Nationals Park,0.98,Foster Griffin,0.099,0.0298,3.5,,False
 2026-07-03,823527,663757,Trent Grisham,New York Yankees,Minnesota Twins,1,Yankee Stadium,1.18,Mike Paredes,0.1641,0.0417,4.3,,False
 2026-07-03,823527,700250,Ben Rice,New York Yankees,Minnesota Twins,2,Yankee Stadium,1.18,Mike Paredes,0.2303,0.0623,4.2,,False
 2026-07-03,823527,691176,Jasson Domínguez,New York Yankees,Minnesota Twins,3,Yankee Stadium,1.18,Mike Paredes,0.1534,0.0406,4.1,,False
@@ -1754,6 +1772,24 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-03,824498,681297,Colton Cowser,Baltimore Orioles,Cincinnati Reds,7,Great American Ball Park,1.15,Brady Singer,0.2043,0.0618,3.7,,False
 2026-07-03,824498,677942,Blaze Alexander,Baltimore Orioles,Cincinnati Reds,8,Great American Ball Park,1.15,Brady Singer,0.1551,0.0468,3.6,,False
 2026-07-03,824498,702616,Jackson Holliday,Baltimore Orioles,Cincinnati Reds,9,Great American Ball Park,1.15,Brady Singer,0.1861,0.0588,3.5,,False
+2026-07-03,824417,683953,Travis Bazzana,Cleveland Guardians,Chicago White Sox,1,Progressive Field,0.98,Anthony Kay,0.135,0.0337,4.3,,False
+2026-07-03,824417,681807,David Fry,Cleveland Guardians,Chicago White Sox,2,Progressive Field,0.98,Anthony Kay,0.151,0.039,4.2,,False
+2026-07-03,824417,800050,Chase DeLauter,Cleveland Guardians,Chicago White Sox,3,Progressive Field,0.98,Anthony Kay,0.1075,0.0277,4.1,,False
+2026-07-03,824417,656555,Rhys Hoskins,Cleveland Guardians,Chicago White Sox,4,Progressive Field,0.98,Anthony Kay,0.1255,0.0335,4.0,,False
+2026-07-03,824417,700932,Kyle Manzardo,Cleveland Guardians,Chicago White Sox,5,Progressive Field,0.98,Anthony Kay,0.1329,0.0366,3.9,,False
+2026-07-03,824417,677587,Brayan Rocchio,Cleveland Guardians,Chicago White Sox,6,Progressive Field,0.98,Anthony Kay,0.1031,0.0286,3.8,,False
+2026-07-03,824417,672356,Gabriel Arias,Cleveland Guardians,Chicago White Sox,7,Progressive Field,0.98,Anthony Kay,0.1138,0.0327,3.7,,False
+2026-07-03,824417,595978,Austin Hedges,Cleveland Guardians,Chicago White Sox,8,Progressive Field,0.98,Anthony Kay,0.1037,0.0304,3.6,,False
+2026-07-03,824417,680757,Steven Kwan,Cleveland Guardians,Chicago White Sox,9,Progressive Field,0.98,Anthony Kay,0.0749,0.0222,3.5,,False
+2026-07-03,824417,803011,Sam Antonacci,Chicago White Sox,Cleveland Guardians,1,Progressive Field,0.98,Gavin Williams,0.1394,0.0349,4.3,,False
+2026-07-03,824417,678246,Miguel Vargas,Chicago White Sox,Cleveland Guardians,2,Progressive Field,0.98,Gavin Williams,0.174,0.0455,4.2,,False
+2026-07-03,824417,691019,Kyle Teel,Chicago White Sox,Cleveland Guardians,3,Progressive Field,0.98,Gavin Williams,0.1369,0.0359,4.1,,False
+2026-07-03,824417,643217,Andrew Benintendi,Chicago White Sox,Cleveland Guardians,4,Progressive Field,0.98,Gavin Williams,0.1592,0.0433,4.0,,False
+2026-07-03,824417,695657,Colson Montgomery,Chicago White Sox,Cleveland Guardians,5,Progressive Field,0.98,Gavin Williams,0.1848,0.0524,3.9,,False
+2026-07-03,824417,695731,Braden Montgomery,Chicago White Sox,Cleveland Guardians,6,Progressive Field,0.98,Gavin Williams,0.1237,0.0347,3.8,,False
+2026-07-03,824417,805367,Chase Meidroth,Chicago White Sox,Cleveland Guardians,7,Progressive Field,0.98,Gavin Williams,0.1083,0.031,3.7,,False
+2026-07-03,824417,671976,Tristan Peters,Chicago White Sox,Cleveland Guardians,8,Progressive Field,0.98,Gavin Williams,0.1057,0.031,3.6,,False
+2026-07-03,824417,694378,Jacob Gonzalez,Chicago White Sox,Cleveland Guardians,9,Progressive Field,0.98,Gavin Williams,0.114,0.0346,3.5,,False
 2026-07-03,824904,686948,Drake Baldwin,Atlanta Braves,New York Mets,1,Truist Park,1.02,Christian Scott,0.1452,0.0365,4.3,,False
 2026-07-03,824904,645277,Ozzie Albies,Atlanta Braves,New York Mets,2,Truist Park,1.02,Christian Scott,0.1381,0.0354,4.2,,False
 2026-07-03,824904,621566,Matt Olson,Atlanta Braves,New York Mets,3,Truist Park,1.02,Christian Scott,0.1539,0.0408,4.1,,False
