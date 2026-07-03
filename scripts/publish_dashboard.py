@@ -163,6 +163,84 @@ def _build_picks_payload(today):
     }
 
 
+# ── Trend helper ────────────────────────────────────────────────────────────
+
+def rolling_brier_by_date(df, date_col, prob_col, outcome_col, window_days=7, min_n=5):
+    """
+    Computes a trailing-window rolling Brier score by date, so calibration
+    changes (e.g. after a model fix) become visible over time instead of
+    being buried in a single all-time aggregate number.
+
+    window_days=7 is a trailing window, not cumulative-since-start -- this
+    matters specifically for tracking whether a fix worked: a cumulative
+    score mixes old and new behavior together and dilutes any real change
+    for a long time, while a trailing window shows the shift directly
+    (with a natural ~window_days lag while old data rolls out of the
+    window).
+
+    min_n=5 skips dates with too few graded predictions in the window to
+    produce a meaningful score -- an early date with only 1-2 graded rows
+    would otherwise show a wildly noisy, uninformative point.
+
+    Returns [{"date": "YYYY-MM-DD", "brier": float, "n": int}, ...]
+    """
+    df = df.dropna(subset=[prob_col, outcome_col]).copy()
+    if df.empty:
+        return []
+    df[date_col] = pd.to_datetime(df[date_col])
+    df = df.sort_values(date_col)
+
+    dates = sorted(df[date_col].dt.date.unique())
+    trend = []
+    for d in dates:
+        window_start = pd.Timestamp(d) - pd.Timedelta(days=window_days - 1)
+        window_df = df[(df[date_col] >= window_start) & (df[date_col].dt.date <= d)]
+        if len(window_df) < min_n:
+            continue
+        errors = (window_df[prob_col].astype(float) - window_df[outcome_col].astype(float)) ** 2
+        trend.append({
+            "date":  str(d),
+            "brier": round(float(errors.mean()), 4),
+            "n":     len(window_df),
+        })
+    return trend
+
+
+def rolling_rate_by_date(df, date_col, correct_col, window_days=7, min_n=5):
+    """
+    Trailing-window rolling accuracy rate by date. Same windowing logic as
+    rolling_brier_by_date, but for metrics where Brier score doesn't apply
+    -- specifically tennis, where player_a is always defined as the actual
+    match winner for graded rows (see run_daily_tennis.py), meaning
+    actual_a_wins is deterministically 1 for every graded row. A Brier
+    score against a deterministic outcome is gameable (always predicting
+    high confidence scores perfectly regardless of real skill) and isn't
+    a meaningful calibration metric here. Accuracy -- did the model favor
+    the actual winner before the match -- is the honest signal instead.
+
+    correct_col must already be a 0/1 (or boolean) column.
+    """
+    df = df.dropna(subset=[correct_col]).copy()
+    if df.empty:
+        return []
+    df[date_col] = pd.to_datetime(df[date_col])
+    df = df.sort_values(date_col)
+
+    dates = sorted(df[date_col].dt.date.unique())
+    trend = []
+    for d in dates:
+        window_start = pd.Timestamp(d) - pd.Timedelta(days=window_days - 1)
+        window_df = df[(df[date_col] >= window_start) & (df[date_col].dt.date <= d)]
+        if len(window_df) < min_n:
+            continue
+        trend.append({
+            "date":     str(d),
+            "accuracy": round(float(window_df[correct_col].astype(float).mean()), 4),
+            "n":        len(window_df),
+        })
+    return trend
+
+
 # ── Summarizers ───────────────────────────────────────────────────────────────
 
 def summarize_hits(ledger_path):
@@ -187,6 +265,8 @@ def summarize_hits(ledger_path):
     week_ago     = today - timedelta(days=7)
     recent       = graded[graded["date"].dt.date >= week_ago]
     recent_score = brier_score(recent) if not recent.empty else None
+
+    trend = rolling_brier_by_date(graded, "date", "p_hit", "actual_hit") if not graded.empty else []
 
     return {
         "today_count":    len(today_rows),
@@ -219,6 +299,7 @@ def summarize_hits(ledger_path):
         ],
         "returns":       compute_returns(df, "p_hit", "actual_hit", threshold=0.60, american_odds=-110),
         "returns_label": "p_hit ≥ 60% · flat -110",
+        "trend":         trend,
     }
 
 
@@ -241,6 +322,7 @@ def summarize_hr(ledger_path):
     score    = brier_score(graded, prob_col="p_hr", outcome_col="actual_hr") if not graded.empty else None
     cal      = calibration_table(graded, prob_col="p_hr", outcome_col="actual_hr") if not graded.empty else None
     cal_rows = cal.to_dict(orient="records") if cal is not None else []
+    trend    = rolling_brier_by_date(graded, "date", "p_hr", "actual_hr") if not graded.empty else []
 
     return {
         "today_count":   len(today_rows),
@@ -272,6 +354,7 @@ def summarize_hr(ledger_path):
         ],
         "returns":       compute_returns(df, "p_hr", "actual_hr", threshold=0.15, american_odds=350),
         "returns_label": "p_hr ≥ 15% · flat +350",
+        "trend":         trend,
     }
 
 
@@ -303,6 +386,7 @@ def summarize_k():
         score = brier_score(graded, prob_col="p_over", outcome_col="actual_over") if not graded.empty else None
         cal   = calibration_table(graded, prob_col="p_over", outcome_col="actual_over") if not graded.empty else None
         cal_rows = cal.to_dict(orient="records") if cal is not None else []
+        trend = rolling_brier_by_date(graded, "date", "p_over", "actual_over") if not graded.empty else []
 
         return {
             "today_count":  len(today_rows),
@@ -334,6 +418,7 @@ def summarize_k():
                 }
                 for r in cal_rows
             ],
+            "trend": trend,
         }
     except Exception as e:
         print(f"  [warn] Could not read K ledger: {e}")
@@ -378,6 +463,7 @@ def summarize_wc():
         ]
 
         score_h = brier_score(graded, prob_col="p_home", outcome_col="actual_home") if not graded.empty else None
+        trend   = rolling_brier_by_date(graded, "date", "p_home", "actual_home") if not graded.empty else []
 
         return {
             "today_count":  len(today_rows),
@@ -385,6 +471,7 @@ def summarize_wc():
             "brier_home":   round(score_h, 4) if score_h else None,
             "naive_brier":  0.222,
             "matches_today": matches_today,
+            "trend":         trend,
         }
     except Exception as e:
         print(f"  [warn] Could not read WC ledger: {e}")
@@ -487,15 +574,22 @@ def summarize_tennis():
         accuracy = None
         no_signal_count = 0
         no_signal_rate = None
+        trend = []
         if not graded.empty:
             no_signal_mask = graded["p_a_wins"] == 0.5
             no_signal_count = int(no_signal_mask.sum())
             no_signal_rate = round(no_signal_count / len(graded), 3)
 
-            real_predictions = graded[~no_signal_mask]
+            real_predictions = graded[~no_signal_mask].copy()
             if not real_predictions.empty:
-                correct = (real_predictions["p_a_wins"] > 0.5).astype(int)
-                accuracy = round(float(correct.mean()), 3)
+                real_predictions["correct"] = (real_predictions["p_a_wins"] > 0.5).astype(int)
+                accuracy = round(float(real_predictions["correct"].mean()), 3)
+                # Rolling ACCURACY, not Brier -- see rolling_rate_by_date
+                # docstring for why Brier is degenerate/gameable here
+                # (player_a is always the actual winner by construction
+                # for graded rows, so there's no real "wrong" class to
+                # score a Brier distance against).
+                trend = rolling_rate_by_date(real_predictions, "date", "correct")
 
         matches = [
             {
@@ -518,6 +612,7 @@ def summarize_tennis():
             "no_signal_count": no_signal_count,
             "no_signal_rate":  no_signal_rate,
             "matches": matches,
+            "trend": trend,
         }
     except Exception as e:
         print(f"  [warn] Could not read tennis ledger: {e}")
@@ -570,12 +665,14 @@ def summarize_f1():
                     pole_brier = brier_score(all_graded, prob_col="p_pole", outcome_col="actual_pole")
                     q3_brier   = brier_score(all_graded, prob_col="p_q3",   outcome_col="actual_q3")
                     all_graded["pos_error"] = abs(all_graded["predicted_grid"] - all_graded["actual_grid"])
+                    pole_trend = rolling_brier_by_date(all_graded, "prediction_time", "p_pole", "actual_pole")
                     result["quali"]["stats"] = {
                         "total_graded":    len(all_graded),
                         "pole_brier":      round(pole_brier, 4) if pole_brier else None,
                         "q3_brier":        round(q3_brier, 4) if q3_brier else None,
                         "avg_pos_error":   round(float(all_graded["pos_error"].mean()), 2),
                         "within_3_spots":  round(float((all_graded["pos_error"] <= 3).mean()), 3),
+                        "trend":           pole_trend,
                     }
         except Exception as e:
             print(f"  [warn] Could not read F1 quali ledger: {e}")

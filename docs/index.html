@@ -386,6 +386,7 @@
   <div class="tab" onclick="switchTab('tennis')">Tennis</div>
   <div class="tab" onclick="switchTab('f1')">F1 Racing</div>
   <div class="tab" onclick="switchTab('picks')">Picks &amp; Parlays</div>
+  <div class="tab" onclick="switchTab('trends')">Trends</div>
 </nav>
 
 <main class="panels">
@@ -648,6 +649,37 @@
     </div>
   </div>
 
+  <!-- TRENDS PANEL -->
+  <div class="panel" id="panel-trends">
+    <div class="panel-grid">
+      <div class="card" style="grid-column: 1 / -1">
+        <div class="card-header">
+          <span class="card-title">Brier score trend, 7-day rolling window (lower is better)</span>
+        </div>
+        <div style="padding:20px">
+          <div id="brier-trend-legend" style="display:flex;flex-wrap:wrap;gap:16px;margin-bottom:12px;font-family:var(--mono);font-size:11px;color:var(--muted)"></div>
+          <div style="position:relative;height:320px">
+            <canvas id="brierTrendChart" role="img" aria-label="Line chart of 7-day rolling Brier score over time for Hits, Home Runs, Strikeouts, World Cup, and F1 Pole models">
+              Brier score trend by date for each model.
+            </canvas>
+          </div>
+        </div>
+      </div>
+      <div class="card" style="grid-column: 1 / -1">
+        <div class="card-header">
+          <span class="card-title">Tennis accuracy trend, 7-day rolling window (higher is better)</span>
+        </div>
+        <div style="padding:20px">
+          <div style="position:relative;height:240px">
+            <canvas id="tennisTrendChart" role="img" aria-label="Line chart of 7-day rolling tennis prediction accuracy over time">
+              Tennis prediction accuracy trend by date.
+            </canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 </main>
 
 <footer>
@@ -660,9 +692,10 @@
   <span class="footer-note" id="generated-at"></span>
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
   function switchTab(name) {
-    const tabNames = ['hits', 'hr', 'k', 'wc', 'tennis', 'f1', 'picks'];
+    const tabNames = ['hits', 'hr', 'k', 'wc', 'tennis', 'f1', 'picks', 'trends'];
     document.querySelectorAll('.tab').forEach((t, i) => {
       t.classList.toggle('active', tabNames[i] === name);
     });
@@ -892,6 +925,107 @@
     `).join('');
   }
 
+  let brierTrendChartInstance = null;
+  let tennisTrendChartInstance = null;
+
+  function unionDates(seriesList) {
+    const allDates = new Set();
+    seriesList.forEach(s => s.forEach(pt => allDates.add(pt.date)));
+    return Array.from(allDates).sort();
+  }
+
+  function alignSeries(trend, valueKey, dates) {
+    const byDate = {};
+    (trend || []).forEach(pt => { byDate[pt.date] = pt[valueKey]; });
+    return dates.map(d => (d in byDate ? byDate[d] : null));
+  }
+
+  function renderBrierTrend(seriesConfig) {
+    const canvas = document.getElementById('brierTrendChart');
+    const validSeries = seriesConfig.filter(s => s.trend && s.trend.length > 0);
+    const legendEl = document.getElementById('brier-trend-legend');
+
+    if (validSeries.length === 0) {
+      legendEl.innerHTML = '';
+      canvas.parentElement.innerHTML = '<div class="empty">Not enough graded history yet to show a trend -- needs several days of graded predictions per model.</div>';
+      return;
+    }
+
+    const dates = unionDates(validSeries.map(s => s.trend));
+    const colors = ['#2a78d6', '#1baf7a', '#eda100', '#4a3aa7', '#e34948'];
+
+    legendEl.innerHTML = validSeries.map((s, i) => `
+      <span style="display:flex;align-items:center;gap:4px">
+        <span style="width:10px;height:10px;border-radius:2px;background:${colors[i % colors.length]}"></span>
+        ${s.label}
+      </span>
+    `).join('');
+
+    const datasets = validSeries.map((s, i) => ({
+      label: s.label,
+      data: alignSeries(s.trend, 'brier', dates),
+      borderColor: colors[i % colors.length],
+      backgroundColor: colors[i % colors.length],
+      borderWidth: 2,
+      pointRadius: 2,
+      spanGaps: true,
+      tension: 0.15,
+    }));
+
+    if (brierTrendChartInstance) brierTrendChartInstance.destroy();
+    brierTrendChartInstance = new Chart(canvas, {
+      type: 'line',
+      data: { labels: dates, datasets },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { grid: { color: '#21262D' }, ticks: { color: '#7D8590', maxRotation: 45, autoSkip: true } },
+          y: { grid: { color: '#21262D' }, ticks: { color: '#7D8590' }, title: { display: true, text: 'Brier score', color: '#7D8590' } },
+        },
+      },
+    });
+  }
+
+  function renderTennisTrend(trend) {
+    const canvas = document.getElementById('tennisTrendChart');
+    if (!trend || trend.length === 0) {
+      canvas.parentElement.innerHTML = '<div class="empty">Not enough graded tennis matches yet to show a trend.</div>';
+      return;
+    }
+
+    const dates = trend.map(t => t.date);
+    const values = trend.map(t => t.accuracy * 100);
+
+    if (tennisTrendChartInstance) tennisTrendChartInstance.destroy();
+    tennisTrendChartInstance = new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels: dates,
+        datasets: [{
+          label: 'Accuracy',
+          data: values,
+          borderColor: '#1baf7a',
+          backgroundColor: '#1baf7a',
+          borderWidth: 2,
+          pointRadius: 2,
+          spanGaps: true,
+          tension: 0.15,
+        }],
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { grid: { color: '#21262D' }, ticks: { color: '#7D8590', maxRotation: 45, autoSkip: true } },
+          y: { min: 0, max: 100, grid: { color: '#21262D' }, ticks: { color: '#7D8590', callback: (v) => v + '%' } },
+        },
+      },
+    });
+  }
+
   function renderTop10(containerId, rows, probKey) {
     const el = document.getElementById(containerId);
     if (!rows || rows.length === 0) {
@@ -1010,6 +1144,16 @@
       renderPicksSingles(picks.singles);
       renderPicksParlays(picks.parlays);
       renderRoundRobins(picks.round_robins);
+
+      // Trends tab
+      renderBrierTrend([
+        { label: 'Hits',           trend: d.hits?.trend },
+        { label: 'Home Runs',      trend: d.hr?.trend },
+        { label: 'Strikeouts',     trend: d.k?.trend },
+        { label: 'World Cup (Home)', trend: d.wc?.trend },
+        { label: 'F1 Pole',        trend: d.f1?.quali?.stats?.trend },
+      ]);
+      renderTennisTrend(d.tennis?.trend);
 
       document.getElementById('generated-at').textContent = 'Last updated ' + d.generated_at;
 
