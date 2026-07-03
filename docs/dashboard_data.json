@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-03",
   "hits": {
-    "today_count": 0,
+    "today_count": 72,
     "total_graded": 1792,
     "since_date": "2026-06-20",
     "brier_score": 0.2362,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6374,
     "actual_hit_rate": 0.6144,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Jordan Walker",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "David Peterson",
+        "venue": "Wrigley Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7318
+      },
+      {
+        "player_name": "Blaze Alexander",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 8,
+        "p_hit": 0.7279
+      },
+      {
+        "player_name": "Adley Rutschman",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7263
+      },
+      {
+        "player_name": "Trevor Larnach",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.7248
+      },
+      {
+        "player_name": "JJ Wetherholt",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "David Peterson",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7219
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Andre Pallante",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7204
+      },
+      {
+        "player_name": "Taylor Ward",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hit": 0.7181
+      },
+      {
+        "player_name": "Gunnar Henderson",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7157
+      },
+      {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 4,
+        "p_hit": 0.7126
+      },
+      {
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Trevor Rogers",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7089
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -126,14 +207,95 @@
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110"
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 72,
     "total_graded": 1693,
     "since_date": "2026-06-21",
     "brier_score": 0.1075,
     "naive_brier": 0.235,
     "avg_predicted": 0.1231,
     "actual_hr_rate": 0.1234,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2621
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Mike Paredes",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2303
+      },
+      {
+        "player_name": "Gunnar Henderson",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2213
+      },
+      {
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.2198
+      },
+      {
+        "player_name": "Samuel Basallo",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 5,
+        "p_hr": 0.2181
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2119
+      },
+      {
+        "player_name": "Brooks Lee",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2049
+      },
+      {
+        "player_name": "Colton Cowser",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 7,
+        "p_hr": 0.2043
+      },
+      {
+        "player_name": "Adley Rutschman",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2018
+      },
+      {
+        "player_name": "Paul Goldschmidt",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Mike Paredes",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.194
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -237,14 +399,115 @@
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350"
   },
   "k": {
-    "today_count": 0,
+    "today_count": 12,
     "total_graded": 103,
     "since_date": "2026-06-27",
     "brier_score": 0.1656,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.83,
     "over_rate": 0.262,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "opponent": "Chicago White Sox",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 6.62,
+        "p_over": 0.4925,
+        "p_under": 0.5075
+      },
+      {
+        "pitcher_name": "Foster Griffin",
+        "team": "Washington Nationals",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 6.07,
+        "p_over": 0.4044,
+        "p_under": 0.5956
+      },
+      {
+        "pitcher_name": "Brady Singer",
+        "team": "Cincinnati Reds",
+        "opponent": "Baltimore Orioles",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.09,
+        "p_over": 0.2514,
+        "p_under": 0.7486
+      },
+      {
+        "pitcher_name": "Christian Scott",
+        "team": "New York Mets",
+        "opponent": "Atlanta Braves",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 5.0,
+        "p_over": 0.2371,
+        "p_under": 0.7629
+      },
+      {
+        "pitcher_name": "Trevor Rogers",
+        "team": "Baltimore Orioles",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 4.94,
+        "p_over": 0.2297,
+        "p_under": 0.7703
+      },
+      {
+        "pitcher_name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "opponent": "Minnesota Twins",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 4.87,
+        "p_over": 0.2188,
+        "p_under": 0.7812
+      },
+      {
+        "pitcher_name": "Spencer Arrighetti",
+        "team": "Houston Astros",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 4.86,
+        "p_over": 0.2172,
+        "p_under": 0.7828
+      },
+      {
+        "pitcher_name": "Grant Holmes",
+        "team": "Atlanta Braves",
+        "opponent": "New York Mets",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 4.63,
+        "p_over": 0.1857,
+        "p_under": 0.8143
+      },
+      {
+        "pitcher_name": "Andre Pallante",
+        "team": "St. Louis Cardinals",
+        "opponent": "Chicago Cubs",
+        "venue": "Wrigley Field",
+        "line": 6.5,
+        "lambda_k": 4.37,
+        "p_over": 0.1524,
+        "p_under": 0.8476
+      },
+      {
+        "pitcher_name": "Mike Paredes",
+        "team": "Minnesota Twins",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 4.12,
+        "p_over": 0.1231,
+        "p_under": 0.8769
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -377,16 +640,16 @@
         "result": null
       },
       {
-        "home_team": "W83",
-        "away_team": "W84",
+        "home_team": "Portugal",
+        "away_team": "Spain",
         "stage": "Round of 16",
-        "xg_home": 1.3,
-        "xg_away": 1.3,
-        "p_home": 0.368,
-        "p_draw": 0.2639,
-        "p_away": 0.368,
-        "over_2_5": 0.4816,
-        "btts": 0.5292,
+        "xg_home": 0.73,
+        "xg_away": 1.1,
+        "p_home": 0.2408,
+        "p_draw": 0.3173,
+        "p_away": 0.4419,
+        "over_2_5": 0.2777,
+        "btts": 0.3457,
         "graded": false,
         "result": null
       },
@@ -552,11 +815,11 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 21,
-    "total_graded": 54,
-    "accuracy": 0.76,
-    "no_signal_count": 29,
-    "no_signal_rate": 0.537,
+    "today_count": 37,
+    "total_graded": 69,
+    "accuracy": 0.688,
+    "no_signal_count": 37,
+    "no_signal_rate": 0.536,
     "matches": [
       {
         "tour": "atp",
@@ -767,6 +1030,166 @@
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
         "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Roman Safiullin",
+        "player_b": "Joao Fonseca",
+        "elo_a": 1455.8,
+        "elo_b": 1578.4,
+        "p_a_wins": 0.3306,
+        "winner": "Roman Safiullin"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Novak Djokovic",
+        "player_b": "Arthur Rinderknech",
+        "elo_a": 1669.8,
+        "elo_b": 1526.4,
+        "p_a_wins": 0.6954,
+        "winner": "Novak Djokovic"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Shintaro Mochizuki",
+        "player_b": "Rafael Jodar",
+        "elo_a": 1422.0,
+        "elo_b": 1516.4,
+        "p_a_wins": 0.3675,
+        "winner": "Shintaro Mochizuki"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Jan-Lennard Struff",
+        "player_b": "Daniil Medvedev",
+        "elo_a": 1534.7,
+        "elo_b": 1597.2,
+        "p_a_wins": 0.4109,
+        "winner": "Jan-Lennard Struff"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Jannik Sinner",
+        "player_b": "Jenson Brooksby",
+        "elo_a": 1675.8,
+        "elo_b": 1565.1,
+        "p_a_wins": 0.6542,
+        "winner": "Jannik Sinner"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Hubert Hurkacz",
+        "player_b": "Tommy Paul",
+        "elo_a": 1598.0,
+        "elo_b": 1603.7,
+        "p_a_wins": 0.4919,
+        "winner": "Hubert Hurkacz"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Alejandro Davidovich Fokina",
+        "player_b": "Marton Fucsovics",
+        "elo_a": 1579.5,
+        "elo_b": 1529.9,
+        "p_a_wins": 0.5709,
+        "winner": "Alejandro Davidovich Fokina"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Michael Zheng",
+        "player_b": "Felix Auger-Aliassime",
+        "elo_a": 1500.0,
+        "elo_b": 1572.3,
+        "p_a_wins": 0.3974,
+        "winner": null
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Belinda Bencic",
+        "player_b": "Anna Kalinskaya",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Belinda Bencic"
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Naomi Osaka",
+        "player_b": "Daria Kasatkina",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Naomi Osaka"
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Iva Jovic",
+        "player_b": "Ekaterina Alexandrova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Iva Jovic"
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Jessica Pegula",
+        "player_b": "Jessica Bouzas Maneiro",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Jessica Pegula"
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Barbora Krejcikova",
+        "player_b": "Nikola Bartunkova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Barbora Krejcikova"
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Aryna Sabalenka",
+        "player_b": "Jelena Ostapenko",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Aryna Sabalenka"
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Coco Gauff",
+        "player_b": "Claire Liu",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Coco Gauff"
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Karolina Muchova",
+        "player_b": "Mananchaya Sawangkaew",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Karolina Muchova"
       }
     ]
   },
@@ -777,229 +1200,229 @@
   },
   "f1": {
     "quali": {
-      "circuit": "Spielberg",
-      "meeting_key": 1288,
-      "graded": true,
+      "circuit": "Silverstone",
+      "meeting_key": 1289,
+      "graded": false,
       "grid": [
         {
           "predicted_grid": 1,
-          "actual_grid": 4,
+          "actual_grid": null,
           "driver_id": "ANT",
           "driver_name": "Kimi Antonelli",
           "team": "Mercedes",
-          "p_pole": 0.3534,
+          "p_pole": 0.4962,
           "p_q3": 1.0,
           "gap_predicted": 0.0
         },
         {
           "predicted_grid": 2,
-          "actual_grid": 1,
-          "driver_id": "RUS",
-          "driver_name": "George Russell",
-          "team": "Mercedes",
-          "p_pole": 0.3596,
-          "p_q3": 1.0,
-          "gap_predicted": 0.0042
-        },
-        {
-          "predicted_grid": 3,
-          "actual_grid": 3,
+          "actual_grid": null,
           "driver_id": "HAM",
           "driver_name": "Lewis Hamilton",
           "team": "Ferrari",
-          "p_pole": 0.1316,
+          "p_pole": 0.4294,
           "p_q3": 1.0,
-          "gap_predicted": 0.1269
+          "gap_predicted": 0.0284
+        },
+        {
+          "predicted_grid": 3,
+          "actual_grid": null,
+          "driver_id": "RUS",
+          "driver_name": "George Russell",
+          "team": "Mercedes",
+          "p_pole": 0.049,
+          "p_q3": 1.0,
+          "gap_predicted": 0.285
         },
         {
           "predicted_grid": 4,
-          "actual_grid": 5,
-          "driver_id": "VER",
-          "driver_name": "Max Verstappen",
-          "team": "Red Bull Racing",
-          "p_pole": 0.0574,
-          "p_q3": 1.0,
-          "gap_predicted": 0.2181
-        },
-        {
-          "predicted_grid": 5,
-          "actual_grid": 6,
-          "driver_id": "NOR",
-          "driver_name": "Lando Norris",
-          "team": "McLaren",
-          "p_pole": 0.04,
-          "p_q3": 0.9998,
-          "gap_predicted": 0.2501
-        },
-        {
-          "predicted_grid": 6,
-          "actual_grid": 7,
-          "driver_id": "PIA",
-          "driver_name": "Oscar Piastri",
-          "team": "McLaren",
-          "p_pole": 0.0398,
-          "p_q3": 1.0,
-          "gap_predicted": 0.254
-        },
-        {
-          "predicted_grid": 7,
-          "actual_grid": 2,
+          "actual_grid": null,
           "driver_id": "LEC",
           "driver_name": "Charles Leclerc",
           "team": "Ferrari",
-          "p_pole": 0.018,
+          "p_pole": 0.0178,
           "p_q3": 1.0,
-          "gap_predicted": 0.3216
+          "gap_predicted": 0.3974
         },
         {
-          "predicted_grid": 8,
-          "actual_grid": 8,
-          "driver_id": "HAD",
-          "driver_name": "Isack Hadjar",
-          "team": "Red Bull Racing",
-          "p_pole": 0.0002,
-          "p_q3": 0.9966,
-          "gap_predicted": 0.6519
+          "predicted_grid": 5,
+          "actual_grid": null,
+          "driver_id": "PIA",
+          "driver_name": "Oscar Piastri",
+          "team": "McLaren",
+          "p_pole": 0.0036,
+          "p_q3": 0.9998,
+          "gap_predicted": 0.4974
         },
         {
-          "predicted_grid": 9,
-          "actual_grid": 9,
+          "predicted_grid": 6,
+          "actual_grid": null,
+          "driver_id": "NOR",
+          "driver_name": "Lando Norris",
+          "team": "McLaren",
+          "p_pole": 0.0026,
+          "p_q3": 1.0,
+          "gap_predicted": 0.5366
+        },
+        {
+          "predicted_grid": 7,
+          "actual_grid": null,
           "driver_id": "LAW",
           "driver_name": "Liam Lawson",
           "team": "Racing Bulls",
+          "p_pole": 0.0012,
+          "p_q3": 1.0,
+          "gap_predicted": 0.5658
+        },
+        {
+          "predicted_grid": 8,
+          "actual_grid": null,
+          "driver_id": "VER",
+          "driver_name": "Max Verstappen",
+          "team": "Red Bull Racing",
+          "p_pole": 0.0002,
+          "p_q3": 0.9992,
+          "gap_predicted": 0.765
+        },
+        {
+          "predicted_grid": 9,
+          "actual_grid": null,
+          "driver_id": "HAD",
+          "driver_name": "Isack Hadjar",
+          "team": "Red Bull Racing",
           "p_pole": 0.0,
-          "p_q3": 0.9758,
-          "gap_predicted": 0.7721
+          "p_q3": 0.969,
+          "gap_predicted": 1.0142
         },
         {
           "predicted_grid": 10,
-          "actual_grid": 10,
-          "driver_id": "LIN",
-          "driver_name": "Arvid Lindblad",
-          "team": "Racing Bulls",
-          "p_pole": 0.0,
-          "p_q3": 0.5428,
-          "gap_predicted": 1.1219
-        },
-        {
-          "predicted_grid": 11,
-          "actual_grid": 14,
-          "driver_id": "HUL",
-          "driver_name": "Nico Hulkenberg",
-          "team": "Audi",
-          "p_pole": 0.0,
-          "p_q3": 0.1966,
-          "gap_predicted": 1.2665
-        },
-        {
-          "predicted_grid": 12,
-          "actual_grid": 16,
-          "driver_id": "COL",
-          "driver_name": "Franco Colapinto",
-          "team": "Alpine",
-          "p_pole": 0.0,
-          "p_q3": 0.141,
-          "gap_predicted": 1.3016
-        },
-        {
-          "predicted_grid": 13,
-          "actual_grid": 11,
-          "driver_id": "GAS",
-          "driver_name": "Pierre Gasly",
-          "team": "Alpine",
-          "p_pole": 0.0,
-          "p_q3": 0.1338,
-          "gap_predicted": 1.3234
-        },
-        {
-          "predicted_grid": 14,
-          "actual_grid": 13,
-          "driver_id": "BEA",
-          "driver_name": "Oliver Bearman",
-          "team": "Haas F1 Team",
-          "p_pole": 0.0,
-          "p_q3": 0.0078,
-          "gap_predicted": 1.6074
-        },
-        {
-          "predicted_grid": 15,
-          "actual_grid": 18,
+          "actual_grid": null,
           "driver_id": "ALB",
           "driver_name": "Alexander Albon",
           "team": "Williams",
           "p_pole": 0.0,
-          "p_q3": 0.0028,
-          "gap_predicted": 1.6876
+          "p_q3": 0.7878,
+          "gap_predicted": 1.2268
         },
         {
-          "predicted_grid": 16,
-          "actual_grid": 17,
-          "driver_id": "SAI",
-          "driver_name": "Carlos Sainz",
-          "team": "Williams",
+          "predicted_grid": 11,
+          "actual_grid": null,
+          "driver_id": "HUL",
+          "driver_name": "Nico Hulkenberg",
+          "team": "Audi",
           "p_pole": 0.0,
-          "p_q3": 0.0012,
-          "gap_predicted": 1.7069
+          "p_q3": 0.174,
+          "gap_predicted": 1.4708
         },
         {
-          "predicted_grid": 17,
-          "actual_grid": 12,
+          "predicted_grid": 12,
+          "actual_grid": null,
+          "driver_id": "COL",
+          "driver_name": "Franco Colapinto",
+          "team": "Alpine",
+          "p_pole": 0.0,
+          "p_q3": 0.0376,
+          "gap_predicted": 1.6179
+        },
+        {
+          "predicted_grid": 13,
+          "actual_grid": null,
           "driver_id": "BOR",
           "driver_name": "Gabriel Bortoleto",
           "team": "Audi",
           "p_pole": 0.0,
-          "p_q3": 0.0012,
-          "gap_predicted": 1.7136
+          "p_q3": 0.0278,
+          "gap_predicted": 1.6654
         },
         {
-          "predicted_grid": 18,
-          "actual_grid": 15,
+          "predicted_grid": 14,
+          "actual_grid": null,
+          "driver_id": "LIN",
+          "driver_name": "Arvid Lindblad",
+          "team": "Racing Bulls",
+          "p_pole": 0.0,
+          "p_q3": 0.0036,
+          "gap_predicted": 1.8429
+        },
+        {
+          "predicted_grid": 15,
+          "actual_grid": null,
+          "driver_id": "BEA",
+          "driver_name": "Oliver Bearman",
+          "team": "Haas F1 Team",
+          "p_pole": 0.0,
+          "p_q3": 0.0012,
+          "gap_predicted": 1.9118
+        },
+        {
+          "predicted_grid": 16,
+          "actual_grid": null,
+          "driver_id": "SAI",
+          "driver_name": "Carlos Sainz",
+          "team": "Williams",
+          "p_pole": 0.0,
+          "p_q3": 0.0,
+          "gap_predicted": 2.205
+        },
+        {
+          "predicted_grid": 17,
+          "actual_grid": null,
           "driver_id": "OCO",
           "driver_name": "Esteban Ocon",
           "team": "Haas F1 Team",
           "p_pole": 0.0,
-          "p_q3": 0.0006,
-          "gap_predicted": 1.8089
+          "p_q3": 0.0,
+          "gap_predicted": 2.2438
+        },
+        {
+          "predicted_grid": 18,
+          "actual_grid": null,
+          "driver_id": "GAS",
+          "driver_name": "Pierre Gasly",
+          "team": "Alpine",
+          "p_pole": 0.0,
+          "p_q3": 0.0,
+          "gap_predicted": 2.4426
         },
         {
           "predicted_grid": 19,
-          "actual_grid": 19,
+          "actual_grid": null,
           "driver_id": "PER",
           "driver_name": "Sergio Perez",
           "team": "Cadillac",
           "p_pole": 0.0,
           "p_q3": 0.0,
-          "gap_predicted": 2.6519
+          "gap_predicted": 2.6871
         },
         {
           "predicted_grid": 20,
-          "actual_grid": 20,
+          "actual_grid": null,
           "driver_id": "BOT",
           "driver_name": "Valtteri Bottas",
           "team": "Cadillac",
           "p_pole": 0.0,
           "p_q3": 0.0,
-          "gap_predicted": 2.946
+          "gap_predicted": 3.3578
         },
         {
           "predicted_grid": 21,
-          "actual_grid": 21,
+          "actual_grid": null,
           "driver_id": "ALO",
           "driver_name": "Fernando Alonso",
           "team": "Aston Martin",
           "p_pole": 0.0,
           "p_q3": 0.0,
-          "gap_predicted": 3.2275
+          "gap_predicted": 3.5434
         },
         {
           "predicted_grid": 22,
-          "actual_grid": 22,
+          "actual_grid": null,
           "driver_id": "STR",
           "driver_name": "Lance Stroll",
           "team": "Aston Martin",
           "p_pole": 0.0,
           "p_q3": 0.0,
-          "gap_predicted": 3.5002
+          "gap_predicted": 7.6982
         }
       ],
       "stats": {
