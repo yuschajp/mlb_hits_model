@@ -458,7 +458,21 @@ def summarize_wc_gs():
 
 
 def summarize_tennis():
-    """Reads the tennis prediction ledger and returns dashboard summary."""
+    """
+    Reads the tennis prediction ledger and returns dashboard summary.
+
+    Accuracy is computed only over predictions where the model actually
+    had an opinion (p_a_wins != 0.5). Previously, `correct = (p_a_wins >
+    0.5)` meant every exact-0.5 tie -- which happens whenever a player's
+    Elo lookup fails and falls back to the shared INITIAL_ELO default
+    (currently ALL WTA players, since no WTA historical data source is
+    wired up yet -- see tennis_data_client.py) -- was automatically
+    scored as WRONG, not "no data." That silently dragged the reported
+    accuracy down in a way that had nothing to do with the Elo model's
+    real predictive skill. no_signal_count/no_signal_rate are reported
+    separately so this gap stays visible instead of being hidden inside
+    a misleadingly low accuracy number.
+    """
     if not TENNIS_LEDGER.exists():
         return {}
     try:
@@ -470,8 +484,18 @@ def summarize_tennis():
         today_rows = df[df["date"].dt.date == today]
         graded     = df[df["graded"] == True].copy()  # noqa: E712
 
+        accuracy = None
+        no_signal_count = 0
+        no_signal_rate = None
         if not graded.empty:
-            graded["correct"] = (graded["p_a_wins"] > 0.5).astype(int)
+            no_signal_mask = graded["p_a_wins"] == 0.5
+            no_signal_count = int(no_signal_mask.sum())
+            no_signal_rate = round(no_signal_count / len(graded), 3)
+
+            real_predictions = graded[~no_signal_mask]
+            if not real_predictions.empty:
+                correct = (real_predictions["p_a_wins"] > 0.5).astype(int)
+                accuracy = round(float(correct.mean()), 3)
 
         matches = [
             {
@@ -488,9 +512,11 @@ def summarize_tennis():
         ]
 
         return {
-            "today_count":  len(today_rows),
-            "total_graded": len(graded),
-            "accuracy":     round(float(graded["correct"].mean()), 3) if not graded.empty else None,
+            "today_count":     len(today_rows),
+            "total_graded":    len(graded),
+            "accuracy":        accuracy,
+            "no_signal_count": no_signal_count,
+            "no_signal_rate":  no_signal_rate,
             "matches": matches,
         }
     except Exception as e:

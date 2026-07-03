@@ -532,6 +532,7 @@
           <span class="card-title">Wimbledon — Match Predictions (Elo)</span>
           <span class="card-badge" id="tennis-date"></span>
         </div>
+        <div id="tennis-accuracy-note" style="padding:14px 20px;border-bottom:1px solid var(--border);font-family:var(--mono);font-size:12px;color:var(--muted)"></div>
         <div style="padding:0">
           <table class="cal-table" id="tennis-matches">
             <thead>
@@ -986,6 +987,18 @@
 
       // Tennis tab
       renderTennisMatches(d.tennis?.matches);
+      const tennisNote = document.getElementById('tennis-accuracy-note');
+      const tAcc = d.tennis?.accuracy;
+      const tNoSig = d.tennis?.no_signal_rate;
+      if (tAcc != null) {
+        let noteHtml = `Accuracy (real predictions only): <strong style="color:var(--accent)">${pct(tAcc)}</strong>`;
+        if (tNoSig != null && tNoSig > 0) {
+          noteHtml += ` &nbsp;·&nbsp; <span style="color:var(--warn)">${pct(tNoSig)} of graded matches had no Elo signal (excluded -- see WTA data gap)</span>`;
+        }
+        tennisNote.innerHTML = noteHtml;
+      } else {
+        tennisNote.innerHTML = 'No graded matches with real Elo signal yet.';
+      }
 
       // F1 tab
       const f1 = d.f1 ?? {};
