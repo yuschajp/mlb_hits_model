@@ -288,7 +288,7 @@
         "opponent_pitcher": "Brady Singer",
         "venue": "Great American Ball Park",
         "lineup_spot": 4,
-        "p_hr": 0.265
+        "p_hr": 0.2628
       },
       {
         "player_name": "Ben Rice",
@@ -296,7 +296,7 @@
         "opponent_pitcher": "Mike Paredes",
         "venue": "Yankee Stadium",
         "lineup_spot": 2,
-        "p_hr": 0.2409
+        "p_hr": 0.2598
       },
       {
         "player_name": "Kody Clemens",
@@ -304,7 +304,7 @@
         "opponent_pitcher": "Gerrit Cole",
         "venue": "Yankee Stadium",
         "lineup_spot": 3,
-        "p_hr": 0.2348
+        "p_hr": 0.2331
       },
       {
         "player_name": "Samuel Basallo",
@@ -312,15 +312,7 @@
         "opponent_pitcher": "Brady Singer",
         "venue": "Great American Ball Park",
         "lineup_spot": 5,
-        "p_hr": 0.2315
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Spencer Arrighetti",
-        "venue": "Daikin Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2244
+        "p_hr": 0.2295
       },
       {
         "player_name": "Gunnar Henderson",
@@ -328,7 +320,15 @@
         "opponent_pitcher": "Brady Singer",
         "venue": "Great American Ball Park",
         "lineup_spot": 1,
-        "p_hr": 0.2242
+        "p_hr": 0.2227
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Logan Webb",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2215
       },
       {
         "player_name": "Juan Soto",
@@ -336,7 +336,23 @@
         "opponent_pitcher": "Grant Holmes",
         "venue": "Truist Park",
         "lineup_spot": 2,
-        "p_hr": 0.224
+        "p_hr": 0.2208
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Spencer Arrighetti",
+        "venue": "Daikin Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2199
+      },
+      {
+        "player_name": "Paul Goldschmidt",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Mike Paredes",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.2122
       },
       {
         "player_name": "Rafael Devers",
@@ -344,23 +360,7 @@
         "opponent_pitcher": "Ryan Feltner",
         "venue": "Coors Field",
         "lineup_spot": 4,
-        "p_hr": 0.2162
-      },
-      {
-        "player_name": "Brooks Lee",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.2105
-      },
-      {
-        "player_name": "Casey Schmitt",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2083
+        "p_hr": 0.2113
       }
     ],
     "calibration": [
