@@ -1,107 +1,107 @@
 {
-  "generated_at": "2026-07-03",
+  "generated_at": "2026-07-04",
   "hits": {
-    "today_count": 234,
-    "total_graded": 1792,
+    "today_count": 36,
+    "total_graded": 2026,
     "since_date": "2026-06-20",
-    "brier_score": 0.2362,
-    "recent_brier_score": 0.2366,
+    "brier_score": 0.2364,
+    "recent_brier_score": 0.2362,
     "naive_brier": 0.235,
-    "avg_predicted": 0.6374,
-    "actual_hit_rate": 0.6144,
+    "avg_predicted": 0.635,
+    "actual_hit_rate": 0.6125,
     "top10_today": [
       {
-        "player_name": "Luis Arraez",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "Coors Field",
+        "player_name": "Trevor Larnach",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Brendan Beck",
+        "venue": "Yankee Stadium",
         "lineup_spot": 1,
-        "p_hit": 0.7678
+        "p_hit": 0.7181
       },
       {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Daikin Park",
+        "player_name": "Byron Buxton",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Brendan Beck",
+        "venue": "Yankee Stadium",
         "lineup_spot": 2,
-        "p_hit": 0.7345
+        "p_hit": 0.6903
       },
       {
-        "player_name": "Jordan Walker",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "David Peterson",
-        "venue": "Wrigley Field",
+        "player_name": "Trent Grisham",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.6902
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Carson Palmquist",
+        "venue": "Nationals Park",
+        "lineup_spot": 4,
+        "p_hit": 0.6786
+      },
+      {
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Carson Palmquist",
+        "venue": "Nationals Park",
         "lineup_spot": 3,
-        "p_hit": 0.7318
+        "p_hit": 0.6781
       },
       {
-        "player_name": "Jung Hoo Lee",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "Coors Field",
-        "lineup_spot": 5,
-        "p_hit": 0.7312
+        "player_name": "Konnor Griffin",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Carson Palmquist",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hit": 0.6747
       },
       {
-        "player_name": "Adley Rutschman",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Braxton Ashcraft",
+        "venue": "Nationals Park",
         "lineup_spot": 2,
-        "p_hit": 0.7289
+        "p_hit": 0.6746
       },
       {
-        "player_name": "Blaze Alexander",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 8,
-        "p_hit": 0.7277
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.6696
       },
       {
-        "player_name": "Jake McCarthy",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Logan Webb",
-        "venue": "Coors Field",
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Braxton Ashcraft",
+        "venue": "Nationals Park",
         "lineup_spot": 1,
-        "p_hit": 0.7228
+        "p_hit": 0.6606
       },
       {
-        "player_name": "JJ Wetherholt",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "David Peterson",
-        "venue": "Wrigley Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7219
-      },
-      {
-        "player_name": "Taylor Ward",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Brendan Beck",
+        "venue": "Yankee Stadium",
         "lineup_spot": 3,
-        "p_hit": 0.721
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Andre Pallante",
-        "venue": "Wrigley Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7204
+        "p_hit": 0.6592
       }
     ],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 474,
+        "n": 562,
         "predicted": 0.564,
-        "actual": 0.591
+        "actual": 0.587
       },
       {
         "range": "0.6-0.8",
-        "n": 1293,
-        "predicted": 0.661,
+        "n": 1439,
+        "predicted": 0.66,
         "actual": 0.62
       },
       {
@@ -202,6 +202,13 @@
         "n_wins": 26,
         "daily_pnl": 10.636,
         "cumulative_pnl": 248.364
+      },
+      {
+        "date": "2026-07-03",
+        "n_bets": 146,
+        "n_wins": 90,
+        "daily_pnl": 25.818,
+        "cumulative_pnl": 274.182
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -270,111 +277,116 @@
         "date": "2026-07-02",
         "brier": 0.2366,
         "n": 935
+      },
+      {
+        "date": "2026-07-03",
+        "brier": 0.2362,
+        "n": 971
       }
     ]
   },
   "hr": {
-    "today_count": 234,
-    "total_graded": 1693,
+    "today_count": 36,
+    "total_graded": 1927,
     "since_date": "2026-06-21",
-    "brier_score": 0.1075,
+    "brier_score": 0.1079,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1231,
-    "actual_hr_rate": 0.1234,
+    "avg_predicted": 0.124,
+    "actual_hr_rate": 0.1245,
     "top10_today": [
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 4,
-        "p_hr": 0.2628
-      },
       {
         "player_name": "Ben Rice",
         "team": "New York Yankees",
-        "opponent_pitcher": "Mike Paredes",
+        "opponent_pitcher": "Zebby Matthews",
         "venue": "Yankee Stadium",
         "lineup_spot": 2,
-        "p_hr": 0.2598
+        "p_hr": 0.2733
+      },
+      {
+        "player_name": "Byron Buxton",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Brendan Beck",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2539
       },
       {
         "player_name": "Kody Clemens",
         "team": "Minnesota Twins",
-        "opponent_pitcher": "Gerrit Cole",
+        "opponent_pitcher": "Brendan Beck",
         "venue": "Yankee Stadium",
         "lineup_spot": 3,
-        "p_hr": 0.2331
+        "p_hr": 0.2121
       },
       {
-        "player_name": "Samuel Basallo",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 5,
-        "p_hr": 0.2295
-      },
-      {
-        "player_name": "Gunnar Henderson",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2227
-      },
-      {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Logan Webb",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2215
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Grant Holmes",
-        "venue": "Truist Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2208
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Spencer Arrighetti",
-        "venue": "Daikin Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2199
-      },
-      {
-        "player_name": "Paul Goldschmidt",
+        "player_name": "Trent Grisham",
         "team": "New York Yankees",
-        "opponent_pitcher": "Mike Paredes",
+        "opponent_pitcher": "Zebby Matthews",
         "venue": "Yankee Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.2122
+        "lineup_spot": 1,
+        "p_hr": 0.2028
       },
       {
-        "player_name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "Coors Field",
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Braxton Ashcraft",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1936
+      },
+      {
+        "player_name": "Jazz Chisholm Jr.",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 6,
+        "p_hr": 0.1932
+      },
+      {
+        "player_name": "Cody Bellinger",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.1814
+      },
+      {
+        "player_name": "Ryan McMahon",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 7,
+        "p_hr": 0.1812
+      },
+      {
+        "player_name": "Brooks Lee",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Brendan Beck",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 6,
+        "p_hr": 0.1732
+      },
+      {
+        "player_name": "Josh Bell",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Brendan Beck",
+        "venue": "Yankee Stadium",
         "lineup_spot": 4,
-        "p_hr": 0.2113
+        "p_hr": 0.1719
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 1641,
+        "n": 1861,
         "predicted": 0.12,
         "actual": 0.119
       },
       {
         "range": "0.2-0.4",
-        "n": 52,
+        "n": 66,
         "predicted": 0.222,
-        "actual": 0.25
+        "actual": 0.288
       }
     ],
     "returns": [
@@ -461,6 +473,13 @@
         "n_wins": 2,
         "daily_pnl": -18.0,
         "cumulative_pnl": -122.0
+      },
+      {
+        "date": "2026-07-03",
+        "n_bets": 66,
+        "n_wins": 14,
+        "daily_pnl": -3.0,
+        "cumulative_pnl": -125.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -524,142 +543,87 @@
         "date": "2026-07-02",
         "brier": 0.1082,
         "n": 1007
+      },
+      {
+        "date": "2026-07-03",
+        "brier": 0.1102,
+        "n": 1025
       }
     ]
   },
   "k": {
-    "today_count": 26,
-    "total_graded": 103,
+    "today_count": 4,
+    "total_graded": 129,
     "since_date": "2026-06-27",
-    "brier_score": 0.1656,
+    "brier_score": 0.1651,
     "naive_brier": 0.25,
-    "avg_lambda": 4.92,
-    "over_rate": 0.262,
+    "avg_lambda": 5.49,
+    "over_rate": 0.256,
     "top10_today": [
       {
-        "pitcher_name": "Dylan Cease",
-        "team": "Toronto Blue Jays",
-        "opponent": "Seattle Mariners",
-        "venue": "T-Mobile Park",
+        "pitcher_name": "Braxton Ashcraft",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 7.53,
-        "p_over": 0.6254,
-        "p_under": 0.3746
+        "lambda_k": 6.25,
+        "p_over": 0.4345,
+        "p_under": 0.5655
       },
       {
-        "pitcher_name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "opponent": "Chicago White Sox",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 6.67,
-        "p_over": 0.5007,
-        "p_under": 0.4993
-      },
-      {
-        "pitcher_name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "opponent": "San Diego Padres",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "line": 6.5,
-        "lambda_k": 6.0,
-        "p_over": 0.3944,
-        "p_under": 0.6056
-      },
-      {
-        "pitcher_name": "Foster Griffin",
+        "pitcher_name": "Carson Palmquist",
         "team": "Washington Nationals",
         "opponent": "Pittsburgh Pirates",
         "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 5.83,
-        "p_over": 0.3671,
-        "p_under": 0.6329
+        "lambda_k": 5.5,
+        "p_over": 0.3137,
+        "p_under": 0.6863
       },
       {
-        "pitcher_name": "Reid Detmers",
-        "team": "Los Angeles Angels",
-        "opponent": "Boston Red Sox",
-        "venue": "Angel Stadium",
+        "pitcher_name": "Zebby Matthews",
+        "team": "Minnesota Twins",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 5.83,
-        "p_over": 0.3662,
-        "p_under": 0.6338
+        "lambda_k": 5.34,
+        "p_over": 0.2891,
+        "p_under": 0.7109
       },
       {
-        "pitcher_name": "Jake Bennett",
-        "team": "Boston Red Sox",
-        "opponent": "Los Angeles Angels",
-        "venue": "Angel Stadium",
+        "pitcher_name": "Brendan Beck",
+        "team": "New York Yankees",
+        "opponent": "Minnesota Twins",
+        "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 5.55,
-        "p_over": 0.3227,
-        "p_under": 0.6773
-      },
-      {
-        "pitcher_name": "Jack Perkins",
-        "team": "Athletics",
-        "opponent": "Miami Marlins",
-        "venue": "Sutter Health Park",
-        "line": 6.5,
-        "lambda_k": 5.44,
-        "p_over": 0.3051,
-        "p_under": 0.6949
-      },
-      {
-        "pitcher_name": "Logan Webb",
-        "team": "San Francisco Giants",
-        "opponent": "Colorado Rockies",
-        "venue": "Coors Field",
-        "line": 6.5,
-        "lambda_k": 5.42,
-        "p_over": 0.3011,
-        "p_under": 0.6989
-      },
-      {
-        "pitcher_name": "Kyle Harrison",
-        "team": "Milwaukee Brewers",
-        "opponent": "Arizona Diamondbacks",
-        "venue": "Chase Field",
-        "line": 6.5,
-        "lambda_k": 5.28,
-        "p_over": 0.2805,
-        "p_under": 0.7195
-      },
-      {
-        "pitcher_name": "Brady Singer",
-        "team": "Cincinnati Reds",
-        "opponent": "Baltimore Orioles",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 5.07,
-        "p_over": 0.2476,
-        "p_under": 0.7524
+        "lambda_k": 4.87,
+        "p_over": 0.2194,
+        "p_under": 0.7806
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 37,
-        "predicted": 0.142,
-        "actual": 0.108
+        "n": 49,
+        "predicted": 0.139,
+        "actual": 0.102
       },
       {
         "range": "0.2-0.4",
-        "n": 46,
-        "predicted": 0.274,
-        "actual": 0.261
+        "n": 58,
+        "predicted": 0.277,
+        "actual": 0.276
       },
       {
         "range": "0.4-0.6",
-        "n": 19,
-        "predicted": 0.475,
-        "actual": 0.526
+        "n": 20,
+        "predicted": 0.476,
+        "actual": 0.5
       },
       {
         "range": "0.6-0.8",
-        "n": 1,
-        "predicted": 0.714,
+        "n": 2,
+        "predicted": 0.67,
         "actual": 1.0
       }
     ],
@@ -693,57 +657,20 @@
         "date": "2026-07-02",
         "brier": 0.1656,
         "n": 103
+      },
+      {
+        "date": "2026-07-03",
+        "brier": 0.1651,
+        "n": 129
       }
     ]
   },
   "wc": {
-    "today_count": 9,
-    "total_graded": 13,
-    "brier_home": 0.2541,
+    "today_count": 8,
+    "total_graded": 16,
+    "brier_home": 0.253,
     "naive_brier": 0.222,
     "matches_today": [
-      {
-        "home_team": "Argentina",
-        "away_team": "Cape Verde",
-        "stage": "Round of 32",
-        "xg_home": 1.5,
-        "xg_away": 0.62,
-        "p_home": 0.5872,
-        "p_draw": 0.2604,
-        "p_away": 0.1524,
-        "over_2_5": 0.3552,
-        "btts": 0.3581,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Colombia",
-        "away_team": "Ghana",
-        "stage": "Round of 32",
-        "xg_home": 1.0,
-        "xg_away": 0.62,
-        "p_home": 0.4361,
-        "p_draw": 0.3418,
-        "p_away": 0.2221,
-        "over_2_5": 0.2203,
-        "btts": 0.2907,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Australia",
-        "away_team": "Egypt",
-        "stage": "Round of 32",
-        "xg_home": 0.86,
-        "xg_away": 1.07,
-        "p_home": 0.2863,
-        "p_draw": 0.3128,
-        "p_away": 0.4009,
-        "over_2_5": 0.3038,
-        "btts": 0.3783,
-        "graded": false,
-        "result": null
-      },
       {
         "home_team": "Paraguay",
         "away_team": "France",
@@ -827,6 +754,34 @@
         "btts": 0.6338,
         "graded": false,
         "result": null
+      },
+      {
+        "home_team": "Argentina",
+        "away_team": "Egypt",
+        "stage": "Round of 16",
+        "xg_home": 1.6,
+        "xg_away": 0.92,
+        "p_home": 0.5339,
+        "p_draw": 0.2503,
+        "p_away": 0.2158,
+        "over_2_5": 0.4605,
+        "btts": 0.4791,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Switzerland",
+        "away_team": "Colombia",
+        "stage": "Round of 16",
+        "xg_home": 0.99,
+        "xg_away": 0.96,
+        "p_home": 0.3511,
+        "p_draw": 0.3126,
+        "p_away": 0.3363,
+        "over_2_5": 0.3114,
+        "btts": 0.3892,
+        "graded": false,
+        "result": null
       }
     ],
     "trend": [
@@ -844,6 +799,11 @@
         "date": "2026-07-02",
         "brier": 0.2541,
         "n": 13
+      },
+      {
+        "date": "2026-07-03",
+        "brier": 0.253,
+        "n": 16
       }
     ]
   },
@@ -855,529 +815,309 @@
     "naive_brier": 0.2,
     "top15_today": [
       {
-        "player": "Lionel Messi",
-        "team": "Argentina",
-        "opponent": "Cape Verde",
-        "match": "Argentina vs Cape Verde",
+        "player": "Kylian Mbapp\u00e9",
+        "team": "France",
+        "opponent": "Paraguay",
+        "match": "Paraguay vs France",
         "tournament_goals": 6,
-        "lambda": 0.635,
-        "p_scores": 0.47
+        "lambda": 1.19,
+        "p_scores": 0.6959
       },
       {
-        "player": "Mohamed Hany",
-        "team": "Australia",
-        "opponent": "Egypt",
-        "match": "Australia vs Egypt",
+        "player": "Ousmane Demb\u00e9l\u00e9",
+        "team": "France",
+        "opponent": "Paraguay",
+        "match": "Paraguay vs France",
+        "tournament_goals": 4,
+        "lambda": 1.018,
+        "p_scores": 0.6387
+      },
+      {
+        "player": "Jonathan David",
+        "team": "Canada",
+        "opponent": "Morocco",
+        "match": "Canada vs Morocco",
+        "tournament_goals": 3,
+        "lambda": 0.828,
+        "p_scores": 0.5633
+      },
+      {
+        "player": "Bradley Barcola",
+        "team": "France",
+        "opponent": "Paraguay",
+        "match": "Paraguay vs France",
+        "tournament_goals": 2,
+        "lambda": 0.566,
+        "p_scores": 0.432
+      },
+      {
+        "player": "Cyle Larin",
+        "team": "Canada",
+        "opponent": "Morocco",
+        "match": "Canada vs Morocco",
         "tournament_goals": 2,
         "lambda": 0.453,
         "p_scores": 0.364
       },
       {
-        "player": "Connor Metcalfe",
-        "team": "Australia",
-        "opponent": "Egypt",
-        "match": "Australia vs Egypt",
+        "player": "D\u00e9sir\u00e9 Dou\u00e9",
+        "team": "France",
+        "opponent": "Paraguay",
+        "match": "Paraguay vs France",
+        "tournament_goals": 1,
+        "lambda": 0.444,
+        "p_scores": 0.3584
+      },
+      {
+        "player": "Ismael Saibari",
+        "team": "Morocco",
+        "opponent": "Canada",
+        "match": "Canada vs Morocco",
+        "tournament_goals": 3,
+        "lambda": 0.385,
+        "p_scores": 0.3193
+      },
+      {
+        "player": "Promise David",
+        "team": "Canada",
+        "opponent": "Morocco",
+        "match": "Canada vs Morocco",
         "tournament_goals": 1,
         "lambda": 0.355,
         "p_scores": 0.2988
       },
       {
-        "player": "Nestory Irankunda",
-        "team": "Australia",
-        "opponent": "Egypt",
-        "match": "Australia vs Egypt",
+        "player": "Mohamed Manai",
+        "team": "Canada",
+        "opponent": "Morocco",
+        "match": "Canada vs Morocco",
         "tournament_goals": 1,
         "lambda": 0.355,
         "p_scores": 0.2988
       },
       {
-        "player": "Daniel Mu\u00f1oz",
-        "team": "Colombia",
-        "opponent": "Ghana",
-        "match": "Colombia vs Ghana",
-        "tournament_goals": 2,
-        "lambda": 0.302,
-        "p_scores": 0.2604
+        "player": "Nathan Saliba",
+        "team": "Canada",
+        "opponent": "Morocco",
+        "match": "Canada vs Morocco",
+        "tournament_goals": 1,
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Giovani Lo Celso",
-        "team": "Argentina",
-        "opponent": "Cape Verde",
-        "match": "Argentina vs Cape Verde",
+        "player": "Stephan Eust\u00e1quio",
+        "team": "Canada",
+        "opponent": "Morocco",
+        "match": "Canada vs Morocco",
         "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Emam Ashour",
-        "team": "Egypt",
-        "opponent": "Australia",
-        "match": "Australia vs Egypt",
+        "player": "Achraf Hakimi",
+        "team": "Morocco",
+        "opponent": "Canada",
+        "match": "Canada vs Morocco",
         "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
+        "lambda": 0.266,
+        "p_scores": 0.2338
       },
       {
-        "player": "Lautaro Mart\u00ednez",
-        "team": "Argentina",
-        "opponent": "Cape Verde",
-        "match": "Argentina vs Cape Verde",
+        "player": "Gessime Yassine",
+        "team": "Morocco",
+        "opponent": "Canada",
+        "match": "Canada vs Morocco",
         "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
+        "lambda": 0.266,
+        "p_scores": 0.2338
       },
       {
-        "player": "J\u00e1minton Campaz",
-        "team": "Colombia",
-        "opponent": "Ghana",
-        "match": "Colombia vs Ghana",
+        "player": "Soufiane Rahimi",
+        "team": "Morocco",
+        "opponent": "Canada",
+        "match": "Canada vs Morocco",
         "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
+        "lambda": 0.266,
+        "p_scores": 0.2338
       },
       {
-        "player": "Luis D\u00edaz",
-        "team": "Colombia",
-        "opponent": "Ghana",
-        "match": "Colombia vs Ghana",
+        "player": "Issa Diop",
+        "team": "Morocco",
+        "opponent": "Canada",
+        "match": "Canada vs Morocco",
         "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
-      },
-      {
-        "player": "Mostafa Zico",
-        "team": "Egypt",
-        "opponent": "Australia",
-        "match": "Australia vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
-      },
-      {
-        "player": "Mohamed Salah",
-        "team": "Egypt",
-        "opponent": "Australia",
-        "match": "Australia vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
-      },
-      {
-        "player": "Tr\u00e9z\u00e9guet",
-        "team": "Egypt",
-        "opponent": "Australia",
-        "match": "Australia vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
-      },
-      {
-        "player": "Mahmoud Saber",
-        "team": "Egypt",
-        "opponent": "Australia",
-        "match": "Australia vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
-      },
-      {
-        "player": "Derrick Luckassen",
-        "team": "Ghana",
-        "opponent": "Colombia",
-        "match": "Colombia vs Ghana",
-        "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
+        "lambda": 0.266,
+        "p_scores": 0.2338
       }
     ],
     "calibration": []
   },
   "tennis": {
-    "today_count": 38,
-    "total_graded": 70,
-    "accuracy": 0.697,
-    "no_signal_count": 37,
-    "no_signal_rate": 0.529,
+    "today_count": 16,
+    "total_graded": 76,
+    "accuracy": 0.706,
+    "no_signal_count": 42,
+    "no_signal_rate": 0.553,
     "matches": [
       {
         "tour": "atp",
-        "round": "Roman Safiullin (RUS) bt (24) Joao Fonseca (BRA) 6-3 6-3 6-3",
-        "player_a": "Roman Safiullin",
-        "player_b": "Joao Fonseca",
-        "elo_a": 1455.8,
-        "elo_b": 1578.4,
-        "p_a_wins": 0.3306,
-        "winner": "Roman Safiullin"
+        "round": "Round 3",
+        "player_a": "Alex de Minaur",
+        "player_b": "Zachary Svajda",
+        "elo_a": 1616.6,
+        "elo_b": 1452.3,
+        "p_a_wins": 0.7203,
+        "winner": "Alex de Minaur"
       },
       {
         "tour": "atp",
-        "round": "(11) Belinda Bencic (SUI) bt (19) Anna Kalinskaya (RUS) 6-4 4-6 7-6 (10-6)",
-        "player_a": "Belinda Bencic",
-        "player_b": "Anna Kalinskaya",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Belinda Bencic"
-      },
-      {
-        "tour": "atp",
-        "round": "(14) Naomi Osaka (JPN) bt Daria Kasatkina (AUS) 6-1 6-3",
-        "player_a": "Naomi Osaka",
-        "player_b": "Daria Kasatkina",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Naomi Osaka"
-      },
-      {
-        "tour": "atp",
-        "round": "(7) Novak Djokovic (SER) leads (25) Arthur Rinderknech (FRA) 6-5",
-        "player_a": "Novak Djokovic",
-        "player_b": "Arthur Rinderknech",
-        "elo_a": 1669.8,
-        "elo_b": 1526.4,
-        "p_a_wins": 0.6954,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(23) Rafael Jodar (ESP) leads Shintaro Mochizuki (JPN) 6-1 2-1",
-        "player_a": "Shintaro Mochizuki",
-        "player_b": "Rafael Jodar",
-        "elo_a": 1422.0,
-        "elo_b": 1516.4,
-        "p_a_wins": 0.3675,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Jan-Lennard Struff (GER) leads (8) Daniil Medvedev (RUS) 1-1",
-        "player_a": "Daniil Medvedev",
-        "player_b": "Jan-Lennard Struff",
-        "elo_a": 1597.2,
-        "elo_b": 1534.7,
-        "p_a_wins": 0.5891,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Marton Fucsovics",
-        "player_b": "Alejandro Davidovich Fokina",
-        "elo_a": 1529.9,
-        "elo_b": 1579.5,
-        "p_a_wins": 0.4291,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Jenson Brooksby",
-        "player_b": "Jannik Sinner",
-        "elo_a": 1565.1,
-        "elo_b": 1675.8,
-        "p_a_wins": 0.3458,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Tommy Paul",
-        "player_b": "Hubert Hurkacz",
-        "elo_a": 1603.7,
-        "elo_b": 1598.0,
-        "p_a_wins": 0.5081,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Michael Zheng",
-        "player_b": "Felix Auger-Aliassime",
-        "elo_a": 1500.0,
-        "elo_b": 1572.3,
-        "p_a_wins": 0.3974,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(18) Ekaterina Alexandrova (RUS) is tied with (16) Iva Jovic (USA) 3-6 3-0",
-        "player_a": "Iva Jovic",
-        "player_b": "Ekaterina Alexandrova",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(4) Jessica Pegula (USA) leads Jessica Bouzas Maneiro (ESP) 6-1 3-2",
-        "player_a": "Jessica Bouzas Maneiro",
-        "player_b": "Jessica Pegula",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Barbora Krejcikova",
-        "player_b": "Nikola Bartunkova",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Mananchaya Sawangkaew",
-        "player_b": "Karolina Muchova",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Jelena Ostapenko",
-        "player_b": "Aryna Sabalenka",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": null,
-        "player_a": "Coco Gauff",
-        "player_b": "Claire Liu",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(4) Jessica Pegula (USA) bt Jessica Bouzas Maneiro (ESP) 6-1 6-3",
-        "player_a": "Jessica Pegula",
-        "player_b": "Jessica Bouzas Maneiro",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": "Jessica Pegula"
-      },
-      {
-        "tour": "atp",
-        "round": "(25) Arthur Rinderknech (FRA) is tied with (7) Novak Djokovic (SER) 5-7 1-0",
-        "player_a": "Novak Djokovic",
-        "player_b": "Arthur Rinderknech",
-        "elo_a": 1669.8,
-        "elo_b": 1526.4,
-        "p_a_wins": 0.6954,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Shintaro Mochizuki (JPN) is tied with (23) Rafael Jodar (ESP) 1-6 4-3",
-        "player_a": "Shintaro Mochizuki",
-        "player_b": "Rafael Jodar",
-        "elo_a": 1422.0,
-        "elo_b": 1516.4,
-        "p_a_wins": 0.3675,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Jan-Lennard Struff (GER) leads (8) Daniil Medvedev (RUS) 4-3",
-        "player_a": "Daniil Medvedev",
-        "player_b": "Jan-Lennard Struff",
-        "elo_a": 1597.2,
-        "elo_b": 1534.7,
-        "p_a_wins": 0.5891,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "(18) Ekaterina Alexandrova (RUS) is tied with (16) Iva Jovic (USA) 3-6 5-2",
-        "player_a": "Iva Jovic",
-        "player_b": "Ekaterina Alexandrova",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
+        "round": "Round 3",
+        "player_a": "Flavio Cobolli",
+        "player_b": "Karen Khachanov",
+        "elo_a": 1546.3,
+        "elo_b": 1563.3,
+        "p_a_wins": 0.4756,
         "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 3",
-        "player_a": "Roman Safiullin",
-        "player_b": "Joao Fonseca",
-        "elo_a": 1455.8,
-        "elo_b": 1578.4,
-        "p_a_wins": 0.3306,
-        "winner": "Roman Safiullin"
+        "player_a": "Arthur Fery",
+        "player_b": "Zizou Bergs",
+        "elo_a": 1485.8,
+        "elo_b": 1522.2,
+        "p_a_wins": 0.4477,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 3",
-        "player_a": "Novak Djokovic",
-        "player_b": "Arthur Rinderknech",
-        "elo_a": 1669.8,
-        "elo_b": 1526.4,
-        "p_a_wins": 0.6954,
-        "winner": "Novak Djokovic"
+        "player_a": "Jaume Munar",
+        "player_b": "Jiri Lehecka",
+        "elo_a": 1518.3,
+        "elo_b": 1602.1,
+        "p_a_wins": 0.3817,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 3",
-        "player_a": "Shintaro Mochizuki",
-        "player_b": "Rafael Jodar",
-        "elo_a": 1422.0,
-        "elo_b": 1516.4,
-        "p_a_wins": 0.3675,
-        "winner": "Shintaro Mochizuki"
+        "player_a": "Alexander Zverev",
+        "player_b": "Marcos Giron",
+        "elo_a": 1607.9,
+        "elo_b": 1552.5,
+        "p_a_wins": 0.579,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 3",
-        "player_a": "Jan-Lennard Struff",
-        "player_b": "Daniil Medvedev",
-        "elo_a": 1534.7,
-        "elo_b": 1597.2,
-        "p_a_wins": 0.4109,
-        "winner": "Jan-Lennard Struff"
+        "player_a": "Lorenzo Sonego",
+        "player_b": "Taylor Fritz",
+        "elo_a": 1517.4,
+        "elo_b": 1680.9,
+        "p_a_wins": 0.2806,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 3",
-        "player_a": "Jannik Sinner",
-        "player_b": "Jenson Brooksby",
-        "elo_a": 1675.8,
-        "elo_b": 1565.1,
-        "p_a_wins": 0.6542,
-        "winner": "Jannik Sinner"
+        "player_a": "Alexander Bublik",
+        "player_b": "Frances Tiafoe",
+        "elo_a": 1580.3,
+        "elo_b": 1528.6,
+        "p_a_wins": 0.574,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 3",
-        "player_a": "Hubert Hurkacz",
-        "player_b": "Tommy Paul",
-        "elo_a": 1598.0,
-        "elo_b": 1603.7,
-        "p_a_wins": 0.4919,
-        "winner": "Hubert Hurkacz"
-      },
-      {
-        "tour": "atp",
-        "round": "Round 3",
-        "player_a": "Alejandro Davidovich Fokina",
-        "player_b": "Marton Fucsovics",
-        "elo_a": 1579.5,
-        "elo_b": 1529.9,
-        "p_a_wins": 0.5709,
-        "winner": "Alejandro Davidovich Fokina"
-      },
-      {
-        "tour": "atp",
-        "round": "Round 3",
-        "player_a": "Michael Zheng",
-        "player_b": "Felix Auger-Aliassime",
-        "elo_a": 1500.0,
-        "elo_b": 1572.3,
-        "p_a_wins": 0.3974,
+        "player_a": "Matteo Berrettini",
+        "player_b": "Grigor Dimitrov",
+        "elo_a": 1578.6,
+        "elo_b": 1606.0,
+        "p_a_wins": 0.4607,
         "winner": null
       },
       {
         "tour": "wta",
         "round": "Round 3",
-        "player_a": "Belinda Bencic",
-        "player_b": "Anna Kalinskaya",
+        "player_a": "Marta Kostyuk",
+        "player_b": "Emma Navarro",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Belinda Bencic"
+        "winner": "Marta Kostyuk"
       },
       {
         "tour": "wta",
         "round": "Round 3",
-        "player_a": "Naomi Osaka",
-        "player_b": "Daria Kasatkina",
+        "player_a": "Marie Bouzkova",
+        "player_b": "Liudmila Samsonova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Naomi Osaka"
+        "winner": "Marie Bouzkova"
       },
       {
         "tour": "wta",
         "round": "Round 3",
-        "player_a": "Iva Jovic",
-        "player_b": "Ekaterina Alexandrova",
+        "player_a": "Ashlyn Krueger",
+        "player_b": "Daria Snigur",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Iva Jovic"
+        "winner": "Ashlyn Krueger"
       },
       {
         "tour": "wta",
         "round": "Round 3",
-        "player_a": "Jessica Pegula",
-        "player_b": "Jessica Bouzas Maneiro",
+        "player_a": "Elise Mertens",
+        "player_b": "Elena Rybakina",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Jessica Pegula"
+        "winner": "Elise Mertens"
       },
       {
         "tour": "wta",
         "round": "Round 3",
-        "player_a": "Barbora Krejcikova",
-        "player_b": "Nikola Bartunkova",
+        "player_a": "Jasmine Paolini",
+        "player_b": "Maria Sakkari",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Barbora Krejcikova"
+        "winner": "Jasmine Paolini"
       },
       {
         "tour": "wta",
         "round": "Round 3",
-        "player_a": "Aryna Sabalenka",
-        "player_b": "Jelena Ostapenko",
+        "player_a": "Iga Swiatek",
+        "player_b": "Alexandra Eala",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Aryna Sabalenka"
+        "winner": null
       },
       {
         "tour": "wta",
         "round": "Round 3",
-        "player_a": "Coco Gauff",
-        "player_b": "Claire Liu",
+        "player_a": "Linda Noskova",
+        "player_b": "Sorana Cirstea",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Coco Gauff"
+        "winner": null
       },
       {
         "tour": "wta",
         "round": "Round 3",
-        "player_a": "Karolina Muchova",
-        "player_b": "Mananchaya Sawangkaew",
+        "player_a": "Madison Keys",
+        "player_b": "Amanda Anisimova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Karolina Muchova"
-      },
-      {
-        "tour": "atp",
-        "round": "Round 3",
-        "player_a": "Felix Auger-Aliassime",
-        "player_b": "Michael Zheng",
-        "elo_a": 1572.3,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.6026,
-        "winner": "Felix Auger-Aliassime"
+        "winner": null
       }
     ],
     "trend": [
@@ -1395,847 +1135,18 @@
         "date": "2026-07-03",
         "accuracy": 0.697,
         "n": 33
+      },
+      {
+        "date": "2026-07-04",
+        "accuracy": 0.7059,
+        "n": 34
       }
     ]
   },
   "picks": {
-    "singles": [
-      {
-        "player_name": "Jazz Chisholm Jr.",
-        "team": "New York Yankees",
-        "model_p_hit": 0.5921,
-        "implied_prob": 0.3922,
-        "edge": 0.1999,
-        "best_price": 155,
-        "bookmaker": "betmgm",
-        "type": "hit"
-      },
-      {
-        "player_name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "model_p_hit": 0.6681,
-        "implied_prob": 0.5122,
-        "edge": 0.1559,
-        "best_price": -105,
-        "bookmaker": "draftkings",
-        "type": "hit"
-      },
-      {
-        "player_name": "Heliot Ramos",
-        "team": "San Francisco Giants",
-        "model_p_hit": 0.6906,
-        "implied_prob": 0.5455,
-        "edge": 0.1451,
-        "best_price": -120,
-        "bookmaker": "draftkings",
-        "type": "hit"
-      },
-      {
-        "player_name": "Willy Adames",
-        "team": "San Francisco Giants",
-        "model_p_hit": 0.6283,
-        "implied_prob": 0.4878,
-        "edge": 0.1405,
-        "best_price": 105,
-        "bookmaker": "draftkings",
-        "type": "hit"
-      },
-      {
-        "player_name": "Luis Arraez",
-        "team": "San Francisco Giants",
-        "model_p_hr": 0.1358,
-        "implied_prob": 0.04,
-        "edge": 0.0958,
-        "best_price": 2400,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jonny DeLuca",
-        "team": "Tampa Bay Rays",
-        "model_p_hr": 0.1343,
-        "implied_prob": 0.04,
-        "edge": 0.0943,
-        "best_price": 2400,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Nelson Vel\u00e1zquez",
-        "team": "St. Louis Cardinals",
-        "model_p_hit": 0.6933,
-        "implied_prob": 0.6,
-        "edge": 0.0933,
-        "best_price": -150,
-        "bookmaker": "draftkings",
-        "type": "hit"
-      },
-      {
-        "player_name": "Sam Antonacci",
-        "team": "Chicago White Sox",
-        "model_p_hr": 0.1405,
-        "implied_prob": 0.0556,
-        "edge": 0.0849,
-        "best_price": 1700,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Victor Caratini",
-        "team": "Minnesota Twins",
-        "model_p_hr": 0.1782,
-        "implied_prob": 0.0952,
-        "edge": 0.083,
-        "best_price": 950,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Trevor Larnach",
-        "team": "Minnesota Twins",
-        "model_p_hr": 0.1587,
-        "implied_prob": 0.0769,
-        "edge": 0.0818,
-        "best_price": 1200,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Ryan Kreidler",
-        "team": "Minnesota Twins",
-        "model_p_hr": 0.1664,
-        "implied_prob": 0.087,
-        "edge": 0.0794,
-        "best_price": 1050,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Tristan Gray",
-        "team": "Minnesota Twins",
-        "model_p_hr": 0.1319,
-        "implied_prob": 0.0526,
-        "edge": 0.0793,
-        "best_price": 1800,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Paul Goldschmidt",
-        "team": "New York Yankees",
-        "model_p_hr": 0.2122,
-        "implied_prob": 0.1333,
-        "edge": 0.0789,
-        "best_price": 650,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Josh Bell",
-        "team": "Minnesota Twins",
-        "model_p_hr": 0.1894,
-        "implied_prob": 0.1111,
-        "edge": 0.0783,
-        "best_price": 800,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jung Hoo Lee",
-        "team": "San Francisco Giants",
-        "model_p_hr": 0.1304,
-        "implied_prob": 0.0526,
-        "edge": 0.0778,
-        "best_price": 1800,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jasson Dom\u00ednguez",
-        "team": "New York Yankees",
-        "model_p_hr": 0.1681,
-        "implied_prob": 0.0952,
-        "edge": 0.0729,
-        "best_price": 950,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Royce Lewis",
-        "team": "Minnesota Twins",
-        "model_p_hr": 0.1821,
-        "implied_prob": 0.1111,
-        "edge": 0.071,
-        "best_price": 800,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Ben Williamson",
-        "team": "Tampa Bay Rays",
-        "model_p_hr": 0.1096,
-        "implied_prob": 0.04,
-        "edge": 0.0696,
-        "best_price": 2400,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Chase Meidroth",
-        "team": "Chicago White Sox",
-        "model_p_hr": 0.1094,
-        "implied_prob": 0.04,
-        "edge": 0.0694,
-        "best_price": 2400,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jose Siri",
-        "team": "Los Angeles Angels",
-        "model_p_hit": 0.6008,
-        "implied_prob": 0.5327,
-        "edge": 0.0681,
-        "best_price": -114,
-        "bookmaker": "betonlineag",
-        "type": "hit"
-      },
-      {
-        "player_name": "Jos\u00e9 Ferm\u00edn",
-        "team": "St. Louis Cardinals",
-        "model_p_hit": 0.6751,
-        "implied_prob": 0.6094,
-        "edge": 0.0657,
-        "best_price": -156,
-        "bookmaker": "draftkings",
-        "type": "hit"
-      },
-      {
-        "player_name": "Jos\u00e9 Caballero",
-        "team": "New York Yankees",
-        "model_p_hr": 0.1557,
-        "implied_prob": 0.0909,
-        "edge": 0.0648,
-        "best_price": 1000,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Luke Keaschall",
-        "team": "Minnesota Twins",
-        "model_p_hr": 0.1174,
-        "implied_prob": 0.0526,
-        "edge": 0.0648,
-        "best_price": 1800,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Cedric Mullins",
-        "team": "Tampa Bay Rays",
-        "model_p_hr": 0.1684,
-        "implied_prob": 0.1053,
-        "edge": 0.0631,
-        "best_price": 850,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Willy Adames",
-        "team": "San Francisco Giants",
-        "model_p_hr": 0.1846,
-        "implied_prob": 0.125,
-        "edge": 0.0596,
-        "best_price": 700,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Travis Bazzana",
-        "team": "Cleveland Guardians",
-        "model_p_hr": 0.1323,
-        "implied_prob": 0.0769,
-        "edge": 0.0554,
-        "best_price": 1200,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Nick Allen",
-        "team": "Houston Astros",
-        "model_p_hr": 0.0899,
-        "implied_prob": 0.0345,
-        "edge": 0.0554,
-        "best_price": 2800,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jake Meyers",
-        "team": "Houston Astros",
-        "model_p_hr": 0.095,
-        "implied_prob": 0.04,
-        "edge": 0.055,
-        "best_price": 2400,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jordan Walker",
-        "team": "St. Louis Cardinals",
-        "model_p_hit": 0.7318,
-        "implied_prob": 0.6774,
-        "edge": 0.0544,
-        "best_price": -210,
-        "bookmaker": "draftkings",
-        "type": "hit"
-      },
-      {
-        "player_name": "Tyler Freeman",
-        "team": "Colorado Rockies",
-        "model_p_hr": 0.0979,
-        "implied_prob": 0.0435,
-        "edge": 0.0544,
-        "best_price": 2200,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Colson Montgomery",
-        "team": "Chicago White Sox",
-        "model_p_hr": 0.1867,
-        "implied_prob": 0.1333,
-        "edge": 0.0534,
-        "best_price": 650,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Drew Cavanaugh",
-        "team": "San Francisco Giants",
-        "model_p_hr": 0.1358,
-        "implied_prob": 0.0833,
-        "edge": 0.0525,
-        "best_price": 1100,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "model_p_hit": 0.6059,
-        "implied_prob": 0.5556,
-        "edge": 0.0503,
-        "best_price": -125,
-        "bookmaker": "betonlineag",
-        "type": "hit"
-      },
-      {
-        "player_name": "Taylor Walls",
-        "team": "Tampa Bay Rays",
-        "model_p_hr": 0.0839,
-        "implied_prob": 0.0345,
-        "edge": 0.0494,
-        "best_price": 2800,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Ryan McMahon",
-        "team": "New York Yankees",
-        "model_p_hr": 0.1731,
-        "implied_prob": 0.125,
-        "edge": 0.0481,
-        "best_price": 700,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "model_p_hr": 0.2199,
-        "implied_prob": 0.1724,
-        "edge": 0.0475,
-        "best_price": 480,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "model_p_hr": 0.2113,
-        "implied_prob": 0.1639,
-        "edge": 0.0474,
-        "best_price": 510,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Kyle Teel",
-        "team": "Chicago White Sox",
-        "model_p_hr": 0.1381,
-        "implied_prob": 0.0909,
-        "edge": 0.0472,
-        "best_price": 1000,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Heliot Ramos",
-        "team": "San Francisco Giants",
-        "model_p_hr": 0.1803,
-        "implied_prob": 0.1333,
-        "edge": 0.047,
-        "best_price": 650,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Yandy D\u00edaz",
-        "team": "Tampa Bay Rays",
-        "model_p_hr": 0.1396,
-        "implied_prob": 0.0952,
-        "edge": 0.0444,
-        "best_price": 950,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jazz Chisholm Jr.",
-        "team": "New York Yankees",
-        "model_p_hr": 0.1908,
-        "implied_prob": 0.1481,
-        "edge": 0.0427,
-        "best_price": 575,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jose Altuve",
-        "team": "Houston Astros",
-        "model_p_hr": 0.1292,
-        "implied_prob": 0.087,
-        "edge": 0.0422,
-        "best_price": 1050,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Bryce Eldridge",
-        "team": "San Francisco Giants",
-        "model_p_hr": 0.1632,
-        "implied_prob": 0.125,
-        "edge": 0.0382,
-        "best_price": 700,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Braden Montgomery",
-        "team": "Chicago White Sox",
-        "model_p_hr": 0.1249,
-        "implied_prob": 0.087,
-        "edge": 0.0379,
-        "best_price": 1050,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Austin Wells",
-        "team": "New York Yankees",
-        "model_p_hr": 0.1319,
-        "implied_prob": 0.0952,
-        "edge": 0.0367,
-        "best_price": 950,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "David Fry",
-        "team": "Cleveland Guardians",
-        "model_p_hr": 0.1478,
-        "implied_prob": 0.1111,
-        "edge": 0.0367,
-        "best_price": 800,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Andrew Benintendi",
-        "team": "Chicago White Sox",
-        "model_p_hr": 0.161,
-        "implied_prob": 0.125,
-        "edge": 0.036,
-        "best_price": 700,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "TJ Rumfield",
-        "team": "Colorado Rockies",
-        "model_p_hr": 0.1411,
-        "implied_prob": 0.1053,
-        "edge": 0.0358,
-        "best_price": 850,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Tristan Peters",
-        "team": "Chicago White Sox",
-        "model_p_hr": 0.1067,
-        "implied_prob": 0.0714,
-        "edge": 0.0353,
-        "best_price": 1300,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Jonathan Aranda",
-        "team": "Tampa Bay Rays",
-        "model_p_hr": 0.1522,
-        "implied_prob": 0.1176,
-        "edge": 0.0346,
-        "best_price": 750,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Steven Kwan",
-        "team": "Cleveland Guardians",
-        "model_p_hr": 0.0736,
-        "implied_prob": 0.04,
-        "edge": 0.0336,
-        "best_price": 2400,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "model_p_hr": 0.2215,
-        "implied_prob": 0.1887,
-        "edge": 0.0328,
-        "best_price": 430,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Kyle Manzardo",
-        "team": "Cleveland Guardians",
-        "model_p_hr": 0.1302,
-        "implied_prob": 0.1,
-        "edge": 0.0302,
-        "best_price": 900,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      },
-      {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "model_p_hr": 0.155,
-        "implied_prob": 0.125,
-        "edge": 0.03,
-        "best_price": 700,
-        "bookmaker": "betrivers",
-        "type": "hr"
-      }
-    ],
-    "parlays": [
-      {
-        "legs": [
-          {
-            "player_name": "Jazz Chisholm Jr.",
-            "team": "New York Yankees",
-            "type": "hit",
-            "price": 155,
-            "bookmaker": "betmgm"
-          },
-          {
-            "player_name": "Heliot Ramos",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -120,
-            "bookmaker": "draftkings"
-          }
-        ],
-        "n_legs": 2,
-        "model_prob": 0.4089,
-        "implied_prob": 0.2139,
-        "edge": 0.195,
-        "payout": 368
-      },
-      {
-        "legs": [
-          {
-            "player_name": "Jazz Chisholm Jr.",
-            "team": "New York Yankees",
-            "type": "hit",
-            "price": 155,
-            "bookmaker": "betmgm"
-          },
-          {
-            "player_name": "Rafael Devers",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -105,
-            "bookmaker": "draftkings"
-          }
-        ],
-        "n_legs": 2,
-        "model_prob": 0.3956,
-        "implied_prob": 0.2009,
-        "edge": 0.1947,
-        "payout": 398
-      },
-      {
-        "legs": [
-          {
-            "player_name": "Rafael Devers",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -105,
-            "bookmaker": "draftkings"
-          },
-          {
-            "player_name": "Heliot Ramos",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -120,
-            "bookmaker": "draftkings"
-          }
-        ],
-        "n_legs": 2,
-        "model_prob": 0.4614,
-        "implied_prob": 0.2794,
-        "edge": 0.182,
-        "payout": 258
-      },
-      {
-        "legs": [
-          {
-            "player_name": "Jazz Chisholm Jr.",
-            "team": "New York Yankees",
-            "type": "hit",
-            "price": 155,
-            "bookmaker": "betmgm"
-          },
-          {
-            "player_name": "Willy Adames",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": 105,
-            "bookmaker": "draftkings"
-          }
-        ],
-        "n_legs": 2,
-        "model_prob": 0.372,
-        "implied_prob": 0.1913,
-        "edge": 0.1807,
-        "payout": 423
-      },
-      {
-        "legs": [
-          {
-            "player_name": "Rafael Devers",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -105,
-            "bookmaker": "draftkings"
-          },
-          {
-            "player_name": "Willy Adames",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": 105,
-            "bookmaker": "draftkings"
-          }
-        ],
-        "n_legs": 2,
-        "model_prob": 0.4198,
-        "implied_prob": 0.2499,
-        "edge": 0.1699,
-        "payout": 300
-      },
-      {
-        "legs": [
-          {
-            "player_name": "Heliot Ramos",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -120,
-            "bookmaker": "draftkings"
-          },
-          {
-            "player_name": "Willy Adames",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": 105,
-            "bookmaker": "draftkings"
-          }
-        ],
-        "n_legs": 2,
-        "model_prob": 0.4339,
-        "implied_prob": 0.2661,
-        "edge": 0.1678,
-        "payout": 276
-      },
-      {
-        "legs": [
-          {
-            "player_name": "Jazz Chisholm Jr.",
-            "team": "New York Yankees",
-            "type": "hit",
-            "price": 155,
-            "bookmaker": "betmgm"
-          },
-          {
-            "player_name": "Rafael Devers",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -105,
-            "bookmaker": "draftkings"
-          },
-          {
-            "player_name": "Heliot Ramos",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -120,
-            "bookmaker": "draftkings"
-          }
-        ],
-        "n_legs": 3,
-        "model_prob": 0.2732,
-        "implied_prob": 0.1096,
-        "edge": 0.1636,
-        "payout": 813
-      },
-      {
-        "legs": [
-          {
-            "player_name": "Rafael Devers",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -105,
-            "bookmaker": "draftkings"
-          },
-          {
-            "player_name": "Heliot Ramos",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": -120,
-            "bookmaker": "draftkings"
-          },
-          {
-            "player_name": "Willy Adames",
-            "team": "San Francisco Giants",
-            "type": "hit",
-            "price": 105,
-            "bookmaker": "draftkings"
-          }
-        ],
-        "n_legs": 3,
-        "model_prob": 0.2899,
-        "implied_prob": 0.1363,
-        "edge": 0.1536,
-        "payout": 634
-      }
-    ],
-    "round_robins": [
-      {
-        "size": 3,
-        "picks": [
-          "Jazz Chisholm Jr.",
-          "Rafael Devers",
-          "Heliot Ramos"
-        ],
-        "parlays": [
-          {
-            "players": [
-              "Jazz Chisholm Jr.",
-              "Rafael Devers"
-            ],
-            "payout": 398,
-            "model_prob": 0.3956
-          },
-          {
-            "players": [
-              "Jazz Chisholm Jr.",
-              "Heliot Ramos"
-            ],
-            "payout": 368,
-            "model_prob": 0.4089
-          },
-          {
-            "players": [
-              "Rafael Devers",
-              "Heliot Ramos"
-            ],
-            "payout": 258,
-            "model_prob": 0.4614
-          }
-        ]
-      },
-      {
-        "size": 4,
-        "picks": [
-          "Jazz Chisholm Jr.",
-          "Rafael Devers",
-          "Heliot Ramos",
-          "Willy Adames"
-        ],
-        "parlays": [
-          {
-            "players": [
-              "Jazz Chisholm Jr.",
-              "Rafael Devers"
-            ],
-            "payout": 398,
-            "model_prob": 0.3956
-          },
-          {
-            "players": [
-              "Jazz Chisholm Jr.",
-              "Heliot Ramos"
-            ],
-            "payout": 368,
-            "model_prob": 0.4089
-          },
-          {
-            "players": [
-              "Jazz Chisholm Jr.",
-              "Willy Adames"
-            ],
-            "payout": 423,
-            "model_prob": 0.372
-          },
-          {
-            "players": [
-              "Rafael Devers",
-              "Heliot Ramos"
-            ],
-            "payout": 258,
-            "model_prob": 0.4614
-          },
-          {
-            "players": [
-              "Rafael Devers",
-              "Willy Adames"
-            ],
-            "payout": 300,
-            "model_prob": 0.4198
-          },
-          {
-            "players": [
-              "Heliot Ramos",
-              "Willy Adames"
-            ],
-            "payout": 276,
-            "model_prob": 0.4339
-          }
-        ]
-      }
-    ]
+    "singles": [],
+    "parlays": [],
+    "round_robins": []
   },
   "f1": {
     "quali": {
