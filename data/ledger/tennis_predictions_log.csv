@@ -228,3 +228,19 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-03,wta,Wimbledon,Round 3,Coco Gauff,Claire Liu,1500.0,1500.0,0.5,0.5,Coco Gauff,True
 2026-07-03,wta,Wimbledon,Round 3,Karolina Muchova,Mananchaya Sawangkaew,1500.0,1500.0,0.5,0.5,Karolina Muchova,True
 2026-07-03,atp,Wimbledon,Round 3,Felix Auger-Aliassime,Michael Zheng,1572.3,1500.0,0.6026,0.3974,Felix Auger-Aliassime,True
+2026-07-04,atp,Wimbledon,Round 3,Alex de Minaur,Zachary Svajda,1616.6,1452.3,0.7203,0.2797,Alex de Minaur,True
+2026-07-04,atp,Wimbledon,Round 3,Flavio Cobolli,Karen Khachanov,1546.3,1563.3,0.4756,0.5244,,False
+2026-07-04,atp,Wimbledon,Round 3,Arthur Fery,Zizou Bergs,1485.8,1522.2,0.4477,0.5523,,False
+2026-07-04,atp,Wimbledon,Round 3,Jaume Munar,Jiri Lehecka,1518.3,1602.1,0.3817,0.6183,,False
+2026-07-04,atp,Wimbledon,Round 3,Alexander Zverev,Marcos Giron,1607.9,1552.5,0.579,0.421,,False
+2026-07-04,atp,Wimbledon,Round 3,Lorenzo Sonego,Taylor Fritz,1517.4,1680.9,0.2806,0.7194,,False
+2026-07-04,atp,Wimbledon,Round 3,Alexander Bublik,Frances Tiafoe,1580.3,1528.6,0.574,0.426,,False
+2026-07-04,atp,Wimbledon,Round 3,Matteo Berrettini,Grigor Dimitrov,1578.6,1606.0,0.4607,0.5393,,False
+2026-07-04,wta,Wimbledon,Round 3,Marta Kostyuk,Emma Navarro,1500.0,1500.0,0.5,0.5,Marta Kostyuk,True
+2026-07-04,wta,Wimbledon,Round 3,Marie Bouzkova,Liudmila Samsonova,1500.0,1500.0,0.5,0.5,Marie Bouzkova,True
+2026-07-04,wta,Wimbledon,Round 3,Ashlyn Krueger,Daria Snigur,1500.0,1500.0,0.5,0.5,Ashlyn Krueger,True
+2026-07-04,wta,Wimbledon,Round 3,Elise Mertens,Elena Rybakina,1500.0,1500.0,0.5,0.5,Elise Mertens,True
+2026-07-04,wta,Wimbledon,Round 3,Jasmine Paolini,Maria Sakkari,1500.0,1500.0,0.5,0.5,Jasmine Paolini,True
+2026-07-04,wta,Wimbledon,Round 3,Iga Swiatek,Alexandra Eala,1500.0,1500.0,0.5,0.5,,False
+2026-07-04,wta,Wimbledon,Round 3,Linda Noskova,Sorana Cirstea,1500.0,1500.0,0.5,0.5,,False
+2026-07-04,wta,Wimbledon,Round 3,Madison Keys,Amanda Anisimova,1500.0,1500.0,0.5,0.5,,False
