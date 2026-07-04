@@ -8,9 +8,21 @@ flags batters where the model beats the market.
 Same conservative, non-de-vigged comparison approach as find_value.py --
 see that file's docstring for the reasoning.
 
+--- Bug fix: results were never saved anywhere ---
+
+Same issue as find_value.py -- this script computed and printed value
+picks correctly but never wrote data/value_picks_hr.json, so
+publish_dashboard.py's Picks & Parlays tab always read a stale file (over
+a week old in practice) regardless of how often this ran. Fixed the same
+way: write {"date": ..., "picks": [...]} after computing value_rows,
+excluding suspicious_rows (likely wrong market type) from what's
+persisted, and writing even when value_rows is empty so a genuinely
+pick-free day doesn't leave old data looking current.
+
 Run with: python3 scripts/find_value_hr.py
 """
 
+import json
 import sys
 from datetime import date
 from pathlib import Path
@@ -21,9 +33,20 @@ from src import odds_client as odds
 from src.ledger import hr_columns, load_ledger
 from src.name_matching import build_name_index, match_name
 
-HR_LEDGER_PATH = Path(__file__).resolve().parents[1] / "data" / "ledger" / "hr_predictions_log.csv"
+HR_LEDGER_PATH  = Path(__file__).resolve().parents[1] / "data" / "ledger" / "hr_predictions_log.csv"
+VALUE_PICKS_OUT = Path(__file__).resolve().parents[1] / "data" / "value_picks_hr.json"
 EDGE_THRESHOLD = 0.03
 SUSPICIOUS_EDGE = 0.10  # HR props above this are almost certainly a wrong market type
+
+
+def save_value_picks(value_rows, today):
+    VALUE_PICKS_OUT.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "date": today.isoformat(),
+        "picks": value_rows,
+    }
+    VALUE_PICKS_OUT.write_text(json.dumps(payload, indent=2))
+    print(f"\nSaved {len(value_rows)} HR value pick(s) to {VALUE_PICKS_OUT}")
 
 
 def main():
@@ -91,16 +114,20 @@ def main():
                   f"market={r['implied_prob']:.1%}  edge=+{r['edge']:.1%}  "
                   f"({r['best_price']:+d} @ {r['bookmaker']})")
 
+    value_rows.sort(key=lambda r: r["edge"], reverse=True)
+
     if not value_rows:
         print("\nNo clean HR value found above the edge threshold today.")
+        save_value_picks(value_rows, today)
         return
 
-    value_rows.sort(key=lambda r: r["edge"], reverse=True)
     print(f"\n{len(value_rows)} batter(s) where the model beats the market by >= {EDGE_THRESHOLD:.0%}:\n")
     for r in value_rows:
         print(f"  {r['player_name']:<22} {r['team']:<20} model={r['model_p_hr']:.1%}  "
               f"market={r['implied_prob']:.1%}  edge=+{r['edge']:.1%}  "
               f"({r['best_price']:+d} @ {r['bookmaker']})")
+
+    save_value_picks(value_rows, today)
 
 
 if __name__ == "__main__":

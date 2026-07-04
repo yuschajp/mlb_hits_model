@@ -17,9 +17,32 @@ to de-vig together). Comparing against raw implied probability sets a
 higher, safer bar since the vig is already baked into it. Roadmap: pull
 matched Over/Under pairs per bookmaker and de-vig properly.
 
+--- Bug fix: results were never saved anywhere ---
+
+This script computed and printed value picks correctly, but never wrote
+them to data/value_picks_hits.json -- meaning publish_dashboard.py's
+Picks & Parlays tab always read a stale file from whenever that JSON was
+last manually created (in practice, over a week old), regardless of how
+often this script ran. Fixed by writing {"date": ..., "picks": [...]}
+after computing value_rows, in the exact format _load_value_picks() in
+publish_dashboard.py expects.
+
+Only the vetted value_rows (edge in [EDGE_THRESHOLD, SUSPICIOUS_EDGE)) are
+saved -- suspicious_rows (edge >= SUSPICIOUS_EDGE, flagged as likely a
+market-type mismatch) are deliberately excluded from what gets persisted,
+so a probable data error doesn't silently feed into the dashboard's
+automated parlay builder. They still print to console with their warning,
+same as before, for manual review.
+
+The file is written even when value_rows is empty, with today's date and
+an empty picks list -- otherwise a day with genuinely zero value picks
+would leave yesterday's (or older) picks looking current on the
+dashboard indefinitely, which is the exact staleness bug this fix closes.
+
 Run with: python3 scripts/find_value.py
 """
 
+import json
 import sys
 from datetime import date
 from pathlib import Path
@@ -30,9 +53,20 @@ from src import odds_client as odds
 from src.ledger import load_ledger
 from src.name_matching import build_name_index, match_name
 
-LEDGER_PATH = Path(__file__).resolve().parents[1] / "data" / "ledger" / "predictions_log.csv"
+LEDGER_PATH     = Path(__file__).resolve().parents[1] / "data" / "ledger" / "predictions_log.csv"
+VALUE_PICKS_OUT = Path(__file__).resolve().parents[1] / "data" / "value_picks_hits.json"
 EDGE_THRESHOLD = 0.05
 SUSPICIOUS_EDGE = 0.20  # edges above this are almost certainly a wrong market type
+
+
+def save_value_picks(value_rows, today):
+    VALUE_PICKS_OUT.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "date": today.isoformat(),
+        "picks": value_rows,
+    }
+    VALUE_PICKS_OUT.write_text(json.dumps(payload, indent=2))
+    print(f"\nSaved {len(value_rows)} value pick(s) to {VALUE_PICKS_OUT}")
 
 
 def main():
@@ -106,16 +140,20 @@ def main():
                   f"market={r['implied_prob']:.1%}  edge=+{r['edge']:.1%}  "
                   f"({r['best_price']:+d} @ {r['bookmaker']})")
 
+    value_rows.sort(key=lambda r: r["edge"], reverse=True)
+
     if not value_rows:
         print("\nNo clean value found above the edge threshold today.")
+        save_value_picks(value_rows, today)
         return
 
-    value_rows.sort(key=lambda r: r["edge"], reverse=True)
     print(f"\n{len(value_rows)} batter(s) where the model beats the market by >= {EDGE_THRESHOLD:.0%}:\n")
     for r in value_rows:
         print(f"  {r['player_name']:<22} {r['team']:<20} model={r['model_p_hit']:.1%}  "
               f"market={r['implied_prob']:.1%}  edge=+{r['edge']:.1%}  "
               f"({r['best_price']:+d} @ {r['bookmaker']})")
+
+    save_value_picks(value_rows, today)
 
 
 if __name__ == "__main__":

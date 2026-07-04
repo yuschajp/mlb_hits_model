@@ -1,167 +1,86 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-07-03",
   "picks": [
     {
-      "player_name": "Bryce Eldridge",
-      "team": "San Francisco Giants",
-      "model_p_hit": 0.7116,
-      "implied_prob": 0.4167,
-      "edge": 0.2949,
-      "best_price": 140,
-      "bookmaker": "draftkings"
-    },
-    {
-      "player_name": "Jung Hoo Lee",
-      "team": "San Francisco Giants",
-      "model_p_hit": 0.7354,
-      "implied_prob": 0.4444,
-      "edge": 0.291,
-      "best_price": 125,
+      "player_name": "Jazz Chisholm Jr.",
+      "team": "New York Yankees",
+      "model_p_hit": 0.5921,
+      "implied_prob": 0.3922,
+      "edge": 0.1999,
+      "best_price": 155,
       "bookmaker": "betmgm"
-    },
-    {
-      "player_name": "Victor Bericoto",
-      "team": "San Francisco Giants",
-      "model_p_hit": 0.6261,
-      "implied_prob": 0.3704,
-      "edge": 0.2557,
-      "best_price": 170,
-      "bookmaker": "draftkings"
     },
     {
       "player_name": "Rafael Devers",
       "team": "San Francisco Giants",
-      "model_p_hit": 0.6374,
-      "implied_prob": 0.3922,
-      "edge": 0.2452,
-      "best_price": 155,
+      "model_p_hit": 0.6681,
+      "implied_prob": 0.5122,
+      "edge": 0.1559,
+      "best_price": -105,
       "bookmaker": "draftkings"
     },
     {
-      "player_name": "Casey Schmitt",
+      "player_name": "Heliot Ramos",
       "team": "San Francisco Giants",
-      "model_p_hit": 0.7142,
-      "implied_prob": 0.4762,
-      "edge": 0.238,
-      "best_price": 110,
-      "bookmaker": "draftkings"
-    },
-    {
-      "player_name": "Jonah Cox",
-      "team": "San Francisco Giants",
-      "model_p_hit": 0.6279,
-      "implied_prob": 0.4082,
-      "edge": 0.2197,
-      "best_price": 145,
-      "bookmaker": "draftkings"
-    },
-    {
-      "player_name": "Nick Kurtz",
-      "team": "Athletics",
-      "model_p_hit": 0.6778,
-      "implied_prob": 0.4762,
-      "edge": 0.2016,
-      "best_price": 110,
-      "bookmaker": "betmgm"
-    },
-    {
-      "player_name": "Jonah Heim",
-      "team": "Athletics",
-      "model_p_hit": 0.6222,
-      "implied_prob": 0.4545,
-      "edge": 0.1677,
-      "best_price": 120,
-      "bookmaker": "betmgm"
-    },
-    {
-      "player_name": "Lawrence Butler",
-      "team": "Athletics",
-      "model_p_hit": 0.5751,
-      "implied_prob": 0.4167,
-      "edge": 0.1584,
-      "best_price": 140,
-      "bookmaker": "betmgm"
-    },
-    {
-      "player_name": "Shea Langeliers",
-      "team": "Athletics",
-      "model_p_hit": 0.6269,
-      "implied_prob": 0.5,
-      "edge": 0.1269,
-      "best_price": 100,
-      "bookmaker": "draftkings"
-    },
-    {
-      "player_name": "Nathan Lukes",
-      "team": "Toronto Blue Jays",
-      "model_p_hit": 0.6656,
+      "model_p_hit": 0.6906,
       "implied_prob": 0.5455,
-      "edge": 0.1201,
+      "edge": 0.1451,
       "best_price": -120,
-      "bookmaker": "betmgm"
-    },
-    {
-      "player_name": "Davis Schneider",
-      "team": "Toronto Blue Jays",
-      "model_p_hit": 0.5907,
-      "implied_prob": 0.4717,
-      "edge": 0.119,
-      "best_price": 112,
       "bookmaker": "draftkings"
     },
     {
-      "player_name": "Joc Pederson",
-      "team": "Texas Rangers",
-      "model_p_hit": 0.695,
-      "implied_prob": 0.5885,
-      "edge": 0.1065,
-      "best_price": -143,
+      "player_name": "Willy Adames",
+      "team": "San Francisco Giants",
+      "model_p_hit": 0.6283,
+      "implied_prob": 0.4878,
+      "edge": 0.1405,
+      "best_price": 105,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Nelson Vel\u00e1zquez",
+      "team": "St. Louis Cardinals",
+      "model_p_hit": 0.6933,
+      "implied_prob": 0.6,
+      "edge": 0.0933,
+      "best_price": -150,
+      "bookmaker": "draftkings"
+    },
+    {
+      "player_name": "Jose Siri",
+      "team": "Los Angeles Angels",
+      "model_p_hit": 0.6008,
+      "implied_prob": 0.5327,
+      "edge": 0.0681,
+      "best_price": -114,
       "bookmaker": "betonlineag"
     },
     {
-      "player_name": "Nicky Lopez",
-      "team": "Texas Rangers",
-      "model_p_hit": 0.6527,
-      "implied_prob": 0.5495,
-      "edge": 0.1032,
-      "best_price": -122,
+      "player_name": "Jos\u00e9 Ferm\u00edn",
+      "team": "St. Louis Cardinals",
+      "model_p_hit": 0.6751,
+      "implied_prob": 0.6094,
+      "edge": 0.0657,
+      "best_price": -156,
       "bookmaker": "draftkings"
     },
     {
-      "player_name": "Daniel Susac",
-      "team": "San Francisco Giants",
-      "model_p_hit": 0.6222,
-      "implied_prob": 0.5238,
-      "edge": 0.0984,
-      "best_price": -110,
+      "player_name": "Jordan Walker",
+      "team": "St. Louis Cardinals",
+      "model_p_hit": 0.7318,
+      "implied_prob": 0.6774,
+      "edge": 0.0544,
+      "best_price": -210,
       "bookmaker": "draftkings"
     },
     {
-      "player_name": "Kyle Higashioka",
-      "team": "Texas Rangers",
-      "model_p_hit": 0.6156,
-      "implied_prob": 0.5192,
-      "edge": 0.0964,
-      "best_price": -108,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Ezequiel Duran",
-      "team": "Texas Rangers",
-      "model_p_hit": 0.6644,
-      "implied_prob": 0.6016,
-      "edge": 0.0628,
-      "best_price": -151,
-      "bookmaker": "draftkings"
-    },
-    {
-      "player_name": "Alejandro Osuna",
-      "team": "Texas Rangers",
-      "model_p_hit": 0.6391,
-      "implied_prob": 0.5781,
-      "edge": 0.061,
-      "best_price": -137,
-      "bookmaker": "betrivers"
+      "player_name": "Randy Arozarena",
+      "team": "Seattle Mariners",
+      "model_p_hit": 0.6059,
+      "implied_prob": 0.5556,
+      "edge": 0.0503,
+      "best_price": -125,
+      "bookmaker": "betonlineag"
     }
   ]
 }
