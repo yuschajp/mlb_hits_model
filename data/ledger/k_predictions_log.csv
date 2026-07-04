@@ -137,13 +137,24 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-04,823118,669456,Shane Bieber,Toronto Blue Jays,Seattle Mariners,T-Mobile Park,1.0,6.5,6.545,6.545,0.2317,11.0,11.0,3.67,4.785,0.2072,0.7928,,False
 2026-07-04,823118,669302,Logan Gilbert,Seattle Mariners,Toronto Blue Jays,T-Mobile Park,0.92,6.5,9.706,10.853,0.1996,102.0,34.0,5.67,5.323,0.2864,0.7136,,False
 2026-07-04,824499,687064,Brandon Young,Baltimore Orioles,Cincinnati Reds,Great American Ball Park,0.97,6.5,7.092,7.75,0.2493,72.3,36.0,5.56,5.38,0.2951,0.7049,,False
-2026-07-04,824499,668881,Hunter Greene,Cincinnati Reds,Baltimore Orioles,Great American Ball Park,1.05,6.5,8.9,8.9,0.2426,0.0,0.0,5.5,5.813,0.3636,0.6364,,False
+2026-07-04,824499,668881,Hunter Greene,Cincinnati Reds,Baltimore Orioles,Great American Ball Park,1.05,6.5,13.493,13.493,0.2426,0.7,0.7,0.67,5.406,0.2992,0.7008,,False
 2026-07-04,824171,656876,Drew Rasmussen,Tampa Bay Rays,Houston Astros,Daikin Park,0.97,6.5,9.196,10.459,0.2172,92.0,37.0,5.75,5.662,0.3396,0.6604,,False
-2026-07-04,824171,686613,Hunter Brown,Houston Astros,Tampa Bay Rays,Daikin Park,1.0,6.5,11.369,9.204,0.1869,25.3,14.7,5.07,4.63,0.1859,0.8141,,False
+2026-07-04,824171,686613,Hunter Brown,Houston Astros,Tampa Bay Rays,Daikin Park,1.0,6.5,11.571,9.6,0.1871,25.7,15.0,4.28,4.416,0.1583,0.8417,,False
 2026-07-04,824415,680732,Sean Burke,Chicago White Sox,Cleveland Guardians,Progressive Field,1.02,6.5,9.227,11.296,0.2185,92.7,32.7,5.45,5.628,0.3342,0.6658,,False
-2026-07-04,824415,800048,Parker Messick,Cleveland Guardians,Chicago White Sox,Progressive Field,0.99,6.5,9.446,8.836,0.2386,101.0,36.7,5.94,6.142,0.4165,0.5835,,False
+2026-07-04,824415,800048,Parker Messick,Cleveland Guardians,Chicago White Sox,Progressive Field,0.99,6.5,9.415,8.92,0.2387,101.3,37.3,5.63,5.944,0.3847,0.6153,,False
 2026-07-04,824658,681517,Kyle Leahy,St. Louis Cardinals,Chicago Cubs,Wrigley Field,0.97,6.5,7.414,7.337,0.2133,81.3,30.7,5.08,4.363,0.1518,0.8482,,False
+2026-07-04,824658,684007,Shota Imanaga,Chicago Cubs,St. Louis Cardinals,Wrigley Field,1.0,6.5,8.42,7.306,0.2008,98.3,28.3,5.78,4.653,0.189,0.811,,False
+2026-07-04,824903,640455,Sean Manaea,New York Mets,Atlanta Braves,Truist Park,0.97,6.5,9.143,8.069,0.2116,63.0,29.0,4.12,4.271,0.1408,0.8592,,False
 2026-07-04,824903,519242,Chris Sale,Atlanta Braves,New York Mets,Truist Park,1.01,6.5,10.9,11.348,0.223,90.0,23.0,6.0,6.454,0.4663,0.5337,,False
 2026-07-04,824334,592662,Robbie Ray,San Francisco Giants,Colorado Rockies,Coors Field,0.91,6.5,7.714,7.054,0.229,95.7,37.0,5.63,4.975,0.2341,0.7659,,False
+2026-07-04,824334,807743,Sean Sullivan,Colorado Rockies,San Francisco Giants,Coors Field,1.13,6.5,6.48,6.48,0.2068,16.7,16.7,4.17,4.196,0.132,0.868,,False
 2026-07-04,824092,666200,Jesús Luzardo,Philadelphia Phillies,Kansas City Royals,Kauffman Stadium,1.03,6.5,10.726,11.103,0.2119,97.3,35.7,5.73,5.962,0.3876,0.6124,,False
 2026-07-04,824092,608379,Michael Wacha,Kansas City Royals,Philadelphia Phillies,Kauffman Stadium,0.94,6.5,6.957,5.635,0.2351,108.7,38.3,6.39,5.053,0.2456,0.7544,,False
+2026-07-04,824012,543243,Sonny Gray,Boston Red Sox,Los Angeles Angels,Angel Stadium,1.06,6.5,8.068,9.302,0.2487,83.7,39.7,5.58,5.871,0.3729,0.6271,,False
+2026-07-04,824012,691951,Sam Aldegheri,Los Angeles Angels,Boston Red Sox,Angel Stadium,0.99,6.5,6.067,6.75,0.2208,29.7,24.0,4.5,4.319,0.1465,0.8535,,False
+2026-07-04,824983,645261,Sandy Alcantara,Miami Marlins,Athletics,Sutter Health Park,0.93,6.5,6.536,7.141,0.2246,115.7,40.3,6.43,4.985,0.2356,0.7644,,False
+2026-07-04,824983,650644,Aaron Civale,Athletics,Miami Marlins,Sutter Health Park,0.93,6.5,6.384,6.75,0.2173,67.7,12.0,4.83,4.191,0.1315,0.8685,,False
+2026-07-04,825063,605540,Brandon Woodruff,Milwaukee Brewers,Arizona Diamondbacks,Chase Field,1.02,6.5,8.856,12.343,0.1936,41.7,11.7,5.21,4.781,0.2066,0.7934,,False
+2026-07-04,825063,518876,Merrill Kelly,Arizona Diamondbacks,Milwaukee Brewers,Chase Field,1.02,6.5,5.18,4.277,0.2108,81.7,33.7,5.83,3.734,0.0849,0.9151,,False
+2026-07-04,823932,593974,Wandy Peralta,San Diego Padres,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,0.92,6.5,5.956,4.95,0.2023,45.3,20.0,1.0,3.212,0.0453,0.9547,,False
+2026-07-04,823932,808967,Yoshinobu Yamamoto,Los Angeles Dodgers,San Diego Padres,UNIQLO Field at Dodger Stadium,0.96,6.5,8.293,8.287,0.2283,97.7,33.7,6.51,5.804,0.3623,0.6377,,False
