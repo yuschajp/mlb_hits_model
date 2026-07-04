@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-04",
   "hits": {
-    "today_count": 36,
+    "today_count": 54,
     "total_graded": 2026,
     "since_date": "2026-06-20",
     "brier_score": 0.2364,
@@ -17,6 +17,54 @@
         "venue": "Yankee Stadium",
         "lineup_spot": 1,
         "p_hit": 0.7181
+      },
+      {
+        "player_name": "Josh Jung",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Jack Flaherty",
+        "venue": "Globe Life Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7021
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Carson Palmquist",
+        "venue": "Nationals Park",
+        "lineup_spot": 4,
+        "p_hit": 0.701
+      },
+      {
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Carson Palmquist",
+        "venue": "Nationals Park",
+        "lineup_spot": 3,
+        "p_hit": 0.7003
+      },
+      {
+        "player_name": "Kevin McGonigle",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Cal Quantrill",
+        "venue": "Globe Life Field",
+        "lineup_spot": 1,
+        "p_hit": 0.6982
+      },
+      {
+        "player_name": "Konnor Griffin",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Carson Palmquist",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hit": 0.6974
+      },
+      {
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Cal Quantrill",
+        "venue": "Globe Life Field",
+        "lineup_spot": 2,
+        "p_hit": 0.6929
       },
       {
         "player_name": "Byron Buxton",
@@ -35,60 +83,12 @@
         "p_hit": 0.6902
       },
       {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Carson Palmquist",
-        "venue": "Nationals Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6786
-      },
-      {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Carson Palmquist",
-        "venue": "Nationals Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6781
-      },
-      {
-        "player_name": "Konnor Griffin",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Carson Palmquist",
-        "venue": "Nationals Park",
-        "lineup_spot": 1,
-        "p_hit": 0.6747
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "Nationals Park",
+        "player_name": "Josh Smith",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Jack Flaherty",
+        "venue": "Globe Life Field",
         "lineup_spot": 2,
-        "p_hit": 0.6746
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Zebby Matthews",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.6696
-      },
-      {
-        "player_name": "James Wood",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "Nationals Park",
-        "lineup_spot": 1,
-        "p_hit": 0.6606
-      },
-      {
-        "player_name": "Kody Clemens",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Brendan Beck",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 3,
-        "p_hit": 0.6592
+        "p_hit": 0.6755
       }
     ],
     "calibration": [
@@ -286,7 +286,7 @@
     ]
   },
   "hr": {
-    "today_count": 36,
+    "today_count": 54,
     "total_graded": 1927,
     "since_date": "2026-06-21",
     "brier_score": 0.1079,
@@ -332,7 +332,7 @@
         "opponent_pitcher": "Braxton Ashcraft",
         "venue": "Nationals Park",
         "lineup_spot": 2,
-        "p_hr": 0.1936
+        "p_hr": 0.1953
       },
       {
         "player_name": "Jazz Chisholm Jr.",
@@ -359,20 +359,20 @@
         "p_hr": 0.1812
       },
       {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Braxton Ashcraft",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1757
+      },
+      {
         "player_name": "Brooks Lee",
         "team": "Minnesota Twins",
         "opponent_pitcher": "Brendan Beck",
         "venue": "Yankee Stadium",
         "lineup_spot": 6,
         "p_hr": 0.1732
-      },
-      {
-        "player_name": "Josh Bell",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Brendan Beck",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.1719
       }
     ],
     "calibration": [
@@ -552,12 +552,12 @@
     ]
   },
   "k": {
-    "today_count": 4,
+    "today_count": 6,
     "total_graded": 129,
     "since_date": "2026-06-27",
     "brier_score": 0.1651,
     "naive_brier": 0.25,
-    "avg_lambda": 5.49,
+    "avg_lambda": 5.22,
     "over_rate": 0.256,
     "top10_today": [
       {
@@ -566,9 +566,9 @@
         "opponent": "Washington Nationals",
         "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 6.25,
-        "p_over": 0.4345,
-        "p_under": 0.5655
+        "lambda_k": 6.3,
+        "p_over": 0.4414,
+        "p_under": 0.5586
       },
       {
         "pitcher_name": "Carson Palmquist",
@@ -576,9 +576,19 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 5.5,
-        "p_over": 0.3137,
-        "p_under": 0.6863
+        "lambda_k": 5.41,
+        "p_over": 0.2995,
+        "p_under": 0.7005
+      },
+      {
+        "pitcher_name": "Jack Flaherty",
+        "team": "Detroit Tigers",
+        "opponent": "Texas Rangers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.35,
+        "p_over": 0.2909,
+        "p_under": 0.7091
       },
       {
         "pitcher_name": "Zebby Matthews",
@@ -599,6 +609,16 @@
         "lambda_k": 4.87,
         "p_over": 0.2194,
         "p_under": 0.7806
+      },
+      {
+        "pitcher_name": "Cal Quantrill",
+        "team": "Texas Rangers",
+        "opponent": "Detroit Tigers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 4.03,
+        "p_over": 0.1142,
+        "p_under": 0.8858
       }
     ],
     "calibration": [
@@ -953,11 +973,11 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 16,
-    "total_graded": 76,
-    "accuracy": 0.706,
-    "no_signal_count": 42,
-    "no_signal_rate": 0.553,
+    "today_count": 18,
+    "total_graded": 78,
+    "accuracy": 0.714,
+    "no_signal_count": 43,
+    "no_signal_rate": 0.551,
     "matches": [
       {
         "tour": "atp",
@@ -1118,6 +1138,26 @@
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
         "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Jiri Lehecka",
+        "player_b": "Jaume Munar",
+        "elo_a": 1602.1,
+        "elo_b": 1518.3,
+        "p_a_wins": 0.6183,
+        "winner": "Jiri Lehecka"
+      },
+      {
+        "tour": "wta",
+        "round": "Round 3",
+        "player_a": "Alexandra Eala",
+        "player_b": "Iga Swiatek",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": "Alexandra Eala"
       }
     ],
     "trend": [
@@ -1138,8 +1178,8 @@
       },
       {
         "date": "2026-07-04",
-        "accuracy": 0.7059,
-        "n": 34
+        "accuracy": 0.7143,
+        "n": 35
       }
     ]
   },
