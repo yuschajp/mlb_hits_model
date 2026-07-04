@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-04",
   "hits": {
-    "today_count": 144,
+    "today_count": 270,
     "total_graded": 2026,
     "since_date": "2026-06-20",
     "brier_score": 0.2364,
@@ -11,6 +11,54 @@
     "actual_hit_rate": 0.6125,
     "top10_today": [
       {
+        "player_name": "Luis Arraez",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Sean Sullivan",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.801
+      },
+      {
+        "player_name": "Jung Hoo Lee",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Sean Sullivan",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hit": 0.7735
+      },
+      {
+        "player_name": "Casey Schmitt",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Sean Sullivan",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7645
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Kyle Leahy",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7575
+      },
+      {
+        "player_name": "Heliot Ramos",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Sean Sullivan",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7563
+      },
+      {
+        "player_name": "Otto Lopez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Aaron Civale",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 3,
+        "p_hit": 0.7527
+      },
+      {
         "player_name": "Trevor Larnach",
         "team": "Minnesota Twins",
         "opponent_pitcher": "Brendan Beck",
@@ -19,76 +67,28 @@
         "p_hit": 0.7339
       },
       {
-        "player_name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "T-Mobile Park",
-        "lineup_spot": 2,
-        "p_hit": 0.7063
-      },
-      {
-        "player_name": "Byron Buxton",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Brendan Beck",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.7018
-      },
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Carson Palmquist",
-        "venue": "Nationals Park",
+        "player_name": "William Contreras",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Chase Field",
         "lineup_spot": 4,
-        "p_hit": 0.701
+        "p_hit": 0.733
       },
       {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Carson Palmquist",
-        "venue": "Nationals Park",
-        "lineup_spot": 3,
-        "p_hit": 0.7003
-      },
-      {
-        "player_name": "Josh Jung",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Jack Flaherty",
-        "venue": "Globe Life Field",
-        "lineup_spot": 3,
-        "p_hit": 0.6982
-      },
-      {
-        "player_name": "Konnor Griffin",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Carson Palmquist",
-        "venue": "Nationals Park",
+        "player_name": "Liam Hicks",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Aaron Civale",
+        "venue": "Sutter Health Park",
         "lineup_spot": 1,
-        "p_hit": 0.6974
+        "p_hit": 0.7327
       },
       {
-        "player_name": "Kevin McGonigle",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Cal Quantrill",
-        "venue": "Globe Life Field",
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Chase Field",
         "lineup_spot": 1,
-        "p_hit": 0.6962
-      },
-      {
-        "player_name": "Dillon Dingler",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Cal Quantrill",
-        "venue": "Globe Life Field",
-        "lineup_spot": 2,
-        "p_hit": 0.6908
-      },
-      {
-        "player_name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Brandon Young",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hit": 0.6841
+        "p_hit": 0.7275
       }
     ],
     "calibration": [
@@ -286,7 +286,7 @@
     ]
   },
   "hr": {
-    "today_count": 144,
+    "today_count": 270,
     "total_graded": 1927,
     "since_date": "2026-06-21",
     "brier_score": 0.1079,
@@ -301,6 +301,14 @@
         "venue": "Yankee Stadium",
         "lineup_spot": 2,
         "p_hr": 0.299
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Robbie Ray",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2889
       },
       {
         "player_name": "Ben Rice",
@@ -319,12 +327,28 @@
         "p_hr": 0.2596
       },
       {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Chase Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2264
+      },
+      {
         "player_name": "Josh Bell",
         "team": "Minnesota Twins",
         "opponent_pitcher": "Brendan Beck",
         "venue": "Yankee Stadium",
         "lineup_spot": 4,
         "p_hr": 0.2222
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Sean Sullivan",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2219
       },
       {
         "player_name": "Junior Caminero",
@@ -343,36 +367,12 @@
         "p_hr": 0.2134
       },
       {
-        "player_name": "Brooks Lee",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Brendan Beck",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 6,
-        "p_hr": 0.2057
-      },
-      {
-        "player_name": "Jazz Chisholm Jr.",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Zebby Matthews",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 6,
-        "p_hr": 0.2031
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Drew Rasmussen",
-        "venue": "Daikin Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1973
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "Nationals Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1953
+        "player_name": "Jordan Walker",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 3,
+        "p_hr": 0.207
       }
     ],
     "calibration": [
@@ -552,12 +552,12 @@
     ]
   },
   "k": {
-    "today_count": 19,
+    "today_count": 30,
     "total_graded": 129,
     "since_date": "2026-06-27",
     "brier_score": 0.1651,
     "naive_brier": 0.25,
-    "avg_lambda": 5.31,
+    "avg_lambda": 5.0,
     "over_rate": 0.256,
     "top10_today": [
       {
@@ -581,16 +581,6 @@
         "p_under": 0.5586
       },
       {
-        "pitcher_name": "Parker Messick",
-        "team": "Cleveland Guardians",
-        "opponent": "Chicago White Sox",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 6.14,
-        "p_over": 0.4165,
-        "p_under": 0.5835
-      },
-      {
         "pitcher_name": "Jes\u00fas Luzardo",
         "team": "Philadelphia Phillies",
         "opponent": "Kansas City Royals",
@@ -601,14 +591,34 @@
         "p_under": 0.6124
       },
       {
-        "pitcher_name": "Hunter Greene",
-        "team": "Cincinnati Reds",
-        "opponent": "Baltimore Orioles",
-        "venue": "Great American Ball Park",
+        "pitcher_name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "opponent": "Chicago White Sox",
+        "venue": "Progressive Field",
         "line": 6.5,
-        "lambda_k": 5.81,
-        "p_over": 0.3636,
-        "p_under": 0.6364
+        "lambda_k": 5.94,
+        "p_over": 0.3847,
+        "p_under": 0.6153
+      },
+      {
+        "pitcher_name": "Sonny Gray",
+        "team": "Boston Red Sox",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 5.87,
+        "p_over": 0.3729,
+        "p_under": 0.6271
+      },
+      {
+        "pitcher_name": "Yoshinobu Yamamoto",
+        "team": "Los Angeles Dodgers",
+        "opponent": "San Diego Padres",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 5.8,
+        "p_over": 0.3623,
+        "p_under": 0.6377
       },
       {
         "pitcher_name": "Drew Rasmussen",
@@ -641,24 +651,14 @@
         "p_under": 0.7005
       },
       {
-        "pitcher_name": "Brandon Young",
-        "team": "Baltimore Orioles",
-        "opponent": "Cincinnati Reds",
+        "pitcher_name": "Hunter Greene",
+        "team": "Cincinnati Reds",
+        "opponent": "Baltimore Orioles",
         "venue": "Great American Ball Park",
         "line": 6.5,
-        "lambda_k": 5.38,
-        "p_over": 0.2951,
-        "p_under": 0.7049
-      },
-      {
-        "pitcher_name": "Zebby Matthews",
-        "team": "Minnesota Twins",
-        "opponent": "New York Yankees",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 5.36,
-        "p_over": 0.2913,
-        "p_under": 0.7087
+        "lambda_k": 5.41,
+        "p_over": 0.2992,
+        "p_under": 0.7008
       }
     ],
     "calibration": [
@@ -735,13 +735,13 @@
         "home_team": "Paraguay",
         "away_team": "France",
         "stage": "Round of 16",
-        "xg_home": 0.64,
-        "xg_away": 2.36,
-        "p_home": 0.0827,
-        "p_draw": 0.1586,
-        "p_away": 0.7587,
-        "over_2_5": 0.576,
-        "btts": 0.4273,
+        "xg_home": 0.49,
+        "xg_away": 2.13,
+        "p_home": 0.072,
+        "p_draw": 0.1711,
+        "p_away": 0.757,
+        "over_2_5": 0.486,
+        "btts": 0.3407,
         "graded": false,
         "result": null
       },
