@@ -246,3 +246,5 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-04,wta,Wimbledon,Round 3,Madison Keys,Amanda Anisimova,1500.0,1500.0,0.5,0.5,,False
 2026-07-04,atp,Wimbledon,Round 3,Jiri Lehecka,Jaume Munar,1602.1,1518.3,0.6183,0.3817,Jiri Lehecka,True
 2026-07-04,wta,Wimbledon,Round 3,Alexandra Eala,Iga Swiatek,1500.0,1500.0,0.5,0.5,Alexandra Eala,True
+2026-07-04,atp,Wimbledon,Round 3,Taylor Fritz,Lorenzo Sonego,1680.9,1517.4,0.7194,0.2806,Taylor Fritz,True
+2026-07-04,atp,Wimbledon,Round 3,Grigor Dimitrov,Matteo Berrettini,1606.0,1578.6,0.5393,0.4607,Grigor Dimitrov,True

@@ -130,7 +130,20 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-03,823120,622491,Luis Castillo,Seattle Mariners,Toronto Blue Jays,T-Mobile Park,0.92,6.5,8.57,6.836,0.1999,76.7,26.3,4.96,4.207,0.1333,0.8667,4.0,True
 2026-07-04,822716,677952,Braxton Ashcraft,Pittsburgh Pirates,Washington Nationals,Nationals Park,0.97,6.5,10.135,11.798,0.2167,108.3,39.7,6.02,6.297,0.4414,0.5586,,False
 2026-07-04,822716,687223,Carson Palmquist,Washington Nationals,Pittsburgh Pirates,Nationals Park,0.99,6.5,11.813,11.813,0.2399,5.3,5.3,2.17,5.408,0.2995,0.7005,,False
-2026-07-04,823526,805673,Zebby Matthews,Minnesota Twins,New York Yankees,Yankee Stadium,0.98,6.5,7.349,6.991,0.2354,56.3,37.3,6.26,5.34,0.2891,0.7109,,False
-2026-07-04,823526,694341,Brendan Beck,New York Yankees,Minnesota Twins,Yankee Stadium,1.04,6.5,3.0,8.9,0.217,3.0,0.0,3.0,4.872,0.2194,0.7806,,False
-2026-07-04,822882,656427,Jack Flaherty,Detroit Tigers,Texas Rangers,Globe Life Field,0.95,6.5,11.08,11.5,0.2227,70.7,18.0,4.42,5.352,0.2909,0.7091,,False
-2026-07-04,822882,615698,Cal Quantrill,Texas Rangers,Detroit Tigers,Globe Life Field,1.02,6.5,6.368,7.071,0.2303,35.3,14.0,3.05,4.034,0.1142,0.8858,,False
+2026-07-04,823526,805673,Zebby Matthews,Minnesota Twins,New York Yankees,Yankee Stadium,0.98,6.5,7.525,7.286,0.2355,61.0,42.0,6.1,5.355,0.2913,0.7087,,False
+2026-07-04,823526,694341,Brendan Beck,New York Yankees,Minnesota Twins,Yankee Stadium,1.04,6.5,5.4,7.363,0.2171,6.7,3.7,3.33,4.673,0.1918,0.8082,,False
+2026-07-04,822882,656427,Jack Flaherty,Detroit Tigers,Texas Rangers,Globe Life Field,0.95,6.5,10.899,10.451,0.2223,72.7,20.7,4.29,5.12,0.2556,0.7444,,False
+2026-07-04,822882,615698,Cal Quantrill,Texas Rangers,Detroit Tigers,Globe Life Field,1.02,6.5,6.339,6.882,0.2298,38.3,17.0,3.04,3.898,0.1003,0.8997,,False
+2026-07-04,823118,669456,Shane Bieber,Toronto Blue Jays,Seattle Mariners,T-Mobile Park,1.0,6.5,6.545,6.545,0.2317,11.0,11.0,3.67,4.785,0.2072,0.7928,,False
+2026-07-04,823118,669302,Logan Gilbert,Seattle Mariners,Toronto Blue Jays,T-Mobile Park,0.92,6.5,9.706,10.853,0.1996,102.0,34.0,5.67,5.323,0.2864,0.7136,,False
+2026-07-04,824499,687064,Brandon Young,Baltimore Orioles,Cincinnati Reds,Great American Ball Park,0.97,6.5,7.092,7.75,0.2493,72.3,36.0,5.56,5.38,0.2951,0.7049,,False
+2026-07-04,824499,668881,Hunter Greene,Cincinnati Reds,Baltimore Orioles,Great American Ball Park,1.05,6.5,8.9,8.9,0.2426,0.0,0.0,5.5,5.813,0.3636,0.6364,,False
+2026-07-04,824171,656876,Drew Rasmussen,Tampa Bay Rays,Houston Astros,Daikin Park,0.97,6.5,9.196,10.459,0.2172,92.0,37.0,5.75,5.662,0.3396,0.6604,,False
+2026-07-04,824171,686613,Hunter Brown,Houston Astros,Tampa Bay Rays,Daikin Park,1.0,6.5,11.369,9.204,0.1869,25.3,14.7,5.07,4.63,0.1859,0.8141,,False
+2026-07-04,824415,680732,Sean Burke,Chicago White Sox,Cleveland Guardians,Progressive Field,1.02,6.5,9.227,11.296,0.2185,92.7,32.7,5.45,5.628,0.3342,0.6658,,False
+2026-07-04,824415,800048,Parker Messick,Cleveland Guardians,Chicago White Sox,Progressive Field,0.99,6.5,9.446,8.836,0.2386,101.0,36.7,5.94,6.142,0.4165,0.5835,,False
+2026-07-04,824658,681517,Kyle Leahy,St. Louis Cardinals,Chicago Cubs,Wrigley Field,0.97,6.5,7.414,7.337,0.2133,81.3,30.7,5.08,4.363,0.1518,0.8482,,False
+2026-07-04,824903,519242,Chris Sale,Atlanta Braves,New York Mets,Truist Park,1.01,6.5,10.9,11.348,0.223,90.0,23.0,6.0,6.454,0.4663,0.5337,,False
+2026-07-04,824334,592662,Robbie Ray,San Francisco Giants,Colorado Rockies,Coors Field,0.91,6.5,7.714,7.054,0.229,95.7,37.0,5.63,4.975,0.2341,0.7659,,False
+2026-07-04,824092,666200,Jesús Luzardo,Philadelphia Phillies,Kansas City Royals,Kauffman Stadium,1.03,6.5,10.726,11.103,0.2119,97.3,35.7,5.73,5.962,0.3876,0.6124,,False
+2026-07-04,824092,608379,Michael Wacha,Kansas City Royals,Philadelphia Phillies,Kauffman Stadium,0.94,6.5,6.957,5.635,0.2351,108.7,38.3,6.39,5.053,0.2456,0.7544,,False
