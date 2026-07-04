@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-03",
   "hits": {
-    "today_count": 72,
+    "today_count": 234,
     "total_graded": 1792,
     "since_date": "2026-06-20",
     "brier_score": 0.2362,
@@ -11,6 +11,22 @@
     "actual_hit_rate": 0.6144,
     "top10_today": [
       {
+        "player_name": "Luis Arraez",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7678
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7345
+      },
+      {
         "player_name": "Jordan Walker",
         "team": "St. Louis Cardinals",
         "opponent_pitcher": "David Peterson",
@@ -19,12 +35,12 @@
         "p_hit": 0.7318
       },
       {
-        "player_name": "Blaze Alexander",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 8,
-        "p_hit": 0.7279
+        "player_name": "Jung Hoo Lee",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hit": 0.7312
       },
       {
         "player_name": "Adley Rutschman",
@@ -32,15 +48,23 @@
         "opponent_pitcher": "Brady Singer",
         "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hit": 0.7263
+        "p_hit": 0.7289
       },
       {
-        "player_name": "Trevor Larnach",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
+        "player_name": "Blaze Alexander",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 8,
+        "p_hit": 0.7277
+      },
+      {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Logan Webb",
+        "venue": "Coors Field",
         "lineup_spot": 1,
-        "p_hit": 0.7248
+        "p_hit": 0.7228
       },
       {
         "player_name": "JJ Wetherholt",
@@ -51,44 +75,20 @@
         "p_hit": 0.7219
       },
       {
+        "player_name": "Taylor Ward",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hit": 0.721
+      },
+      {
         "player_name": "Pete Crow-Armstrong",
         "team": "Chicago Cubs",
         "opponent_pitcher": "Andre Pallante",
         "venue": "Wrigley Field",
         "lineup_spot": 1,
         "p_hit": 0.7204
-      },
-      {
-        "player_name": "Taylor Ward",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 3,
-        "p_hit": 0.7181
-      },
-      {
-        "player_name": "Gunnar Henderson",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7157
-      },
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 4,
-        "p_hit": 0.7126
-      },
-      {
-        "player_name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Trevor Rogers",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7089
       }
     ],
     "calibration": [
@@ -274,7 +274,7 @@
     ]
   },
   "hr": {
-    "today_count": 108,
+    "today_count": 234,
     "total_graded": 1693,
     "since_date": "2026-06-21",
     "brier_score": 0.1075,
@@ -288,7 +288,7 @@
         "opponent_pitcher": "Brady Singer",
         "venue": "Great American Ball Park",
         "lineup_spot": 4,
-        "p_hr": 0.2621
+        "p_hr": 0.265
       },
       {
         "player_name": "Ben Rice",
@@ -296,15 +296,7 @@
         "opponent_pitcher": "Mike Paredes",
         "venue": "Yankee Stadium",
         "lineup_spot": 2,
-        "p_hr": 0.2303
-      },
-      {
-        "player_name": "Gunnar Henderson",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2213
+        "p_hr": 0.2409
       },
       {
         "player_name": "Kody Clemens",
@@ -312,7 +304,7 @@
         "opponent_pitcher": "Gerrit Cole",
         "venue": "Yankee Stadium",
         "lineup_spot": 3,
-        "p_hr": 0.2198
+        "p_hr": 0.2348
       },
       {
         "player_name": "Samuel Basallo",
@@ -320,7 +312,23 @@
         "opponent_pitcher": "Brady Singer",
         "venue": "Great American Ball Park",
         "lineup_spot": 5,
-        "p_hr": 0.2181
+        "p_hr": 0.2315
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Spencer Arrighetti",
+        "venue": "Daikin Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2244
+      },
+      {
+        "player_name": "Gunnar Henderson",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2242
       },
       {
         "player_name": "Juan Soto",
@@ -328,7 +336,15 @@
         "opponent_pitcher": "Grant Holmes",
         "venue": "Truist Park",
         "lineup_spot": 2,
-        "p_hr": 0.2119
+        "p_hr": 0.224
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2162
       },
       {
         "player_name": "Brooks Lee",
@@ -336,31 +352,15 @@
         "opponent_pitcher": "Gerrit Cole",
         "venue": "Yankee Stadium",
         "lineup_spot": 2,
-        "p_hr": 0.2049
+        "p_hr": 0.2105
       },
       {
-        "player_name": "Colton Cowser",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 7,
-        "p_hr": 0.2043
-      },
-      {
-        "player_name": "Adley Rutschman",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
+        "player_name": "Casey Schmitt",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
         "lineup_spot": 2,
-        "p_hr": 0.2018
-      },
-      {
-        "player_name": "Paul Goldschmidt",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Mike Paredes",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.194
+        "p_hr": 0.2083
       }
     ],
     "calibration": [
@@ -528,23 +528,43 @@
     ]
   },
   "k": {
-    "today_count": 12,
+    "today_count": 26,
     "total_graded": 103,
     "since_date": "2026-06-27",
     "brier_score": 0.1656,
     "naive_brier": 0.25,
-    "avg_lambda": 4.83,
+    "avg_lambda": 4.92,
     "over_rate": 0.262,
     "top10_today": [
+      {
+        "pitcher_name": "Dylan Cease",
+        "team": "Toronto Blue Jays",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 7.53,
+        "p_over": 0.6254,
+        "p_under": 0.3746
+      },
       {
         "pitcher_name": "Gavin Williams",
         "team": "Cleveland Guardians",
         "opponent": "Chicago White Sox",
         "venue": "Progressive Field",
         "line": 6.5,
-        "lambda_k": 6.62,
-        "p_over": 0.4925,
-        "p_under": 0.5075
+        "lambda_k": 6.67,
+        "p_over": 0.5007,
+        "p_under": 0.4993
+      },
+      {
+        "pitcher_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent": "San Diego Padres",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 6.0,
+        "p_over": 0.3944,
+        "p_under": 0.6056
       },
       {
         "pitcher_name": "Foster Griffin",
@@ -552,9 +572,59 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 6.07,
-        "p_over": 0.4044,
-        "p_under": 0.5956
+        "lambda_k": 5.83,
+        "p_over": 0.3671,
+        "p_under": 0.6329
+      },
+      {
+        "pitcher_name": "Reid Detmers",
+        "team": "Los Angeles Angels",
+        "opponent": "Boston Red Sox",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 5.83,
+        "p_over": 0.3662,
+        "p_under": 0.6338
+      },
+      {
+        "pitcher_name": "Jake Bennett",
+        "team": "Boston Red Sox",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 5.55,
+        "p_over": 0.3227,
+        "p_under": 0.6773
+      },
+      {
+        "pitcher_name": "Jack Perkins",
+        "team": "Athletics",
+        "opponent": "Miami Marlins",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 5.44,
+        "p_over": 0.3051,
+        "p_under": 0.6949
+      },
+      {
+        "pitcher_name": "Logan Webb",
+        "team": "San Francisco Giants",
+        "opponent": "Colorado Rockies",
+        "venue": "Coors Field",
+        "line": 6.5,
+        "lambda_k": 5.42,
+        "p_over": 0.3011,
+        "p_under": 0.6989
+      },
+      {
+        "pitcher_name": "Kyle Harrison",
+        "team": "Milwaukee Brewers",
+        "opponent": "Arizona Diamondbacks",
+        "venue": "Chase Field",
+        "line": 6.5,
+        "lambda_k": 5.28,
+        "p_over": 0.2805,
+        "p_under": 0.7195
       },
       {
         "pitcher_name": "Brady Singer",
@@ -562,79 +632,9 @@
         "opponent": "Baltimore Orioles",
         "venue": "Great American Ball Park",
         "line": 6.5,
-        "lambda_k": 5.09,
-        "p_over": 0.2514,
-        "p_under": 0.7486
-      },
-      {
-        "pitcher_name": "Christian Scott",
-        "team": "New York Mets",
-        "opponent": "Atlanta Braves",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 5.0,
-        "p_over": 0.2371,
-        "p_under": 0.7629
-      },
-      {
-        "pitcher_name": "Trevor Rogers",
-        "team": "Baltimore Orioles",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 4.94,
-        "p_over": 0.2297,
-        "p_under": 0.7703
-      },
-      {
-        "pitcher_name": "Gerrit Cole",
-        "team": "New York Yankees",
-        "opponent": "Minnesota Twins",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 4.87,
-        "p_over": 0.2188,
-        "p_under": 0.7812
-      },
-      {
-        "pitcher_name": "Spencer Arrighetti",
-        "team": "Houston Astros",
-        "opponent": "Tampa Bay Rays",
-        "venue": "Daikin Park",
-        "line": 6.5,
-        "lambda_k": 4.86,
-        "p_over": 0.2172,
-        "p_under": 0.7828
-      },
-      {
-        "pitcher_name": "Grant Holmes",
-        "team": "Atlanta Braves",
-        "opponent": "New York Mets",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 4.63,
-        "p_over": 0.1857,
-        "p_under": 0.8143
-      },
-      {
-        "pitcher_name": "Andre Pallante",
-        "team": "St. Louis Cardinals",
-        "opponent": "Chicago Cubs",
-        "venue": "Wrigley Field",
-        "line": 6.5,
-        "lambda_k": 4.37,
-        "p_over": 0.1524,
-        "p_under": 0.8476
-      },
-      {
-        "pitcher_name": "Mike Paredes",
-        "team": "Minnesota Twins",
-        "opponent": "New York Yankees",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 4.12,
-        "p_over": 0.1231,
-        "p_under": 0.8769
+        "lambda_k": 5.07,
+        "p_over": 0.2476,
+        "p_under": 0.7524
       }
     ],
     "calibration": [
@@ -734,13 +734,13 @@
         "home_team": "Australia",
         "away_team": "Egypt",
         "stage": "Round of 32",
-        "xg_home": 0.87,
-        "xg_away": 1.12,
-        "p_home": 0.2812,
-        "p_draw": 0.3058,
-        "p_away": 0.413,
-        "over_2_5": 0.3212,
-        "btts": 0.3918,
+        "xg_home": 0.86,
+        "xg_away": 1.07,
+        "p_home": 0.2863,
+        "p_draw": 0.3128,
+        "p_away": 0.4009,
+        "over_2_5": 0.3038,
+        "btts": 0.3783,
         "graded": false,
         "result": null
       },
@@ -848,7 +848,7 @@
     ]
   },
   "wc_gs": {
-    "today_count": 17,
+    "today_count": 18,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -862,6 +862,15 @@
         "tournament_goals": 6,
         "lambda": 0.635,
         "p_scores": 0.47
+      },
+      {
+        "player": "Mohamed Hany",
+        "team": "Australia",
+        "opponent": "Egypt",
+        "match": "Australia vs Egypt",
+        "tournament_goals": 2,
+        "lambda": 0.453,
+        "p_scores": 0.364
       },
       {
         "player": "Connor Metcalfe",
@@ -900,28 +909,10 @@
         "p_scores": 0.2108
       },
       {
-        "player": "J\u00e1minton Campaz",
-        "team": "Colombia",
-        "opponent": "Ghana",
-        "match": "Colombia vs Ghana",
-        "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
-      },
-      {
         "player": "Emam Ashour",
         "team": "Egypt",
         "opponent": "Australia",
         "match": "Australia vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
-      },
-      {
-        "player": "Luis D\u00edaz",
-        "team": "Colombia",
-        "opponent": "Ghana",
-        "match": "Colombia vs Ghana",
         "tournament_goals": 1,
         "lambda": 0.237,
         "p_scores": 0.2108
@@ -936,7 +927,25 @@
         "p_scores": 0.2108
       },
       {
-        "player": "Tr\u00e9z\u00e9guet",
+        "player": "J\u00e1minton Campaz",
+        "team": "Colombia",
+        "opponent": "Ghana",
+        "match": "Colombia vs Ghana",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Luis D\u00edaz",
+        "team": "Colombia",
+        "opponent": "Ghana",
+        "match": "Colombia vs Ghana",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
+        "player": "Mostafa Zico",
         "team": "Egypt",
         "opponent": "Australia",
         "match": "Australia vs Egypt",
@@ -954,6 +963,15 @@
         "p_scores": 0.2108
       },
       {
+        "player": "Tr\u00e9z\u00e9guet",
+        "team": "Egypt",
+        "opponent": "Australia",
+        "match": "Australia vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.237,
+        "p_scores": 0.2108
+      },
+      {
         "player": "Mahmoud Saber",
         "team": "Egypt",
         "opponent": "Australia",
@@ -963,28 +981,10 @@
         "p_scores": 0.2108
       },
       {
-        "player": "Mostafa Zico",
-        "team": "Egypt",
-        "opponent": "Australia",
-        "match": "Australia vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.237,
-        "p_scores": 0.2108
-      },
-      {
-        "player": "Caleb Yirenkyi",
+        "player": "Derrick Luckassen",
         "team": "Ghana",
         "opponent": "Colombia",
         "match": "Colombia vs Ghana",
-        "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
-      },
-      {
-        "player": "H\u00e9lio Varela",
-        "team": "Cape Verde",
-        "opponent": "Argentina",
-        "match": "Argentina vs Cape Verde",
         "tournament_goals": 1,
         "lambda": 0.231,
         "p_scores": 0.2061
@@ -993,11 +993,11 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 37,
-    "total_graded": 69,
-    "accuracy": 0.688,
+    "today_count": 38,
+    "total_graded": 70,
+    "accuracy": 0.697,
     "no_signal_count": 37,
-    "no_signal_rate": 0.536,
+    "no_signal_rate": 0.529,
     "matches": [
       {
         "tour": "atp",
@@ -1368,6 +1368,16 @@
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
         "winner": "Karolina Muchova"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 3",
+        "player_a": "Felix Auger-Aliassime",
+        "player_b": "Michael Zheng",
+        "elo_a": 1572.3,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.6026,
+        "winner": "Felix Auger-Aliassime"
       }
     ],
     "trend": [
@@ -1383,8 +1393,8 @@
       },
       {
         "date": "2026-07-03",
-        "accuracy": 0.6875,
-        "n": 32
+        "accuracy": 0.697,
+        "n": 33
       }
     ]
   },
