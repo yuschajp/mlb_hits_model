@@ -128,7 +128,9 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-03,823933,660271,Shohei Ohtani,Los Angeles Dodgers,San Diego Padres,UNIQLO Field at Dodger Stadium,0.96,6.5,9.715,9.121,0.2265,79.7,24.7,6.13,6.004,0.3944,0.6056,9.0,True
 2026-07-03,823120,656302,Dylan Cease,Toronto Blue Jays,Seattle Mariners,T-Mobile Park,1.0,6.5,13.824,15.188,0.2307,83.3,21.3,5.56,7.526,0.6254,0.3746,9.0,True
 2026-07-03,823120,622491,Luis Castillo,Seattle Mariners,Toronto Blue Jays,T-Mobile Park,0.92,6.5,8.57,6.836,0.1999,76.7,26.3,4.96,4.207,0.1333,0.8667,4.0,True
-2026-07-04,822716,677952,Braxton Ashcraft,Pittsburgh Pirates,Washington Nationals,Nationals Park,0.97,6.5,10.081,11.912,0.2159,102.7,34.0,6.04,6.254,0.4345,0.5655,,False
-2026-07-04,822716,687223,Carson Palmquist,Washington Nationals,Pittsburgh Pirates,Nationals Park,0.99,6.5,8.308,8.308,0.2399,4.3,4.3,3.33,5.498,0.3137,0.6863,,False
+2026-07-04,822716,677952,Braxton Ashcraft,Pittsburgh Pirates,Washington Nationals,Nationals Park,0.97,6.5,10.135,11.798,0.2167,108.3,39.7,6.02,6.297,0.4414,0.5586,,False
+2026-07-04,822716,687223,Carson Palmquist,Washington Nationals,Pittsburgh Pirates,Nationals Park,0.99,6.5,11.813,11.813,0.2399,5.3,5.3,2.17,5.408,0.2995,0.7005,,False
 2026-07-04,823526,805673,Zebby Matthews,Minnesota Twins,New York Yankees,Yankee Stadium,0.98,6.5,7.349,6.991,0.2354,56.3,37.3,6.26,5.34,0.2891,0.7109,,False
 2026-07-04,823526,694341,Brendan Beck,New York Yankees,Minnesota Twins,Yankee Stadium,1.04,6.5,3.0,8.9,0.217,3.0,0.0,3.0,4.872,0.2194,0.7806,,False
+2026-07-04,822882,656427,Jack Flaherty,Detroit Tigers,Texas Rangers,Globe Life Field,0.95,6.5,11.08,11.5,0.2227,70.7,18.0,4.42,5.352,0.2909,0.7091,,False
+2026-07-04,822882,615698,Cal Quantrill,Texas Rangers,Detroit Tigers,Globe Life Field,1.02,6.5,6.368,7.071,0.2303,35.3,14.0,3.05,4.034,0.1142,0.8858,,False

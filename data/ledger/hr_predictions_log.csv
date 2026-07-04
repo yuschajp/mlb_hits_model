@@ -1934,24 +1934,24 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-03,823120,676391,Ernie Clement,Toronto Blue Jays,Seattle Mariners,7,T-Mobile Park,0.85,Luis Castillo,0.0799,0.0225,3.7,0.0,True
 2026-07-03,823120,815873,Sean Keys,Toronto Blue Jays,Seattle Mariners,8,T-Mobile Park,0.85,Luis Castillo,0.0965,0.0282,3.6,0.0,True
 2026-07-03,823120,665926,Andrés Giménez,Toronto Blue Jays,Seattle Mariners,9,T-Mobile Park,0.85,Luis Castillo,0.0789,0.0235,3.5,0.0,True
-2026-07-04,822716,695578,James Wood,Washington Nationals,Pittsburgh Pirates,1,Nationals Park,0.98,Braxton Ashcraft,0.1662,0.0423,4.3,,False
-2026-07-04,822716,671277,Luis García Jr.,Washington Nationals,Pittsburgh Pirates,2,Nationals Park,0.98,Braxton Ashcraft,0.1936,0.0512,4.2,,False
-2026-07-04,822716,678554,Curtis Mead,Washington Nationals,Pittsburgh Pirates,3,Nationals Park,0.98,Braxton Ashcraft,0.152,0.0402,4.1,,False
-2026-07-04,822716,682928,CJ Abrams,Washington Nationals,Pittsburgh Pirates,4,Nationals Park,0.98,Braxton Ashcraft,0.1523,0.0413,4.0,,False
-2026-07-04,822716,695734,Daylen Lile,Washington Nationals,Pittsburgh Pirates,5,Nationals Park,0.98,Braxton Ashcraft,0.1104,0.03,3.9,,False
-2026-07-04,822716,686611,Dylan Crews,Washington Nationals,Pittsburgh Pirates,6,Nationals Park,0.98,Braxton Ashcraft,0.1101,0.0307,3.8,,False
-2026-07-04,822716,677588,José Tena,Washington Nationals,Pittsburgh Pirates,7,Nationals Park,0.98,Braxton Ashcraft,0.099,0.0282,3.7,,False
-2026-07-04,822716,686452,Drew Millas,Washington Nationals,Pittsburgh Pirates,8,Nationals Park,0.98,Braxton Ashcraft,0.0894,0.026,3.6,,False
-2026-07-04,822716,683083,Nasim Nuñez,Washington Nationals,Pittsburgh Pirates,9,Nationals Park,0.98,Braxton Ashcraft,0.07,0.0207,3.5,,False
-2026-07-04,822716,804606,Konnor Griffin,Pittsburgh Pirates,Washington Nationals,1,Nationals Park,0.98,Carson Palmquist,0.1139,0.0281,4.3,,False
-2026-07-04,822716,664040,Brandon Lowe,Pittsburgh Pirates,Washington Nationals,2,Nationals Park,0.98,Carson Palmquist,0.1488,0.0384,4.2,,False
-2026-07-04,822716,668804,Bryan Reynolds,Pittsburgh Pirates,Washington Nationals,3,Nationals Park,0.98,Carson Palmquist,0.1335,0.0349,4.1,,False
-2026-07-04,822716,699013,Esmerlyn Valdez,Pittsburgh Pirates,Washington Nationals,4,Nationals Park,0.98,Carson Palmquist,0.1436,0.0387,4.0,,False
-2026-07-04,822716,656811,Ryan O'Hearn,Pittsburgh Pirates,Washington Nationals,5,Nationals Park,0.98,Carson Palmquist,0.1256,0.0344,3.9,,False
-2026-07-04,822716,693304,Nick Gonzales,Pittsburgh Pirates,Washington Nationals,6,Nationals Park,0.98,Carson Palmquist,0.0859,0.0236,3.8,,False
-2026-07-04,822716,663968,Jake Mangum,Pittsburgh Pirates,Washington Nationals,7,Nationals Park,0.98,Carson Palmquist,0.0757,0.0213,3.7,,False
-2026-07-04,822716,682997,Tyler Callihan,Pittsburgh Pirates,Washington Nationals,8,Nationals Park,0.98,Carson Palmquist,0.1103,0.0325,3.6,,False
-2026-07-04,822716,680779,Henry Davis,Pittsburgh Pirates,Washington Nationals,9,Nationals Park,0.98,Carson Palmquist,0.1101,0.0333,3.5,,False
+2026-07-04,822716,695578,James Wood,Washington Nationals,Pittsburgh Pirates,1,Nationals Park,0.98,Braxton Ashcraft,0.1757,0.0449,4.3,,False
+2026-07-04,822716,671277,Luis García Jr.,Washington Nationals,Pittsburgh Pirates,2,Nationals Park,0.98,Braxton Ashcraft,0.1953,0.0517,4.2,,False
+2026-07-04,822716,678554,Curtis Mead,Washington Nationals,Pittsburgh Pirates,3,Nationals Park,0.98,Braxton Ashcraft,0.1534,0.0406,4.1,,False
+2026-07-04,822716,682928,CJ Abrams,Washington Nationals,Pittsburgh Pirates,4,Nationals Park,0.98,Braxton Ashcraft,0.1539,0.0418,4.0,,False
+2026-07-04,822716,695734,Daylen Lile,Washington Nationals,Pittsburgh Pirates,5,Nationals Park,0.98,Braxton Ashcraft,0.1116,0.0303,3.9,,False
+2026-07-04,822716,686611,Dylan Crews,Washington Nationals,Pittsburgh Pirates,6,Nationals Park,0.98,Braxton Ashcraft,0.1115,0.0311,3.8,,False
+2026-07-04,822716,677588,José Tena,Washington Nationals,Pittsburgh Pirates,7,Nationals Park,0.98,Braxton Ashcraft,0.1002,0.0285,3.7,,False
+2026-07-04,822716,686452,Drew Millas,Washington Nationals,Pittsburgh Pirates,8,Nationals Park,0.98,Braxton Ashcraft,0.0905,0.0263,3.6,,False
+2026-07-04,822716,683083,Nasim Nuñez,Washington Nationals,Pittsburgh Pirates,9,Nationals Park,0.98,Braxton Ashcraft,0.071,0.021,3.5,,False
+2026-07-04,822716,804606,Konnor Griffin,Pittsburgh Pirates,Washington Nationals,1,Nationals Park,0.98,Carson Palmquist,0.1108,0.0273,4.3,,False
+2026-07-04,822716,664040,Brandon Lowe,Pittsburgh Pirates,Washington Nationals,2,Nationals Park,0.98,Carson Palmquist,0.1451,0.0373,4.2,,False
+2026-07-04,822716,668804,Bryan Reynolds,Pittsburgh Pirates,Washington Nationals,3,Nationals Park,0.98,Carson Palmquist,0.1301,0.034,4.1,,False
+2026-07-04,822716,699013,Esmerlyn Valdez,Pittsburgh Pirates,Washington Nationals,4,Nationals Park,0.98,Carson Palmquist,0.1396,0.0376,4.0,,False
+2026-07-04,822716,656811,Ryan O'Hearn,Pittsburgh Pirates,Washington Nationals,5,Nationals Park,0.98,Carson Palmquist,0.1224,0.0335,3.9,,False
+2026-07-04,822716,693304,Nick Gonzales,Pittsburgh Pirates,Washington Nationals,6,Nationals Park,0.98,Carson Palmquist,0.0838,0.023,3.8,,False
+2026-07-04,822716,663968,Jake Mangum,Pittsburgh Pirates,Washington Nationals,7,Nationals Park,0.98,Carson Palmquist,0.0738,0.0207,3.7,,False
+2026-07-04,822716,682997,Tyler Callihan,Pittsburgh Pirates,Washington Nationals,8,Nationals Park,0.98,Carson Palmquist,0.1073,0.0315,3.6,,False
+2026-07-04,822716,680779,Henry Davis,Pittsburgh Pirates,Washington Nationals,9,Nationals Park,0.98,Carson Palmquist,0.1073,0.0324,3.5,,False
 2026-07-04,823526,663757,Trent Grisham,New York Yankees,Minnesota Twins,1,Yankee Stadium,1.18,Zebby Matthews,0.2028,0.0527,4.3,,False
 2026-07-04,823526,700250,Ben Rice,New York Yankees,Minnesota Twins,2,Yankee Stadium,1.18,Zebby Matthews,0.2733,0.076,4.2,,False
 2026-07-04,823526,641355,Cody Bellinger,New York Yankees,Minnesota Twins,3,Yankee Stadium,1.18,Zebby Matthews,0.1814,0.0488,4.1,,False
@@ -1970,3 +1970,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-04,823526,668952,Ryan Kreidler,Minnesota Twins,New York Yankees,7,Yankee Stadium,1.18,Brendan Beck,0.1492,0.0437,3.7,,False
 2026-07-04,823526,807712,Luke Keaschall,Minnesota Twins,New York Yankees,8,Yankee Stadium,1.18,Brendan Beck,0.1087,0.032,3.6,,False
 2026-07-04,823526,656577,Alex Jackson,Minnesota Twins,New York Yankees,9,Yankee Stadium,1.18,Brendan Beck,0.1174,0.0357,3.5,,False
+2026-07-04,822882,592626,Joc Pederson,Texas Rangers,Detroit Tigers,1,Globe Life Field,1.0,Jack Flaherty,0.1668,0.0424,4.3,,False
+2026-07-04,822882,669701,Josh Smith,Texas Rangers,Detroit Tigers,2,Globe Life Field,1.0,Jack Flaherty,0.1123,0.0284,4.2,,False
+2026-07-04,822882,673962,Josh Jung,Texas Rangers,Detroit Tigers,3,Globe Life Field,1.0,Jack Flaherty,0.1081,0.0279,4.1,,False
+2026-07-04,822882,607043,Brandon Nimmo,Texas Rangers,Detroit Tigers,4,Globe Life Field,1.0,Jack Flaherty,0.1016,0.0268,4.0,,False
+2026-07-04,822882,696030,Alejandro Osuna,Texas Rangers,Detroit Tigers,5,Globe Life Field,1.0,Jack Flaherty,0.0819,0.0219,3.9,,False
+2026-07-04,822882,677649,Ezequiel Duran,Texas Rangers,Detroit Tigers,6,Globe Life Field,1.0,Jack Flaherty,0.0968,0.0268,3.8,,False
+2026-07-04,822882,694497,Evan Carter,Texas Rangers,Detroit Tigers,7,Globe Life Field,1.0,Jack Flaherty,0.1101,0.0315,3.7,,False
+2026-07-04,822882,553869,Elias Díaz,Texas Rangers,Detroit Tigers,8,Globe Life Field,1.0,Jack Flaherty,0.1099,0.0323,3.6,,False
+2026-07-04,822882,670032,Nicky Lopez,Texas Rangers,Detroit Tigers,9,Globe Life Field,1.0,Jack Flaherty,0.0834,0.0249,3.5,,False
+2026-07-04,822882,805808,Kevin McGonigle,Detroit Tigers,Texas Rangers,1,Globe Life Field,1.0,Cal Quantrill,0.1193,0.0295,4.3,,False
+2026-07-04,822882,693307,Dillon Dingler,Detroit Tigers,Texas Rangers,2,Globe Life Field,1.0,Cal Quantrill,0.165,0.0429,4.2,,False
+2026-07-04,822882,681481,Kerry Carpenter,Detroit Tigers,Texas Rangers,3,Globe Life Field,1.0,Cal Quantrill,0.17,0.0454,4.1,,False
+2026-07-04,822882,682985,Riley Greene,Detroit Tigers,Texas Rangers,4,Globe Life Field,1.0,Cal Quantrill,0.1317,0.0353,4.0,,False
+2026-07-04,822882,679529,Spencer Torkelson,Detroit Tigers,Texas Rangers,5,Globe Life Field,1.0,Cal Quantrill,0.1477,0.041,3.9,,False
+2026-07-04,822882,690993,Colt Keith,Detroit Tigers,Texas Rangers,6,Globe Life Field,1.0,Cal Quantrill,0.1247,0.0351,3.8,,False
+2026-07-04,822882,656716,Zach McKinstry,Detroit Tigers,Texas Rangers,7,Globe Life Field,1.0,Cal Quantrill,0.0962,0.0273,3.7,,False
+2026-07-04,822882,701162,Ben Malgeri,Detroit Tigers,Texas Rangers,8,Globe Life Field,1.0,Cal Quantrill,0.1033,0.0303,3.6,,False
+2026-07-04,822882,681546,James Outman,Detroit Tigers,Texas Rangers,9,Globe Life Field,1.0,Cal Quantrill,0.0997,0.03,3.5,,False
