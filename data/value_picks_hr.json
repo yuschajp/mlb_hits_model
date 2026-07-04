@@ -1,409 +1,220 @@
 {
-  "date": "2026-07-03",
+  "date": "2026-07-04",
   "picks": [
     {
-      "player_name": "Luis Arraez",
-      "team": "San Francisco Giants",
-      "model_p_hr": 0.1358,
-      "implied_prob": 0.04,
-      "edge": 0.0958,
-      "best_price": 2400,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jonny DeLuca",
-      "team": "Tampa Bay Rays",
-      "model_p_hr": 0.1343,
-      "implied_prob": 0.04,
-      "edge": 0.0943,
-      "best_price": 2400,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Sam Antonacci",
-      "team": "Chicago White Sox",
-      "model_p_hr": 0.1405,
-      "implied_prob": 0.0556,
-      "edge": 0.0849,
-      "best_price": 1700,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Victor Caratini",
-      "team": "Minnesota Twins",
-      "model_p_hr": 0.1782,
-      "implied_prob": 0.0952,
-      "edge": 0.083,
-      "best_price": 950,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Trevor Larnach",
-      "team": "Minnesota Twins",
-      "model_p_hr": 0.1587,
-      "implied_prob": 0.0769,
-      "edge": 0.0818,
-      "best_price": 1200,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Ryan Kreidler",
-      "team": "Minnesota Twins",
-      "model_p_hr": 0.1664,
-      "implied_prob": 0.087,
-      "edge": 0.0794,
-      "best_price": 1050,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Tristan Gray",
-      "team": "Minnesota Twins",
-      "model_p_hr": 0.1319,
-      "implied_prob": 0.0526,
-      "edge": 0.0793,
-      "best_price": 1800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Paul Goldschmidt",
-      "team": "New York Yankees",
-      "model_p_hr": 0.2122,
-      "implied_prob": 0.1333,
-      "edge": 0.0789,
-      "best_price": 650,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Josh Bell",
-      "team": "Minnesota Twins",
-      "model_p_hr": 0.1894,
-      "implied_prob": 0.1111,
-      "edge": 0.0783,
-      "best_price": 800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jung Hoo Lee",
-      "team": "San Francisco Giants",
-      "model_p_hr": 0.1304,
-      "implied_prob": 0.0526,
-      "edge": 0.0778,
-      "best_price": 1800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jasson Dom\u00ednguez",
-      "team": "New York Yankees",
-      "model_p_hr": 0.1681,
-      "implied_prob": 0.0952,
-      "edge": 0.0729,
-      "best_price": 950,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Royce Lewis",
-      "team": "Minnesota Twins",
-      "model_p_hr": 0.1821,
-      "implied_prob": 0.1111,
-      "edge": 0.071,
-      "best_price": 800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Ben Williamson",
-      "team": "Tampa Bay Rays",
-      "model_p_hr": 0.1096,
-      "implied_prob": 0.04,
-      "edge": 0.0696,
-      "best_price": 2400,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Chase Meidroth",
-      "team": "Chicago White Sox",
-      "model_p_hr": 0.1094,
-      "implied_prob": 0.04,
-      "edge": 0.0694,
-      "best_price": 2400,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jos\u00e9 Caballero",
-      "team": "New York Yankees",
-      "model_p_hr": 0.1557,
-      "implied_prob": 0.0909,
-      "edge": 0.0648,
-      "best_price": 1000,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Luke Keaschall",
-      "team": "Minnesota Twins",
-      "model_p_hr": 0.1174,
-      "implied_prob": 0.0526,
-      "edge": 0.0648,
-      "best_price": 1800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Cedric Mullins",
-      "team": "Tampa Bay Rays",
-      "model_p_hr": 0.1684,
-      "implied_prob": 0.1053,
-      "edge": 0.0631,
-      "best_price": 850,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Willy Adames",
-      "team": "San Francisco Giants",
-      "model_p_hr": 0.1846,
-      "implied_prob": 0.125,
-      "edge": 0.0596,
-      "best_price": 700,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Travis Bazzana",
-      "team": "Cleveland Guardians",
-      "model_p_hr": 0.1323,
-      "implied_prob": 0.0769,
-      "edge": 0.0554,
-      "best_price": 1200,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Nick Allen",
-      "team": "Houston Astros",
-      "model_p_hr": 0.0899,
-      "implied_prob": 0.0345,
-      "edge": 0.0554,
-      "best_price": 2800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jake Meyers",
-      "team": "Houston Astros",
-      "model_p_hr": 0.095,
-      "implied_prob": 0.04,
-      "edge": 0.055,
-      "best_price": 2400,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Tyler Freeman",
-      "team": "Colorado Rockies",
-      "model_p_hr": 0.0979,
+      "player_name": "J.P. Crawford",
+      "team": "Seattle Mariners",
+      "model_p_hr": 0.1406,
       "implied_prob": 0.0435,
-      "edge": 0.0544,
+      "edge": 0.0971,
       "best_price": 2200,
       "bookmaker": "betrivers"
     },
     {
-      "player_name": "Colson Montgomery",
-      "team": "Chicago White Sox",
-      "model_p_hr": 0.1867,
-      "implied_prob": 0.1333,
-      "edge": 0.0534,
-      "best_price": 650,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Drew Cavanaugh",
-      "team": "San Francisco Giants",
-      "model_p_hr": 0.1358,
-      "implied_prob": 0.0833,
-      "edge": 0.0525,
-      "best_price": 1100,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Taylor Walls",
-      "team": "Tampa Bay Rays",
-      "model_p_hr": 0.0839,
-      "implied_prob": 0.0345,
-      "edge": 0.0494,
-      "best_price": 2800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Ryan McMahon",
-      "team": "New York Yankees",
-      "model_p_hr": 0.1731,
-      "implied_prob": 0.125,
-      "edge": 0.0481,
-      "best_price": 700,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Junior Caminero",
-      "team": "Tampa Bay Rays",
-      "model_p_hr": 0.2199,
-      "implied_prob": 0.1724,
-      "edge": 0.0475,
-      "best_price": 480,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Rafael Devers",
-      "team": "San Francisco Giants",
-      "model_p_hr": 0.2113,
-      "implied_prob": 0.1639,
-      "edge": 0.0474,
-      "best_price": 510,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Kyle Teel",
-      "team": "Chicago White Sox",
-      "model_p_hr": 0.1381,
-      "implied_prob": 0.0909,
-      "edge": 0.0472,
-      "best_price": 1000,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Heliot Ramos",
-      "team": "San Francisco Giants",
-      "model_p_hr": 0.1803,
-      "implied_prob": 0.1333,
-      "edge": 0.047,
-      "best_price": 650,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Yandy D\u00edaz",
-      "team": "Tampa Bay Rays",
-      "model_p_hr": 0.1396,
-      "implied_prob": 0.0952,
-      "edge": 0.0444,
-      "best_price": 950,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jazz Chisholm Jr.",
-      "team": "New York Yankees",
-      "model_p_hr": 0.1908,
-      "implied_prob": 0.1481,
-      "edge": 0.0427,
-      "best_price": 575,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jose Altuve",
-      "team": "Houston Astros",
-      "model_p_hr": 0.1292,
-      "implied_prob": 0.087,
-      "edge": 0.0422,
-      "best_price": 1050,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Bryce Eldridge",
-      "team": "San Francisco Giants",
-      "model_p_hr": 0.1632,
-      "implied_prob": 0.125,
-      "edge": 0.0382,
-      "best_price": 700,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Braden Montgomery",
-      "team": "Chicago White Sox",
-      "model_p_hr": 0.1249,
-      "implied_prob": 0.087,
-      "edge": 0.0379,
-      "best_price": 1050,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Austin Wells",
-      "team": "New York Yankees",
-      "model_p_hr": 0.1319,
-      "implied_prob": 0.0952,
-      "edge": 0.0367,
-      "best_price": 950,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "David Fry",
-      "team": "Cleveland Guardians",
-      "model_p_hr": 0.1478,
-      "implied_prob": 0.1111,
-      "edge": 0.0367,
-      "best_price": 800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Andrew Benintendi",
-      "team": "Chicago White Sox",
-      "model_p_hr": 0.161,
-      "implied_prob": 0.125,
-      "edge": 0.036,
-      "best_price": 700,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "TJ Rumfield",
-      "team": "Colorado Rockies",
-      "model_p_hr": 0.1411,
-      "implied_prob": 0.1053,
-      "edge": 0.0358,
-      "best_price": 850,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Tristan Peters",
-      "team": "Chicago White Sox",
-      "model_p_hr": 0.1067,
-      "implied_prob": 0.0714,
-      "edge": 0.0353,
-      "best_price": 1300,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jonathan Aranda",
-      "team": "Tampa Bay Rays",
-      "model_p_hr": 0.1522,
-      "implied_prob": 0.1176,
-      "edge": 0.0346,
-      "best_price": 750,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Steven Kwan",
-      "team": "Cleveland Guardians",
-      "model_p_hr": 0.0736,
+      "player_name": "Colt Keith",
+      "team": "Detroit Tigers",
+      "model_p_hr": 0.129,
       "implied_prob": 0.04,
-      "edge": 0.0336,
+      "edge": 0.089,
       "best_price": 2400,
       "bookmaker": "betrivers"
     },
     {
-      "player_name": "Hunter Goodman",
-      "team": "Colorado Rockies",
-      "model_p_hr": 0.2215,
-      "implied_prob": 0.1887,
-      "edge": 0.0328,
-      "best_price": 430,
+      "player_name": "Joc Pederson",
+      "team": "Texas Rangers",
+      "model_p_hr": 0.1646,
+      "implied_prob": 0.0833,
+      "edge": 0.0813,
+      "best_price": 1100,
       "bookmaker": "betrivers"
     },
     {
-      "player_name": "Kyle Manzardo",
-      "team": "Cleveland Guardians",
-      "model_p_hr": 0.1302,
+      "player_name": "Dillon Dingler",
+      "team": "Detroit Tigers",
+      "model_p_hr": 0.1711,
+      "implied_prob": 0.0952,
+      "edge": 0.0759,
+      "best_price": 950,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Josh Smith",
+      "team": "Texas Rangers",
+      "model_p_hr": 0.1107,
+      "implied_prob": 0.04,
+      "edge": 0.0707,
+      "best_price": 2400,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Kerry Carpenter",
+      "team": "Detroit Tigers",
+      "model_p_hr": 0.1758,
+      "implied_prob": 0.1111,
+      "edge": 0.0647,
+      "best_price": 800,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Josh Naylor",
+      "team": "Seattle Mariners",
+      "model_p_hr": 0.1173,
+      "implied_prob": 0.0526,
+      "edge": 0.0647,
+      "best_price": 1800,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Josh Jung",
+      "team": "Texas Rangers",
+      "model_p_hr": 0.1067,
+      "implied_prob": 0.0435,
+      "edge": 0.0632,
+      "best_price": 2200,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Nathan Lukes",
+      "team": "Toronto Blue Jays",
+      "model_p_hr": 0.1154,
+      "implied_prob": 0.0526,
+      "edge": 0.0628,
+      "best_price": 1800,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Colt Emerson",
+      "team": "Seattle Mariners",
+      "model_p_hr": 0.1371,
+      "implied_prob": 0.0769,
+      "edge": 0.0602,
+      "best_price": 1200,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Elias D\u00edaz",
+      "team": "Texas Rangers",
+      "model_p_hr": 0.1084,
+      "implied_prob": 0.05,
+      "edge": 0.0584,
+      "best_price": 1900,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Kazuma Okamoto",
+      "team": "Toronto Blue Jays",
+      "model_p_hr": 0.1569,
       "implied_prob": 0.1,
-      "edge": 0.0302,
+      "edge": 0.0569,
       "best_price": 900,
       "bookmaker": "betrivers"
     },
     {
-      "player_name": "Brice Turang",
-      "team": "Milwaukee Brewers",
-      "model_p_hr": 0.155,
-      "implied_prob": 0.125,
-      "edge": 0.03,
-      "best_price": 700,
+      "player_name": "Yohendrick Pi\u00f1ango",
+      "team": "Toronto Blue Jays",
+      "model_p_hr": 0.1094,
+      "implied_prob": 0.0526,
+      "edge": 0.0568,
+      "best_price": 1800,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Sean Keys",
+      "team": "Toronto Blue Jays",
+      "model_p_hr": 0.11,
+      "implied_prob": 0.0556,
+      "edge": 0.0544,
+      "best_price": 1700,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Ernie Clement",
+      "team": "Toronto Blue Jays",
+      "model_p_hr": 0.0942,
+      "implied_prob": 0.0435,
+      "edge": 0.0507,
+      "best_price": 2200,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Luke Raley",
+      "team": "Seattle Mariners",
+      "model_p_hr": 0.1551,
+      "implied_prob": 0.1053,
+      "edge": 0.0498,
+      "best_price": 850,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Nicky Lopez",
+      "team": "Texas Rangers",
+      "model_p_hr": 0.0824,
+      "implied_prob": 0.0333,
+      "edge": 0.0491,
+      "best_price": 2900,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Cal Raleigh",
+      "team": "Seattle Mariners",
+      "model_p_hr": 0.1352,
+      "implied_prob": 0.087,
+      "edge": 0.0482,
+      "best_price": 1050,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Spencer Torkelson",
+      "team": "Detroit Tigers",
+      "model_p_hr": 0.1529,
+      "implied_prob": 0.1053,
+      "edge": 0.0476,
+      "best_price": 850,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Kevin McGonigle",
+      "team": "Detroit Tigers",
+      "model_p_hr": 0.1237,
+      "implied_prob": 0.0769,
+      "edge": 0.0468,
+      "best_price": 1200,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Victor Robles",
+      "team": "Seattle Mariners",
+      "model_p_hr": 0.0994,
+      "implied_prob": 0.0526,
+      "edge": 0.0468,
+      "best_price": 1800,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Cole Young",
+      "team": "Seattle Mariners",
+      "model_p_hr": 0.1258,
+      "implied_prob": 0.0833,
+      "edge": 0.0425,
+      "best_price": 1100,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Andr\u00e9s Gim\u00e9nez",
+      "team": "Toronto Blue Jays",
+      "model_p_hr": 0.0887,
+      "implied_prob": 0.05,
+      "edge": 0.0387,
+      "best_price": 1900,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Ryan Vilade",
+      "team": "Tampa Bay Rays",
+      "model_p_hr": 0.1407,
+      "implied_prob": 0.1053,
+      "edge": 0.0354,
+      "best_price": 850,
       "bookmaker": "betrivers"
     }
   ]
