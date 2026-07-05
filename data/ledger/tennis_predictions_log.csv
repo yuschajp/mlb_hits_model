@@ -248,11 +248,11 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-04,wta,Wimbledon,Round 3,Alexandra Eala,Iga Swiatek,1500.0,1500.0,0.5,0.5,Alexandra Eala,True
 2026-07-04,atp,Wimbledon,Round 3,Taylor Fritz,Lorenzo Sonego,1680.9,1517.4,0.7194,0.2806,Taylor Fritz,True
 2026-07-04,atp,Wimbledon,Round 3,Grigor Dimitrov,Matteo Berrettini,1606.0,1578.6,0.5393,0.4607,Grigor Dimitrov,True
-2026-07-05,atp,Wimbledon,Round 4,Novak Djokovic,Roman Safiullin,1669.8,1455.8,0.7741,0.2259,,False
+2026-07-05,atp,Wimbledon,Round 4,Novak Djokovic,Roman Safiullin,1669.8,1455.8,0.7741,0.2259,Novak Djokovic,True
 2026-07-05,atp,Wimbledon,Round 4,Alejandro Davidovich Fokina,Felix Auger-Aliassime,1579.5,1572.3,0.5104,0.4896,,False
 2026-07-05,atp,Wimbledon,Round 4,Jan-Lennard Struff,Hubert Hurkacz,1534.7,1598.0,0.4098,0.5902,,False
 2026-07-05,atp,Wimbledon,Round 4,Shintaro Mochizuki,Jannik Sinner,1422.0,1675.8,0.1883,0.8117,,False
 2026-07-05,wta,Wimbledon,Round 4,Jessica Pegula,Iva Jovic,1500.0,1500.0,0.5,0.5,Jessica Pegula,True
-2026-07-05,wta,Wimbledon,Round 4,Barbora Krejcikova,Karolina Muchova,1500.0,1500.0,0.5,0.5,,False
+2026-07-05,wta,Wimbledon,Round 4,Karolina Muchova,Barbora Krejcikova,1500.0,1500.0,0.5,0.5,Karolina Muchova,True
 2026-07-05,wta,Wimbledon,Round 4,Naomi Osaka,Aryna Sabalenka,1500.0,1500.0,0.5,0.5,,False
 2026-07-05,wta,Wimbledon,Round 4,Coco Gauff,Belinda Bencic,1500.0,1500.0,0.5,0.5,,False

@@ -158,6 +158,24 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-04,825063,518876,Merrill Kelly,Arizona Diamondbacks,Milwaukee Brewers,Chase Field,1.02,6.5,5.18,4.277,0.2108,81.7,33.7,5.83,3.734,0.0849,0.9151,6.0,True
 2026-07-04,823932,593974,Wandy Peralta,San Diego Padres,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,0.92,6.5,5.956,4.95,0.2023,45.3,20.0,1.0,3.212,0.0453,0.9547,0.0,True
 2026-07-04,823932,808967,Yoshinobu Yamamoto,Los Angeles Dodgers,San Diego Padres,UNIQLO Field at Dodger Stadium,0.96,6.5,8.293,8.287,0.2283,97.7,33.7,6.51,5.804,0.3623,0.6377,10.0,True
+2026-07-05,824902,690997,Nolan McLean,New York Mets,Atlanta Braves,Truist Park,0.97,6.5,10.668,10.059,0.2103,95.3,34.0,5.61,5.667,0.3404,0.6596,,False
 2026-07-05,824902,527048,Martín Pérez,Atlanta Braves,New York Mets,Truist Park,1.01,6.5,7.13,6.75,0.2233,77.0,25.3,5.0,4.419,0.1587,0.8413,,False
-2026-07-05,822715,696149,Bubba Chandler,Pittsburgh Pirates,Washington Nationals,Nationals Park,0.97,6.5,8.3,7.218,0.2169,85.7,33.7,5.04,4.563,0.1772,0.8228,,False
-2026-07-05,824497,666157,Nick Lodolo,Cincinnati Reds,Baltimore Orioles,Great American Ball Park,1.05,6.5,7.316,7.043,0.2421,51.7,30.7,5.17,5.036,0.243,0.757,,False
+2026-07-05,822715,696149,Bubba Chandler,Pittsburgh Pirates,Washington Nationals,Nationals Park,0.97,6.5,8.204,7.01,0.2166,86.7,34.7,4.81,4.375,0.1532,0.8468,,False
+2026-07-05,822715,676917,Cade Cavalli,Washington Nationals,Pittsburgh Pirates,Nationals Park,0.99,6.5,10.248,10.231,0.2401,91.3,31.7,4.81,5.781,0.3586,0.6414,,False
+2026-07-05,824497,680694,Kyle Bradish,Baltimore Orioles,Cincinnati Reds,Great American Ball Park,0.97,6.5,9.287,9.084,0.2481,94.0,35.7,5.22,5.88,0.3744,0.6256,,False
+2026-07-05,824497,666157,Nick Lodolo,Cincinnati Reds,Baltimore Orioles,Great American Ball Park,1.05,6.5,7.088,6.888,0.2417,53.3,32.7,4.82,4.77,0.205,0.795,,False
+2026-07-05,823525,657746,Joe Ryan,Minnesota Twins,New York Yankees,Yankee Stadium,0.98,6.5,10.449,11.727,0.2353,97.3,33.0,5.41,6.403,0.4581,0.5419,,False
+2026-07-05,823525,677960,Ryan Weathers,New York Yankees,Minnesota Twins,Yankee Stadium,1.04,6.5,9.985,8.507,0.2171,88.3,24.3,5.52,5.407,0.2994,0.7006,,False
+2026-07-05,824413,669684,Chris Murphy,Chicago White Sox,Cleveland Guardians,Progressive Field,1.02,6.5,8.526,8.308,0.2204,19.0,13.0,1.33,4.831,0.2136,0.7864,,False
+2026-07-05,824413,676440,Tanner Bibee,Cleveland Guardians,Chicago White Sox,Progressive Field,0.99,6.5,7.3,6.407,0.2378,102.3,39.3,5.69,4.967,0.233,0.767,,False
+2026-07-05,824656,669461,Matthew Liberatore,St. Louis Cardinals,Chicago Cubs,Wrigley Field,0.97,6.5,8.601,9.0,0.2146,82.7,26.0,4.86,4.719,0.198,0.802,,False
+2026-07-05,824656,665871,Javier Assad,Chicago Cubs,St. Louis Cardinals,Wrigley Field,1.0,6.5,5.4,5.961,0.2025,51.7,25.7,5.29,3.844,0.0951,0.9049,,False
+2026-07-05,824091,605400,Aaron Nola,Philadelphia Phillies,Kansas City Royals,Kauffman Stadium,1.03,6.5,9.212,9.847,0.2143,85.0,28.3,5.0,5.026,0.2416,0.7584,,False
+2026-07-05,824091,679883,Luinder Avila,Kansas City Royals,Philadelphia Phillies,Kauffman Stadium,0.94,6.5,8.293,8.171,0.2346,46.7,25.3,3.73,4.539,0.1739,0.8261,,False
+2026-07-05,824172,669438,Mason Englert,Tampa Bay Rays,Houston Astros,Daikin Park,0.97,6.5,6.84,6.0,0.2159,25.0,9.0,4.0,4.356,0.151,0.849,,False
+2026-07-05,824172,663567,Peter Lambert,Houston Astros,Tampa Bay Rays,Daikin Park,1.0,6.5,8.233,7.759,0.1874,74.3,29.0,5.72,4.328,0.1476,0.8524,,False
+2026-07-05,822879,663554,Casey Mize,Detroit Tigers,Texas Rangers,Globe Life Field,0.95,6.5,9.415,9.866,0.222,65.0,17.3,5.42,5.485,0.3116,0.6884,,False
+2026-07-05,822879,677958,Kumar Rocker,Texas Rangers,Detroit Tigers,Globe Life Field,1.02,6.5,7.875,9.75,0.2296,80.0,24.0,5.0,5.081,0.2497,0.7503,,False
+2026-07-05,824333,641816,Tyler Mahle,San Francisco Giants,Colorado Rockies,Coors Field,0.91,6.5,8.64,6.3,0.2286,66.7,10.0,5.13,5.01,0.2393,0.7607,,False
+2026-07-05,824333,685299,Tanner Gordon,Colorado Rockies,San Francisco Giants,Coors Field,1.13,6.5,8.703,6.75,0.2064,40.3,8.0,4.03,4.142,0.126,0.874,,False
+2026-07-05,823117,676106,Emerson Hancock,Seattle Mariners,Toronto Blue Jays,T-Mobile Park,0.92,6.5,8.636,8.308,0.1999,90.7,26.0,5.67,4.75,0.2022,0.7978,,False
