@@ -159,3 +159,5 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-04,823932,593974,Wandy Peralta,San Diego Padres,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,0.92,6.5,5.956,4.95,0.2023,45.3,20.0,1.0,3.212,0.0453,0.9547,0.0,True
 2026-07-04,823932,808967,Yoshinobu Yamamoto,Los Angeles Dodgers,San Diego Padres,UNIQLO Field at Dodger Stadium,0.96,6.5,8.293,8.287,0.2283,97.7,33.7,6.51,5.804,0.3623,0.6377,10.0,True
 2026-07-05,824902,527048,Martín Pérez,Atlanta Braves,New York Mets,Truist Park,1.01,6.5,7.13,6.75,0.2233,77.0,25.3,5.0,4.419,0.1587,0.8413,,False
+2026-07-05,822715,696149,Bubba Chandler,Pittsburgh Pirates,Washington Nationals,Nationals Park,0.97,6.5,8.3,7.218,0.2169,85.7,33.7,5.04,4.563,0.1772,0.8228,,False
+2026-07-05,824497,666157,Nick Lodolo,Cincinnati Reds,Baltimore Orioles,Great American Ball Park,1.05,6.5,7.316,7.043,0.2421,51.7,30.7,5.17,5.036,0.243,0.757,,False
