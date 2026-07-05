@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-05",
   "hits": {
-    "today_count": 180,
+    "today_count": 252,
     "total_graded": 2296,
     "since_date": "2026-06-20",
     "brier_score": 0.2356,
@@ -56,7 +56,7 @@
         "opponent_pitcher": "Matthew Liberatore",
         "venue": "Wrigley Field",
         "lineup_spot": 1,
-        "p_hit": 0.7701
+        "p_hit": 0.7678
       },
       {
         "player_name": "TJ Rumfield",
@@ -75,20 +75,20 @@
         "p_hit": 0.7617
       },
       {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Mason Englert",
-        "venue": "Daikin Park",
-        "lineup_spot": 2,
-        "p_hit": 0.7608
-      },
-      {
         "player_name": "Mickey Moniak",
         "team": "Colorado Rockies",
         "opponent_pitcher": "Tyler Mahle",
         "venue": "Coors Field",
         "lineup_spot": 2,
         "p_hit": 0.7571
+      },
+      {
+        "player_name": "Troy Johnston",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hit": 0.7569
       }
     ],
     "calibration": [
@@ -1020,10 +1020,10 @@
   },
   "tennis": {
     "today_count": 8,
-    "total_graded": 83,
-    "accuracy": 0.737,
-    "no_signal_count": 45,
-    "no_signal_rate": 0.542,
+    "total_graded": 86,
+    "accuracy": 0.7,
+    "no_signal_count": 46,
+    "no_signal_rate": 0.535,
     "matches": [
       {
         "tour": "atp",
@@ -1038,12 +1038,12 @@
       {
         "tour": "atp",
         "round": "Round 4",
-        "player_a": "Alejandro Davidovich Fokina",
-        "player_b": "Felix Auger-Aliassime",
-        "elo_a": 1579.5,
-        "elo_b": 1572.3,
-        "p_a_wins": 0.5104,
-        "winner": null
+        "player_a": "Felix Auger-Aliassime",
+        "player_b": "Alejandro Davidovich Fokina",
+        "elo_a": 1572.3,
+        "elo_b": 1579.5,
+        "p_a_wins": 0.4896,
+        "winner": "Felix Auger-Aliassime"
       },
       {
         "tour": "atp",
@@ -1053,7 +1053,7 @@
         "elo_a": 1534.7,
         "elo_b": 1598.0,
         "p_a_wins": 0.4098,
-        "winner": null
+        "winner": "Jan-Lennard Struff"
       },
       {
         "tour": "atp",
@@ -1093,7 +1093,7 @@
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Naomi Osaka"
       },
       {
         "tour": "wta",
@@ -1129,8 +1129,8 @@
       },
       {
         "date": "2026-07-05",
-        "accuracy": 0.7368,
-        "n": 38
+        "accuracy": 0.7,
+        "n": 40
       }
     ]
   },
