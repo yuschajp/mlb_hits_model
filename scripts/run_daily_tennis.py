@@ -8,6 +8,35 @@ Elo ratings computed from recent ATP/WTA history.
 Run with: python3 scripts/run_daily_tennis.py
 Specify tour: python3 scripts/run_daily_tennis.py --tour wta
 Both tours:   python3 scripts/run_daily_tennis.py --tour both
+
+--- Bug fixes ---
+
+1. WRONG DATE STAMPED ON EVERY ROW: previously every row (completed or
+   pending) was stamped with today_str -- the date the SCRIPT ran, not
+   the date the match actually happened. Combined with the fallback
+   "no matches dated today -- show the most recent 40 instead", this
+   meant re-running the script on a later day could re-log an
+   already-completed match from days earlier as if it happened "today",
+   inflating today_count and total_graded with the same real match
+   counted again. Fixed: the row's date now comes from the match data
+   itself (comp["date"] from ESPN, already present on every match dict),
+   which is stable regardless of when the script happens to run.
+
+2. ORDER-DEPENDENT DEDUP KEY: the upsert key was (date, player_a,
+   player_b, round). For a pending match, player_a/player_b come from
+   ESPN's competitor order (p1, p2); once the match completes,
+   player_a/player_b become (winner, loser), which may not be the same
+   order as (p1, p2). That meant a pending row and its own completed
+   result could both persist as separate ledger rows instead of the
+   completed one properly superseding the pending one. Fixed: the dedup
+   key now uses an order-independent (frozenset of the two player names)
+   so a completed result correctly replaces its own earlier pending row.
+
+NOTE: these fixes prevent NEW duplication going forward. They do not
+retroactively clean up rows already duplicated in the ledger under the
+old logic -- see dedupe_ledger.py (or ask for a tennis-specific one-time
+cleanup) if the existing CSV needs a pass to remove already-created
+duplicates.
 """
 
 import argparse
@@ -29,28 +58,43 @@ TENNIS_COLUMNS = [
 ]
 
 
+def _match_key(row):
+    """
+    Order-independent dedup key: same real-world match should collide
+    regardless of which player got labeled player_a vs player_b, and
+    regardless of whether this is the pending or completed version of
+    that match.
+    """
+    return (row["date"], row["round"], frozenset([row["player_a"], row["player_b"]]))
+
+
 def _upsert(rows):
     TENNIS_LEDGER.parent.mkdir(parents=True, exist_ok=True)
+    existing_rows = []
     existing_keys = set()
 
     if TENNIS_LEDGER.exists():
         with open(TENNIS_LEDGER) as f:
             for row in csv.DictReader(f):
-                existing_keys.add((row["date"], row["player_a"], row["player_b"], row["round"]))
+                existing_rows.append(row)
+                existing_keys.add(_match_key(row))
 
-    new_rows = [
-        r for r in rows
-        if (r["date"], r["player_a"], r["player_b"], r["round"]) not in existing_keys
-    ]
+    new_keys = {_match_key(r): r for r in rows}
 
-    write_header = not TENNIS_LEDGER.exists()
-    with open(TENNIS_LEDGER, "a", newline="") as f:
+    # Keep existing rows EXCEPT any that a new row is about to supersede
+    # (e.g. a completed result replacing its own earlier pending row).
+    kept_existing = [r for r in existing_rows if _match_key(r) not in new_keys]
+
+    write_header = True
+    with open(TENNIS_LEDGER, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=TENNIS_COLUMNS)
-        if write_header:
-            writer.writeheader()
-        writer.writerows(new_rows)
+        writer.writeheader()
+        writer.writerows(kept_existing)
+        writer.writerows(rows)
 
-    return len(new_rows)
+    added = sum(1 for k in new_keys if k not in existing_keys)
+    updated = sum(1 for k in new_keys if k in existing_keys)
+    return added, updated
 
 
 def run_for_tour(tour):
@@ -92,8 +136,9 @@ def run_for_tour(tour):
     wimbledon_matches = todays_matches if todays_matches else all_wimbledon_matches[-40:]
     if not todays_matches:
         print(f"  No matches dated today specifically -- showing the {len(wimbledon_matches)} most recent instead.\n")
+        print(f"  (Each match below is still logged under its OWN actual date, not today's date,")
+        print(f"  so this doesn't re-stamp old results as if they happened today.)\n")
 
-    today_str = date.today().isoformat()
     rows = []
 
     completed = [m for m in wimbledon_matches if m.get("completed")]
@@ -106,7 +151,7 @@ def run_for_tour(tour):
         pred = predict_match(winner, loser, overall_elo, surface_elo, surface_counts)
 
         row = {
-            "date":       today_str,
+            "date":       m["date"],  # actual match date, not today's run date
             "tour":       tour,
             "tournament": "Wimbledon",
             "round":      m.get("round", ""),
@@ -134,7 +179,7 @@ def run_for_tour(tour):
         pred = predict_match(p1, p2, overall_elo, surface_elo, surface_counts)
 
         row = {
-            "date":       today_str,
+            "date":       m["date"],  # actual scheduled/current match date, not today's run date
             "tour":       tour,
             "tournament": "Wimbledon",
             "round":      m.get("round", ""),
@@ -154,8 +199,9 @@ def run_for_tour(tour):
         print(f"    Elo: {pred['elo_a']:.0f} vs {pred['elo_b']:.0f}  |  "
               f"Model favors {favored} ({max(pred['p_a_wins'], pred['p_b_wins']):.1%})")
 
-    added = _upsert(rows)
-    print(f"\nLogged {added} new prediction(s) for {tour.upper()}.")
+    added, updated = _upsert(rows)
+    print(f"\n{added} new prediction(s), {updated} existing prediction(s) refreshed "
+          f"(e.g. pending -> completed) for {tour.upper()}.")
     return rows
 
 
