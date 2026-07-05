@@ -414,14 +414,34 @@
     ]
   },
   "k": {
-    "today_count": 1,
+    "today_count": 3,
     "total_graded": 159,
     "since_date": "2026-06-27",
     "brier_score": 0.1709,
     "naive_brier": 0.25,
-    "avg_lambda": 4.42,
+    "avg_lambda": 4.67,
     "over_rate": 0.27,
     "top10_today": [
+      {
+        "pitcher_name": "Nick Lodolo",
+        "team": "Cincinnati Reds",
+        "opponent": "Baltimore Orioles",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.04,
+        "p_over": 0.243,
+        "p_under": 0.757
+      },
+      {
+        "pitcher_name": "Bubba Chandler",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 4.56,
+        "p_over": 0.1772,
+        "p_under": 0.8228
+      },
       {
         "pitcher_name": "Mart\u00edn P\u00e9rez",
         "team": "Atlanta Braves",
@@ -768,10 +788,10 @@
   },
   "tennis": {
     "today_count": 8,
-    "total_graded": 80,
+    "total_graded": 81,
     "accuracy": 0.73,
-    "no_signal_count": 43,
-    "no_signal_rate": 0.537,
+    "no_signal_count": 44,
+    "no_signal_rate": 0.543,
     "matches": [
       {
         "tour": "atp",
@@ -816,12 +836,12 @@
       {
         "tour": "wta",
         "round": "Round 4",
-        "player_a": "Iva Jovic",
-        "player_b": "Jessica Pegula",
+        "player_a": "Jessica Pegula",
+        "player_b": "Iva Jovic",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Jessica Pegula"
       },
       {
         "tour": "wta",
