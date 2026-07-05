@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-05",
   "hits": {
-    "today_count": 0,
+    "today_count": 180,
     "total_graded": 2296,
     "since_date": "2026-06-20",
     "brier_score": 0.2356,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6335,
     "actual_hit_rate": 0.6132,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Luis Arraez",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.852
+      },
+      {
+        "player_name": "Jung Hoo Lee",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hit": 0.8054
+      },
+      {
+        "player_name": "Casey Schmitt",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7997
+      },
+      {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7918
+      },
+      {
+        "player_name": "Heliot Ramos",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7722
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7701
+      },
+      {
+        "player_name": "TJ Rumfield",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7657
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7617
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Mason Englert",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7608
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7571
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -217,14 +298,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 180,
     "total_graded": 2197,
     "since_date": "2026-06-21",
     "brier_score": 0.1103,
     "naive_brier": 0.235,
     "avg_predicted": 0.1248,
     "actual_hr_rate": 0.1279,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.3172
+      },
+      {
+        "player_name": "Byron Buxton",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2638
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2608
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Peter Lambert",
+        "venue": "Daikin Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2433
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Mason Englert",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2414
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2335
+      },
+      {
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.2306
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2263
+      },
+      {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2117
+      },
+      {
+        "player_name": "Josh Bell",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2103
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -414,43 +576,113 @@
     ]
   },
   "k": {
-    "today_count": 3,
+    "today_count": 21,
     "total_graded": 159,
     "since_date": "2026-06-27",
     "brier_score": 0.1709,
     "naive_brier": 0.25,
-    "avg_lambda": 4.67,
+    "avg_lambda": 4.94,
     "over_rate": 0.27,
     "top10_today": [
       {
-        "pitcher_name": "Nick Lodolo",
-        "team": "Cincinnati Reds",
-        "opponent": "Baltimore Orioles",
+        "pitcher_name": "Joe Ryan",
+        "team": "Minnesota Twins",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 6.4,
+        "p_over": 0.4581,
+        "p_under": 0.5419
+      },
+      {
+        "pitcher_name": "Kyle Bradish",
+        "team": "Baltimore Orioles",
+        "opponent": "Cincinnati Reds",
         "venue": "Great American Ball Park",
         "line": 6.5,
-        "lambda_k": 5.04,
-        "p_over": 0.243,
-        "p_under": 0.757
+        "lambda_k": 5.88,
+        "p_over": 0.3744,
+        "p_under": 0.6256
       },
       {
-        "pitcher_name": "Bubba Chandler",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Washington Nationals",
+        "pitcher_name": "Cade Cavalli",
+        "team": "Washington Nationals",
+        "opponent": "Pittsburgh Pirates",
         "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 4.56,
-        "p_over": 0.1772,
-        "p_under": 0.8228
+        "lambda_k": 5.78,
+        "p_over": 0.3586,
+        "p_under": 0.6414
       },
       {
-        "pitcher_name": "Mart\u00edn P\u00e9rez",
-        "team": "Atlanta Braves",
-        "opponent": "New York Mets",
+        "pitcher_name": "Nolan McLean",
+        "team": "New York Mets",
+        "opponent": "Atlanta Braves",
         "venue": "Truist Park",
         "line": 6.5,
-        "lambda_k": 4.42,
-        "p_over": 0.1587,
-        "p_under": 0.8413
+        "lambda_k": 5.67,
+        "p_over": 0.3404,
+        "p_under": 0.6596
+      },
+      {
+        "pitcher_name": "Casey Mize",
+        "team": "Detroit Tigers",
+        "opponent": "Texas Rangers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.49,
+        "p_over": 0.3116,
+        "p_under": 0.6884
+      },
+      {
+        "pitcher_name": "Ryan Weathers",
+        "team": "New York Yankees",
+        "opponent": "Minnesota Twins",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 5.41,
+        "p_over": 0.2994,
+        "p_under": 0.7006
+      },
+      {
+        "pitcher_name": "Kumar Rocker",
+        "team": "Texas Rangers",
+        "opponent": "Detroit Tigers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.08,
+        "p_over": 0.2497,
+        "p_under": 0.7503
+      },
+      {
+        "pitcher_name": "Aaron Nola",
+        "team": "Philadelphia Phillies",
+        "opponent": "Kansas City Royals",
+        "venue": "Kauffman Stadium",
+        "line": 6.5,
+        "lambda_k": 5.03,
+        "p_over": 0.2416,
+        "p_under": 0.7584
+      },
+      {
+        "pitcher_name": "Tyler Mahle",
+        "team": "San Francisco Giants",
+        "opponent": "Colorado Rockies",
+        "venue": "Coors Field",
+        "line": 6.5,
+        "lambda_k": 5.01,
+        "p_over": 0.2393,
+        "p_under": 0.7607
+      },
+      {
+        "pitcher_name": "Tanner Bibee",
+        "team": "Cleveland Guardians",
+        "opponent": "Chicago White Sox",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 4.97,
+        "p_over": 0.233,
+        "p_under": 0.767
       }
     ],
     "calibration": [
@@ -788,10 +1020,10 @@
   },
   "tennis": {
     "today_count": 8,
-    "total_graded": 81,
-    "accuracy": 0.73,
-    "no_signal_count": 44,
-    "no_signal_rate": 0.543,
+    "total_graded": 83,
+    "accuracy": 0.737,
+    "no_signal_count": 45,
+    "no_signal_rate": 0.542,
     "matches": [
       {
         "tour": "atp",
@@ -801,7 +1033,7 @@
         "elo_a": 1669.8,
         "elo_b": 1455.8,
         "p_a_wins": 0.7741,
-        "winner": null
+        "winner": "Novak Djokovic"
       },
       {
         "tour": "atp",
@@ -846,12 +1078,12 @@
       {
         "tour": "wta",
         "round": "Round 4",
-        "player_a": "Barbora Krejcikova",
-        "player_b": "Karolina Muchova",
+        "player_a": "Karolina Muchova",
+        "player_b": "Barbora Krejcikova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Karolina Muchova"
       },
       {
         "tour": "wta",
@@ -894,6 +1126,11 @@
         "date": "2026-07-04",
         "accuracy": 0.7297,
         "n": 37
+      },
+      {
+        "date": "2026-07-05",
+        "accuracy": 0.7368,
+        "n": 38
       }
     ]
   },
