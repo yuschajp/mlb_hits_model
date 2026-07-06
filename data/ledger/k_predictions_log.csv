@@ -179,3 +179,5 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-05,824333,641816,Tyler Mahle,San Francisco Giants,Colorado Rockies,Coors Field,0.91,6.5,8.64,6.3,0.2286,66.7,10.0,5.13,5.01,0.2393,0.7607,5.0,True
 2026-07-05,824333,685299,Tanner Gordon,Colorado Rockies,San Francisco Giants,Coors Field,1.13,6.5,8.703,6.75,0.2064,40.3,8.0,4.03,4.142,0.126,0.874,7.0,True
 2026-07-05,823117,676106,Emerson Hancock,Seattle Mariners,Toronto Blue Jays,T-Mobile Park,0.92,6.5,8.636,8.308,0.1999,90.7,26.0,5.67,4.75,0.2022,0.7978,5.0,True
+2026-07-06,824089,650911,Cristopher Sánchez,Philadelphia Phillies,Kansas City Royals,Kauffman Stadium,1.03,6.5,10.462,9.796,0.2145,117.0,37.7,6.5,6.314,0.4441,0.5559,,False
+2026-07-06,824089,702070,Noah Cameron,Kansas City Royals,Philadelphia Phillies,Kauffman Stadium,0.94,6.5,8.068,7.839,0.2343,83.7,31.0,5.23,5.095,0.2518,0.7482,,False

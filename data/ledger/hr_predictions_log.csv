@@ -2384,3 +2384,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-05,824333,805811,Bryce Eldridge,San Francisco Giants,Colorado Rockies,7,Coors Field,1.28,Tanner Gordon,0.1753,0.0521,3.7,0.0,True
 2026-07-05,824333,687551,Drew Gilbert,San Francisco Giants,Colorado Rockies,8,Coors Field,1.28,Tanner Gordon,0.128,0.0381,3.6,1.0,True
 2026-07-05,824333,701852,Drew Cavanaugh,San Francisco Giants,Colorado Rockies,9,Coors Field,1.28,Tanner Gordon,0.1383,0.0425,3.5,0.0,True
+2026-07-06,824089,657041,Lane Thomas,Kansas City Royals,Philadelphia Phillies,1,Kauffman Stadium,0.85,Cristopher Sánchez,0.077,0.0186,4.3,,False
+2026-07-06,824089,677951,Bobby Witt Jr.,Kansas City Royals,Philadelphia Phillies,2,Kauffman Stadium,0.85,Cristopher Sánchez,0.0841,0.0209,4.2,,False
+2026-07-06,824089,521692,Salvador Perez,Kansas City Royals,Philadelphia Phillies,3,Kauffman Stadium,0.85,Cristopher Sánchez,0.0732,0.0185,4.1,,False
+2026-07-06,824089,695506,Jac Caglianone,Kansas City Royals,Philadelphia Phillies,4,Kauffman Stadium,0.85,Cristopher Sánchez,0.1016,0.0268,4.0,,False
+2026-07-06,824089,679845,Nick Loftin,Kansas City Royals,Philadelphia Phillies,5,Kauffman Stadium,0.85,Cristopher Sánchez,0.069,0.0183,3.9,,False
+2026-07-06,824089,516782,Starling Marte,Kansas City Royals,Philadelphia Phillies,6,Kauffman Stadium,0.85,Cristopher Sánchez,0.0642,0.0175,3.8,,False
+2026-07-06,824089,686475,Tyler Tolbert,Kansas City Royals,Philadelphia Phillies,7,Kauffman Stadium,0.85,Cristopher Sánchez,0.0641,0.0179,3.7,,False
+2026-07-06,824089,571912,Luke Maile,Kansas City Royals,Philadelphia Phillies,8,Kauffman Stadium,0.85,Cristopher Sánchez,0.0695,0.02,3.6,,False
+2026-07-06,824089,668942,Josh Rojas,Kansas City Royals,Philadelphia Phillies,9,Kauffman Stadium,0.85,Cristopher Sánchez,0.0697,0.0207,3.5,,False
+2026-07-06,824089,607208,Trea Turner,Philadelphia Phillies,Kansas City Royals,1,Kauffman Stadium,0.85,Noah Cameron,0.0972,0.0238,4.3,,False
+2026-07-06,824089,656941,Kyle Schwarber,Philadelphia Phillies,Kansas City Royals,2,Kauffman Stadium,0.85,Noah Cameron,0.1676,0.0437,4.2,,False
+2026-07-06,824089,547180,Bryce Harper,Philadelphia Phillies,Kansas City Royals,3,Kauffman Stadium,0.85,Noah Cameron,0.131,0.0342,4.1,,False
+2026-07-06,824089,664761,Alec Bohm,Philadelphia Phillies,Kansas City Royals,4,Kauffman Stadium,0.85,Noah Cameron,0.1097,0.0291,4.0,,False
+2026-07-06,824089,669016,Brandon Marsh,Philadelphia Phillies,Kansas City Royals,5,Kauffman Stadium,0.85,Noah Cameron,0.1246,0.0341,3.9,,False
+2026-07-06,824089,624641,Edmundo Sosa,Philadelphia Phillies,Kansas City Royals,6,Kauffman Stadium,0.85,Noah Cameron,0.1006,0.0279,3.8,,False
+2026-07-06,824089,681082,Bryson Stott,Philadelphia Phillies,Kansas City Royals,7,Kauffman Stadium,0.85,Noah Cameron,0.079,0.0222,3.7,,False
+2026-07-06,824089,592663,J.T. Realmuto,Philadelphia Phillies,Kansas City Royals,8,Kauffman Stadium,0.85,Noah Cameron,0.0885,0.0257,3.6,,False
+2026-07-06,824089,656537,Derek Hill,Philadelphia Phillies,Kansas City Royals,9,Kauffman Stadium,0.85,Noah Cameron,0.0956,0.0287,3.5,,False
