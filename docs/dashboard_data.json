@@ -1,114 +1,33 @@
 {
-  "generated_at": "2026-07-05",
+  "generated_at": "2026-07-06",
   "hits": {
-    "today_count": 252,
-    "total_graded": 2296,
+    "today_count": 0,
+    "total_graded": 2548,
     "since_date": "2026-06-20",
-    "brier_score": 0.2356,
-    "recent_brier_score": 0.2359,
+    "brier_score": 0.2352,
+    "recent_brier_score": 0.2334,
     "naive_brier": 0.235,
-    "avg_predicted": 0.6335,
-    "actual_hit_rate": 0.6132,
-    "top10_today": [
-      {
-        "player_name": "Luis Arraez",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Coors Field",
-        "lineup_spot": 1,
-        "p_hit": 0.852
-      },
-      {
-        "player_name": "Jung Hoo Lee",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Coors Field",
-        "lineup_spot": 5,
-        "p_hit": 0.8054
-      },
-      {
-        "player_name": "Casey Schmitt",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7997
-      },
-      {
-        "player_name": "Jake McCarthy",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Tyler Mahle",
-        "venue": "Coors Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7918
-      },
-      {
-        "player_name": "Heliot Ramos",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hit": 0.7722
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Wrigley Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7678
-      },
-      {
-        "player_name": "TJ Rumfield",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Tyler Mahle",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hit": 0.7657
-      },
-      {
-        "player_name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hit": 0.7617
-      },
-      {
-        "player_name": "Mickey Moniak",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Tyler Mahle",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7571
-      },
-      {
-        "player_name": "Troy Johnston",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Tyler Mahle",
-        "venue": "Coors Field",
-        "lineup_spot": 5,
-        "p_hit": 0.7569
-      }
-    ],
+    "avg_predicted": 0.6325,
+    "actual_hit_rate": 0.615,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 657,
+        "n": 742,
         "predicted": 0.563,
-        "actual": 0.581
+        "actual": 0.584
       },
       {
         "range": "0.6-0.8",
-        "n": 1613,
+        "n": 1778,
         "predicted": 0.659,
-        "actual": 0.624
+        "actual": 0.626
       },
       {
         "range": "0.8-1.0",
-        "n": 26,
-        "predicted": 0.823,
-        "actual": 0.769
+        "n": 28,
+        "predicted": 0.824,
+        "actual": 0.75
       }
     ],
     "returns": [
@@ -216,6 +135,13 @@
         "n_wins": 115,
         "daily_pnl": 44.545,
         "cumulative_pnl": 318.727
+      },
+      {
+        "date": "2026-07-05",
+        "n_bets": 168,
+        "n_wins": 109,
+        "daily_pnl": 40.091,
+        "cumulative_pnl": 358.818
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -294,111 +220,35 @@
         "date": "2026-07-04",
         "brier": 0.2359,
         "n": 1116
+      },
+      {
+        "date": "2026-07-05",
+        "brier": 0.2334,
+        "n": 1170
       }
     ]
   },
   "hr": {
-    "today_count": 180,
-    "total_graded": 2197,
+    "today_count": 0,
+    "total_graded": 2377,
     "since_date": "2026-06-21",
-    "brier_score": 0.1103,
+    "brier_score": 0.1104,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1248,
+    "avg_predicted": 0.1259,
     "actual_hr_rate": 0.1279,
-    "top10_today": [
-      {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Tyler Mahle",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hr": 0.3172
-      },
-      {
-        "player_name": "Byron Buxton",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.2638
-      },
-      {
-        "player_name": "Mickey Moniak",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Tyler Mahle",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2608
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Peter Lambert",
-        "venue": "Daikin Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2433
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Mason Englert",
-        "venue": "Daikin Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2414
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Wrigley Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2335
-      },
-      {
-        "player_name": "Kody Clemens",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.2306
-      },
-      {
-        "player_name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hr": 0.2263
-      },
-      {
-        "player_name": "Jake McCarthy",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Tyler Mahle",
-        "venue": "Coors Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2117
-      },
-      {
-        "player_name": "Josh Bell",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.2103
-      }
-    ],
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 2117,
-        "predicted": 0.121,
+        "n": 2283,
+        "predicted": 0.122,
         "actual": 0.122
       },
       {
         "range": "0.2-0.4",
-        "n": 80,
-        "predicted": 0.224,
-        "actual": 0.275
+        "n": 94,
+        "predicted": 0.225,
+        "actual": 0.266
       }
     ],
     "returns": [
@@ -499,6 +349,13 @@
         "n_wins": 18,
         "daily_pnl": 11.0,
         "cumulative_pnl": -114.0
+      },
+      {
+        "date": "2026-07-05",
+        "n_bets": 60,
+        "n_wins": 8,
+        "daily_pnl": -24.0,
+        "cumulative_pnl": -138.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -572,137 +429,41 @@
         "date": "2026-07-04",
         "brier": 0.1143,
         "n": 1170
+      },
+      {
+        "date": "2026-07-05",
+        "brier": 0.1173,
+        "n": 1152
       }
     ]
   },
   "k": {
-    "today_count": 21,
-    "total_graded": 159,
+    "today_count": 0,
+    "total_graded": 180,
     "since_date": "2026-06-27",
-    "brier_score": 0.1709,
+    "brier_score": 0.1697,
     "naive_brier": 0.25,
-    "avg_lambda": 4.94,
-    "over_rate": 0.27,
-    "top10_today": [
-      {
-        "pitcher_name": "Joe Ryan",
-        "team": "Minnesota Twins",
-        "opponent": "New York Yankees",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 6.4,
-        "p_over": 0.4581,
-        "p_under": 0.5419
-      },
-      {
-        "pitcher_name": "Kyle Bradish",
-        "team": "Baltimore Orioles",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 5.88,
-        "p_over": 0.3744,
-        "p_under": 0.6256
-      },
-      {
-        "pitcher_name": "Cade Cavalli",
-        "team": "Washington Nationals",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "Nationals Park",
-        "line": 6.5,
-        "lambda_k": 5.78,
-        "p_over": 0.3586,
-        "p_under": 0.6414
-      },
-      {
-        "pitcher_name": "Nolan McLean",
-        "team": "New York Mets",
-        "opponent": "Atlanta Braves",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 5.67,
-        "p_over": 0.3404,
-        "p_under": 0.6596
-      },
-      {
-        "pitcher_name": "Casey Mize",
-        "team": "Detroit Tigers",
-        "opponent": "Texas Rangers",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 5.49,
-        "p_over": 0.3116,
-        "p_under": 0.6884
-      },
-      {
-        "pitcher_name": "Ryan Weathers",
-        "team": "New York Yankees",
-        "opponent": "Minnesota Twins",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 5.41,
-        "p_over": 0.2994,
-        "p_under": 0.7006
-      },
-      {
-        "pitcher_name": "Kumar Rocker",
-        "team": "Texas Rangers",
-        "opponent": "Detroit Tigers",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 5.08,
-        "p_over": 0.2497,
-        "p_under": 0.7503
-      },
-      {
-        "pitcher_name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "opponent": "Kansas City Royals",
-        "venue": "Kauffman Stadium",
-        "line": 6.5,
-        "lambda_k": 5.03,
-        "p_over": 0.2416,
-        "p_under": 0.7584
-      },
-      {
-        "pitcher_name": "Tyler Mahle",
-        "team": "San Francisco Giants",
-        "opponent": "Colorado Rockies",
-        "venue": "Coors Field",
-        "line": 6.5,
-        "lambda_k": 5.01,
-        "p_over": 0.2393,
-        "p_under": 0.7607
-      },
-      {
-        "pitcher_name": "Tanner Bibee",
-        "team": "Cleveland Guardians",
-        "opponent": "Chicago White Sox",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 4.97,
-        "p_over": 0.233,
-        "p_under": 0.767
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.261,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 60,
-        "predicted": 0.138,
-        "actual": 0.1
+        "n": 68,
+        "predicted": 0.14,
+        "actual": 0.118
       },
       {
         "range": "0.2-0.4",
-        "n": 75,
-        "predicted": 0.282,
-        "actual": 0.32
+        "n": 87,
+        "predicted": 0.28,
+        "actual": 0.287
       },
       {
         "range": "0.4-0.6",
-        "n": 22,
+        "n": 23,
         "predicted": 0.474,
-        "actual": 0.5
+        "actual": 0.522
       },
       {
         "range": "0.6-0.8",
@@ -751,43 +512,20 @@
         "date": "2026-07-04",
         "brier": 0.1798,
         "n": 142
+      },
+      {
+        "date": "2026-07-05",
+        "brier": 0.1884,
+        "n": 141
       }
     ]
   },
   "wc": {
-    "today_count": 6,
-    "total_graded": 18,
-    "brier_home": 0.2296,
+    "today_count": 5,
+    "total_graded": 20,
+    "brier_home": 0.2385,
     "naive_brier": 0.222,
     "matches_today": [
-      {
-        "home_team": "Brazil",
-        "away_team": "Norway",
-        "stage": "Round of 16",
-        "xg_home": 2.41,
-        "xg_away": 1.29,
-        "p_home": 0.6218,
-        "p_draw": 0.1866,
-        "p_away": 0.1916,
-        "over_2_5": 0.7132,
-        "btts": 0.6582,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Mexico",
-        "away_team": "England",
-        "stage": "Round of 16",
-        "xg_home": 1.29,
-        "xg_away": 0.73,
-        "p_home": 0.4987,
-        "p_draw": 0.2904,
-        "p_away": 0.2109,
-        "over_2_5": 0.3282,
-        "btts": 0.375,
-        "graded": false,
-        "result": null
-      },
       {
         "home_team": "Portugal",
         "away_team": "Spain",
@@ -843,6 +581,20 @@
         "btts": 0.3892,
         "graded": false,
         "result": null
+      },
+      {
+        "home_team": "France",
+        "away_team": "Morocco",
+        "stage": "Quarter-final",
+        "xg_home": 1.7,
+        "xg_away": 0.99,
+        "p_home": 0.5413,
+        "p_draw": 0.2402,
+        "p_away": 0.2185,
+        "over_2_5": 0.5029,
+        "btts": 0.5124,
+        "graded": false,
+        "result": null
       }
     ],
     "trend": [
@@ -870,236 +622,241 @@
         "date": "2026-07-04",
         "brier": 0.2296,
         "n": 18
+      },
+      {
+        "date": "2026-07-05",
+        "brier": 0.2493,
+        "n": 19
       }
     ]
   },
   "wc_gs": {
-    "today_count": 18,
+    "today_count": 24,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
     "top15_today": [
       {
-        "player": "Vin\u00edcius J\u00fanior",
-        "team": "Brazil",
-        "opponent": "Norway",
-        "match": "Brazil vs Norway",
+        "player": "Folarin Balogun",
+        "team": "USA",
+        "opponent": "Belgium",
+        "match": "USA vs Belgium",
+        "tournament_goals": 3,
+        "lambda": 0.633,
+        "p_scores": 0.4693
+      },
+      {
+        "player": "Leandro Trossard",
+        "team": "Belgium",
+        "opponent": "USA",
+        "match": "USA vs Belgium",
+        "tournament_goals": 2,
+        "lambda": 0.592,
+        "p_scores": 0.4466
+      },
+      {
+        "player": "Youri Tielemans",
+        "team": "Belgium",
+        "opponent": "USA",
+        "match": "USA vs Belgium",
+        "tournament_goals": 2,
+        "lambda": 0.592,
+        "p_scores": 0.4466
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "team": "Spain",
+        "opponent": "Portugal",
+        "match": "Portugal vs Spain",
         "tournament_goals": 4,
-        "lambda": 1.319,
-        "p_scores": 0.7325
+        "lambda": 0.529,
+        "p_scores": 0.411
       },
       {
-        "player": "Matheus Cunha",
-        "team": "Brazil",
-        "opponent": "Norway",
-        "match": "Brazil vs Norway",
+        "player": "Romelu Lukaku",
+        "team": "Belgium",
+        "opponent": "USA",
+        "match": "USA vs Belgium",
+        "tournament_goals": 2,
+        "lambda": 0.453,
+        "p_scores": 0.364
+      },
+      {
+        "player": "Cristiano Ronaldo",
+        "team": "Portugal",
+        "opponent": "Spain",
+        "match": "Portugal vs Spain",
         "tournament_goals": 3,
-        "lambda": 1.267,
-        "p_scores": 0.7183
+        "lambda": 0.412,
+        "p_scores": 0.3375
       },
       {
-        "player": "Casemiro",
-        "team": "Brazil",
-        "opponent": "Norway",
-        "match": "Brazil vs Norway",
+        "player": "Alex Freeman",
+        "team": "USA",
+        "opponent": "Belgium",
+        "match": "USA vs Belgium",
         "tournament_goals": 1,
-        "lambda": 0.71,
-        "p_scores": 0.5084
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Gabriel Martinelli",
-        "team": "Brazil",
-        "opponent": "Norway",
-        "match": "Brazil vs Norway",
+        "player": "Damian Bobadilla",
+        "team": "USA",
+        "opponent": "Belgium",
+        "match": "USA vs Belgium",
         "tournament_goals": 1,
-        "lambda": 0.71,
-        "p_scores": 0.5084
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Erling Haaland",
-        "team": "Norway",
-        "opponent": "Brazil",
-        "match": "Brazil vs Norway",
-        "tournament_goals": 5,
-        "lambda": 0.524,
-        "p_scores": 0.4077
-      },
-      {
-        "player": "Harry Kane",
-        "team": "England",
-        "opponent": "Mexico",
-        "match": "Mexico vs England",
-        "tournament_goals": 5,
-        "lambda": 0.524,
-        "p_scores": 0.4077
-      },
-      {
-        "player": "Juli\u00e1n Qui\u00f1ones",
-        "team": "Mexico",
-        "opponent": "England",
-        "match": "Mexico vs England",
-        "tournament_goals": 3,
-        "lambda": 0.385,
-        "p_scores": 0.3193
-      },
-      {
-        "player": "Aymen Hussein",
-        "team": "Norway",
-        "opponent": "Brazil",
-        "match": "Brazil vs Norway",
-        "tournament_goals": 2,
-        "lambda": 0.385,
-        "p_scores": 0.3193
-      },
-      {
-        "player": "Ra\u00fal Jim\u00e9nez",
-        "team": "Mexico",
-        "opponent": "England",
-        "match": "Mexico vs England",
-        "tournament_goals": 2,
-        "lambda": 0.339,
-        "p_scores": 0.2878
-      },
-      {
-        "player": "Jude Bellingham",
-        "team": "England",
-        "opponent": "Mexico",
-        "match": "Mexico vs England",
-        "tournament_goals": 2,
-        "lambda": 0.294,
-        "p_scores": 0.2548
-      },
-      {
-        "player": "Luis Romo",
-        "team": "Mexico",
-        "opponent": "England",
-        "match": "Mexico vs England",
+        "player": "Sebastian Berhalter",
+        "team": "USA",
+        "opponent": "Belgium",
+        "match": "USA vs Belgium",
         "tournament_goals": 1,
-        "lambda": 0.266,
-        "p_scores": 0.2338
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Mateo Ch\u00e1vez",
-        "team": "Mexico",
-        "opponent": "England",
-        "match": "Mexico vs England",
+        "player": "Kevin De Bruyne",
+        "team": "Belgium",
+        "opponent": "USA",
+        "match": "USA vs Belgium",
         "tournament_goals": 1,
-        "lambda": 0.266,
-        "p_scores": 0.2338
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "\u00c1lvaro Fidalgo",
-        "team": "Mexico",
-        "opponent": "England",
-        "match": "Mexico vs England",
+        "player": "Alexis Saelemaekers",
+        "team": "Belgium",
+        "opponent": "USA",
+        "match": "USA vs Belgium",
         "tournament_goals": 1,
-        "lambda": 0.266,
-        "p_scores": 0.2338
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Leo \u00d8stigard",
-        "team": "Norway",
-        "opponent": "Brazil",
-        "match": "Brazil vs Norway",
+        "player": "Auston Trusty",
+        "team": "USA",
+        "opponent": "Belgium",
+        "match": "USA vs Belgium",
         "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Antonio Nusa",
-        "team": "Norway",
-        "opponent": "Brazil",
-        "match": "Brazil vs Norway",
+        "player": "Malik Tillman",
+        "team": "USA",
+        "opponent": "Belgium",
+        "match": "USA vs Belgium",
         "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
+        "lambda": 0.355,
+        "p_scores": 0.2988
+      },
+      {
+        "player": "Giovanni Reyna",
+        "team": "USA",
+        "opponent": "Belgium",
+        "match": "USA vs Belgium",
+        "tournament_goals": 1,
+        "lambda": 0.355,
+        "p_scores": 0.2988
+      },
+      {
+        "player": "Cameron Burgess",
+        "team": "USA",
+        "opponent": "Belgium",
+        "match": "USA vs Belgium",
+        "tournament_goals": 1,
+        "lambda": 0.355,
+        "p_scores": 0.2988
       }
     ],
     "calibration": []
   },
   "tennis": {
     "today_count": 8,
-    "total_graded": 86,
+    "total_graded": 87,
     "accuracy": 0.7,
-    "no_signal_count": 46,
-    "no_signal_rate": 0.535,
+    "no_signal_count": 47,
+    "no_signal_rate": 0.54,
     "matches": [
       {
         "tour": "atp",
         "round": "Round 4",
-        "player_a": "Novak Djokovic",
-        "player_b": "Roman Safiullin",
-        "elo_a": 1669.8,
-        "elo_b": 1455.8,
-        "p_a_wins": 0.7741,
-        "winner": "Novak Djokovic"
+        "player_a": "Flavio Cobolli",
+        "player_b": "Alex de Minaur",
+        "elo_a": 1546.3,
+        "elo_b": 1616.6,
+        "p_a_wins": 0.4001,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 4",
-        "player_a": "Felix Auger-Aliassime",
-        "player_b": "Alejandro Davidovich Fokina",
-        "elo_a": 1572.3,
-        "elo_b": 1579.5,
-        "p_a_wins": 0.4896,
-        "winner": "Felix Auger-Aliassime"
+        "player_a": "Arthur Fery",
+        "player_b": "Grigor Dimitrov",
+        "elo_a": 1485.8,
+        "elo_b": 1606.0,
+        "p_a_wins": 0.3336,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 4",
-        "player_a": "Jan-Lennard Struff",
-        "player_b": "Hubert Hurkacz",
-        "elo_a": 1534.7,
-        "elo_b": 1598.0,
-        "p_a_wins": 0.4098,
-        "winner": "Jan-Lennard Struff"
+        "player_a": "Alexander Bublik",
+        "player_b": "Taylor Fritz",
+        "elo_a": 1580.3,
+        "elo_b": 1680.9,
+        "p_a_wins": 0.3592,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Round 4",
-        "player_a": "Shintaro Mochizuki",
-        "player_b": "Jannik Sinner",
-        "elo_a": 1422.0,
-        "elo_b": 1675.8,
-        "p_a_wins": 0.1883,
+        "player_a": "Alexander Zverev",
+        "player_b": "Jiri Lehecka",
+        "elo_a": 1607.9,
+        "elo_b": 1602.1,
+        "p_a_wins": 0.5084,
         "winner": null
       },
       {
         "tour": "wta",
         "round": "Round 4",
-        "player_a": "Jessica Pegula",
-        "player_b": "Iva Jovic",
+        "player_a": "Marta Kostyuk",
+        "player_b": "Ashlyn Krueger",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Jessica Pegula"
+        "winner": "Marta Kostyuk"
       },
       {
         "tour": "wta",
         "round": "Round 4",
-        "player_a": "Karolina Muchova",
-        "player_b": "Barbora Krejcikova",
+        "player_a": "Elise Mertens",
+        "player_b": "Marie Bouzkova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Karolina Muchova"
+        "winner": null
       },
       {
         "tour": "wta",
         "round": "Round 4",
-        "player_a": "Naomi Osaka",
-        "player_b": "Aryna Sabalenka",
+        "player_a": "Alexandra Eala",
+        "player_b": "Jasmine Paolini",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Naomi Osaka"
+        "winner": null
       },
       {
         "tour": "wta",
         "round": "Round 4",
-        "player_a": "Coco Gauff",
-        "player_b": "Belinda Bencic",
+        "player_a": "Linda Noskova",
+        "player_b": "Madison Keys",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
