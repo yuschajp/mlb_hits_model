@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-06",
   "hits": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 2548,
     "since_date": "2026-06-20",
     "brier_score": 0.2352,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6325,
     "actual_hit_rate": 0.615,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.674
+      },
+      {
+        "player_name": "Brandon Marsh",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 5,
+        "p_hit": 0.6718
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 3,
+        "p_hit": 0.67
+      },
+      {
+        "player_name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.6593
+      },
+      {
+        "player_name": "Bobby Witt Jr.",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.6526
+      },
+      {
+        "player_name": "Bryson Stott",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 7,
+        "p_hit": 0.6347
+      },
+      {
+        "player_name": "Alec Bohm",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 4,
+        "p_hit": 0.6234
+      },
+      {
+        "player_name": "Edmundo Sosa",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 6,
+        "p_hit": 0.6181
+      },
+      {
+        "player_name": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 4,
+        "p_hit": 0.6044
+      },
+      {
+        "player_name": "Lane Thomas",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.5937
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -229,14 +310,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 2377,
     "since_date": "2026-06-21",
     "brier_score": 0.1104,
     "naive_brier": 0.235,
     "avg_predicted": 0.1259,
     "actual_hr_rate": 0.1279,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.1676
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.131
+      },
+      {
+        "player_name": "Brandon Marsh",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.1246
+      },
+      {
+        "player_name": "Alec Bohm",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.1097
+      },
+      {
+        "player_name": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.1016
+      },
+      {
+        "player_name": "Edmundo Sosa",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 6,
+        "p_hr": 0.1006
+      },
+      {
+        "player_name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.0972
+      },
+      {
+        "player_name": "Derek Hill",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 9,
+        "p_hr": 0.0956
+      },
+      {
+        "player_name": "J.T. Realmuto",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 8,
+        "p_hr": 0.0885
+      },
+      {
+        "player_name": "Bobby Witt Jr.",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.0841
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -438,14 +600,35 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 2,
     "total_graded": 180,
     "since_date": "2026-06-27",
     "brier_score": 0.1697,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.7,
     "over_rate": 0.261,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Cristopher S\u00e1nchez",
+        "team": "Philadelphia Phillies",
+        "opponent": "Kansas City Royals",
+        "venue": "Kauffman Stadium",
+        "line": 6.5,
+        "lambda_k": 6.31,
+        "p_over": 0.4441,
+        "p_under": 0.5559
+      },
+      {
+        "pitcher_name": "Noah Cameron",
+        "team": "Kansas City Royals",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Kauffman Stadium",
+        "line": 6.5,
+        "lambda_k": 5.09,
+        "p_over": 0.2518,
+        "p_under": 0.7482
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -777,10 +960,10 @@
   },
   "tennis": {
     "today_count": 8,
-    "total_graded": 87,
-    "accuracy": 0.7,
-    "no_signal_count": 47,
-    "no_signal_rate": 0.54,
+    "total_graded": 90,
+    "accuracy": 0.683,
+    "no_signal_count": 49,
+    "no_signal_rate": 0.544,
     "matches": [
       {
         "tour": "atp",
@@ -790,7 +973,7 @@
         "elo_a": 1546.3,
         "elo_b": 1616.6,
         "p_a_wins": 0.4001,
-        "winner": null
+        "winner": "Flavio Cobolli"
       },
       {
         "tour": "atp",
@@ -840,17 +1023,17 @@
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Elise Mertens"
       },
       {
         "tour": "wta",
         "round": "Round 4",
-        "player_a": "Alexandra Eala",
-        "player_b": "Jasmine Paolini",
+        "player_a": "Jasmine Paolini",
+        "player_b": "Alexandra Eala",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Jasmine Paolini"
       },
       {
         "tour": "wta",
@@ -888,6 +1071,11 @@
         "date": "2026-07-05",
         "accuracy": 0.7,
         "n": 40
+      },
+      {
+        "date": "2026-07-06",
+        "accuracy": 0.6829,
+        "n": 41
       }
     ]
   },
