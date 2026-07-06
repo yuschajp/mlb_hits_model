@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-06",
   "hits": {
-    "today_count": 18,
+    "today_count": 90,
     "total_graded": 2548,
     "since_date": "2026-06-20",
     "brier_score": 0.2352,
@@ -11,84 +11,84 @@
     "actual_hit_rate": 0.615,
     "top10_today": [
       {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Nationals Park",
         "lineup_spot": 2,
-        "p_hit": 0.674
+        "p_hit": 0.7497
       },
       {
-        "player_name": "Brandon Marsh",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 5,
-        "p_hit": 0.6718
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mike Burrows",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7343
       },
       {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Freddy Peralta",
+        "venue": "Truist Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7258
+      },
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mike Burrows",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7178
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Dustin May",
+        "venue": "Busch Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.6965
+      },
+      {
+        "player_name": "William Contreras",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Dustin May",
+        "venue": "Busch Stadium",
+        "lineup_spot": 4,
+        "p_hit": 0.6922
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Reynaldo L\u00f3pez",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6914
+      },
+      {
+        "player_name": "Ozzie Albies",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Freddy Peralta",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6848
+      },
+      {
+        "player_name": "Isaac Paredes",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Nationals Park",
         "lineup_spot": 3,
-        "p_hit": 0.67
+        "p_hit": 0.6848
       },
       {
-        "player_name": "Trea Turner",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 1,
-        "p_hit": 0.6593
-      },
-      {
-        "player_name": "Bobby Witt Jr.",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.6526
-      },
-      {
-        "player_name": "Bryson Stott",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 7,
-        "p_hit": 0.6347
-      },
-      {
-        "player_name": "Alec Bohm",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 4,
-        "p_hit": 0.6234
-      },
-      {
-        "player_name": "Edmundo Sosa",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 6,
-        "p_hit": 0.6181
-      },
-      {
-        "player_name": "Jac Caglianone",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 4,
-        "p_hit": 0.6044
-      },
-      {
-        "player_name": "Lane Thomas",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 1,
-        "p_hit": 0.5937
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Freddy Peralta",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hit": 0.6817
       }
     ],
     "calibration": [
@@ -310,7 +310,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 90,
     "total_graded": 2377,
     "since_date": "2026-06-21",
     "brier_score": 0.1104,
@@ -319,84 +319,84 @@
     "actual_hr_rate": 0.1279,
     "top10_today": [
       {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Nationals Park",
         "lineup_spot": 2,
-        "p_hr": 0.1676
+        "p_hr": 0.269
       },
       {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.131
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mike Burrows",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2616
       },
       {
-        "player_name": "Brandon Marsh",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.1246
-      },
-      {
-        "player_name": "Alec Bohm",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.1097
-      },
-      {
-        "player_name": "Jac Caglianone",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.1016
-      },
-      {
-        "player_name": "Edmundo Sosa",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 6,
-        "p_hr": 0.1006
-      },
-      {
-        "player_name": "Trea Turner",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mike Burrows",
+        "venue": "Nationals Park",
         "lineup_spot": 1,
-        "p_hr": 0.0972
+        "p_hr": 0.232
       },
       {
-        "player_name": "Derek Hill",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 9,
-        "p_hr": 0.0956
-      },
-      {
-        "player_name": "J.T. Realmuto",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 8,
-        "p_hr": 0.0885
-      },
-      {
-        "player_name": "Bobby Witt Jr.",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Kauffman Stadium",
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Griffin Jax",
+        "venue": "Tropicana Field",
         "lineup_spot": 2,
-        "p_hr": 0.0841
+        "p_hr": 0.2212
+      },
+      {
+        "player_name": "Curtis Mead",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mike Burrows",
+        "venue": "Nationals Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2066
+      },
+      {
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mike Burrows",
+        "venue": "Nationals Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2026
+      },
+      {
+        "player_name": "Christian Walker",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Miles Mikolas",
+        "venue": "Nationals Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2004
+      },
+      {
+        "player_name": "Paul Goldschmidt",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Griffin Jax",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1928
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1856
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Reynaldo L\u00f3pez",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1782
       }
     ],
     "calibration": [
@@ -600,12 +600,12 @@
     ]
   },
   "k": {
-    "today_count": 2,
+    "today_count": 11,
     "total_graded": 180,
     "since_date": "2026-06-27",
     "brier_score": 0.1697,
     "naive_brier": 0.25,
-    "avg_lambda": 5.7,
+    "avg_lambda": 4.76,
     "over_rate": 0.261,
     "top10_today": [
       {
@@ -619,6 +619,16 @@
         "p_under": 0.5559
       },
       {
+        "pitcher_name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.4,
+        "p_over": 0.2988,
+        "p_under": 0.7012
+      },
+      {
         "pitcher_name": "Noah Cameron",
         "team": "Kansas City Royals",
         "opponent": "Philadelphia Phillies",
@@ -627,6 +637,76 @@
         "lambda_k": 5.09,
         "p_over": 0.2518,
         "p_under": 0.7482
+      },
+      {
+        "pitcher_name": "Dustin May",
+        "team": "St. Louis Cardinals",
+        "opponent": "Milwaukee Brewers",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 4.98,
+        "p_over": 0.2348,
+        "p_under": 0.7652
+      },
+      {
+        "pitcher_name": "Griffin Jax",
+        "team": "Tampa Bay Rays",
+        "opponent": "New York Yankees",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 4.98,
+        "p_over": 0.2347,
+        "p_under": 0.7653
+      },
+      {
+        "pitcher_name": "Freddy Peralta",
+        "team": "New York Mets",
+        "opponent": "Atlanta Braves",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 4.68,
+        "p_over": 0.1932,
+        "p_under": 0.8068
+      },
+      {
+        "pitcher_name": "Reynaldo L\u00f3pez",
+        "team": "Atlanta Braves",
+        "opponent": "New York Mets",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 4.51,
+        "p_over": 0.1698,
+        "p_under": 0.8302
+      },
+      {
+        "pitcher_name": "Mike Burrows",
+        "team": "Houston Astros",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 4.43,
+        "p_over": 0.1602,
+        "p_under": 0.8398
+      },
+      {
+        "pitcher_name": "Shane Drohan",
+        "team": "Milwaukee Brewers",
+        "opponent": "St. Louis Cardinals",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 4.33,
+        "p_over": 0.1479,
+        "p_under": 0.8521
+      },
+      {
+        "pitcher_name": "Kyle Freeland",
+        "team": "Colorado Rockies",
+        "opponent": "Los Angeles Dodgers",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 4.31,
+        "p_over": 0.1456,
+        "p_under": 0.8544
       }
     ],
     "calibration": [
@@ -713,13 +793,13 @@
         "home_team": "Portugal",
         "away_team": "Spain",
         "stage": "Round of 16",
-        "xg_home": 0.73,
-        "xg_away": 1.1,
-        "p_home": 0.2408,
-        "p_draw": 0.3173,
-        "p_away": 0.4419,
-        "over_2_5": 0.2777,
-        "btts": 0.3457,
+        "xg_home": 0.56,
+        "xg_away": 1.07,
+        "p_home": 0.1904,
+        "p_draw": 0.3322,
+        "p_away": 0.4774,
+        "over_2_5": 0.2239,
+        "btts": 0.281,
         "graded": false,
         "result": null
       },
@@ -814,7 +894,7 @@
     ]
   },
   "wc_gs": {
-    "today_count": 24,
+    "today_count": 25,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -884,7 +964,7 @@
         "p_scores": 0.2988
       },
       {
-        "player": "Damian Bobadilla",
+        "player": "Giovanni Reyna",
         "team": "USA",
         "opponent": "Belgium",
         "match": "USA vs Belgium",
@@ -893,7 +973,7 @@
         "p_scores": 0.2988
       },
       {
-        "player": "Sebastian Berhalter",
+        "player": "Damian Bobadilla",
         "team": "USA",
         "opponent": "Belgium",
         "match": "USA vs Belgium",
@@ -929,7 +1009,7 @@
         "p_scores": 0.2988
       },
       {
-        "player": "Malik Tillman",
+        "player": "Sebastian Berhalter",
         "team": "USA",
         "opponent": "Belgium",
         "match": "USA vs Belgium",
@@ -938,7 +1018,7 @@
         "p_scores": 0.2988
       },
       {
-        "player": "Giovanni Reyna",
+        "player": "Malik Tillman",
         "team": "USA",
         "opponent": "Belgium",
         "match": "USA vs Belgium",
@@ -960,10 +1040,10 @@
   },
   "tennis": {
     "today_count": 8,
-    "total_graded": 90,
-    "accuracy": 0.683,
-    "no_signal_count": 49,
-    "no_signal_rate": 0.544,
+    "total_graded": 93,
+    "accuracy": 0.674,
+    "no_signal_count": 50,
+    "no_signal_rate": 0.538,
     "matches": [
       {
         "tour": "atp",
@@ -983,17 +1063,17 @@
         "elo_a": 1485.8,
         "elo_b": 1606.0,
         "p_a_wins": 0.3336,
-        "winner": null
+        "winner": "Arthur Fery"
       },
       {
         "tour": "atp",
         "round": "Round 4",
-        "player_a": "Alexander Bublik",
-        "player_b": "Taylor Fritz",
-        "elo_a": 1580.3,
-        "elo_b": 1680.9,
-        "p_a_wins": 0.3592,
-        "winner": null
+        "player_a": "Taylor Fritz",
+        "player_b": "Alexander Bublik",
+        "elo_a": 1680.9,
+        "elo_b": 1580.3,
+        "p_a_wins": 0.6408,
+        "winner": "Taylor Fritz"
       },
       {
         "tour": "atp",
@@ -1043,7 +1123,7 @@
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Linda Noskova"
       }
     ],
     "trend": [
@@ -1074,8 +1154,8 @@
       },
       {
         "date": "2026-07-06",
-        "accuracy": 0.6829,
-        "n": 41
+        "accuracy": 0.6744,
+        "n": 43
       }
     ]
   },
