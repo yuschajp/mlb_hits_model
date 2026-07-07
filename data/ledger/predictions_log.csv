@@ -2717,3 +2717,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-06,823930,664983,Jake McCarthy,Colorado Rockies,Los Angeles Dodgers,7,UNIQLO Field at Dodger Stadium,0.96,Eric Lauer,0.6457,0.2715,3.7,1.0,True
 2026-07-06,823930,687859,Troy Johnston,Colorado Rockies,Los Angeles Dodgers,8,UNIQLO Field at Dodger Stadium,0.96,Eric Lauer,0.6173,0.2592,3.6,0.0,True
 2026-07-06,823930,678662,Ezequiel Tovar,Colorado Rockies,Los Angeles Dodgers,9,UNIQLO Field at Dodger Stadium,0.96,Eric Lauer,0.532,0.2135,3.5,1.0,True
+2026-07-07,823062,802139,JJ Wetherholt,St. Louis Cardinals,Milwaukee Brewers,1,Busch Stadium,0.97,Jacob Misiorowski,0.5478,0.1853,4.3,,False
+2026-07-07,823062,671056,Iván Herrera,St. Louis Cardinals,Milwaukee Brewers,2,Busch Stadium,0.97,Jacob Misiorowski,0.5149,0.173,4.2,,False
+2026-07-07,823062,676475,Alec Burleson,St. Louis Cardinals,Milwaukee Brewers,3,Busch Stadium,0.97,Jacob Misiorowski,0.5367,0.1877,4.1,,False
+2026-07-07,823062,691023,Jordan Walker,St. Louis Cardinals,Milwaukee Brewers,4,Busch Stadium,0.97,Jacob Misiorowski,0.5285,0.1877,4.0,,False
+2026-07-07,823062,663457,Lars Nootbaar,St. Louis Cardinals,Milwaukee Brewers,5,Busch Stadium,0.97,Jacob Misiorowski,0.5006,0.1778,3.9,,False
+2026-07-07,823062,663494,Bryan Torres,St. Louis Cardinals,Milwaukee Brewers,6,Busch Stadium,0.97,Jacob Misiorowski,0.4747,0.169,3.8,,False
+2026-07-07,823062,701675,Nathan Church,St. Louis Cardinals,Milwaukee Brewers,7,Busch Stadium,0.97,Jacob Misiorowski,0.4822,0.177,3.7,,False
+2026-07-07,823062,665877,José Fermín,St. Louis Cardinals,Milwaukee Brewers,8,Busch Stadium,0.97,Jacob Misiorowski,0.4829,0.1818,3.6,,False
+2026-07-07,823062,699625,Jimmy Crooks,St. Louis Cardinals,Milwaukee Brewers,9,Busch Stadium,0.97,Jacob Misiorowski,0.4236,0.1561,3.5,,False
+2026-07-07,823062,592885,Christian Yelich,Milwaukee Brewers,St. Louis Cardinals,1,Busch Stadium,0.97,Matt Svanson,0.6574,0.2456,4.3,,False
+2026-07-07,823062,694192,Jackson Chourio,Milwaukee Brewers,St. Louis Cardinals,2,Busch Stadium,0.97,Matt Svanson,0.7066,0.2828,4.2,,False
+2026-07-07,823062,668930,Brice Turang,Milwaukee Brewers,St. Louis Cardinals,3,Busch Stadium,0.97,Matt Svanson,0.6791,0.2699,4.1,,False
+2026-07-07,823062,661388,William Contreras,Milwaukee Brewers,St. Louis Cardinals,4,Busch Stadium,0.97,Matt Svanson,0.6982,0.2887,4.0,,False
+2026-07-07,823062,641343,Jake Bauers,Milwaukee Brewers,St. Louis Cardinals,5,Busch Stadium,0.97,Matt Svanson,0.6524,0.2638,3.9,,False
+2026-07-07,823062,669003,Garrett Mitchell,Milwaukee Brewers,St. Louis Cardinals,6,Busch Stadium,0.97,Matt Svanson,0.6703,0.2818,3.8,,False
+2026-07-07,823062,686217,Sal Frelick,Milwaukee Brewers,St. Louis Cardinals,7,Busch Stadium,0.97,Matt Svanson,0.6349,0.2644,3.7,,False
+2026-07-07,823062,806198,Cooper Pratt,Milwaukee Brewers,St. Louis Cardinals,8,Busch Stadium,0.97,Matt Svanson,0.5961,0.2459,3.6,,False
+2026-07-07,823062,687401,Joey Ortiz,Milwaukee Brewers,St. Louis Cardinals,9,Busch Stadium,0.97,Matt Svanson,0.5851,0.2451,3.5,,False
