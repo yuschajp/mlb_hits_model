@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-07",
   "hits": {
-    "today_count": 18,
+    "today_count": 162,
     "total_graded": 2692,
     "since_date": "2026-06-20",
     "brier_score": 0.2348,
@@ -11,12 +11,44 @@
     "actual_hit_rate": 0.6163,
     "top10_today": [
       {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Shane Baz",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 1,
+        "p_hit": 0.7226
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Andrew Alvarez",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7182
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7182
+      },
+      {
         "player_name": "Jackson Chourio",
         "team": "Milwaukee Brewers",
         "opponent_pitcher": "Matt Svanson",
         "venue": "Busch Stadium",
         "lineup_spot": 2,
-        "p_hit": 0.7066
+        "p_hit": 0.7044
+      },
+      {
+        "player_name": "Jake Mangum",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Hurston Waldrep",
+        "venue": "PNC Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7001
       },
       {
         "player_name": "William Contreras",
@@ -24,71 +56,39 @@
         "opponent_pitcher": "Matt Svanson",
         "venue": "Busch Stadium",
         "lineup_spot": 4,
-        "p_hit": 0.6982
+        "p_hit": 0.696
       },
       {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
+        "player_name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hit": 0.6943
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6921
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
         "lineup_spot": 3,
-        "p_hit": 0.6791
+        "p_hit": 0.6907
       },
       {
-        "player_name": "Garrett Mitchell",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 6,
-        "p_hit": 0.6703
-      },
-      {
-        "player_name": "Christian Yelich",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
+        "player_name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
         "lineup_spot": 1,
-        "p_hit": 0.6574
-      },
-      {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 5,
-        "p_hit": 0.6524
-      },
-      {
-        "player_name": "Sal Frelick",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 7,
-        "p_hit": 0.6349
-      },
-      {
-        "player_name": "Cooper Pratt",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 8,
-        "p_hit": 0.5961
-      },
-      {
-        "player_name": "Joey Ortiz",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 9,
-        "p_hit": 0.5851
-      },
-      {
-        "player_name": "JJ Wetherholt",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "Busch Stadium",
-        "lineup_spot": 1,
-        "p_hit": 0.5478
+        "p_hit": 0.6876
       }
     ],
     "calibration": [
@@ -322,7 +322,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 162,
     "total_graded": 2521,
     "since_date": "2026-06-21",
     "brier_score": 0.1114,
@@ -331,84 +331,84 @@
     "actual_hr_rate": 0.1293,
     "top10_today": [
       {
-        "player_name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hr": 0.1515
+        "p_hr": 0.2575
       },
       {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.1393
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Tatsuya Imai",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2243
       },
       {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.1151
-      },
-      {
-        "player_name": "Garrett Mitchell",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 6,
-        "p_hr": 0.1148
-      },
-      {
-        "player_name": "Jordan Walker",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "Busch Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.1114
-      },
-      {
-        "player_name": "Alec Burleson",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "Busch Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.1088
-      },
-      {
-        "player_name": "Christian Yelich",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Tatsuya Imai",
+        "venue": "Nationals Park",
         "lineup_spot": 1,
-        "p_hr": 0.1081
+        "p_hr": 0.209
       },
       {
-        "player_name": "William Contreras",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2046
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1938
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Ian Seymour",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1889
+      },
+      {
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Payton Tolle",
+        "venue": "Rate Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1851
+      },
+      {
+        "player_name": "Paul Goldschmidt",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Ian Seymour",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1823
+      },
+      {
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Tatsuya Imai",
+        "venue": "Nationals Park",
         "lineup_spot": 4,
-        "p_hr": 0.1077
+        "p_hr": 0.182
       },
       {
-        "player_name": "Bryan Torres",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "Busch Stadium",
-        "lineup_spot": 6,
-        "p_hr": 0.1033
-      },
-      {
-        "player_name": "JJ Wetherholt",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "Busch Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1022
+        "player_name": "Curtis Mead",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Tatsuya Imai",
+        "venue": "Nationals Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1815
       }
     ],
     "calibration": [
@@ -624,12 +624,12 @@
     ]
   },
   "k": {
-    "today_count": 2,
+    "today_count": 20,
     "total_graded": 196,
     "since_date": "2026-06-27",
     "brier_score": 0.1722,
     "naive_brier": 0.25,
-    "avg_lambda": 5.76,
+    "avg_lambda": 5.52,
     "over_rate": 0.265,
     "top10_today": [
       {
@@ -638,19 +638,99 @@
         "opponent": "St. Louis Cardinals",
         "venue": "Busch Stadium",
         "line": 6.5,
-        "lambda_k": 6.82,
-        "p_over": 0.5223,
-        "p_under": 0.4777
+        "lambda_k": 6.97,
+        "p_over": 0.5464,
+        "p_under": 0.4536
       },
       {
-        "pitcher_name": "Matt Svanson",
-        "team": "St. Louis Cardinals",
-        "opponent": "Milwaukee Brewers",
-        "venue": "Busch Stadium",
+        "pitcher_name": "Jacob deGrom",
+        "team": "Texas Rangers",
+        "opponent": "Los Angeles Angels",
+        "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 4.71,
-        "p_over": 0.1971,
-        "p_under": 0.8029
+        "lambda_k": 6.9,
+        "p_over": 0.5356,
+        "p_under": 0.4644
+      },
+      {
+        "pitcher_name": "Zack Wheeler",
+        "team": "Philadelphia Phillies",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 6.83,
+        "p_over": 0.5253,
+        "p_under": 0.4747
+      },
+      {
+        "pitcher_name": "Tarik Skubal",
+        "team": "Detroit Tigers",
+        "opponent": "Athletics",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 6.37,
+        "p_over": 0.4524,
+        "p_under": 0.5476
+      },
+      {
+        "pitcher_name": "Max Meyer",
+        "team": "Miami Marlins",
+        "opponent": "Seattle Mariners",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 6.04,
+        "p_over": 0.3994,
+        "p_under": 0.6006
+      },
+      {
+        "pitcher_name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Atlanta Braves",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.98,
+        "p_over": 0.3906,
+        "p_under": 0.6094
+      },
+      {
+        "pitcher_name": "Hurston Waldrep",
+        "team": "Atlanta Braves",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.69,
+        "p_over": 0.3438,
+        "p_under": 0.6562
+      },
+      {
+        "pitcher_name": "Payton Tolle",
+        "team": "Boston Red Sox",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.59,
+        "p_over": 0.3283,
+        "p_under": 0.6717
+      },
+      {
+        "pitcher_name": "Ian Seymour",
+        "team": "Tampa Bay Rays",
+        "opponent": "New York Yankees",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.54,
+        "p_over": 0.3205,
+        "p_under": 0.6795
+      },
+      {
+        "pitcher_name": "Matthew Boyd",
+        "team": "Chicago Cubs",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.37,
+        "p_over": 0.2934,
+        "p_under": 0.7066
       }
     ],
     "calibration": [
