@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-07",
   "hits": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 2692,
     "since_date": "2026-06-20",
     "brier_score": 0.2348,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.632,
     "actual_hit_rate": 0.6163,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.7066
+      },
+      {
+        "player_name": "William Contreras",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 4,
+        "p_hit": 0.6982
+      },
+      {
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 3,
+        "p_hit": 0.6791
+      },
+      {
+        "player_name": "Garrett Mitchell",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 6,
+        "p_hit": 0.6703
+      },
+      {
+        "player_name": "Christian Yelich",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.6574
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 5,
+        "p_hit": 0.6524
+      },
+      {
+        "player_name": "Sal Frelick",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 7,
+        "p_hit": 0.6349
+      },
+      {
+        "player_name": "Cooper Pratt",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 8,
+        "p_hit": 0.5961
+      },
+      {
+        "player_name": "Joey Ortiz",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 9,
+        "p_hit": 0.5851
+      },
+      {
+        "player_name": "JJ Wetherholt",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Busch Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.5478
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -241,14 +322,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 2521,
     "since_date": "2026-06-21",
     "brier_score": 0.1114,
     "naive_brier": 0.235,
     "avg_predicted": 0.1258,
     "actual_hr_rate": 0.1293,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.1515
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.1393
+      },
+      {
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.1151
+      },
+      {
+        "player_name": "Garrett Mitchell",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 6,
+        "p_hr": 0.1148
+      },
+      {
+        "player_name": "Jordan Walker",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Busch Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.1114
+      },
+      {
+        "player_name": "Alec Burleson",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Busch Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.1088
+      },
+      {
+        "player_name": "Christian Yelich",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.1081
+      },
+      {
+        "player_name": "William Contreras",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matt Svanson",
+        "venue": "Busch Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.1077
+      },
+      {
+        "player_name": "Bryan Torres",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Busch Stadium",
+        "lineup_spot": 6,
+        "p_hr": 0.1033
+      },
+      {
+        "player_name": "JJ Wetherholt",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Busch Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.1022
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -462,14 +624,35 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 2,
     "total_graded": 196,
     "since_date": "2026-06-27",
     "brier_score": 0.1722,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.76,
     "over_rate": 0.265,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "opponent": "St. Louis Cardinals",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 6.82,
+        "p_over": 0.5223,
+        "p_under": 0.4777
+      },
+      {
+        "pitcher_name": "Matt Svanson",
+        "team": "St. Louis Cardinals",
+        "opponent": "Milwaukee Brewers",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 4.71,
+        "p_over": 0.1971,
+        "p_under": 0.8029
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -559,13 +742,13 @@
         "home_team": "Argentina",
         "away_team": "Egypt",
         "stage": "Round of 16",
-        "xg_home": 1.6,
-        "xg_away": 0.92,
-        "p_home": 0.5339,
-        "p_draw": 0.2503,
-        "p_away": 0.2158,
-        "over_2_5": 0.4605,
-        "btts": 0.4791,
+        "xg_home": 2.08,
+        "xg_away": 1.13,
+        "p_home": 0.5926,
+        "p_draw": 0.2077,
+        "p_away": 0.1998,
+        "over_2_5": 0.6225,
+        "btts": 0.5924,
         "graded": false,
         "result": null
       },
@@ -651,7 +834,7 @@
     ]
   },
   "wc_gs": {
-    "today_count": 19,
+    "today_count": 22,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -667,6 +850,24 @@
         "p_scores": 0.6027
       },
       {
+        "player": "Cristian Romero",
+        "team": "Argentina",
+        "opponent": "Egypt",
+        "match": "Argentina vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.497,
+        "p_scores": 0.3917
+      },
+      {
+        "player": "Enzo Fern\u00e1ndez",
+        "team": "Argentina",
+        "opponent": "Egypt",
+        "match": "Argentina vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.497,
+        "p_scores": 0.3917
+      },
+      {
         "player": "Johan Manzambi",
         "team": "Switzerland",
         "opponent": "Colombia",
@@ -676,7 +877,7 @@
         "p_scores": 0.3375
       },
       {
-        "player": "Giovani Lo Celso",
+        "player": "Lautaro Mart\u00ednez",
         "team": "Argentina",
         "opponent": "Egypt",
         "match": "Argentina vs Egypt",
@@ -685,7 +886,7 @@
         "p_scores": 0.2988
       },
       {
-        "player": "Lautaro Mart\u00ednez",
+        "player": "Giovani Lo Celso",
         "team": "Argentina",
         "opponent": "Egypt",
         "match": "Argentina vs Egypt",
@@ -721,10 +922,10 @@
         "p_scores": 0.2878
       },
       {
-        "player": "Breel Embolo",
-        "team": "Switzerland",
-        "opponent": "Colombia",
-        "match": "Switzerland vs Colombia",
+        "player": "Emam Ashour",
+        "team": "Egypt",
+        "opponent": "Argentina",
+        "match": "Argentina vs Egypt",
         "tournament_goals": 2,
         "lambda": 0.294,
         "p_scores": 0.2548
@@ -739,13 +940,22 @@
         "p_scores": 0.2548
       },
       {
-        "player": "Emam Ashour",
-        "team": "Egypt",
-        "opponent": "Argentina",
-        "match": "Argentina vs Egypt",
+        "player": "Breel Embolo",
+        "team": "Switzerland",
+        "opponent": "Colombia",
+        "match": "Switzerland vs Colombia",
         "tournament_goals": 2,
         "lambda": 0.294,
         "p_scores": 0.2548
+      },
+      {
+        "player": "Yasser Ibrahim",
+        "team": "Egypt",
+        "opponent": "Argentina",
+        "match": "Argentina vs Egypt",
+        "tournament_goals": 1,
+        "lambda": 0.284,
+        "p_scores": 0.2473
       },
       {
         "player": "Luis D\u00edaz",
@@ -764,53 +974,26 @@
         "tournament_goals": 1,
         "lambda": 0.266,
         "p_scores": 0.2338
-      },
-      {
-        "player": "Jhon Arias",
-        "team": "Colombia",
-        "opponent": "Switzerland",
-        "match": "Switzerland vs Colombia",
-        "tournament_goals": 1,
-        "lambda": 0.266,
-        "p_scores": 0.2338
-      },
-      {
-        "player": "Mohamed Salah",
-        "team": "Egypt",
-        "opponent": "Argentina",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
-      },
-      {
-        "player": "Mostafa Zico",
-        "team": "Egypt",
-        "opponent": "Argentina",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
       }
     ],
     "calibration": []
   },
   "tennis": {
     "today_count": 5,
-    "total_graded": 93,
-    "accuracy": 0.674,
-    "no_signal_count": 50,
-    "no_signal_rate": 0.538,
+    "total_graded": 97,
+    "accuracy": 0.689,
+    "no_signal_count": 52,
+    "no_signal_rate": 0.536,
     "matches": [
       {
         "tour": "atp",
         "round": "Quarterfinal",
-        "player_a": "Jan-Lennard Struff",
-        "player_b": "Jannik Sinner",
-        "elo_a": 1534.7,
-        "elo_b": 1675.8,
-        "p_a_wins": 0.3073,
-        "winner": null
+        "player_a": "Jannik Sinner",
+        "player_b": "Jan-Lennard Struff",
+        "elo_a": 1675.8,
+        "elo_b": 1534.7,
+        "p_a_wins": 0.6927,
+        "winner": "Jannik Sinner"
       },
       {
         "tour": "atp",
@@ -820,7 +1003,7 @@
         "elo_a": 1607.9,
         "elo_b": 1602.1,
         "p_a_wins": 0.5084,
-        "winner": null
+        "winner": "Alexander Zverev"
       },
       {
         "tour": "atp",
@@ -840,7 +1023,7 @@
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Coco Gauff"
       },
       {
         "tour": "wta",
@@ -850,7 +1033,7 @@
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Karolina Muchova"
       }
     ],
     "trend": [
@@ -883,6 +1066,11 @@
         "date": "2026-07-06",
         "accuracy": 0.6744,
         "n": 43
+      },
+      {
+        "date": "2026-07-07",
+        "accuracy": 0.7045,
+        "n": 44
       }
     ]
   },
