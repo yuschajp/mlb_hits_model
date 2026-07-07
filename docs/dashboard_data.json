@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-06",
   "hits": {
-    "today_count": 90,
+    "today_count": 144,
     "total_graded": 2548,
     "since_date": "2026-06-20",
     "brier_score": 0.2352,
@@ -19,6 +19,22 @@
         "p_hit": 0.7497
       },
       {
+        "player_name": "Freddie Freeman",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 3,
+        "p_hit": 0.746
+      },
+      {
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.7452
+      },
+      {
         "player_name": "Luis Garc\u00eda Jr.",
         "team": "Washington Nationals",
         "opponent_pitcher": "Mike Burrows",
@@ -32,7 +48,7 @@
         "opponent_pitcher": "Freddy Peralta",
         "venue": "Truist Park",
         "lineup_spot": 1,
-        "p_hit": 0.7258
+        "p_hit": 0.7303
       },
       {
         "player_name": "James Wood",
@@ -43,52 +59,36 @@
         "p_hit": 0.7178
       },
       {
+        "player_name": "Andy Pages",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.7157
+      },
+      {
+        "player_name": "Miguel Rojas",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 8,
+        "p_hit": 0.7037
+      },
+      {
+        "player_name": "Mookie Betts",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 4,
+        "p_hit": 0.702
+      },
+      {
         "player_name": "Jackson Chourio",
         "team": "Milwaukee Brewers",
         "opponent_pitcher": "Dustin May",
         "venue": "Busch Stadium",
         "lineup_spot": 2,
-        "p_hit": 0.6965
-      },
-      {
-        "player_name": "William Contreras",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Dustin May",
-        "venue": "Busch Stadium",
-        "lineup_spot": 4,
-        "p_hit": 0.6922
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Reynaldo L\u00f3pez",
-        "venue": "Truist Park",
-        "lineup_spot": 2,
-        "p_hit": 0.6914
-      },
-      {
-        "player_name": "Ozzie Albies",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Freddy Peralta",
-        "venue": "Truist Park",
-        "lineup_spot": 2,
-        "p_hit": 0.6848
-      },
-      {
-        "player_name": "Isaac Paredes",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Miles Mikolas",
-        "venue": "Nationals Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6848
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Freddy Peralta",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6817
+        "p_hit": 0.6912
       }
     ],
     "calibration": [
@@ -310,7 +310,7 @@
     ]
   },
   "hr": {
-    "today_count": 90,
+    "today_count": 144,
     "total_graded": 2377,
     "since_date": "2026-06-21",
     "brier_score": 0.1104,
@@ -318,6 +318,14 @@
     "avg_predicted": 0.1259,
     "actual_hr_rate": 0.1279,
     "top10_today": [
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.2858
+      },
       {
         "player_name": "Yordan Alvarez",
         "team": "Houston Astros",
@@ -341,6 +349,14 @@
         "venue": "Nationals Park",
         "lineup_spot": 1,
         "p_hr": 0.232
+      },
+      {
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.2238
       },
       {
         "player_name": "Ben Rice",
@@ -381,22 +397,6 @@
         "venue": "Tropicana Field",
         "lineup_spot": 3,
         "p_hr": 0.1928
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1856
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Reynaldo L\u00f3pez",
-        "venue": "Truist Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1782
       }
     ],
     "calibration": [
@@ -600,12 +600,12 @@
     ]
   },
   "k": {
-    "today_count": 11,
+    "today_count": 16,
     "total_graded": 180,
     "since_date": "2026-06-27",
     "brier_score": 0.1697,
     "naive_brier": 0.25,
-    "avg_lambda": 4.76,
+    "avg_lambda": 4.67,
     "over_rate": 0.261,
     "top10_today": [
       {
@@ -644,9 +644,19 @@
         "opponent": "Milwaukee Brewers",
         "venue": "Busch Stadium",
         "line": 6.5,
-        "lambda_k": 4.98,
-        "p_over": 0.2348,
-        "p_under": 0.7652
+        "lambda_k": 5.09,
+        "p_over": 0.2513,
+        "p_under": 0.7487
+      },
+      {
+        "pitcher_name": "Kevin Gausman",
+        "team": "Toronto Blue Jays",
+        "opponent": "San Francisco Giants",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 5.08,
+        "p_over": 0.2491,
+        "p_under": 0.7509
       },
       {
         "pitcher_name": "Griffin Jax",
@@ -659,14 +669,24 @@
         "p_under": 0.7653
       },
       {
+        "pitcher_name": "Landen Roupp",
+        "team": "San Francisco Giants",
+        "opponent": "Toronto Blue Jays",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 4.83,
+        "p_over": 0.2131,
+        "p_under": 0.7869
+      },
+      {
         "pitcher_name": "Freddy Peralta",
         "team": "New York Mets",
         "opponent": "Atlanta Braves",
         "venue": "Truist Park",
         "line": 6.5,
-        "lambda_k": 4.68,
-        "p_over": 0.1932,
-        "p_under": 0.8068
+        "lambda_k": 4.78,
+        "p_over": 0.2064,
+        "p_under": 0.7936
       },
       {
         "pitcher_name": "Reynaldo L\u00f3pez",
@@ -674,9 +694,9 @@
         "opponent": "New York Mets",
         "venue": "Truist Park",
         "line": 6.5,
-        "lambda_k": 4.51,
-        "p_over": 0.1698,
-        "p_under": 0.8302
+        "lambda_k": 4.53,
+        "p_over": 0.1724,
+        "p_under": 0.8276
       },
       {
         "pitcher_name": "Mike Burrows",
@@ -687,26 +707,6 @@
         "lambda_k": 4.43,
         "p_over": 0.1602,
         "p_under": 0.8398
-      },
-      {
-        "pitcher_name": "Shane Drohan",
-        "team": "Milwaukee Brewers",
-        "opponent": "St. Louis Cardinals",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 4.33,
-        "p_over": 0.1479,
-        "p_under": 0.8521
-      },
-      {
-        "pitcher_name": "Kyle Freeland",
-        "team": "Colorado Rockies",
-        "opponent": "Los Angeles Dodgers",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "line": 6.5,
-        "lambda_k": 4.31,
-        "p_over": 0.1456,
-        "p_under": 0.8544
       }
     ],
     "calibration": [
@@ -807,13 +807,13 @@
         "home_team": "USA",
         "away_team": "Belgium",
         "stage": "Round of 16",
-        "xg_home": 1.72,
-        "xg_away": 1.48,
-        "p_home": 0.4366,
-        "p_draw": 0.2324,
-        "p_away": 0.3309,
-        "over_2_5": 0.62,
-        "btts": 0.6338,
+        "xg_home": 1.59,
+        "xg_away": 2.27,
+        "p_home": 0.2688,
+        "p_draw": 0.2004,
+        "p_away": 0.5308,
+        "over_2_5": 0.7413,
+        "btts": 0.7144,
         "graded": false,
         "result": null
       },
@@ -894,12 +894,21 @@
     ]
   },
   "wc_gs": {
-    "today_count": 25,
+    "today_count": 27,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
     "top15_today": [
+      {
+        "player": "Charles De Ketelaere",
+        "team": "Belgium",
+        "opponent": "USA",
+        "match": "USA vs Belgium",
+        "tournament_goals": 2,
+        "lambda": 0.947,
+        "p_scores": 0.612
+      },
       {
         "player": "Folarin Balogun",
         "team": "USA",
@@ -908,6 +917,15 @@
         "tournament_goals": 3,
         "lambda": 0.633,
         "p_scores": 0.4693
+      },
+      {
+        "player": "Youri Tielemans",
+        "team": "Belgium",
+        "opponent": "USA",
+        "match": "USA vs Belgium",
+        "tournament_goals": 2,
+        "lambda": 0.592,
+        "p_scores": 0.4466
       },
       {
         "player": "Leandro Trossard",
@@ -919,13 +937,13 @@
         "p_scores": 0.4466
       },
       {
-        "player": "Youri Tielemans",
+        "player": "Hans Vanaken",
         "team": "Belgium",
         "opponent": "USA",
         "match": "USA vs Belgium",
-        "tournament_goals": 2,
-        "lambda": 0.592,
-        "p_scores": 0.4466
+        "tournament_goals": 1,
+        "lambda": 0.568,
+        "p_scores": 0.4334
       },
       {
         "player": "Mikel Oyarzabal",
@@ -955,7 +973,7 @@
         "p_scores": 0.3375
       },
       {
-        "player": "Alex Freeman",
+        "player": "Damian Bobadilla",
         "team": "USA",
         "opponent": "Belgium",
         "match": "USA vs Belgium",
@@ -973,18 +991,9 @@
         "p_scores": 0.2988
       },
       {
-        "player": "Damian Bobadilla",
+        "player": "Alex Freeman",
         "team": "USA",
         "opponent": "Belgium",
-        "match": "USA vs Belgium",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Kevin De Bruyne",
-        "team": "Belgium",
-        "opponent": "USA",
         "match": "USA vs Belgium",
         "tournament_goals": 1,
         "lambda": 0.355,
@@ -994,6 +1003,15 @@
         "player": "Alexis Saelemaekers",
         "team": "Belgium",
         "opponent": "USA",
+        "match": "USA vs Belgium",
+        "tournament_goals": 1,
+        "lambda": 0.355,
+        "p_scores": 0.2988
+      },
+      {
+        "player": "Cameron Burgess",
+        "team": "USA",
+        "opponent": "Belgium",
         "match": "USA vs Belgium",
         "tournament_goals": 1,
         "lambda": 0.355,
@@ -1016,24 +1034,6 @@
         "tournament_goals": 1,
         "lambda": 0.355,
         "p_scores": 0.2988
-      },
-      {
-        "player": "Malik Tillman",
-        "team": "USA",
-        "opponent": "Belgium",
-        "match": "USA vs Belgium",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Cameron Burgess",
-        "team": "USA",
-        "opponent": "Belgium",
-        "match": "USA vs Belgium",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
       }
     ],
     "calibration": []
@@ -1045,6 +1045,16 @@
     "no_signal_count": 50,
     "no_signal_rate": 0.538,
     "matches": [
+      {
+        "tour": "atp",
+        "round": "Round 4",
+        "player_a": "Alexander Zverev",
+        "player_b": "Jiri Lehecka",
+        "elo_a": 1607.9,
+        "elo_b": 1602.1,
+        "p_a_wins": 0.5084,
+        "winner": null
+      },
       {
         "tour": "atp",
         "round": "Round 4",
@@ -1074,16 +1084,6 @@
         "elo_b": 1580.3,
         "p_a_wins": 0.6408,
         "winner": "Taylor Fritz"
-      },
-      {
-        "tour": "atp",
-        "round": "Round 4",
-        "player_a": "Alexander Zverev",
-        "player_b": "Jiri Lehecka",
-        "elo_a": 1607.9,
-        "elo_b": 1602.1,
-        "p_a_wins": 0.5084,
-        "winner": null
       },
       {
         "tour": "wta",
