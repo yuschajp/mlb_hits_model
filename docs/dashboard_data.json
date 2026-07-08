@@ -1,108 +1,27 @@
 {
-  "generated_at": "2026-07-07",
+  "generated_at": "2026-07-08",
   "hits": {
-    "today_count": 288,
-    "total_graded": 2692,
+    "today_count": 0,
+    "total_graded": 2980,
     "since_date": "2026-06-20",
-    "brier_score": 0.2348,
-    "recent_brier_score": 0.2334,
+    "brier_score": 0.2345,
+    "recent_brier_score": 0.2322,
     "naive_brier": 0.235,
-    "avg_predicted": 0.632,
-    "actual_hit_rate": 0.6163,
-    "top10_today": [
-      {
-        "player_name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 1,
-        "p_hit": 0.778
-      },
-      {
-        "player_name": "Freddie Freeman",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 3,
-        "p_hit": 0.7747
-      },
-      {
-        "player_name": "Tommy Edman",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 5,
-        "p_hit": 0.7402
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Seth Lugo",
-        "venue": "Citi Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7386
-      },
-      {
-        "player_name": "Max Muncy",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 4,
-        "p_hit": 0.7348
-      },
-      {
-        "player_name": "Andy Pages",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.7331
-      },
-      {
-        "player_name": "Fernando Tatis Jr.",
-        "team": "San Diego Padres",
-        "opponent_pitcher": "Zac Gallen",
-        "venue": "Petco Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7297
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Shane Baz",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 1,
-        "p_hit": 0.7259
-      },
-      {
-        "player_name": "Yandy D\u00edaz",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Will Warren",
-        "venue": "Tropicana Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7182
-      },
-      {
-        "player_name": "A.J. Ewing",
-        "team": "New York Mets",
-        "opponent_pitcher": "Seth Lugo",
-        "venue": "Citi Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7138
-      }
-    ],
+    "avg_predicted": 0.6294,
+    "actual_hit_rate": 0.6174,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 794,
-        "predicted": 0.563,
-        "actual": 0.583
+        "n": 923,
+        "predicted": 0.562,
+        "actual": 0.584
       },
       {
         "range": "0.6-0.8",
-        "n": 1870,
-        "predicted": 0.658,
-        "actual": 0.628
+        "n": 2029,
+        "predicted": 0.657,
+        "actual": 0.631
       },
       {
         "range": "0.8-1.0",
@@ -230,6 +149,13 @@
         "n_wins": 62,
         "daily_pnl": 26.364,
         "cumulative_pnl": 385.182
+      },
+      {
+        "date": "2026-07-07",
+        "n_bets": 159,
+        "n_wins": 105,
+        "daily_pnl": 41.455,
+        "cumulative_pnl": 426.636
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -318,111 +244,35 @@
         "date": "2026-07-06",
         "brier": 0.2334,
         "n": 1188
+      },
+      {
+        "date": "2026-07-07",
+        "brier": 0.2322,
+        "n": 1404
       }
     ]
   },
   "hr": {
-    "today_count": 288,
-    "total_graded": 2521,
+    "today_count": 0,
+    "total_graded": 2809,
     "since_date": "2026-06-21",
-    "brier_score": 0.1114,
+    "brier_score": 0.1089,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1258,
-    "actual_hr_rate": 0.1293,
-    "top10_today": [
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Andrew Abbott",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hr": 0.265
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Tatsuya Imai",
-        "venue": "Nationals Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2283
-      },
-      {
-        "player_name": "James Wood",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Tatsuya Imai",
-        "venue": "Nationals Park",
-        "lineup_spot": 1,
-        "p_hr": 0.22
-      },
-      {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Andrew Abbott",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2042
-      },
-      {
-        "player_name": "Zach Neto",
-        "team": "Los Angeles Angels",
-        "opponent_pitcher": "Jacob deGrom",
-        "venue": "Globe Life Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2023
-      },
-      {
-        "player_name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1942
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Will Warren",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1938
-      },
-      {
-        "player_name": "Willson Contreras",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Noah Schultz",
-        "venue": "Rate Field",
-        "lineup_spot": 4,
-        "p_hr": 0.1932
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Ian Seymour",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1889
-      },
-      {
-        "player_name": "CJ Abrams",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Tatsuya Imai",
-        "venue": "Nationals Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1858
-      }
-    ],
+    "avg_predicted": 0.1249,
+    "actual_hr_rate": 0.126,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 2418,
-        "predicted": 0.122,
-        "actual": 0.122
+        "n": 2701,
+        "predicted": 0.121,
+        "actual": 0.119
       },
       {
         "range": "0.2-0.4",
-        "n": 103,
+        "n": 108,
         "predicted": 0.226,
-        "actual": 0.291
+        "actual": 0.296
       }
     ],
     "returns": [
@@ -537,6 +387,13 @@
         "n_wins": 8,
         "daily_pnl": -1.0,
         "cumulative_pnl": -139.0
+      },
+      {
+        "date": "2026-07-07",
+        "n_bets": 46,
+        "n_wins": 7,
+        "daily_pnl": -14.5,
+        "cumulative_pnl": -153.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -620,142 +477,46 @@
         "date": "2026-07-06",
         "brier": 0.1231,
         "n": 1170
+      },
+      {
+        "date": "2026-07-07",
+        "brier": 0.1168,
+        "n": 1386
       }
     ]
   },
   "k": {
-    "today_count": 32,
-    "total_graded": 196,
+    "today_count": 0,
+    "total_graded": 228,
     "since_date": "2026-06-27",
-    "brier_score": 0.1722,
+    "brier_score": 0.1702,
     "naive_brier": 0.25,
-    "avg_lambda": 5.19,
-    "over_rate": 0.265,
-    "top10_today": [
-      {
-        "pitcher_name": "Zack Wheeler",
-        "team": "Philadelphia Phillies",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 7.39,
-        "p_over": 0.6068,
-        "p_under": 0.3932
-      },
-      {
-        "pitcher_name": "Jacob deGrom",
-        "team": "Texas Rangers",
-        "opponent": "Los Angeles Angels",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 6.98,
-        "p_over": 0.5474,
-        "p_under": 0.4526
-      },
-      {
-        "pitcher_name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "opponent": "St. Louis Cardinals",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 6.97,
-        "p_over": 0.5464,
-        "p_under": 0.4536
-      },
-      {
-        "pitcher_name": "Tarik Skubal",
-        "team": "Detroit Tigers",
-        "opponent": "Athletics",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 6.37,
-        "p_over": 0.4524,
-        "p_under": 0.5476
-      },
-      {
-        "pitcher_name": "Taj Bradley",
-        "team": "Minnesota Twins",
-        "opponent": "Cleveland Guardians",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 6.07,
-        "p_over": 0.4044,
-        "p_under": 0.5956
-      },
-      {
-        "pitcher_name": "Paul Skenes",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Atlanta Braves",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.98,
-        "p_over": 0.3906,
-        "p_under": 0.6094
-      },
-      {
-        "pitcher_name": "Max Meyer",
-        "team": "Miami Marlins",
-        "opponent": "Seattle Mariners",
-        "venue": "loanDepot park",
-        "line": 6.5,
-        "lambda_k": 5.93,
-        "p_over": 0.3818,
-        "p_under": 0.6182
-      },
-      {
-        "pitcher_name": "Hurston Waldrep",
-        "team": "Atlanta Braves",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.69,
-        "p_over": 0.3438,
-        "p_under": 0.6562
-      },
-      {
-        "pitcher_name": "Payton Tolle",
-        "team": "Boston Red Sox",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.64,
-        "p_over": 0.3358,
-        "p_under": 0.6642
-      },
-      {
-        "pitcher_name": "Matthew Boyd",
-        "team": "Chicago Cubs",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 5.57,
-        "p_over": 0.3245,
-        "p_under": 0.6755
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.272,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 76,
+        "n": 86,
         "predicted": 0.139,
-        "actual": 0.105
+        "actual": 0.093
       },
       {
         "range": "0.2-0.4",
-        "n": 94,
+        "n": 111,
         "predicted": 0.278,
-        "actual": 0.319
+        "actual": 0.315
       },
       {
         "range": "0.4-0.6",
-        "n": 24,
-        "predicted": 0.472,
-        "actual": 0.5
+        "n": 28,
+        "predicted": 0.475,
+        "actual": 0.571
       },
       {
         "range": "0.6-0.8",
-        "n": 2,
-        "predicted": 0.67,
+        "n": 3,
+        "predicted": 0.649,
         "actual": 1.0
       }
     ],
@@ -809,43 +570,20 @@
         "date": "2026-07-06",
         "brier": 0.1908,
         "n": 140
+      },
+      {
+        "date": "2026-07-07",
+        "brier": 0.1808,
+        "n": 160
       }
     ]
   },
   "wc": {
     "today_count": 4,
-    "total_graded": 22,
-    "brier_home": 0.2217,
+    "total_graded": 24,
+    "brier_home": 0.2145,
     "naive_brier": 0.222,
     "matches_today": [
-      {
-        "home_team": "Argentina",
-        "away_team": "Egypt",
-        "stage": "Round of 16",
-        "xg_home": 2.08,
-        "xg_away": 1.13,
-        "p_home": 0.5926,
-        "p_draw": 0.2077,
-        "p_away": 0.1998,
-        "over_2_5": 0.6225,
-        "btts": 0.5924,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Switzerland",
-        "away_team": "Colombia",
-        "stage": "Round of 16",
-        "xg_home": 0.76,
-        "xg_away": 0.74,
-        "p_home": 0.3226,
-        "p_draw": 0.3677,
-        "p_away": 0.3097,
-        "over_2_5": 0.1907,
-        "btts": 0.2778,
-        "graded": false,
-        "result": null
-      },
       {
         "home_team": "France",
         "away_team": "Morocco",
@@ -871,6 +609,34 @@
         "p_away": 0.2021,
         "over_2_5": 0.3571,
         "btts": 0.3931,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Norway",
+        "away_team": "England",
+        "stage": "Quarter-final",
+        "xg_home": 1.7,
+        "xg_away": 2.31,
+        "p_home": 0.2849,
+        "p_draw": 0.1987,
+        "p_away": 0.5164,
+        "over_2_5": 0.7628,
+        "btts": 0.7357,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "W95",
+        "away_team": "W96",
+        "stage": "Quarter-final",
+        "xg_home": 1.3,
+        "xg_away": 1.3,
+        "p_home": 0.368,
+        "p_draw": 0.2639,
+        "p_away": 0.368,
+        "over_2_5": 0.4816,
+        "btts": 0.5292,
         "graded": false,
         "result": null
       }
@@ -910,156 +676,25 @@
         "date": "2026-07-06",
         "brier": 0.1959,
         "n": 18
+      },
+      {
+        "date": "2026-07-07",
+        "brier": 0.1717,
+        "n": 17
       }
     ]
   },
   "wc_gs": {
-    "today_count": 22,
+    "today_count": 0,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
-    "top15_today": [
-      {
-        "player": "Lionel Messi",
-        "team": "Argentina",
-        "opponent": "Egypt",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 7,
-        "lambda": 0.923,
-        "p_scores": 0.6027
-      },
-      {
-        "player": "Cristian Romero",
-        "team": "Argentina",
-        "opponent": "Egypt",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.497,
-        "p_scores": 0.3917
-      },
-      {
-        "player": "Enzo Fern\u00e1ndez",
-        "team": "Argentina",
-        "opponent": "Egypt",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.497,
-        "p_scores": 0.3917
-      },
-      {
-        "player": "Johan Manzambi",
-        "team": "Switzerland",
-        "opponent": "Colombia",
-        "match": "Switzerland vs Colombia",
-        "tournament_goals": 3,
-        "lambda": 0.412,
-        "p_scores": 0.3375
-      },
-      {
-        "player": "Lautaro Mart\u00ednez",
-        "team": "Argentina",
-        "opponent": "Egypt",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Giovani Lo Celso",
-        "team": "Argentina",
-        "opponent": "Egypt",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Lisandro Mart\u00ednez",
-        "team": "Argentina",
-        "opponent": "Egypt",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Diney Borges",
-        "team": "Argentina",
-        "opponent": "Egypt",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Daniel Mu\u00f1oz",
-        "team": "Colombia",
-        "opponent": "Switzerland",
-        "match": "Switzerland vs Colombia",
-        "tournament_goals": 2,
-        "lambda": 0.339,
-        "p_scores": 0.2878
-      },
-      {
-        "player": "Emam Ashour",
-        "team": "Egypt",
-        "opponent": "Argentina",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 2,
-        "lambda": 0.294,
-        "p_scores": 0.2548
-      },
-      {
-        "player": "Rub\u00e9n Vargas",
-        "team": "Switzerland",
-        "opponent": "Colombia",
-        "match": "Switzerland vs Colombia",
-        "tournament_goals": 2,
-        "lambda": 0.294,
-        "p_scores": 0.2548
-      },
-      {
-        "player": "Breel Embolo",
-        "team": "Switzerland",
-        "opponent": "Colombia",
-        "match": "Switzerland vs Colombia",
-        "tournament_goals": 2,
-        "lambda": 0.294,
-        "p_scores": 0.2548
-      },
-      {
-        "player": "Yasser Ibrahim",
-        "team": "Egypt",
-        "opponent": "Argentina",
-        "match": "Argentina vs Egypt",
-        "tournament_goals": 1,
-        "lambda": 0.284,
-        "p_scores": 0.2473
-      },
-      {
-        "player": "Luis D\u00edaz",
-        "team": "Colombia",
-        "opponent": "Switzerland",
-        "match": "Switzerland vs Colombia",
-        "tournament_goals": 1,
-        "lambda": 0.266,
-        "p_scores": 0.2338
-      },
-      {
-        "player": "J\u00e1minton Campaz",
-        "team": "Colombia",
-        "opponent": "Switzerland",
-        "match": "Switzerland vs Colombia",
-        "tournament_goals": 1,
-        "lambda": 0.266,
-        "p_scores": 0.2338
-      }
-    ],
+    "top15_today": [],
     "calibration": []
   },
   "tennis": {
-    "today_count": 5,
+    "today_count": 4,
     "total_graded": 98,
     "accuracy": 0.696,
     "no_signal_count": 52,
@@ -1068,52 +703,42 @@
       {
         "tour": "atp",
         "round": "Quarterfinal",
-        "player_a": "Jannik Sinner",
-        "player_b": "Jan-Lennard Struff",
-        "elo_a": 1675.8,
-        "elo_b": 1534.7,
-        "p_a_wins": 0.6927,
-        "winner": "Jannik Sinner"
-      },
-      {
-        "tour": "atp",
-        "round": "Round 4",
         "player_a": "Alexander Zverev",
-        "player_b": "Jiri Lehecka",
+        "player_b": "Taylor Fritz",
         "elo_a": 1607.9,
-        "elo_b": 1602.1,
-        "p_a_wins": 0.5084,
-        "winner": "Alexander Zverev"
+        "elo_b": 1680.9,
+        "p_a_wins": 0.3964,
+        "winner": null
       },
       {
         "tour": "atp",
         "round": "Quarterfinal",
-        "player_a": "Novak Djokovic",
-        "player_b": "Felix Auger-Aliassime",
-        "elo_a": 1669.8,
-        "elo_b": 1572.3,
-        "p_a_wins": 0.6367,
-        "winner": "Novak Djokovic"
+        "player_a": "Arthur Fery",
+        "player_b": "Flavio Cobolli",
+        "elo_a": 1485.8,
+        "elo_b": 1546.3,
+        "p_a_wins": 0.4138,
+        "winner": null
       },
       {
         "tour": "wta",
         "round": "Quarterfinal",
-        "player_a": "Coco Gauff",
-        "player_b": "Jessica Pegula",
+        "player_a": "Elise Mertens",
+        "player_b": "Linda Noskova",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Coco Gauff"
+        "winner": null
       },
       {
         "tour": "wta",
         "round": "Quarterfinal",
-        "player_a": "Karolina Muchova",
-        "player_b": "Naomi Osaka",
+        "player_a": "Jasmine Paolini",
+        "player_b": "Marta Kostyuk",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Karolina Muchova"
+        "winner": null
       }
     ],
     "trend": [
