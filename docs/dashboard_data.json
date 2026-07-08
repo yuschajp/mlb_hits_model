@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-08",
   "hits": {
-    "today_count": 0,
+    "today_count": 36,
     "total_graded": 2980,
     "since_date": "2026-06-20",
     "brier_score": 0.2345,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6294,
     "actual_hit_rate": 0.6174,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Otto Lopez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 2,
+        "p_hit": 0.748
+      },
+      {
+        "player_name": "Liam Hicks",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 1,
+        "p_hit": 0.728
+      },
+      {
+        "player_name": "Xavier Edwards",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 3,
+        "p_hit": 0.7004
+      },
+      {
+        "player_name": "Ernie Clement",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Logan Webb",
+        "venue": "Oracle Park",
+        "lineup_spot": 1,
+        "p_hit": 0.6587
+      },
+      {
+        "player_name": "Randy Arozarena",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Tyler Phillips",
+        "venue": "loanDepot park",
+        "lineup_spot": 2,
+        "p_hit": 0.6576
+      },
+      {
+        "player_name": "Kyle Stowers",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 4,
+        "p_hit": 0.6547
+      },
+      {
+        "player_name": "Owen Caissie",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 5,
+        "p_hit": 0.6361
+      },
+      {
+        "player_name": "Nathan Lukes",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Logan Webb",
+        "venue": "Oracle Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6358
+      },
+      {
+        "player_name": "Luis Arraez",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Dylan Cease",
+        "venue": "Oracle Park",
+        "lineup_spot": 2,
+        "p_hit": 0.635
+      },
+      {
+        "player_name": "Javier Sanoja",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 9,
+        "p_hit": 0.6258
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -253,14 +334,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 36,
     "total_graded": 2809,
     "since_date": "2026-06-21",
     "brier_score": 0.1089,
     "naive_brier": 0.235,
     "avg_predicted": 0.1249,
     "actual_hr_rate": 0.126,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Dominic Canzone",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Tyler Phillips",
+        "venue": "loanDepot park",
+        "lineup_spot": 3,
+        "p_hr": 0.1439
+      },
+      {
+        "player_name": "Owen Caissie",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 5,
+        "p_hr": 0.1227
+      },
+      {
+        "player_name": "Heriberto Hern\u00e1ndez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 6,
+        "p_hr": 0.1177
+      },
+      {
+        "player_name": "Luke Raley",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Tyler Phillips",
+        "venue": "loanDepot park",
+        "lineup_spot": 6,
+        "p_hr": 0.1175
+      },
+      {
+        "player_name": "Kyle Stowers",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 4,
+        "p_hr": 0.1133
+      },
+      {
+        "player_name": "Cal Raleigh",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Tyler Phillips",
+        "venue": "loanDepot park",
+        "lineup_spot": 4,
+        "p_hr": 0.1088
+      },
+      {
+        "player_name": "Randy Arozarena",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Tyler Phillips",
+        "venue": "loanDepot park",
+        "lineup_spot": 2,
+        "p_hr": 0.1075
+      },
+      {
+        "player_name": "J.P. Crawford",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Tyler Phillips",
+        "venue": "loanDepot park",
+        "lineup_spot": 1,
+        "p_hr": 0.1058
+      },
+      {
+        "player_name": "Liam Hicks",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "George Kirby",
+        "venue": "loanDepot park",
+        "lineup_spot": 1,
+        "p_hr": 0.1049
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Dylan Cease",
+        "venue": "Oracle Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1037
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -486,14 +648,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 10,
     "total_graded": 228,
     "since_date": "2026-06-27",
     "brier_score": 0.1702,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.29,
     "over_rate": 0.272,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Dylan Cease",
+        "team": "Toronto Blue Jays",
+        "opponent": "San Francisco Giants",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 6.8,
+        "p_over": 0.5195,
+        "p_under": 0.4805
+      },
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 6.74,
+        "p_over": 0.511,
+        "p_under": 0.489
+      },
+      {
+        "pitcher_name": "Shane McClanahan",
+        "team": "Tampa Bay Rays",
+        "opponent": "New York Yankees",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.39,
+        "p_over": 0.2962,
+        "p_under": 0.7038
+      },
+      {
+        "pitcher_name": "George Kirby",
+        "team": "Seattle Mariners",
+        "opponent": "Miami Marlins",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 5.34,
+        "p_over": 0.2894,
+        "p_under": 0.7106
+      },
+      {
+        "pitcher_name": "Troy Melton",
+        "team": "Detroit Tigers",
+        "opponent": "Athletics",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.18,
+        "p_over": 0.2648,
+        "p_under": 0.7352
+      },
+      {
+        "pitcher_name": "Dean Kremer",
+        "team": "Baltimore Orioles",
+        "opponent": "Chicago Cubs",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.14,
+        "p_over": 0.259,
+        "p_under": 0.741
+      },
+      {
+        "pitcher_name": "Christian Scott",
+        "team": "New York Mets",
+        "opponent": "Kansas City Royals",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 5.08,
+        "p_over": 0.2498,
+        "p_under": 0.7502
+      },
+      {
+        "pitcher_name": "Grant Holmes",
+        "team": "Atlanta Braves",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 4.68,
+        "p_over": 0.1932,
+        "p_under": 0.8068
+      },
+      {
+        "pitcher_name": "Logan Webb",
+        "team": "San Francisco Giants",
+        "opponent": "Toronto Blue Jays",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 4.51,
+        "p_over": 0.1701,
+        "p_under": 0.8299
+      },
+      {
+        "pitcher_name": "Tyler Phillips",
+        "team": "Miami Marlins",
+        "opponent": "Seattle Mariners",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 4.04,
+        "p_over": 0.1149,
+        "p_under": 0.8851
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -627,16 +890,16 @@
         "result": null
       },
       {
-        "home_team": "W95",
-        "away_team": "W96",
+        "home_team": "Argentina",
+        "away_team": "Switzerland",
         "stage": "Quarter-final",
-        "xg_home": 1.3,
-        "xg_away": 1.3,
-        "p_home": 0.368,
-        "p_draw": 0.2639,
-        "p_away": 0.368,
-        "over_2_5": 0.4816,
-        "btts": 0.5292,
+        "xg_home": 1.32,
+        "xg_away": 1.23,
+        "p_home": 0.3888,
+        "p_draw": 0.2669,
+        "p_away": 0.3443,
+        "over_2_5": 0.4674,
+        "btts": 0.5174,
         "graded": false,
         "result": null
       }
@@ -695,21 +958,11 @@
   },
   "tennis": {
     "today_count": 4,
-    "total_graded": 98,
-    "accuracy": 0.696,
-    "no_signal_count": 52,
-    "no_signal_rate": 0.531,
+    "total_graded": 102,
+    "accuracy": 0.667,
+    "no_signal_count": 54,
+    "no_signal_rate": 0.529,
     "matches": [
-      {
-        "tour": "atp",
-        "round": "Quarterfinal",
-        "player_a": "Alexander Zverev",
-        "player_b": "Taylor Fritz",
-        "elo_a": 1607.9,
-        "elo_b": 1680.9,
-        "p_a_wins": 0.3964,
-        "winner": null
-      },
       {
         "tour": "atp",
         "round": "Quarterfinal",
@@ -718,27 +971,37 @@
         "elo_a": 1485.8,
         "elo_b": 1546.3,
         "p_a_wins": 0.4138,
-        "winner": null
+        "winner": "Arthur Fery"
+      },
+      {
+        "tour": "atp",
+        "round": "Quarterfinal",
+        "player_a": "Alexander Zverev",
+        "player_b": "Taylor Fritz",
+        "elo_a": 1607.9,
+        "elo_b": 1680.9,
+        "p_a_wins": 0.3964,
+        "winner": "Alexander Zverev"
       },
       {
         "tour": "wta",
         "round": "Quarterfinal",
-        "player_a": "Elise Mertens",
-        "player_b": "Linda Noskova",
+        "player_a": "Linda Noskova",
+        "player_b": "Elise Mertens",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Linda Noskova"
       },
       {
         "tour": "wta",
         "round": "Quarterfinal",
-        "player_a": "Jasmine Paolini",
-        "player_b": "Marta Kostyuk",
+        "player_a": "Marta Kostyuk",
+        "player_b": "Jasmine Paolini",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Marta Kostyuk"
       }
     ],
     "trend": [
@@ -776,6 +1039,11 @@
         "date": "2026-07-07",
         "accuracy": 0.7111,
         "n": 45
+      },
+      {
+        "date": "2026-07-08",
+        "accuracy": 0.5882,
+        "n": 34
       }
     ]
   },
