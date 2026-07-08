@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-08",
   "hits": {
-    "today_count": 36,
+    "today_count": 234,
     "total_graded": 2980,
     "since_date": "2026-06-20",
     "brier_score": 0.2345,
@@ -19,12 +19,52 @@
         "p_hit": 0.748
       },
       {
+        "player_name": "Trevor Larnach",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Slade Cecconi",
+        "venue": "Target Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7375
+      },
+      {
         "player_name": "Liam Hicks",
         "team": "Miami Marlins",
         "opponent_pitcher": "George Kirby",
         "venue": "loanDepot park",
         "lineup_spot": 1,
         "p_hit": 0.728
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "PNC Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7094
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.709
+      },
+      {
+        "player_name": "Chase DeLauter",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Connor Prielipp",
+        "venue": "Target Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7062
+      },
+      {
+        "player_name": "Ceddanne Rafaela",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Davis Martin",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7013
       },
       {
         "player_name": "Xavier Edwards",
@@ -35,60 +75,20 @@
         "p_hit": 0.7004
       },
       {
-        "player_name": "Ernie Clement",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Logan Webb",
-        "venue": "Oracle Park",
+        "player_name": "Anthony Seigler",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Davis Martin",
+        "venue": "Rate Field",
         "lineup_spot": 1,
-        "p_hit": 0.6587
+        "p_hit": 0.6982
       },
       {
-        "player_name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Tyler Phillips",
-        "venue": "loanDepot park",
+        "player_name": "Brooks Lee",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Slade Cecconi",
+        "venue": "Target Field",
         "lineup_spot": 2,
-        "p_hit": 0.6576
-      },
-      {
-        "player_name": "Kyle Stowers",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "George Kirby",
-        "venue": "loanDepot park",
-        "lineup_spot": 4,
-        "p_hit": 0.6547
-      },
-      {
-        "player_name": "Owen Caissie",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "George Kirby",
-        "venue": "loanDepot park",
-        "lineup_spot": 5,
-        "p_hit": 0.6361
-      },
-      {
-        "player_name": "Nathan Lukes",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Logan Webb",
-        "venue": "Oracle Park",
-        "lineup_spot": 2,
-        "p_hit": 0.6358
-      },
-      {
-        "player_name": "Luis Arraez",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Dylan Cease",
-        "venue": "Oracle Park",
-        "lineup_spot": 2,
-        "p_hit": 0.635
-      },
-      {
-        "player_name": "Javier Sanoja",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "George Kirby",
-        "venue": "loanDepot park",
-        "lineup_spot": 9,
-        "p_hit": 0.6258
+        "p_hit": 0.6903
       }
     ],
     "calibration": [
@@ -334,7 +334,7 @@
     ]
   },
   "hr": {
-    "today_count": 36,
+    "today_count": 234,
     "total_graded": 2809,
     "since_date": "2026-06-21",
     "brier_score": 0.1089,
@@ -343,84 +343,84 @@
     "actual_hr_rate": 0.126,
     "top10_today": [
       {
-        "player_name": "Dominic Canzone",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Tyler Phillips",
-        "venue": "loanDepot park",
-        "lineup_spot": 3,
-        "p_hr": 0.1439
-      },
-      {
-        "player_name": "Owen Caissie",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "George Kirby",
-        "venue": "loanDepot park",
-        "lineup_spot": 5,
-        "p_hr": 0.1227
-      },
-      {
-        "player_name": "Heriberto Hern\u00e1ndez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "George Kirby",
-        "venue": "loanDepot park",
-        "lineup_spot": 6,
-        "p_hr": 0.1177
-      },
-      {
-        "player_name": "Luke Raley",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Tyler Phillips",
-        "venue": "loanDepot park",
-        "lineup_spot": 6,
-        "p_hr": 0.1175
-      },
-      {
-        "player_name": "Kyle Stowers",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "George Kirby",
-        "venue": "loanDepot park",
-        "lineup_spot": 4,
-        "p_hr": 0.1133
-      },
-      {
-        "player_name": "Cal Raleigh",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Tyler Phillips",
-        "venue": "loanDepot park",
-        "lineup_spot": 4,
-        "p_hr": 0.1088
-      },
-      {
-        "player_name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Tyler Phillips",
-        "venue": "loanDepot park",
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hr": 0.1075
+        "p_hr": 0.2477
       },
       {
-        "player_name": "J.P. Crawford",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Tyler Phillips",
-        "venue": "loanDepot park",
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2353
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Steven Cruz",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2294
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Foster Griffin",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2275
+      },
+      {
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Comerica Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2108
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "Great American Ball Park",
         "lineup_spot": 1,
-        "p_hr": 0.1058
+        "p_hr": 0.2104
       },
       {
-        "player_name": "Liam Hicks",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "George Kirby",
-        "venue": "loanDepot park",
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Spencer Arrighetti",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2089
+      },
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Spencer Arrighetti",
+        "venue": "Nationals Park",
         "lineup_spot": 1,
-        "p_hr": 0.1049
+        "p_hr": 0.2015
       },
       {
-        "player_name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Dylan Cease",
-        "venue": "Oracle Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1037
+        "player_name": "Brandon Lowe",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "PNC Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1978
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Dean Kremer",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 1,
+        "p_hr": 0.1906
       }
     ],
     "calibration": [
@@ -648,12 +648,12 @@
     ]
   },
   "k": {
-    "today_count": 10,
+    "today_count": 26,
     "total_graded": 228,
     "since_date": "2026-06-27",
     "brier_score": 0.1702,
     "naive_brier": 0.25,
-    "avg_lambda": 5.29,
+    "avg_lambda": 5.12,
     "over_rate": 0.272,
     "top10_today": [
       {
@@ -662,9 +662,9 @@
         "opponent": "San Francisco Giants",
         "venue": "Oracle Park",
         "line": 6.5,
-        "lambda_k": 6.8,
-        "p_over": 0.5195,
-        "p_under": 0.4805
+        "lambda_k": 6.9,
+        "p_over": 0.5358,
+        "p_under": 0.4642
       },
       {
         "pitcher_name": "Chase Burns",
@@ -675,6 +675,46 @@
         "lambda_k": 6.74,
         "p_over": 0.511,
         "p_under": 0.489
+      },
+      {
+        "pitcher_name": "MacKenzie Gore",
+        "team": "Texas Rangers",
+        "opponent": "Los Angeles Angels",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 6.32,
+        "p_over": 0.4445,
+        "p_under": 0.5555
+      },
+      {
+        "pitcher_name": "Alan Rangel",
+        "team": "Philadelphia Phillies",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.53,
+        "p_over": 0.3183,
+        "p_under": 0.6817
+      },
+      {
+        "pitcher_name": "Spencer Arrighetti",
+        "team": "Houston Astros",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 5.48,
+        "p_over": 0.3111,
+        "p_under": 0.6889
+      },
+      {
+        "pitcher_name": "Steven Cruz",
+        "team": "Kansas City Royals",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 5.42,
+        "p_over": 0.3007,
+        "p_under": 0.6993
       },
       {
         "pitcher_name": "Shane McClanahan",
@@ -697,64 +737,24 @@
         "p_under": 0.7106
       },
       {
-        "pitcher_name": "Troy Melton",
-        "team": "Detroit Tigers",
-        "opponent": "Athletics",
-        "venue": "Comerica Park",
+        "pitcher_name": "Jake Bennett",
+        "team": "Boston Red Sox",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
         "line": 6.5,
-        "lambda_k": 5.18,
-        "p_over": 0.2648,
-        "p_under": 0.7352
+        "lambda_k": 5.3,
+        "p_over": 0.2837,
+        "p_under": 0.7163
       },
       {
-        "pitcher_name": "Dean Kremer",
-        "team": "Baltimore Orioles",
-        "opponent": "Chicago Cubs",
-        "venue": "Oriole Park at Camden Yards",
+        "pitcher_name": "Connor Prielipp",
+        "team": "Minnesota Twins",
+        "opponent": "Cleveland Guardians",
+        "venue": "Target Field",
         "line": 6.5,
-        "lambda_k": 5.14,
-        "p_over": 0.259,
-        "p_under": 0.741
-      },
-      {
-        "pitcher_name": "Christian Scott",
-        "team": "New York Mets",
-        "opponent": "Kansas City Royals",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 5.08,
-        "p_over": 0.2498,
-        "p_under": 0.7502
-      },
-      {
-        "pitcher_name": "Grant Holmes",
-        "team": "Atlanta Braves",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 4.68,
-        "p_over": 0.1932,
-        "p_under": 0.8068
-      },
-      {
-        "pitcher_name": "Logan Webb",
-        "team": "San Francisco Giants",
-        "opponent": "Toronto Blue Jays",
-        "venue": "Oracle Park",
-        "line": 6.5,
-        "lambda_k": 4.51,
-        "p_over": 0.1701,
-        "p_under": 0.8299
-      },
-      {
-        "pitcher_name": "Tyler Phillips",
-        "team": "Miami Marlins",
-        "opponent": "Seattle Mariners",
-        "venue": "loanDepot park",
-        "line": 6.5,
-        "lambda_k": 4.04,
-        "p_over": 0.1149,
-        "p_under": 0.8851
+        "lambda_k": 5.29,
+        "p_over": 0.2814,
+        "p_under": 0.7186
       }
     ],
     "calibration": [
