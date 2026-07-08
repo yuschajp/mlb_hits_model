@@ -227,3 +227,13 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-07,823203,686790,Trevor McDonald,San Francisco Giants,Toronto Blue Jays,Oracle Park,0.91,6.5,7.895,7.393,0.1999,57.0,28.0,5.18,4.293,0.1434,0.8566,0.0,True
 2026-07-07,823929,547179,Michael Lorenzen,Colorado Rockies,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,1.13,6.5,7.012,7.535,0.2021,86.0,28.7,4.72,3.889,0.0994,0.9006,5.0,True
 2026-07-07,823929,680736,Justin Wrobleski,Los Angeles Dodgers,Colorado Rockies,UNIQLO Field at Dodger Stadium,0.96,6.5,6.171,7.043,0.2278,93.3,30.7,6.22,4.885,0.2213,0.7787,9.0,True
+2026-07-08,823202,656302,Dylan Cease,Toronto Blue Jays,San Francisco Giants,Oracle Park,1.0,6.5,13.649,14.294,0.207,90.3,28.3,5.65,6.796,0.5195,0.4805,,False
+2026-07-08,823202,657277,Logan Webb,San Francisco Giants,Toronto Blue Jays,Oracle Park,0.91,6.5,7.521,6.805,0.1991,93.3,41.0,6.22,4.509,0.1701,0.8299,,False
+2026-07-08,824815,665152,Dean Kremer,Baltimore Orioles,Chicago Cubs,Oriole Park at Camden Yards,0.97,6.5,10.588,6.0,0.2134,17.0,6.0,5.67,5.143,0.259,0.741,,False
+2026-07-08,824253,675512,Troy Melton,Detroit Tigers,Athletics,Comerica Park,0.95,6.5,6.545,8.043,0.2264,44.0,31.3,6.29,5.182,0.2648,0.7352,,False
+2026-07-08,823360,656550,Grant Holmes,Atlanta Braves,Pittsburgh Pirates,PNC Park,1.01,6.5,7.761,6.395,0.2377,82.3,25.3,4.84,4.684,0.1932,0.8068,,False
+2026-07-08,823848,669923,George Kirby,Seattle Mariners,Miami Marlins,loanDepot park,0.92,6.5,7.875,9.6,0.2142,104.0,30.0,6.12,5.342,0.2894,0.7106,,False
+2026-07-08,823848,663969,Tyler Phillips,Miami Marlins,Seattle Mariners,loanDepot park,0.93,6.5,6.783,5.637,0.2322,69.0,30.3,4.25,4.04,0.1149,0.8851,,False
+2026-07-08,822957,663556,Shane McClanahan,Tampa Bay Rays,New York Yankees,Tropicana Field,0.97,6.5,8.699,8.757,0.2416,79.7,24.7,4.98,5.387,0.2962,0.7038,,False
+2026-07-08,823605,681035,Christian Scott,New York Mets,Kansas City Royals,Citi Field,0.97,6.5,11.02,10.607,0.2126,49.0,18.7,4.45,5.081,0.2498,0.7502,,False
+2026-07-08,824496,695505,Chase Burns,Cincinnati Reds,Philadelphia Phillies,Great American Ball Park,1.05,6.5,10.689,11.88,0.2352,97.7,33.3,5.75,6.741,0.511,0.489,,False

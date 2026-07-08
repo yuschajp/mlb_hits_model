@@ -2816,3 +2816,39 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-07,823929,678662,Ezequiel Tovar,Colorado Rockies,Los Angeles Dodgers,7,UNIQLO Field at Dodger Stadium,1.02,Justin Wrobleski,0.0972,0.0276,3.7,0.0,True
 2026-07-07,823929,690924,Braxton Fulford,Colorado Rockies,Los Angeles Dodgers,8,UNIQLO Field at Dodger Stadium,1.02,Justin Wrobleski,0.0867,0.0252,3.6,0.0,True
 2026-07-07,823929,666160,Mickey Moniak,Colorado Rockies,Los Angeles Dodgers,9,UNIQLO Field at Dodger Stadium,1.02,Justin Wrobleski,0.1211,0.0369,3.5,0.0,True
+2026-07-08,823202,671218,Heliot Ramos,San Francisco Giants,Toronto Blue Jays,1,Oracle Park,0.78,Dylan Cease,0.0894,0.0218,4.3,,False
+2026-07-08,823202,650333,Luis Arraez,San Francisco Giants,Toronto Blue Jays,2,Oracle Park,0.78,Dylan Cease,0.0564,0.0138,4.2,,False
+2026-07-08,823202,669477,Casey Schmitt,San Francisco Giants,Toronto Blue Jays,3,Oracle Park,0.78,Dylan Cease,0.0832,0.0212,4.1,,False
+2026-07-08,823202,646240,Rafael Devers,San Francisco Giants,Toronto Blue Jays,4,Oracle Park,0.78,Dylan Cease,0.1037,0.0274,4.0,,False
+2026-07-08,823202,808982,Jung Hoo Lee,San Francisco Giants,Toronto Blue Jays,5,Oracle Park,0.78,Dylan Cease,0.055,0.0145,3.9,,False
+2026-07-08,823202,642715,Willy Adames,San Francisco Giants,Toronto Blue Jays,6,Oracle Park,0.78,Dylan Cease,0.0744,0.0204,3.8,,False
+2026-07-08,823202,805811,Bryce Eldridge,San Francisco Giants,Toronto Blue Jays,7,Oracle Park,0.78,Dylan Cease,0.0734,0.0206,3.7,,False
+2026-07-08,823202,687551,Drew Gilbert,San Francisco Giants,Toronto Blue Jays,8,Oracle Park,0.78,Dylan Cease,0.0589,0.0168,3.6,,False
+2026-07-08,823202,606992,Eric Haase,San Francisco Giants,Toronto Blue Jays,9,Oracle Park,0.78,Dylan Cease,0.0646,0.0191,3.5,,False
+2026-07-08,823202,676391,Ernie Clement,Toronto Blue Jays,San Francisco Giants,1,Oracle Park,0.78,Logan Webb,0.0664,0.016,4.3,,False
+2026-07-08,823202,664770,Nathan Lukes,Toronto Blue Jays,San Francisco Giants,2,Oracle Park,0.78,Logan Webb,0.0753,0.0186,4.2,,False
+2026-07-08,823202,665489,Vladimir Guerrero Jr.,Toronto Blue Jays,San Francisco Giants,3,Oracle Park,0.78,Logan Webb,0.0571,0.0143,4.1,,False
+2026-07-08,823202,543807,George Springer,Toronto Blue Jays,San Francisco Giants,4,Oracle Park,0.78,Logan Webb,0.0793,0.0207,4.0,,False
+2026-07-08,823202,662139,Daulton Varsho,Toronto Blue Jays,San Francisco Giants,5,Oracle Park,0.78,Logan Webb,0.0726,0.0193,3.9,,False
+2026-07-08,823202,672960,Kazuma Okamoto,Toronto Blue Jays,San Francisco Giants,6,Oracle Park,0.78,Logan Webb,0.1036,0.0288,3.8,,False
+2026-07-08,823202,672386,Alejandro Kirk,Toronto Blue Jays,San Francisco Giants,7,Oracle Park,0.78,Logan Webb,0.0675,0.0189,3.7,,False
+2026-07-08,823202,682729,Jonatan Clase,Toronto Blue Jays,San Francisco Giants,8,Oracle Park,0.78,Logan Webb,0.0757,0.0219,3.6,,False
+2026-07-08,823202,665926,Andrés Giménez,Toronto Blue Jays,San Francisco Giants,9,Oracle Park,0.78,Logan Webb,0.0597,0.0176,3.5,,False
+2026-07-08,823848,689414,Liam Hicks,Miami Marlins,Seattle Mariners,1,loanDepot park,0.85,George Kirby,0.1049,0.0258,4.3,,False
+2026-07-08,823848,672640,Otto Lopez,Miami Marlins,Seattle Mariners,2,loanDepot park,0.85,George Kirby,0.09,0.0225,4.2,,False
+2026-07-08,823848,669364,Xavier Edwards,Miami Marlins,Seattle Mariners,3,loanDepot park,0.85,George Kirby,0.0673,0.017,4.1,,False
+2026-07-08,823848,669065,Kyle Stowers,Miami Marlins,Seattle Mariners,4,loanDepot park,0.85,George Kirby,0.1133,0.0301,4.0,,False
+2026-07-08,823848,683357,Owen Caissie,Miami Marlins,Seattle Mariners,5,loanDepot park,0.85,George Kirby,0.1227,0.0336,3.9,,False
+2026-07-08,823848,681715,Heriberto Hernández,Miami Marlins,Seattle Mariners,6,loanDepot park,0.85,George Kirby,0.1177,0.033,3.8,,False
+2026-07-08,823848,805300,Jakob Marsee,Miami Marlins,Seattle Mariners,7,loanDepot park,0.85,George Kirby,0.0684,0.0191,3.7,,False
+2026-07-08,823848,691788,Joe Mack,Miami Marlins,Seattle Mariners,8,loanDepot park,0.85,George Kirby,0.1033,0.0303,3.6,,False
+2026-07-08,823848,691594,Javier Sanoja,Miami Marlins,Seattle Mariners,9,loanDepot park,0.85,George Kirby,0.0634,0.0187,3.5,,False
+2026-07-08,823848,641487,J.P. Crawford,Seattle Mariners,Miami Marlins,1,loanDepot park,0.85,Tyler Phillips,0.1058,0.026,4.3,,False
+2026-07-08,823848,668227,Randy Arozarena,Seattle Mariners,Miami Marlins,2,loanDepot park,0.85,Tyler Phillips,0.1075,0.0271,4.2,,False
+2026-07-08,823848,686527,Dominic Canzone,Seattle Mariners,Miami Marlins,3,loanDepot park,0.85,Tyler Phillips,0.1439,0.0379,4.1,,False
+2026-07-08,823848,663728,Cal Raleigh,Seattle Mariners,Miami Marlins,4,loanDepot park,0.85,Tyler Phillips,0.1088,0.0288,4.0,,False
+2026-07-08,823848,647304,Josh Naylor,Seattle Mariners,Miami Marlins,5,loanDepot park,0.85,Tyler Phillips,0.0885,0.0238,3.9,,False
+2026-07-08,823848,670042,Luke Raley,Seattle Mariners,Miami Marlins,6,loanDepot park,0.85,Tyler Phillips,0.1175,0.0329,3.8,,False
+2026-07-08,823848,702284,Cole Young,Seattle Mariners,Miami Marlins,7,loanDepot park,0.85,Tyler Phillips,0.1021,0.0291,3.7,,False
+2026-07-08,823848,645302,Victor Robles,Seattle Mariners,Miami Marlins,8,loanDepot park,0.85,Tyler Phillips,0.0737,0.0213,3.6,,False
+2026-07-08,823848,806068,Colt Emerson,Seattle Mariners,Miami Marlins,9,loanDepot park,0.85,Tyler Phillips,0.1003,0.0302,3.5,,False
