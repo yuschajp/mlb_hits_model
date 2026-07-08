@@ -29,6 +29,6 @@ date,match_id,home_team,away_team,stage,group,utc_date,xg_home,xg_away,p_home,p_
 2026-07-06,93,Portugal,Spain,Round of 16,,,0.558,1.07,0.1904,0.3322,0.4774,0.2239,0.281,0.0,1.0,away,True
 2026-07-06,94,USA,Belgium,Round of 16,,,1.594,2.274,0.2688,0.2004,0.5308,0.7413,0.7144,1.0,4.0,away,True
 2026-07-07,95,Argentina,Egypt,Round of 16,,,2.083,1.13,0.5926,0.2077,0.1998,0.6225,0.5924,,,,False
-2026-07-07,96,Switzerland,Colombia,Round of 16,,,0.992,0.964,0.3511,0.3126,0.3363,0.3114,0.3892,,,,False
+2026-07-07,96,Switzerland,Colombia,Round of 16,,,0.76,0.738,0.3226,0.3677,0.3097,0.1907,0.2778,,,,False
 2026-07-07,97,France,Morocco,Quarter-final,,,1.7,0.986,0.5413,0.2402,0.2185,0.5029,0.5124,,,,False
 2026-07-07,98,Spain,Belgium,Quarter-final,,,1.38,0.745,0.5203,0.2776,0.2021,0.3571,0.3931,,,,False
