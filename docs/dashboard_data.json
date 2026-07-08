@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-07",
   "hits": {
-    "today_count": 162,
+    "today_count": 288,
     "total_graded": 2692,
     "since_date": "2026-06-20",
     "brier_score": 0.2348,
@@ -11,20 +11,68 @@
     "actual_hit_rate": 0.6163,
     "top10_today": [
       {
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.778
+      },
+      {
+        "player_name": "Freddie Freeman",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 3,
+        "p_hit": 0.7747
+      },
+      {
+        "player_name": "Tommy Edman",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 5,
+        "p_hit": 0.7402
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Seth Lugo",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7386
+      },
+      {
+        "player_name": "Max Muncy",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 4,
+        "p_hit": 0.7348
+      },
+      {
+        "player_name": "Andy Pages",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.7331
+      },
+      {
+        "player_name": "Fernando Tatis Jr.",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Zac Gallen",
+        "venue": "Petco Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7297
+      },
+      {
         "player_name": "Pete Crow-Armstrong",
         "team": "Chicago Cubs",
         "opponent_pitcher": "Shane Baz",
         "venue": "Oriole Park at Camden Yards",
         "lineup_spot": 1,
-        "p_hit": 0.7226
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Andrew Alvarez",
-        "venue": "Nationals Park",
-        "lineup_spot": 2,
-        "p_hit": 0.7182
+        "p_hit": 0.7259
       },
       {
         "player_name": "Yandy D\u00edaz",
@@ -35,60 +83,12 @@
         "p_hit": 0.7182
       },
       {
-        "player_name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.7044
-      },
-      {
-        "player_name": "Jake Mangum",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Hurston Waldrep",
-        "venue": "PNC Park",
+        "player_name": "A.J. Ewing",
+        "team": "New York Mets",
+        "opponent_pitcher": "Seth Lugo",
+        "venue": "Citi Field",
         "lineup_spot": 1,
-        "p_hit": 0.7001
-      },
-      {
-        "player_name": "William Contreras",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matt Svanson",
-        "venue": "Busch Stadium",
-        "lineup_spot": 4,
-        "p_hit": 0.696
-      },
-      {
-        "player_name": "Jonathan Aranda",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Will Warren",
-        "venue": "Tropicana Field",
-        "lineup_spot": 2,
-        "p_hit": 0.6943
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Andrew Abbott",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hit": 0.6921
-      },
-      {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Andrew Abbott",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6907
-      },
-      {
-        "player_name": "Trea Turner",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Andrew Abbott",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hit": 0.6876
+        "p_hit": 0.7138
       }
     ],
     "calibration": [
@@ -322,7 +322,7 @@
     ]
   },
   "hr": {
-    "today_count": 162,
+    "today_count": 288,
     "total_graded": 2521,
     "since_date": "2026-06-21",
     "brier_score": 0.1114,
@@ -336,7 +336,7 @@
         "opponent_pitcher": "Andrew Abbott",
         "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hr": 0.2575
+        "p_hr": 0.265
       },
       {
         "player_name": "Luis Garc\u00eda Jr.",
@@ -344,7 +344,7 @@
         "opponent_pitcher": "Tatsuya Imai",
         "venue": "Nationals Park",
         "lineup_spot": 2,
-        "p_hr": 0.2243
+        "p_hr": 0.2283
       },
       {
         "player_name": "James Wood",
@@ -352,7 +352,7 @@
         "opponent_pitcher": "Tatsuya Imai",
         "venue": "Nationals Park",
         "lineup_spot": 1,
-        "p_hr": 0.209
+        "p_hr": 0.22
       },
       {
         "player_name": "Bryce Harper",
@@ -360,7 +360,23 @@
         "opponent_pitcher": "Andrew Abbott",
         "venue": "Great American Ball Park",
         "lineup_spot": 3,
-        "p_hr": 0.2046
+        "p_hr": 0.2042
+      },
+      {
+        "player_name": "Zach Neto",
+        "team": "Los Angeles Angels",
+        "opponent_pitcher": "Jacob deGrom",
+        "venue": "Globe Life Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2023
+      },
+      {
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.1942
       },
       {
         "player_name": "Junior Caminero",
@@ -371,6 +387,14 @@
         "p_hr": 0.1938
       },
       {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Noah Schultz",
+        "venue": "Rate Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1932
+      },
+      {
         "player_name": "Ben Rice",
         "team": "New York Yankees",
         "opponent_pitcher": "Ian Seymour",
@@ -379,36 +403,12 @@
         "p_hr": 0.1889
       },
       {
-        "player_name": "Colson Montgomery",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Payton Tolle",
-        "venue": "Rate Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1851
-      },
-      {
-        "player_name": "Paul Goldschmidt",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Ian Seymour",
-        "venue": "Tropicana Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1823
-      },
-      {
         "player_name": "CJ Abrams",
         "team": "Washington Nationals",
         "opponent_pitcher": "Tatsuya Imai",
         "venue": "Nationals Park",
         "lineup_spot": 4,
-        "p_hr": 0.182
-      },
-      {
-        "player_name": "Curtis Mead",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Tatsuya Imai",
-        "venue": "Nationals Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1815
+        "p_hr": 0.1858
       }
     ],
     "calibration": [
@@ -624,14 +624,34 @@
     ]
   },
   "k": {
-    "today_count": 20,
+    "today_count": 32,
     "total_graded": 196,
     "since_date": "2026-06-27",
     "brier_score": 0.1722,
     "naive_brier": 0.25,
-    "avg_lambda": 5.52,
+    "avg_lambda": 5.19,
     "over_rate": 0.265,
     "top10_today": [
+      {
+        "pitcher_name": "Zack Wheeler",
+        "team": "Philadelphia Phillies",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 7.39,
+        "p_over": 0.6068,
+        "p_under": 0.3932
+      },
+      {
+        "pitcher_name": "Jacob deGrom",
+        "team": "Texas Rangers",
+        "opponent": "Los Angeles Angels",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 6.98,
+        "p_over": 0.5474,
+        "p_under": 0.4526
+      },
       {
         "pitcher_name": "Jacob Misiorowski",
         "team": "Milwaukee Brewers",
@@ -641,26 +661,6 @@
         "lambda_k": 6.97,
         "p_over": 0.5464,
         "p_under": 0.4536
-      },
-      {
-        "pitcher_name": "Jacob deGrom",
-        "team": "Texas Rangers",
-        "opponent": "Los Angeles Angels",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 6.9,
-        "p_over": 0.5356,
-        "p_under": 0.4644
-      },
-      {
-        "pitcher_name": "Zack Wheeler",
-        "team": "Philadelphia Phillies",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 6.83,
-        "p_over": 0.5253,
-        "p_under": 0.4747
       },
       {
         "pitcher_name": "Tarik Skubal",
@@ -673,14 +673,14 @@
         "p_under": 0.5476
       },
       {
-        "pitcher_name": "Max Meyer",
-        "team": "Miami Marlins",
-        "opponent": "Seattle Mariners",
-        "venue": "loanDepot park",
+        "pitcher_name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "opponent": "Cleveland Guardians",
+        "venue": "Target Field",
         "line": 6.5,
-        "lambda_k": 6.04,
-        "p_over": 0.3994,
-        "p_under": 0.6006
+        "lambda_k": 6.07,
+        "p_over": 0.4044,
+        "p_under": 0.5956
       },
       {
         "pitcher_name": "Paul Skenes",
@@ -691,6 +691,16 @@
         "lambda_k": 5.98,
         "p_over": 0.3906,
         "p_under": 0.6094
+      },
+      {
+        "pitcher_name": "Max Meyer",
+        "team": "Miami Marlins",
+        "opponent": "Seattle Mariners",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 5.93,
+        "p_over": 0.3818,
+        "p_under": 0.6182
       },
       {
         "pitcher_name": "Hurston Waldrep",
@@ -708,19 +718,9 @@
         "opponent": "Chicago White Sox",
         "venue": "Rate Field",
         "line": 6.5,
-        "lambda_k": 5.59,
-        "p_over": 0.3283,
-        "p_under": 0.6717
-      },
-      {
-        "pitcher_name": "Ian Seymour",
-        "team": "Tampa Bay Rays",
-        "opponent": "New York Yankees",
-        "venue": "Tropicana Field",
-        "line": 6.5,
-        "lambda_k": 5.54,
-        "p_over": 0.3205,
-        "p_under": 0.6795
+        "lambda_k": 5.64,
+        "p_over": 0.3358,
+        "p_under": 0.6642
       },
       {
         "pitcher_name": "Matthew Boyd",
@@ -728,9 +728,9 @@
         "opponent": "Baltimore Orioles",
         "venue": "Oriole Park at Camden Yards",
         "line": 6.5,
-        "lambda_k": 5.37,
-        "p_over": 0.2934,
-        "p_under": 0.7066
+        "lambda_k": 5.57,
+        "p_over": 0.3245,
+        "p_under": 0.6755
       }
     ],
     "calibration": [
@@ -836,13 +836,13 @@
         "home_team": "Switzerland",
         "away_team": "Colombia",
         "stage": "Round of 16",
-        "xg_home": 0.99,
-        "xg_away": 0.96,
-        "p_home": 0.3511,
-        "p_draw": 0.3126,
-        "p_away": 0.3363,
-        "over_2_5": 0.3114,
-        "btts": 0.3892,
+        "xg_home": 0.76,
+        "xg_away": 0.74,
+        "p_home": 0.3226,
+        "p_draw": 0.3677,
+        "p_away": 0.3097,
+        "over_2_5": 0.1907,
+        "btts": 0.2778,
         "graded": false,
         "result": null
       },
@@ -1060,10 +1060,10 @@
   },
   "tennis": {
     "today_count": 5,
-    "total_graded": 97,
-    "accuracy": 0.689,
+    "total_graded": 98,
+    "accuracy": 0.696,
     "no_signal_count": 52,
-    "no_signal_rate": 0.536,
+    "no_signal_rate": 0.531,
     "matches": [
       {
         "tour": "atp",
@@ -1093,7 +1093,7 @@
         "elo_a": 1669.8,
         "elo_b": 1572.3,
         "p_a_wins": 0.6367,
-        "winner": null
+        "winner": "Novak Djokovic"
       },
       {
         "tour": "wta",
@@ -1149,8 +1149,8 @@
       },
       {
         "date": "2026-07-07",
-        "accuracy": 0.7045,
-        "n": 44
+        "accuracy": 0.7111,
+        "n": 45
       }
     ]
   },
