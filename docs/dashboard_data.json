@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-09",
   "hits": {
-    "today_count": 0,
+    "today_count": 72,
     "total_graded": 3250,
     "since_date": "2026-06-20",
     "brier_score": 0.2347,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6273,
     "actual_hit_rate": 0.6157,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Trevor Rogers",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 1,
+        "p_hit": 0.7181
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Mitch Keller",
+        "venue": "PNC Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7129
+      },
+      {
+        "player_name": "Adley Rutschman",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "David Peterson",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 1,
+        "p_hit": 0.706
+      },
+      {
+        "player_name": "Taylor Ward",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "David Peterson",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 2,
+        "p_hit": 0.7027
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Paul Blackburn",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.6993
+      },
+      {
+        "player_name": "Bobby Witt Jr.",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Sean Manaea",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hit": 0.6983
+      },
+      {
+        "player_name": "Blaze Alexander",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "David Peterson",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 8,
+        "p_hit": 0.6942
+      },
+      {
+        "player_name": "Jake Mangum",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Bryce Elder",
+        "venue": "PNC Park",
+        "lineup_spot": 1,
+        "p_hit": 0.6874
+      },
+      {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "David Peterson",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 4,
+        "p_hit": 0.6843
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hit": 0.6821
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -265,14 +346,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 72,
     "total_graded": 3079,
     "since_date": "2026-06-21",
     "brier_score": 0.1078,
     "naive_brier": 0.235,
     "avg_predicted": 0.1247,
     "actual_hr_rate": 0.1247,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1915
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Paul Blackburn",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1753
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1699
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Mitch Keller",
+        "venue": "PNC Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1647
+      },
+      {
+        "player_name": "Brandon Lowe",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Bryce Elder",
+        "venue": "PNC Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1593
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Trevor Rogers",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 1,
+        "p_hr": 0.1486
+      },
+      {
+        "player_name": "Ryan O'Hearn",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Bryce Elder",
+        "venue": "PNC Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1414
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Mitch Keller",
+        "venue": "PNC Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1386
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Bryce Elder",
+        "venue": "PNC Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1339
+      },
+      {
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Bryce Elder",
+        "venue": "PNC Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1316
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -510,14 +672,105 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 9,
     "total_graded": 258,
     "since_date": "2026-06-27",
     "brier_score": 0.1696,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.61,
     "over_rate": 0.267,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Drew Rasmussen",
+        "team": "Tampa Bay Rays",
+        "opponent": "New York Yankees",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 6.09,
+        "p_over": 0.4083,
+        "p_under": 0.5917
+      },
+      {
+        "pitcher_name": "Bryce Elder",
+        "team": "Atlanta Braves",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.34,
+        "p_over": 0.2884,
+        "p_under": 0.7116
+      },
+      {
+        "pitcher_name": "Michael Wacha",
+        "team": "Kansas City Royals",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 4.8,
+        "p_over": 0.2095,
+        "p_under": 0.7905
+      },
+      {
+        "pitcher_name": "David Peterson",
+        "team": "Chicago Cubs",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 4.47,
+        "p_over": 0.1649,
+        "p_under": 0.8351
+      },
+      {
+        "pitcher_name": "Anthony Kay",
+        "team": "Chicago White Sox",
+        "opponent": "Boston Red Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 4.44,
+        "p_over": 0.1611,
+        "p_under": 0.8389
+      },
+      {
+        "pitcher_name": "Mitch Keller",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Atlanta Braves",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 4.28,
+        "p_over": 0.1413,
+        "p_under": 0.8587
+      },
+      {
+        "pitcher_name": "Sean Manaea",
+        "team": "New York Mets",
+        "opponent": "Kansas City Royals",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 4.27,
+        "p_over": 0.1411,
+        "p_under": 0.8589
+      },
+      {
+        "pitcher_name": "Trevor Rogers",
+        "team": "Baltimore Orioles",
+        "opponent": "Chicago Cubs",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 4.26,
+        "p_over": 0.1391,
+        "p_under": 0.8609
+      },
+      {
+        "pitcher_name": "Paul Blackburn",
+        "team": "New York Yankees",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 3.59,
+        "p_over": 0.0724,
+        "p_under": 0.9276
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -814,12 +1067,33 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 0,
-    "total_graded": 102,
-    "accuracy": 0.667,
+    "today_count": 2,
+    "total_graded": 116,
+    "accuracy": 0.694,
     "no_signal_count": 54,
-    "no_signal_rate": 0.529,
-    "matches": [],
+    "no_signal_rate": 0.466,
+    "matches": [
+      {
+        "tour": "wta",
+        "round": "Semifinal",
+        "player_a": "Coco Gauff",
+        "player_b": "Karolina Muchova",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      },
+      {
+        "tour": "wta",
+        "round": "Semifinal",
+        "player_a": "Linda Noskova",
+        "player_b": "Marta Kostyuk",
+        "elo_a": 1500.0,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5,
+        "winner": null
+      }
+    ],
     "trend": [
       {
         "date": "2026-07-01",
@@ -828,38 +1102,38 @@
       },
       {
         "date": "2026-07-02",
-        "accuracy": 0.7917,
-        "n": 24
-      },
-      {
-        "date": "2026-07-03",
-        "accuracy": 0.697,
+        "accuracy": 0.8182,
         "n": 33
       },
       {
+        "date": "2026-07-03",
+        "accuracy": 0.7381,
+        "n": 42
+      },
+      {
         "date": "2026-07-04",
-        "accuracy": 0.7297,
-        "n": 37
+        "accuracy": 0.74,
+        "n": 50
       },
       {
         "date": "2026-07-05",
-        "accuracy": 0.7,
-        "n": 40
+        "accuracy": 0.7222,
+        "n": 54
       },
       {
         "date": "2026-07-06",
-        "accuracy": 0.6744,
-        "n": 43
+        "accuracy": 0.7018,
+        "n": 57
       },
       {
         "date": "2026-07-07",
-        "accuracy": 0.7111,
-        "n": 45
+        "accuracy": 0.7288,
+        "n": 59
       },
       {
         "date": "2026-07-08",
-        "accuracy": 0.5882,
-        "n": 34
+        "accuracy": 0.6458,
+        "n": 48
       }
     ]
   },
