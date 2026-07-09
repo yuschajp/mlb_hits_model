@@ -269,8 +269,16 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-09,823683,641927,Bailey Ober,Minnesota Twins,Cleveland Guardians,Target Field,0.98,6.5,6.405,9.0,0.2236,71.7,5.0,5.51,4.838,0.2145,0.7855,,False
 2026-07-09,824577,663776,Patrick Sandoval,Boston Red Sox,Chicago White Sox,Rate Field,1.06,6.5,10.385,10.385,0.2364,4.3,4.3,4.33,5.665,0.3401,0.6599,,False
 2026-07-09,824577,641743,Anthony Kay,Chicago White Sox,Boston Red Sox,Rate Field,1.02,6.5,7.18,8.242,0.2203,89.0,31.7,4.8,4.397,0.1559,0.8441,,False
+2026-07-09,824251,660761,José Suarez,Athletics,Detroit Tigers,Comerica Park,0.93,6.5,9.887,9.0,0.2303,47.3,18.0,3.22,5.163,0.262,0.738,,False
 2026-07-09,824251,664285,Framber Valdez,Detroit Tigers,Athletics,Comerica Park,0.95,6.5,6.973,6.545,0.2274,100.7,33.0,5.59,4.667,0.1909,0.8091,,False
 2026-07-09,823846,682243,Bryce Miller,Seattle Mariners,Miami Marlins,loanDepot park,0.92,6.5,10.595,11.937,0.2144,52.7,31.7,5.85,6.046,0.401,0.599,,False
 2026-07-09,823846,676083,Janson Junk,Miami Marlins,Seattle Mariners,loanDepot park,0.93,6.5,6.45,8.9,0.2325,60.0,0.0,5.45,5.047,0.2447,0.7553,,False
+2026-07-09,824494,666200,Jesús Luzardo,Philadelphia Phillies,Cincinnati Reds,Great American Ball Park,1.03,6.5,10.887,11.642,0.2499,103.3,36.3,5.74,7.201,0.5798,0.4202,,False
 2026-07-09,824494,663903,Brady Singer,Cincinnati Reds,Philadelphia Phillies,Great American Ball Park,1.05,6.5,7.761,10.053,0.2344,82.3,31.3,4.84,5.11,0.2541,0.7459,,False
+2026-07-09,823034,701656,Logan Henderson,Milwaukee Brewers,St. Louis Cardinals,Busch Stadium,1.02,6.5,11.739,8.9,0.2029,23.0,0.0,4.6,4.873,0.2196,0.7804,,False
 2026-07-09,823034,669467,Andre Pallante,St. Louis Cardinals,Milwaukee Brewers,Busch Stadium,0.97,6.5,6.632,5.458,0.2095,95.0,31.3,5.59,4.083,0.1196,0.8804,,False
+2026-07-09,822877,672282,Reid Detmers,Los Angeles Angels,Texas Rangers,Globe Life Field,0.99,6.5,10.06,8.591,0.2227,104.7,36.7,5.81,5.775,0.3577,0.6423,,False
+2026-07-09,822877,543135,Nathan Eovaldi,Texas Rangers,Los Angeles Angels,Globe Life Field,1.02,6.5,9.399,10.565,0.2501,105.3,30.7,6.2,6.91,0.5369,0.4631,,False
+2026-07-09,823277,656288,Griffin Canning,San Diego Padres,Arizona Diamondbacks,Petco Park,0.92,6.5,8.824,8.872,0.194,51.0,23.3,4.58,4.225,0.1354,0.8646,,False
+2026-07-09,823201,663372,Ryan Feltner,Colorado Rockies,San Francisco Giants,Oracle Park,1.13,6.5,6.712,6.818,0.2084,59.0,33.0,4.92,4.055,0.1164,0.8836,,False
+2026-07-09,823201,687931,Carson Whisenhunt,San Francisco Giants,Colorado Rockies,Oracle Park,0.91,6.5,3.6,3.6,0.229,5.0,5.0,5.0,5.005,0.2386,0.7614,,False
