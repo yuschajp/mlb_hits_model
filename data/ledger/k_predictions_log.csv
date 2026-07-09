@@ -257,3 +257,12 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-08,823928,808963,Roki Sasaki,Los Angeles Dodgers,Colorado Rockies,UNIQLO Field at Dodger Stadium,0.96,6.5,9.0,9.36,0.2285,76.0,25.0,4.75,5.093,0.2516,0.7484,5.0,True
 2026-07-08,823279,703615,Jose Cabrera,Arizona Diamondbacks,San Diego Padres,Petco Park,1.02,6.5,7.244,7.244,0.2303,13.7,13.7,4.44,4.988,0.236,0.764,2.0,True
 2026-07-08,823279,650633,Michael King,San Diego Padres,Arizona Diamondbacks,Petco Park,0.92,6.5,7.752,6.113,0.1949,103.3,35.3,5.44,4.023,0.1131,0.8869,4.0,True
+2026-07-09,823359,693821,Bryce Elder,Atlanta Braves,Pittsburgh Pirates,PNC Park,1.01,6.5,7.571,7.2,0.2385,98.7,20.0,5.8,5.336,0.2884,0.7116,,False
+2026-07-09,823359,656605,Mitch Keller,Pittsburgh Pirates,Atlanta Braves,PNC Park,0.97,6.5,6.638,6.469,0.2129,100.3,32.0,5.57,4.276,0.1413,0.8587,,False
+2026-07-09,823606,608379,Michael Wacha,Kansas City Royals,New York Mets,Citi Field,0.94,6.5,7.142,5.949,0.2193,114.7,39.3,6.37,4.802,0.2095,0.7905,,False
+2026-07-09,823606,640455,Sean Manaea,New York Mets,Kansas City Royals,Citi Field,0.97,6.5,9.0,8.069,0.2123,68.0,29.0,4.18,4.274,0.1411,0.8589,,False
+2026-07-09,822954,621112,Paul Blackburn,New York Yankees,Tampa Bay Rays,Tropicana Field,1.04,6.5,6.448,7.232,0.1892,44.7,18.7,2.0,3.59,0.0724,0.9276,,False
+2026-07-09,822954,656876,Drew Rasmussen,Tampa Bay Rays,New York Yankees,Tropicana Field,0.97,6.5,8.907,9.711,0.2425,97.0,38.0,5.71,6.091,0.4083,0.5917,,False
+2026-07-09,824816,656849,David Peterson,Chicago Cubs,Baltimore Orioles,Oriole Park at Camden Yards,1.0,6.5,7.914,4.822,0.2408,77.3,9.3,4.3,4.468,0.1649,0.8351,,False
+2026-07-09,824816,669432,Trevor Rogers,Baltimore Orioles,Chicago Cubs,Oriole Park at Camden Yards,0.97,6.5,6.937,6.813,0.2128,84.3,35.7,5.27,4.257,0.1391,0.8609,,False
+2026-07-09,824577,641743,Anthony Kay,Chicago White Sox,Boston Red Sox,Rate Field,1.02,6.5,7.179,8.437,0.2204,84.0,26.7,4.78,4.438,0.1611,0.8389,,False
