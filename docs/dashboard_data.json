@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-08",
   "hits": {
-    "today_count": 234,
+    "today_count": 270,
     "total_graded": 2980,
     "since_date": "2026-06-20",
     "brier_score": 0.2345,
@@ -24,7 +24,7 @@
         "opponent_pitcher": "Slade Cecconi",
         "venue": "Target Field",
         "lineup_spot": 1,
-        "p_hit": 0.7375
+        "p_hit": 0.7393
       },
       {
         "player_name": "Liam Hicks",
@@ -43,6 +43,14 @@
         "p_hit": 0.7094
       },
       {
+        "player_name": "Ceddanne Rafaela",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Davis Martin",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7092
+      },
+      {
         "player_name": "Yandy D\u00edaz",
         "team": "Tampa Bay Rays",
         "opponent_pitcher": "Gerrit Cole",
@@ -56,15 +64,23 @@
         "opponent_pitcher": "Connor Prielipp",
         "venue": "Target Field",
         "lineup_spot": 2,
-        "p_hit": 0.7062
+        "p_hit": 0.707
       },
       {
-        "player_name": "Ceddanne Rafaela",
+        "player_name": "Anthony Seigler",
         "team": "Boston Red Sox",
         "opponent_pitcher": "Davis Martin",
         "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7018
+      },
+      {
+        "player_name": "Brooks Lee",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Slade Cecconi",
+        "venue": "Target Field",
         "lineup_spot": 2,
-        "p_hit": 0.7013
+        "p_hit": 0.7011
       },
       {
         "player_name": "Xavier Edwards",
@@ -73,22 +89,6 @@
         "venue": "loanDepot park",
         "lineup_spot": 3,
         "p_hit": 0.7004
-      },
-      {
-        "player_name": "Anthony Seigler",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Davis Martin",
-        "venue": "Rate Field",
-        "lineup_spot": 1,
-        "p_hit": 0.6982
-      },
-      {
-        "player_name": "Brooks Lee",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Slade Cecconi",
-        "venue": "Target Field",
-        "lineup_spot": 2,
-        "p_hit": 0.6903
       }
     ],
     "calibration": [
@@ -334,7 +334,7 @@
     ]
   },
   "hr": {
-    "today_count": 234,
+    "today_count": 270,
     "total_graded": 2809,
     "since_date": "2026-06-21",
     "brier_score": 0.1089,
@@ -348,7 +348,15 @@
         "opponent_pitcher": "Chase Burns",
         "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hr": 0.2477
+        "p_hr": 0.248
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Roki Sasaki",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.237
       },
       {
         "player_name": "Junior Caminero",
@@ -383,20 +391,20 @@
         "p_hr": 0.2108
       },
       {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Chase Burns",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2104
-      },
-      {
         "player_name": "Luis Garc\u00eda Jr.",
         "team": "Washington Nationals",
         "opponent_pitcher": "Spencer Arrighetti",
         "venue": "Nationals Park",
         "lineup_spot": 2,
         "p_hr": 0.2089
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.205
       },
       {
         "player_name": "James Wood",
@@ -413,14 +421,6 @@
         "venue": "PNC Park",
         "lineup_spot": 2,
         "p_hr": 0.1978
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Dean Kremer",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 1,
-        "p_hr": 0.1906
       }
     ],
     "calibration": [
@@ -648,12 +648,12 @@
     ]
   },
   "k": {
-    "today_count": 26,
+    "today_count": 30,
     "total_graded": 228,
     "since_date": "2026-06-27",
     "brier_score": 0.1702,
     "naive_brier": 0.25,
-    "avg_lambda": 5.12,
+    "avg_lambda": 5.04,
     "over_rate": 0.272,
     "top10_today": [
       {
@@ -672,9 +672,9 @@
         "opponent": "Philadelphia Phillies",
         "venue": "Great American Ball Park",
         "line": 6.5,
-        "lambda_k": 6.74,
-        "p_over": 0.511,
-        "p_under": 0.489
+        "lambda_k": 6.45,
+        "p_over": 0.4654,
+        "p_under": 0.5346
       },
       {
         "pitcher_name": "MacKenzie Gore",
@@ -682,9 +682,9 @@
         "opponent": "Los Angeles Angels",
         "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 6.32,
-        "p_over": 0.4445,
-        "p_under": 0.5555
+        "lambda_k": 6.41,
+        "p_over": 0.4584,
+        "p_under": 0.5416
       },
       {
         "pitcher_name": "Alan Rangel",
@@ -692,9 +692,9 @@
         "opponent": "Cincinnati Reds",
         "venue": "Great American Ball Park",
         "line": 6.5,
-        "lambda_k": 5.53,
-        "p_over": 0.3183,
-        "p_under": 0.6817
+        "lambda_k": 5.58,
+        "p_over": 0.3269,
+        "p_under": 0.6731
       },
       {
         "pitcher_name": "Spencer Arrighetti",
@@ -727,6 +727,16 @@
         "p_under": 0.7038
       },
       {
+        "pitcher_name": "Connor Prielipp",
+        "team": "Minnesota Twins",
+        "opponent": "Cleveland Guardians",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 5.37,
+        "p_over": 0.2941,
+        "p_under": 0.7059
+      },
+      {
         "pitcher_name": "George Kirby",
         "team": "Seattle Mariners",
         "opponent": "Miami Marlins",
@@ -745,16 +755,6 @@
         "lambda_k": 5.3,
         "p_over": 0.2837,
         "p_under": 0.7163
-      },
-      {
-        "pitcher_name": "Connor Prielipp",
-        "team": "Minnesota Twins",
-        "opponent": "Cleveland Guardians",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 5.29,
-        "p_over": 0.2814,
-        "p_under": 0.7186
       }
     ],
     "calibration": [
