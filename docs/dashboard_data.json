@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-09",
   "hits": {
-    "today_count": 72,
+    "today_count": 126,
     "total_graded": 3250,
     "since_date": "2026-06-20",
     "brier_score": 0.2347,
@@ -16,7 +16,7 @@
         "opponent_pitcher": "Trevor Rogers",
         "venue": "Oriole Park at Camden Yards",
         "lineup_spot": 1,
-        "p_hit": 0.7181
+        "p_hit": 0.7174
       },
       {
         "player_name": "Michael Harris II",
@@ -24,23 +24,15 @@
         "opponent_pitcher": "Mitch Keller",
         "venue": "PNC Park",
         "lineup_spot": 1,
-        "p_hit": 0.7129
+        "p_hit": 0.7143
       },
       {
-        "player_name": "Adley Rutschman",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "David Peterson",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 1,
-        "p_hit": 0.706
-      },
-      {
-        "player_name": "Taylor Ward",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "David Peterson",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Ceddanne Rafaela",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Anthony Kay",
+        "venue": "Rate Field",
         "lineup_spot": 2,
-        "p_hit": 0.7027
+        "p_hit": 0.7039
       },
       {
         "player_name": "Yandy D\u00edaz",
@@ -48,23 +40,7 @@
         "opponent_pitcher": "Paul Blackburn",
         "venue": "Tropicana Field",
         "lineup_spot": 1,
-        "p_hit": 0.6993
-      },
-      {
-        "player_name": "Bobby Witt Jr.",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Sean Manaea",
-        "venue": "Citi Field",
-        "lineup_spot": 2,
-        "p_hit": 0.6983
-      },
-      {
-        "player_name": "Blaze Alexander",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "David Peterson",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 8,
-        "p_hit": 0.6942
+        "p_hit": 0.6995
       },
       {
         "player_name": "Jake Mangum",
@@ -72,23 +48,47 @@
         "opponent_pitcher": "Bryce Elder",
         "venue": "PNC Park",
         "lineup_spot": 1,
-        "p_hit": 0.6874
+        "p_hit": 0.6979
       },
       {
-        "player_name": "Pete Alonso",
+        "player_name": "Taylor Ward",
         "team": "Baltimore Orioles",
         "opponent_pitcher": "David Peterson",
         "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 4,
-        "p_hit": 0.6843
+        "lineup_spot": 2,
+        "p_hit": 0.6979
       },
       {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Michael Wacha",
+        "player_name": "Bobby Witt Jr.",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Sean Manaea",
         "venue": "Citi Field",
         "lineup_spot": 2,
-        "p_hit": 0.6821
+        "p_hit": 0.6968
+      },
+      {
+        "player_name": "Adley Rutschman",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "David Peterson",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 1,
+        "p_hit": 0.6954
+      },
+      {
+        "player_name": "Anthony Seigler",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Anthony Kay",
+        "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hit": 0.692
+      },
+      {
+        "player_name": "Chase Meidroth",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Patrick Sandoval",
+        "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hit": 0.6886
       }
     ],
     "calibration": [
@@ -346,7 +346,7 @@
     ]
   },
   "hr": {
-    "today_count": 72,
+    "today_count": 126,
     "total_graded": 3079,
     "since_date": "2026-06-21",
     "brier_score": 0.1078,
@@ -360,7 +360,7 @@
         "opponent_pitcher": "Drew Rasmussen",
         "venue": "Tropicana Field",
         "lineup_spot": 2,
-        "p_hr": 0.1915
+        "p_hr": 0.2092
       },
       {
         "player_name": "Junior Caminero",
@@ -368,7 +368,15 @@
         "opponent_pitcher": "Paul Blackburn",
         "venue": "Tropicana Field",
         "lineup_spot": 3,
-        "p_hr": 0.1753
+        "p_hr": 0.1902
+      },
+      {
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Gavin Williams",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1841
       },
       {
         "player_name": "Juan Soto",
@@ -376,7 +384,15 @@
         "opponent_pitcher": "Michael Wacha",
         "venue": "Citi Field",
         "lineup_spot": 2,
-        "p_hr": 0.1699
+        "p_hr": 0.1784
+      },
+      {
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Patrick Sandoval",
+        "venue": "Rate Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1764
       },
       {
         "player_name": "Matt Olson",
@@ -384,7 +400,7 @@
         "opponent_pitcher": "Mitch Keller",
         "venue": "PNC Park",
         "lineup_spot": 3,
-        "p_hr": 0.1647
+        "p_hr": 0.1749
       },
       {
         "player_name": "Brandon Lowe",
@@ -392,47 +408,31 @@
         "opponent_pitcher": "Bryce Elder",
         "venue": "PNC Park",
         "lineup_spot": 2,
-        "p_hr": 0.1593
+        "p_hr": 0.1743
       },
       {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Trevor Rogers",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 1,
-        "p_hr": 0.1486
-      },
-      {
-        "player_name": "Ryan O'Hearn",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Bryce Elder",
-        "venue": "PNC Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1414
-      },
-      {
-        "player_name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Mitch Keller",
-        "venue": "PNC Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1386
-      },
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Bryce Elder",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1339
-      },
-      {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Bryce Elder",
-        "venue": "PNC Park",
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Patrick Sandoval",
+        "venue": "Rate Field",
         "lineup_spot": 3,
-        "p_hr": 0.1316
+        "p_hr": 0.1639
+      },
+      {
+        "player_name": "Randal Grichuk",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Patrick Sandoval",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.161
+      },
+      {
+        "player_name": "Brooks Lee",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Gavin Williams",
+        "venue": "Target Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1597
       }
     ],
     "calibration": [
@@ -672,23 +672,53 @@
     ]
   },
   "k": {
-    "today_count": 9,
+    "today_count": 17,
     "total_graded": 258,
     "since_date": "2026-06-27",
     "brier_score": 0.1696,
     "naive_brier": 0.25,
-    "avg_lambda": 4.61,
+    "avg_lambda": 4.87,
     "over_rate": 0.267,
     "top10_today": [
+      {
+        "pitcher_name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "opponent": "Minnesota Twins",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 6.34,
+        "p_over": 0.4476,
+        "p_under": 0.5524
+      },
+      {
+        "pitcher_name": "Bryce Miller",
+        "team": "Seattle Mariners",
+        "opponent": "Miami Marlins",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 6.05,
+        "p_over": 0.401,
+        "p_under": 0.599
+      },
       {
         "pitcher_name": "Drew Rasmussen",
         "team": "Tampa Bay Rays",
         "opponent": "New York Yankees",
         "venue": "Tropicana Field",
         "line": 6.5,
-        "lambda_k": 6.09,
-        "p_over": 0.4083,
-        "p_under": 0.5917
+        "lambda_k": 5.92,
+        "p_over": 0.3815,
+        "p_under": 0.6185
+      },
+      {
+        "pitcher_name": "Patrick Sandoval",
+        "team": "Boston Red Sox",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.67,
+        "p_over": 0.3401,
+        "p_under": 0.6599
       },
       {
         "pitcher_name": "Bryce Elder",
@@ -696,9 +726,39 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 5.34,
-        "p_over": 0.2884,
-        "p_under": 0.7116
+        "lambda_k": 5.21,
+        "p_over": 0.2699,
+        "p_under": 0.7301
+      },
+      {
+        "pitcher_name": "Brady Singer",
+        "team": "Cincinnati Reds",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.11,
+        "p_over": 0.2541,
+        "p_under": 0.7459
+      },
+      {
+        "pitcher_name": "Janson Junk",
+        "team": "Miami Marlins",
+        "opponent": "Seattle Mariners",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 5.05,
+        "p_over": 0.2447,
+        "p_under": 0.7553
+      },
+      {
+        "pitcher_name": "Bailey Ober",
+        "team": "Minnesota Twins",
+        "opponent": "Cleveland Guardians",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 4.84,
+        "p_over": 0.2145,
+        "p_under": 0.7855
       },
       {
         "pitcher_name": "Michael Wacha",
@@ -706,69 +766,19 @@
         "opponent": "New York Mets",
         "venue": "Citi Field",
         "line": 6.5,
-        "lambda_k": 4.8,
-        "p_over": 0.2095,
-        "p_under": 0.7905
+        "lambda_k": 4.83,
+        "p_over": 0.2133,
+        "p_under": 0.7867
       },
       {
-        "pitcher_name": "David Peterson",
-        "team": "Chicago Cubs",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
+        "pitcher_name": "Framber Valdez",
+        "team": "Detroit Tigers",
+        "opponent": "Athletics",
+        "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 4.47,
-        "p_over": 0.1649,
-        "p_under": 0.8351
-      },
-      {
-        "pitcher_name": "Anthony Kay",
-        "team": "Chicago White Sox",
-        "opponent": "Boston Red Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 4.44,
-        "p_over": 0.1611,
-        "p_under": 0.8389
-      },
-      {
-        "pitcher_name": "Mitch Keller",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Atlanta Braves",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 4.28,
-        "p_over": 0.1413,
-        "p_under": 0.8587
-      },
-      {
-        "pitcher_name": "Sean Manaea",
-        "team": "New York Mets",
-        "opponent": "Kansas City Royals",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 4.27,
-        "p_over": 0.1411,
-        "p_under": 0.8589
-      },
-      {
-        "pitcher_name": "Trevor Rogers",
-        "team": "Baltimore Orioles",
-        "opponent": "Chicago Cubs",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 4.26,
-        "p_over": 0.1391,
-        "p_under": 0.8609
-      },
-      {
-        "pitcher_name": "Paul Blackburn",
-        "team": "New York Yankees",
-        "opponent": "Tampa Bay Rays",
-        "venue": "Tropicana Field",
-        "line": 6.5,
-        "lambda_k": 3.59,
-        "p_over": 0.0724,
-        "p_under": 0.9276
+        "lambda_k": 4.67,
+        "p_over": 0.1909,
+        "p_under": 0.8091
       }
     ],
     "calibration": [
@@ -1068,20 +1078,20 @@
   },
   "tennis": {
     "today_count": 2,
-    "total_graded": 116,
+    "total_graded": 118,
     "accuracy": 0.694,
-    "no_signal_count": 54,
-    "no_signal_rate": 0.466,
+    "no_signal_count": 56,
+    "no_signal_rate": 0.475,
     "matches": [
       {
         "tour": "wta",
         "round": "Semifinal",
-        "player_a": "Coco Gauff",
-        "player_b": "Karolina Muchova",
+        "player_a": "Karolina Muchova",
+        "player_b": "Coco Gauff",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Karolina Muchova"
       },
       {
         "tour": "wta",
@@ -1091,7 +1101,7 @@
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Linda Noskova"
       }
     ],
     "trend": [
