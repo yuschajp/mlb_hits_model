@@ -682,9 +682,9 @@
         "opponent": "Los Angeles Angels",
         "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 6.41,
-        "p_over": 0.4584,
-        "p_under": 0.5416
+        "lambda_k": 6.4,
+        "p_over": 0.4576,
+        "p_under": 0.5424
       },
       {
         "pitcher_name": "Alan Rangel",
