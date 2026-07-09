@@ -3039,7 +3039,7 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-08,822880,677649,Ezequiel Duran,Texas Rangers,Los Angeles Angels,5,Globe Life Field,1.0,Walbert Ureña,0.0851,0.0228,3.9,,False
 2026-07-08,822880,694497,Evan Carter,Texas Rangers,Los Angeles Angels,6,Globe Life Field,1.0,Walbert Ureña,0.0902,0.0249,3.8,,False
 2026-07-08,822880,696030,Alejandro Osuna,Texas Rangers,Los Angeles Angels,7,Globe Life Field,1.0,Walbert Ureña,0.0685,0.0192,3.7,,False
-2026-07-08,822880,553869,Elias Díaz,Texas Rangers,Los Angeles Angels,8,Globe Life Field,1.0,Walbert Ureña,0.0861,0.025,3.6,,False
+2026-07-08,822880,553869,Elias Díaz,Texas Rangers,Los Angeles Angels,8,Globe Life Field,1.0,Walbert Ureña,0.086,0.025,3.6,,False
 2026-07-08,822880,670032,Nicky Lopez,Texas Rangers,Los Angeles Angels,9,Globe Life Field,1.0,Walbert Ureña,0.0658,0.0195,3.5,,False
 2026-07-08,822880,687263,Zach Neto,Los Angeles Angels,Texas Rangers,1,Globe Life Field,1.0,MacKenzie Gore,0.1573,0.0398,4.3,,False
 2026-07-08,822880,545361,Mike Trout,Los Angeles Angels,Texas Rangers,2,Globe Life Field,1.0,MacKenzie Gore,0.1513,0.0391,4.2,,False
@@ -3068,16 +3068,16 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-08,823928,666397,Edouard Julien,Colorado Rockies,Los Angeles Dodgers,7,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.1199,0.0345,3.7,,False
 2026-07-08,823928,678662,Ezequiel Tovar,Colorado Rockies,Los Angeles Dodgers,8,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.1549,0.0467,3.6,,False
 2026-07-08,823928,664954,Brett Sullivan,Colorado Rockies,Los Angeles Dodgers,9,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.165,0.0515,3.5,,False
-2026-07-08,823279,665487,Fernando Tatis Jr.,San Diego Padres,Arizona Diamondbacks,1,Petco Park,0.85,Jose Cabrera,0.1009,0.0247,4.3,,False
-2026-07-08,823279,701538,Jackson Merrill,San Diego Padres,Arizona Diamondbacks,2,Petco Park,0.85,Jose Cabrera,0.119,0.0302,4.2,,False
-2026-07-08,823279,593428,Xander Bogaerts,San Diego Padres,Arizona Diamondbacks,3,Petco Park,0.85,Jose Cabrera,0.1015,0.0261,4.1,,False
-2026-07-08,823279,657757,Gavin Sheets,San Diego Padres,Arizona Diamondbacks,4,Petco Park,0.85,Jose Cabrera,0.1415,0.0382,4.0,,False
-2026-07-08,823279,630105,Jake Cronenworth,San Diego Padres,Arizona Diamondbacks,5,Petco Park,0.85,Jose Cabrera,0.1136,0.0309,3.9,,False
-2026-07-08,823279,669134,Luis Campusano,San Diego Padres,Arizona Diamondbacks,6,Petco Park,0.85,Jose Cabrera,0.1133,0.0316,3.8,,False
+2026-07-08,823279,665487,Fernando Tatis Jr.,San Diego Padres,Arizona Diamondbacks,1,Petco Park,0.85,Jose Cabrera,0.1006,0.0247,4.3,,False
+2026-07-08,823279,701538,Jackson Merrill,San Diego Padres,Arizona Diamondbacks,2,Petco Park,0.85,Jose Cabrera,0.1186,0.0301,4.2,,False
+2026-07-08,823279,593428,Xander Bogaerts,San Diego Padres,Arizona Diamondbacks,3,Petco Park,0.85,Jose Cabrera,0.1012,0.026,4.1,,False
+2026-07-08,823279,657757,Gavin Sheets,San Diego Padres,Arizona Diamondbacks,4,Petco Park,0.85,Jose Cabrera,0.1412,0.038,4.0,,False
+2026-07-08,823279,630105,Jake Cronenworth,San Diego Padres,Arizona Diamondbacks,5,Petco Park,0.85,Jose Cabrera,0.1133,0.0308,3.9,,False
+2026-07-08,823279,669134,Luis Campusano,San Diego Padres,Arizona Diamondbacks,6,Petco Park,0.85,Jose Cabrera,0.113,0.0316,3.8,,False
 2026-07-08,823279,609280,Miguel Andujar,San Diego Padres,Arizona Diamondbacks,7,Petco Park,0.85,Jose Cabrera,0.0946,0.0269,3.7,,False
 2026-07-08,823279,687749,Jase Bowen,San Diego Padres,Arizona Diamondbacks,8,Petco Park,0.85,Jose Cabrera,0.0938,0.0274,3.6,,False
 2026-07-08,823279,823550,Sung-Mun Song,San Diego Padres,Arizona Diamondbacks,9,Petco Park,0.85,Jose Cabrera,0.0923,0.0277,3.5,,False
-2026-07-08,823279,606466,Ketel Marte,Arizona Diamondbacks,San Diego Padres,1,Petco Park,0.85,Michael King,0.1242,0.0308,4.3,,False
+2026-07-08,823279,606466,Ketel Marte,Arizona Diamondbacks,San Diego Padres,1,Petco Park,0.85,Michael King,0.1241,0.0308,4.3,,False
 2026-07-08,823279,545121,Ildemaro Vargas,Arizona Diamondbacks,San Diego Padres,2,Petco Park,0.85,Michael King,0.084,0.0209,4.2,,False
 2026-07-08,823279,682998,Corbin Carroll,Arizona Diamondbacks,San Diego Padres,3,Petco Park,0.85,Michael King,0.1042,0.0268,4.1,,False
 2026-07-08,823279,672515,Gabriel Moreno,Arizona Diamondbacks,San Diego Padres,4,Petco Park,0.85,Michael King,0.0886,0.0232,4.0,,False

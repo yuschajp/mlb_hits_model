@@ -249,11 +249,11 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-08,823032,700241,Michael McGreevy,St. Louis Cardinals,Milwaukee Brewers,Busch Stadium,0.97,6.5,5.664,4.966,0.209,95.3,29.0,5.61,3.814,0.0922,0.9078,,False
 2026-07-08,824496,660604,Alan Rangel,Philadelphia Phillies,Cincinnati Reds,Great American Ball Park,1.03,6.5,10.242,9.368,0.2499,19.3,16.3,3.87,5.582,0.3269,0.6731,,False
 2026-07-08,824496,695505,Chase Burns,Cincinnati Reds,Philadelphia Phillies,Great American Ball Park,1.05,6.5,10.344,10.8,0.2344,102.7,38.3,5.7,6.449,0.4654,0.5346,,False
-2026-07-08,823684,677944,Slade Cecconi,Cleveland Guardians,Minnesota Twins,Target Field,0.99,6.5,7.0,6.509,0.2162,99.0,37.3,5.21,4.226,0.1355,0.8645,,False
+2026-07-08,823684,677944,Slade Cecconi,Cleveland Guardians,Minnesota Twins,Target Field,0.99,6.5,7.0,6.509,0.2164,99.0,37.3,5.21,4.23,0.136,0.864,,False
 2026-07-08,823684,687570,Connor Prielipp,Minnesota Twins,Cleveland Guardians,Target Field,0.98,6.5,9.585,9.549,0.2235,66.7,27.3,5.13,5.373,0.2941,0.7059,,False
 2026-07-08,822880,700712,Walbert Ureña,Los Angeles Angels,Texas Rangers,Globe Life Field,0.99,6.5,8.631,9.0,0.222,81.3,37.0,5.31,5.166,0.2625,0.7375,,False
-2026-07-08,822880,669022,MacKenzie Gore,Texas Rangers,Los Angeles Angels,Globe Life Field,1.02,6.5,9.891,10.437,0.2506,101.0,39.7,5.32,6.405,0.4584,0.5416,,False
-2026-07-08,823928,687312,Gabriel Hughes,Colorado Rockies,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,1.13,6.5,2.7,2.7,0.2017,3.3,3.3,1.67,3.99,0.1096,0.8904,,False
+2026-07-08,822880,669022,MacKenzie Gore,Texas Rangers,Los Angeles Angels,Globe Life Field,1.02,6.5,9.891,10.437,0.2504,101.0,39.7,5.32,6.4,0.4576,0.5424,,False
+2026-07-08,823928,687312,Gabriel Hughes,Colorado Rockies,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,1.13,6.5,2.7,2.7,0.2016,3.3,3.3,1.67,3.988,0.1094,0.8906,,False
 2026-07-08,823928,808963,Roki Sasaki,Los Angeles Dodgers,Colorado Rockies,UNIQLO Field at Dodger Stadium,0.96,6.5,9.0,9.36,0.2285,76.0,25.0,4.75,5.093,0.2516,0.7484,,False
 2026-07-08,823279,703615,Jose Cabrera,Arizona Diamondbacks,San Diego Padres,Petco Park,1.02,6.5,7.244,7.244,0.2303,13.7,13.7,4.44,4.988,0.236,0.764,,False
 2026-07-08,823279,650633,Michael King,San Diego Padres,Arizona Diamondbacks,Petco Park,0.92,6.5,7.752,6.113,0.1949,103.3,35.3,5.44,4.023,0.1131,0.8869,,False
