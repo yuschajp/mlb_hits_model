@@ -2960,42 +2960,6 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-08,823605,679845,Nick Loftin,Kansas City Royals,New York Mets,7,Citi Field,0.9,Christian Scott,0.1075,0.0307,3.7,,False
 2026-07-08,823605,686555,Isaac Collins,Kansas City Royals,New York Mets,8,Citi Field,0.9,Christian Scott,0.0852,0.0247,3.6,,False
 2026-07-08,823605,686475,Tyler Tolbert,Kansas City Royals,New York Mets,9,Citi Field,0.9,Christian Scott,0.109,0.033,3.5,,False
-2026-07-08,824496,682829,Elly De La Cruz,Cincinnati Reds,Philadelphia Phillies,1,Great American Ball Park,1.15,Alan Rangel,0.1435,0.036,4.3,,False
-2026-07-08,824496,701398,Sal Stewart,Cincinnati Reds,Philadelphia Phillies,2,Great American Ball Park,1.15,Alan Rangel,0.1598,0.0415,4.2,,False
-2026-07-08,824496,668709,JJ Bleday,Cincinnati Reds,Philadelphia Phillies,3,Great American Ball Park,1.15,Alan Rangel,0.1552,0.0411,4.1,,False
-2026-07-08,824496,553993,Eugenio Suárez,Cincinnati Reds,Philadelphia Phillies,4,Great American Ball Park,1.15,Alan Rangel,0.1423,0.0384,4.0,,False
-2026-07-08,824496,668715,Spencer Steer,Cincinnati Reds,Philadelphia Phillies,5,Great American Ball Park,1.15,Alan Rangel,0.1479,0.041,3.9,,False
-2026-07-08,824496,682622,Noelvi Marte,Cincinnati Reds,Philadelphia Phillies,6,Great American Ball Park,1.15,Alan Rangel,0.1356,0.0383,3.8,,False
-2026-07-08,824496,624431,Jose Trevino,Cincinnati Reds,Philadelphia Phillies,7,Great American Ball Park,1.15,Alan Rangel,0.1124,0.0322,3.7,,False
-2026-07-08,824496,695490,Edwin Arroyo,Cincinnati Reds,Philadelphia Phillies,8,Great American Ball Park,1.15,Alan Rangel,0.0912,0.0266,3.6,,False
-2026-07-08,824496,670770,TJ Friedl,Cincinnati Reds,Philadelphia Phillies,9,Great American Ball Park,1.15,Alan Rangel,0.1025,0.0309,3.5,,False
-2026-07-08,824496,547180,Bryce Harper,Philadelphia Phillies,Cincinnati Reds,1,Great American Ball Park,1.15,Chase Burns,0.2104,0.055,4.3,,False
-2026-07-08,824496,656941,Kyle Schwarber,Philadelphia Phillies,Cincinnati Reds,2,Great American Ball Park,1.15,Chase Burns,0.2477,0.0678,4.2,,False
-2026-07-08,824496,669016,Brandon Marsh,Philadelphia Phillies,Cincinnati Reds,3,Great American Ball Park,1.15,Chase Burns,0.1804,0.0485,4.1,,False
-2026-07-08,824496,681082,Bryson Stott,Philadelphia Phillies,Cincinnati Reds,4,Great American Ball Park,1.15,Chase Burns,0.1188,0.0316,4.0,,False
-2026-07-08,824496,664761,Alec Bohm,Philadelphia Phillies,Cincinnati Reds,5,Great American Ball Park,1.15,Chase Burns,0.1434,0.0397,3.9,,False
-2026-07-08,824496,687282,Gabriel Rincones Jr.,Philadelphia Phillies,Cincinnati Reds,6,Great American Ball Park,1.15,Chase Burns,0.138,0.0391,3.8,,False
-2026-07-08,824496,702222,Justin Crawford,Philadelphia Phillies,Cincinnati Reds,7,Great American Ball Park,1.15,Chase Burns,0.0917,0.026,3.7,,False
-2026-07-08,824496,592663,J.T. Realmuto,Philadelphia Phillies,Cincinnati Reds,8,Great American Ball Park,1.15,Chase Burns,0.1286,0.0382,3.6,,False
-2026-07-08,824496,624641,Edmundo Sosa,Philadelphia Phillies,Cincinnati Reds,9,Great American Ball Park,1.15,Chase Burns,0.1277,0.039,3.5,,False
-2026-07-08,823684,663616,Trevor Larnach,Minnesota Twins,Cleveland Guardians,1,Target Field,0.95,Slade Cecconi,0.1232,0.0306,4.3,,False
-2026-07-08,823684,686797,Brooks Lee,Minnesota Twins,Cleveland Guardians,2,Target Field,0.95,Slade Cecconi,0.1479,0.0381,4.2,,False
-2026-07-08,823684,665019,Kody Clemens,Minnesota Twins,Cleveland Guardians,3,Target Field,0.95,Slade Cecconi,0.1708,0.0457,4.1,,False
-2026-07-08,823684,605137,Josh Bell,Minnesota Twins,Cleveland Guardians,4,Target Field,0.95,Slade Cecconi,0.1479,0.04,4.0,,False
-2026-07-08,823684,668904,Royce Lewis,Minnesota Twins,Cleveland Guardians,5,Target Field,0.95,Slade Cecconi,0.1296,0.0356,3.9,,False
-2026-07-08,823684,605170,Victor Caratini,Minnesota Twins,Cleveland Guardians,6,Target Field,0.95,Slade Cecconi,0.1239,0.0348,3.8,,False
-2026-07-08,823684,807712,Luke Keaschall,Minnesota Twins,Cleveland Guardians,7,Target Field,0.95,Slade Cecconi,0.0969,0.0275,3.7,,False
-2026-07-08,823684,702176,Alan Roden,Minnesota Twins,Cleveland Guardians,8,Target Field,0.95,Slade Cecconi,0.1085,0.0319,3.6,,False
-2026-07-08,823684,668952,Ryan Kreidler,Minnesota Twins,Cleveland Guardians,9,Target Field,0.95,Slade Cecconi,0.1117,0.0338,3.5,,False
-2026-07-08,823684,681807,David Fry,Cleveland Guardians,Minnesota Twins,1,Target Field,0.95,Connor Prielipp,0.13,0.0324,4.3,,False
-2026-07-08,823684,800050,Chase DeLauter,Cleveland Guardians,Minnesota Twins,2,Target Field,0.95,Connor Prielipp,0.101,0.0253,4.2,,False
-2026-07-08,823684,677587,Brayan Rocchio,Cleveland Guardians,Minnesota Twins,3,Target Field,0.95,Connor Prielipp,0.0898,0.0229,4.1,,False
-2026-07-08,823684,656555,Rhys Hoskins,Cleveland Guardians,Minnesota Twins,4,Target Field,0.95,Connor Prielipp,0.1083,0.0287,4.0,,False
-2026-07-08,823684,683953,Travis Bazzana,Cleveland Guardians,Minnesota Twins,5,Target Field,0.95,Connor Prielipp,0.0992,0.0268,3.9,,False
-2026-07-08,823684,672356,Gabriel Arias,Cleveland Guardians,Minnesota Twins,6,Target Field,0.95,Connor Prielipp,0.1047,0.0291,3.8,,False
-2026-07-08,823684,700932,Kyle Manzardo,Cleveland Guardians,Minnesota Twins,7,Target Field,0.95,Connor Prielipp,0.1027,0.0293,3.7,,False
-2026-07-08,823684,595978,Austin Hedges,Cleveland Guardians,Minnesota Twins,8,Target Field,0.95,Connor Prielipp,0.0945,0.0276,3.6,,False
-2026-07-08,823684,696135,Kahlil Watson,Cleveland Guardians,Minnesota Twins,9,Target Field,0.95,Connor Prielipp,0.085,0.0254,3.5,,False
 2026-07-08,824578,678246,Miguel Vargas,Chicago White Sox,Boston Red Sox,1,Rate Field,1.07,Jake Bennett,0.1634,0.0415,4.3,,False
 2026-07-08,824578,545341,Randal Grichuk,Chicago White Sox,Boston Red Sox,2,Rate Field,1.07,Jake Bennett,0.1544,0.0399,4.2,,False
 2026-07-08,824578,695657,Colson Montgomery,Chicago White Sox,Boston Red Sox,3,Rate Field,1.07,Jake Bennett,0.1724,0.0462,4.1,,False
@@ -3032,21 +2996,93 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-08,823032,806198,Cooper Pratt,Milwaukee Brewers,St. Louis Cardinals,7,Busch Stadium,0.9,Michael McGreevy,0.0905,0.0257,3.7,,False
 2026-07-08,823032,687401,Joey Ortiz,Milwaukee Brewers,St. Louis Cardinals,8,Busch Stadium,0.9,Michael McGreevy,0.0937,0.0273,3.6,,False
 2026-07-08,823032,675659,Greg Jones,Milwaukee Brewers,St. Louis Cardinals,9,Busch Stadium,0.9,Michael McGreevy,0.0997,0.03,3.5,,False
-2026-07-08,822880,592626,Joc Pederson,Texas Rangers,Los Angeles Angels,1,Globe Life Field,1.0,Walbert Ureña,0.1366,0.0342,4.3,,False
-2026-07-08,822880,669701,Josh Smith,Texas Rangers,Los Angeles Angels,2,Globe Life Field,1.0,Walbert Ureña,0.0889,0.0222,4.2,,False
-2026-07-08,822880,669394,Jake Burger,Texas Rangers,Los Angeles Angels,3,Globe Life Field,1.0,Walbert Ureña,0.1177,0.0305,4.1,,False
-2026-07-08,822880,607043,Brandon Nimmo,Texas Rangers,Los Angeles Angels,4,Globe Life Field,1.0,Walbert Ureña,0.0824,0.0215,4.0,,False
-2026-07-08,822880,677649,Ezequiel Duran,Texas Rangers,Los Angeles Angels,5,Globe Life Field,1.0,Walbert Ureña,0.0873,0.0234,3.9,,False
-2026-07-08,822880,694497,Evan Carter,Texas Rangers,Los Angeles Angels,6,Globe Life Field,1.0,Walbert Ureña,0.0924,0.0255,3.8,,False
-2026-07-08,822880,696030,Alejandro Osuna,Texas Rangers,Los Angeles Angels,7,Globe Life Field,1.0,Walbert Ureña,0.0701,0.0196,3.7,,False
-2026-07-08,822880,553869,Elias Díaz,Texas Rangers,Los Angeles Angels,8,Globe Life Field,1.0,Walbert Ureña,0.0883,0.0257,3.6,,False
-2026-07-08,822880,670032,Nicky Lopez,Texas Rangers,Los Angeles Angels,9,Globe Life Field,1.0,Walbert Ureña,0.0675,0.02,3.5,,False
-2026-07-08,822880,687263,Zach Neto,Los Angeles Angels,Texas Rangers,1,Globe Life Field,1.0,MacKenzie Gore,0.1491,0.0375,4.3,,False
-2026-07-08,822880,545361,Mike Trout,Los Angeles Angels,Texas Rangers,2,Globe Life Field,1.0,MacKenzie Gore,0.1432,0.0368,4.2,,False
-2026-07-08,822880,687093,Vaughn Grissom,Los Angeles Angels,Texas Rangers,3,Globe Life Field,1.0,MacKenzie Gore,0.0954,0.0245,4.1,,False
-2026-07-08,822880,666176,Jo Adell,Los Angeles Angels,Texas Rangers,4,Globe Life Field,1.0,MacKenzie Gore,0.1016,0.0268,4.0,,False
-2026-07-08,822880,694203,Denzer Guzman,Los Angeles Angels,Texas Rangers,5,Globe Life Field,1.0,MacKenzie Gore,0.1066,0.0289,3.9,,False
-2026-07-08,822880,672724,Oswald Peraza,Los Angeles Angels,Texas Rangers,6,Globe Life Field,1.0,MacKenzie Gore,0.0936,0.0259,3.8,,False
-2026-07-08,822880,642350,Jose Siri,Los Angeles Angels,Texas Rangers,7,Globe Life Field,1.0,MacKenzie Gore,0.1173,0.0337,3.7,,False
-2026-07-08,822880,681351,Logan O'Hoppe,Los Angeles Angels,Texas Rangers,8,Globe Life Field,1.0,MacKenzie Gore,0.0872,0.0253,3.6,,False
-2026-07-08,822880,666139,Josh Lowe,Los Angeles Angels,Texas Rangers,9,Globe Life Field,1.0,MacKenzie Gore,0.1008,0.0303,3.5,,False
+2026-07-08,824496,682829,Elly De La Cruz,Cincinnati Reds,Philadelphia Phillies,1,Great American Ball Park,1.15,Alan Rangel,0.1715,0.0438,4.3,,False
+2026-07-08,824496,701398,Sal Stewart,Cincinnati Reds,Philadelphia Phillies,2,Great American Ball Park,1.15,Alan Rangel,0.1951,0.0517,4.2,,False
+2026-07-08,824496,668709,JJ Bleday,Cincinnati Reds,Philadelphia Phillies,3,Great American Ball Park,1.15,Alan Rangel,0.1831,0.0493,4.1,,False
+2026-07-08,824496,553993,Eugenio Suárez,Cincinnati Reds,Philadelphia Phillies,4,Great American Ball Park,1.15,Alan Rangel,0.1602,0.0437,4.0,,False
+2026-07-08,824496,668715,Spencer Steer,Cincinnati Reds,Philadelphia Phillies,5,Great American Ball Park,1.15,Alan Rangel,0.1665,0.0467,3.9,,False
+2026-07-08,824496,682622,Noelvi Marte,Cincinnati Reds,Philadelphia Phillies,6,Great American Ball Park,1.15,Alan Rangel,0.161,0.0462,3.8,,False
+2026-07-08,824496,624431,Jose Trevino,Cincinnati Reds,Philadelphia Phillies,7,Great American Ball Park,1.15,Alan Rangel,0.1266,0.0366,3.7,,False
+2026-07-08,824496,695490,Edwin Arroyo,Cincinnati Reds,Philadelphia Phillies,8,Great American Ball Park,1.15,Alan Rangel,0.103,0.0302,3.6,,False
+2026-07-08,824496,670770,TJ Friedl,Cincinnati Reds,Philadelphia Phillies,9,Great American Ball Park,1.15,Alan Rangel,0.1158,0.0352,3.5,,False
+2026-07-08,824496,547180,Bryce Harper,Philadelphia Phillies,Cincinnati Reds,1,Great American Ball Park,1.15,Chase Burns,0.205,0.0534,4.3,,False
+2026-07-08,824496,656941,Kyle Schwarber,Philadelphia Phillies,Cincinnati Reds,2,Great American Ball Park,1.15,Chase Burns,0.248,0.0679,4.2,,False
+2026-07-08,824496,669016,Brandon Marsh,Philadelphia Phillies,Cincinnati Reds,3,Great American Ball Park,1.15,Chase Burns,0.1753,0.047,4.1,,False
+2026-07-08,824496,681082,Bryson Stott,Philadelphia Phillies,Cincinnati Reds,4,Great American Ball Park,1.15,Chase Burns,0.1155,0.0307,4.0,,False
+2026-07-08,824496,664761,Alec Bohm,Philadelphia Phillies,Cincinnati Reds,5,Great American Ball Park,1.15,Chase Burns,0.1393,0.0385,3.9,,False
+2026-07-08,824496,687282,Gabriel Rincones Jr.,Philadelphia Phillies,Cincinnati Reds,6,Great American Ball Park,1.15,Chase Burns,0.1334,0.0377,3.8,,False
+2026-07-08,824496,702222,Justin Crawford,Philadelphia Phillies,Cincinnati Reds,7,Great American Ball Park,1.15,Chase Burns,0.0891,0.0252,3.7,,False
+2026-07-08,824496,592663,J.T. Realmuto,Philadelphia Phillies,Cincinnati Reds,8,Great American Ball Park,1.15,Chase Burns,0.1326,0.0395,3.6,,False
+2026-07-08,824496,624641,Edmundo Sosa,Philadelphia Phillies,Cincinnati Reds,9,Great American Ball Park,1.15,Chase Burns,0.124,0.0378,3.5,,False
+2026-07-08,823684,663616,Trevor Larnach,Minnesota Twins,Cleveland Guardians,1,Target Field,0.95,Slade Cecconi,0.1199,0.0297,4.3,,False
+2026-07-08,823684,686797,Brooks Lee,Minnesota Twins,Cleveland Guardians,2,Target Field,0.95,Slade Cecconi,0.1441,0.0371,4.2,,False
+2026-07-08,823684,665019,Kody Clemens,Minnesota Twins,Cleveland Guardians,3,Target Field,0.95,Slade Cecconi,0.1665,0.0444,4.1,,False
+2026-07-08,823684,605137,Josh Bell,Minnesota Twins,Cleveland Guardians,4,Target Field,0.95,Slade Cecconi,0.1438,0.0388,4.0,,False
+2026-07-08,823684,668904,Royce Lewis,Minnesota Twins,Cleveland Guardians,5,Target Field,0.95,Slade Cecconi,0.1263,0.0346,3.9,,False
+2026-07-08,823684,605170,Victor Caratini,Minnesota Twins,Cleveland Guardians,6,Target Field,0.95,Slade Cecconi,0.1203,0.0337,3.8,,False
+2026-07-08,823684,807712,Luke Keaschall,Minnesota Twins,Cleveland Guardians,7,Target Field,0.95,Slade Cecconi,0.0944,0.0268,3.7,,False
+2026-07-08,823684,702176,Alan Roden,Minnesota Twins,Cleveland Guardians,8,Target Field,0.95,Slade Cecconi,0.1053,0.0309,3.6,,False
+2026-07-08,823684,668952,Ryan Kreidler,Minnesota Twins,Cleveland Guardians,9,Target Field,0.95,Slade Cecconi,0.109,0.033,3.5,,False
+2026-07-08,823684,681807,David Fry,Cleveland Guardians,Minnesota Twins,1,Target Field,0.95,Connor Prielipp,0.1398,0.035,4.3,,False
+2026-07-08,823684,800050,Chase DeLauter,Cleveland Guardians,Minnesota Twins,2,Target Field,0.95,Connor Prielipp,0.1086,0.0274,4.2,,False
+2026-07-08,823684,677587,Brayan Rocchio,Cleveland Guardians,Minnesota Twins,3,Target Field,0.95,Connor Prielipp,0.1036,0.0267,4.1,,False
+2026-07-08,823684,656555,Rhys Hoskins,Cleveland Guardians,Minnesota Twins,4,Target Field,0.95,Connor Prielipp,0.1239,0.0331,4.0,,False
+2026-07-08,823684,683953,Travis Bazzana,Cleveland Guardians,Minnesota Twins,5,Target Field,0.95,Connor Prielipp,0.107,0.029,3.9,,False
+2026-07-08,823684,672356,Gabriel Arias,Cleveland Guardians,Minnesota Twins,6,Target Field,0.95,Connor Prielipp,0.113,0.0315,3.8,,False
+2026-07-08,823684,700932,Kyle Manzardo,Cleveland Guardians,Minnesota Twins,7,Target Field,0.95,Connor Prielipp,0.1105,0.0317,3.7,,False
+2026-07-08,823684,595978,Austin Hedges,Cleveland Guardians,Minnesota Twins,8,Target Field,0.95,Connor Prielipp,0.1015,0.0297,3.6,,False
+2026-07-08,823684,696135,Kahlil Watson,Cleveland Guardians,Minnesota Twins,9,Target Field,0.95,Connor Prielipp,0.0917,0.0275,3.5,,False
+2026-07-08,822880,592626,Joc Pederson,Texas Rangers,Los Angeles Angels,1,Globe Life Field,1.0,Walbert Ureña,0.1335,0.0333,4.3,,False
+2026-07-08,822880,669701,Josh Smith,Texas Rangers,Los Angeles Angels,2,Globe Life Field,1.0,Walbert Ureña,0.0865,0.0215,4.2,,False
+2026-07-08,822880,669394,Jake Burger,Texas Rangers,Los Angeles Angels,3,Globe Life Field,1.0,Walbert Ureña,0.1148,0.0297,4.1,,False
+2026-07-08,822880,607043,Brandon Nimmo,Texas Rangers,Los Angeles Angels,4,Globe Life Field,1.0,Walbert Ureña,0.0806,0.021,4.0,,False
+2026-07-08,822880,677649,Ezequiel Duran,Texas Rangers,Los Angeles Angels,5,Globe Life Field,1.0,Walbert Ureña,0.0851,0.0228,3.9,,False
+2026-07-08,822880,694497,Evan Carter,Texas Rangers,Los Angeles Angels,6,Globe Life Field,1.0,Walbert Ureña,0.0902,0.0249,3.8,,False
+2026-07-08,822880,696030,Alejandro Osuna,Texas Rangers,Los Angeles Angels,7,Globe Life Field,1.0,Walbert Ureña,0.0685,0.0192,3.7,,False
+2026-07-08,822880,553869,Elias Díaz,Texas Rangers,Los Angeles Angels,8,Globe Life Field,1.0,Walbert Ureña,0.0861,0.025,3.6,,False
+2026-07-08,822880,670032,Nicky Lopez,Texas Rangers,Los Angeles Angels,9,Globe Life Field,1.0,Walbert Ureña,0.0658,0.0195,3.5,,False
+2026-07-08,822880,687263,Zach Neto,Los Angeles Angels,Texas Rangers,1,Globe Life Field,1.0,MacKenzie Gore,0.1573,0.0398,4.3,,False
+2026-07-08,822880,545361,Mike Trout,Los Angeles Angels,Texas Rangers,2,Globe Life Field,1.0,MacKenzie Gore,0.1513,0.0391,4.2,,False
+2026-07-08,822880,687093,Vaughn Grissom,Los Angeles Angels,Texas Rangers,3,Globe Life Field,1.0,MacKenzie Gore,0.1007,0.0259,4.1,,False
+2026-07-08,822880,666176,Jo Adell,Los Angeles Angels,Texas Rangers,4,Globe Life Field,1.0,MacKenzie Gore,0.1197,0.0319,4.0,,False
+2026-07-08,822880,694203,Denzer Guzman,Los Angeles Angels,Texas Rangers,5,Globe Life Field,1.0,MacKenzie Gore,0.1126,0.0306,3.9,,False
+2026-07-08,822880,672724,Oswald Peraza,Los Angeles Angels,Texas Rangers,6,Globe Life Field,1.0,MacKenzie Gore,0.099,0.0274,3.8,,False
+2026-07-08,822880,642350,Jose Siri,Los Angeles Angels,Texas Rangers,7,Globe Life Field,1.0,MacKenzie Gore,0.1237,0.0357,3.7,,False
+2026-07-08,822880,681351,Logan O'Hoppe,Los Angeles Angels,Texas Rangers,8,Globe Life Field,1.0,MacKenzie Gore,0.0923,0.0269,3.6,,False
+2026-07-08,822880,666139,Josh Lowe,Los Angeles Angels,Texas Rangers,9,Globe Life Field,1.0,MacKenzie Gore,0.1068,0.0323,3.5,,False
+2026-07-08,823928,660271,Shohei Ohtani,Los Angeles Dodgers,Colorado Rockies,1,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.1855,0.0477,4.3,,False
+2026-07-08,823928,669242,Tommy Edman,Los Angeles Dodgers,Colorado Rockies,2,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.1139,0.0288,4.2,,False
+2026-07-08,823928,518692,Freddie Freeman,Los Angeles Dodgers,Colorado Rockies,3,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.1415,0.0372,4.1,,False
+2026-07-08,823928,605141,Mookie Betts,Los Angeles Dodgers,Colorado Rockies,4,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.1404,0.0378,4.0,,False
+2026-07-08,823928,571970,Max Muncy,Los Angeles Dodgers,Colorado Rockies,5,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.1416,0.0392,3.9,,False
+2026-07-08,823928,606192,Teoscar Hernández,Los Angeles Dodgers,Colorado Rockies,6,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.1179,0.033,3.8,,False
+2026-07-08,823928,663656,Kyle Tucker,Los Angeles Dodgers,Colorado Rockies,7,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.0979,0.0279,3.7,,False
+2026-07-08,823928,669743,Alex Call,Los Angeles Dodgers,Colorado Rockies,8,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.0954,0.0278,3.6,,False
+2026-07-08,823928,672613,Eliezer Alfonzo,Los Angeles Dodgers,Colorado Rockies,9,UNIQLO Field at Dodger Stadium,1.02,Gabriel Hughes,0.1031,0.0311,3.5,,False
+2026-07-08,823928,664983,Jake McCarthy,Colorado Rockies,Los Angeles Dodgers,1,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.1946,0.0503,4.3,,False
+2026-07-08,823928,666160,Mickey Moniak,Colorado Rockies,Los Angeles Dodgers,2,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.237,0.0644,4.2,,False
+2026-07-08,823928,694249,Cole Carrigg,Colorado Rockies,Los Angeles Dodgers,3,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.1863,0.0503,4.1,,False
+2026-07-08,823928,681198,TJ Rumfield,Colorado Rockies,Los Angeles Dodgers,4,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.1897,0.0526,4.0,,False
+2026-07-08,823928,691720,Kyle Karros,Colorado Rockies,Los Angeles Dodgers,5,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.17,0.0478,3.9,,False
+2026-07-08,823928,687859,Troy Johnston,Colorado Rockies,Los Angeles Dodgers,6,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.1254,0.0353,3.8,,False
+2026-07-08,823928,666397,Edouard Julien,Colorado Rockies,Los Angeles Dodgers,7,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.1199,0.0345,3.7,,False
+2026-07-08,823928,678662,Ezequiel Tovar,Colorado Rockies,Los Angeles Dodgers,8,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.1549,0.0467,3.6,,False
+2026-07-08,823928,664954,Brett Sullivan,Colorado Rockies,Los Angeles Dodgers,9,UNIQLO Field at Dodger Stadium,1.02,Roki Sasaki,0.165,0.0515,3.5,,False
+2026-07-08,823279,665487,Fernando Tatis Jr.,San Diego Padres,Arizona Diamondbacks,1,Petco Park,0.85,Jose Cabrera,0.1009,0.0247,4.3,,False
+2026-07-08,823279,701538,Jackson Merrill,San Diego Padres,Arizona Diamondbacks,2,Petco Park,0.85,Jose Cabrera,0.119,0.0302,4.2,,False
+2026-07-08,823279,593428,Xander Bogaerts,San Diego Padres,Arizona Diamondbacks,3,Petco Park,0.85,Jose Cabrera,0.1015,0.0261,4.1,,False
+2026-07-08,823279,657757,Gavin Sheets,San Diego Padres,Arizona Diamondbacks,4,Petco Park,0.85,Jose Cabrera,0.1415,0.0382,4.0,,False
+2026-07-08,823279,630105,Jake Cronenworth,San Diego Padres,Arizona Diamondbacks,5,Petco Park,0.85,Jose Cabrera,0.1136,0.0309,3.9,,False
+2026-07-08,823279,669134,Luis Campusano,San Diego Padres,Arizona Diamondbacks,6,Petco Park,0.85,Jose Cabrera,0.1133,0.0316,3.8,,False
+2026-07-08,823279,609280,Miguel Andujar,San Diego Padres,Arizona Diamondbacks,7,Petco Park,0.85,Jose Cabrera,0.0946,0.0269,3.7,,False
+2026-07-08,823279,687749,Jase Bowen,San Diego Padres,Arizona Diamondbacks,8,Petco Park,0.85,Jose Cabrera,0.0938,0.0274,3.6,,False
+2026-07-08,823279,823550,Sung-Mun Song,San Diego Padres,Arizona Diamondbacks,9,Petco Park,0.85,Jose Cabrera,0.0923,0.0277,3.5,,False
+2026-07-08,823279,606466,Ketel Marte,Arizona Diamondbacks,San Diego Padres,1,Petco Park,0.85,Michael King,0.1242,0.0308,4.3,,False
+2026-07-08,823279,545121,Ildemaro Vargas,Arizona Diamondbacks,San Diego Padres,2,Petco Park,0.85,Michael King,0.084,0.0209,4.2,,False
+2026-07-08,823279,682998,Corbin Carroll,Arizona Diamondbacks,San Diego Padres,3,Petco Park,0.85,Michael King,0.1042,0.0268,4.1,,False
+2026-07-08,823279,672515,Gabriel Moreno,Arizona Diamondbacks,San Diego Padres,4,Petco Park,0.85,Michael King,0.0886,0.0232,4.0,,False
+2026-07-08,823279,596146,Max Kepler,Arizona Diamondbacks,San Diego Padres,5,Petco Park,0.85,Michael King,0.0943,0.0254,3.9,,False
+2026-07-08,823279,666971,Lourdes Gurriel Jr.,Arizona Diamondbacks,San Diego Padres,6,Petco Park,0.85,Michael King,0.0768,0.021,3.8,,False
+2026-07-08,823279,571448,Nolan Arenado,Arizona Diamondbacks,San Diego Padres,7,Petco Park,0.85,Michael King,0.0869,0.0246,3.7,,False
+2026-07-08,823279,656976,Pavin Smith,Arizona Diamondbacks,San Diego Padres,8,Petco Park,0.85,Michael King,0.0771,0.0223,3.6,,False
+2026-07-08,823279,694371,Tommy Troy,Arizona Diamondbacks,San Diego Padres,9,Petco Park,0.85,Michael King,0.0795,0.0237,3.5,,False

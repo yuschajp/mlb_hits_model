@@ -243,13 +243,17 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-08,822710,656492,Foster Griffin,Washington Nationals,Houston Astros,Nationals Park,0.99,6.5,8.71,8.67,0.2165,103.3,36.3,5.74,5.252,0.2754,0.7246,,False
 2026-07-08,823605,674444,Steven Cruz,Kansas City Royals,New York Mets,Citi Field,0.94,6.5,11.753,10.675,0.2201,28.3,14.3,1.33,5.415,0.3007,0.6993,,False
 2026-07-08,823605,681035,Christian Scott,New York Mets,Kansas City Royals,Citi Field,0.97,6.5,11.02,10.607,0.2126,49.0,18.7,4.45,5.081,0.2498,0.7502,,False
-2026-07-08,824496,660604,Alan Rangel,Philadelphia Phillies,Cincinnati Reds,Great American Ball Park,1.03,6.5,9.562,8.308,0.2501,16.0,13.0,4.0,5.527,0.3183,0.6817,,False
-2026-07-08,824496,695505,Chase Burns,Cincinnati Reds,Philadelphia Phillies,Great American Ball Park,1.05,6.5,10.689,11.88,0.2352,97.7,33.3,5.75,6.741,0.511,0.489,,False
-2026-07-08,823684,677944,Slade Cecconi,Cleveland Guardians,Minnesota Twins,Target Field,0.99,6.5,6.892,6.148,0.2172,95.3,33.7,5.3,4.235,0.1365,0.8635,,False
-2026-07-08,823684,687570,Connor Prielipp,Minnesota Twins,Cleveland Guardians,Target Field,0.98,6.5,9.486,9.269,0.2222,61.7,22.3,5.14,5.29,0.2814,0.7186,,False
 2026-07-08,824578,687562,Jake Bennett,Boston Red Sox,Chicago White Sox,Rate Field,1.06,6.5,6.861,8.011,0.2367,40.7,30.3,5.81,5.305,0.2837,0.7163,,False
 2026-07-08,824578,663436,Davis Martin,Chicago White Sox,Boston Red Sox,Rate Field,1.02,6.5,8.408,6.375,0.2198,96.3,24.0,5.67,4.918,0.2259,0.7741,,False
 2026-07-08,823032,690986,Kyle Harrison,Milwaukee Brewers,St. Louis Cardinals,Busch Stadium,1.02,6.5,11.184,10.478,0.2027,79.7,22.3,4.98,5.177,0.2642,0.7358,,False
 2026-07-08,823032,700241,Michael McGreevy,St. Louis Cardinals,Milwaukee Brewers,Busch Stadium,0.97,6.5,5.664,4.966,0.209,95.3,29.0,5.61,3.814,0.0922,0.9078,,False
-2026-07-08,822880,700712,Walbert Ureña,Los Angeles Angels,Texas Rangers,Globe Life Field,0.99,6.5,8.728,9.273,0.2208,77.3,33.0,5.4,5.255,0.2759,0.7241,,False
-2026-07-08,822880,669022,MacKenzie Gore,Texas Rangers,Los Angeles Angels,Globe Life Field,1.02,6.5,9.75,10.125,0.2507,96.0,34.7,5.33,6.317,0.4445,0.5555,,False
+2026-07-08,824496,660604,Alan Rangel,Philadelphia Phillies,Cincinnati Reds,Great American Ball Park,1.03,6.5,10.242,9.368,0.2499,19.3,16.3,3.87,5.582,0.3269,0.6731,,False
+2026-07-08,824496,695505,Chase Burns,Cincinnati Reds,Philadelphia Phillies,Great American Ball Park,1.05,6.5,10.344,10.8,0.2344,102.7,38.3,5.7,6.449,0.4654,0.5346,,False
+2026-07-08,823684,677944,Slade Cecconi,Cleveland Guardians,Minnesota Twins,Target Field,0.99,6.5,7.0,6.509,0.2162,99.0,37.3,5.21,4.226,0.1355,0.8645,,False
+2026-07-08,823684,687570,Connor Prielipp,Minnesota Twins,Cleveland Guardians,Target Field,0.98,6.5,9.585,9.549,0.2235,66.7,27.3,5.13,5.373,0.2941,0.7059,,False
+2026-07-08,822880,700712,Walbert Ureña,Los Angeles Angels,Texas Rangers,Globe Life Field,0.99,6.5,8.631,9.0,0.222,81.3,37.0,5.31,5.166,0.2625,0.7375,,False
+2026-07-08,822880,669022,MacKenzie Gore,Texas Rangers,Los Angeles Angels,Globe Life Field,1.02,6.5,9.891,10.437,0.2506,101.0,39.7,5.32,6.405,0.4584,0.5416,,False
+2026-07-08,823928,687312,Gabriel Hughes,Colorado Rockies,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,1.13,6.5,2.7,2.7,0.2017,3.3,3.3,1.67,3.99,0.1096,0.8904,,False
+2026-07-08,823928,808963,Roki Sasaki,Los Angeles Dodgers,Colorado Rockies,UNIQLO Field at Dodger Stadium,0.96,6.5,9.0,9.36,0.2285,76.0,25.0,4.75,5.093,0.2516,0.7484,,False
+2026-07-08,823279,703615,Jose Cabrera,Arizona Diamondbacks,San Diego Padres,Petco Park,1.02,6.5,7.244,7.244,0.2303,13.7,13.7,4.44,4.988,0.236,0.764,,False
+2026-07-08,823279,650633,Michael King,San Diego Padres,Arizona Diamondbacks,Petco Park,0.92,6.5,7.752,6.113,0.1949,103.3,35.3,5.44,4.023,0.1131,0.8869,,False
