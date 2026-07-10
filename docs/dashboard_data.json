@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-10",
   "hits": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 3484,
     "since_date": "2026-06-20",
     "brier_score": 0.2356,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6267,
     "actual_hit_rate": 0.6137,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7317
+      },
+      {
+        "player_name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hit": 0.6981
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hit": 0.6687
+      },
+      {
+        "player_name": "Randy Arozarena",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hit": 0.6676
+      },
+      {
+        "player_name": "Chandler Simpson",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 5,
+        "p_hit": 0.6594
+      },
+      {
+        "player_name": "Dominic Canzone",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hit": 0.6485
+      },
+      {
+        "player_name": "Josh Naylor",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 5,
+        "p_hit": 0.6123
+      },
+      {
+        "player_name": "Cole Young",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 7,
+        "p_hit": 0.6089
+      },
+      {
+        "player_name": "J.P. Crawford",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hit": 0.6038
+      },
+      {
+        "player_name": "Cedric Mullins",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 4,
+        "p_hit": 0.6033
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -277,14 +358,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 3313,
     "since_date": "2026-06-21",
     "brier_score": 0.1093,
     "naive_brier": 0.235,
     "avg_predicted": 0.1243,
     "actual_hr_rate": 0.1268,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.196
+      },
+      {
+        "player_name": "Dominic Canzone",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1554
+      },
+      {
+        "player_name": "Cedric Mullins",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1275
+      },
+      {
+        "player_name": "Luke Raley",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 6,
+        "p_hr": 0.1211
+      },
+      {
+        "player_name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1207
+      },
+      {
+        "player_name": "Victor Mesa Jr.",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 6,
+        "p_hr": 0.118
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1153
+      },
+      {
+        "player_name": "Randy Arozarena",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1153
+      },
+      {
+        "player_name": "Cal Raleigh",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1118
+      },
+      {
+        "player_name": "J.P. Crawford",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nick Martinez",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1087
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -534,14 +696,95 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 8,
     "total_graded": 284,
     "since_date": "2026-06-27",
     "brier_score": 0.1628,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.17,
     "over_rate": 0.257,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "opponent": "Athletics",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 6.19,
+        "p_over": 0.4235,
+        "p_under": 0.5765
+      },
+      {
+        "pitcher_name": "Braxton Ashcraft",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Milwaukee Brewers",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.93,
+        "p_over": 0.3826,
+        "p_under": 0.6174
+      },
+      {
+        "pitcher_name": "Jack Flaherty",
+        "team": "Detroit Tigers",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.54,
+        "p_over": 0.3199,
+        "p_under": 0.6801
+      },
+      {
+        "pitcher_name": "Hunter Greene",
+        "team": "Cincinnati Reds",
+        "opponent": "Chicago Cubs",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.42,
+        "p_over": 0.3012,
+        "p_under": 0.6988
+      },
+      {
+        "pitcher_name": "Carson Palmquist",
+        "team": "Washington Nationals",
+        "opponent": "New York Yankees",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 5.3,
+        "p_over": 0.2828,
+        "p_under": 0.7172
+      },
+      {
+        "pitcher_name": "Luinder Avila",
+        "team": "Kansas City Royals",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 4.59,
+        "p_over": 0.1811,
+        "p_under": 0.8189
+      },
+      {
+        "pitcher_name": "Nick Martinez",
+        "team": "Tampa Bay Rays",
+        "opponent": "Seattle Mariners",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 4.45,
+        "p_over": 0.1621,
+        "p_under": 0.8379
+      },
+      {
+        "pitcher_name": "Luis Castillo",
+        "team": "Seattle Mariners",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 3.99,
+        "p_over": 0.1093,
+        "p_under": 0.8907
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -862,10 +1105,10 @@
   },
   "tennis": {
     "today_count": 2,
-    "total_graded": 131,
-    "accuracy": 0.698,
+    "total_graded": 132,
+    "accuracy": 0.703,
     "no_signal_count": 68,
-    "no_signal_rate": 0.519,
+    "no_signal_rate": 0.515,
     "matches": [
       {
         "tour": "atp",
@@ -880,12 +1123,12 @@
       {
         "tour": "atp",
         "round": "Semifinal",
-        "player_a": "Novak Djokovic",
-        "player_b": "Jannik Sinner",
-        "elo_a": 1669.8,
-        "elo_b": 1675.8,
-        "p_a_wins": 0.4913,
-        "winner": null
+        "player_a": "Jannik Sinner",
+        "player_b": "Novak Djokovic",
+        "elo_a": 1675.8,
+        "elo_b": 1669.8,
+        "p_a_wins": 0.5087,
+        "winner": "Jannik Sinner"
       }
     ],
     "trend": [
@@ -931,8 +1174,8 @@
       },
       {
         "date": "2026-07-10",
-        "accuracy": 0.619,
-        "n": 21
+        "accuracy": 0.6364,
+        "n": 22
       }
     ]
   },
