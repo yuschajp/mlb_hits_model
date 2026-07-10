@@ -862,10 +862,10 @@
   },
   "tennis": {
     "today_count": 2,
-    "total_graded": 130,
-    "accuracy": 0.694,
+    "total_graded": 131,
+    "accuracy": 0.698,
     "no_signal_count": 68,
-    "no_signal_rate": 0.523,
+    "no_signal_rate": 0.519,
     "matches": [
       {
         "tour": "atp",
@@ -875,7 +875,7 @@
         "elo_a": 1607.9,
         "elo_b": 1485.8,
         "p_a_wins": 0.6689,
-        "winner": null
+        "winner": "Alexander Zverev"
       },
       {
         "tour": "atp",
@@ -928,6 +928,11 @@
         "date": "2026-07-08",
         "accuracy": 0.6458,
         "n": 48
+      },
+      {
+        "date": "2026-07-10",
+        "accuracy": 0.619,
+        "n": 21
       }
     ]
   },
