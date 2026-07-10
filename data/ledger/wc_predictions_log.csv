@@ -31,6 +31,6 @@ date,match_id,home_team,away_team,stage,group,utc_date,xg_home,xg_away,p_home,p_
 2026-07-07,95,Argentina,Egypt,Round of 16,,,2.083,1.13,0.5926,0.2077,0.1998,0.6225,0.5924,3.0,2.0,home,True
 2026-07-07,96,Switzerland,Colombia,Round of 16,,,0.76,0.738,0.3226,0.3677,0.3097,0.1907,0.2778,0.0,0.0,draw,True
 2026-07-09,97,France,Morocco,Quarter-final,,,1.871,0.779,0.6324,0.2178,0.1497,0.4939,0.4577,2.0,0.0,home,True
-2026-07-10,98,Spain,Belgium,Quarter-final,,,1.38,0.745,0.5203,0.2776,0.2021,0.3571,0.3931,,,,False
+2026-07-10,98,Spain,Belgium,Quarter-final,,,1.542,0.786,0.5527,0.2567,0.1906,0.4113,0.4279,,,,False
 2026-07-10,99,Norway,England,Quarter-final,,,1.701,2.31,0.2849,0.1987,0.5164,0.7628,0.7357,,,,False
 2026-07-10,100,Argentina,Switzerland,Quarter-final,,,1.319,1.225,0.3888,0.2669,0.3443,0.4674,0.5174,,,,False

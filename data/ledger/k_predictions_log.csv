@@ -283,11 +283,26 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-09,823277,656288,Griffin Canning,San Diego Padres,Arizona Diamondbacks,Petco Park,0.92,6.5,8.884,9.247,0.1943,51.7,24.3,4.22,4.098,0.1211,0.8789,5.0,True
 2026-07-09,823201,663372,Ryan Feltner,Colorado Rockies,San Francisco Giants,Oracle Park,1.13,6.5,6.712,6.818,0.2084,59.0,33.0,4.92,4.055,0.1164,0.8836,3.0,True
 2026-07-09,823201,687931,Carson Whisenhunt,San Francisco Giants,Colorado Rockies,Oracle Park,0.91,6.5,5.063,6.0,0.2293,5.3,6.0,2.67,4.746,0.2017,0.7983,4.0,True
+2026-07-10,824252,605400,Aaron Nola,Philadelphia Phillies,Detroit Tigers,Comerica Park,1.03,6.5,9.196,8.901,0.2307,92.0,30.3,5.11,5.345,0.2897,0.7103,,False
 2026-07-10,824252,656427,Jack Flaherty,Detroit Tigers,Philadelphia Phillies,Comerica Park,0.95,6.5,10.847,10.607,0.2341,76.3,18.7,4.49,5.538,0.3199,0.6801,,False
+2026-07-10,823357,687075,Brandon Sproat,Milwaukee Brewers,Pittsburgh Pirates,PNC Park,1.02,6.5,9.57,9.6,0.2378,79.0,30.0,4.65,5.381,0.2953,0.7047,,False
 2026-07-10,823357,677952,Braxton Ashcraft,Pittsburgh Pirates,Milwaukee Brewers,PNC Park,0.97,6.5,10.135,10.96,0.2093,108.3,33.7,6.02,5.931,0.3826,0.6174,,False
+2026-07-10,822709,677960,Ryan Weathers,New York Yankees,Washington Nationals,Nationals Park,1.04,6.5,10.137,9.212,0.2142,92.3,28.3,5.43,5.409,0.2998,0.7002,,False
 2026-07-10,822709,687223,Carson Palmquist,Washington Nationals,New York Yankees,Nationals Park,0.99,6.5,9.948,9.948,0.2414,6.3,6.3,2.17,5.3,0.2828,0.7172,,False
 2026-07-10,824817,679883,Luinder Avila,Kansas City Royals,Baltimore Orioles,Oriole Park at Camden Yards,0.94,6.5,8.187,7.816,0.2399,51.7,25.3,3.85,4.594,0.1811,0.8189,,False
+2026-07-10,824817,687064,Brandon Young,Baltimore Orioles,Kansas City Royals,Oriole Park at Camden Yards,0.97,6.5,7.216,7.602,0.2128,77.3,34.3,5.52,4.571,0.1781,0.8219,,False
+2026-07-10,824493,684007,Shota Imanaga,Chicago Cubs,Cincinnati Reds,Great American Ball Park,1.0,6.5,8.738,8.667,0.2515,103.0,27.0,5.72,6.1,0.4097,0.5903,,False
 2026-07-10,824493,668881,Hunter Greene,Cincinnati Reds,Chicago Cubs,Great American Ball Park,1.05,6.5,18.902,18.902,0.212,3.3,3.3,3.33,5.418,0.3012,0.6988,,False
 2026-07-10,822955,622491,Luis Castillo,Seattle Mariners,Tampa Bay Rays,Tropicana Field,0.92,6.5,8.383,6.915,0.1897,82.7,27.3,5.02,3.986,0.1093,0.8907,,False
 2026-07-10,822955,607259,Nick Martinez,Tampa Bay Rays,Seattle Mariners,Tropicana Field,0.97,6.5,5.49,5.83,0.2325,100.0,29.3,5.88,4.446,0.1621,0.8379,,False
+2026-07-10,823845,800048,Parker Messick,Cleveland Guardians,Miami Marlins,loanDepot park,0.99,6.5,9.255,8.591,0.2131,106.0,36.7,5.89,5.377,0.2947,0.7053,,False
+2026-07-10,823845,645261,Sandy Alcantara,Miami Marlins,Cleveland Guardians,loanDepot park,0.93,6.5,6.695,7.621,0.2235,123.7,41.3,6.51,5.131,0.2573,0.7427,,False
+2026-07-10,823604,690997,Nolan McLean,New York Mets,Boston Red Sox,Citi Field,0.97,6.5,10.48,10.543,0.2199,101.3,35.0,5.63,5.981,0.3907,0.6093,,False
+2026-07-10,824575,682052,Jacob Lopez,Athletics,Chicago White Sox,Rate Field,0.93,6.5,7.043,12.0,0.2365,53.7,3.0,4.39,4.807,0.2102,0.7898,,False
 2026-07-10,824575,680732,Sean Burke,Chicago White Sox,Athletics,Rate Field,1.02,6.5,9.669,12.42,0.2283,98.7,33.3,5.48,6.186,0.4235,0.5765,,False
+2026-07-10,822878,686613,Hunter Brown,Houston Astros,Texas Rangers,Globe Life Field,1.0,6.5,10.739,8.678,0.2231,29.3,18.7,4.89,5.333,0.2879,0.7121,,False
+2026-07-10,822878,615698,Cal Quantrill,Texas Rangers,Houston Astros,Globe Life Field,1.02,6.5,6.025,6.0,0.2172,40.3,18.0,3.29,3.641,0.0767,0.9233,,False
+2026-07-10,823685,805673,Zebby Matthews,Minnesota Twins,Los Angeles Angels,Target Field,0.98,6.5,7.525,6.451,0.2514,61.0,37.7,6.1,5.572,0.3253,0.6747,,False
+2026-07-10,823033,519242,Chris Sale,Atlanta Braves,St. Louis Cardinals,Busch Stadium,1.01,6.5,10.611,10.478,0.2028,95.0,22.3,5.94,5.673,0.3413,0.6587,,False
+2026-07-10,823033,681517,Kyle Leahy,St. Louis Cardinals,Atlanta Braves,Busch Stadium,0.97,6.5,7.61,7.755,0.213,86.3,31.3,5.08,4.437,0.161,0.839,,False
+2026-07-10,823927,593958,Eduardo Rodriguez,Arizona Diamondbacks,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,1.02,6.5,6.167,5.551,0.2025,108.0,35.7,6.0,3.993,0.11,0.89,,False
