@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-10",
   "hits": {
-    "today_count": 18,
+    "today_count": 180,
     "total_graded": 3484,
     "since_date": "2026-06-20",
     "brier_score": 0.2356,
@@ -11,6 +11,22 @@
     "actual_hit_rate": 0.6137,
     "top10_today": [
       {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Hunter Greene",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hit": 0.779
+      },
+      {
+        "player_name": "Sam Antonacci",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7432
+      },
+      {
         "player_name": "Yandy D\u00edaz",
         "team": "Tampa Bay Rays",
         "opponent_pitcher": "Luis Castillo",
@@ -19,76 +35,60 @@
         "p_hit": 0.7317
       },
       {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Kyle Leahy",
+        "venue": "Busch Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.7273
+      },
+      {
+        "player_name": "Kevin McGonigle",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Comerica Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7202
+      },
+      {
+        "player_name": "Seiya Suzuki",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Hunter Greene",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 4,
+        "p_hit": 0.7085
+      },
+      {
+        "player_name": "Jake Mangum",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Brandon Sproat",
+        "venue": "PNC Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7073
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Cal Quantrill",
+        "venue": "Globe Life Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7021
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7013
+      },
+      {
         "player_name": "Jonathan Aranda",
         "team": "Tampa Bay Rays",
         "opponent_pitcher": "Luis Castillo",
         "venue": "Tropicana Field",
         "lineup_spot": 2,
         "p_hit": 0.6981
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Luis Castillo",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hit": 0.6687
-      },
-      {
-        "player_name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
-        "lineup_spot": 2,
-        "p_hit": 0.6676
-      },
-      {
-        "player_name": "Chandler Simpson",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Luis Castillo",
-        "venue": "Tropicana Field",
-        "lineup_spot": 5,
-        "p_hit": 0.6594
-      },
-      {
-        "player_name": "Dominic Canzone",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hit": 0.6485
-      },
-      {
-        "player_name": "Josh Naylor",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
-        "lineup_spot": 5,
-        "p_hit": 0.6123
-      },
-      {
-        "player_name": "Cole Young",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
-        "lineup_spot": 7,
-        "p_hit": 0.6089
-      },
-      {
-        "player_name": "J.P. Crawford",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
-        "lineup_spot": 1,
-        "p_hit": 0.6038
-      },
-      {
-        "player_name": "Cedric Mullins",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Luis Castillo",
-        "venue": "Tropicana Field",
-        "lineup_spot": 4,
-        "p_hit": 0.6033
       }
     ],
     "calibration": [
@@ -358,7 +358,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 180,
     "total_graded": 3313,
     "since_date": "2026-06-21",
     "brier_score": 0.1093,
@@ -367,84 +367,84 @@
     "actual_hr_rate": 0.1268,
     "top10_today": [
       {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Luis Castillo",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.196
-      },
-      {
-        "player_name": "Dominic Canzone",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1554
-      },
-      {
-        "player_name": "Cedric Mullins",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Luis Castillo",
-        "venue": "Tropicana Field",
-        "lineup_spot": 4,
-        "p_hr": 0.1275
-      },
-      {
-        "player_name": "Luke Raley",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
-        "lineup_spot": 6,
-        "p_hr": 0.1211
-      },
-      {
-        "player_name": "Jonathan Aranda",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Luis Castillo",
-        "venue": "Tropicana Field",
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hr": 0.1207
+        "p_hr": 0.2472
       },
       {
-        "player_name": "Victor Mesa Jr.",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Luis Castillo",
-        "venue": "Tropicana Field",
-        "lineup_spot": 6,
-        "p_hr": 0.118
-      },
-      {
-        "player_name": "Yandy D\u00edaz",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Luis Castillo",
-        "venue": "Tropicana Field",
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Great American Ball Park",
         "lineup_spot": 1,
-        "p_hr": 0.1153
+        "p_hr": 0.2306
       },
       {
-        "player_name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1153
+        "player_name": "Spencer Steer",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2305
       },
       {
-        "player_name": "Cal Raleigh",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Hunter Greene",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2279
+      },
+      {
+        "player_name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Great American Ball Park",
         "lineup_spot": 4,
-        "p_hr": 0.1118
+        "p_hr": 0.2265
       },
       {
-        "player_name": "J.P. Crawford",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Tropicana Field",
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Rate Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2251
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2207
+      },
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Nationals Park",
         "lineup_spot": 1,
-        "p_hr": 0.1087
+        "p_hr": 0.2199
+      },
+      {
+        "player_name": "Noelvi Marte",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 7,
+        "p_hr": 0.2106
+      },
+      {
+        "player_name": "Eugenio Su\u00e1rez",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 5,
+        "p_hr": 0.2067
       }
     ],
     "calibration": [
@@ -696,12 +696,12 @@
     ]
   },
   "k": {
-    "today_count": 8,
+    "today_count": 23,
     "total_graded": 284,
     "since_date": "2026-06-27",
     "brier_score": 0.1628,
     "naive_brier": 0.25,
-    "avg_lambda": 5.17,
+    "avg_lambda": 5.14,
     "over_rate": 0.257,
     "top10_today": [
       {
@@ -715,6 +715,26 @@
         "p_under": 0.5765
       },
       {
+        "pitcher_name": "Shota Imanaga",
+        "team": "Chicago Cubs",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 6.1,
+        "p_over": 0.4097,
+        "p_under": 0.5903
+      },
+      {
+        "pitcher_name": "Nolan McLean",
+        "team": "New York Mets",
+        "opponent": "Boston Red Sox",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 5.98,
+        "p_over": 0.3907,
+        "p_under": 0.6093
+      },
+      {
         "pitcher_name": "Braxton Ashcraft",
         "team": "Pittsburgh Pirates",
         "opponent": "Milwaukee Brewers",
@@ -723,6 +743,26 @@
         "lambda_k": 5.93,
         "p_over": 0.3826,
         "p_under": 0.6174
+      },
+      {
+        "pitcher_name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "opponent": "St. Louis Cardinals",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 5.67,
+        "p_over": 0.3413,
+        "p_under": 0.6587
+      },
+      {
+        "pitcher_name": "Zebby Matthews",
+        "team": "Minnesota Twins",
+        "opponent": "Los Angeles Angels",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 5.57,
+        "p_over": 0.3253,
+        "p_under": 0.6747
       },
       {
         "pitcher_name": "Jack Flaherty",
@@ -745,44 +785,24 @@
         "p_under": 0.6988
       },
       {
-        "pitcher_name": "Carson Palmquist",
-        "team": "Washington Nationals",
-        "opponent": "New York Yankees",
+        "pitcher_name": "Ryan Weathers",
+        "team": "New York Yankees",
+        "opponent": "Washington Nationals",
         "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 5.3,
-        "p_over": 0.2828,
-        "p_under": 0.7172
+        "lambda_k": 5.41,
+        "p_over": 0.2998,
+        "p_under": 0.7002
       },
       {
-        "pitcher_name": "Luinder Avila",
-        "team": "Kansas City Royals",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
+        "pitcher_name": "Brandon Sproat",
+        "team": "Milwaukee Brewers",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 4.59,
-        "p_over": 0.1811,
-        "p_under": 0.8189
-      },
-      {
-        "pitcher_name": "Nick Martinez",
-        "team": "Tampa Bay Rays",
-        "opponent": "Seattle Mariners",
-        "venue": "Tropicana Field",
-        "line": 6.5,
-        "lambda_k": 4.45,
-        "p_over": 0.1621,
-        "p_under": 0.8379
-      },
-      {
-        "pitcher_name": "Luis Castillo",
-        "team": "Seattle Mariners",
-        "opponent": "Tampa Bay Rays",
-        "venue": "Tropicana Field",
-        "line": 6.5,
-        "lambda_k": 3.99,
-        "p_over": 0.1093,
-        "p_under": 0.8907
+        "lambda_k": 5.38,
+        "p_over": 0.2953,
+        "p_under": 0.7047
       }
     ],
     "calibration": [
@@ -889,13 +909,13 @@
         "home_team": "Spain",
         "away_team": "Belgium",
         "stage": "Quarter-final",
-        "xg_home": 1.38,
-        "xg_away": 0.74,
-        "p_home": 0.5203,
-        "p_draw": 0.2776,
-        "p_away": 0.2021,
-        "over_2_5": 0.3571,
-        "btts": 0.3931,
+        "xg_home": 1.54,
+        "xg_away": 0.79,
+        "p_home": 0.5527,
+        "p_draw": 0.2567,
+        "p_away": 0.1906,
+        "over_2_5": 0.4113,
+        "btts": 0.4279,
         "graded": false,
         "result": null
       },
@@ -977,7 +997,7 @@
     ]
   },
   "wc_gs": {
-    "today_count": 13,
+    "today_count": 14,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -993,13 +1013,13 @@
         "p_scores": 0.5571
       },
       {
-        "player": "Leandro Trossard",
-        "team": "Belgium",
-        "opponent": "Spain",
+        "player": "Fabi\u00e1n Ruiz",
+        "team": "Spain",
+        "opponent": "Belgium",
         "match": "Spain vs Belgium",
-        "tournament_goals": 2,
-        "lambda": 0.385,
-        "p_scores": 0.3193
+        "tournament_goals": 1,
+        "lambda": 0.414,
+        "p_scores": 0.3391
       },
       {
         "player": "Youri Tielemans",
@@ -1012,6 +1032,15 @@
       },
       {
         "player": "Charles De Ketelaere",
+        "team": "Belgium",
+        "opponent": "Spain",
+        "match": "Spain vs Belgium",
+        "tournament_goals": 2,
+        "lambda": 0.385,
+        "p_scores": 0.3193
+      },
+      {
+        "player": "Leandro Trossard",
         "team": "Belgium",
         "opponent": "Spain",
         "match": "Spain vs Belgium",
@@ -1047,7 +1076,7 @@
         "p_scores": 0.2988
       },
       {
-        "player": "Pedro Porro",
+        "player": "Mikel Merino",
         "team": "Spain",
         "opponent": "Belgium",
         "match": "Spain vs Belgium",
@@ -1056,7 +1085,7 @@
         "p_scores": 0.2988
       },
       {
-        "player": "Mikel Merino",
+        "player": "Pedro Porro",
         "team": "Spain",
         "opponent": "Belgium",
         "match": "Spain vs Belgium",
