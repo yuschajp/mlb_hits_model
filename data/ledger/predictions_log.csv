@@ -3509,3 +3509,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-09,823201,650489,Willi Castro,Colorado Rockies,San Francisco Giants,7,Oracle Park,0.91,Carson Whisenhunt,0.5952,0.2396,3.7,1.0,True
 2026-07-09,823201,678662,Ezequiel Tovar,Colorado Rockies,San Francisco Giants,8,Oracle Park,0.91,Carson Whisenhunt,0.5247,0.2042,3.6,0.0,True
 2026-07-09,823201,690924,Braxton Fulford,Colorado Rockies,San Francisco Giants,9,Oracle Park,0.91,Carson Whisenhunt,0.5278,0.2111,3.5,1.0,True
+2026-07-10,822955,650490,Yandy Díaz,Tampa Bay Rays,Seattle Mariners,1,Tropicana Field,0.97,Luis Castillo,0.7317,0.2948,4.3,,False
+2026-07-10,822955,666018,Jonathan Aranda,Tampa Bay Rays,Seattle Mariners,2,Tropicana Field,0.97,Luis Castillo,0.6981,0.277,4.2,,False
+2026-07-10,822955,691406,Junior Caminero,Tampa Bay Rays,Seattle Mariners,3,Tropicana Field,0.97,Luis Castillo,0.6687,0.2631,4.1,,False
+2026-07-10,822955,656775,Cedric Mullins,Tampa Bay Rays,Seattle Mariners,4,Tropicana Field,0.97,Luis Castillo,0.6033,0.2285,4.0,,False
+2026-07-10,822955,802415,Chandler Simpson,Tampa Bay Rays,Seattle Mariners,5,Tropicana Field,0.97,Luis Castillo,0.6594,0.2684,3.9,,False
+2026-07-10,822955,683748,Victor Mesa Jr.,Tampa Bay Rays,Seattle Mariners,6,Tropicana Field,0.97,Luis Castillo,0.5877,0.2296,3.8,,False
+2026-07-10,822955,670764,Taylor Walls,Tampa Bay Rays,Seattle Mariners,7,Tropicana Field,0.97,Luis Castillo,0.5941,0.2389,3.7,,False
+2026-07-10,822955,680700,Richie Palacios,Tampa Bay Rays,Seattle Mariners,8,Tropicana Field,0.97,Luis Castillo,0.5975,0.2468,3.6,,False
+2026-07-10,822955,676439,Hunter Feduccia,Tampa Bay Rays,Seattle Mariners,9,Tropicana Field,0.97,Luis Castillo,0.5683,0.2348,3.5,,False
+2026-07-10,822955,641487,J.P. Crawford,Seattle Mariners,Tampa Bay Rays,1,Tropicana Field,0.97,Nick Martinez,0.6038,0.2147,4.3,,False
+2026-07-10,822955,668227,Randy Arozarena,Seattle Mariners,Tampa Bay Rays,2,Tropicana Field,0.97,Nick Martinez,0.6676,0.2571,4.2,,False
+2026-07-10,822955,686527,Dominic Canzone,Seattle Mariners,Tampa Bay Rays,3,Tropicana Field,0.97,Nick Martinez,0.6485,0.2503,4.1,,False
+2026-07-10,822955,663728,Cal Raleigh,Seattle Mariners,Tampa Bay Rays,4,Tropicana Field,0.97,Nick Martinez,0.5607,0.2047,4.0,,False
+2026-07-10,822955,647304,Josh Naylor,Seattle Mariners,Tampa Bay Rays,5,Tropicana Field,0.97,Nick Martinez,0.6123,0.2389,3.9,,False
+2026-07-10,822955,670042,Luke Raley,Seattle Mariners,Tampa Bay Rays,6,Tropicana Field,0.97,Nick Martinez,0.5863,0.2288,3.8,,False
+2026-07-10,822955,702284,Cole Young,Seattle Mariners,Tampa Bay Rays,7,Tropicana Field,0.97,Nick Martinez,0.6089,0.248,3.7,,False
+2026-07-10,822955,670156,Miles Mastrobuoni,Seattle Mariners,Tampa Bay Rays,8,Tropicana Field,0.97,Nick Martinez,0.5789,0.2354,3.6,,False
+2026-07-10,822955,671083,Buddy Kennedy,Seattle Mariners,Tampa Bay Rays,9,Tropicana Field,0.97,Nick Martinez,0.5671,0.2341,3.5,,False

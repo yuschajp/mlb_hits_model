@@ -283,3 +283,11 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-09,823277,656288,Griffin Canning,San Diego Padres,Arizona Diamondbacks,Petco Park,0.92,6.5,8.884,9.247,0.1943,51.7,24.3,4.22,4.098,0.1211,0.8789,5.0,True
 2026-07-09,823201,663372,Ryan Feltner,Colorado Rockies,San Francisco Giants,Oracle Park,1.13,6.5,6.712,6.818,0.2084,59.0,33.0,4.92,4.055,0.1164,0.8836,3.0,True
 2026-07-09,823201,687931,Carson Whisenhunt,San Francisco Giants,Colorado Rockies,Oracle Park,0.91,6.5,5.063,6.0,0.2293,5.3,6.0,2.67,4.746,0.2017,0.7983,4.0,True
+2026-07-10,824252,656427,Jack Flaherty,Detroit Tigers,Philadelphia Phillies,Comerica Park,0.95,6.5,10.847,10.607,0.2341,76.3,18.7,4.49,5.538,0.3199,0.6801,,False
+2026-07-10,823357,677952,Braxton Ashcraft,Pittsburgh Pirates,Milwaukee Brewers,PNC Park,0.97,6.5,10.135,10.96,0.2093,108.3,33.7,6.02,5.931,0.3826,0.6174,,False
+2026-07-10,822709,687223,Carson Palmquist,Washington Nationals,New York Yankees,Nationals Park,0.99,6.5,9.948,9.948,0.2414,6.3,6.3,2.17,5.3,0.2828,0.7172,,False
+2026-07-10,824817,679883,Luinder Avila,Kansas City Royals,Baltimore Orioles,Oriole Park at Camden Yards,0.94,6.5,8.187,7.816,0.2399,51.7,25.3,3.85,4.594,0.1811,0.8189,,False
+2026-07-10,824493,668881,Hunter Greene,Cincinnati Reds,Chicago Cubs,Great American Ball Park,1.05,6.5,18.902,18.902,0.212,3.3,3.3,3.33,5.418,0.3012,0.6988,,False
+2026-07-10,822955,622491,Luis Castillo,Seattle Mariners,Tampa Bay Rays,Tropicana Field,0.92,6.5,8.383,6.915,0.1897,82.7,27.3,5.02,3.986,0.1093,0.8907,,False
+2026-07-10,822955,607259,Nick Martinez,Tampa Bay Rays,Seattle Mariners,Tropicana Field,0.97,6.5,5.49,5.83,0.2325,100.0,29.3,5.88,4.446,0.1621,0.8379,,False
+2026-07-10,824575,680732,Sean Burke,Chicago White Sox,Athletics,Rate Field,1.02,6.5,9.669,12.42,0.2283,98.7,33.3,5.48,6.186,0.4235,0.5765,,False
