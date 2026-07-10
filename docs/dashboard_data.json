@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-09",
   "hits": {
-    "today_count": 216,
+    "today_count": 234,
     "total_graded": 3250,
     "since_date": "2026-06-20",
     "brier_score": 0.2347,
@@ -43,6 +43,14 @@
         "p_hit": 0.7322
       },
       {
+        "player_name": "Fernando Tatis Jr.",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Petco Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7181
+      },
+      {
         "player_name": "Pete Crow-Armstrong",
         "team": "Chicago Cubs",
         "opponent_pitcher": "Trevor Rogers",
@@ -81,14 +89,6 @@
         "venue": "Comerica Park",
         "lineup_spot": 1,
         "p_hit": 0.7041
-      },
-      {
-        "player_name": "Ceddanne Rafaela",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Anthony Kay",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7039
       }
     ],
     "calibration": [
@@ -346,7 +346,7 @@
     ]
   },
   "hr": {
-    "today_count": 216,
+    "today_count": 234,
     "total_graded": 3079,
     "since_date": "2026-06-21",
     "brier_score": 0.1078,
@@ -384,7 +384,7 @@
         "opponent_pitcher": "Nathan Eovaldi",
         "venue": "Globe Life Field",
         "lineup_spot": 2,
-        "p_hr": 0.2204
+        "p_hr": 0.2129
       },
       {
         "player_name": "Ben Rice",
@@ -400,7 +400,7 @@
         "opponent_pitcher": "Nathan Eovaldi",
         "venue": "Globe Life Field",
         "lineup_spot": 1,
-        "p_hr": 0.2054
+        "p_hr": 0.1987
       },
       {
         "player_name": "Trea Turner",
@@ -427,12 +427,12 @@
         "p_hr": 0.1902
       },
       {
-        "player_name": "J.T. Realmuto",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 8,
-        "p_hr": 0.1875
+        "player_name": "Manny Machado",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Petco Park",
+        "lineup_spot": 4,
+        "p_hr": 0.189
       }
     ],
     "calibration": [
@@ -672,12 +672,12 @@
     ]
   },
   "k": {
-    "today_count": 25,
+    "today_count": 26,
     "total_graded": 258,
     "since_date": "2026-06-27",
     "brier_score": 0.1696,
     "naive_brier": 0.25,
-    "avg_lambda": 5.04,
+    "avg_lambda": 5.0,
     "over_rate": 0.267,
     "top10_today": [
       {
@@ -696,9 +696,9 @@
         "opponent": "Los Angeles Angels",
         "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 6.91,
-        "p_over": 0.5369,
-        "p_under": 0.4631
+        "lambda_k": 7.2,
+        "p_over": 0.5793,
+        "p_under": 0.4207
       },
       {
         "pitcher_name": "Gavin Williams",
@@ -736,9 +736,9 @@
         "opponent": "Texas Rangers",
         "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 5.78,
-        "p_over": 0.3577,
-        "p_under": 0.6423
+        "lambda_k": 5.84,
+        "p_over": 0.368,
+        "p_under": 0.632
       },
       {
         "pitcher_name": "Patrick Sandoval",
