@@ -250,7 +250,7 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-08,atp,Wimbledon,Quarterfinal,Arthur Fery,Flavio Cobolli,1485.8,1546.3,0.4138,0.5862,Arthur Fery,True
 2026-07-08,atp,Wimbledon,Quarterfinal,Alexander Zverev,Taylor Fritz,1607.9,1680.9,0.3964,0.6036,Alexander Zverev,True
 2026-07-12,atp,Wimbledon,Final,TBD,TBD,1500.0,1500.0,0.5,0.5,,False
-2026-07-10,atp,Wimbledon,Semifinal,Alexander Zverev,Arthur Fery,1607.9,1485.8,0.6689,0.3311,,False
+2026-07-10,atp,Wimbledon,Semifinal,Alexander Zverev,Arthur Fery,1607.9,1485.8,0.6689,0.3311,Alexander Zverev,True
 2026-07-10,atp,Wimbledon,Semifinal,Novak Djokovic,Jannik Sinner,1669.8,1675.8,0.4913,0.5087,,False
 2026-07-02,wta,Wimbledon,Round 2,Iga Swiatek,Karolina Pliskova,1500.0,1500.0,0.5,0.5,Iga Swiatek,True
 2026-07-02,wta,Wimbledon,Round 2,Marta Kostyuk,Anna Blinkova,1500.0,1500.0,0.5,0.5,Marta Kostyuk,True
