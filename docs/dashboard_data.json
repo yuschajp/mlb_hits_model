@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-11",
   "hits": {
-    "today_count": 72,
+    "today_count": 216,
     "total_graded": 3753,
     "since_date": "2026-06-20",
     "brier_score": 0.2358,
@@ -11,12 +11,60 @@
     "actual_hit_rate": 0.6112,
     "top10_today": [
       {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hit": 0.769
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Busch Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.7325
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Kumar Rocker",
+        "venue": "Globe Life Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7316
+      },
+      {
+        "player_name": "Seiya Suzuki",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7312
+      },
+      {
         "player_name": "Trevor Larnach",
         "team": "Minnesota Twins",
         "opponent_pitcher": "Ryan Johnson",
         "venue": "Target Field",
         "lineup_spot": 1,
         "p_hit": 0.7283
+      },
+      {
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Kumar Rocker",
+        "venue": "Globe Life Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7187
+      },
+      {
+        "player_name": "Ozzie Albies",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Busch Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.7022
       },
       {
         "player_name": "Jake Mangum",
@@ -27,68 +75,20 @@
         "p_hit": 0.7001
       },
       {
-        "player_name": "Joshua Kuroda-Grauer",
-        "team": "Athletics",
-        "opponent_pitcher": "Bryan Hudson",
-        "venue": "Rate Field",
-        "lineup_spot": 5,
-        "p_hit": 0.6937
+        "player_name": "Carson Kelly",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 4,
+        "p_hit": 0.6986
       },
       {
-        "player_name": "Brooks Lee",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Johnson",
-        "venue": "Target Field",
-        "lineup_spot": 2,
-        "p_hit": 0.6875
-      },
-      {
-        "player_name": "Jacob Wilson",
-        "team": "Athletics",
-        "opponent_pitcher": "Bryan Hudson",
-        "venue": "Rate Field",
-        "lineup_spot": 1,
-        "p_hit": 0.6848
-      },
-      {
-        "player_name": "Josh Bell",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Johnson",
-        "venue": "Target Field",
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Busch Stadium",
         "lineup_spot": 3,
-        "p_hit": 0.6815
-      },
-      {
-        "player_name": "Randal Grichuk",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Gage Jump",
-        "venue": "Rate Field",
-        "lineup_spot": 1,
-        "p_hit": 0.6799
-      },
-      {
-        "player_name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Gage Jump",
-        "venue": "Rate Field",
-        "lineup_spot": 3,
-        "p_hit": 0.6728
-      },
-      {
-        "player_name": "Chase Meidroth",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Gage Jump",
-        "venue": "Rate Field",
-        "lineup_spot": 5,
-        "p_hit": 0.6723
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Gage Jump",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hit": 0.6669
+        "p_hit": 0.6941
       }
     ],
     "calibration": [
@@ -370,7 +370,7 @@
     ]
   },
   "hr": {
-    "today_count": 90,
+    "today_count": 234,
     "total_graded": 3582,
     "since_date": "2026-06-21",
     "brier_score": 0.1106,
@@ -387,12 +387,60 @@
         "p_hr": 0.2269
       },
       {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2191
+      },
+      {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Javier Assad",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2179
+      },
+      {
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Brandon Pfaadt",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.2177
+      },
+      {
+        "player_name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Javier Assad",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2138
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Kumar Rocker",
+        "venue": "Globe Life Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2097
+      },
+      {
         "player_name": "Dominic Canzone",
         "team": "Seattle Mariners",
         "opponent_pitcher": "Griffin Jax",
         "venue": "Tropicana Field",
         "lineup_spot": 3,
         "p_hr": 0.2093
+      },
+      {
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Javier Assad",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.202
       },
       {
         "player_name": "Brandon Lowe",
@@ -403,60 +451,12 @@
         "p_hr": 0.1987
       },
       {
-        "player_name": "Kody Clemens",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Johnson",
-        "venue": "Target Field",
-        "lineup_spot": 4,
-        "p_hr": 0.1964
-      },
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hr": 0.187
-      },
-      {
-        "player_name": "Heriberto Hern\u00e1ndez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Tanner Bibee",
-        "venue": "loanDepot park",
-        "lineup_spot": 5,
-        "p_hr": 0.1836
-      },
-      {
-        "player_name": "Josh Bell",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Johnson",
-        "venue": "Target Field",
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Busch Stadium",
         "lineup_spot": 3,
-        "p_hr": 0.178
-      },
-      {
-        "player_name": "Brooks Lee",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Johnson",
-        "venue": "Target Field",
-        "lineup_spot": 2,
-        "p_hr": 0.174
-      },
-      {
-        "player_name": "Kyle Stowers",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Tanner Bibee",
-        "venue": "loanDepot park",
-        "lineup_spot": 3,
-        "p_hr": 0.1737
-      },
-      {
-        "player_name": "Ryan O'Hearn",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1735
+        "p_hr": 0.1966
       }
     ],
     "calibration": [
@@ -720,12 +720,12 @@
     ]
   },
   "k": {
-    "today_count": 13,
+    "today_count": 28,
     "total_graded": 314,
     "since_date": "2026-06-27",
     "brier_score": 0.1586,
     "naive_brier": 0.25,
-    "avg_lambda": 5.23,
+    "avg_lambda": 5.04,
     "over_rate": 0.248,
     "top10_today": [
       {
@@ -737,6 +737,16 @@
         "lambda_k": 6.86,
         "p_over": 0.5297,
         "p_under": 0.4703
+      },
+      {
+        "pitcher_name": "Cristopher S\u00e1nchez",
+        "team": "Philadelphia Phillies",
+        "opponent": "Detroit Tigers",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 6.48,
+        "p_over": 0.4703,
+        "p_under": 0.5297
       },
       {
         "pitcher_name": "Cam Schlittler",
@@ -769,6 +779,16 @@
         "p_under": 0.6763
       },
       {
+        "pitcher_name": "Casey Mize",
+        "team": "Detroit Tigers",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.52,
+        "p_over": 0.3175,
+        "p_under": 0.6825
+      },
+      {
         "pitcher_name": "Eury P\u00e9rez",
         "team": "Miami Marlins",
         "opponent": "Cleveland Guardians",
@@ -789,6 +809,16 @@
         "p_under": 0.698
       },
       {
+        "pitcher_name": "Peter Lambert",
+        "team": "Houston Astros",
+        "opponent": "Texas Rangers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.22,
+        "p_over": 0.2715,
+        "p_under": 0.7285
+      },
+      {
         "pitcher_name": "Griffin Jax",
         "team": "Tampa Bay Rays",
         "opponent": "Seattle Mariners",
@@ -797,36 +827,6 @@
         "lambda_k": 5.18,
         "p_over": 0.2639,
         "p_under": 0.7361
-      },
-      {
-        "pitcher_name": "Logan Gilbert",
-        "team": "Seattle Mariners",
-        "opponent": "Tampa Bay Rays",
-        "venue": "Tropicana Field",
-        "line": 6.5,
-        "lambda_k": 5.06,
-        "p_over": 0.2466,
-        "p_under": 0.7534
-      },
-      {
-        "pitcher_name": "Freddy Peralta",
-        "team": "New York Mets",
-        "opponent": "Boston Red Sox",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 4.95,
-        "p_over": 0.2298,
-        "p_under": 0.7702
-      },
-      {
-        "pitcher_name": "Ryan Johnson",
-        "team": "Los Angeles Angels",
-        "opponent": "Minnesota Twins",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 4.75,
-        "p_over": 0.2021,
-        "p_under": 0.7979
       }
     ],
     "calibration": [
@@ -1177,10 +1177,10 @@
   },
   "tennis": {
     "today_count": 1,
-    "total_graded": 132,
+    "total_graded": 133,
     "accuracy": 0.703,
-    "no_signal_count": 68,
-    "no_signal_rate": 0.515,
+    "no_signal_count": 69,
+    "no_signal_rate": 0.519,
     "matches": [
       {
         "tour": "wta",
@@ -1190,7 +1190,7 @@
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": null
+        "winner": "Linda Noskova"
       }
     ],
     "trend": [
