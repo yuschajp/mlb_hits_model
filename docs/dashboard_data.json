@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-11",
   "hits": {
-    "today_count": 18,
+    "today_count": 72,
     "total_graded": 3753,
     "since_date": "2026-06-20",
     "brier_score": 0.2358,
@@ -11,84 +11,84 @@
     "actual_hit_rate": 0.6112,
     "top10_today": [
       {
+        "player_name": "Trevor Larnach",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Target Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7283
+      },
+      {
         "player_name": "Jake Mangum",
         "team": "Pittsburgh Pirates",
         "opponent_pitcher": "Brandon Sproat",
         "venue": "PNC Park",
         "lineup_spot": 1,
-        "p_hit": 0.7029
+        "p_hit": 0.7001
       },
       {
-        "player_name": "Nick Gonzales",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 6,
-        "p_hit": 0.6676
-      },
-      {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6671
-      },
-      {
-        "player_name": "Garrett Mitchell",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "PNC Park",
-        "lineup_spot": 2,
-        "p_hit": 0.6614
-      },
-      {
-        "player_name": "Ryan O'Hearn",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
+        "player_name": "Joshua Kuroda-Grauer",
+        "team": "Athletics",
+        "opponent_pitcher": "Bryan Hudson",
+        "venue": "Rate Field",
         "lineup_spot": 5,
-        "p_hit": 0.6558
+        "p_hit": 0.6937
       },
       {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6508
-      },
-      {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6452
-      },
-      {
-        "player_name": "William Contreras",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6385
-      },
-      {
-        "player_name": "Brandon Lowe",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
+        "player_name": "Brooks Lee",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Target Field",
         "lineup_spot": 2,
-        "p_hit": 0.6323
+        "p_hit": 0.6875
       },
       {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "PNC Park",
+        "player_name": "Jacob Wilson",
+        "team": "Athletics",
+        "opponent_pitcher": "Bryan Hudson",
+        "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hit": 0.6848
+      },
+      {
+        "player_name": "Josh Bell",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hit": 0.6815
+      },
+      {
+        "player_name": "Randal Grichuk",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Gage Jump",
+        "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hit": 0.6799
+      },
+      {
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Gage Jump",
+        "venue": "Rate Field",
+        "lineup_spot": 3,
+        "p_hit": 0.6728
+      },
+      {
+        "player_name": "Chase Meidroth",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Gage Jump",
+        "venue": "Rate Field",
         "lineup_spot": 5,
-        "p_hit": 0.6143
+        "p_hit": 0.6723
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Gage Jump",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hit": 0.6669
       }
     ],
     "calibration": [
@@ -370,7 +370,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 90,
     "total_graded": 3582,
     "since_date": "2026-06-21",
     "brier_score": 0.1106,
@@ -379,12 +379,36 @@
     "actual_hr_rate": 0.1287,
     "top10_today": [
       {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Logan Gilbert",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2269
+      },
+      {
+        "player_name": "Dominic Canzone",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Griffin Jax",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2093
+      },
+      {
         "player_name": "Brandon Lowe",
         "team": "Pittsburgh Pirates",
         "opponent_pitcher": "Brandon Sproat",
         "venue": "PNC Park",
         "lineup_spot": 2,
-        "p_hr": 0.1949
+        "p_hr": 0.1987
+      },
+      {
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Target Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1964
       },
       {
         "player_name": "Esmerlyn Valdez",
@@ -392,7 +416,39 @@
         "opponent_pitcher": "Brandon Sproat",
         "venue": "PNC Park",
         "lineup_spot": 4,
-        "p_hr": 0.1745
+        "p_hr": 0.187
+      },
+      {
+        "player_name": "Heriberto Hern\u00e1ndez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "loanDepot park",
+        "lineup_spot": 5,
+        "p_hr": 0.1836
+      },
+      {
+        "player_name": "Josh Bell",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hr": 0.178
+      },
+      {
+        "player_name": "Brooks Lee",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Target Field",
+        "lineup_spot": 2,
+        "p_hr": 0.174
+      },
+      {
+        "player_name": "Kyle Stowers",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "loanDepot park",
+        "lineup_spot": 3,
+        "p_hr": 0.1737
       },
       {
         "player_name": "Ryan O'Hearn",
@@ -400,63 +456,7 @@
         "opponent_pitcher": "Brandon Sproat",
         "venue": "PNC Park",
         "lineup_spot": 5,
-        "p_hr": 0.17
-      },
-      {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1666
-      },
-      {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "PNC Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1395
-      },
-      {
-        "player_name": "Henry Davis",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 9,
-        "p_hr": 0.1359
-      },
-      {
-        "player_name": "Tyler Callihan",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 7,
-        "p_hr": 0.1264
-      },
-      {
-        "player_name": "Garrett Mitchell",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "PNC Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1235
-      },
-      {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Braxton Ashcraft",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1168
-      },
-      {
-        "player_name": "Jake Mangum",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1112
+        "p_hr": 0.1735
       }
     ],
     "calibration": [
@@ -720,23 +720,63 @@
     ]
   },
   "k": {
-    "today_count": 2,
+    "today_count": 13,
     "total_graded": 314,
     "since_date": "2026-06-27",
     "brier_score": 0.1586,
     "naive_brier": 0.25,
-    "avg_lambda": 5.73,
+    "avg_lambda": 5.23,
     "over_rate": 0.248,
     "top10_today": [
+      {
+        "pitcher_name": "Joe Ryan",
+        "team": "Minnesota Twins",
+        "opponent": "Los Angeles Angels",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 6.86,
+        "p_over": 0.5297,
+        "p_under": 0.4703
+      },
+      {
+        "pitcher_name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 6.24,
+        "p_over": 0.432,
+        "p_under": 0.568
+      },
       {
         "pitcher_name": "Braxton Ashcraft",
         "team": "Pittsburgh Pirates",
         "opponent": "Milwaukee Brewers",
         "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 5.93,
-        "p_over": 0.3826,
-        "p_under": 0.6174
+        "lambda_k": 5.82,
+        "p_over": 0.3644,
+        "p_under": 0.6356
+      },
+      {
+        "pitcher_name": "Gage Jump",
+        "team": "Athletics",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.56,
+        "p_over": 0.3237,
+        "p_under": 0.6763
+      },
+      {
+        "pitcher_name": "Eury P\u00e9rez",
+        "team": "Miami Marlins",
+        "opponent": "Cleveland Guardians",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 5.52,
+        "p_over": 0.3169,
+        "p_under": 0.6831
       },
       {
         "pitcher_name": "Brandon Sproat",
@@ -744,9 +784,49 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 5.53,
-        "p_over": 0.3183,
-        "p_under": 0.6817
+        "lambda_k": 5.42,
+        "p_over": 0.302,
+        "p_under": 0.698
+      },
+      {
+        "pitcher_name": "Griffin Jax",
+        "team": "Tampa Bay Rays",
+        "opponent": "Seattle Mariners",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.18,
+        "p_over": 0.2639,
+        "p_under": 0.7361
+      },
+      {
+        "pitcher_name": "Logan Gilbert",
+        "team": "Seattle Mariners",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.06,
+        "p_over": 0.2466,
+        "p_under": 0.7534
+      },
+      {
+        "pitcher_name": "Freddy Peralta",
+        "team": "New York Mets",
+        "opponent": "Boston Red Sox",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 4.95,
+        "p_over": 0.2298,
+        "p_under": 0.7702
+      },
+      {
+        "pitcher_name": "Ryan Johnson",
+        "team": "Los Angeles Angels",
+        "opponent": "Minnesota Twins",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 4.75,
+        "p_over": 0.2021,
+        "p_under": 0.7979
       }
     ],
     "calibration": [
