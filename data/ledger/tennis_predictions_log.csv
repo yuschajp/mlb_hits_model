@@ -292,4 +292,4 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-10,atp,Wimbledon,Semifinal,Alexander Zverev,Arthur Fery,1607.9,1485.8,0.6689,0.3311,Alexander Zverev,True
 2026-07-10,atp,Wimbledon,Semifinal,Jannik Sinner,Novak Djokovic,1675.8,1669.8,0.5087,0.4913,Jannik Sinner,True
 2026-07-12,atp,Wimbledon,Final,Alexander Zverev,Jannik Sinner,1607.9,1675.8,0.4035,0.5965,,False
-2026-07-11,wta,Wimbledon,Final,Linda Noskova,Karolina Muchova,1500.0,1500.0,0.5,0.5,,False
+2026-07-11,wta,Wimbledon,Final,Linda Noskova,Karolina Muchova,1500.0,1500.0,0.5,0.5,Linda Noskova,True
