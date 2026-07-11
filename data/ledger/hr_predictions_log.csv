@@ -3590,21 +3590,93 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-10,823200,650489,Willi Castro,Colorado Rockies,San Francisco Giants,7,Oracle Park,0.78,Robbie Ray,0.0982,0.0279,3.7,0.0,True
 2026-07-10,823200,666160,Mickey Moniak,Colorado Rockies,San Francisco Giants,8,Oracle Park,0.78,Robbie Ray,0.1274,0.0379,3.6,0.0,True
 2026-07-10,823200,678662,Ezequiel Tovar,Colorado Rockies,San Francisco Giants,9,Oracle Park,0.78,Robbie Ray,0.0909,0.0272,3.5,0.0,True
-2026-07-11,823357,663968,Jake Mangum,Pittsburgh Pirates,Milwaukee Brewers,1,PNC Park,0.92,Brandon Sproat,0.1112,0.0274,4.3,,False
-2026-07-11,823357,664040,Brandon Lowe,Pittsburgh Pirates,Milwaukee Brewers,2,PNC Park,0.92,Brandon Sproat,0.1949,0.0516,4.2,,False
-2026-07-11,823357,668804,Bryan Reynolds,Pittsburgh Pirates,Milwaukee Brewers,3,PNC Park,0.92,Brandon Sproat,0.1666,0.0444,4.1,,False
-2026-07-11,823357,699013,Esmerlyn Valdez,Pittsburgh Pirates,Milwaukee Brewers,4,PNC Park,0.92,Brandon Sproat,0.1745,0.048,4.0,,False
-2026-07-11,823357,656811,Ryan O'Hearn,Pittsburgh Pirates,Milwaukee Brewers,5,PNC Park,0.92,Brandon Sproat,0.17,0.0478,3.9,,False
-2026-07-11,823357,693304,Nick Gonzales,Pittsburgh Pirates,Milwaukee Brewers,6,PNC Park,0.92,Brandon Sproat,0.1016,0.0282,3.8,,False
-2026-07-11,823357,682997,Tyler Callihan,Pittsburgh Pirates,Milwaukee Brewers,7,PNC Park,0.92,Brandon Sproat,0.1264,0.0365,3.7,,False
-2026-07-11,823357,669707,Jared Triolo,Pittsburgh Pirates,Milwaukee Brewers,8,PNC Park,0.92,Brandon Sproat,0.0964,0.0281,3.6,,False
-2026-07-11,823357,680779,Henry Davis,Pittsburgh Pirates,Milwaukee Brewers,9,PNC Park,0.92,Brandon Sproat,0.1359,0.0417,3.5,,False
-2026-07-11,823357,592885,Christian Yelich,Milwaukee Brewers,Pittsburgh Pirates,1,PNC Park,0.92,Braxton Ashcraft,0.1063,0.0261,4.3,,False
-2026-07-11,823357,669003,Garrett Mitchell,Milwaukee Brewers,Pittsburgh Pirates,2,PNC Park,0.92,Braxton Ashcraft,0.1235,0.0314,4.2,,False
-2026-07-11,823357,668930,Brice Turang,Milwaukee Brewers,Pittsburgh Pirates,3,PNC Park,0.92,Braxton Ashcraft,0.1168,0.0303,4.1,,False
-2026-07-11,823357,661388,William Contreras,Milwaukee Brewers,Pittsburgh Pirates,4,PNC Park,0.92,Braxton Ashcraft,0.1025,0.027,4.0,,False
-2026-07-11,823357,641343,Jake Bauers,Milwaukee Brewers,Pittsburgh Pirates,5,PNC Park,0.92,Braxton Ashcraft,0.1395,0.0385,3.9,,False
-2026-07-11,823357,800325,Luis Lara,Milwaukee Brewers,Pittsburgh Pirates,6,PNC Park,0.92,Braxton Ashcraft,0.0992,0.0275,3.8,,False
-2026-07-11,823357,806198,Cooper Pratt,Milwaukee Brewers,Pittsburgh Pirates,7,PNC Park,0.92,Braxton Ashcraft,0.0816,0.023,3.7,,False
-2026-07-11,823357,686217,Sal Frelick,Milwaukee Brewers,Pittsburgh Pirates,8,PNC Park,0.92,Braxton Ashcraft,0.0717,0.0207,3.6,,False
-2026-07-11,823357,687401,Joey Ortiz,Milwaukee Brewers,Pittsburgh Pirates,9,PNC Park,0.92,Braxton Ashcraft,0.083,0.0248,3.5,,False
+2026-07-11,823357,663968,Jake Mangum,Pittsburgh Pirates,Milwaukee Brewers,1,PNC Park,0.92,Brandon Sproat,0.1136,0.028,4.3,,False
+2026-07-11,823357,664040,Brandon Lowe,Pittsburgh Pirates,Milwaukee Brewers,2,PNC Park,0.92,Brandon Sproat,0.1987,0.0527,4.2,,False
+2026-07-11,823357,668804,Bryan Reynolds,Pittsburgh Pirates,Milwaukee Brewers,3,PNC Park,0.92,Brandon Sproat,0.17,0.0455,4.1,,False
+2026-07-11,823357,699013,Esmerlyn Valdez,Pittsburgh Pirates,Milwaukee Brewers,4,PNC Park,0.92,Brandon Sproat,0.187,0.0517,4.0,,False
+2026-07-11,823357,656811,Ryan O'Hearn,Pittsburgh Pirates,Milwaukee Brewers,5,PNC Park,0.92,Brandon Sproat,0.1735,0.0489,3.9,,False
+2026-07-11,823357,693304,Nick Gonzales,Pittsburgh Pirates,Milwaukee Brewers,6,PNC Park,0.92,Brandon Sproat,0.1038,0.0288,3.8,,False
+2026-07-11,823357,682997,Tyler Callihan,Pittsburgh Pirates,Milwaukee Brewers,7,PNC Park,0.92,Brandon Sproat,0.1289,0.0373,3.7,,False
+2026-07-11,823357,669707,Jared Triolo,Pittsburgh Pirates,Milwaukee Brewers,8,PNC Park,0.92,Brandon Sproat,0.0984,0.0288,3.6,,False
+2026-07-11,823357,680779,Henry Davis,Pittsburgh Pirates,Milwaukee Brewers,9,PNC Park,0.92,Brandon Sproat,0.1391,0.0428,3.5,,False
+2026-07-11,823357,592885,Christian Yelich,Milwaukee Brewers,Pittsburgh Pirates,1,PNC Park,0.92,Braxton Ashcraft,0.1089,0.0268,4.3,,False
+2026-07-11,823357,669003,Garrett Mitchell,Milwaukee Brewers,Pittsburgh Pirates,2,PNC Park,0.92,Braxton Ashcraft,0.1264,0.0322,4.2,,False
+2026-07-11,823357,668930,Brice Turang,Milwaukee Brewers,Pittsburgh Pirates,3,PNC Park,0.92,Braxton Ashcraft,0.1199,0.0312,4.1,,False
+2026-07-11,823357,661388,William Contreras,Milwaukee Brewers,Pittsburgh Pirates,4,PNC Park,0.92,Braxton Ashcraft,0.1052,0.0278,4.0,,False
+2026-07-11,823357,641343,Jake Bauers,Milwaukee Brewers,Pittsburgh Pirates,5,PNC Park,0.92,Braxton Ashcraft,0.1492,0.0414,3.9,,False
+2026-07-11,823357,800325,Luis Lara,Milwaukee Brewers,Pittsburgh Pirates,6,PNC Park,0.92,Braxton Ashcraft,0.1017,0.0282,3.8,,False
+2026-07-11,823357,806198,Cooper Pratt,Milwaukee Brewers,Pittsburgh Pirates,7,PNC Park,0.92,Braxton Ashcraft,0.0838,0.0236,3.7,,False
+2026-07-11,823357,686217,Sal Frelick,Milwaukee Brewers,Pittsburgh Pirates,8,PNC Park,0.92,Braxton Ashcraft,0.0736,0.0212,3.6,,False
+2026-07-11,823357,687401,Joey Ortiz,Milwaukee Brewers,Pittsburgh Pirates,9,PNC Park,0.92,Braxton Ashcraft,0.0852,0.0255,3.5,,False
+2026-07-11,823682,663616,Trevor Larnach,Minnesota Twins,Los Angeles Angels,1,Target Field,0.95,Ryan Johnson,0.1484,0.0374,4.3,,False
+2026-07-11,823682,686797,Brooks Lee,Minnesota Twins,Los Angeles Angels,2,Target Field,0.95,Ryan Johnson,0.174,0.0455,4.2,,False
+2026-07-11,823682,605137,Josh Bell,Minnesota Twins,Los Angeles Angels,3,Target Field,0.95,Ryan Johnson,0.178,0.0478,4.1,,False
+2026-07-11,823682,665019,Kody Clemens,Minnesota Twins,Los Angeles Angels,4,Target Field,0.95,Ryan Johnson,0.1964,0.0546,4.0,,False
+2026-07-11,823682,668904,Royce Lewis,Minnesota Twins,Los Angeles Angels,5,Target Field,0.95,Ryan Johnson,0.1621,0.0453,3.9,,False
+2026-07-11,823682,605170,Victor Caratini,Minnesota Twins,Los Angeles Angels,6,Target Field,0.95,Ryan Johnson,0.152,0.0434,3.8,,False
+2026-07-11,823682,702176,Alan Roden,Minnesota Twins,Los Angeles Angels,7,Target Field,0.95,Ryan Johnson,0.1332,0.0386,3.7,,False
+2026-07-11,823682,656484,Tristan Gray,Minnesota Twins,Los Angeles Angels,8,Target Field,0.95,Ryan Johnson,0.1172,0.0346,3.6,,False
+2026-07-11,823682,807712,Luke Keaschall,Minnesota Twins,Los Angeles Angels,9,Target Field,0.95,Ryan Johnson,0.1129,0.0342,3.5,,False
+2026-07-11,823682,687263,Zach Neto,Los Angeles Angels,Minnesota Twins,1,Target Field,0.95,Joe Ryan,0.1402,0.0351,4.3,,False
+2026-07-11,823682,545361,Mike Trout,Los Angeles Angels,Minnesota Twins,2,Target Field,0.95,Joe Ryan,0.1466,0.0378,4.2,,False
+2026-07-11,823682,694384,Nolan Schanuel,Los Angeles Angels,Minnesota Twins,3,Target Field,0.95,Joe Ryan,0.092,0.0235,4.1,,False
+2026-07-11,823682,624585,Jorge Soler,Los Angeles Angels,Minnesota Twins,4,Target Field,0.95,Joe Ryan,0.1138,0.0302,4.0,,False
+2026-07-11,823682,687093,Vaughn Grissom,Los Angeles Angels,Minnesota Twins,5,Target Field,0.95,Joe Ryan,0.0974,0.0263,3.9,,False
+2026-07-11,823682,666176,Jo Adell,Los Angeles Angels,Minnesota Twins,6,Target Field,0.95,Joe Ryan,0.0956,0.0264,3.8,,False
+2026-07-11,823682,685133,Wade Meckler,Los Angeles Angels,Minnesota Twins,7,Target Field,0.95,Joe Ryan,0.079,0.0222,3.7,,False
+2026-07-11,823682,694203,Denzer Guzman,Los Angeles Angels,Minnesota Twins,8,Target Field,0.95,Joe Ryan,0.0903,0.0263,3.6,,False
+2026-07-11,823682,681351,Logan O'Hoppe,Los Angeles Angels,Minnesota Twins,9,Target Field,0.95,Joe Ryan,0.0788,0.0235,3.5,,False
+2026-07-11,824576,545341,Randal Grichuk,Chicago White Sox,Athletics,1,Rate Field,1.07,Gage Jump,0.1618,0.041,4.3,,False
+2026-07-11,824576,808959,Munetaka Murakami,Chicago White Sox,Athletics,2,Rate Field,1.07,Gage Jump,0.1666,0.0434,4.2,,False
+2026-07-11,824576,678246,Miguel Vargas,Chicago White Sox,Athletics,3,Rate Field,1.07,Gage Jump,0.164,0.0437,4.1,,False
+2026-07-11,824576,695657,Colson Montgomery,Chicago White Sox,Athletics,4,Rate Field,1.07,Gage Jump,0.1704,0.0467,4.0,,False
+2026-07-11,824576,805367,Chase Meidroth,Chicago White Sox,Athletics,5,Rate Field,1.07,Gage Jump,0.1006,0.0272,3.9,,False
+2026-07-11,824576,695731,Braden Montgomery,Chicago White Sox,Athletics,6,Rate Field,1.07,Gage Jump,0.0996,0.0276,3.8,,False
+2026-07-11,824576,682668,Luisangel Acuña,Chicago White Sox,Athletics,7,Rate Field,1.07,Gage Jump,0.0956,0.0272,3.7,,False
+2026-07-11,824576,678577,Junior Perez,Chicago White Sox,Athletics,8,Rate Field,1.07,Gage Jump,0.1171,0.0346,3.6,,False
+2026-07-11,824576,691011,Drew Romo,Chicago White Sox,Athletics,9,Rate Field,1.07,Gage Jump,0.1062,0.0321,3.5,,False
+2026-07-11,824576,805779,Jacob Wilson,Athletics,Chicago White Sox,1,Rate Field,1.07,Bryan Hudson,0.0922,0.0225,4.3,,False
+2026-07-11,824576,691016,Tyler Soderstrom,Athletics,Chicago White Sox,2,Rate Field,1.07,Bryan Hudson,0.1222,0.031,4.2,,False
+2026-07-11,824576,669127,Shea Langeliers,Athletics,Chicago White Sox,3,Rate Field,1.07,Bryan Hudson,0.1261,0.0329,4.1,,False
+2026-07-11,824576,641680,Jonah Heim,Athletics,Chicago White Sox,4,Rate Field,1.07,Bryan Hudson,0.1215,0.0324,4.0,,False
+2026-07-11,824576,811965,Joshua Kuroda-Grauer,Athletics,Chicago White Sox,5,Rate Field,1.07,Bryan Hudson,0.0853,0.0229,3.9,,False
+2026-07-11,824576,671732,Lawrence Butler,Athletics,Chicago White Sox,6,Rate Field,1.07,Bryan Hudson,0.0803,0.022,3.8,,False
+2026-07-11,824576,666126,Carlos Cortes,Athletics,Chicago White Sox,7,Rate Field,1.07,Bryan Hudson,0.0836,0.0236,3.7,,False
+2026-07-11,824576,643446,Jeff McNeil,Athletics,Chicago White Sox,8,Rate Field,1.07,Bryan Hudson,0.0717,0.0207,3.6,,False
+2026-07-11,824576,703607,Henry Bolte,Athletics,Chicago White Sox,9,Rate Field,1.07,Bryan Hudson,0.0793,0.0236,3.5,,False
+2026-07-11,822953,650490,Yandy Díaz,Tampa Bay Rays,Seattle Mariners,1,Tropicana Field,0.97,Logan Gilbert,0.1307,0.0326,4.3,,False
+2026-07-11,822953,666018,Jonathan Aranda,Tampa Bay Rays,Seattle Mariners,2,Tropicana Field,0.97,Logan Gilbert,0.1366,0.035,4.2,,False
+2026-07-11,822953,691406,Junior Caminero,Tampa Bay Rays,Seattle Mariners,3,Tropicana Field,0.97,Logan Gilbert,0.2269,0.0628,4.1,,False
+2026-07-11,822953,656775,Cedric Mullins,Tampa Bay Rays,Seattle Mariners,4,Tropicana Field,0.97,Logan Gilbert,0.1484,0.0402,4.0,,False
+2026-07-11,822953,676356,Jonny DeLuca,Tampa Bay Rays,Seattle Mariners,5,Tropicana Field,0.97,Logan Gilbert,0.1296,0.0356,3.9,,False
+2026-07-11,822953,802415,Chandler Simpson,Tampa Bay Rays,Seattle Mariners,6,Tropicana Field,0.97,Logan Gilbert,0.0708,0.0193,3.8,,False
+2026-07-11,822953,810938,Ben Williamson,Tampa Bay Rays,Seattle Mariners,7,Tropicana Field,0.97,Logan Gilbert,0.1008,0.0287,3.7,,False
+2026-07-11,822953,680700,Richie Palacios,Tampa Bay Rays,Seattle Mariners,8,Tropicana Field,0.97,Logan Gilbert,0.1012,0.0296,3.6,,False
+2026-07-11,822953,663743,Nick Fortes,Tampa Bay Rays,Seattle Mariners,9,Tropicana Field,0.97,Logan Gilbert,0.0927,0.0278,3.5,,False
+2026-07-11,822953,641487,J.P. Crawford,Seattle Mariners,Tampa Bay Rays,1,Tropicana Field,0.97,Griffin Jax,0.1473,0.037,4.3,,False
+2026-07-11,822953,668227,Randy Arozarena,Seattle Mariners,Tampa Bay Rays,2,Tropicana Field,0.97,Griffin Jax,0.1567,0.0406,4.2,,False
+2026-07-11,822953,686527,Dominic Canzone,Seattle Mariners,Tampa Bay Rays,3,Tropicana Field,0.97,Griffin Jax,0.2093,0.0573,4.1,,False
+2026-07-11,822953,663728,Cal Raleigh,Seattle Mariners,Tampa Bay Rays,4,Tropicana Field,0.97,Griffin Jax,0.1512,0.041,4.0,,False
+2026-07-11,822953,647304,Josh Naylor,Seattle Mariners,Tampa Bay Rays,5,Tropicana Field,0.97,Griffin Jax,0.1208,0.033,3.9,,False
+2026-07-11,822953,670042,Luke Raley,Seattle Mariners,Tampa Bay Rays,6,Tropicana Field,0.97,Griffin Jax,0.1645,0.0473,3.8,,False
+2026-07-11,822953,702284,Cole Young,Seattle Mariners,Tampa Bay Rays,7,Tropicana Field,0.97,Griffin Jax,0.154,0.0452,3.7,,False
+2026-07-11,822953,645302,Victor Robles,Seattle Mariners,Tampa Bay Rays,8,Tropicana Field,0.97,Griffin Jax,0.105,0.0308,3.6,,False
+2026-07-11,822953,806068,Colt Emerson,Seattle Mariners,Tampa Bay Rays,9,Tropicana Field,0.97,Griffin Jax,0.1412,0.0435,3.5,,False
+2026-07-11,823844,689414,Liam Hicks,Miami Marlins,Cleveland Guardians,1,loanDepot park,0.85,Tanner Bibee,0.1543,0.039,4.3,,False
+2026-07-11,823844,672640,Otto Lopez,Miami Marlins,Cleveland Guardians,2,loanDepot park,0.85,Tanner Bibee,0.1333,0.034,4.2,,False
+2026-07-11,823844,669065,Kyle Stowers,Miami Marlins,Cleveland Guardians,3,loanDepot park,0.85,Tanner Bibee,0.1737,0.0465,4.1,,False
+2026-07-11,823844,669364,Xavier Edwards,Miami Marlins,Cleveland Guardians,4,loanDepot park,0.85,Tanner Bibee,0.0971,0.0255,4.0,,False
+2026-07-11,823844,681715,Heriberto Hernández,Miami Marlins,Cleveland Guardians,5,loanDepot park,0.85,Tanner Bibee,0.1836,0.052,3.9,,False
+2026-07-11,823844,665052,Griffin Conine,Miami Marlins,Cleveland Guardians,6,loanDepot park,0.85,Tanner Bibee,0.1412,0.0401,3.8,,False
+2026-07-11,823844,805300,Jakob Marsee,Miami Marlins,Cleveland Guardians,7,loanDepot park,0.85,Tanner Bibee,0.1018,0.029,3.7,,False
+2026-07-11,823844,691788,Joe Mack,Miami Marlins,Cleveland Guardians,8,loanDepot park,0.85,Tanner Bibee,0.1527,0.046,3.6,,False
+2026-07-11,823844,691594,Javier Sanoja,Miami Marlins,Cleveland Guardians,9,loanDepot park,0.85,Tanner Bibee,0.0946,0.0284,3.5,,False
+2026-07-11,823844,683953,Travis Bazzana,Cleveland Guardians,Miami Marlins,1,loanDepot park,0.85,Eury Pérez,0.1324,0.033,4.3,,False
+2026-07-11,823844,677587,Brayan Rocchio,Cleveland Guardians,Miami Marlins,2,loanDepot park,0.85,Eury Pérez,0.1129,0.0285,4.2,,False
+2026-07-11,823844,800050,Chase DeLauter,Cleveland Guardians,Miami Marlins,3,loanDepot park,0.85,Eury Pérez,0.1372,0.036,4.1,,False
+2026-07-11,823844,700932,Kyle Manzardo,Cleveland Guardians,Miami Marlins,4,loanDepot park,0.85,Eury Pérez,0.1329,0.0357,4.0,,False
+2026-07-11,823844,696135,Kahlil Watson,Cleveland Guardians,Miami Marlins,5,loanDepot park,0.85,Eury Pérez,0.1088,0.0295,3.9,,False
+2026-07-11,823844,672356,Gabriel Arias,Cleveland Guardians,Miami Marlins,6,loanDepot park,0.85,Eury Pérez,0.1384,0.0392,3.8,,False
+2026-07-11,823844,690984,Petey Halpin,Cleveland Guardians,Miami Marlins,7,loanDepot park,0.85,Eury Pérez,0.1013,0.0289,3.7,,False
+2026-07-11,823844,672275,Patrick Bailey,Cleveland Guardians,Miami Marlins,8,loanDepot park,0.85,Eury Pérez,0.1019,0.0298,3.6,,False
+2026-07-11,823844,680757,Steven Kwan,Cleveland Guardians,Miami Marlins,9,loanDepot park,0.85,Eury Pérez,0.072,0.0214,3.5,,False
