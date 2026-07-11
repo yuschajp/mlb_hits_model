@@ -212,46 +212,7 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-03,atp,Wimbledon,Jan-Lennard Struff (GER) leads (8) Daniil Medvedev (RUS) 4-3,Daniil Medvedev,Jan-Lennard Struff,1597.2,1534.7,0.5891,0.4109,,False
 2026-07-03,atp,Wimbledon,(18) Ekaterina Alexandrova (RUS) is tied with (16) Iva Jovic (USA) 3-6 5-2,Iva Jovic,Ekaterina Alexandrova,1500.0,1500.0,0.5,0.5,,False
 2026-07-06,atp,Wimbledon,Round 4,Alexander Zverev,Jiri Lehecka,1607.9,1602.1,0.5084,0.4916,,False
-2026-07-02,atp,Wimbledon,Round 2,Jaume Munar,Jacob Fearnley,1518.3,1486.9,0.5451,0.4549,Jaume Munar,True
-2026-07-02,atp,Wimbledon,Round 2,Alexander Zverev,Valentin Royer,1607.9,1492.2,0.6606,0.3394,Alexander Zverev,True
-2026-07-02,atp,Wimbledon,Round 2,Matteo Berrettini,Arthur Fils,1578.6,1588.2,0.4862,0.5138,Matteo Berrettini,True
-2026-07-02,atp,Wimbledon,Round 2,Flavio Cobolli,James Duckworth,1546.3,1462.2,0.6187,0.3813,Flavio Cobolli,True
-2026-07-02,atp,Wimbledon,Round 2,Karen Khachanov,Yannick Hanfmann,1563.3,1507.9,0.579,0.421,Karen Khachanov,True
-2026-07-02,atp,Wimbledon,Round 2,Jiri Lehecka,Alex Molcan,1602.1,1513.2,0.6252,0.3748,Jiri Lehecka,True
-2026-07-02,atp,Wimbledon,Round 2,Grigor Dimitrov,Jakub Mensik,1606.0,1538.7,0.5956,0.4044,Grigor Dimitrov,True
-2026-07-02,atp,Wimbledon,Round 2,Frances Tiafoe,Jan Choinski,1528.6,1463.9,0.5921,0.4079,Frances Tiafoe,True
-2026-07-02,atp,Wimbledon,Round 2,Alexander Bublik,Kyrian Jacquet,1580.3,1494.4,0.6212,0.3788,Alexander Bublik,True
-2026-07-03,atp,Wimbledon,Round 3,Roman Safiullin,Joao Fonseca,1455.8,1578.4,0.3306,0.6694,Roman Safiullin,True
-2026-07-03,atp,Wimbledon,Round 3,Novak Djokovic,Arthur Rinderknech,1669.8,1526.4,0.6954,0.3046,Novak Djokovic,True
-2026-07-03,atp,Wimbledon,Round 3,Shintaro Mochizuki,Rafael Jodar,1422.0,1516.4,0.3675,0.6325,Shintaro Mochizuki,True
-2026-07-03,atp,Wimbledon,Round 3,Jan-Lennard Struff,Daniil Medvedev,1534.7,1597.2,0.4109,0.5891,Jan-Lennard Struff,True
-2026-07-03,atp,Wimbledon,Round 3,Jannik Sinner,Jenson Brooksby,1675.8,1565.1,0.6542,0.3458,Jannik Sinner,True
-2026-07-03,atp,Wimbledon,Round 3,Hubert Hurkacz,Tommy Paul,1598.0,1603.7,0.4919,0.5081,Hubert Hurkacz,True
-2026-07-03,atp,Wimbledon,Round 3,Alejandro Davidovich Fokina,Marton Fucsovics,1579.5,1529.9,0.5709,0.4291,Alejandro Davidovich Fokina,True
-2026-07-03,atp,Wimbledon,Round 3,Felix Auger-Aliassime,Michael Zheng,1572.3,1500.0,0.6026,0.3974,Felix Auger-Aliassime,True
-2026-07-04,atp,Wimbledon,Round 3,Alex de Minaur,Zachary Svajda,1616.6,1452.3,0.7203,0.2797,Alex de Minaur,True
-2026-07-04,atp,Wimbledon,Round 3,Flavio Cobolli,Karen Khachanov,1546.3,1563.3,0.4756,0.5244,Flavio Cobolli,True
-2026-07-04,atp,Wimbledon,Round 3,Arthur Fery,Zizou Bergs,1485.8,1522.2,0.4477,0.5523,Arthur Fery,True
-2026-07-04,atp,Wimbledon,Round 3,Jiri Lehecka,Jaume Munar,1602.1,1518.3,0.6183,0.3817,Jiri Lehecka,True
-2026-07-04,atp,Wimbledon,Round 3,Alexander Zverev,Marcos Giron,1607.9,1552.5,0.579,0.421,Alexander Zverev,True
-2026-07-04,atp,Wimbledon,Round 3,Taylor Fritz,Lorenzo Sonego,1680.9,1517.4,0.7194,0.2806,Taylor Fritz,True
-2026-07-04,atp,Wimbledon,Round 3,Alexander Bublik,Frances Tiafoe,1580.3,1528.6,0.574,0.426,Alexander Bublik,True
-2026-07-04,atp,Wimbledon,Round 3,Grigor Dimitrov,Matteo Berrettini,1606.0,1578.6,0.5393,0.4607,Grigor Dimitrov,True
-2026-07-05,atp,Wimbledon,Round 4,Novak Djokovic,Roman Safiullin,1669.8,1455.8,0.7741,0.2259,Novak Djokovic,True
-2026-07-05,atp,Wimbledon,Round 4,Felix Auger-Aliassime,Alejandro Davidovich Fokina,1572.3,1579.5,0.4896,0.5104,Felix Auger-Aliassime,True
-2026-07-05,atp,Wimbledon,Round 4,Jan-Lennard Struff,Hubert Hurkacz,1534.7,1598.0,0.4098,0.5902,Jan-Lennard Struff,True
-2026-07-05,atp,Wimbledon,Round 4,Jannik Sinner,Shintaro Mochizuki,1675.8,1422.0,0.8117,0.1883,Jannik Sinner,True
-2026-07-06,atp,Wimbledon,Round 4,Flavio Cobolli,Alex de Minaur,1546.3,1616.6,0.4001,0.5999,Flavio Cobolli,True
-2026-07-06,atp,Wimbledon,Round 4,Arthur Fery,Grigor Dimitrov,1485.8,1606.0,0.3336,0.6664,Arthur Fery,True
-2026-07-06,atp,Wimbledon,Round 4,Taylor Fritz,Alexander Bublik,1680.9,1580.3,0.6408,0.3592,Taylor Fritz,True
-2026-07-07,atp,Wimbledon,Quarterfinal,Jannik Sinner,Jan-Lennard Struff,1675.8,1534.7,0.6927,0.3073,Jannik Sinner,True
-2026-07-07,atp,Wimbledon,Round 4,Alexander Zverev,Jiri Lehecka,1607.9,1602.1,0.5084,0.4916,Alexander Zverev,True
-2026-07-07,atp,Wimbledon,Quarterfinal,Novak Djokovic,Felix Auger-Aliassime,1669.8,1572.3,0.6367,0.3633,Novak Djokovic,True
-2026-07-08,atp,Wimbledon,Quarterfinal,Arthur Fery,Flavio Cobolli,1485.8,1546.3,0.4138,0.5862,Arthur Fery,True
-2026-07-08,atp,Wimbledon,Quarterfinal,Alexander Zverev,Taylor Fritz,1607.9,1680.9,0.3964,0.6036,Alexander Zverev,True
 2026-07-12,atp,Wimbledon,Final,TBD,TBD,1500.0,1500.0,0.5,0.5,,False
-2026-07-10,atp,Wimbledon,Semifinal,Alexander Zverev,Arthur Fery,1607.9,1485.8,0.6689,0.3311,Alexander Zverev,True
-2026-07-10,atp,Wimbledon,Semifinal,Jannik Sinner,Novak Djokovic,1675.8,1669.8,0.5087,0.4913,Jannik Sinner,True
 2026-07-02,wta,Wimbledon,Round 2,Iga Swiatek,Karolina Pliskova,1500.0,1500.0,0.5,0.5,Iga Swiatek,True
 2026-07-02,wta,Wimbledon,Round 2,Marta Kostyuk,Anna Blinkova,1500.0,1500.0,0.5,0.5,Marta Kostyuk,True
 2026-07-02,wta,Wimbledon,Round 2,Amanda Anisimova,Sofia Kenin,1500.0,1500.0,0.5,0.5,Amanda Anisimova,True
@@ -291,4 +252,44 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,winne
 2026-07-08,wta,Wimbledon,Quarterfinal,Marta Kostyuk,Jasmine Paolini,1500.0,1500.0,0.5,0.5,Marta Kostyuk,True
 2026-07-09,wta,Wimbledon,Semifinal,Karolina Muchova,Coco Gauff,1500.0,1500.0,0.5,0.5,Karolina Muchova,True
 2026-07-09,wta,Wimbledon,Semifinal,Linda Noskova,Marta Kostyuk,1500.0,1500.0,0.5,0.5,Linda Noskova,True
+2026-07-02,atp,Wimbledon,Round 2,Jaume Munar,Jacob Fearnley,1518.3,1486.9,0.5451,0.4549,Jaume Munar,True
+2026-07-02,atp,Wimbledon,Round 2,Alexander Zverev,Valentin Royer,1607.9,1492.2,0.6606,0.3394,Alexander Zverev,True
+2026-07-02,atp,Wimbledon,Round 2,Matteo Berrettini,Arthur Fils,1578.6,1588.2,0.4862,0.5138,Matteo Berrettini,True
+2026-07-02,atp,Wimbledon,Round 2,Flavio Cobolli,James Duckworth,1546.3,1462.2,0.6187,0.3813,Flavio Cobolli,True
+2026-07-02,atp,Wimbledon,Round 2,Karen Khachanov,Yannick Hanfmann,1563.3,1507.9,0.579,0.421,Karen Khachanov,True
+2026-07-02,atp,Wimbledon,Round 2,Jiri Lehecka,Alex Molcan,1602.1,1513.2,0.6252,0.3748,Jiri Lehecka,True
+2026-07-02,atp,Wimbledon,Round 2,Grigor Dimitrov,Jakub Mensik,1606.0,1538.7,0.5956,0.4044,Grigor Dimitrov,True
+2026-07-02,atp,Wimbledon,Round 2,Frances Tiafoe,Jan Choinski,1528.6,1463.9,0.5921,0.4079,Frances Tiafoe,True
+2026-07-02,atp,Wimbledon,Round 2,Alexander Bublik,Kyrian Jacquet,1580.3,1494.4,0.6212,0.3788,Alexander Bublik,True
+2026-07-03,atp,Wimbledon,Round 3,Roman Safiullin,Joao Fonseca,1455.8,1578.4,0.3306,0.6694,Roman Safiullin,True
+2026-07-03,atp,Wimbledon,Round 3,Novak Djokovic,Arthur Rinderknech,1669.8,1526.4,0.6954,0.3046,Novak Djokovic,True
+2026-07-03,atp,Wimbledon,Round 3,Shintaro Mochizuki,Rafael Jodar,1422.0,1516.4,0.3675,0.6325,Shintaro Mochizuki,True
+2026-07-03,atp,Wimbledon,Round 3,Jan-Lennard Struff,Daniil Medvedev,1534.7,1597.2,0.4109,0.5891,Jan-Lennard Struff,True
+2026-07-03,atp,Wimbledon,Round 3,Jannik Sinner,Jenson Brooksby,1675.8,1565.1,0.6542,0.3458,Jannik Sinner,True
+2026-07-03,atp,Wimbledon,Round 3,Hubert Hurkacz,Tommy Paul,1598.0,1603.7,0.4919,0.5081,Hubert Hurkacz,True
+2026-07-03,atp,Wimbledon,Round 3,Alejandro Davidovich Fokina,Marton Fucsovics,1579.5,1529.9,0.5709,0.4291,Alejandro Davidovich Fokina,True
+2026-07-03,atp,Wimbledon,Round 3,Felix Auger-Aliassime,Michael Zheng,1572.3,1500.0,0.6026,0.3974,Felix Auger-Aliassime,True
+2026-07-04,atp,Wimbledon,Round 3,Alex de Minaur,Zachary Svajda,1616.6,1452.3,0.7203,0.2797,Alex de Minaur,True
+2026-07-04,atp,Wimbledon,Round 3,Flavio Cobolli,Karen Khachanov,1546.3,1563.3,0.4756,0.5244,Flavio Cobolli,True
+2026-07-04,atp,Wimbledon,Round 3,Arthur Fery,Zizou Bergs,1485.8,1522.2,0.4477,0.5523,Arthur Fery,True
+2026-07-04,atp,Wimbledon,Round 3,Jiri Lehecka,Jaume Munar,1602.1,1518.3,0.6183,0.3817,Jiri Lehecka,True
+2026-07-04,atp,Wimbledon,Round 3,Alexander Zverev,Marcos Giron,1607.9,1552.5,0.579,0.421,Alexander Zverev,True
+2026-07-04,atp,Wimbledon,Round 3,Taylor Fritz,Lorenzo Sonego,1680.9,1517.4,0.7194,0.2806,Taylor Fritz,True
+2026-07-04,atp,Wimbledon,Round 3,Alexander Bublik,Frances Tiafoe,1580.3,1528.6,0.574,0.426,Alexander Bublik,True
+2026-07-04,atp,Wimbledon,Round 3,Grigor Dimitrov,Matteo Berrettini,1606.0,1578.6,0.5393,0.4607,Grigor Dimitrov,True
+2026-07-05,atp,Wimbledon,Round 4,Novak Djokovic,Roman Safiullin,1669.8,1455.8,0.7741,0.2259,Novak Djokovic,True
+2026-07-05,atp,Wimbledon,Round 4,Felix Auger-Aliassime,Alejandro Davidovich Fokina,1572.3,1579.5,0.4896,0.5104,Felix Auger-Aliassime,True
+2026-07-05,atp,Wimbledon,Round 4,Jan-Lennard Struff,Hubert Hurkacz,1534.7,1598.0,0.4098,0.5902,Jan-Lennard Struff,True
+2026-07-05,atp,Wimbledon,Round 4,Jannik Sinner,Shintaro Mochizuki,1675.8,1422.0,0.8117,0.1883,Jannik Sinner,True
+2026-07-06,atp,Wimbledon,Round 4,Flavio Cobolli,Alex de Minaur,1546.3,1616.6,0.4001,0.5999,Flavio Cobolli,True
+2026-07-06,atp,Wimbledon,Round 4,Arthur Fery,Grigor Dimitrov,1485.8,1606.0,0.3336,0.6664,Arthur Fery,True
+2026-07-06,atp,Wimbledon,Round 4,Taylor Fritz,Alexander Bublik,1680.9,1580.3,0.6408,0.3592,Taylor Fritz,True
+2026-07-07,atp,Wimbledon,Quarterfinal,Jannik Sinner,Jan-Lennard Struff,1675.8,1534.7,0.6927,0.3073,Jannik Sinner,True
+2026-07-07,atp,Wimbledon,Round 4,Alexander Zverev,Jiri Lehecka,1607.9,1602.1,0.5084,0.4916,Alexander Zverev,True
+2026-07-07,atp,Wimbledon,Quarterfinal,Novak Djokovic,Felix Auger-Aliassime,1669.8,1572.3,0.6367,0.3633,Novak Djokovic,True
+2026-07-08,atp,Wimbledon,Quarterfinal,Arthur Fery,Flavio Cobolli,1485.8,1546.3,0.4138,0.5862,Arthur Fery,True
+2026-07-08,atp,Wimbledon,Quarterfinal,Alexander Zverev,Taylor Fritz,1607.9,1680.9,0.3964,0.6036,Alexander Zverev,True
+2026-07-10,atp,Wimbledon,Semifinal,Alexander Zverev,Arthur Fery,1607.9,1485.8,0.6689,0.3311,Alexander Zverev,True
+2026-07-10,atp,Wimbledon,Semifinal,Jannik Sinner,Novak Djokovic,1675.8,1669.8,0.5087,0.4913,Jannik Sinner,True
+2026-07-12,atp,Wimbledon,Final,Alexander Zverev,Jannik Sinner,1607.9,1675.8,0.4035,0.5965,,False
 2026-07-11,wta,Wimbledon,Final,Linda Noskova,Karolina Muchova,1500.0,1500.0,0.5,0.5,,False
