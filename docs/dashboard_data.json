@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-10",
   "hits": {
-    "today_count": 180,
+    "today_count": 270,
     "total_graded": 3484,
     "since_date": "2026-06-20",
     "brier_score": 0.2356,
@@ -11,12 +11,20 @@
     "actual_hit_rate": 0.6137,
     "top10_today": [
       {
+        "player_name": "Luis Arraez",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Oracle Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7535
+      },
+      {
         "player_name": "Pete Crow-Armstrong",
         "team": "Chicago Cubs",
         "opponent_pitcher": "Hunter Greene",
         "venue": "Great American Ball Park",
         "lineup_spot": 1,
-        "p_hit": 0.779
+        "p_hit": 0.7469
       },
       {
         "player_name": "Sam Antonacci",
@@ -24,7 +32,7 @@
         "opponent_pitcher": "Jacob Lopez",
         "venue": "Rate Field",
         "lineup_spot": 1,
-        "p_hit": 0.7432
+        "p_hit": 0.7385
       },
       {
         "player_name": "Yandy D\u00edaz",
@@ -32,15 +40,15 @@
         "opponent_pitcher": "Luis Castillo",
         "venue": "Tropicana Field",
         "lineup_spot": 1,
-        "p_hit": 0.7317
+        "p_hit": 0.7359
       },
       {
-        "player_name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Kyle Leahy",
-        "venue": "Busch Stadium",
+        "player_name": "Trevor Larnach",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Grayson Rodriguez",
+        "venue": "Target Field",
         "lineup_spot": 1,
-        "p_hit": 0.7273
+        "p_hit": 0.7297
       },
       {
         "player_name": "Kevin McGonigle",
@@ -51,36 +59,20 @@
         "p_hit": 0.7202
       },
       {
-        "player_name": "Seiya Suzuki",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Hunter Greene",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 4,
-        "p_hit": 0.7085
-      },
-      {
-        "player_name": "Jake Mangum",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "PNC Park",
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Kyle Leahy",
+        "venue": "Busch Stadium",
         "lineup_spot": 1,
-        "p_hit": 0.7073
+        "p_hit": 0.72
       },
       {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Cal Quantrill",
-        "venue": "Globe Life Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7021
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Jacob Lopez",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7013
+        "player_name": "Heliot Ramos",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Oracle Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7147
       },
       {
         "player_name": "Jonathan Aranda",
@@ -88,7 +80,15 @@
         "opponent_pitcher": "Luis Castillo",
         "venue": "Tropicana Field",
         "lineup_spot": 2,
-        "p_hit": 0.6981
+        "p_hit": 0.7135
+      },
+      {
+        "player_name": "Fernando Tatis Jr.",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Petco Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7083
       }
     ],
     "calibration": [
@@ -358,7 +358,7 @@
     ]
   },
   "hr": {
-    "today_count": 180,
+    "today_count": 270,
     "total_graded": 3313,
     "since_date": "2026-06-21",
     "brier_score": 0.1093,
@@ -372,7 +372,7 @@
         "opponent_pitcher": "Shota Imanaga",
         "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hr": 0.2472
+        "p_hr": 0.2459
       },
       {
         "player_name": "Elly De La Cruz",
@@ -380,23 +380,7 @@
         "opponent_pitcher": "Shota Imanaga",
         "venue": "Great American Ball Park",
         "lineup_spot": 1,
-        "p_hr": 0.2306
-      },
-      {
-        "player_name": "Spencer Steer",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2305
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Hunter Greene",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2279
+        "p_hr": 0.2403
       },
       {
         "player_name": "JJ Bleday",
@@ -404,7 +388,15 @@
         "opponent_pitcher": "Shota Imanaga",
         "venue": "Great American Ball Park",
         "lineup_spot": 4,
-        "p_hr": 0.2265
+        "p_hr": 0.2353
+      },
+      {
+        "player_name": "Spencer Steer",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2287
       },
       {
         "player_name": "Colson Montgomery",
@@ -412,7 +404,15 @@
         "opponent_pitcher": "Jacob Lopez",
         "venue": "Rate Field",
         "lineup_spot": 4,
-        "p_hr": 0.2251
+        "p_hr": 0.2221
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Luis Castillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2209
       },
       {
         "player_name": "Munetaka Murakami",
@@ -420,7 +420,7 @@
         "opponent_pitcher": "Jacob Lopez",
         "venue": "Rate Field",
         "lineup_spot": 2,
-        "p_hr": 0.2207
+        "p_hr": 0.2172
       },
       {
         "player_name": "James Wood",
@@ -428,7 +428,15 @@
         "opponent_pitcher": "Ryan Weathers",
         "venue": "Nationals Park",
         "lineup_spot": 1,
-        "p_hr": 0.2199
+        "p_hr": 0.2166
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Hunter Greene",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2122
       },
       {
         "player_name": "Noelvi Marte",
@@ -436,15 +444,7 @@
         "opponent_pitcher": "Shota Imanaga",
         "venue": "Great American Ball Park",
         "lineup_spot": 7,
-        "p_hr": 0.2106
-      },
-      {
-        "player_name": "Eugenio Su\u00e1rez",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 5,
-        "p_hr": 0.2067
+        "p_hr": 0.2094
       }
     ],
     "calibration": [
@@ -696,12 +696,12 @@
     ]
   },
   "k": {
-    "today_count": 23,
+    "today_count": 30,
     "total_graded": 284,
     "since_date": "2026-06-27",
     "brier_score": 0.1628,
     "naive_brier": 0.25,
-    "avg_lambda": 5.14,
+    "avg_lambda": 5.04,
     "over_rate": 0.257,
     "top10_today": [
       {
@@ -710,9 +710,19 @@
         "opponent": "Athletics",
         "venue": "Rate Field",
         "line": 6.5,
-        "lambda_k": 6.19,
-        "p_over": 0.4235,
-        "p_under": 0.5765
+        "lambda_k": 6.32,
+        "p_over": 0.4452,
+        "p_under": 0.5548
+      },
+      {
+        "pitcher_name": "Hunter Greene",
+        "team": "Cincinnati Reds",
+        "opponent": "Chicago Cubs",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 6.12,
+        "p_over": 0.4131,
+        "p_under": 0.5869
       },
       {
         "pitcher_name": "Shota Imanaga",
@@ -720,9 +730,9 @@
         "opponent": "Cincinnati Reds",
         "venue": "Great American Ball Park",
         "line": 6.5,
-        "lambda_k": 6.1,
-        "p_over": 0.4097,
-        "p_under": 0.5903
+        "lambda_k": 6.08,
+        "p_over": 0.4057,
+        "p_under": 0.5943
       },
       {
         "pitcher_name": "Nolan McLean",
@@ -730,9 +740,9 @@
         "opponent": "Boston Red Sox",
         "venue": "Citi Field",
         "line": 6.5,
-        "lambda_k": 5.98,
-        "p_over": 0.3907,
-        "p_under": 0.6093
+        "lambda_k": 6.03,
+        "p_over": 0.3983,
+        "p_under": 0.6017
       },
       {
         "pitcher_name": "Braxton Ashcraft",
@@ -750,19 +760,9 @@
         "opponent": "St. Louis Cardinals",
         "venue": "Busch Stadium",
         "line": 6.5,
-        "lambda_k": 5.67,
-        "p_over": 0.3413,
-        "p_under": 0.6587
-      },
-      {
-        "pitcher_name": "Zebby Matthews",
-        "team": "Minnesota Twins",
-        "opponent": "Los Angeles Angels",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 5.57,
-        "p_over": 0.3253,
-        "p_under": 0.6747
+        "lambda_k": 5.71,
+        "p_over": 0.3467,
+        "p_under": 0.6533
       },
       {
         "pitcher_name": "Jack Flaherty",
@@ -775,24 +775,14 @@
         "p_under": 0.6801
       },
       {
-        "pitcher_name": "Hunter Greene",
-        "team": "Cincinnati Reds",
-        "opponent": "Chicago Cubs",
-        "venue": "Great American Ball Park",
+        "pitcher_name": "Zebby Matthews",
+        "team": "Minnesota Twins",
+        "opponent": "Los Angeles Angels",
+        "venue": "Target Field",
         "line": 6.5,
         "lambda_k": 5.42,
-        "p_over": 0.3012,
-        "p_under": 0.6988
-      },
-      {
-        "pitcher_name": "Ryan Weathers",
-        "team": "New York Yankees",
-        "opponent": "Washington Nationals",
-        "venue": "Nationals Park",
-        "line": 6.5,
-        "lambda_k": 5.41,
-        "p_over": 0.2998,
-        "p_under": 0.7002
+        "p_over": 0.3015,
+        "p_under": 0.6985
       },
       {
         "pitcher_name": "Brandon Sproat",
@@ -803,6 +793,16 @@
         "lambda_k": 5.38,
         "p_over": 0.2953,
         "p_under": 0.7047
+      },
+      {
+        "pitcher_name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "opponent": "Miami Marlins",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 5.38,
+        "p_over": 0.2947,
+        "p_under": 0.7053
       }
     ],
     "calibration": [
