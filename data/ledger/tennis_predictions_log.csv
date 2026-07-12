@@ -1,42 +1,42 @@
 date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,game_win_prob_a,game_total_expected,game_total_over_p,game_total_under_p,p_a_2_0,p_a_2_1,p_b_2_0,p_b_2_1,sets_2,sets_3,winner,graded
-2026-07-12,atp,Wimbledon,Final,Alexander Zverev,Jannik Sinner,1607.9,1675.8,0.4035,0.5965,0.4035,22.2,0.0,1.0,0.062,0.084,0.578,0.276,0.59,0.41,,False
-2026-07-02,wta,Wimbledon,Round 2,Iga Swiatek,Karolina Pliskova,1500.0,1500.0,0.5,0.5,0.5,24.3,0.004,0.996,0.304,0.19,0.308,0.198,0.526,0.474,Iga Swiatek,True
-2026-07-02,wta,Wimbledon,Round 2,Marta Kostyuk,Anna Blinkova,1500.0,1500.0,0.5,0.5,0.5,24.4,0.002,0.998,0.27,0.268,0.228,0.234,0.508,0.492,Marta Kostyuk,True
-2026-07-02,wta,Wimbledon,Round 2,Amanda Anisimova,Sofia Kenin,1500.0,1500.0,0.5,0.5,0.5,23.9,0.0,1.0,0.25,0.242,0.252,0.256,0.522,0.478,Amanda Anisimova,True
-2026-07-02,wta,Wimbledon,Round 2,Maria Sakkari,Kamilla Rakhimova,1500.0,1500.0,0.5,0.5,0.5,24.1,0.004,0.996,0.254,0.242,0.262,0.242,0.496,0.504,Maria Sakkari,True
-2026-07-02,wta,Wimbledon,Round 2,Elise Mertens,Maria Timofeeva,1500.0,1500.0,0.5,0.5,0.5,23.9,0.0,1.0,0.252,0.234,0.284,0.23,0.508,0.492,Elise Mertens,True
-2026-07-02,wta,Wimbledon,Round 2,Jasmine Paolini,Viktorija Golubic,1500.0,1500.0,0.5,0.5,0.5,24.1,0.002,0.998,0.282,0.246,0.252,0.22,0.484,0.516,Jasmine Paolini,True
-2026-07-02,wta,Wimbledon,Round 2,Sorana Cirstea,Kimberly Birrell,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.284,0.214,0.266,0.236,0.526,0.474,Sorana Cirstea,True
-2026-07-02,wta,Wimbledon,Round 2,Elena Rybakina,Catherine McNally,1500.0,1500.0,0.5,0.5,0.5,24.4,0.006,0.994,0.224,0.278,0.26,0.238,0.474,0.526,Elena Rybakina,True
-2026-07-02,wta,Wimbledon,Round 2,Linda Noskova,Camila Osorio,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.24,0.244,0.256,0.26,0.45,0.55,Linda Noskova,True
-2026-07-03,wta,Wimbledon,Round 3,Belinda Bencic,Anna Kalinskaya,1500.0,1500.0,0.5,0.5,0.5,24.8,0.0,1.0,0.246,0.23,0.246,0.278,0.49,0.51,Belinda Bencic,True
-2026-07-03,wta,Wimbledon,Round 3,Naomi Osaka,Daria Kasatkina,1500.0,1500.0,0.5,0.5,0.5,24.6,0.0,1.0,0.276,0.236,0.234,0.254,0.48,0.52,Naomi Osaka,True
-2026-07-03,wta,Wimbledon,Round 3,Iva Jovic,Ekaterina Alexandrova,1500.0,1500.0,0.5,0.5,0.5,24.1,0.002,0.998,0.274,0.214,0.266,0.246,0.492,0.508,Iva Jovic,True
-2026-07-03,wta,Wimbledon,Round 3,Jessica Pegula,Jessica Bouzas Maneiro,1500.0,1500.0,0.5,0.5,0.5,24.1,0.0,1.0,0.256,0.238,0.252,0.254,0.522,0.478,Jessica Pegula,True
-2026-07-03,wta,Wimbledon,Round 3,Barbora Krejcikova,Nikola Bartunkova,1500.0,1500.0,0.5,0.5,0.5,24.4,0.0,1.0,0.242,0.22,0.276,0.262,0.532,0.468,Barbora Krejcikova,True
-2026-07-03,wta,Wimbledon,Round 3,Aryna Sabalenka,Jelena Ostapenko,1500.0,1500.0,0.5,0.5,0.5,24.3,0.002,0.998,0.226,0.26,0.288,0.226,0.498,0.502,Aryna Sabalenka,True
-2026-07-03,wta,Wimbledon,Round 3,Coco Gauff,Claire Liu,1500.0,1500.0,0.5,0.5,0.5,23.6,0.0,1.0,0.28,0.24,0.216,0.264,0.476,0.524,Coco Gauff,True
-2026-07-03,wta,Wimbledon,Round 3,Karolina Muchova,Mananchaya Sawangkaew,1500.0,1500.0,0.5,0.5,0.5,23.9,0.002,0.998,0.224,0.25,0.292,0.234,0.492,0.508,Karolina Muchova,True
-2026-07-04,wta,Wimbledon,Round 3,Marta Kostyuk,Emma Navarro,1500.0,1500.0,0.5,0.5,0.5,24.1,0.0,1.0,0.266,0.258,0.222,0.254,0.494,0.506,Marta Kostyuk,True
-2026-07-04,wta,Wimbledon,Round 3,Marie Bouzkova,Liudmila Samsonova,1500.0,1500.0,0.5,0.5,0.5,23.8,0.002,0.998,0.226,0.24,0.262,0.272,0.516,0.484,Marie Bouzkova,True
-2026-07-04,wta,Wimbledon,Round 3,Ashlyn Krueger,Daria Snigur,1500.0,1500.0,0.5,0.5,0.5,24.5,0.002,0.998,0.244,0.262,0.238,0.256,0.498,0.502,Ashlyn Krueger,True
-2026-07-04,wta,Wimbledon,Round 3,Elise Mertens,Elena Rybakina,1500.0,1500.0,0.5,0.5,0.5,24.9,0.002,0.998,0.29,0.244,0.236,0.23,0.532,0.468,Elise Mertens,True
-2026-07-04,wta,Wimbledon,Round 3,Alexandra Eala,Iga Swiatek,1500.0,1500.0,0.5,0.5,0.5,24.2,0.0,1.0,0.254,0.272,0.228,0.246,0.466,0.534,Alexandra Eala,True
-2026-07-04,wta,Wimbledon,Round 3,Jasmine Paolini,Maria Sakkari,1500.0,1500.0,0.5,0.5,0.5,24.5,0.002,0.998,0.28,0.258,0.226,0.236,0.492,0.508,Jasmine Paolini,True
-2026-07-04,wta,Wimbledon,Round 3,Linda Noskova,Sorana Cirstea,1500.0,1500.0,0.5,0.5,0.5,24.2,0.002,0.998,0.208,0.262,0.274,0.256,0.506,0.494,Linda Noskova,True
-2026-07-04,wta,Wimbledon,Round 3,Madison Keys,Amanda Anisimova,1500.0,1500.0,0.5,0.5,0.5,23.9,0.0,1.0,0.262,0.244,0.266,0.228,0.532,0.468,Madison Keys,True
-2026-07-05,wta,Wimbledon,Round 4,Jessica Pegula,Iva Jovic,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.258,0.22,0.278,0.244,0.486,0.514,Jessica Pegula,True
-2026-07-05,wta,Wimbledon,Round 4,Karolina Muchova,Barbora Krejcikova,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.24,0.28,0.248,0.232,0.488,0.512,Karolina Muchova,True
-2026-07-05,wta,Wimbledon,Round 4,Naomi Osaka,Aryna Sabalenka,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.25,0.282,0.218,0.25,0.488,0.512,Naomi Osaka,True
-2026-07-05,wta,Wimbledon,Round 4,Coco Gauff,Belinda Bencic,1500.0,1500.0,0.5,0.5,0.5,24.2,0.002,0.998,0.242,0.234,0.27,0.254,0.492,0.508,Coco Gauff,True
-2026-07-06,wta,Wimbledon,Round 4,Marta Kostyuk,Ashlyn Krueger,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.256,0.212,0.222,0.31,0.468,0.532,Marta Kostyuk,True
-2026-07-06,wta,Wimbledon,Round 4,Elise Mertens,Marie Bouzkova,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.244,0.234,0.25,0.272,0.51,0.49,Elise Mertens,True
-2026-07-06,wta,Wimbledon,Round 4,Jasmine Paolini,Alexandra Eala,1500.0,1500.0,0.5,0.5,0.5,24.2,0.0,1.0,0.268,0.268,0.236,0.228,0.518,0.482,Jasmine Paolini,True
-2026-07-06,wta,Wimbledon,Round 4,Linda Noskova,Madison Keys,1500.0,1500.0,0.5,0.5,0.5,23.8,0.002,0.998,0.288,0.244,0.218,0.25,0.504,0.496,Linda Noskova,True
-2026-07-07,wta,Wimbledon,Quarterfinal,Coco Gauff,Jessica Pegula,1500.0,1500.0,0.5,0.5,0.5,23.7,0.002,0.998,0.286,0.242,0.23,0.242,0.486,0.514,Coco Gauff,True
-2026-07-07,wta,Wimbledon,Quarterfinal,Karolina Muchova,Naomi Osaka,1500.0,1500.0,0.5,0.5,0.5,24.1,0.0,1.0,0.252,0.212,0.294,0.242,0.478,0.522,Karolina Muchova,True
-2026-07-08,wta,Wimbledon,Quarterfinal,Linda Noskova,Elise Mertens,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.236,0.238,0.268,0.258,0.486,0.514,Linda Noskova,True
-2026-07-08,wta,Wimbledon,Quarterfinal,Marta Kostyuk,Jasmine Paolini,1500.0,1500.0,0.5,0.5,0.5,24.0,0.002,0.998,0.23,0.248,0.25,0.272,0.486,0.514,Marta Kostyuk,True
-2026-07-09,wta,Wimbledon,Semifinal,Karolina Muchova,Coco Gauff,1500.0,1500.0,0.5,0.5,0.5,24.6,0.0,1.0,0.26,0.256,0.24,0.244,0.488,0.512,Karolina Muchova,True
-2026-07-09,wta,Wimbledon,Semifinal,Linda Noskova,Marta Kostyuk,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.26,0.262,0.246,0.232,0.524,0.476,Linda Noskova,True
-2026-07-11,wta,Wimbledon,Final,Linda Noskova,Karolina Muchova,1500.0,1500.0,0.5,0.5,0.5,24.2,0.0,1.0,0.256,0.252,0.248,0.244,0.494,0.506,Linda Noskova,True
+2026-07-12,atp,Wimbledon,Final,Alexander Zverev,Jannik Sinner,1607.9,1675.8,0.4035,0.5965,0.4035,22.6,0.0,1.0,0.068,0.092,0.554,0.286,0.614,0.386,,False
+2026-07-02,wta,Wimbledon,Round 2,Iga Swiatek,Karolina Pliskova,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.216,0.246,0.28,0.258,0.5,0.5,Iga Swiatek,True
+2026-07-02,wta,Wimbledon,Round 2,Marta Kostyuk,Anna Blinkova,1500.0,1500.0,0.5,0.5,0.5,24.6,0.002,0.998,0.198,0.28,0.266,0.256,0.44,0.56,Marta Kostyuk,True
+2026-07-02,wta,Wimbledon,Round 2,Amanda Anisimova,Sofia Kenin,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.238,0.238,0.282,0.242,0.494,0.506,Amanda Anisimova,True
+2026-07-02,wta,Wimbledon,Round 2,Maria Sakkari,Kamilla Rakhimova,1500.0,1500.0,0.5,0.5,0.5,24.6,0.0,1.0,0.212,0.258,0.274,0.256,0.488,0.512,Maria Sakkari,True
+2026-07-02,wta,Wimbledon,Round 2,Elise Mertens,Maria Timofeeva,1500.0,1500.0,0.5,0.5,0.5,23.9,0.0,1.0,0.244,0.246,0.254,0.256,0.486,0.514,Elise Mertens,True
+2026-07-02,wta,Wimbledon,Round 2,Jasmine Paolini,Viktorija Golubic,1500.0,1500.0,0.5,0.5,0.5,24.2,0.002,0.998,0.268,0.232,0.262,0.238,0.498,0.502,Jasmine Paolini,True
+2026-07-02,wta,Wimbledon,Round 2,Sorana Cirstea,Kimberly Birrell,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.274,0.228,0.242,0.256,0.508,0.492,Sorana Cirstea,True
+2026-07-02,wta,Wimbledon,Round 2,Elena Rybakina,Catherine McNally,1500.0,1500.0,0.5,0.5,0.5,24.5,0.004,0.996,0.234,0.274,0.258,0.234,0.516,0.484,Elena Rybakina,True
+2026-07-02,wta,Wimbledon,Round 2,Linda Noskova,Camila Osorio,1500.0,1500.0,0.5,0.5,0.5,24.1,0.002,0.998,0.232,0.256,0.234,0.278,0.516,0.484,Linda Noskova,True
+2026-07-03,wta,Wimbledon,Round 3,Belinda Bencic,Anna Kalinskaya,1500.0,1500.0,0.5,0.5,0.5,24.8,0.002,0.998,0.222,0.274,0.258,0.246,0.544,0.456,Belinda Bencic,True
+2026-07-03,wta,Wimbledon,Round 3,Naomi Osaka,Daria Kasatkina,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.238,0.268,0.242,0.252,0.508,0.492,Naomi Osaka,True
+2026-07-03,wta,Wimbledon,Round 3,Iva Jovic,Ekaterina Alexandrova,1500.0,1500.0,0.5,0.5,0.5,23.9,0.002,0.998,0.264,0.228,0.24,0.268,0.502,0.498,Iva Jovic,True
+2026-07-03,wta,Wimbledon,Round 3,Jessica Pegula,Jessica Bouzas Maneiro,1500.0,1500.0,0.5,0.5,0.5,24.4,0.0,1.0,0.268,0.248,0.224,0.26,0.506,0.494,Jessica Pegula,True
+2026-07-03,wta,Wimbledon,Round 3,Barbora Krejcikova,Nikola Bartunkova,1500.0,1500.0,0.5,0.5,0.5,23.8,0.002,0.998,0.232,0.23,0.296,0.242,0.516,0.484,Barbora Krejcikova,True
+2026-07-03,wta,Wimbledon,Round 3,Aryna Sabalenka,Jelena Ostapenko,1500.0,1500.0,0.5,0.5,0.5,24.5,0.002,0.998,0.266,0.244,0.23,0.26,0.518,0.482,Aryna Sabalenka,True
+2026-07-03,wta,Wimbledon,Round 3,Coco Gauff,Claire Liu,1500.0,1500.0,0.5,0.5,0.5,23.9,0.0,1.0,0.23,0.246,0.27,0.254,0.49,0.51,Coco Gauff,True
+2026-07-03,wta,Wimbledon,Round 3,Karolina Muchova,Mananchaya Sawangkaew,1500.0,1500.0,0.5,0.5,0.5,24.8,0.0,1.0,0.218,0.266,0.258,0.258,0.476,0.524,Karolina Muchova,True
+2026-07-04,wta,Wimbledon,Round 3,Marta Kostyuk,Emma Navarro,1500.0,1500.0,0.5,0.5,0.5,23.7,0.002,0.998,0.274,0.212,0.25,0.264,0.526,0.474,Marta Kostyuk,True
+2026-07-04,wta,Wimbledon,Round 3,Marie Bouzkova,Liudmila Samsonova,1500.0,1500.0,0.5,0.5,0.5,24.4,0.002,0.998,0.234,0.258,0.274,0.234,0.516,0.484,Marie Bouzkova,True
+2026-07-04,wta,Wimbledon,Round 3,Ashlyn Krueger,Daria Snigur,1500.0,1500.0,0.5,0.5,0.5,23.9,0.0,1.0,0.272,0.234,0.246,0.248,0.514,0.486,Ashlyn Krueger,True
+2026-07-04,wta,Wimbledon,Round 3,Elise Mertens,Elena Rybakina,1500.0,1500.0,0.5,0.5,0.5,24.2,0.0,1.0,0.244,0.232,0.26,0.264,0.468,0.532,Elise Mertens,True
+2026-07-04,wta,Wimbledon,Round 3,Alexandra Eala,Iga Swiatek,1500.0,1500.0,0.5,0.5,0.5,24.1,0.002,0.998,0.226,0.232,0.272,0.27,0.472,0.528,Alexandra Eala,True
+2026-07-04,wta,Wimbledon,Round 3,Jasmine Paolini,Maria Sakkari,1500.0,1500.0,0.5,0.5,0.5,24.5,0.004,0.996,0.2,0.288,0.258,0.254,0.48,0.52,Jasmine Paolini,True
+2026-07-04,wta,Wimbledon,Round 3,Linda Noskova,Sorana Cirstea,1500.0,1500.0,0.5,0.5,0.5,24.1,0.0,1.0,0.268,0.24,0.222,0.27,0.476,0.524,Linda Noskova,True
+2026-07-04,wta,Wimbledon,Round 3,Madison Keys,Amanda Anisimova,1500.0,1500.0,0.5,0.5,0.5,24.1,0.002,0.998,0.238,0.252,0.266,0.244,0.494,0.506,Madison Keys,True
+2026-07-05,wta,Wimbledon,Round 4,Jessica Pegula,Iva Jovic,1500.0,1500.0,0.5,0.5,0.5,24.0,0.002,0.998,0.268,0.224,0.242,0.266,0.49,0.51,Jessica Pegula,True
+2026-07-05,wta,Wimbledon,Round 4,Karolina Muchova,Barbora Krejcikova,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.26,0.276,0.24,0.224,0.494,0.506,Karolina Muchova,True
+2026-07-05,wta,Wimbledon,Round 4,Naomi Osaka,Aryna Sabalenka,1500.0,1500.0,0.5,0.5,0.5,24.5,0.002,0.998,0.25,0.246,0.242,0.262,0.522,0.478,Naomi Osaka,True
+2026-07-05,wta,Wimbledon,Round 4,Coco Gauff,Belinda Bencic,1500.0,1500.0,0.5,0.5,0.5,24.2,0.0,1.0,0.246,0.29,0.216,0.248,0.462,0.538,Coco Gauff,True
+2026-07-06,wta,Wimbledon,Round 4,Marta Kostyuk,Ashlyn Krueger,1500.0,1500.0,0.5,0.5,0.5,24.2,0.0,1.0,0.254,0.238,0.258,0.25,0.452,0.548,Marta Kostyuk,True
+2026-07-06,wta,Wimbledon,Round 4,Elise Mertens,Marie Bouzkova,1500.0,1500.0,0.5,0.5,0.5,24.4,0.0,1.0,0.248,0.27,0.218,0.264,0.516,0.484,Elise Mertens,True
+2026-07-06,wta,Wimbledon,Round 4,Jasmine Paolini,Alexandra Eala,1500.0,1500.0,0.5,0.5,0.5,23.9,0.002,0.998,0.266,0.252,0.232,0.25,0.458,0.542,Jasmine Paolini,True
+2026-07-06,wta,Wimbledon,Round 4,Linda Noskova,Madison Keys,1500.0,1500.0,0.5,0.5,0.5,24.5,0.0,1.0,0.276,0.232,0.282,0.21,0.51,0.49,Linda Noskova,True
+2026-07-07,wta,Wimbledon,Quarterfinal,Coco Gauff,Jessica Pegula,1500.0,1500.0,0.5,0.5,0.5,23.6,0.0,1.0,0.252,0.24,0.246,0.262,0.474,0.526,Coco Gauff,True
+2026-07-07,wta,Wimbledon,Quarterfinal,Karolina Muchova,Naomi Osaka,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.248,0.268,0.246,0.238,0.49,0.51,Karolina Muchova,True
+2026-07-08,wta,Wimbledon,Quarterfinal,Linda Noskova,Elise Mertens,1500.0,1500.0,0.5,0.5,0.5,24.2,0.002,0.998,0.252,0.236,0.246,0.266,0.53,0.47,Linda Noskova,True
+2026-07-08,wta,Wimbledon,Quarterfinal,Marta Kostyuk,Jasmine Paolini,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.234,0.238,0.244,0.284,0.508,0.492,Marta Kostyuk,True
+2026-07-09,wta,Wimbledon,Semifinal,Karolina Muchova,Coco Gauff,1500.0,1500.0,0.5,0.5,0.5,24.3,0.002,0.998,0.226,0.266,0.246,0.262,0.476,0.524,Karolina Muchova,True
+2026-07-09,wta,Wimbledon,Semifinal,Linda Noskova,Marta Kostyuk,1500.0,1500.0,0.5,0.5,0.5,24.2,0.0,1.0,0.282,0.26,0.222,0.236,0.502,0.498,Linda Noskova,True
+2026-07-11,wta,Wimbledon,Final,Linda Noskova,Karolina Muchova,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.248,0.256,0.262,0.234,0.46,0.54,Linda Noskova,True
