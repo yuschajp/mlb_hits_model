@@ -63,6 +63,7 @@ run_step "Run K"               "scripts/run_daily_k.py"        "run_k.log"
 run_step "Run WC matches"      "scripts/run_daily_wc.py"       "run_wc.log"
 run_step "Run WC goalscorers"  "scripts/run_daily_wc_gs.py"    "run_wc_gs.log"
 run_step "Run tennis"          "scripts/run_daily_tennis.py"   "run_tennis.log"
+run_step "Find tennis value"   "scripts/find_value_tennis.py"  "find_value_tennis.log"
 
 # ── 3. Commit ledger updates ───────────────────────────────────────────────
 # The grading/prediction steps above modify data/ledger/*.csv every run.

@@ -153,3 +153,28 @@ def predict_match(player_a, player_b, overall_elo, surface_elo, surface_matches)
         "p_a_wins": p_a,
         "p_b_wins": p_b,
     }
+
+
+def predict_match_with_props(player_a, player_b, overall_elo, surface_elo, surface_matches, 
+                              best_of=3, num_sims=1000):
+    """
+    Full pipeline: blended Elo → match winner + prop predictions.
+    
+    best_of: 3 (standard) or 5 (finals)
+    num_sims: Monte Carlo simulations for prop modeling
+    
+    Returns dict with match prediction + all props (game total O/U, set scores, etc).
+    """
+    from . import prop_models
+    
+    elo_a = blended_elo(player_a, overall_elo, surface_elo, surface_matches)
+    elo_b = blended_elo(player_b, overall_elo, surface_elo, surface_matches)
+
+    base_pred = predict_match(player_a, player_b, overall_elo, surface_elo, surface_matches)
+    props = prop_models.predict_props(player_a, player_b, elo_a, elo_b, 
+                                       best_of=best_of, num_sims=num_sims)
+    
+    return {
+        **base_pred,
+        "props": props,
+    }
