@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-12",
   "hits": {
-    "today_count": 108,
+    "today_count": 125,
     "total_graded": 3969,
     "since_date": "2026-06-20",
     "brier_score": 0.2355,
@@ -382,7 +382,7 @@
     ]
   },
   "hr": {
-    "today_count": 108,
+    "today_count": 125,
     "total_graded": 3816,
     "since_date": "2026-06-21",
     "brier_score": 0.1107,
@@ -744,12 +744,12 @@
     ]
   },
   "k": {
-    "today_count": 14,
+    "today_count": 16,
     "total_graded": 342,
     "since_date": "2026-06-27",
     "brier_score": 0.1576,
     "naive_brier": 0.25,
-    "avg_lambda": 5.34,
+    "avg_lambda": 5.33,
     "over_rate": 0.243,
     "top10_today": [
       {
@@ -823,6 +823,26 @@
         "p_under": 0.6906
       },
       {
+        "pitcher_name": "Zach Thornton",
+        "team": "New York Mets",
+        "opponent": "Boston Red Sox",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 5.3,
+        "p_over": 0.2825,
+        "p_under": 0.7175
+      },
+      {
+        "pitcher_name": "Payton Tolle",
+        "team": "Boston Red Sox",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 5.21,
+        "p_over": 0.2696,
+        "p_under": 0.7304
+      },
+      {
         "pitcher_name": "Joey Cantillo",
         "team": "Cleveland Guardians",
         "opponent": "Miami Marlins",
@@ -831,26 +851,6 @@
         "lambda_k": 5.03,
         "p_over": 0.2427,
         "p_under": 0.7573
-      },
-      {
-        "pitcher_name": "Seth Lugo",
-        "team": "Kansas City Royals",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 4.92,
-        "p_over": 0.2258,
-        "p_under": 0.7742
-      },
-      {
-        "pitcher_name": "Will Warren",
-        "team": "New York Yankees",
-        "opponent": "Washington Nationals",
-        "venue": "Nationals Park",
-        "line": 6.5,
-        "lambda_k": 4.79,
-        "p_over": 0.2075,
-        "p_under": 0.7925
       }
     ],
     "calibration": [
