@@ -1,108 +1,108 @@
 {
-  "generated_at": "2026-07-11",
+  "generated_at": "2026-07-12",
   "hits": {
-    "today_count": 216,
-    "total_graded": 3753,
+    "today_count": 18,
+    "total_graded": 3969,
     "since_date": "2026-06-20",
-    "brier_score": 0.2358,
-    "recent_brier_score": 0.2351,
+    "brier_score": 0.2355,
+    "recent_brier_score": 0.2355,
     "naive_brier": 0.235,
-    "avg_predicted": 0.6259,
-    "actual_hit_rate": 0.6112,
+    "avg_predicted": 0.625,
+    "actual_hit_rate": 0.6115,
     "top10_today": [
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Nick Lodolo",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hit": 0.769
-      },
-      {
-        "player_name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
-        "lineup_spot": 1,
-        "p_hit": 0.7325
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Kumar Rocker",
-        "venue": "Globe Life Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7316
-      },
-      {
-        "player_name": "Seiya Suzuki",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Nick Lodolo",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hit": 0.7312
-      },
-      {
-        "player_name": "Trevor Larnach",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Ryan Johnson",
-        "venue": "Target Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7283
-      },
-      {
-        "player_name": "Jeremy Pe\u00f1a",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Kumar Rocker",
-        "venue": "Globe Life Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7187
-      },
-      {
-        "player_name": "Ozzie Albies",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.7022
-      },
       {
         "player_name": "Jake Mangum",
         "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
+        "opponent_pitcher": "Robert Gasser",
         "venue": "PNC Park",
         "lineup_spot": 1,
-        "p_hit": 0.7001
+        "p_hit": 0.6822
       },
       {
-        "player_name": "Carson Kelly",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Nick Lodolo",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6986
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
         "lineup_spot": 3,
-        "p_hit": 0.6941
+        "p_hit": 0.6583
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
+        "lineup_spot": 4,
+        "p_hit": 0.6498
+      },
+      {
+        "player_name": "Nick Gonzales",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
+        "lineup_spot": 6,
+        "p_hit": 0.6347
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Paul Skenes",
+        "venue": "PNC Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6271
+      },
+      {
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Paul Skenes",
+        "venue": "PNC Park",
+        "lineup_spot": 3,
+        "p_hit": 0.6211
+      },
+      {
+        "player_name": "Ryan O'Hearn",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
+        "lineup_spot": 5,
+        "p_hit": 0.6203
+      },
+      {
+        "player_name": "Brandon Lowe",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6175
+      },
+      {
+        "player_name": "Garrett Mitchell",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Paul Skenes",
+        "venue": "PNC Park",
+        "lineup_spot": 6,
+        "p_hit": 0.6077
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Paul Skenes",
+        "venue": "PNC Park",
+        "lineup_spot": 4,
+        "p_hit": 0.6025
       }
     ],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 1241,
+        "n": 1330,
         "predicted": 0.562,
-        "actual": 0.571
+        "actual": 0.568
       },
       {
         "range": "0.6-0.8",
-        "n": 2484,
+        "n": 2611,
         "predicted": 0.655,
-        "actual": 0.63
+        "actual": 0.632
       },
       {
         "range": "0.8-1.0",
@@ -255,9 +255,16 @@
       {
         "date": "2026-07-10",
         "n_bets": 170,
-        "n_wins": 111,
-        "daily_pnl": 41.909,
-        "cumulative_pnl": 514.727
+        "n_wins": 119,
+        "daily_pnl": 57.182,
+        "cumulative_pnl": 530.0
+      },
+      {
+        "date": "2026-07-11",
+        "n_bets": 127,
+        "n_wins": 78,
+        "daily_pnl": 21.909,
+        "cumulative_pnl": 551.909
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -364,113 +371,118 @@
       },
       {
         "date": "2026-07-10",
-        "brier": 0.2351,
+        "brier": 0.2334,
         "n": 1727
+      },
+      {
+        "date": "2026-07-11",
+        "brier": 0.2355,
+        "n": 1673
       }
     ]
   },
   "hr": {
-    "today_count": 234,
-    "total_graded": 3582,
+    "today_count": 18,
+    "total_graded": 3816,
     "since_date": "2026-06-21",
-    "brier_score": 0.1106,
+    "brier_score": 0.1107,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1242,
+    "avg_predicted": 0.1241,
     "actual_hr_rate": 0.1287,
     "top10_today": [
       {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Logan Gilbert",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2269
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Nick Lodolo",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2191
-      },
-      {
-        "player_name": "Sal Stewart",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Javier Assad",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2179
-      },
-      {
-        "player_name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Brandon Pfaadt",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.2177
-      },
-      {
-        "player_name": "JJ Bleday",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Javier Assad",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2138
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Kumar Rocker",
-        "venue": "Globe Life Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2097
-      },
-      {
-        "player_name": "Dominic Canzone",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Griffin Jax",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2093
-      },
-      {
-        "player_name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Javier Assad",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.202
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1944
       },
       {
         "player_name": "Brandon Lowe",
         "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Brandon Sproat",
+        "opponent_pitcher": "Robert Gasser",
         "venue": "PNC Park",
         "lineup_spot": 2,
-        "p_hr": 0.1987
+        "p_hr": 0.1694
       },
       {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
         "lineup_spot": 3,
-        "p_hr": 0.1966
+        "p_hr": 0.1621
+      },
+      {
+        "player_name": "Ryan O'Hearn",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1567
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Paul Skenes",
+        "venue": "PNC Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1453
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Paul Skenes",
+        "venue": "PNC Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1371
+      },
+      {
+        "player_name": "Marcell Ozuna",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
+        "lineup_spot": 7,
+        "p_hr": 0.1284
+      },
+      {
+        "player_name": "Henry Davis",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "PNC Park",
+        "lineup_spot": 9,
+        "p_hr": 0.125
+      },
+      {
+        "player_name": "Gary S\u00e1nchez",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Paul Skenes",
+        "venue": "PNC Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1159
+      },
+      {
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Paul Skenes",
+        "venue": "PNC Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1126
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 3447,
+        "n": 3673,
         "predicted": 0.12,
         "actual": 0.122
       },
       {
         "range": "0.2-0.4",
-        "n": 135,
+        "n": 143,
         "predicted": 0.226,
-        "actual": 0.296
+        "actual": 0.294
       }
     ],
     "returns": [
@@ -610,9 +622,16 @@
       {
         "date": "2026-07-10",
         "n_bets": 57,
-        "n_wins": 15,
-        "daily_pnl": 10.5,
-        "cumulative_pnl": -134.5
+        "n_wins": 16,
+        "daily_pnl": 15.0,
+        "cumulative_pnl": -130.0
+      },
+      {
+        "date": "2026-07-11",
+        "n_bets": 48,
+        "n_wins": 6,
+        "daily_pnl": -21.0,
+        "cumulative_pnl": -151.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -714,139 +733,104 @@
       },
       {
         "date": "2026-07-10",
-        "brier": 0.1136,
+        "brier": 0.115,
         "n": 1655
+      },
+      {
+        "date": "2026-07-11",
+        "brier": 0.1112,
+        "n": 1619
       }
     ]
   },
   "k": {
-    "today_count": 28,
-    "total_graded": 314,
+    "today_count": 6,
+    "total_graded": 342,
     "since_date": "2026-06-27",
-    "brier_score": 0.1586,
+    "brier_score": 0.1576,
     "naive_brier": 0.25,
-    "avg_lambda": 5.04,
-    "over_rate": 0.248,
+    "avg_lambda": 5.59,
+    "over_rate": 0.243,
     "top10_today": [
       {
-        "pitcher_name": "Joe Ryan",
-        "team": "Minnesota Twins",
-        "opponent": "Los Angeles Angels",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 6.86,
-        "p_over": 0.5297,
-        "p_under": 0.4703
-      },
-      {
-        "pitcher_name": "Cristopher S\u00e1nchez",
-        "team": "Philadelphia Phillies",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 6.48,
-        "p_over": 0.4703,
-        "p_under": 0.5297
-      },
-      {
-        "pitcher_name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "opponent": "Washington Nationals",
-        "venue": "Nationals Park",
-        "line": 6.5,
-        "lambda_k": 6.24,
-        "p_over": 0.432,
-        "p_under": 0.568
-      },
-      {
-        "pitcher_name": "Braxton Ashcraft",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Milwaukee Brewers",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.82,
-        "p_over": 0.3644,
-        "p_under": 0.6356
-      },
-      {
-        "pitcher_name": "Gage Jump",
-        "team": "Athletics",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.56,
-        "p_over": 0.3237,
-        "p_under": 0.6763
-      },
-      {
-        "pitcher_name": "Casey Mize",
+        "pitcher_name": "Tarik Skubal",
         "team": "Detroit Tigers",
         "opponent": "Philadelphia Phillies",
         "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 5.52,
-        "p_over": 0.3175,
-        "p_under": 0.6825
+        "lambda_k": 6.83,
+        "p_over": 0.525,
+        "p_under": 0.475
       },
       {
-        "pitcher_name": "Eury P\u00e9rez",
-        "team": "Miami Marlins",
-        "opponent": "Cleveland Guardians",
-        "venue": "loanDepot park",
-        "line": 6.5,
-        "lambda_k": 5.52,
-        "p_over": 0.3169,
-        "p_under": 0.6831
-      },
-      {
-        "pitcher_name": "Brandon Sproat",
-        "team": "Milwaukee Brewers",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.42,
-        "p_over": 0.302,
-        "p_under": 0.698
-      },
-      {
-        "pitcher_name": "Peter Lambert",
-        "team": "Houston Astros",
-        "opponent": "Texas Rangers",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 5.22,
-        "p_over": 0.2715,
-        "p_under": 0.7285
-      },
-      {
-        "pitcher_name": "Griffin Jax",
+        "pitcher_name": "Ian Seymour",
         "team": "Tampa Bay Rays",
         "opponent": "Seattle Mariners",
         "venue": "Tropicana Field",
         "line": 6.5,
-        "lambda_k": 5.18,
-        "p_over": 0.2639,
-        "p_under": 0.7361
+        "lambda_k": 5.9,
+        "p_over": 0.3771,
+        "p_under": 0.6229
+      },
+      {
+        "pitcher_name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Milwaukee Brewers",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.7,
+        "p_over": 0.3459,
+        "p_under": 0.6541
+      },
+      {
+        "pitcher_name": "Robert Gasser",
+        "team": "Milwaukee Brewers",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.47,
+        "p_over": 0.3094,
+        "p_under": 0.6906
+      },
+      {
+        "pitcher_name": "Seth Lugo",
+        "team": "Kansas City Royals",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 4.92,
+        "p_over": 0.2258,
+        "p_under": 0.7742
+      },
+      {
+        "pitcher_name": "Andrew Abbott",
+        "team": "Cincinnati Reds",
+        "opponent": "Chicago Cubs",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 4.72,
+        "p_over": 0.1978,
+        "p_under": 0.8022
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 119,
+        "n": 129,
         "predicted": 0.14,
-        "actual": 0.092
+        "actual": 0.093
       },
       {
         "range": "0.2-0.4",
-        "n": 154,
+        "n": 169,
         "predicted": 0.278,
-        "actual": 0.266
+        "actual": 0.26
       },
       {
         "range": "0.4-0.6",
-        "n": 38,
+        "n": 41,
         "predicted": 0.474,
-        "actual": 0.605
+        "actual": 0.585
       },
       {
         "range": "0.6-0.8",
@@ -925,43 +909,20 @@
         "date": "2026-07-10",
         "brier": 0.154,
         "n": 185
+      },
+      {
+        "date": "2026-07-11",
+        "brier": 0.146,
+        "n": 183
       }
     ]
   },
   "wc": {
-    "today_count": 3,
-    "total_graded": 26,
-    "brier_home": 0.2109,
+    "today_count": 2,
+    "total_graded": 28,
+    "brier_home": 0.2041,
     "naive_brier": 0.222,
     "matches_today": [
-      {
-        "home_team": "Norway",
-        "away_team": "England",
-        "stage": "Quarter-final",
-        "xg_home": 1.7,
-        "xg_away": 2.31,
-        "p_home": 0.2849,
-        "p_draw": 0.1987,
-        "p_away": 0.5164,
-        "over_2_5": 0.7628,
-        "btts": 0.7357,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Argentina",
-        "away_team": "Switzerland",
-        "stage": "Quarter-final",
-        "xg_home": 1.32,
-        "xg_away": 1.23,
-        "p_home": 0.3888,
-        "p_draw": 0.2669,
-        "p_away": 0.3443,
-        "over_2_5": 0.4674,
-        "btts": 0.5174,
-        "graded": false,
-        "result": null
-      },
       {
         "home_team": "France",
         "away_team": "Spain",
@@ -973,6 +934,20 @@
         "p_away": 0.3085,
         "over_2_5": 0.259,
         "btts": 0.3419,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "W99",
+        "away_team": "W100",
+        "stage": "Semi-final",
+        "xg_home": 1.3,
+        "xg_away": 1.3,
+        "p_home": 0.368,
+        "p_draw": 0.2639,
+        "p_away": 0.368,
+        "over_2_5": 0.4816,
+        "btts": 0.5292,
         "graded": false,
         "result": null
       }
@@ -1027,170 +1002,49 @@
         "date": "2026-07-10",
         "brier": 0.1435,
         "n": 10
+      },
+      {
+        "date": "2026-07-11",
+        "brier": 0.1581,
+        "n": 10
       }
     ]
   },
   "wc_gs": {
-    "today_count": 21,
+    "today_count": 0,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
-    "top15_today": [
-      {
-        "player": "Harry Kane",
-        "team": "England",
-        "opponent": "Norway",
-        "match": "Norway vs England",
-        "tournament_goals": 6,
-        "lambda": 1.44,
-        "p_scores": 0.7631
-      },
-      {
-        "player": "Jude Bellingham",
-        "team": "England",
-        "opponent": "Norway",
-        "match": "Norway vs England",
-        "tournament_goals": 4,
-        "lambda": 1.187,
-        "p_scores": 0.6948
-      },
-      {
-        "player": "Erling Haaland",
-        "team": "Norway",
-        "opponent": "England",
-        "match": "Norway vs England",
-        "tournament_goals": 7,
-        "lambda": 0.923,
-        "p_scores": 0.6027
-      },
-      {
-        "player": "Marcus Rashford",
-        "team": "England",
-        "opponent": "Norway",
-        "match": "Norway vs England",
-        "tournament_goals": 1,
-        "lambda": 0.639,
-        "p_scores": 0.4722
-      },
-      {
-        "player": "Aymen Hussein",
-        "team": "Norway",
-        "opponent": "England",
-        "match": "Norway vs England",
-        "tournament_goals": 2,
-        "lambda": 0.592,
-        "p_scores": 0.4466
-      },
-      {
-        "player": "Lionel Messi",
-        "team": "Argentina",
-        "opponent": "Switzerland",
-        "match": "Argentina vs Switzerland",
-        "tournament_goals": 8,
-        "lambda": 0.586,
-        "p_scores": 0.4436
-      },
-      {
-        "player": "Johan Manzambi",
-        "team": "Switzerland",
-        "opponent": "Argentina",
-        "match": "Argentina vs Switzerland",
-        "tournament_goals": 3,
-        "lambda": 0.507,
-        "p_scores": 0.3976
-      },
-      {
-        "player": "Rub\u00e9n Vargas",
-        "team": "Switzerland",
-        "opponent": "Argentina",
-        "match": "Argentina vs Switzerland",
-        "tournament_goals": 2,
-        "lambda": 0.362,
-        "p_scores": 0.3037
-      },
-      {
-        "player": "Breel Embolo",
-        "team": "Switzerland",
-        "opponent": "Argentina",
-        "match": "Argentina vs Switzerland",
-        "tournament_goals": 2,
-        "lambda": 0.362,
-        "p_scores": 0.3037
-      },
-      {
-        "player": "Antonio Nusa",
-        "team": "Norway",
-        "opponent": "England",
-        "match": "Norway vs England",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Thelo Aasgaard",
-        "team": "Norway",
-        "opponent": "England",
-        "match": "Norway vs England",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Marcus Holmgren Pedersen",
-        "team": "Norway",
-        "opponent": "England",
-        "match": "Norway vs England",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Leo \u00d8stigard",
-        "team": "Norway",
-        "opponent": "England",
-        "match": "Norway vs England",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Granit Xhaka",
-        "team": "Switzerland",
-        "opponent": "Argentina",
-        "match": "Argentina vs Switzerland",
-        "tournament_goals": 1,
-        "lambda": 0.284,
-        "p_scores": 0.2473
-      },
-      {
-        "player": "Dan Ndoye",
-        "team": "Switzerland",
-        "opponent": "Argentina",
-        "match": "Argentina vs Switzerland",
-        "tournament_goals": 1,
-        "lambda": 0.284,
-        "p_scores": 0.2473
-      }
-    ],
+    "top15_today": [],
     "calibration": []
   },
   "tennis": {
-    "today_count": 1,
+    "today_count": 2,
     "total_graded": 133,
     "accuracy": 0.703,
     "no_signal_count": 69,
     "no_signal_rate": 0.519,
     "matches": [
       {
-        "tour": "wta",
+        "tour": "atp",
         "round": "Final",
-        "player_a": "Linda Noskova",
-        "player_b": "Karolina Muchova",
+        "player_a": "TBD",
+        "player_b": "TBD",
         "elo_a": 1500.0,
         "elo_b": 1500.0,
         "p_a_wins": 0.5,
-        "winner": "Linda Noskova"
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Final",
+        "player_a": "Alexander Zverev",
+        "player_b": "Jannik Sinner",
+        "elo_a": 1607.9,
+        "elo_b": 1675.8,
+        "p_a_wins": 0.4035,
+        "winner": null
       }
     ],
     "trend": [
