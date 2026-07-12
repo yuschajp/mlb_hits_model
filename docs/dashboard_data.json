@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-12",
   "hits": {
-    "today_count": 18,
+    "today_count": 108,
     "total_graded": 3969,
     "since_date": "2026-06-20",
     "brier_score": 0.2355,
@@ -11,84 +11,84 @@
     "actual_hit_rate": 0.6115,
     "top10_today": [
       {
-        "player_name": "Jake Mangum",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
         "lineup_spot": 1,
-        "p_hit": 0.6822
+        "p_hit": 0.7448
       },
       {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6583
-      },
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6498
-      },
-      {
-        "player_name": "Nick Gonzales",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
-        "lineup_spot": 6,
-        "p_hit": 0.6347
-      },
-      {
-        "player_name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Paul Skenes",
-        "venue": "PNC Park",
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Nationals Park",
         "lineup_spot": 2,
-        "p_hit": 0.6271
+        "p_hit": 0.7158
       },
       {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Paul Skenes",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6211
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Matthew Boyd",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7154
       },
       {
-        "player_name": "Ryan O'Hearn",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
-        "lineup_spot": 5,
-        "p_hit": 0.6203
-      },
-      {
-        "player_name": "Brandon Lowe",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
+        "player_name": "Seiya Suzuki",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hit": 0.6175
+        "p_hit": 0.7115
       },
       {
-        "player_name": "Garrett Mitchell",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Paul Skenes",
-        "venue": "PNC Park",
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7094
+      },
+      {
+        "player_name": "Otto Lopez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Joey Cantillo",
+        "venue": "loanDepot park",
+        "lineup_spot": 1,
+        "p_hit": 0.7093
+      },
+      {
+        "player_name": "Blaze Alexander",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Seth Lugo",
+        "venue": "Oriole Park at Camden Yards",
         "lineup_spot": 6,
-        "p_hit": 0.6077
+        "p_hit": 0.7072
       },
       {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Paul Skenes",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6025
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Matthew Boyd",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6948
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Cade Cavalli",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hit": 0.6946
+      },
+      {
+        "player_name": "Bobby Witt Jr.",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Shane Baz",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 2,
+        "p_hit": 0.6919
       }
     ],
     "calibration": [
@@ -382,7 +382,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 108,
     "total_graded": 3816,
     "since_date": "2026-06-21",
     "brier_score": 0.1107,
@@ -390,6 +390,46 @@
     "avg_predicted": 0.1241,
     "actual_hr_rate": 0.1287,
     "top10_today": [
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2386
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Emerson Hancock",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2191
+      },
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2096
+      },
+      {
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.209
+      },
+      {
+        "player_name": "Seiya Suzuki",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2
+      },
       {
         "player_name": "Esmerlyn Valdez",
         "team": "Pittsburgh Pirates",
@@ -399,76 +439,36 @@
         "p_hr": 0.1944
       },
       {
-        "player_name": "Brandon Lowe",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
+        "player_name": "Dansby Swanson",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Andrew Abbott",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 8,
+        "p_hr": 0.1935
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Cade Cavalli",
+        "venue": "Nationals Park",
         "lineup_spot": 2,
-        "p_hr": 0.1694
+        "p_hr": 0.1821
       },
       {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1621
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Matthew Boyd",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1713
       },
       {
-        "player_name": "Ryan O'Hearn",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1567
-      },
-      {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Paul Skenes",
-        "venue": "PNC Park",
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Nationals Park",
         "lineup_spot": 4,
-        "p_hr": 0.1453
-      },
-      {
-        "player_name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Paul Skenes",
-        "venue": "PNC Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1371
-      },
-      {
-        "player_name": "Marcell Ozuna",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
-        "lineup_spot": 7,
-        "p_hr": 0.1284
-      },
-      {
-        "player_name": "Henry Davis",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
-        "lineup_spot": 9,
-        "p_hr": 0.125
-      },
-      {
-        "player_name": "Gary S\u00e1nchez",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Paul Skenes",
-        "venue": "PNC Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1159
-      },
-      {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Paul Skenes",
-        "venue": "PNC Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1126
+        "p_hr": 0.1708
       }
     ],
     "calibration": [
@@ -744,14 +744,24 @@
     ]
   },
   "k": {
-    "today_count": 6,
+    "today_count": 14,
     "total_graded": 342,
     "since_date": "2026-06-27",
     "brier_score": 0.1576,
     "naive_brier": 0.25,
-    "avg_lambda": 5.59,
+    "avg_lambda": 5.34,
     "over_rate": 0.243,
     "top10_today": [
+      {
+        "pitcher_name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "opponent": "Los Angeles Angels",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 6.85,
+        "p_over": 0.5282,
+        "p_under": 0.4718
+      },
       {
         "pitcher_name": "Tarik Skubal",
         "team": "Detroit Tigers",
@@ -771,6 +781,26 @@
         "lambda_k": 5.9,
         "p_over": 0.3771,
         "p_under": 0.6229
+      },
+      {
+        "pitcher_name": "Cade Cavalli",
+        "team": "Washington Nationals",
+        "opponent": "New York Yankees",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 5.8,
+        "p_over": 0.361,
+        "p_under": 0.639
+      },
+      {
+        "pitcher_name": "Matthew Boyd",
+        "team": "Chicago Cubs",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.77,
+        "p_over": 0.3563,
+        "p_under": 0.6437
       },
       {
         "pitcher_name": "Paul Skenes",
@@ -793,6 +823,16 @@
         "p_under": 0.6906
       },
       {
+        "pitcher_name": "Joey Cantillo",
+        "team": "Cleveland Guardians",
+        "opponent": "Miami Marlins",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 5.03,
+        "p_over": 0.2427,
+        "p_under": 0.7573
+      },
+      {
         "pitcher_name": "Seth Lugo",
         "team": "Kansas City Royals",
         "opponent": "Baltimore Orioles",
@@ -803,14 +843,14 @@
         "p_under": 0.7742
       },
       {
-        "pitcher_name": "Andrew Abbott",
-        "team": "Cincinnati Reds",
-        "opponent": "Chicago Cubs",
-        "venue": "Great American Ball Park",
+        "pitcher_name": "Will Warren",
+        "team": "New York Yankees",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 4.72,
-        "p_over": 0.1978,
-        "p_under": 0.8022
+        "lambda_k": 4.79,
+        "p_over": 0.2075,
+        "p_under": 0.7925
       }
     ],
     "calibration": [
@@ -1020,22 +1060,12 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 2,
-    "total_graded": 133,
-    "accuracy": 0.703,
-    "no_signal_count": 69,
-    "no_signal_rate": 0.519,
+    "today_count": 1,
+    "total_graded": 40,
+    "accuracy": null,
+    "no_signal_count": 40,
+    "no_signal_rate": 1.0,
     "matches": [
-      {
-        "tour": "atp",
-        "round": "Final",
-        "player_a": "TBD",
-        "player_b": "TBD",
-        "elo_a": 1500.0,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5,
-        "winner": null
-      },
       {
         "tour": "atp",
         "round": "Final",
@@ -1047,53 +1077,7 @@
         "winner": null
       }
     ],
-    "trend": [
-      {
-        "date": "2026-07-01",
-        "accuracy": 0.8571,
-        "n": 14
-      },
-      {
-        "date": "2026-07-02",
-        "accuracy": 0.8182,
-        "n": 33
-      },
-      {
-        "date": "2026-07-03",
-        "accuracy": 0.7381,
-        "n": 42
-      },
-      {
-        "date": "2026-07-04",
-        "accuracy": 0.74,
-        "n": 50
-      },
-      {
-        "date": "2026-07-05",
-        "accuracy": 0.7222,
-        "n": 54
-      },
-      {
-        "date": "2026-07-06",
-        "accuracy": 0.7018,
-        "n": 57
-      },
-      {
-        "date": "2026-07-07",
-        "accuracy": 0.7288,
-        "n": 59
-      },
-      {
-        "date": "2026-07-08",
-        "accuracy": 0.6458,
-        "n": 48
-      },
-      {
-        "date": "2026-07-10",
-        "accuracy": 0.6364,
-        "n": 22
-      }
-    ]
+    "trend": []
   },
   "picks": {
     "singles": [],
