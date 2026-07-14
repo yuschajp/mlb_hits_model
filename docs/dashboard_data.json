@@ -1,106 +1,106 @@
 {
-  "generated_at": "2026-07-12",
+  "generated_at": "2026-07-14",
   "hits": {
-    "today_count": 270,
-    "total_graded": 3969,
+    "today_count": 18,
+    "total_graded": 4239,
     "since_date": "2026-06-20",
-    "brier_score": 0.2355,
-    "recent_brier_score": 0.2355,
+    "brier_score": 0.2357,
+    "recent_brier_score": 0.2372,
     "naive_brier": 0.235,
-    "avg_predicted": 0.625,
-    "actual_hit_rate": 0.6115,
+    "avg_predicted": 0.6241,
+    "actual_hit_rate": 0.6093,
     "top10_today": [
       {
-        "player_name": "Luis Arraez",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Oracle Park",
+        "player_name": "Yordan Alvarez",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 2,
-        "p_hit": 0.7822
+        "p_hit": 0.7128
       },
       {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Andrew Abbott",
-        "venue": "Great American Ball Park",
+        "player_name": "Junior Caminero",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hit": 0.6814
+      },
+      {
+        "player_name": "Bobby Witt Jr.",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 5,
+        "p_hit": 0.6763
+      },
+      {
+        "player_name": "Mike Trout",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 1,
-        "p_hit": 0.7426
+        "p_hit": 0.6743
       },
       {
-        "player_name": "Wyatt Langford",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Cristian Javier",
-        "venue": "Globe Life Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7422
-      },
-      {
-        "player_name": "Josh Jung",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Cristian Javier",
-        "venue": "Globe Life Field",
+        "player_name": "Shea Langeliers",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 3,
-        "p_hit": 0.7285
+        "p_hit": 0.6519
       },
       {
-        "player_name": "Heliot Ramos",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Oracle Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7268
+        "player_name": "Ben Rice",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 7,
+        "p_hit": 0.6373
       },
       {
-        "player_name": "Casey Schmitt",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Oracle Park",
+        "player_name": "Ernie Clement",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 9,
+        "p_hit": 0.6332
+      },
+      {
+        "player_name": "Riley Greene",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 8,
+        "p_hit": 0.6316
+      },
+      {
+        "player_name": "Freddie Freeman",
+        "team": "National League All-Stars",
+        "opponent_pitcher": "Dylan Cease",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 3,
-        "p_hit": 0.7236
+        "p_hit": 0.6276
       },
       {
-        "player_name": "Otto Lopez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "loanDepot park",
-        "lineup_spot": 1,
-        "p_hit": 0.7133
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Will Warren",
-        "venue": "Nationals Park",
-        "lineup_spot": 2,
-        "p_hit": 0.7131
-      },
-      {
-        "player_name": "Blaze Alexander",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Seth Lugo",
-        "venue": "Oriole Park at Camden Yards",
+        "player_name": "Cody Bellinger",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 6,
-        "p_hit": 0.7126
-      },
-      {
-        "player_name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Matthew Boyd",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7115
+        "p_hit": 0.6211
       }
     ],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 1330,
+        "n": 1451,
         "predicted": 0.562,
-        "actual": 0.568
+        "actual": 0.564
       },
       {
         "range": "0.6-0.8",
-        "n": 2611,
+        "n": 2760,
         "predicted": 0.655,
         "actual": 0.632
       },
@@ -265,6 +265,13 @@
         "n_wins": 78,
         "daily_pnl": 21.909,
         "cumulative_pnl": 551.909
+      },
+      {
+        "date": "2026-07-12",
+        "n_bets": 149,
+        "n_wins": 94,
+        "daily_pnl": 30.455,
+        "cumulative_pnl": 582.364
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -378,111 +385,116 @@
         "date": "2026-07-11",
         "brier": 0.2355,
         "n": 1673
+      },
+      {
+        "date": "2026-07-12",
+        "brier": 0.2365,
+        "n": 1691
       }
     ]
   },
   "hr": {
-    "today_count": 270,
-    "total_graded": 3816,
+    "today_count": 18,
+    "total_graded": 4086,
     "since_date": "2026-06-21",
-    "brier_score": 0.1107,
+    "brier_score": 0.1094,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1241,
-    "actual_hr_rate": 0.1287,
+    "avg_predicted": 0.1238,
+    "actual_hr_rate": 0.127,
     "top10_today": [
       {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Andrew Abbott",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.233
-      },
-      {
-        "player_name": "James Wood",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Will Warren",
-        "venue": "Nationals Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2191
-      },
-      {
         "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Emerson Hancock",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2169
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Will Warren",
-        "venue": "Nationals Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2119
-      },
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "PNC Park",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 4,
-        "p_hr": 0.2053
+        "p_hr": 0.177
       },
       {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "J.T. Ginn",
-        "venue": "Rate Field",
+        "player_name": "Yordan Alvarez",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 2,
-        "p_hr": 0.1991
+        "p_hr": 0.1712
       },
       {
-        "player_name": "Ketel Marte",
-        "team": "Arizona Diamondbacks",
-        "opponent_pitcher": "Emmet Sheehan",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1971
-      },
-      {
-        "player_name": "Seiya Suzuki",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Andrew Abbott",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1949
-      },
-      {
-        "player_name": "Joc Pederson",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Cristian Javier",
-        "venue": "Globe Life Field",
-        "lineup_spot": 1,
-        "p_hr": 0.1939
+        "player_name": "Ben Rice",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 7,
+        "p_hr": 0.1597
       },
       {
         "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Tarik Skubal",
-        "venue": "Comerica Park",
+        "team": "National League All-Stars",
+        "opponent_pitcher": "Dylan Cease",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1585
+      },
+      {
+        "player_name": "Mike Trout",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.144
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "National League All-Stars",
+        "opponent_pitcher": "Dylan Cease",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 2,
-        "p_hr": 0.1926
+        "p_hr": 0.137
+      },
+      {
+        "player_name": "Shea Langeliers",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1351
+      },
+      {
+        "player_name": "CJ Abrams",
+        "team": "National League All-Stars",
+        "opponent_pitcher": "Dylan Cease",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1188
+      },
+      {
+        "player_name": "Bobby Witt Jr.",
+        "team": "American League All-Stars",
+        "opponent_pitcher": "Cristopher S\u00e1nchez",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1093
+      },
+      {
+        "player_name": "Freddie Freeman",
+        "team": "National League All-Stars",
+        "opponent_pitcher": "Dylan Cease",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1029
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 3673,
+        "n": 3938,
         "predicted": 0.12,
-        "actual": 0.122
+        "actual": 0.121
       },
       {
         "range": "0.2-0.4",
-        "n": 143,
-        "predicted": 0.226,
-        "actual": 0.294
+        "n": 148,
+        "predicted": 0.225,
+        "actual": 0.291
       }
     ],
     "returns": [
@@ -632,6 +644,13 @@
         "n_wins": 6,
         "daily_pnl": -21.0,
         "cumulative_pnl": -151.0
+      },
+      {
+        "date": "2026-07-12",
+        "n_bets": 42,
+        "n_wins": 5,
+        "daily_pnl": -19.5,
+        "cumulative_pnl": -170.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -740,137 +759,41 @@
         "date": "2026-07-11",
         "brier": 0.1112,
         "n": 1619
+      },
+      {
+        "date": "2026-07-12",
+        "brier": 0.108,
+        "n": 1709
       }
     ]
   },
   "k": {
-    "today_count": 30,
-    "total_graded": 342,
+    "today_count": 0,
+    "total_graded": 372,
     "since_date": "2026-06-27",
-    "brier_score": 0.1576,
+    "brier_score": 0.1595,
     "naive_brier": 0.25,
-    "avg_lambda": 5.13,
-    "over_rate": 0.243,
-    "top10_today": [
-      {
-        "pitcher_name": "Zack Wheeler",
-        "team": "Philadelphia Phillies",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 6.94,
-        "p_over": 0.5406,
-        "p_under": 0.4594
-      },
-      {
-        "pitcher_name": "Tarik Skubal",
-        "team": "Detroit Tigers",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 6.73,
-        "p_over": 0.5087,
-        "p_under": 0.4913
-      },
-      {
-        "pitcher_name": "Taj Bradley",
-        "team": "Minnesota Twins",
-        "opponent": "Los Angeles Angels",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 6.72,
-        "p_over": 0.5076,
-        "p_under": 0.4924
-      },
-      {
-        "pitcher_name": "Cade Cavalli",
-        "team": "Washington Nationals",
-        "opponent": "New York Yankees",
-        "venue": "Nationals Park",
-        "line": 6.5,
-        "lambda_k": 5.74,
-        "p_over": 0.3519,
-        "p_under": 0.6481
-      },
-      {
-        "pitcher_name": "Ian Seymour",
-        "team": "Tampa Bay Rays",
-        "opponent": "Seattle Mariners",
-        "venue": "Tropicana Field",
-        "line": 6.5,
-        "lambda_k": 5.72,
-        "p_over": 0.3496,
-        "p_under": 0.6504
-      },
-      {
-        "pitcher_name": "Kevin Gausman",
-        "team": "Toronto Blue Jays",
-        "opponent": "San Diego Padres",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 5.72,
-        "p_over": 0.3489,
-        "p_under": 0.6511
-      },
-      {
-        "pitcher_name": "Paul Skenes",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Milwaukee Brewers",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.7,
-        "p_over": 0.3459,
-        "p_under": 0.6541
-      },
-      {
-        "pitcher_name": "Robert Gasser",
-        "team": "Milwaukee Brewers",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.47,
-        "p_over": 0.3094,
-        "p_under": 0.6906
-      },
-      {
-        "pitcher_name": "Matthew Boyd",
-        "team": "Chicago Cubs",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 5.44,
-        "p_over": 0.3052,
-        "p_under": 0.6948
-      },
-      {
-        "pitcher_name": "Payton Tolle",
-        "team": "Boston Red Sox",
-        "opponent": "New York Mets",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 5.39,
-        "p_over": 0.2974,
-        "p_under": 0.7026
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.245,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 129,
-        "predicted": 0.14,
-        "actual": 0.093
+        "n": 139,
+        "predicted": 0.141,
+        "actual": 0.086
       },
       {
         "range": "0.2-0.4",
-        "n": 169,
+        "n": 186,
         "predicted": 0.278,
-        "actual": 0.26
+        "actual": 0.274
       },
       {
         "range": "0.4-0.6",
-        "n": 41,
-        "predicted": 0.474,
-        "actual": 0.585
+        "n": 44,
+        "predicted": 0.477,
+        "actual": 0.568
       },
       {
         "range": "0.6-0.8",
@@ -954,6 +877,11 @@
         "date": "2026-07-11",
         "brier": 0.146,
         "n": 183
+      },
+      {
+        "date": "2026-07-12",
+        "brier": 0.15,
+        "n": 192
       }
     ]
   },
@@ -967,13 +895,13 @@
         "home_team": "France",
         "away_team": "Spain",
         "stage": "Semi-final",
-        "xg_home": 0.93,
-        "xg_away": 0.83,
-        "p_home": 0.3587,
-        "p_draw": 0.3328,
-        "p_away": 0.3085,
-        "over_2_5": 0.259,
-        "btts": 0.3419,
+        "xg_home": 0.75,
+        "xg_away": 1.03,
+        "p_home": 0.2608,
+        "p_draw": 0.3268,
+        "p_away": 0.4124,
+        "over_2_5": 0.2632,
+        "btts": 0.3387,
         "graded": false,
         "result": null
       },
@@ -1051,32 +979,121 @@
     ]
   },
   "wc_gs": {
-    "today_count": 0,
+    "today_count": 11,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
-    "top15_today": [],
+    "top15_today": [
+      {
+        "player": "Kylian Mbapp\u00e9",
+        "team": "France",
+        "opponent": "Spain",
+        "match": "France vs Spain",
+        "tournament_goals": 8,
+        "lambda": 0.586,
+        "p_scores": 0.4436
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "team": "Spain",
+        "opponent": "France",
+        "match": "France vs Spain",
+        "tournament_goals": 5,
+        "lambda": 0.524,
+        "p_scores": 0.4077
+      },
+      {
+        "player": "Ousmane Demb\u00e9l\u00e9",
+        "team": "France",
+        "opponent": "Spain",
+        "match": "France vs Spain",
+        "tournament_goals": 5,
+        "lambda": 0.524,
+        "p_scores": 0.4077
+      },
+      {
+        "player": "Bradley Barcola",
+        "team": "France",
+        "opponent": "Spain",
+        "match": "France vs Spain",
+        "tournament_goals": 2,
+        "lambda": 0.294,
+        "p_scores": 0.2548
+      },
+      {
+        "player": "Pedro Porro",
+        "team": "Spain",
+        "opponent": "France",
+        "match": "France vs Spain",
+        "tournament_goals": 2,
+        "lambda": 0.294,
+        "p_scores": 0.2548
+      },
+      {
+        "player": "Mikel Merino",
+        "team": "Spain",
+        "opponent": "France",
+        "match": "France vs Spain",
+        "tournament_goals": 2,
+        "lambda": 0.294,
+        "p_scores": 0.2548
+      },
+      {
+        "player": "Lamine Yamal",
+        "team": "Spain",
+        "opponent": "France",
+        "match": "France vs Spain",
+        "tournament_goals": 1,
+        "lambda": 0.231,
+        "p_scores": 0.2061
+      },
+      {
+        "player": "Hassan Al-Tambakti",
+        "team": "Spain",
+        "opponent": "France",
+        "match": "France vs Spain",
+        "tournament_goals": 1,
+        "lambda": 0.231,
+        "p_scores": 0.2061
+      },
+      {
+        "player": "\u00c1lex Baena",
+        "team": "Spain",
+        "opponent": "France",
+        "match": "France vs Spain",
+        "tournament_goals": 1,
+        "lambda": 0.231,
+        "p_scores": 0.2061
+      },
+      {
+        "player": "D\u00e9sir\u00e9 Dou\u00e9",
+        "team": "France",
+        "opponent": "Spain",
+        "match": "France vs Spain",
+        "tournament_goals": 1,
+        "lambda": 0.231,
+        "p_scores": 0.2061
+      },
+      {
+        "player": "Fabi\u00e1n Ruiz",
+        "team": "Spain",
+        "opponent": "France",
+        "match": "France vs Spain",
+        "tournament_goals": 1,
+        "lambda": 0.231,
+        "p_scores": 0.2061
+      }
+    ],
     "calibration": []
   },
   "tennis": {
-    "today_count": 1,
+    "today_count": 0,
     "total_graded": 41,
     "accuracy": 1.0,
     "no_signal_count": 40,
     "no_signal_rate": 0.976,
-    "matches": [
-      {
-        "tour": "atp",
-        "round": "Final",
-        "player_a": "Jannik Sinner",
-        "player_b": "Alexander Zverev",
-        "elo_a": 1675.8,
-        "elo_b": 1607.9,
-        "p_a_wins": 0.5965,
-        "winner": "Jannik Sinner"
-      }
-    ],
+    "matches": [],
     "trend": []
   },
   "picks": {
