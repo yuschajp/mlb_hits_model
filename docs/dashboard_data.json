@@ -1,108 +1,27 @@
 {
-  "generated_at": "2026-07-14",
+  "generated_at": "2026-07-15",
   "hits": {
-    "today_count": 18,
-    "total_graded": 4239,
+    "today_count": 0,
+    "total_graded": 4257,
     "since_date": "2026-06-20",
-    "brier_score": 0.2357,
-    "recent_brier_score": 0.2372,
+    "brier_score": 0.236,
+    "recent_brier_score": 0.2395,
     "naive_brier": 0.235,
-    "avg_predicted": 0.6241,
-    "actual_hit_rate": 0.6093,
-    "top10_today": [
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hit": 0.7128
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6814
-      },
-      {
-        "player_name": "Bobby Witt Jr.",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 5,
-        "p_hit": 0.6763
-      },
-      {
-        "player_name": "Mike Trout",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hit": 0.6743
-      },
-      {
-        "player_name": "Shea Langeliers",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6519
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 7,
-        "p_hit": 0.6373
-      },
-      {
-        "player_name": "Ernie Clement",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 9,
-        "p_hit": 0.6332
-      },
-      {
-        "player_name": "Riley Greene",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 8,
-        "p_hit": 0.6316
-      },
-      {
-        "player_name": "Freddie Freeman",
-        "team": "National League All-Stars",
-        "opponent_pitcher": "Dylan Cease",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6276
-      },
-      {
-        "player_name": "Cody Bellinger",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 6,
-        "p_hit": 0.6211
-      }
-    ],
+    "avg_predicted": 0.624,
+    "actual_hit_rate": 0.6079,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 1451,
+        "n": 1458,
         "predicted": 0.562,
-        "actual": 0.564
+        "actual": 0.561
       },
       {
         "range": "0.6-0.8",
-        "n": 2760,
+        "n": 2771,
         "predicted": 0.655,
-        "actual": 0.632
+        "actual": 0.631
       },
       {
         "range": "0.8-1.0",
@@ -272,6 +191,13 @@
         "n_wins": 94,
         "daily_pnl": 30.455,
         "cumulative_pnl": 582.364
+      },
+      {
+        "date": "2026-07-14",
+        "n_bets": 11,
+        "n_wins": 5,
+        "daily_pnl": -1.455,
+        "cumulative_pnl": 580.909
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -390,105 +316,29 @@
         "date": "2026-07-12",
         "brier": 0.2365,
         "n": 1691
+      },
+      {
+        "date": "2026-07-14",
+        "brier": 0.2395,
+        "n": 1277
       }
     ]
   },
   "hr": {
-    "today_count": 18,
-    "total_graded": 4086,
+    "today_count": 0,
+    "total_graded": 4104,
     "since_date": "2026-06-21",
-    "brier_score": 0.1094,
+    "brier_score": 0.109,
     "naive_brier": 0.235,
     "avg_predicted": 0.1238,
-    "actual_hr_rate": 0.127,
-    "top10_today": [
-      {
-        "player_name": "Junior Caminero",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 4,
-        "p_hr": 0.177
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1712
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 7,
-        "p_hr": 0.1597
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "National League All-Stars",
-        "opponent_pitcher": "Dylan Cease",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1585
-      },
-      {
-        "player_name": "Mike Trout",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.144
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "National League All-Stars",
-        "opponent_pitcher": "Dylan Cease",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.137
-      },
-      {
-        "player_name": "Shea Langeliers",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1351
-      },
-      {
-        "player_name": "CJ Abrams",
-        "team": "National League All-Stars",
-        "opponent_pitcher": "Dylan Cease",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1188
-      },
-      {
-        "player_name": "Bobby Witt Jr.",
-        "team": "American League All-Stars",
-        "opponent_pitcher": "Cristopher S\u00e1nchez",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1093
-      },
-      {
-        "player_name": "Freddie Freeman",
-        "team": "National League All-Stars",
-        "opponent_pitcher": "Dylan Cease",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1029
-      }
-    ],
+    "actual_hr_rate": 0.1265,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 3938,
+        "n": 3956,
         "predicted": 0.12,
-        "actual": 0.121
+        "actual": 0.12
       },
       {
         "range": "0.2-0.4",
@@ -651,6 +501,13 @@
         "n_wins": 5,
         "daily_pnl": -19.5,
         "cumulative_pnl": -170.5
+      },
+      {
+        "date": "2026-07-14",
+        "n_bets": 4,
+        "n_wins": 0,
+        "daily_pnl": -4.0,
+        "cumulative_pnl": -174.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -764,6 +621,11 @@
         "date": "2026-07-12",
         "brier": 0.108,
         "n": 1709
+      },
+      {
+        "date": "2026-07-14",
+        "brier": 0.1093,
+        "n": 1295
       }
     ]
   },
@@ -887,24 +749,10 @@
   },
   "wc": {
     "today_count": 2,
-    "total_graded": 28,
-    "brier_home": 0.2041,
+    "total_graded": 29,
+    "brier_home": 0.1994,
     "naive_brier": 0.222,
     "matches_today": [
-      {
-        "home_team": "France",
-        "away_team": "Spain",
-        "stage": "Semi-final",
-        "xg_home": 0.75,
-        "xg_away": 1.03,
-        "p_home": 0.2608,
-        "p_draw": 0.3268,
-        "p_away": 0.4124,
-        "over_2_5": 0.2632,
-        "btts": 0.3387,
-        "graded": false,
-        "result": null
-      },
       {
         "home_team": "England",
         "away_team": "Argentina",
@@ -916,6 +764,20 @@
         "p_away": 0.4322,
         "over_2_5": 0.5616,
         "btts": 0.5883,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "France",
+        "away_team": "L102",
+        "stage": "Match for third place",
+        "xg_home": 1.99,
+        "xg_away": 0.79,
+        "p_home": 0.6548,
+        "p_draw": 0.2053,
+        "p_away": 0.1399,
+        "over_2_5": 0.5255,
+        "btts": 0.4714,
         "graded": false,
         "result": null
       }
@@ -975,114 +837,128 @@
         "date": "2026-07-11",
         "brier": 0.1581,
         "n": 10
+      },
+      {
+        "date": "2026-07-14",
+        "brier": 0.1271,
+        "n": 5
       }
     ]
   },
   "wc_gs": {
-    "today_count": 11,
+    "today_count": 12,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
     "top15_today": [
       {
-        "player": "Kylian Mbapp\u00e9",
-        "team": "France",
-        "opponent": "Spain",
-        "match": "France vs Spain",
+        "player": "Lionel Messi",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
         "tournament_goals": 8,
-        "lambda": 0.586,
-        "p_scores": 0.4436
+        "lambda": 0.902,
+        "p_scores": 0.5942
       },
       {
-        "player": "Mikel Oyarzabal",
-        "team": "Spain",
-        "opponent": "France",
-        "match": "France vs Spain",
-        "tournament_goals": 5,
-        "lambda": 0.524,
-        "p_scores": 0.4077
+        "player": "Harry Kane",
+        "team": "England",
+        "opponent": "Argentina",
+        "match": "England vs Argentina",
+        "tournament_goals": 6,
+        "lambda": 0.667,
+        "p_scores": 0.4866
       },
       {
-        "player": "Ousmane Demb\u00e9l\u00e9",
-        "team": "France",
-        "opponent": "Spain",
-        "match": "France vs Spain",
-        "tournament_goals": 5,
-        "lambda": 0.524,
-        "p_scores": 0.4077
+        "player": "Jude Bellingham",
+        "team": "England",
+        "opponent": "Argentina",
+        "match": "England vs Argentina",
+        "tournament_goals": 6,
+        "lambda": 0.667,
+        "p_scores": 0.4866
       },
       {
-        "player": "Bradley Barcola",
-        "team": "France",
-        "opponent": "Spain",
-        "match": "France vs Spain",
+        "player": "Lautaro Mart\u00ednez",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
         "tournament_goals": 2,
-        "lambda": 0.294,
-        "p_scores": 0.2548
+        "lambda": 0.453,
+        "p_scores": 0.364
       },
       {
-        "player": "Pedro Porro",
-        "team": "Spain",
-        "opponent": "France",
-        "match": "France vs Spain",
-        "tournament_goals": 2,
-        "lambda": 0.294,
-        "p_scores": 0.2548
-      },
-      {
-        "player": "Mikel Merino",
-        "team": "Spain",
-        "opponent": "France",
-        "match": "France vs Spain",
-        "tournament_goals": 2,
-        "lambda": 0.294,
-        "p_scores": 0.2548
-      },
-      {
-        "player": "Lamine Yamal",
-        "team": "Spain",
-        "opponent": "France",
-        "match": "France vs Spain",
+        "player": "Giovani Lo Celso",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
         "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Hassan Al-Tambakti",
-        "team": "Spain",
-        "opponent": "France",
-        "match": "France vs Spain",
+        "player": "Lisandro Mart\u00ednez",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
         "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "\u00c1lex Baena",
-        "team": "Spain",
-        "opponent": "France",
-        "match": "France vs Spain",
+        "player": "Diney Borges",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
         "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "D\u00e9sir\u00e9 Dou\u00e9",
-        "team": "France",
-        "opponent": "Spain",
-        "match": "France vs Spain",
+        "player": "Cristian Romero",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
         "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
+        "lambda": 0.355,
+        "p_scores": 0.2988
       },
       {
-        "player": "Fabi\u00e1n Ruiz",
-        "team": "Spain",
-        "opponent": "France",
-        "match": "France vs Spain",
+        "player": "Enzo Fern\u00e1ndez",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
         "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
+        "lambda": 0.355,
+        "p_scores": 0.2988
+      },
+      {
+        "player": "Alexis Mac Allister",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
+        "tournament_goals": 1,
+        "lambda": 0.355,
+        "p_scores": 0.2988
+      },
+      {
+        "player": "Juli\u00e1n \u00c1lvarez",
+        "team": "Argentina",
+        "opponent": "England",
+        "match": "England vs Argentina",
+        "tournament_goals": 1,
+        "lambda": 0.355,
+        "p_scores": 0.2988
+      },
+      {
+        "player": "Marcus Rashford",
+        "team": "England",
+        "opponent": "Argentina",
+        "match": "England vs Argentina",
+        "tournament_goals": 1,
+        "lambda": 0.296,
+        "p_scores": 0.2561
       }
     ],
     "calibration": []
