@@ -757,27 +757,27 @@
         "home_team": "England",
         "away_team": "Argentina",
         "stage": "Semi-final",
-        "xg_home": 1.34,
-        "xg_away": 1.59,
-        "p_home": 0.3236,
-        "p_draw": 0.2441,
-        "p_away": 0.4322,
-        "over_2_5": 0.5616,
-        "btts": 0.5883,
+        "xg_home": 1.29,
+        "xg_away": 1.73,
+        "p_home": 0.2856,
+        "p_draw": 0.2359,
+        "p_away": 0.4785,
+        "over_2_5": 0.5805,
+        "btts": 0.5955,
         "graded": false,
         "result": null
       },
       {
         "home_team": "France",
-        "away_team": "L102",
+        "away_team": "England",
         "stage": "Match for third place",
-        "xg_home": 1.99,
-        "xg_away": 0.79,
-        "p_home": 0.6548,
-        "p_draw": 0.2053,
-        "p_away": 0.1399,
-        "over_2_5": 0.5255,
-        "btts": 0.4714,
+        "xg_home": 1.82,
+        "xg_away": 1.03,
+        "p_home": 0.56,
+        "p_draw": 0.2288,
+        "p_away": 0.2112,
+        "over_2_5": 0.542,
+        "btts": 0.538,
         "graded": false,
         "result": null
       }
@@ -846,7 +846,7 @@
     ]
   },
   "wc_gs": {
-    "today_count": 12,
+    "today_count": 13,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
@@ -950,6 +950,15 @@
         "tournament_goals": 1,
         "lambda": 0.355,
         "p_scores": 0.2988
+      },
+      {
+        "player": "Anthony Gordon",
+        "team": "England",
+        "opponent": "Argentina",
+        "match": "England vs Argentina",
+        "tournament_goals": 1,
+        "lambda": 0.304,
+        "p_scores": 0.2624
       },
       {
         "player": "Marcus Rashford",
