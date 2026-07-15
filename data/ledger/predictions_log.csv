@@ -4265,21 +4265,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-12,823274,815873,Sean Keys,Toronto Blue Jays,San Diego Padres,7,Petco Park,0.92,Germán Márquez,0.5702,0.2247,3.7,0.0,True
 2026-07-12,823274,682729,Jonatan Clase,Toronto Blue Jays,San Diego Padres,8,Petco Park,0.92,Germán Márquez,0.5794,0.2357,3.6,1.0,True
 2026-07-12,823274,665926,Andrés Giménez,Toronto Blue Jays,San Diego Padres,9,Petco Park,0.92,Germán Márquez,0.5601,0.2299,3.5,1.0,True
-2026-07-14,823443,656941,Kyle Schwarber,National League All-Stars,American League All-Stars,1,Citizens Bank Park,1.0,Dylan Cease,0.5988,0.2119,4.3,,False
-2026-07-14,823443,665742,Juan Soto,National League All-Stars,American League All-Stars,2,Citizens Bank Park,1.0,Dylan Cease,0.6202,0.2285,4.2,,False
-2026-07-14,823443,518692,Freddie Freeman,National League All-Stars,American League All-Stars,3,Citizens Bank Park,1.0,Dylan Cease,0.6276,0.2377,4.1,,False
-2026-07-14,823443,682928,CJ Abrams,National League All-Stars,American League All-Stars,4,Citizens Bank Park,1.0,Dylan Cease,0.5815,0.2161,4.0,,False
-2026-07-14,823443,571970,Max Muncy,National League All-Stars,American League All-Stars,5,Citizens Bank Park,1.0,Dylan Cease,0.5588,0.2083,3.9,,False
-2026-07-14,823443,645277,Ozzie Albies,National League All-Stars,American League All-Stars,6,Citizens Bank Park,1.0,Dylan Cease,0.552,0.2093,3.8,,False
-2026-07-14,823443,669016,Brandon Marsh,National League All-Stars,American League All-Stars,7,Citizens Bank Park,1.0,Dylan Cease,0.5772,0.2289,3.7,,False
-2026-07-14,823443,681624,Andy Pages,National League All-Stars,American League All-Stars,8,Citizens Bank Park,1.0,Dylan Cease,0.5457,0.216,3.6,,False
-2026-07-14,823443,686948,Drake Baldwin,National League All-Stars,American League All-Stars,9,Citizens Bank Park,1.0,Dylan Cease,0.5023,0.1969,3.5,,False
-2026-07-14,823443,545361,Mike Trout,American League All-Stars,National League All-Stars,1,Citizens Bank Park,1.0,Cristopher Sánchez,0.6743,0.2561,4.3,,False
-2026-07-14,823443,670541,Yordan Alvarez,American League All-Stars,National League All-Stars,2,Citizens Bank Park,1.0,Cristopher Sánchez,0.7128,0.2871,4.2,,False
-2026-07-14,823443,669127,Shea Langeliers,American League All-Stars,National League All-Stars,3,Citizens Bank Park,1.0,Cristopher Sánchez,0.6519,0.2525,4.1,,False
-2026-07-14,823443,691406,Junior Caminero,American League All-Stars,National League All-Stars,4,Citizens Bank Park,1.0,Cristopher Sánchez,0.6814,0.2771,4.0,,False
-2026-07-14,823443,677951,Bobby Witt Jr.,American League All-Stars,National League All-Stars,5,Citizens Bank Park,1.0,Cristopher Sánchez,0.6763,0.2797,3.9,,False
-2026-07-14,823443,641355,Cody Bellinger,American League All-Stars,National League All-Stars,6,Citizens Bank Park,1.0,Cristopher Sánchez,0.6211,0.2498,3.8,,False
-2026-07-14,823443,700250,Ben Rice,American League All-Stars,National League All-Stars,7,Citizens Bank Park,1.0,Cristopher Sánchez,0.6373,0.266,3.7,,False
-2026-07-14,823443,682985,Riley Greene,American League All-Stars,National League All-Stars,8,Citizens Bank Park,1.0,Cristopher Sánchez,0.6316,0.2685,3.6,,False
-2026-07-14,823443,676391,Ernie Clement,American League All-Stars,National League All-Stars,9,Citizens Bank Park,1.0,Cristopher Sánchez,0.6332,0.2761,3.5,,False
+2026-07-14,823443,656941,Kyle Schwarber,National League All-Stars,American League All-Stars,1,Citizens Bank Park,1.0,Dylan Cease,0.5988,0.2119,4.3,0.0,True
+2026-07-14,823443,665742,Juan Soto,National League All-Stars,American League All-Stars,2,Citizens Bank Park,1.0,Dylan Cease,0.6202,0.2285,4.2,1.0,True
+2026-07-14,823443,518692,Freddie Freeman,National League All-Stars,American League All-Stars,3,Citizens Bank Park,1.0,Dylan Cease,0.6276,0.2377,4.1,0.0,True
+2026-07-14,823443,682928,CJ Abrams,National League All-Stars,American League All-Stars,4,Citizens Bank Park,1.0,Dylan Cease,0.5815,0.2161,4.0,0.0,True
+2026-07-14,823443,571970,Max Muncy,National League All-Stars,American League All-Stars,5,Citizens Bank Park,1.0,Dylan Cease,0.5588,0.2083,3.9,0.0,True
+2026-07-14,823443,645277,Ozzie Albies,National League All-Stars,American League All-Stars,6,Citizens Bank Park,1.0,Dylan Cease,0.552,0.2093,3.8,0.0,True
+2026-07-14,823443,669016,Brandon Marsh,National League All-Stars,American League All-Stars,7,Citizens Bank Park,1.0,Dylan Cease,0.5772,0.2289,3.7,0.0,True
+2026-07-14,823443,681624,Andy Pages,National League All-Stars,American League All-Stars,8,Citizens Bank Park,1.0,Dylan Cease,0.5457,0.216,3.6,0.0,True
+2026-07-14,823443,686948,Drake Baldwin,National League All-Stars,American League All-Stars,9,Citizens Bank Park,1.0,Dylan Cease,0.5023,0.1969,3.5,0.0,True
+2026-07-14,823443,545361,Mike Trout,American League All-Stars,National League All-Stars,1,Citizens Bank Park,1.0,Cristopher Sánchez,0.6743,0.2561,4.3,0.0,True
+2026-07-14,823443,670541,Yordan Alvarez,American League All-Stars,National League All-Stars,2,Citizens Bank Park,1.0,Cristopher Sánchez,0.7128,0.2871,4.2,1.0,True
+2026-07-14,823443,669127,Shea Langeliers,American League All-Stars,National League All-Stars,3,Citizens Bank Park,1.0,Cristopher Sánchez,0.6519,0.2525,4.1,1.0,True
+2026-07-14,823443,691406,Junior Caminero,American League All-Stars,National League All-Stars,4,Citizens Bank Park,1.0,Cristopher Sánchez,0.6814,0.2771,4.0,0.0,True
+2026-07-14,823443,677951,Bobby Witt Jr.,American League All-Stars,National League All-Stars,5,Citizens Bank Park,1.0,Cristopher Sánchez,0.6763,0.2797,3.9,0.0,True
+2026-07-14,823443,641355,Cody Bellinger,American League All-Stars,National League All-Stars,6,Citizens Bank Park,1.0,Cristopher Sánchez,0.6211,0.2498,3.8,1.0,True
+2026-07-14,823443,700250,Ben Rice,American League All-Stars,National League All-Stars,7,Citizens Bank Park,1.0,Cristopher Sánchez,0.6373,0.266,3.7,1.0,True
+2026-07-14,823443,682985,Riley Greene,American League All-Stars,National League All-Stars,8,Citizens Bank Park,1.0,Cristopher Sánchez,0.6316,0.2685,3.6,0.0,True
+2026-07-14,823443,676391,Ernie Clement,American League All-Stars,National League All-Stars,9,Citizens Bank Park,1.0,Cristopher Sánchez,0.6332,0.2761,3.5,0.0,True

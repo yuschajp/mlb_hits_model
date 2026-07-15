@@ -34,5 +34,6 @@ date,match_id,home_team,away_team,stage,group,utc_date,xg_home,xg_away,p_home,p_
 2026-07-10,98,Spain,Belgium,Quarter-final,,,1.542,0.786,0.5527,0.2567,0.1906,0.4113,0.4279,2.0,1.0,home,True
 2026-07-11,99,Norway,England,Quarter-final,,,1.701,2.31,0.2849,0.1987,0.5164,0.7628,0.7357,1.0,1.0,draw,True
 2026-07-11,100,Argentina,Switzerland,Quarter-final,,,1.319,1.225,0.3888,0.2669,0.3443,0.4674,0.5174,1.0,1.0,draw,True
-2026-07-14,101,France,Spain,Semi-final,,,0.75,1.027,0.2608,0.3268,0.4124,0.2632,0.3387,,,,False
-2026-07-14,102,England,Argentina,Semi-final,,,1.344,1.589,0.3236,0.2441,0.4322,0.5616,0.5883,,,,False
+2026-07-14,101,France,Spain,Semi-final,,,0.75,1.027,0.2608,0.3268,0.4124,0.2632,0.3387,0.0,2.0,away,True
+2026-07-15,102,England,Argentina,Semi-final,,,1.344,1.589,0.3236,0.2441,0.4322,0.5616,0.5883,,,,False
+2026-07-15,103,France,L102,Match for third place,,,1.99,0.79,0.6548,0.2053,0.1399,0.5255,0.4714,,,,False
