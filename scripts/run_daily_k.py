@@ -159,6 +159,13 @@ def main():
     if finished:
         print(f"Skipping {len(finished)} already-final game(s).\n")
 
+    # Skip exhibition/All-Star games -- MLB Stats API has no season hitting
+    # stats for composite All-Star rosters, so team-stat lookups 404.
+    exhibition = [g for g in games if "All-Star" in g["home_team"] or "All-Star" in g["away_team"]]
+    games = [g for g in games if g not in exhibition]
+    if exhibition:
+        print(f"Skipping {len(exhibition)} exhibition/All-Star game(s).\n")
+
     all_rows = []
     for game in games:
         pitchers = client.get_probable_pitchers(game["game_pk"])
