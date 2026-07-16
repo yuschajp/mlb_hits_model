@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-15",
+  "generated_at": "2026-07-16",
   "hits": {
     "today_count": 0,
     "total_graded": 4257,
     "since_date": "2026-06-20",
     "brier_score": 0.236,
-    "recent_brier_score": 0.2395,
+    "recent_brier_score": 0.2399,
     "naive_brier": 0.235,
     "avg_predicted": 0.624,
     "actual_hit_rate": 0.6079,
@@ -749,24 +749,10 @@
   },
   "wc": {
     "today_count": 2,
-    "total_graded": 29,
-    "brier_home": 0.1994,
+    "total_graded": 30,
+    "brier_home": 0.1955,
     "naive_brier": 0.222,
     "matches_today": [
-      {
-        "home_team": "England",
-        "away_team": "Argentina",
-        "stage": "Semi-final",
-        "xg_home": 1.29,
-        "xg_away": 1.73,
-        "p_home": 0.2856,
-        "p_draw": 0.2359,
-        "p_away": 0.4785,
-        "over_2_5": 0.5805,
-        "btts": 0.5955,
-        "graded": false,
-        "result": null
-      },
       {
         "home_team": "France",
         "away_team": "England",
@@ -778,6 +764,20 @@
         "p_away": 0.2112,
         "over_2_5": 0.542,
         "btts": 0.538,
+        "graded": false,
+        "result": null
+      },
+      {
+        "home_team": "Spain",
+        "away_team": "Argentina",
+        "stage": "Final",
+        "xg_home": 1.29,
+        "xg_away": 0.71,
+        "p_home": 0.5026,
+        "p_draw": 0.2911,
+        "p_away": 0.2062,
+        "over_2_5": 0.323,
+        "btts": 0.3687,
         "graded": false,
         "result": null
       }
@@ -842,134 +842,21 @@
         "date": "2026-07-14",
         "brier": 0.1271,
         "n": 5
+      },
+      {
+        "date": "2026-07-15",
+        "brier": 0.1195,
+        "n": 6
       }
     ]
   },
   "wc_gs": {
-    "today_count": 13,
+    "today_count": 0,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
-    "top15_today": [
-      {
-        "player": "Lionel Messi",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 8,
-        "lambda": 0.902,
-        "p_scores": 0.5942
-      },
-      {
-        "player": "Harry Kane",
-        "team": "England",
-        "opponent": "Argentina",
-        "match": "England vs Argentina",
-        "tournament_goals": 6,
-        "lambda": 0.667,
-        "p_scores": 0.4866
-      },
-      {
-        "player": "Jude Bellingham",
-        "team": "England",
-        "opponent": "Argentina",
-        "match": "England vs Argentina",
-        "tournament_goals": 6,
-        "lambda": 0.667,
-        "p_scores": 0.4866
-      },
-      {
-        "player": "Lautaro Mart\u00ednez",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 2,
-        "lambda": 0.453,
-        "p_scores": 0.364
-      },
-      {
-        "player": "Giovani Lo Celso",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Lisandro Mart\u00ednez",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Diney Borges",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Cristian Romero",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Enzo Fern\u00e1ndez",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Alexis Mac Allister",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Juli\u00e1n \u00c1lvarez",
-        "team": "Argentina",
-        "opponent": "England",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.355,
-        "p_scores": 0.2988
-      },
-      {
-        "player": "Anthony Gordon",
-        "team": "England",
-        "opponent": "Argentina",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.304,
-        "p_scores": 0.2624
-      },
-      {
-        "player": "Marcus Rashford",
-        "team": "England",
-        "opponent": "Argentina",
-        "match": "England vs Argentina",
-        "tournament_goals": 1,
-        "lambda": 0.296,
-        "p_scores": 0.2561
-      }
-    ],
+    "top15_today": [],
     "calibration": []
   },
   "tennis": {
