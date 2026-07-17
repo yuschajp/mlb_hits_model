@@ -371,3 +371,29 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-12,823925,686218,Emmet Sheehan,Los Angeles Dodgers,Arizona Diamondbacks,UNIQLO Field at Dodger Stadium,0.96,6.5,10.052,11.368,0.1958,77.0,19.0,4.81,4.768,0.2048,0.7952,7.0,True
 2026-07-12,823274,592332,Kevin Gausman,Toronto Blue Jays,San Diego Padres,Petco Park,1.0,6.5,9.141,9.766,0.2281,106.3,31.3,5.6,5.721,0.3489,0.6511,8.0,True
 2026-07-12,823274,608566,Germán Márquez,San Diego Padres,Toronto Blue Jays,Petco Park,0.92,6.5,5.734,5.625,0.1964,37.7,8.0,4.71,3.816,0.0924,0.9076,4.0,True
+2026-07-17,824737,669438,Mason Englert,Tampa Bay Rays,Boston Red Sox,Fenway Park,0.97,6.5,8.217,11.172,0.2193,30.7,9.7,4.33,4.96,0.232,0.768,,False
+2026-07-17,824737,700842,Eduardo Rivera,Boston Red Sox,Tampa Bay Rays,Fenway Park,1.06,6.5,7.714,7.363,0.1885,7.0,3.7,3.5,4.156,0.1275,0.8725,,False
+2026-07-17,823524,808963,Roki Sasaki,Los Angeles Dodgers,New York Yankees,Yankee Stadium,0.96,6.5,8.889,7.826,0.2407,81.0,23.0,5.06,5.341,0.2891,0.7109,,False
+2026-07-17,823524,543037,Gerrit Cole,New York Yankees,Los Angeles Dodgers,Yankee Stadium,1.04,6.5,8.633,9.667,0.2026,49.0,27.0,5.44,4.884,0.221,0.779,,False
+2026-07-17,824901,615698,Cal Quantrill,Texas Rangers,Atlanta Braves,Truist Park,1.02,6.5,5.439,4.569,0.2132,46.3,21.7,3.59,3.358,0.0549,0.9451,,False
+2026-07-17,824901,519242,Chris Sale,Atlanta Braves,Texas Rangers,Truist Park,1.01,6.5,10.745,11.44,0.2237,98.0,19.7,5.76,6.29,0.4401,0.5599,,False
+2026-07-17,822789,641743,Anthony Kay,Chicago White Sox,Toronto Blue Jays,Rogers Centre,1.02,6.5,7.153,8.036,0.1962,89.3,28.0,4.81,3.9,0.1005,0.8995,,False
+2026-07-17,822789,693686,Spencer Miles,Toronto Blue Jays,Chicago White Sox,Rogers Centre,1.0,6.5,8.55,8.151,0.2373,60.0,17.7,3.7,4.668,0.1911,0.8089,,False
+2026-07-17,823766,645261,Sandy Alcantara,Miami Marlins,Milwaukee Brewers,American Family Field,0.93,6.5,6.888,7.839,0.2093,130.7,41.3,6.53,4.908,0.2245,0.7755,,False
+2026-07-17,823766,701656,Logan Henderson,Milwaukee Brewers,Miami Marlins,American Family Field,1.02,6.5,10.8,6.75,0.2126,28.3,5.3,4.72,4.949,0.2304,0.7696,,False
+2026-07-17,824655,641927,Bailey Ober,Minnesota Twins,Chicago Cubs,Wrigley Field,0.98,6.5,6.405,9.0,0.2138,71.7,5.0,5.51,4.626,0.1854,0.8146,,False
+2026-07-17,824655,607067,Colin Rea,Chicago Cubs,Minnesota Twins,Wrigley Field,1.0,6.5,6.655,5.684,0.2162,94.7,25.3,4.98,3.987,0.1093,0.8907,,False
+2026-07-17,824170,665152,Dean Kremer,Baltimore Orioles,Houston Astros,Daikin Park,0.97,6.5,9.818,6.545,0.2156,22.0,11.0,5.5,5.069,0.248,0.752,,False
+2026-07-17,824170,663567,Peter Lambert,Houston Astros,Baltimore Orioles,Daikin Park,1.0,6.5,8.477,8.69,0.2402,86.0,29.0,5.73,5.762,0.3556,0.6444,,False
+2026-07-17,824090,650633,Michael King,San Diego Padres,Kansas City Royals,Kauffman Stadium,0.92,6.5,7.643,6.506,0.2142,108.3,27.7,5.7,4.623,0.185,0.815,,False
+2026-07-17,824090,607625,Seth Lugo,Kansas City Royals,San Diego Padres,Kauffman Stadium,0.94,6.5,7.395,7.105,0.2284,104.7,25.3,5.51,4.855,0.2169,0.7831,,False
+2026-07-17,824332,663903,Brady Singer,Cincinnati Reds,Colorado Rockies,Coors Field,1.05,6.5,7.628,9.105,0.2281,89.7,28.7,4.98,4.879,0.2204,0.7796,,False
+2026-07-17,824332,687312,Gabriel Hughes,Colorado Rockies,Cincinnati Reds,Coors Field,1.13,6.5,8.0,8.0,0.2497,9.0,9.0,4.5,5.675,0.3416,0.6584,,False
+2026-07-17,824009,675512,Troy Melton,Detroit Tigers,Los Angeles Angels,Angel Stadium,0.95,6.5,7.48,10.267,0.2499,49.3,23.7,6.17,6.22,0.429,0.571,,False
+2026-07-17,824009,672282,Reid Detmers,Los Angeles Angels,Detroit Tigers,Angel Stadium,0.99,6.5,10.187,8.458,0.2323,108.7,27.7,5.72,5.985,0.3913,0.6087,,False
+2026-07-17,824981,676917,Cade Cavalli,Washington Nationals,Athletics,Sutter Health Park,0.99,6.5,10.034,10.552,0.2289,98.7,29.0,4.93,5.591,0.3284,0.6716,,False
+2026-07-17,824981,695611,Gage Jump,Athletics,Washington Nationals,Sutter Health Park,0.93,6.5,8.877,10.385,0.2138,48.7,30.3,5.41,5.282,0.2801,0.7199,,False
+2026-07-17,825060,700241,Michael McGreevy,St. Louis Cardinals,Arizona Diamondbacks,Chase Field,0.97,6.5,5.843,5.216,0.1963,101.7,29.3,5.65,3.653,0.0777,0.9223,,False
+2026-07-17,825060,518876,Merrill Kelly,Arizona Diamondbacks,St. Louis Cardinals,Chase Field,1.02,6.5,5.669,6.443,0.2046,93.7,29.3,5.85,4.038,0.1147,0.8853,,False
+2026-07-17,823115,694738,Landen Roupp,San Francisco Giants,Seattle Mariners,T-Mobile Park,0.91,6.5,9.649,8.89,0.2321,97.0,27.3,5.39,5.671,0.3409,0.6591,,False
+2026-07-17,823115,682243,Bryce Miller,Seattle Mariners,San Francisco Giants,T-Mobile Park,0.92,6.5,10.144,10.565,0.2064,57.7,30.7,5.77,5.522,0.3175,0.6825,,False
