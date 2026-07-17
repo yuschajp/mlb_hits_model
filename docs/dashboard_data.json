@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-17",
   "hits": {
-    "today_count": 0,
+    "today_count": 234,
     "total_graded": 4257,
     "since_date": "2026-06-20",
     "brier_score": 0.236,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.624,
     "actual_hit_rate": 0.6079,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.796
+      },
+      {
+        "player_name": "TJ Rumfield",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7838
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7645
+      },
+      {
+        "player_name": "Trevor Larnach",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Colin Rea",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7415
+      },
+      {
+        "player_name": "Kyle Karros",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hit": 0.7375
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7374
+      },
+      {
+        "player_name": "Troy Johnston",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 7,
+        "p_hit": 0.7349
+      },
+      {
+        "player_name": "Ceddanne Rafaela",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Mason Englert",
+        "venue": "Fenway Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7283
+      },
+      {
+        "player_name": "Jordan Walker",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Merrill Kelly",
+        "venue": "Chase Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7281
+      },
+      {
+        "player_name": "Anthony Seigler",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Mason Englert",
+        "venue": "Fenway Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7207
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -325,14 +406,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 234,
     "total_graded": 4104,
     "since_date": "2026-06-21",
     "brier_score": 0.109,
     "naive_brier": 0.235,
     "avg_predicted": 0.1238,
     "actual_hr_rate": 0.1265,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Roki Sasaki",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.3389
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Dean Kremer",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.3279
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.3252
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.28
+      },
+      {
+        "player_name": "Paul Goldschmidt",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Roki Sasaki",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.2574
+      },
+      {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2471
+      },
+      {
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.2367
+      },
+      {
+        "player_name": "Kyle Karros",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hr": 0.2332
+      },
+      {
+        "player_name": "Trent Grisham",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Roki Sasaki",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.2315
+      },
+      {
+        "player_name": "Christian Walker",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Dean Kremer",
+        "venue": "Daikin Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2306
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -630,14 +792,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 26,
     "total_graded": 372,
     "since_date": "2026-06-27",
     "brier_score": 0.1595,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.96,
     "over_rate": 0.245,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "opponent": "Texas Rangers",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 6.29,
+        "p_over": 0.4401,
+        "p_under": 0.5599
+      },
+      {
+        "pitcher_name": "Troy Melton",
+        "team": "Detroit Tigers",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 6.22,
+        "p_over": 0.429,
+        "p_under": 0.571
+      },
+      {
+        "pitcher_name": "Reid Detmers",
+        "team": "Los Angeles Angels",
+        "opponent": "Detroit Tigers",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 5.99,
+        "p_over": 0.3913,
+        "p_under": 0.6087
+      },
+      {
+        "pitcher_name": "Peter Lambert",
+        "team": "Houston Astros",
+        "opponent": "Baltimore Orioles",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.76,
+        "p_over": 0.3556,
+        "p_under": 0.6444
+      },
+      {
+        "pitcher_name": "Gabriel Hughes",
+        "team": "Colorado Rockies",
+        "opponent": "Cincinnati Reds",
+        "venue": "Coors Field",
+        "line": 6.5,
+        "lambda_k": 5.67,
+        "p_over": 0.3416,
+        "p_under": 0.6584
+      },
+      {
+        "pitcher_name": "Landen Roupp",
+        "team": "San Francisco Giants",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 5.67,
+        "p_over": 0.3409,
+        "p_under": 0.6591
+      },
+      {
+        "pitcher_name": "Cade Cavalli",
+        "team": "Washington Nationals",
+        "opponent": "Athletics",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 5.59,
+        "p_over": 0.3284,
+        "p_under": 0.6716
+      },
+      {
+        "pitcher_name": "Bryce Miller",
+        "team": "Seattle Mariners",
+        "opponent": "San Francisco Giants",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 5.52,
+        "p_over": 0.3175,
+        "p_under": 0.6825
+      },
+      {
+        "pitcher_name": "Roki Sasaki",
+        "team": "Los Angeles Dodgers",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 5.34,
+        "p_over": 0.2891,
+        "p_under": 0.7109
+      },
+      {
+        "pitcher_name": "Gage Jump",
+        "team": "Athletics",
+        "opponent": "Washington Nationals",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 5.28,
+        "p_over": 0.2801,
+        "p_under": 0.7199
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
