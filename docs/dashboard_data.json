@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-16",
+  "generated_at": "2026-07-17",
   "hits": {
     "today_count": 0,
     "total_graded": 4257,
     "since_date": "2026-06-20",
     "brier_score": 0.236,
-    "recent_brier_score": 0.2399,
+    "recent_brier_score": 0.2378,
     "naive_brier": 0.235,
     "avg_predicted": 0.624,
     "actual_hit_rate": 0.6079,
