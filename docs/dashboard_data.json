@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-18",
   "hits": {
-    "today_count": 0,
+    "today_count": 180,
     "total_graded": 4491,
     "since_date": "2026-06-20",
     "brier_score": 0.2358,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6238,
     "actual_hit_rate": 0.609,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Rhett Lowder",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7745
+      },
+      {
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7652
+      },
+      {
+        "player_name": "TJ Rumfield",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Rhett Lowder",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7606
+      },
+      {
+        "player_name": "Sam Antonacci",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 1,
+        "p_hit": 0.756
+      },
+      {
+        "player_name": "Otto Lopez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Shane Drohan",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7444
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Patrick Sandoval",
+        "venue": "Fenway Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7414
+      },
+      {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7387
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Rhett Lowder",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7365
+      },
+      {
+        "player_name": "Cole Carrigg",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Rhett Lowder",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7318
+      },
+      {
+        "player_name": "Ernie Clement",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Davis Martin",
+        "venue": "Rogers Centre",
+        "lineup_spot": 1,
+        "p_hit": 0.7253
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -337,14 +418,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 180,
     "total_graded": 4338,
     "since_date": "2026-06-21",
     "brier_score": 0.1095,
     "naive_brier": 0.235,
     "avg_predicted": 0.1244,
     "actual_hr_rate": 0.1268,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hr": 0.2475
+      },
+      {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.244
+      },
+      {
+        "player_name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2423
+      },
+      {
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2389
+      },
+      {
+        "player_name": "Spencer Steer",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2333
+      },
+      {
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hr": 0.2256
+      },
+      {
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 3,
+        "p_hr": 0.2249
+      },
+      {
+        "player_name": "Eugenio Su\u00e1rez",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hr": 0.2231
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Sean Manaea",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2229
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Rhett Lowder",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2091
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -654,12 +816,12 @@
     ]
   },
   "k": {
-    "today_count": 1,
+    "today_count": 21,
     "total_graded": 398,
     "since_date": "2026-06-27",
     "brier_score": 0.1616,
     "naive_brier": 0.25,
-    "avg_lambda": 6.94,
+    "avg_lambda": 5.07,
     "over_rate": 0.249,
     "top10_today": [
       {
@@ -668,9 +830,99 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "Progressive Field",
         "line": 6.5,
-        "lambda_k": 6.94,
-        "p_over": 0.5415,
-        "p_under": 0.4585
+        "lambda_k": 6.72,
+        "p_over": 0.508,
+        "p_under": 0.492
+      },
+      {
+        "pitcher_name": "Jes\u00fas Luzardo",
+        "team": "Philadelphia Phillies",
+        "opponent": "New York Mets",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 6.71,
+        "p_over": 0.5066,
+        "p_under": 0.4934
+      },
+      {
+        "pitcher_name": "Spencer Arrighetti",
+        "team": "Houston Astros",
+        "opponent": "Baltimore Orioles",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.93,
+        "p_over": 0.3825,
+        "p_under": 0.6175
+      },
+      {
+        "pitcher_name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "opponent": "Chicago Cubs",
+        "venue": "Wrigley Field",
+        "line": 6.5,
+        "lambda_k": 5.88,
+        "p_over": 0.3751,
+        "p_under": 0.6249
+      },
+      {
+        "pitcher_name": "Max Meyer",
+        "team": "Miami Marlins",
+        "opponent": "Milwaukee Brewers",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.39,
+        "p_over": 0.2972,
+        "p_under": 0.7028
+      },
+      {
+        "pitcher_name": "Ian Seymour",
+        "team": "Tampa Bay Rays",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.38,
+        "p_over": 0.2958,
+        "p_under": 0.7042
+      },
+      {
+        "pitcher_name": "MacKenzie Gore",
+        "team": "Texas Rangers",
+        "opponent": "Atlanta Braves",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 5.33,
+        "p_over": 0.2878,
+        "p_under": 0.7122
+      },
+      {
+        "pitcher_name": "Jared Jones",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Cleveland Guardians",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 5.26,
+        "p_over": 0.2764,
+        "p_under": 0.7236
+      },
+      {
+        "pitcher_name": "Owen Murphy",
+        "team": "Atlanta Braves",
+        "opponent": "Texas Rangers",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 5.14,
+        "p_over": 0.2589,
+        "p_under": 0.7411
+      },
+      {
+        "pitcher_name": "Shane Bieber",
+        "team": "Toronto Blue Jays",
+        "opponent": "Chicago White Sox",
+        "venue": "Rogers Centre",
+        "line": 6.5,
+        "lambda_k": 4.88,
+        "p_over": 0.2203,
+        "p_under": 0.7797
       }
     ],
     "calibration": [
