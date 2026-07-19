@@ -423,3 +423,4 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-19,823523,808967,Yoshinobu Yamamoto,Los Angeles Dodgers,New York Yankees,Yankee Stadium,0.96,6.5,8.62,9.36,0.2406,110.7,25.0,6.51,6.422,0.4611,0.5389,,False
 2026-07-19,823523,693645,Cam Schlittler,New York Yankees,Los Angeles Dodgers,Yankee Stadium,1.04,6.5,10.39,12.438,0.2034,118.7,29.7,5.93,5.979,0.3904,0.6096,,False
 2026-07-19,824739,543243,Sonny Gray,Boston Red Sox,Tampa Bay Rays,Fenway Park,1.06,6.5,7.996,9.18,0.1888,95.7,33.3,5.63,4.442,0.1616,0.8384,,False
+2026-07-19,823439,660604,Alan Rangel,Philadelphia Phillies,New York Mets,Citizens Bank Park,1.03,6.5,10.242,9.368,0.2203,19.3,16.3,3.87,4.921,0.2263,0.7737,,False
