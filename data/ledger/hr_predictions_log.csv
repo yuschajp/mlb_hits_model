@@ -4652,3 +4652,57 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-19,824086,650859,Luis Rengifo,San Diego Padres,Kansas City Royals,7,Kauffman Stadium,0.85,Noah Cameron,0.0796,0.0224,3.7,,False
 2026-07-19,824086,687749,Jase Bowen,San Diego Padres,Kansas City Royals,8,Kauffman Stadium,0.85,Noah Cameron,0.0881,0.0256,3.6,,False
 2026-07-19,824086,669134,Luis Campusano,San Diego Padres,Kansas City Royals,9,Kauffman Stadium,0.85,Noah Cameron,0.1001,0.0301,3.5,,False
+2026-07-19,823764,592885,Christian Yelich,Milwaukee Brewers,Miami Marlins,1,American Family Field,1.08,Eury Pérez,0.1384,0.0346,4.3,,False
+2026-07-19,823764,694192,Jackson Chourio,Milwaukee Brewers,Miami Marlins,2,American Family Field,1.08,Eury Pérez,0.1724,0.045,4.2,,False
+2026-07-19,823764,668930,Brice Turang,Milwaukee Brewers,Miami Marlins,3,American Family Field,1.08,Eury Pérez,0.1641,0.0437,4.1,,False
+2026-07-19,823764,683734,Andrew Vaughn,Milwaukee Brewers,Miami Marlins,4,American Family Field,1.08,Eury Pérez,0.1233,0.0329,4.0,,False
+2026-07-19,823764,641343,Jake Bauers,Milwaukee Brewers,Miami Marlins,5,American Family Field,1.08,Eury Pérez,0.1932,0.055,3.9,,False
+2026-07-19,823764,669003,Garrett Mitchell,Milwaukee Brewers,Miami Marlins,6,American Family Field,1.08,Eury Pérez,0.142,0.0403,3.8,,False
+2026-07-19,823764,596142,Gary Sánchez,Milwaukee Brewers,Miami Marlins,7,American Family Field,1.08,Eury Pérez,0.1564,0.046,3.7,,False
+2026-07-19,823764,669699,Braden Shewmake,Milwaukee Brewers,Miami Marlins,8,American Family Field,1.08,Eury Pérez,0.1347,0.0402,3.6,,False
+2026-07-19,823764,687401,Joey Ortiz,Milwaukee Brewers,Miami Marlins,9,American Family Field,1.08,Eury Pérez,0.1228,0.0374,3.5,,False
+2026-07-19,823764,669364,Xavier Edwards,Miami Marlins,Milwaukee Brewers,1,American Family Field,1.08,Robert Gasser,0.1407,0.0353,4.3,,False
+2026-07-19,823764,681715,Heriberto Hernández,Miami Marlins,Milwaukee Brewers,2,American Family Field,1.08,Robert Gasser,0.233,0.0631,4.2,,False
+2026-07-19,823764,669065,Kyle Stowers,Miami Marlins,Milwaukee Brewers,3,American Family Field,1.08,Robert Gasser,0.1876,0.0507,4.1,,False
+2026-07-19,823764,691594,Javier Sanoja,Miami Marlins,Milwaukee Brewers,4,American Family Field,1.08,Robert Gasser,0.1364,0.0367,4.0,,False
+2026-07-19,823764,689414,Liam Hicks,Miami Marlins,Milwaukee Brewers,5,American Family Field,1.08,Robert Gasser,0.1536,0.0428,3.9,,False
+2026-07-19,823764,677870,Leo Jiménez,Miami Marlins,Milwaukee Brewers,6,American Family Field,1.08,Robert Gasser,0.1539,0.044,3.8,,False
+2026-07-19,823764,665052,Griffin Conine,Miami Marlins,Milwaukee Brewers,7,American Family Field,1.08,Robert Gasser,0.187,0.056,3.7,,False
+2026-07-19,823764,665923,Esteury Ruiz,Miami Marlins,Milwaukee Brewers,8,American Family Field,1.08,Robert Gasser,0.1472,0.0442,3.6,,False
+2026-07-19,823764,805300,Jakob Marsee,Miami Marlins,Milwaukee Brewers,9,American Family Field,1.08,Robert Gasser,0.1166,0.0354,3.5,,False
+2026-07-19,824653,691718,Pete Crow-Armstrong,Chicago Cubs,Minnesota Twins,1,Wrigley Field,1.0,Zebby Matthews,0.2289,0.0605,4.3,,False
+2026-07-19,824653,673548,Seiya Suzuki,Chicago Cubs,Minnesota Twins,2,Wrigley Field,1.0,Zebby Matthews,0.1973,0.0523,4.2,,False
+2026-07-19,824653,683737,Michael Busch,Chicago Cubs,Minnesota Twins,3,Wrigley Field,1.0,Zebby Matthews,0.1709,0.0457,4.1,,False
+2026-07-19,824653,608324,Alex Bregman,Chicago Cubs,Minnesota Twins,4,Wrigley Field,1.0,Zebby Matthews,0.1464,0.0396,4.0,,False
+2026-07-19,824653,664023,Ian Happ,Chicago Cubs,Minnesota Twins,5,Wrigley Field,1.0,Zebby Matthews,0.1702,0.0478,3.9,,False
+2026-07-19,824653,663538,Nico Hoerner,Chicago Cubs,Minnesota Twins,6,Wrigley Field,1.0,Zebby Matthews,0.1,0.0277,3.8,,False
+2026-07-19,824653,699393,Pedro Ramírez,Chicago Cubs,Minnesota Twins,7,Wrigley Field,1.0,Zebby Matthews,0.1321,0.0383,3.7,,False
+2026-07-19,824653,608348,Carson Kelly,Chicago Cubs,Minnesota Twins,8,Wrigley Field,1.0,Zebby Matthews,0.1421,0.0426,3.6,,False
+2026-07-19,824653,621020,Dansby Swanson,Chicago Cubs,Minnesota Twins,9,Wrigley Field,1.0,Zebby Matthews,0.186,0.0588,3.5,,False
+2026-07-19,824653,668885,Austin Martin,Minnesota Twins,Chicago Cubs,1,Wrigley Field,1.0,Shota Imanaga,0.1397,0.035,4.3,,False
+2026-07-19,824653,680777,Ryan Jeffers,Minnesota Twins,Chicago Cubs,2,Wrigley Field,1.0,Shota Imanaga,0.1906,0.0503,4.2,,False
+2026-07-19,824653,605137,Josh Bell,Minnesota Twins,Chicago Cubs,3,Wrigley Field,1.0,Shota Imanaga,0.1856,0.0501,4.1,,False
+2026-07-19,824653,668904,Royce Lewis,Minnesota Twins,Chicago Cubs,4,Wrigley Field,1.0,Shota Imanaga,0.1811,0.0499,4.0,,False
+2026-07-19,824653,605170,Victor Caratini,Minnesota Twins,Chicago Cubs,5,Wrigley Field,1.0,Shota Imanaga,0.1662,0.0466,3.9,,False
+2026-07-19,824653,665019,Kody Clemens,Minnesota Twins,Chicago Cubs,6,Wrigley Field,1.0,Shota Imanaga,0.208,0.0614,3.8,,False
+2026-07-19,824653,807712,Luke Keaschall,Minnesota Twins,Chicago Cubs,7,Wrigley Field,1.0,Shota Imanaga,0.1286,0.0372,3.7,,False
+2026-07-19,824653,686797,Brooks Lee,Minnesota Twins,Chicago Cubs,8,Wrigley Field,1.0,Shota Imanaga,0.1516,0.0457,3.6,,False
+2026-07-19,824653,668952,Ryan Kreidler,Minnesota Twins,Chicago Cubs,9,Wrigley Field,1.0,Shota Imanaga,0.1399,0.0431,3.5,,False
+2026-07-19,824330,664983,Jake McCarthy,Colorado Rockies,Cincinnati Reds,1,Coors Field,1.28,Hunter Greene,0.1772,0.0453,4.3,,False
+2026-07-19,824330,666160,Mickey Moniak,Colorado Rockies,Cincinnati Reds,2,Coors Field,1.28,Hunter Greene,0.2009,0.0534,4.2,,False
+2026-07-19,824330,696100,Hunter Goodman,Colorado Rockies,Cincinnati Reds,3,Coors Field,1.28,Hunter Greene,0.2336,0.0649,4.1,,False
+2026-07-19,824330,681198,TJ Rumfield,Colorado Rockies,Cincinnati Reds,4,Coors Field,1.28,Hunter Greene,0.1592,0.0433,4.0,,False
+2026-07-19,824330,650489,Willi Castro,Colorado Rockies,Cincinnati Reds,5,Coors Field,1.28,Hunter Greene,0.1422,0.0393,3.9,,False
+2026-07-19,824330,691720,Kyle Karros,Colorado Rockies,Cincinnati Reds,6,Coors Field,1.28,Hunter Greene,0.1588,0.0455,3.8,,False
+2026-07-19,824330,687859,Troy Johnston,Colorado Rockies,Cincinnati Reds,7,Coors Field,1.28,Hunter Greene,0.102,0.0291,3.7,,False
+2026-07-19,824330,671289,Tyler Freeman,Colorado Rockies,Cincinnati Reds,8,Coors Field,1.28,Hunter Greene,0.1026,0.0301,3.6,,False
+2026-07-19,824330,666397,Edouard Julien,Colorado Rockies,Cincinnati Reds,9,Coors Field,1.28,Hunter Greene,0.1113,0.0337,3.5,,False
+2026-07-19,824330,682829,Elly De La Cruz,Cincinnati Reds,Colorado Rockies,1,Coors Field,1.28,Ryan Feltner,0.2225,0.0585,4.3,,False
+2026-07-19,824330,701398,Sal Stewart,Cincinnati Reds,Colorado Rockies,2,Coors Field,1.28,Ryan Feltner,0.2275,0.0615,4.2,,False
+2026-07-19,824330,668709,JJ Bleday,Cincinnati Reds,Colorado Rockies,3,Coors Field,1.28,Ryan Feltner,0.2258,0.0624,4.1,,False
+2026-07-19,824330,668715,Spencer Steer,Cincinnati Reds,Colorado Rockies,4,Coors Field,1.28,Ryan Feltner,0.2173,0.0612,4.0,,False
+2026-07-19,824330,663993,Nathaniel Lowe,Cincinnati Reds,Colorado Rockies,5,Coors Field,1.28,Ryan Feltner,0.1929,0.055,3.9,,False
+2026-07-19,824330,553993,Eugenio Suárez,Cincinnati Reds,Colorado Rockies,6,Coors Field,1.28,Ryan Feltner,0.2029,0.0597,3.8,,False
+2026-07-19,824330,663886,Tyler Stephenson,Cincinnati Reds,Colorado Rockies,7,Coors Field,1.28,Ryan Feltner,0.1552,0.0456,3.7,,False
+2026-07-19,824330,670770,TJ Friedl,Cincinnati Reds,Colorado Rockies,8,Coors Field,1.28,Ryan Feltner,0.1433,0.0429,3.6,,False
+2026-07-19,824330,667472,Dane Myers,Cincinnati Reds,Colorado Rockies,9,Coors Field,1.28,Ryan Feltner,0.1461,0.0451,3.5,,False
