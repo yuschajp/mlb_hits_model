@@ -1,106 +1,106 @@
 {
-  "generated_at": "2026-07-18",
+  "generated_at": "2026-07-19",
   "hits": {
-    "today_count": 180,
-    "total_graded": 4491,
+    "today_count": 36,
+    "total_graded": 4670,
     "since_date": "2026-06-20",
     "brier_score": 0.2358,
-    "recent_brier_score": 0.2397,
+    "recent_brier_score": 0.237,
     "naive_brier": 0.235,
-    "avg_predicted": 0.6238,
-    "actual_hit_rate": 0.609,
+    "avg_predicted": 0.6242,
+    "actual_hit_rate": 0.6099,
     "top10_today": [
       {
-        "player_name": "Jake McCarthy",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Rhett Lowder",
-        "venue": "Coors Field",
+        "player_name": "Ernie Clement",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Sean Burke",
+        "venue": "Rogers Centre",
         "lineup_spot": 1,
-        "p_hit": 0.7745
+        "p_hit": 0.6895
       },
       {
-        "player_name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "Coors Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7652
+        "player_name": "Nathan Lukes",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Sean Burke",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hit": 0.6571
       },
       {
-        "player_name": "TJ Rumfield",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Rhett Lowder",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hit": 0.7606
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.6492
+      },
+      {
+        "player_name": "Freddie Freeman",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hit": 0.6458
+      },
+      {
+        "player_name": "Vladimir Guerrero Jr.",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Sean Burke",
+        "venue": "Rogers Centre",
+        "lineup_spot": 3,
+        "p_hit": 0.6347
+      },
+      {
+        "player_name": "Andy Pages",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hit": 0.6268
       },
       {
         "player_name": "Sam Antonacci",
         "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Bieber",
+        "opponent_pitcher": "Trey Yesavage",
         "venue": "Rogers Centre",
         "lineup_spot": 1,
-        "p_hit": 0.756
+        "p_hit": 0.6256
       },
       {
-        "player_name": "Otto Lopez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Shane Drohan",
-        "venue": "American Family Field",
-        "lineup_spot": 1,
-        "p_hit": 0.7444
-      },
-      {
-        "player_name": "Yandy D\u00edaz",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Patrick Sandoval",
-        "venue": "Fenway Park",
-        "lineup_spot": 1,
-        "p_hit": 0.7414
-      },
-      {
-        "player_name": "Sal Stewart",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "Coors Field",
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Yoshinobu Yamamoto",
+        "venue": "Yankee Stadium",
         "lineup_spot": 2,
-        "p_hit": 0.7387
+        "p_hit": 0.6249
       },
       {
-        "player_name": "Mickey Moniak",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Rhett Lowder",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7365
-      },
-      {
-        "player_name": "Cole Carrigg",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Rhett Lowder",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hit": 0.7318
-      },
-      {
-        "player_name": "Ernie Clement",
+        "player_name": "Kazuma Okamoto",
         "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Davis Martin",
+        "opponent_pitcher": "Sean Burke",
         "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hit": 0.6081
+      },
+      {
+        "player_name": "Trent Grisham",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Yoshinobu Yamamoto",
+        "venue": "Yankee Stadium",
         "lineup_spot": 1,
-        "p_hit": 0.7253
+        "p_hit": 0.596
       }
     ],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 1551,
+        "n": 1600,
         "predicted": 0.562,
-        "actual": 0.565
+        "actual": 0.566
       },
       {
         "range": "0.6-0.8",
-        "n": 2912,
+        "n": 3042,
         "predicted": 0.655,
         "actual": 0.631
       },
@@ -286,6 +286,13 @@
         "n_wins": 88,
         "daily_pnl": 27.0,
         "cumulative_pnl": 607.909
+      },
+      {
+        "date": "2026-07-18",
+        "n_bets": 130,
+        "n_wins": 84,
+        "daily_pnl": 30.364,
+        "cumulative_pnl": 638.273
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -414,111 +421,116 @@
         "date": "2026-07-17",
         "brier": 0.2397,
         "n": 738
+      },
+      {
+        "date": "2026-07-18",
+        "brier": 0.237,
+        "n": 701
       }
     ]
   },
   "hr": {
-    "today_count": 180,
-    "total_graded": 4338,
+    "today_count": 36,
+    "total_graded": 4517,
     "since_date": "2026-06-21",
-    "brier_score": 0.1095,
+    "brier_score": 0.1092,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1244,
-    "actual_hr_rate": 0.1268,
+    "avg_predicted": 0.1245,
+    "actual_hr_rate": 0.1264,
     "top10_today": [
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Yoshinobu Yamamoto",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2408
+      },
+      {
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.1979
+      },
+      {
+        "player_name": "Kazuma Okamoto",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Sean Burke",
+        "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hr": 0.1864
+      },
       {
         "player_name": "Munetaka Murakami",
         "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Bieber",
+        "opponent_pitcher": "Trey Yesavage",
         "venue": "Rogers Centre",
         "lineup_spot": 2,
-        "p_hr": 0.2475
+        "p_hr": 0.1715
       },
       {
-        "player_name": "Sal Stewart",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hr": 0.244
-      },
-      {
-        "player_name": "JJ Bleday",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2423
-      },
-      {
-        "player_name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "Coors Field",
+        "player_name": "Trent Grisham",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Yoshinobu Yamamoto",
+        "venue": "Yankee Stadium",
         "lineup_spot": 1,
-        "p_hr": 0.2389
-      },
-      {
-        "player_name": "Spencer Steer",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hr": 0.2333
-      },
-      {
-        "player_name": "Colson Montgomery",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Rogers Centre",
-        "lineup_spot": 4,
-        "p_hr": 0.2256
+        "p_hr": 0.1598
       },
       {
         "player_name": "Miguel Vargas",
         "team": "Chicago White Sox",
-        "opponent_pitcher": "Shane Bieber",
+        "opponent_pitcher": "Trey Yesavage",
         "venue": "Rogers Centre",
         "lineup_spot": 3,
-        "p_hr": 0.2249
+        "p_hr": 0.1556
       },
       {
-        "player_name": "Eugenio Su\u00e1rez",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "Coors Field",
+        "player_name": "Max Muncy",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Yankee Stadium",
         "lineup_spot": 5,
-        "p_hr": 0.2231
+        "p_hr": 0.155
       },
       {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Sean Manaea",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2229
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Trey Yesavage",
+        "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hr": 0.1522
       },
       {
-        "player_name": "Mickey Moniak",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Rhett Lowder",
-        "venue": "Coors Field",
+        "player_name": "Mookie Betts",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.1512
+      },
+      {
+        "player_name": "Andy Pages",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Yankee Stadium",
         "lineup_spot": 2,
-        "p_hr": 0.2091
+        "p_hr": 0.1494
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 4170,
+        "n": 4338,
         "predicted": 0.12,
-        "actual": 0.122
+        "actual": 0.121
       },
       {
         "range": "0.2-0.4",
-        "n": 168,
+        "n": 179,
         "predicted": 0.227,
-        "actual": 0.256
+        "actual": 0.251
       }
     ],
     "returns": [
@@ -689,6 +701,13 @@
         "n_wins": 10,
         "daily_pnl": -23.0,
         "cumulative_pnl": -197.5
+      },
+      {
+        "date": "2026-07-18",
+        "n_bets": 39,
+        "n_wins": 5,
+        "daily_pnl": -16.5,
+        "cumulative_pnl": -214.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -812,137 +831,92 @@
         "date": "2026-07-17",
         "brier": 0.1012,
         "n": 756
+      },
+      {
+        "date": "2026-07-18",
+        "brier": 0.1014,
+        "n": 701
       }
     ]
   },
   "k": {
-    "today_count": 21,
-    "total_graded": 398,
+    "today_count": 5,
+    "total_graded": 419,
     "since_date": "2026-06-27",
-    "brier_score": 0.1616,
+    "brier_score": 0.1623,
     "naive_brier": 0.25,
-    "avg_lambda": 5.07,
-    "over_rate": 0.249,
+    "avg_lambda": 5.48,
+    "over_rate": 0.251,
     "top10_today": [
       {
-        "pitcher_name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "Progressive Field",
+        "pitcher_name": "Yoshinobu Yamamoto",
+        "team": "Los Angeles Dodgers",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 6.72,
-        "p_over": 0.508,
-        "p_under": 0.492
+        "lambda_k": 6.42,
+        "p_over": 0.4611,
+        "p_under": 0.5389
       },
       {
-        "pitcher_name": "Jes\u00fas Luzardo",
-        "team": "Philadelphia Phillies",
-        "opponent": "New York Mets",
-        "venue": "Citizens Bank Park",
+        "pitcher_name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "opponent": "Los Angeles Dodgers",
+        "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 6.71,
-        "p_over": 0.5066,
-        "p_under": 0.4934
+        "lambda_k": 5.98,
+        "p_over": 0.3904,
+        "p_under": 0.6096
       },
       {
-        "pitcher_name": "Spencer Arrighetti",
-        "team": "Houston Astros",
-        "opponent": "Baltimore Orioles",
-        "venue": "Daikin Park",
+        "pitcher_name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "opponent": "Toronto Blue Jays",
+        "venue": "Rogers Centre",
         "line": 6.5,
-        "lambda_k": 5.93,
-        "p_over": 0.3825,
-        "p_under": 0.6175
+        "lambda_k": 5.32,
+        "p_over": 0.2857,
+        "p_under": 0.7143
       },
       {
-        "pitcher_name": "Taj Bradley",
-        "team": "Minnesota Twins",
-        "opponent": "Chicago Cubs",
-        "venue": "Wrigley Field",
-        "line": 6.5,
-        "lambda_k": 5.88,
-        "p_over": 0.3751,
-        "p_under": 0.6249
-      },
-      {
-        "pitcher_name": "Max Meyer",
-        "team": "Miami Marlins",
-        "opponent": "Milwaukee Brewers",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 5.39,
-        "p_over": 0.2972,
-        "p_under": 0.7028
-      },
-      {
-        "pitcher_name": "Ian Seymour",
-        "team": "Tampa Bay Rays",
-        "opponent": "Boston Red Sox",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 5.38,
-        "p_over": 0.2958,
-        "p_under": 0.7042
-      },
-      {
-        "pitcher_name": "MacKenzie Gore",
-        "team": "Texas Rangers",
-        "opponent": "Atlanta Braves",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 5.33,
-        "p_over": 0.2878,
-        "p_under": 0.7122
-      },
-      {
-        "pitcher_name": "Jared Jones",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Cleveland Guardians",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 5.26,
-        "p_over": 0.2764,
-        "p_under": 0.7236
-      },
-      {
-        "pitcher_name": "Owen Murphy",
-        "team": "Atlanta Braves",
-        "opponent": "Texas Rangers",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 5.14,
-        "p_over": 0.2589,
-        "p_under": 0.7411
-      },
-      {
-        "pitcher_name": "Shane Bieber",
+        "pitcher_name": "Trey Yesavage",
         "team": "Toronto Blue Jays",
         "opponent": "Chicago White Sox",
         "venue": "Rogers Centre",
         "line": 6.5,
-        "lambda_k": 4.88,
-        "p_over": 0.2203,
-        "p_under": 0.7797
+        "lambda_k": 5.22,
+        "p_over": 0.2704,
+        "p_under": 0.7296
+      },
+      {
+        "pitcher_name": "Sonny Gray",
+        "team": "Boston Red Sox",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 4.44,
+        "p_over": 0.1616,
+        "p_under": 0.8384
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 148,
-        "predicted": 0.14,
-        "actual": 0.088
+        "n": 156,
+        "predicted": 0.142,
+        "actual": 0.09
       },
       {
         "range": "0.2-0.4",
-        "n": 201,
-        "predicted": 0.279,
-        "actual": 0.284
+        "n": 212,
+        "predicted": 0.278,
+        "actual": 0.283
       },
       {
         "range": "0.4-0.6",
-        "n": 46,
-        "predicted": 0.476,
-        "actual": 0.565
+        "n": 48,
+        "predicted": 0.477,
+        "actual": 0.583
       },
       {
         "range": "0.6-0.8",
@@ -1036,44 +1010,20 @@
         "date": "2026-07-17",
         "brier": 0.1728,
         "n": 84
+      },
+      {
+        "date": "2026-07-18",
+        "brier": 0.1831,
+        "n": 77
       }
     ]
   },
   "wc": {
-    "today_count": 2,
+    "today_count": 0,
     "total_graded": 30,
     "brier_home": 0.1955,
     "naive_brier": 0.222,
-    "matches_today": [
-      {
-        "home_team": "France",
-        "away_team": "England",
-        "stage": "Match for third place",
-        "xg_home": 1.82,
-        "xg_away": 1.03,
-        "p_home": 0.56,
-        "p_draw": 0.2288,
-        "p_away": 0.2112,
-        "over_2_5": 0.542,
-        "btts": 0.538,
-        "graded": false,
-        "result": null
-      },
-      {
-        "home_team": "Spain",
-        "away_team": "Argentina",
-        "stage": "Final",
-        "xg_home": 1.29,
-        "xg_away": 0.71,
-        "p_home": 0.5026,
-        "p_draw": 0.2911,
-        "p_away": 0.2062,
-        "over_2_5": 0.323,
-        "btts": 0.3687,
-        "graded": false,
-        "result": null
-      }
-    ],
+    "matches_today": [],
     "trend": [
       {
         "date": "2026-06-30",
@@ -1143,85 +1093,12 @@
     ]
   },
   "wc_gs": {
-    "today_count": 8,
+    "today_count": 0,
     "total_graded": 0,
     "since_date": null,
     "brier_score": null,
     "naive_brier": 0.2,
-    "top15_today": [
-      {
-        "player": "Kylian Mbapp\u00e9",
-        "team": "France",
-        "opponent": "England",
-        "match": "France vs England",
-        "tournament_goals": 8,
-        "lambda": 1.031,
-        "p_scores": 0.6432
-      },
-      {
-        "player": "Ousmane Demb\u00e9l\u00e9",
-        "team": "France",
-        "opponent": "England",
-        "match": "France vs England",
-        "tournament_goals": 5,
-        "lambda": 0.921,
-        "p_scores": 0.6019
-      },
-      {
-        "player": "Harry Kane",
-        "team": "England",
-        "opponent": "France",
-        "match": "France vs England",
-        "tournament_goals": 6,
-        "lambda": 0.52,
-        "p_scores": 0.4055
-      },
-      {
-        "player": "Jude Bellingham",
-        "team": "England",
-        "opponent": "France",
-        "match": "France vs England",
-        "tournament_goals": 6,
-        "lambda": 0.52,
-        "p_scores": 0.4055
-      },
-      {
-        "player": "Bradley Barcola",
-        "team": "France",
-        "opponent": "England",
-        "match": "France vs England",
-        "tournament_goals": 2,
-        "lambda": 0.517,
-        "p_scores": 0.4038
-      },
-      {
-        "player": "D\u00e9sir\u00e9 Dou\u00e9",
-        "team": "France",
-        "opponent": "England",
-        "match": "France vs England",
-        "tournament_goals": 1,
-        "lambda": 0.406,
-        "p_scores": 0.3335
-      },
-      {
-        "player": "Marcus Rashford",
-        "team": "England",
-        "opponent": "France",
-        "match": "France vs England",
-        "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
-      },
-      {
-        "player": "Anthony Gordon",
-        "team": "England",
-        "opponent": "France",
-        "match": "France vs England",
-        "tournament_goals": 1,
-        "lambda": 0.231,
-        "p_scores": 0.2061
-      }
-    ],
+    "top15_today": [],
     "calibration": []
   },
   "tennis": {
