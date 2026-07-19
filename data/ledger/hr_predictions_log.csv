@@ -4526,24 +4526,24 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-18,823763,677870,Leo Jiménez,Miami Marlins,Milwaukee Brewers,7,American Family Field,1.08,Shane Drohan,0.1045,0.0298,3.7,0.0,True
 2026-07-18,823763,665923,Esteury Ruiz,Miami Marlins,Milwaukee Brewers,8,American Family Field,1.08,Shane Drohan,0.1023,0.03,3.6,0.0,True
 2026-07-18,823763,691788,Joe Mack,Miami Marlins,Milwaukee Brewers,9,American Family Field,1.08,Shane Drohan,0.1125,0.0341,3.5,0.0,True
-2026-07-19,822786,676391,Ernie Clement,Toronto Blue Jays,Chicago White Sox,1,Rogers Centre,1.05,Sean Burke,0.1149,0.0284,4.3,,False
-2026-07-19,822786,664770,Nathan Lukes,Toronto Blue Jays,Chicago White Sox,2,Rogers Centre,1.05,Sean Burke,0.1321,0.0337,4.2,,False
-2026-07-19,822786,665489,Vladimir Guerrero Jr.,Toronto Blue Jays,Chicago White Sox,3,Rogers Centre,1.05,Sean Burke,0.1084,0.028,4.1,,False
-2026-07-19,822786,672960,Kazuma Okamoto,Toronto Blue Jays,Chicago White Sox,4,Rogers Centre,1.05,Sean Burke,0.1864,0.0516,4.0,,False
-2026-07-19,822786,662139,Daulton Varsho,Toronto Blue Jays,Chicago White Sox,5,Rogers Centre,1.05,Sean Burke,0.1163,0.0317,3.9,,False
-2026-07-19,822786,815873,Sean Keys,Toronto Blue Jays,Chicago White Sox,6,Rogers Centre,1.05,Sean Burke,0.1222,0.0343,3.8,,False
-2026-07-19,822786,678218,Brandon Valenzuela,Toronto Blue Jays,Chicago White Sox,7,Rogers Centre,1.05,Sean Burke,0.1309,0.0379,3.7,,False
-2026-07-19,822786,665926,Andrés Giménez,Toronto Blue Jays,Chicago White Sox,8,Rogers Centre,1.05,Sean Burke,0.0988,0.0289,3.6,,False
-2026-07-19,822786,682729,Jonatan Clase,Toronto Blue Jays,Chicago White Sox,9,Rogers Centre,1.05,Sean Burke,0.1302,0.0399,3.5,,False
-2026-07-19,822786,803011,Sam Antonacci,Chicago White Sox,Toronto Blue Jays,1,Rogers Centre,1.05,Trey Yesavage,0.1263,0.0314,4.3,,False
-2026-07-19,822786,808959,Munetaka Murakami,Chicago White Sox,Toronto Blue Jays,2,Rogers Centre,1.05,Trey Yesavage,0.1715,0.0448,4.2,,False
-2026-07-19,822786,678246,Miguel Vargas,Chicago White Sox,Toronto Blue Jays,3,Rogers Centre,1.05,Trey Yesavage,0.1556,0.0413,4.1,,False
-2026-07-19,822786,695657,Colson Montgomery,Chicago White Sox,Toronto Blue Jays,4,Rogers Centre,1.05,Trey Yesavage,0.1522,0.0413,4.0,,False
-2026-07-19,822786,643217,Andrew Benintendi,Chicago White Sox,Toronto Blue Jays,5,Rogers Centre,1.05,Trey Yesavage,0.1165,0.0318,3.9,,False
-2026-07-19,822786,695731,Braden Montgomery,Chicago White Sox,Toronto Blue Jays,6,Rogers Centre,1.05,Trey Yesavage,0.1072,0.0298,3.8,,False
-2026-07-19,822786,545341,Randal Grichuk,Chicago White Sox,Toronto Blue Jays,7,Rogers Centre,1.05,Trey Yesavage,0.1306,0.0378,3.7,,False
-2026-07-19,822786,671976,Tristan Peters,Chicago White Sox,Toronto Blue Jays,8,Rogers Centre,1.05,Trey Yesavage,0.1012,0.0296,3.6,,False
-2026-07-19,822786,691011,Drew Romo,Chicago White Sox,Toronto Blue Jays,9,Rogers Centre,1.05,Trey Yesavage,0.1063,0.0321,3.5,,False
+2026-07-19,822786,676391,Ernie Clement,Toronto Blue Jays,Chicago White Sox,1,Rogers Centre,1.05,Sean Burke,0.1142,0.0282,4.3,,False
+2026-07-19,822786,664770,Nathan Lukes,Toronto Blue Jays,Chicago White Sox,2,Rogers Centre,1.05,Sean Burke,0.1313,0.0335,4.2,,False
+2026-07-19,822786,665489,Vladimir Guerrero Jr.,Toronto Blue Jays,Chicago White Sox,3,Rogers Centre,1.05,Sean Burke,0.1078,0.0278,4.1,,False
+2026-07-19,822786,672960,Kazuma Okamoto,Toronto Blue Jays,Chicago White Sox,4,Rogers Centre,1.05,Sean Burke,0.1857,0.0514,4.0,,False
+2026-07-19,822786,662139,Daulton Varsho,Toronto Blue Jays,Chicago White Sox,5,Rogers Centre,1.05,Sean Burke,0.1158,0.0316,3.9,,False
+2026-07-19,822786,815873,Sean Keys,Toronto Blue Jays,Chicago White Sox,6,Rogers Centre,1.05,Sean Burke,0.1217,0.0341,3.8,,False
+2026-07-19,822786,678218,Brandon Valenzuela,Toronto Blue Jays,Chicago White Sox,7,Rogers Centre,1.05,Sean Burke,0.1304,0.0378,3.7,,False
+2026-07-19,822786,665926,Andrés Giménez,Toronto Blue Jays,Chicago White Sox,8,Rogers Centre,1.05,Sean Burke,0.0984,0.0288,3.6,,False
+2026-07-19,822786,682729,Jonatan Clase,Toronto Blue Jays,Chicago White Sox,9,Rogers Centre,1.05,Sean Burke,0.1297,0.0397,3.5,,False
+2026-07-19,822786,803011,Sam Antonacci,Chicago White Sox,Toronto Blue Jays,1,Rogers Centre,1.05,Trey Yesavage,0.1254,0.0312,4.3,,False
+2026-07-19,822786,808959,Munetaka Murakami,Chicago White Sox,Toronto Blue Jays,2,Rogers Centre,1.05,Trey Yesavage,0.1704,0.0445,4.2,,False
+2026-07-19,822786,678246,Miguel Vargas,Chicago White Sox,Toronto Blue Jays,3,Rogers Centre,1.05,Trey Yesavage,0.1546,0.041,4.1,,False
+2026-07-19,822786,695657,Colson Montgomery,Chicago White Sox,Toronto Blue Jays,4,Rogers Centre,1.05,Trey Yesavage,0.1514,0.041,4.0,,False
+2026-07-19,822786,643217,Andrew Benintendi,Chicago White Sox,Toronto Blue Jays,5,Rogers Centre,1.05,Trey Yesavage,0.1159,0.0316,3.9,,False
+2026-07-19,822786,695731,Braden Montgomery,Chicago White Sox,Toronto Blue Jays,6,Rogers Centre,1.05,Trey Yesavage,0.1066,0.0297,3.8,,False
+2026-07-19,822786,545341,Randal Grichuk,Chicago White Sox,Toronto Blue Jays,7,Rogers Centre,1.05,Trey Yesavage,0.1299,0.0376,3.7,,False
+2026-07-19,822786,671976,Tristan Peters,Chicago White Sox,Toronto Blue Jays,8,Rogers Centre,1.05,Trey Yesavage,0.1007,0.0295,3.6,,False
+2026-07-19,822786,691011,Drew Romo,Chicago White Sox,Toronto Blue Jays,9,Rogers Centre,1.05,Trey Yesavage,0.1058,0.032,3.5,,False
 2026-07-19,823523,663757,Trent Grisham,New York Yankees,Los Angeles Dodgers,1,Yankee Stadium,1.18,Yoshinobu Yamamoto,0.1598,0.0405,4.3,,False
 2026-07-19,823523,700250,Ben Rice,New York Yankees,Los Angeles Dodgers,2,Yankee Stadium,1.18,Yoshinobu Yamamoto,0.2408,0.0656,4.2,,False
 2026-07-19,823523,691176,Jasson Domínguez,New York Yankees,Los Angeles Dodgers,3,Yankee Stadium,1.18,Yoshinobu Yamamoto,0.1455,0.0383,4.1,,False
