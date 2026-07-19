@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-19",
   "hits": {
-    "today_count": 180,
+    "today_count": 270,
     "total_graded": 4670,
     "since_date": "2026-06-20",
     "brier_score": 0.2358,
@@ -59,6 +59,14 @@
         "p_hit": 0.7199
       },
       {
+        "player_name": "Gabriel Moreno",
+        "team": "Arizona Diamondbacks",
+        "opponent_pitcher": "Andre Pallante",
+        "venue": "Chase Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7134
+      },
+      {
         "player_name": "Jonathan Aranda",
         "team": "Tampa Bay Rays",
         "opponent_pitcher": "Sonny Gray",
@@ -75,20 +83,12 @@
         "p_hit": 0.7084
       },
       {
-        "player_name": "Sal Stewart",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hit": 0.7015
-      },
-      {
-        "player_name": "Jake Mangum",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Progressive Field",
+        "player_name": "Kevin McGonigle",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Angel Stadium",
         "lineup_spot": 1,
-        "p_hit": 0.697
+        "p_hit": 0.7032
       }
     ],
     "calibration": [
@@ -430,7 +430,7 @@
     ]
   },
   "hr": {
-    "today_count": 180,
+    "today_count": 270,
     "total_graded": 4517,
     "since_date": "2026-06-21",
     "brier_score": 0.1092,
@@ -479,6 +479,14 @@
         "p_hr": 0.2275
       },
       {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2258
+      },
+      {
         "player_name": "JJ Bleday",
         "team": "Cincinnati Reds",
         "opponent_pitcher": "Ryan Feltner",
@@ -509,14 +517,6 @@
         "venue": "Truist Park",
         "lineup_spot": 3,
         "p_hr": 0.221
-      },
-      {
-        "player_name": "Spencer Steer",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hr": 0.2173
       }
     ],
     "calibration": [
@@ -840,12 +840,12 @@
     ]
   },
   "k": {
-    "today_count": 21,
+    "today_count": 31,
     "total_graded": 419,
     "since_date": "2026-06-27",
     "brier_score": 0.1623,
     "naive_brier": 0.25,
-    "avg_lambda": 5.31,
+    "avg_lambda": 5.15,
     "over_rate": 0.251,
     "top10_today": [
       {
@@ -899,6 +899,16 @@
         "p_under": 0.5749
       },
       {
+        "pitcher_name": "Casey Mize",
+        "team": "Detroit Tigers",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 6.02,
+        "p_over": 0.3968,
+        "p_under": 0.6032
+      },
+      {
         "pitcher_name": "Cam Schlittler",
         "team": "New York Yankees",
         "opponent": "Los Angeles Dodgers",
@@ -919,34 +929,24 @@
         "p_under": 0.6156
       },
       {
-        "pitcher_name": "Noah Cameron",
-        "team": "Kansas City Royals",
-        "opponent": "San Diego Padres",
-        "venue": "Kauffman Stadium",
+        "pitcher_name": "Logan Gilbert",
+        "team": "Seattle Mariners",
+        "opponent": "San Francisco Giants",
+        "venue": "T-Mobile Park",
         "line": 6.5,
-        "lambda_k": 5.3,
-        "p_over": 0.2823,
-        "p_under": 0.7177
+        "lambda_k": 5.77,
+        "p_over": 0.357,
+        "p_under": 0.643
       },
       {
-        "pitcher_name": "Eury P\u00e9rez",
-        "team": "Miami Marlins",
-        "opponent": "Milwaukee Brewers",
-        "venue": "American Family Field",
+        "pitcher_name": "Foster Griffin",
+        "team": "Washington Nationals",
+        "opponent": "Athletics",
+        "venue": "Sutter Health Park",
         "line": 6.5,
-        "lambda_k": 5.21,
-        "p_over": 0.2686,
-        "p_under": 0.7314
-      },
-      {
-        "pitcher_name": "Trey Yesavage",
-        "team": "Toronto Blue Jays",
-        "opponent": "Chicago White Sox",
-        "venue": "Rogers Centre",
-        "line": 6.5,
-        "lambda_k": 5.17,
-        "p_over": 0.2629,
-        "p_under": 0.7371
+        "lambda_k": 5.53,
+        "p_over": 0.3187,
+        "p_under": 0.6813
       }
     ],
     "calibration": [
