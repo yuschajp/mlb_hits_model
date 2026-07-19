@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-19",
   "hits": {
-    "today_count": 126,
+    "today_count": 180,
     "total_graded": 4670,
     "since_date": "2026-06-20",
     "brier_score": 0.2358,
@@ -11,12 +11,52 @@
     "actual_hit_rate": 0.6099,
     "top10_today": [
       {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Hunter Greene",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7638
+      },
+      {
+        "player_name": "TJ Rumfield",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Hunter Greene",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7575
+      },
+      {
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7328
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Hunter Greene",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.727
+      },
+      {
         "player_name": "Yandy D\u00edaz",
         "team": "Tampa Bay Rays",
         "opponent_pitcher": "Sonny Gray",
         "venue": "Fenway Park",
         "lineup_spot": 1,
         "p_hit": 0.7265
+      },
+      {
+        "player_name": "Xavier Edwards",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7199
       },
       {
         "player_name": "Jonathan Aranda",
@@ -27,68 +67,28 @@
         "p_hit": 0.709
       },
       {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7084
+      },
+      {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.7015
+      },
+      {
         "player_name": "Jake Mangum",
         "team": "Pittsburgh Pirates",
         "opponent_pitcher": "Joey Cantillo",
         "venue": "Progressive Field",
         "lineup_spot": 1,
         "p_hit": 0.697
-      },
-      {
-        "player_name": "A.J. Ewing",
-        "team": "New York Mets",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hit": 0.6965
-      },
-      {
-        "player_name": "Fernando Tatis Jr.",
-        "team": "San Diego Padres",
-        "opponent_pitcher": "Noah Cameron",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 1,
-        "p_hit": 0.6957
-      },
-      {
-        "player_name": "Ernie Clement",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Rogers Centre",
-        "lineup_spot": 1,
-        "p_hit": 0.6895
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hit": 0.6881
-      },
-      {
-        "player_name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Nathan Eovaldi",
-        "venue": "Truist Park",
-        "lineup_spot": 4,
-        "p_hit": 0.6832
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Sonny Gray",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hit": 0.6824
-      },
-      {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Progressive Field",
-        "lineup_spot": 3,
-        "p_hit": 0.6789
       }
     ],
     "calibration": [
@@ -430,7 +430,7 @@
     ]
   },
   "hr": {
-    "today_count": 126,
+    "today_count": 180,
     "total_graded": 4517,
     "since_date": "2026-06-21",
     "brier_score": 0.1092,
@@ -447,12 +447,60 @@
         "p_hr": 0.2408
       },
       {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Hunter Greene",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2336
+      },
+      {
+        "player_name": "Heriberto Hern\u00e1ndez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "American Family Field",
+        "lineup_spot": 2,
+        "p_hr": 0.233
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2289
+      },
+      {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2275
+      },
+      {
+        "player_name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2258
+      },
+      {
         "player_name": "Joc Pederson",
         "team": "Texas Rangers",
         "opponent_pitcher": "Grant Holmes",
         "venue": "Truist Park",
         "lineup_spot": 1,
         "p_hr": 0.2237
+      },
+      {
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2225
       },
       {
         "player_name": "Matt Olson",
@@ -463,60 +511,12 @@
         "p_hr": 0.221
       },
       {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Nolan McLean",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2076
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Alan Rangel",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.203
-      },
-      {
-        "player_name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1979
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Sonny Gray",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1941
-      },
-      {
-        "player_name": "Wyatt Langford",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Grant Holmes",
-        "venue": "Truist Park",
-        "lineup_spot": 2,
-        "p_hr": 0.188
-      },
-      {
-        "player_name": "Kazuma Okamoto",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Rogers Centre",
+        "player_name": "Spencer Steer",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Coors Field",
         "lineup_spot": 4,
-        "p_hr": 0.1864
-      },
-      {
-        "player_name": "Drake Baldwin",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Nathan Eovaldi",
-        "venue": "Truist Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1821
+        "p_hr": 0.2173
       }
     ],
     "calibration": [
@@ -840,14 +840,24 @@
     ]
   },
   "k": {
-    "today_count": 16,
+    "today_count": 21,
     "total_graded": 419,
     "since_date": "2026-06-27",
     "brier_score": 0.1623,
     "naive_brier": 0.25,
-    "avg_lambda": 5.36,
+    "avg_lambda": 5.32,
     "over_rate": 0.251,
     "top10_today": [
+      {
+        "pitcher_name": "Hunter Greene",
+        "team": "Cincinnati Reds",
+        "opponent": "Colorado Rockies",
+        "venue": "Coors Field",
+        "line": 6.5,
+        "lambda_k": 6.51,
+        "p_over": 0.4755,
+        "p_under": 0.5245
+      },
       {
         "pitcher_name": "Nolan McLean",
         "team": "New York Mets",
@@ -934,19 +944,9 @@
         "opponent": "Chicago White Sox",
         "venue": "Rogers Centre",
         "line": 6.5,
-        "lambda_k": 5.22,
-        "p_over": 0.2704,
-        "p_under": 0.7296
-      },
-      {
-        "pitcher_name": "Eury P\u00e9rez",
-        "team": "Miami Marlins",
-        "opponent": "Milwaukee Brewers",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 5.21,
-        "p_over": 0.2686,
-        "p_under": 0.7314
+        "lambda_k": 5.23,
+        "p_over": 0.2724,
+        "p_under": 0.7276
       }
     ],
     "calibration": [
