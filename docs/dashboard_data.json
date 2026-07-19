@@ -845,7 +845,7 @@
     "since_date": "2026-06-27",
     "brier_score": 0.1623,
     "naive_brier": 0.25,
-    "avg_lambda": 5.32,
+    "avg_lambda": 5.31,
     "over_rate": 0.251,
     "top10_today": [
       {
@@ -919,16 +919,6 @@
         "p_under": 0.6156
       },
       {
-        "pitcher_name": "Sean Burke",
-        "team": "Chicago White Sox",
-        "opponent": "Toronto Blue Jays",
-        "venue": "Rogers Centre",
-        "line": 6.5,
-        "lambda_k": 5.32,
-        "p_over": 0.2857,
-        "p_under": 0.7143
-      },
-      {
         "pitcher_name": "Noah Cameron",
         "team": "Kansas City Royals",
         "opponent": "San Diego Padres",
@@ -939,14 +929,24 @@
         "p_under": 0.7177
       },
       {
+        "pitcher_name": "Eury P\u00e9rez",
+        "team": "Miami Marlins",
+        "opponent": "Milwaukee Brewers",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.21,
+        "p_over": 0.2686,
+        "p_under": 0.7314
+      },
+      {
         "pitcher_name": "Trey Yesavage",
         "team": "Toronto Blue Jays",
         "opponent": "Chicago White Sox",
         "venue": "Rogers Centre",
         "line": 6.5,
-        "lambda_k": 5.23,
-        "p_over": 0.2724,
-        "p_under": 0.7276
+        "lambda_k": 5.17,
+        "p_over": 0.2629,
+        "p_under": 0.7371
       }
     ],
     "calibration": [
