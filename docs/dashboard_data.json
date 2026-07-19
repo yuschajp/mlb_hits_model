@@ -840,12 +840,12 @@
     ]
   },
   "k": {
-    "today_count": 5,
+    "today_count": 6,
     "total_graded": 419,
     "since_date": "2026-06-27",
     "brier_score": 0.1623,
     "naive_brier": 0.25,
-    "avg_lambda": 5.48,
+    "avg_lambda": 5.38,
     "over_rate": 0.251,
     "top10_today": [
       {
@@ -887,6 +887,16 @@
         "lambda_k": 5.22,
         "p_over": 0.2704,
         "p_under": 0.7296
+      },
+      {
+        "pitcher_name": "Alan Rangel",
+        "team": "Philadelphia Phillies",
+        "opponent": "New York Mets",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 4.92,
+        "p_over": 0.2263,
+        "p_under": 0.7737
       },
       {
         "pitcher_name": "Sonny Gray",
