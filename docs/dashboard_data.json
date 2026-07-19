@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-19",
   "hits": {
-    "today_count": 36,
+    "today_count": 126,
     "total_graded": 4670,
     "since_date": "2026-06-20",
     "brier_score": 0.2358,
@@ -11,6 +11,46 @@
     "actual_hit_rate": 0.6099,
     "top10_today": [
       {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Sonny Gray",
+        "venue": "Fenway Park",
+        "lineup_spot": 1,
+        "p_hit": 0.7265
+      },
+      {
+        "player_name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Sonny Gray",
+        "venue": "Fenway Park",
+        "lineup_spot": 2,
+        "p_hit": 0.709
+      },
+      {
+        "player_name": "Jake Mangum",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Joey Cantillo",
+        "venue": "Progressive Field",
+        "lineup_spot": 1,
+        "p_hit": 0.697
+      },
+      {
+        "player_name": "A.J. Ewing",
+        "team": "New York Mets",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hit": 0.6965
+      },
+      {
+        "player_name": "Fernando Tatis Jr.",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Noah Cameron",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 1,
+        "p_hit": 0.6957
+      },
+      {
         "player_name": "Ernie Clement",
         "team": "Toronto Blue Jays",
         "opponent_pitcher": "Sean Burke",
@@ -19,76 +59,36 @@
         "p_hit": 0.6895
       },
       {
-        "player_name": "Nathan Lukes",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Rogers Centre",
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 2,
-        "p_hit": 0.6571
+        "p_hit": 0.6881
       },
       {
-        "player_name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 1,
-        "p_hit": 0.6492
-      },
-      {
-        "player_name": "Freddie Freeman",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 3,
-        "p_hit": 0.6458
-      },
-      {
-        "player_name": "Vladimir Guerrero Jr.",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Rogers Centre",
-        "lineup_spot": 3,
-        "p_hit": 0.6347
-      },
-      {
-        "player_name": "Andy Pages",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.6268
-      },
-      {
-        "player_name": "Sam Antonacci",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Trey Yesavage",
-        "venue": "Rogers Centre",
-        "lineup_spot": 1,
-        "p_hit": 0.6256
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Yoshinobu Yamamoto",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hit": 0.6249
-      },
-      {
-        "player_name": "Kazuma Okamoto",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Rogers Centre",
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Truist Park",
         "lineup_spot": 4,
-        "p_hit": 0.6081
+        "p_hit": 0.6832
       },
       {
-        "player_name": "Trent Grisham",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Yoshinobu Yamamoto",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 1,
-        "p_hit": 0.596
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Sonny Gray",
+        "venue": "Fenway Park",
+        "lineup_spot": 3,
+        "p_hit": 0.6824
+      },
+      {
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Joey Cantillo",
+        "venue": "Progressive Field",
+        "lineup_spot": 3,
+        "p_hit": 0.6789
       }
     ],
     "calibration": [
@@ -430,7 +430,7 @@
     ]
   },
   "hr": {
-    "today_count": 36,
+    "today_count": 126,
     "total_graded": 4517,
     "since_date": "2026-06-21",
     "brier_score": 0.1092,
@@ -447,12 +447,60 @@
         "p_hr": 0.2408
       },
       {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "Truist Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2237
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.221
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Nolan McLean",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2076
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Alan Rangel",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.203
+      },
+      {
         "player_name": "Shohei Ohtani",
         "team": "Los Angeles Dodgers",
         "opponent_pitcher": "Cam Schlittler",
         "venue": "Yankee Stadium",
         "lineup_spot": 1,
         "p_hr": 0.1979
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Sonny Gray",
+        "venue": "Fenway Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1941
+      },
+      {
+        "player_name": "Wyatt Langford",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hr": 0.188
       },
       {
         "player_name": "Kazuma Okamoto",
@@ -463,60 +511,12 @@
         "p_hr": 0.1864
       },
       {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Trey Yesavage",
-        "venue": "Rogers Centre",
-        "lineup_spot": 2,
-        "p_hr": 0.1715
-      },
-      {
-        "player_name": "Trent Grisham",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Yoshinobu Yamamoto",
-        "venue": "Yankee Stadium",
+        "player_name": "Drake Baldwin",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Truist Park",
         "lineup_spot": 1,
-        "p_hr": 0.1598
-      },
-      {
-        "player_name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Trey Yesavage",
-        "venue": "Rogers Centre",
-        "lineup_spot": 3,
-        "p_hr": 0.1556
-      },
-      {
-        "player_name": "Max Muncy",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.155
-      },
-      {
-        "player_name": "Colson Montgomery",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Trey Yesavage",
-        "venue": "Rogers Centre",
-        "lineup_spot": 4,
-        "p_hr": 0.1522
-      },
-      {
-        "player_name": "Mookie Betts",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.1512
-      },
-      {
-        "player_name": "Andy Pages",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.1494
+        "p_hr": 0.1821
       }
     ],
     "calibration": [
@@ -840,14 +840,24 @@
     ]
   },
   "k": {
-    "today_count": 6,
+    "today_count": 16,
     "total_graded": 419,
     "since_date": "2026-06-27",
     "brier_score": 0.1623,
     "naive_brier": 0.25,
-    "avg_lambda": 5.38,
+    "avg_lambda": 5.36,
     "over_rate": 0.251,
     "top10_today": [
+      {
+        "pitcher_name": "Nolan McLean",
+        "team": "New York Mets",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 6.44,
+        "p_over": 0.4638,
+        "p_under": 0.5362
+      },
       {
         "pitcher_name": "Yoshinobu Yamamoto",
         "team": "Los Angeles Dodgers",
@@ -857,6 +867,26 @@
         "lambda_k": 6.42,
         "p_over": 0.4611,
         "p_under": 0.5389
+      },
+      {
+        "pitcher_name": "Nathan Eovaldi",
+        "team": "Texas Rangers",
+        "opponent": "Atlanta Braves",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 6.22,
+        "p_over": 0.4293,
+        "p_under": 0.5707
+      },
+      {
+        "pitcher_name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Cleveland Guardians",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 6.2,
+        "p_over": 0.4251,
+        "p_under": 0.5749
       },
       {
         "pitcher_name": "Cam Schlittler",
@@ -869,6 +899,16 @@
         "p_under": 0.6096
       },
       {
+        "pitcher_name": "Joey Cantillo",
+        "team": "Cleveland Guardians",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 5.94,
+        "p_over": 0.3844,
+        "p_under": 0.6156
+      },
+      {
         "pitcher_name": "Sean Burke",
         "team": "Chicago White Sox",
         "opponent": "Toronto Blue Jays",
@@ -877,6 +917,16 @@
         "lambda_k": 5.32,
         "p_over": 0.2857,
         "p_under": 0.7143
+      },
+      {
+        "pitcher_name": "Noah Cameron",
+        "team": "Kansas City Royals",
+        "opponent": "San Diego Padres",
+        "venue": "Kauffman Stadium",
+        "line": 6.5,
+        "lambda_k": 5.3,
+        "p_over": 0.2823,
+        "p_under": 0.7177
       },
       {
         "pitcher_name": "Trey Yesavage",
@@ -889,24 +939,14 @@
         "p_under": 0.7296
       },
       {
-        "pitcher_name": "Alan Rangel",
-        "team": "Philadelphia Phillies",
-        "opponent": "New York Mets",
-        "venue": "Citizens Bank Park",
+        "pitcher_name": "Eury P\u00e9rez",
+        "team": "Miami Marlins",
+        "opponent": "Milwaukee Brewers",
+        "venue": "American Family Field",
         "line": 6.5,
-        "lambda_k": 4.92,
-        "p_over": 0.2263,
-        "p_under": 0.7737
-      },
-      {
-        "pitcher_name": "Sonny Gray",
-        "team": "Boston Red Sox",
-        "opponent": "Tampa Bay Rays",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 4.44,
-        "p_over": 0.1616,
-        "p_under": 0.8384
+        "lambda_k": 5.21,
+        "p_over": 0.2686,
+        "p_under": 0.7314
       }
     ],
     "calibration": [
