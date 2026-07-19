@@ -4733,3 +4733,93 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-19,823523,606192,Teoscar Hernández,Los Angeles Dodgers,New York Yankees,7,Yankee Stadium,1.04,Cam Schlittler,0.54,0.2076,3.7,,False
 2026-07-19,823523,687221,Dalton Rushing,Los Angeles Dodgers,New York Yankees,8,Yankee Stadium,1.04,Cam Schlittler,0.5493,0.2181,3.6,,False
 2026-07-19,823523,669242,Tommy Edman,Los Angeles Dodgers,New York Yankees,9,Yankee Stadium,1.04,Cam Schlittler,0.5916,0.2491,3.5,,False
+2026-07-19,824739,663330,Jahmai Jones,Boston Red Sox,Tampa Bay Rays,1,Fenway Park,1.06,Shane McClanahan,0.6206,0.224,4.3,,False
+2026-07-19,824739,678882,Ceddanne Rafaela,Boston Red Sox,Tampa Bay Rays,2,Fenway Park,1.06,Shane McClanahan,0.662,0.2535,4.2,,False
+2026-07-19,824739,677800,Wilyer Abreu,Boston Red Sox,Tampa Bay Rays,3,Fenway Park,1.06,Shane McClanahan,0.6527,0.253,4.1,,False
+2026-07-19,824739,575929,Willson Contreras,Boston Red Sox,Tampa Bay Rays,4,Fenway Park,1.06,Shane McClanahan,0.645,0.2536,4.0,,False
+2026-07-19,824739,702332,Caleb Durbin,Boston Red Sox,Tampa Bay Rays,5,Fenway Park,1.06,Shane McClanahan,0.6247,0.2464,3.9,,False
+2026-07-19,824739,663853,Romy Gonzalez,Boston Red Sox,Tampa Bay Rays,6,Fenway Park,1.06,Shane McClanahan,0.586,0.2286,3.8,,False
+2026-07-19,824739,655316,Andruw Monasterio,Boston Red Sox,Tampa Bay Rays,7,Fenway Park,1.06,Shane McClanahan,0.5906,0.2368,3.7,,False
+2026-07-19,824739,680776,Jarren Duran,Boston Red Sox,Tampa Bay Rays,8,Fenway Park,1.06,Shane McClanahan,0.5194,0.2013,3.6,,False
+2026-07-19,824739,657136,Connor Wong,Boston Red Sox,Tampa Bay Rays,9,Fenway Park,1.06,Shane McClanahan,0.5969,0.2525,3.5,,False
+2026-07-19,824739,650490,Yandy Díaz,Tampa Bay Rays,Boston Red Sox,1,Fenway Park,1.06,Sonny Gray,0.7265,0.291,4.3,,False
+2026-07-19,824739,666018,Jonathan Aranda,Tampa Bay Rays,Boston Red Sox,2,Fenway Park,1.06,Sonny Gray,0.709,0.2844,4.2,,False
+2026-07-19,824739,691406,Junior Caminero,Tampa Bay Rays,Boston Red Sox,3,Fenway Park,1.06,Sonny Gray,0.6824,0.272,4.1,,False
+2026-07-19,824739,656775,Cedric Mullins,Tampa Bay Rays,Boston Red Sox,4,Fenway Park,1.06,Sonny Gray,0.5969,0.2248,4.0,,False
+2026-07-19,824739,802415,Chandler Simpson,Tampa Bay Rays,Boston Red Sox,5,Fenway Park,1.06,Sonny Gray,0.6779,0.2807,3.9,,False
+2026-07-19,824739,683748,Victor Mesa Jr.,Tampa Bay Rays,Boston Red Sox,6,Fenway Park,1.06,Sonny Gray,0.6033,0.2389,3.8,,False
+2026-07-19,824739,680700,Richie Palacios,Tampa Bay Rays,Boston Red Sox,7,Fenway Park,1.06,Sonny Gray,0.6063,0.2463,3.7,,False
+2026-07-19,824739,670764,Taylor Walls,Tampa Bay Rays,Boston Red Sox,8,Fenway Park,1.06,Sonny Gray,0.5811,0.2367,3.6,,False
+2026-07-19,824739,676439,Hunter Feduccia,Tampa Bay Rays,Boston Red Sox,9,Fenway Park,1.06,Sonny Gray,0.5724,0.2373,3.5,,False
+2026-07-19,823439,607208,Trea Turner,Philadelphia Phillies,New York Mets,1,Citizens Bank Park,1.03,Nolan McLean,0.6337,0.2315,4.3,,False
+2026-07-19,823439,656941,Kyle Schwarber,Philadelphia Phillies,New York Mets,2,Citizens Bank Park,1.03,Nolan McLean,0.6261,0.2319,4.2,,False
+2026-07-19,823439,547180,Bryce Harper,Philadelphia Phillies,New York Mets,3,Citizens Bank Park,1.03,Nolan McLean,0.6326,0.2407,4.1,,False
+2026-07-19,823439,669016,Brandon Marsh,Philadelphia Phillies,New York Mets,4,Citizens Bank Park,1.03,Nolan McLean,0.6296,0.2441,4.0,,False
+2026-07-19,823439,664761,Alec Bohm,Philadelphia Phillies,New York Mets,5,Citizens Bank Park,1.03,Nolan McLean,0.5467,0.2017,3.9,,False
+2026-07-19,823439,681082,Bryson Stott,Philadelphia Phillies,New York Mets,6,Citizens Bank Park,1.03,Nolan McLean,0.5847,0.2279,3.8,,False
+2026-07-19,823439,592663,J.T. Realmuto,Philadelphia Phillies,New York Mets,7,Citizens Bank Park,1.03,Nolan McLean,0.5491,0.2127,3.7,,False
+2026-07-19,823439,687282,Gabriel Rincones Jr.,Philadelphia Phillies,New York Mets,8,Citizens Bank Park,1.03,Nolan McLean,0.5277,0.2059,3.6,,False
+2026-07-19,823439,702222,Justin Crawford,Philadelphia Phillies,New York Mets,9,Citizens Bank Park,1.03,Nolan McLean,0.5776,0.2405,3.5,,False
+2026-07-19,823439,805999,A.J. Ewing,New York Mets,Philadelphia Phillies,1,Citizens Bank Park,1.03,Alan Rangel,0.6965,0.2705,4.3,,False
+2026-07-19,823439,665742,Juan Soto,New York Mets,Philadelphia Phillies,2,Citizens Bank Park,1.03,Alan Rangel,0.6881,0.2703,4.2,,False
+2026-07-19,823439,666182,Bo Bichette,New York Mets,Philadelphia Phillies,3,Citizens Bank Park,1.03,Alan Rangel,0.6551,0.2545,4.1,,False
+2026-07-19,823439,596019,Francisco Lindor,New York Mets,Philadelphia Phillies,4,Citizens Bank Park,1.03,Alan Rangel,0.6025,0.228,4.0,,False
+2026-07-19,823439,701807,Carson Benge,New York Mets,Philadelphia Phillies,5,Citizens Bank Park,1.03,Alan Rangel,0.6495,0.262,3.9,,False
+2026-07-19,823439,676724,Jared Young,New York Mets,Philadelphia Phillies,6,Citizens Bank Park,1.03,Alan Rangel,0.6268,0.2534,3.8,,False
+2026-07-19,823439,543760,Marcus Semien,New York Mets,Philadelphia Phillies,7,Citizens Bank Park,1.03,Alan Rangel,0.5638,0.2211,3.7,,False
+2026-07-19,823439,683146,Brett Baty,New York Mets,Philadelphia Phillies,8,Citizens Bank Park,1.03,Alan Rangel,0.5898,0.242,3.6,,False
+2026-07-19,823439,620443,Luis Torrens,New York Mets,Philadelphia Phillies,9,Citizens Bank Park,1.03,Alan Rangel,0.5732,0.2378,3.5,,False
+2026-07-19,824897,686948,Drake Baldwin,Atlanta Braves,Texas Rangers,1,Truist Park,1.01,Nathan Eovaldi,0.6585,0.2463,4.3,,False
+2026-07-19,824897,645277,Ozzie Albies,Atlanta Braves,Texas Rangers,2,Truist Park,1.01,Nathan Eovaldi,0.6626,0.2539,4.2,,False
+2026-07-19,824897,621566,Matt Olson,Atlanta Braves,Texas Rangers,3,Truist Park,1.01,Nathan Eovaldi,0.6573,0.2558,4.1,,False
+2026-07-19,824897,671739,Michael Harris II,Atlanta Braves,Texas Rangers,4,Truist Park,1.01,Nathan Eovaldi,0.6832,0.2784,4.0,,False
+2026-07-19,824897,643289,Mauricio Dubón,Atlanta Braves,Texas Rangers,5,Truist Park,1.01,Nathan Eovaldi,0.6607,0.2693,3.9,,False
+2026-07-19,824897,642086,Dominic Smith,Atlanta Braves,Texas Rangers,6,Truist Park,1.01,Nathan Eovaldi,0.6234,0.2512,3.8,,False
+2026-07-19,824897,663586,Austin Riley,Atlanta Braves,Texas Rangers,7,Truist Park,1.01,Nathan Eovaldi,0.5724,0.2261,3.7,,False
+2026-07-19,824897,805347,Jim Jarvis,Atlanta Braves,Texas Rangers,8,Truist Park,1.01,Nathan Eovaldi,0.6263,0.265,3.6,,False
+2026-07-19,824897,676551,Brewer Hicklen,Atlanta Braves,Texas Rangers,9,Truist Park,1.01,Nathan Eovaldi,0.5996,0.2542,3.5,,False
+2026-07-19,824897,592626,Joc Pederson,Texas Rangers,Atlanta Braves,1,Truist Park,1.01,Grant Holmes,0.6378,0.2339,4.3,,False
+2026-07-19,824897,694671,Wyatt Langford,Texas Rangers,Atlanta Braves,2,Truist Park,1.01,Grant Holmes,0.6696,0.2583,4.2,,False
+2026-07-19,824897,673962,Josh Jung,Texas Rangers,Atlanta Braves,3,Truist Park,1.01,Grant Holmes,0.6673,0.2622,4.1,,False
+2026-07-19,824897,607043,Brandon Nimmo,Texas Rangers,Atlanta Braves,4,Truist Park,1.01,Grant Holmes,0.6424,0.2519,4.0,,False
+2026-07-19,824897,669394,Jake Burger,Texas Rangers,Atlanta Braves,5,Truist Park,1.01,Grant Holmes,0.5899,0.2257,3.9,,False
+2026-07-19,824897,677649,Ezequiel Duran,Texas Rangers,Atlanta Braves,6,Truist Park,1.01,Grant Holmes,0.6143,0.2456,3.8,,False
+2026-07-19,824897,694497,Evan Carter,Texas Rangers,Atlanta Braves,7,Truist Park,1.01,Grant Holmes,0.5659,0.2223,3.7,,False
+2026-07-19,824897,670032,Nicky Lopez,Texas Rangers,Atlanta Braves,8,Truist Park,1.01,Grant Holmes,0.619,0.2603,3.6,,False
+2026-07-19,824897,543309,Kyle Higashioka,Texas Rangers,Atlanta Braves,9,Truist Park,1.01,Grant Holmes,0.5429,0.2198,3.5,,False
+2026-07-19,824411,680757,Steven Kwan,Cleveland Guardians,Pittsburgh Pirates,1,Progressive Field,0.99,Paul Skenes,0.6315,0.2302,4.3,,False
+2026-07-19,824411,683953,Travis Bazzana,Cleveland Guardians,Pittsburgh Pirates,2,Progressive Field,0.99,Paul Skenes,0.6092,0.2222,4.2,,False
+2026-07-19,824411,800050,Chase DeLauter,Cleveland Guardians,Pittsburgh Pirates,3,Progressive Field,0.99,Paul Skenes,0.6308,0.2396,4.1,,False
+2026-07-19,824411,677587,Brayan Rocchio,Cleveland Guardians,Pittsburgh Pirates,4,Progressive Field,0.99,Paul Skenes,0.621,0.2389,4.0,,False
+2026-07-19,824411,700932,Kyle Manzardo,Cleveland Guardians,Pittsburgh Pirates,5,Progressive Field,0.99,Paul Skenes,0.5326,0.1942,3.9,,False
+2026-07-19,824411,696135,Kahlil Watson,Cleveland Guardians,Pittsburgh Pirates,6,Progressive Field,0.99,Paul Skenes,0.5683,0.2185,3.8,,False
+2026-07-19,824411,672356,Gabriel Arias,Cleveland Guardians,Pittsburgh Pirates,7,Progressive Field,0.99,Paul Skenes,0.5562,0.2167,3.7,,False
+2026-07-19,824411,672275,Patrick Bailey,Cleveland Guardians,Pittsburgh Pirates,8,Progressive Field,0.99,Paul Skenes,0.534,0.2094,3.6,,False
+2026-07-19,824411,690984,Petey Halpin,Cleveland Guardians,Pittsburgh Pirates,9,Progressive Field,0.99,Paul Skenes,0.5327,0.2139,3.5,,False
+2026-07-19,824411,663968,Jake Mangum,Pittsburgh Pirates,Cleveland Guardians,1,Progressive Field,0.99,Joey Cantillo,0.697,0.2707,4.3,,False
+2026-07-19,824411,669707,Jared Triolo,Pittsburgh Pirates,Cleveland Guardians,2,Progressive Field,0.99,Joey Cantillo,0.6411,0.2407,4.2,,False
+2026-07-19,824411,668804,Bryan Reynolds,Pittsburgh Pirates,Cleveland Guardians,3,Progressive Field,0.99,Joey Cantillo,0.6789,0.2698,4.1,,False
+2026-07-19,824411,699013,Esmerlyn Valdez,Pittsburgh Pirates,Cleveland Guardians,4,Progressive Field,0.99,Joey Cantillo,0.6789,0.2755,4.0,,False
+2026-07-19,824411,656811,Ryan O'Hearn,Pittsburgh Pirates,Cleveland Guardians,5,Progressive Field,0.99,Joey Cantillo,0.6402,0.2561,3.9,,False
+2026-07-19,824411,693304,Nick Gonzales,Pittsburgh Pirates,Cleveland Guardians,6,Progressive Field,0.99,Joey Cantillo,0.6695,0.2812,3.8,,False
+2026-07-19,824411,694378,Jacob Gonzalez,Pittsburgh Pirates,Cleveland Guardians,7,Progressive Field,0.99,Joey Cantillo,0.6085,0.2477,3.7,,False
+2026-07-19,824411,680779,Henry Davis,Pittsburgh Pirates,Cleveland Guardians,8,Progressive Field,0.99,Joey Cantillo,0.558,0.2231,3.6,,False
+2026-07-19,824411,695257,Billy Cook,Pittsburgh Pirates,Cleveland Guardians,9,Progressive Field,0.99,Joey Cantillo,0.5625,0.2314,3.5,,False
+2026-07-19,824086,695600,Carter Jensen,Kansas City Royals,San Diego Padres,1,Kauffman Stadium,0.94,Germán Márquez,0.652,0.2424,4.3,,False
+2026-07-19,824086,679845,Nick Loftin,Kansas City Royals,San Diego Padres,2,Kauffman Stadium,0.94,Germán Márquez,0.6309,0.2346,4.2,,False
+2026-07-19,824086,695506,Jac Caglianone,Kansas City Royals,San Diego Padres,3,Kauffman Stadium,0.94,Germán Márquez,0.6432,0.2471,4.1,,False
+2026-07-19,824086,657041,Lane Thomas,Kansas City Royals,San Diego Padres,4,Kauffman Stadium,0.94,Germán Márquez,0.6231,0.2401,4.0,,False
+2026-07-19,824086,686555,Isaac Collins,Kansas City Royals,San Diego Padres,5,Kauffman Stadium,0.94,Germán Márquez,0.6241,0.246,3.9,,False
+2026-07-19,824086,521692,Salvador Perez,Kansas City Royals,San Diego Padres,6,Kauffman Stadium,0.94,Germán Márquez,0.5687,0.2187,3.8,,False
+2026-07-19,824086,668942,Josh Rojas,Kansas City Royals,San Diego Padres,7,Kauffman Stadium,0.94,Germán Márquez,0.5857,0.2339,3.7,,False
+2026-07-19,824086,686475,Tyler Tolbert,Kansas City Royals,San Diego Padres,8,Kauffman Stadium,0.94,Germán Márquez,0.6437,0.2765,3.6,,False
+2026-07-19,824086,571912,Luke Maile,Kansas City Royals,San Diego Padres,9,Kauffman Stadium,0.94,Germán Márquez,0.5729,0.2376,3.5,,False
+2026-07-19,824086,665487,Fernando Tatis Jr.,San Diego Padres,Kansas City Royals,1,Kauffman Stadium,0.94,Noah Cameron,0.6957,0.2699,4.3,,False
+2026-07-19,824086,701538,Jackson Merrill,San Diego Padres,Kansas City Royals,2,Kauffman Stadium,0.94,Noah Cameron,0.6324,0.2355,4.2,,False
+2026-07-19,824086,592518,Manny Machado,San Diego Padres,Kansas City Royals,3,Kauffman Stadium,0.94,Noah Cameron,0.625,0.2362,4.1,,False
+2026-07-19,824086,664034,Ty France,San Diego Padres,Kansas City Royals,4,Kauffman Stadium,0.94,Noah Cameron,0.6784,0.2751,4.0,,False
+2026-07-19,824086,593428,Xander Bogaerts,San Diego Padres,Kansas City Royals,5,Kauffman Stadium,0.94,Noah Cameron,0.6063,0.2354,3.9,,False
+2026-07-19,824086,609280,Miguel Andujar,San Diego Padres,Kansas City Royals,6,Kauffman Stadium,0.94,Noah Cameron,0.64,0.2617,3.8,,False
+2026-07-19,824086,650859,Luis Rengifo,San Diego Padres,Kansas City Royals,7,Kauffman Stadium,0.94,Noah Cameron,0.5803,0.2307,3.7,,False
+2026-07-19,824086,687749,Jase Bowen,San Diego Padres,Kansas City Royals,8,Kauffman Stadium,0.94,Noah Cameron,0.5633,0.2261,3.6,,False
+2026-07-19,824086,669134,Luis Campusano,San Diego Padres,Kansas City Royals,9,Kauffman Stadium,0.94,Noah Cameron,0.6052,0.2577,3.5,,False

@@ -422,5 +422,15 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-19,822786,702056,Trey Yesavage,Toronto Blue Jays,Chicago White Sox,Rogers Centre,1.0,6.5,8.28,7.244,0.2373,75.0,27.3,5.36,5.218,0.2704,0.7296,,False
 2026-07-19,823523,808967,Yoshinobu Yamamoto,Los Angeles Dodgers,New York Yankees,Yankee Stadium,0.96,6.5,8.62,9.36,0.2406,110.7,25.0,6.51,6.422,0.4611,0.5389,,False
 2026-07-19,823523,693645,Cam Schlittler,New York Yankees,Los Angeles Dodgers,Yankee Stadium,1.04,6.5,10.39,12.438,0.2034,118.7,29.7,5.93,5.979,0.3904,0.6096,,False
+2026-07-19,824739,663556,Shane McClanahan,Tampa Bay Rays,Boston Red Sox,Fenway Park,0.97,6.5,8.581,6.545,0.219,86.0,22.0,5.06,4.638,0.1871,0.8129,,False
 2026-07-19,824739,543243,Sonny Gray,Boston Red Sox,Tampa Bay Rays,Fenway Park,1.06,6.5,7.996,9.18,0.1888,95.7,33.3,5.63,4.442,0.1616,0.8384,,False
+2026-07-19,823439,690997,Nolan McLean,New York Mets,Philadelphia Phillies,Citizens Bank Park,0.97,6.5,10.481,10.742,0.2351,107.3,31.0,5.65,6.438,0.4638,0.5362,,False
 2026-07-19,823439,660604,Alan Rangel,Philadelphia Phillies,New York Mets,Citizens Bank Park,1.03,6.5,10.242,9.368,0.2203,19.3,16.3,3.87,4.921,0.2263,0.7737,,False
+2026-07-19,824897,543135,Nathan Eovaldi,Texas Rangers,Atlanta Braves,Truist Park,1.02,6.5,9.701,12.484,0.2118,111.3,31.0,6.19,6.222,0.4293,0.5707,,False
+2026-07-19,824897,656550,Grant Holmes,Atlanta Braves,Texas Rangers,Truist Park,1.01,6.5,7.832,7.403,0.2234,87.3,20.7,4.85,4.552,0.1756,0.8244,,False
+2026-07-19,824411,694973,Paul Skenes,Pittsburgh Pirates,Cleveland Guardians,Progressive Field,0.97,6.5,10.8,11.412,0.2257,108.3,32.3,5.42,6.196,0.4251,0.5749,,False
+2026-07-19,824411,676282,Joey Cantillo,Cleveland Guardians,Pittsburgh Pirates,Progressive Field,0.99,6.5,9.356,11.793,0.239,101.0,29.0,5.05,5.942,0.3844,0.6156,,False
+2026-07-19,824086,608566,Germán Márquez,San Diego Padres,Kansas City Royals,Kauffman Stadium,0.92,6.5,6.048,6.75,0.2141,41.7,12.0,4.63,4.159,0.1278,0.8722,,False
+2026-07-19,824086,702070,Noah Cameron,Kansas City Royals,San Diego Padres,Kauffman Stadium,0.94,6.5,8.561,9.467,0.2261,95.7,25.7,5.31,5.296,0.2823,0.7177,,False
+2026-07-19,823764,691587,Eury Pérez,Miami Marlins,Milwaukee Brewers,American Family Field,0.93,6.5,9.981,9.0,0.2107,85.7,23.0,5.35,5.206,0.2686,0.7314,,False
+2026-07-19,824653,805673,Zebby Matthews,Minnesota Twins,Chicago Cubs,Wrigley Field,0.98,6.5,7.254,7.043,0.2148,67.0,30.7,6.09,4.816,0.2115,0.7885,,False
