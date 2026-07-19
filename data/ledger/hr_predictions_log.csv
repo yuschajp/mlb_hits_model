@@ -4706,3 +4706,93 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-19,824330,663886,Tyler Stephenson,Cincinnati Reds,Colorado Rockies,7,Coors Field,1.28,Ryan Feltner,0.1552,0.0456,3.7,,False
 2026-07-19,824330,670770,TJ Friedl,Cincinnati Reds,Colorado Rockies,8,Coors Field,1.28,Ryan Feltner,0.1433,0.0429,3.6,,False
 2026-07-19,824330,667472,Dane Myers,Cincinnati Reds,Colorado Rockies,9,Coors Field,1.28,Ryan Feltner,0.1461,0.0451,3.5,,False
+2026-07-19,823521,663757,Trent Grisham,New York Yankees,Los Angeles Dodgers,1,Yankee Stadium,1.18,Will Klein,0.1448,0.0364,4.3,,False
+2026-07-19,823521,700250,Ben Rice,New York Yankees,Los Angeles Dodgers,2,Yankee Stadium,1.18,Will Klein,0.2055,0.0548,4.2,,False
+2026-07-19,823521,502671,Paul Goldschmidt,New York Yankees,Los Angeles Dodgers,3,Yankee Stadium,1.18,Will Klein,0.1497,0.0396,4.1,,False
+2026-07-19,823521,641355,Cody Bellinger,New York Yankees,Los Angeles Dodgers,4,Yankee Stadium,1.18,Will Klein,0.1028,0.0271,4.0,,False
+2026-07-19,823521,691176,Jasson Domínguez,New York Yankees,Los Angeles Dodgers,5,Yankee Stadium,1.18,Will Klein,0.1172,0.032,3.9,,False
+2026-07-19,823521,665862,Jazz Chisholm Jr.,New York Yankees,Los Angeles Dodgers,6,Yankee Stadium,1.18,Will Klein,0.1217,0.0341,3.8,,False
+2026-07-19,823521,683011,Anthony Volpe,New York Yankees,Los Angeles Dodgers,7,Yankee Stadium,1.18,Will Klein,0.0841,0.0237,3.7,,False
+2026-07-19,823521,669224,Austin Wells,New York Yankees,Los Angeles Dodgers,8,Yankee Stadium,1.18,Will Klein,0.1059,0.0311,3.6,,False
+2026-07-19,823521,676609,José Caballero,New York Yankees,Los Angeles Dodgers,9,Yankee Stadium,1.18,Will Klein,0.1082,0.0327,3.5,,False
+2026-07-19,823521,660271,Shohei Ohtani,Los Angeles Dodgers,New York Yankees,1,Yankee Stadium,1.18,Ryan Yarbrough,0.1941,0.0502,4.3,,False
+2026-07-19,823521,681624,Andy Pages,Los Angeles Dodgers,New York Yankees,2,Yankee Stadium,1.18,Ryan Yarbrough,0.1447,0.0372,4.2,,False
+2026-07-19,823521,518692,Freddie Freeman,Los Angeles Dodgers,New York Yankees,3,Yankee Stadium,1.18,Ryan Yarbrough,0.1391,0.0365,4.1,,False
+2026-07-19,823521,605141,Mookie Betts,Los Angeles Dodgers,New York Yankees,4,Yankee Stadium,1.18,Ryan Yarbrough,0.141,0.038,4.0,,False
+2026-07-19,823521,663656,Kyle Tucker,Los Angeles Dodgers,New York Yankees,5,Yankee Stadium,1.18,Ryan Yarbrough,0.1034,0.028,3.9,,False
+2026-07-19,823521,500743,Miguel Rojas,Los Angeles Dodgers,New York Yankees,6,Yankee Stadium,1.18,Ryan Yarbrough,0.117,0.0327,3.8,,False
+2026-07-19,823521,606192,Teoscar Hernández,Los Angeles Dodgers,New York Yankees,7,Yankee Stadium,1.18,Ryan Yarbrough,0.1172,0.0337,3.7,,False
+2026-07-19,823521,571970,Max Muncy,Los Angeles Dodgers,New York Yankees,8,Yankee Stadium,1.18,Ryan Yarbrough,0.1377,0.0411,3.6,,False
+2026-07-19,823521,672613,Eliezer Alfonzo,Los Angeles Dodgers,New York Yankees,9,Yankee Stadium,1.18,Ryan Yarbrough,0.1085,0.0328,3.5,,False
+2026-07-19,824978,805779,Jacob Wilson,Athletics,Washington Nationals,1,Sutter Health Park,1.0,Foster Griffin,0.1344,0.0336,4.3,,False
+2026-07-19,824978,691016,Tyler Soderstrom,Athletics,Washington Nationals,2,Sutter Health Park,1.0,Foster Griffin,0.1739,0.0455,4.2,,False
+2026-07-19,824978,669127,Shea Langeliers,Athletics,Washington Nationals,3,Sutter Health Park,1.0,Foster Griffin,0.1779,0.0478,4.1,,False
+2026-07-19,824978,641680,Jonah Heim,Athletics,Washington Nationals,4,Sutter Health Park,1.0,Foster Griffin,0.164,0.0448,4.0,,False
+2026-07-19,824978,811965,Joshua Kuroda-Grauer,Athletics,Washington Nationals,5,Sutter Health Park,1.0,Foster Griffin,0.1121,0.0305,3.9,,False
+2026-07-19,824978,687515,Colby Thomas,Athletics,Washington Nationals,6,Sutter Health Park,1.0,Foster Griffin,0.1372,0.0388,3.8,,False
+2026-07-19,824978,695720,Tommy White,Athletics,Washington Nationals,7,Sutter Health Park,1.0,Foster Griffin,0.1228,0.0354,3.7,,False
+2026-07-19,824978,703607,Henry Bolte,Athletics,Washington Nationals,8,Sutter Health Park,1.0,Foster Griffin,0.1075,0.0316,3.6,,False
+2026-07-19,824978,675961,Alika Williams,Athletics,Washington Nationals,9,Sutter Health Park,1.0,Foster Griffin,0.113,0.0343,3.5,,False
+2026-07-19,824978,695578,James Wood,Washington Nationals,Athletics,1,Sutter Health Park,1.0,Jacob Lopez,0.2258,0.0595,4.3,,False
+2026-07-19,824978,678554,Curtis Mead,Washington Nationals,Athletics,2,Sutter Health Park,1.0,Jacob Lopez,0.198,0.0525,4.2,,False
+2026-07-19,824978,665953,Andrés Chaparro,Washington Nationals,Athletics,3,Sutter Health Park,1.0,Jacob Lopez,0.1641,0.0437,4.1,,False
+2026-07-19,824978,682928,CJ Abrams,Washington Nationals,Athletics,4,Sutter Health Park,1.0,Jacob Lopez,0.1881,0.0521,4.0,,False
+2026-07-19,824978,686611,Dylan Crews,Washington Nationals,Athletics,5,Sutter Health Park,1.0,Jacob Lopez,0.1459,0.0404,3.9,,False
+2026-07-19,824978,695670,Harry Ford,Washington Nationals,Athletics,6,Sutter Health Park,1.0,Jacob Lopez,0.1446,0.0411,3.8,,False
+2026-07-19,824978,695734,Daylen Lile,Washington Nationals,Athletics,7,Sutter Health Park,1.0,Jacob Lopez,0.1251,0.0361,3.7,,False
+2026-07-19,824978,696285,Jacob Young,Washington Nationals,Athletics,8,Sutter Health Park,1.0,Jacob Lopez,0.1144,0.0338,3.6,,False
+2026-07-19,824978,683083,Nasim Nuñez,Washington Nationals,Athletics,9,Sutter Health Park,1.0,Jacob Lopez,0.0948,0.0285,3.5,,False
+2026-07-19,824007,687263,Zach Neto,Los Angeles Angels,Detroit Tigers,1,Angel Stadium,0.97,Casey Mize,0.1177,0.0291,4.3,,False
+2026-07-19,824007,545361,Mike Trout,Los Angeles Angels,Detroit Tigers,2,Angel Stadium,0.97,Casey Mize,0.1205,0.0306,4.2,,False
+2026-07-19,824007,694384,Nolan Schanuel,Los Angeles Angels,Detroit Tigers,3,Angel Stadium,0.97,Casey Mize,0.08,0.0203,4.1,,False
+2026-07-19,824007,624585,Jorge Soler,Los Angeles Angels,Detroit Tigers,4,Angel Stadium,0.97,Casey Mize,0.0977,0.0257,4.0,,False
+2026-07-19,824007,687093,Vaughn Grissom,Los Angeles Angels,Detroit Tigers,5,Angel Stadium,0.97,Casey Mize,0.0845,0.0226,3.9,,False
+2026-07-19,824007,666139,Josh Lowe,Los Angeles Angels,Detroit Tigers,6,Angel Stadium,0.97,Casey Mize,0.1003,0.0278,3.8,,False
+2026-07-19,824007,666176,Jo Adell,Los Angeles Angels,Detroit Tigers,7,Angel Stadium,0.97,Casey Mize,0.0828,0.0234,3.7,,False
+2026-07-19,824007,672724,Oswald Peraza,Los Angeles Angels,Detroit Tigers,8,Angel Stadium,0.97,Casey Mize,0.0701,0.0202,3.6,,False
+2026-07-19,824007,623168,Tyler Heineman,Los Angeles Angels,Detroit Tigers,9,Angel Stadium,0.97,Casey Mize,0.0708,0.021,3.5,,False
+2026-07-19,824007,805808,Kevin McGonigle,Detroit Tigers,Los Angeles Angels,1,Angel Stadium,0.97,Ryan Johnson,0.1546,0.0391,4.3,,False
+2026-07-19,824007,693307,Dillon Dingler,Detroit Tigers,Los Angeles Angels,2,Angel Stadium,0.97,Ryan Johnson,0.2029,0.054,4.2,,False
+2026-07-19,824007,690993,Colt Keith,Detroit Tigers,Los Angeles Angels,3,Angel Stadium,0.97,Ryan Johnson,0.1715,0.0459,4.1,,False
+2026-07-19,824007,682985,Riley Greene,Detroit Tigers,Los Angeles Angels,4,Angel Stadium,0.97,Ryan Johnson,0.1791,0.0493,4.0,,False
+2026-07-19,824007,679529,Spencer Torkelson,Detroit Tigers,Los Angeles Angels,5,Angel Stadium,0.97,Ryan Johnson,0.2018,0.0578,3.9,,False
+2026-07-19,824007,681481,Kerry Carpenter,Detroit Tigers,Los Angeles Angels,6,Angel Stadium,0.97,Ryan Johnson,0.1863,0.0543,3.8,,False
+2026-07-19,824007,701678,Hao-Yu Lee,Detroit Tigers,Los Angeles Angels,7,Angel Stadium,0.97,Ryan Johnson,0.1402,0.0408,3.7,,False
+2026-07-19,824007,681546,James Outman,Detroit Tigers,Los Angeles Angels,8,Angel Stadium,0.97,Ryan Johnson,0.1338,0.0399,3.6,,False
+2026-07-19,824007,668670,Jake Rogers,Detroit Tigers,Los Angeles Angels,9,Angel Stadium,0.97,Ryan Johnson,0.1461,0.0451,3.5,,False
+2026-07-19,823113,641487,J.P. Crawford,Seattle Mariners,San Francisco Giants,1,T-Mobile Park,0.85,Robbie Ray,0.1062,0.0261,4.3,,False
+2026-07-19,823113,677594,Julio Rodríguez,Seattle Mariners,San Francisco Giants,2,T-Mobile Park,0.85,Robbie Ray,0.1281,0.0326,4.2,,False
+2026-07-19,823113,702284,Cole Young,Seattle Mariners,San Francisco Giants,3,T-Mobile Park,0.85,Robbie Ray,0.134,0.0351,4.1,,False
+2026-07-19,823113,668227,Randy Arozarena,Seattle Mariners,San Francisco Giants,4,T-Mobile Park,0.85,Robbie Ray,0.1194,0.0318,4.0,,False
+2026-07-19,823113,663728,Cal Raleigh,Seattle Mariners,San Francisco Giants,5,T-Mobile Park,0.85,Robbie Ray,0.1075,0.0291,3.9,,False
+2026-07-19,823113,647304,Josh Naylor,Seattle Mariners,San Francisco Giants,6,T-Mobile Park,0.85,Robbie Ray,0.0846,0.0232,3.8,,False
+2026-07-19,823113,641598,Mitch Garver,Seattle Mariners,San Francisco Giants,7,T-Mobile Park,0.85,Robbie Ray,0.1065,0.0304,3.7,,False
+2026-07-19,823113,642215,Weston Wilson,Seattle Mariners,San Francisco Giants,8,T-Mobile Park,0.85,Robbie Ray,0.1053,0.0309,3.6,,False
+2026-07-19,823113,806068,Colt Emerson,Seattle Mariners,San Francisco Giants,9,T-Mobile Park,0.85,Robbie Ray,0.101,0.0304,3.5,,False
+2026-07-19,823113,650333,Luis Arraez,San Francisco Giants,Seattle Mariners,1,T-Mobile Park,0.85,Logan Gilbert,0.0827,0.0201,4.3,,False
+2026-07-19,823113,805811,Bryce Eldridge,San Francisco Giants,Seattle Mariners,2,T-Mobile Park,0.85,Logan Gilbert,0.1302,0.0332,4.2,,False
+2026-07-19,823113,669477,Casey Schmitt,San Francisco Giants,Seattle Mariners,3,T-Mobile Park,0.85,Logan Gilbert,0.136,0.0356,4.1,,False
+2026-07-19,823113,646240,Rafael Devers,San Francisco Giants,Seattle Mariners,4,T-Mobile Park,0.85,Logan Gilbert,0.1598,0.0435,4.0,,False
+2026-07-19,823113,671218,Heliot Ramos,San Francisco Giants,Seattle Mariners,5,T-Mobile Park,0.85,Logan Gilbert,0.1137,0.0309,3.9,,False
+2026-07-19,823113,808982,Jung Hoo Lee,San Francisco Giants,Seattle Mariners,6,T-Mobile Park,0.85,Logan Gilbert,0.0771,0.0211,3.8,,False
+2026-07-19,823113,642715,Willy Adames,San Francisco Giants,Seattle Mariners,7,T-Mobile Park,0.85,Logan Gilbert,0.1201,0.0346,3.7,,False
+2026-07-19,823113,687529,Grant McCray,San Francisco Giants,Seattle Mariners,8,T-Mobile Park,0.85,Logan Gilbert,0.0959,0.028,3.6,,False
+2026-07-19,823113,701852,Drew Cavanaugh,San Francisco Giants,Seattle Mariners,9,T-Mobile Park,0.85,Logan Gilbert,0.0833,0.0249,3.5,,False
+2026-07-19,825057,606466,Ketel Marte,Arizona Diamondbacks,St. Louis Cardinals,1,Chase Field,1.05,Andre Pallante,0.1408,0.0353,4.3,,False
+2026-07-19,825057,672695,Geraldo Perdomo,Arizona Diamondbacks,St. Louis Cardinals,2,Chase Field,1.05,Andre Pallante,0.0979,0.0245,4.2,,False
+2026-07-19,825057,682998,Corbin Carroll,Arizona Diamondbacks,St. Louis Cardinals,3,Chase Field,1.05,Andre Pallante,0.1144,0.0296,4.1,,False
+2026-07-19,825057,672515,Gabriel Moreno,Arizona Diamondbacks,St. Louis Cardinals,4,Chase Field,1.05,Andre Pallante,0.0918,0.0241,4.0,,False
+2026-07-19,825057,596146,Max Kepler,Arizona Diamondbacks,St. Louis Cardinals,5,Chase Field,1.05,Andre Pallante,0.1033,0.028,3.9,,False
+2026-07-19,825057,682988,Tyler Locklear,Arizona Diamondbacks,St. Louis Cardinals,6,Chase Field,1.05,Andre Pallante,0.1041,0.0289,3.8,,False
+2026-07-19,825057,571448,Nolan Arenado,Arizona Diamondbacks,St. Louis Cardinals,7,Chase Field,1.05,Andre Pallante,0.1125,0.0323,3.7,,False
+2026-07-19,825057,680728,Adrian Del Castillo,Arizona Diamondbacks,St. Louis Cardinals,8,Chase Field,1.05,Andre Pallante,0.1022,0.0299,3.6,,False
+2026-07-19,825057,814439,Ryan Waldschmidt,Arizona Diamondbacks,St. Louis Cardinals,9,Chase Field,1.05,Andre Pallante,0.0802,0.0239,3.5,,False
+2026-07-19,825057,802139,JJ Wetherholt,St. Louis Cardinals,Arizona Diamondbacks,1,Chase Field,1.05,Eduardo Rodriguez,0.1322,0.033,4.3,,False
+2026-07-19,825057,671056,Iván Herrera,St. Louis Cardinals,Arizona Diamondbacks,2,Chase Field,1.05,Eduardo Rodriguez,0.1177,0.0298,4.2,,False
+2026-07-19,825057,691023,Jordan Walker,St. Louis Cardinals,Arizona Diamondbacks,3,Chase Field,1.05,Eduardo Rodriguez,0.1528,0.0404,4.1,,False
+2026-07-19,825057,676369,Nelson Velázquez,St. Louis Cardinals,Arizona Diamondbacks,4,Chase Field,1.05,Eduardo Rodriguez,0.135,0.0363,4.0,,False
+2026-07-19,825057,676475,Alec Burleson,St. Louis Cardinals,Arizona Diamondbacks,5,Chase Field,1.05,Eduardo Rodriguez,0.1141,0.0311,3.9,,False
+2026-07-19,825057,691026,Masyn Winn,St. Louis Cardinals,Arizona Diamondbacks,6,Chase Field,1.05,Eduardo Rodriguez,0.0895,0.0247,3.8,,False
+2026-07-19,825057,665877,José Fermín,St. Louis Cardinals,Arizona Diamondbacks,7,Chase Field,1.05,Eduardo Rodriguez,0.1029,0.0293,3.7,,False
+2026-07-19,825057,663457,Lars Nootbaar,St. Louis Cardinals,Arizona Diamondbacks,8,Chase Field,1.05,Eduardo Rodriguez,0.0985,0.0288,3.6,,False
+2026-07-19,825057,691458,Blaze Jordan,St. Louis Cardinals,Arizona Diamondbacks,9,Chase Field,1.05,Eduardo Rodriguez,0.0882,0.0264,3.5,,False
