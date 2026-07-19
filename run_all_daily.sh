@@ -9,11 +9,11 @@
 # Run with: ./run_all_daily.sh
 #
 # Design notes:
-#   - Does NOT use `set -e`. One script failing (e.g. WC hitting a missing
-#     FOOTBALL_DATA_API_KEY, or a rate-limited odds API) should not kill
-#     the whole run -- the other sports' predictions are independent and
-#     still worth generating. Every step's pass/fail is tracked and
-#     printed in a summary at the end instead.
+#   - Does NOT use `set -e`. One script failing (e.g. F1 hitting a missing
+#     API_KEY, or a rate-limited odds API) should not kill the whole run
+#     -- the other sports' predictions are independent and still worth
+#     generating. Every step's pass/fail is tracked and printed in a
+#     summary at the end instead.
 #   - Publish + push still run even if some earlier steps failed, so you
 #     get a dashboard update reflecting whatever DID succeed, rather than
 #     nothing at all. The summary at the end tells you what to re-run
@@ -54,16 +54,16 @@ echo "=========================================="
 run_step "Grade hits"          "scripts/grade_yesterday.py"    "grade_hits.log"
 run_step "Grade HR"            "scripts/grade_yesterday_hr.py" "grade_hr.log"
 run_step "Grade K"             "scripts/grade_yesterday_k.py"  "grade_k.log"
-run_step "Grade WC"            "scripts/grade_wc.py"           "grade_wc.log"
+run_step "Grade tennis"        "scripts/grade_tennis.py"       "grade_tennis.log"
+run_step "Grade F1"            "scripts/grade_f1.py"           "grade_f1.log"
 
 # ── 2. Generate today's predictions ───────────────────────────────────────
 run_step "Run hits"            "scripts/run_daily.py"          "run_hits.log"
 run_step "Run HR"              "scripts/run_daily_hr.py"       "run_hr.log"
 run_step "Run K"               "scripts/run_daily_k.py"        "run_k.log"
-run_step "Run WC matches"      "scripts/run_daily_wc.py"       "run_wc.log"
-run_step "Run WC goalscorers"  "scripts/run_daily_wc_gs.py"    "run_wc_gs.log"
 run_step "Run tennis"          "scripts/run_daily_tennis.py"   "run_tennis.log"
 run_step "Find tennis value"   "scripts/find_value_tennis.py"  "find_value_tennis.log"
+run_step "Run F1"              "scripts/run_daily_f1.py"       "run_f1.log"
 
 # ── 3. Commit ledger updates ───────────────────────────────────────────────
 # The grading/prediction steps above modify data/ledger/*.csv every run.
