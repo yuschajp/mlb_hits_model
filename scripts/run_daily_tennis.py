@@ -83,7 +83,7 @@ def run_for_tour(tour):
           f"{len(surface_counts)} with grass-court history.\n")
 
     print("Fetching Wimbledon matches from ESPN (full tournament draw)...")
-    all_wimbledon_matches = client.get_wimbledon_draw(tour=tour)
+    all_wimbledon_matches = client.get_summer_major_draw(tour=tour)
 
     if not all_wimbledon_matches:
         print("  No Wimbledon matches found via ESPN.")

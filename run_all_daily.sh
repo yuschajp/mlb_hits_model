@@ -54,8 +54,6 @@ echo "=========================================="
 run_step "Grade hits"          "scripts/grade_yesterday.py"    "grade_hits.log"
 run_step "Grade HR"            "scripts/grade_yesterday_hr.py" "grade_hr.log"
 run_step "Grade K"             "scripts/grade_yesterday_k.py"  "grade_k.log"
-run_step "Grade tennis"        "scripts/grade_tennis.py"       "grade_tennis.log"
-run_step "Grade F1"            "scripts/grade_f1.py"           "grade_f1.log"
 
 # ── 2. Generate today's predictions ───────────────────────────────────────
 run_step "Run hits"            "scripts/run_daily.py"          "run_hits.log"
@@ -63,7 +61,6 @@ run_step "Run HR"              "scripts/run_daily_hr.py"       "run_hr.log"
 run_step "Run K"               "scripts/run_daily_k.py"        "run_k.log"
 run_step "Run tennis"          "scripts/run_daily_tennis.py"   "run_tennis.log"
 run_step "Find tennis value"   "scripts/find_value_tennis.py"  "find_value_tennis.log"
-run_step "Run F1"              "scripts/run_daily_f1.py"       "run_f1.log"
 
 # ── 3. Commit ledger updates ───────────────────────────────────────────────
 # The grading/prediction steps above modify data/ledger/*.csv every run.
