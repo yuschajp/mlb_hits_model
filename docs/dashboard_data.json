@@ -1,7 +1,7 @@
 {
   "generated_at": "2026-07-20",
   "hits": {
-    "today_count": 0,
+    "today_count": 270,
     "total_graded": 4940,
     "since_date": "2026-06-20",
     "brier_score": 0.2354,
@@ -9,7 +9,88 @@
     "naive_brier": 0.235,
     "avg_predicted": 0.6235,
     "actual_hit_rate": 0.6109,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.8104
+      },
+      {
+        "player_name": "Curtis Mead",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hit": 0.8063
+      },
+      {
+        "player_name": "Jake McCarthy",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Andrew Alvarez",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hit": 0.7874
+      },
+      {
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hit": 0.7842
+      },
+      {
+        "player_name": "Andr\u00e9s Chaparro",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hit": 0.7662
+      },
+      {
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 8,
+        "p_hit": 0.7629
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Janson Junk",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hit": 0.7545
+      },
+      {
+        "player_name": "TJ Rumfield",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Andrew Alvarez",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hit": 0.7497
+      },
+      {
+        "player_name": "Harry Ford",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 7,
+        "p_hit": 0.7483
+      },
+      {
+        "player_name": "Dylan Crews",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hit": 0.7474
+      }
+    ],
     "calibration": [
       {
         "range": "0.4-0.6",
@@ -361,14 +442,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 270,
     "total_graded": 4787,
     "since_date": "2026-06-21",
     "brier_score": 0.1086,
     "naive_brier": 0.235,
     "avg_predicted": 0.1251,
     "actual_hr_rate": 0.1255,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.3017
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Emmet Sheehan",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2797
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2697
+      },
+      {
+        "player_name": "Curtis Mead",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2648
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Janson Junk",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.261
+      },
+      {
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 8,
+        "p_hr": 0.2592
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Braxton Ashcraft",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2556
+      },
+      {
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Jameson Taillon",
+        "venue": "Wrigley Field",
+        "lineup_spot": 5,
+        "p_hr": 0.2503
+      },
+      {
+        "player_name": "Ketel Marte",
+        "team": "Arizona Diamondbacks",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Chase Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2499
+      },
+      {
+        "player_name": "Riley Greene",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Jameson Taillon",
+        "venue": "Wrigley Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2497
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -702,14 +864,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 30,
     "total_graded": 450,
     "since_date": "2026-06-27",
     "brier_score": 0.1628,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.23,
     "over_rate": 0.256,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "opponent": "New York Mets",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 7.54,
+        "p_over": 0.6269,
+        "p_under": 0.3731
+      },
+      {
+        "pitcher_name": "Braxton Ashcraft",
+        "team": "Pittsburgh Pirates",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 6.72,
+        "p_over": 0.5073,
+        "p_under": 0.4927
+      },
+      {
+        "pitcher_name": "Jacob deGrom",
+        "team": "Texas Rangers",
+        "opponent": "Chicago White Sox",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 6.64,
+        "p_over": 0.4956,
+        "p_under": 0.5044
+      },
+      {
+        "pitcher_name": "Payton Tolle",
+        "team": "Boston Red Sox",
+        "opponent": "Baltimore Orioles",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 6.35,
+        "p_over": 0.4497,
+        "p_under": 0.5503
+      },
+      {
+        "pitcher_name": "Ryan Weathers",
+        "team": "New York Yankees",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 6.29,
+        "p_over": 0.4395,
+        "p_under": 0.5605
+      },
+      {
+        "pitcher_name": "Dylan Cease",
+        "team": "Toronto Blue Jays",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Rogers Centre",
+        "line": 6.5,
+        "lambda_k": 6.2,
+        "p_over": 0.4258,
+        "p_under": 0.5742
+      },
+      {
+        "pitcher_name": "Joe Ryan",
+        "team": "Minnesota Twins",
+        "opponent": "Cleveland Guardians",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 6.04,
+        "p_over": 0.4008,
+        "p_under": 0.5992
+      },
+      {
+        "pitcher_name": "George Kirby",
+        "team": "Seattle Mariners",
+        "opponent": "Cincinnati Reds",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 6.0,
+        "p_over": 0.3934,
+        "p_under": 0.6066
+      },
+      {
+        "pitcher_name": "Cristopher S\u00e1nchez",
+        "team": "Philadelphia Phillies",
+        "opponent": "Los Angeles Dodgers",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 5.84,
+        "p_over": 0.3676,
+        "p_under": 0.6324
+      },
+      {
+        "pitcher_name": "Emmet Sheehan",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 5.67,
+        "p_over": 0.3411,
+        "p_under": 0.6589
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
