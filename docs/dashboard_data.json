@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 234,
     "total_graded": 5057,
     "since_date": "2026-06-21",
     "brier_score": 0.11,
     "naive_brier": 0.235,
     "avg_predicted": 0.1257,
     "actual_hr_rate": 0.1277,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2587
+      },
+      {
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2523
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Carson Palmquist",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.247
+      },
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Brandon Sproat",
+        "venue": "American Family Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2399
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Kevin Gausman",
+        "venue": "Rogers Centre",
+        "lineup_spot": 3,
+        "p_hr": 0.2393
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Tyler Phillips",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2296
+      },
+      {
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2204
+      },
+      {
+        "player_name": "Curtis Mead",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Michael Lorenzen",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hr": 0.204
+      },
+      {
+        "player_name": "Heriberto Hern\u00e1ndez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Tatsuya Imai",
+        "venue": "Daikin Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2016
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Walker Buehler",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1898
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -726,14 +807,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 26,
     "total_graded": 480,
     "since_date": "2026-06-27",
     "brier_score": 0.1617,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.92,
     "over_rate": 0.25,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Zack Wheeler",
+        "team": "Philadelphia Phillies",
+        "opponent": "Los Angeles Dodgers",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 6.33,
+        "p_over": 0.4465,
+        "p_under": 0.5535
+      },
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 6.08,
+        "p_over": 0.406,
+        "p_under": 0.594
+      },
+      {
+        "pitcher_name": "Justin Wrobleski",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 5.58,
+        "p_over": 0.3266,
+        "p_under": 0.6734
+      },
+      {
+        "pitcher_name": "Matthew Liberatore",
+        "team": "St. Louis Cardinals",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 5.52,
+        "p_over": 0.3168,
+        "p_under": 0.6832
+      },
+      {
+        "pitcher_name": "Kohl Drake",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Athletics",
+        "venue": "Chase Field",
+        "line": 6.5,
+        "lambda_k": 5.46,
+        "p_over": 0.3074,
+        "p_under": 0.6926
+      },
+      {
+        "pitcher_name": "Kumar Rocker",
+        "team": "Texas Rangers",
+        "opponent": "Chicago White Sox",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.35,
+        "p_over": 0.2899,
+        "p_under": 0.7101
+      },
+      {
+        "pitcher_name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "opponent": "Minnesota Twins",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 5.27,
+        "p_over": 0.2788,
+        "p_under": 0.7212
+      },
+      {
+        "pitcher_name": "Brandon Sproat",
+        "team": "Milwaukee Brewers",
+        "opponent": "New York Mets",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.22,
+        "p_over": 0.271,
+        "p_under": 0.729
+      },
+      {
+        "pitcher_name": "Luis Castillo",
+        "team": "Seattle Mariners",
+        "opponent": "Cincinnati Reds",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 5.21,
+        "p_over": 0.2689,
+        "p_under": 0.7311
+      },
+      {
+        "pitcher_name": "Tatsuya Imai",
+        "team": "Houston Astros",
+        "opponent": "Miami Marlins",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.13,
+        "p_over": 0.2568,
+        "p_under": 0.7432
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
