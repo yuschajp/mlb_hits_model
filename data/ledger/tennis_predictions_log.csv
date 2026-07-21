@@ -40,3 +40,18 @@ date,tour,tournament,round,player_a,player_b,elo_a,elo_b,p_a_wins,p_b_wins,game_
 2026-07-09,wta,Wimbledon,Semifinal,Karolina Muchova,Coco Gauff,1500.0,1500.0,0.5,0.5,0.5,23.8,0.002,0.998,0.236,0.272,0.22,0.272,0.516,0.484,Karolina Muchova,True
 2026-07-09,wta,Wimbledon,Semifinal,Linda Noskova,Marta Kostyuk,1500.0,1500.0,0.5,0.5,0.5,24.0,0.0,1.0,0.262,0.262,0.23,0.246,0.504,0.496,Linda Noskova,True
 2026-07-11,wta,Wimbledon,Final,Linda Noskova,Karolina Muchova,1500.0,1500.0,0.5,0.5,0.5,24.3,0.0,1.0,0.222,0.26,0.252,0.266,0.458,0.542,Linda Noskova,True
+2026-07-21,atp,Wimbledon,Round 1,Jan-Lennard Struff,Aleksandr Shevchenko,1534.7,1500.0,0.5497,0.4503,0.5497,23.8,0.0,1.0,0.424,0.29,0.122,0.164,0.532,0.468,Jan-Lennard Struff,True
+2026-07-21,atp,Wimbledon,Round 1,Marco Trungelliti,Juan Manuel Cerundolo,1489.1,1499.4,0.4852,0.5148,0.4852,23.9,0.0,1.0,0.18,0.2,0.302,0.318,0.466,0.534,Marco Trungelliti,True
+2026-07-21,atp,Wimbledon,Round 1,Miomir Kecmanovic,Sebastian Baez,1495.3,1511.5,0.4767,0.5233,0.4767,24.1,0.0,1.0,0.2,0.23,0.294,0.276,0.502,0.498,,False
+2026-07-21,atp,Wimbledon,Round 1,Quentin Halys,Laslo Djere,1477.3,1463.3,0.5202,0.4798,0.5202,24.1,0.0,1.0,0.28,0.28,0.182,0.258,0.536,0.464,,False
+2026-07-21,atp,Wimbledon,Round 1,Kilian Feldbausch,Adolfo Daniel Vallejo,1500.0,1514.9,0.4786,0.5214,0.4786,24.1,0.0,1.0,0.182,0.238,0.312,0.268,0.526,0.474,,False
+2026-07-21,atp,Wimbledon,Round 1,Sebastian Ofner,Alex Molcan,1490.7,1513.2,0.4676,0.5324,0.4676,23.7,0.0,1.0,0.178,0.172,0.344,0.306,0.474,0.526,,False
+2026-07-21,atp,Wimbledon,Round 1,Raphael Collignon,Daniel Altmaier,1502.4,1474.5,0.5401,0.4599,0.5401,23.8,0.002,0.998,0.398,0.264,0.168,0.17,0.562,0.438,,False
+2026-07-21,atp,Wimbledon,Round 1,Pablo Carreno Busta,Vilius Gaubas,1488.1,1487.0,0.5017,0.4983,0.5017,24.0,0.0,1.0,0.248,0.254,0.252,0.246,0.494,0.506,,False
+2026-07-21,atp,Wimbledon,Round 1,Jesper de Jong,Timofey Skatov,1517.3,1485.9,0.5451,0.4549,0.5451,23.6,0.002,0.998,0.378,0.264,0.144,0.214,0.504,0.496,,False
+2026-07-21,atp,Wimbledon,Round 1,Tiago Pereira,Gonzalo Bueno,1500.0,1516.9,0.4757,0.5243,0.4757,24.1,0.0,1.0,0.204,0.18,0.304,0.312,0.542,0.458,,False
+2026-07-21,atp,Wimbledon,Round 1,Orlando Luz,Nuno Borges,1500.0,1504.2,0.4939,0.5061,0.4939,24.4,0.004,0.996,0.244,0.242,0.242,0.272,0.49,0.51,,False
+2026-07-21,atp,Wimbledon,Round 1,Damir Dzumhur,Hugo Gaston,1458.2,1434.6,0.5339,0.4661,0.5339,23.6,0.0,1.0,0.364,0.272,0.148,0.216,0.522,0.478,,False
+2026-07-21,atp,Wimbledon,Round 1,Kyrian Jacquet,Daniel Merida,1494.4,1500.0,0.492,0.508,0.492,23.9,0.002,0.998,0.242,0.21,0.268,0.28,0.482,0.518,,False
+2026-07-21,atp,Wimbledon,Round 1,Roman Andres Burruchaga,Stan Wawrinka,1469.1,1422.8,0.5662,0.4338,0.5662,23.9,0.0,1.0,0.462,0.27,0.106,0.162,0.622,0.378,,False
+2026-07-21,atp,Wimbledon,Round 1,Jaime Faria,Botic Van De Zandschulp,1419.1,1489.1,0.4006,0.5994,0.4006,22.6,0.0,1.0,0.05,0.08,0.576,0.294,0.634,0.366,,False
