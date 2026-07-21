@@ -2,32 +2,32 @@
   "generated_at": "2026-07-21",
   "hits": {
     "today_count": 0,
-    "total_graded": 4940,
+    "total_graded": 5210,
     "since_date": "2026-06-20",
-    "brier_score": 0.2354,
-    "recent_brier_score": 0.2336,
+    "brier_score": 0.2348,
+    "recent_brier_score": 0.2308,
     "naive_brier": 0.235,
-    "avg_predicted": 0.6235,
-    "actual_hit_rate": 0.6109,
+    "avg_predicted": 0.6238,
+    "actual_hit_rate": 0.6132,
     "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 1714,
+        "n": 1798,
         "predicted": 0.562,
         "actual": 0.567
       },
       {
         "range": "0.6-0.8",
-        "n": 3198,
+        "n": 3382,
         "predicted": 0.655,
-        "actual": 0.634
+        "actual": 0.636
       },
       {
         "range": "0.8-1.0",
-        "n": 28,
-        "predicted": 0.824,
-        "actual": 0.75
+        "n": 30,
+        "predicted": 0.823,
+        "actual": 0.767
       }
     ],
     "returns": [
@@ -219,6 +219,13 @@
         "n_wins": 105,
         "daily_pnl": 44.455,
         "cumulative_pnl": 682.727
+      },
+      {
+        "date": "2026-07-20",
+        "n_bets": 186,
+        "n_wins": 128,
+        "daily_pnl": 58.364,
+        "cumulative_pnl": 741.091
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -357,30 +364,35 @@
         "date": "2026-07-19",
         "brier": 0.2336,
         "n": 701
+      },
+      {
+        "date": "2026-07-20",
+        "brier": 0.2308,
+        "n": 971
       }
     ]
   },
   "hr": {
     "today_count": 0,
-    "total_graded": 4787,
+    "total_graded": 5057,
     "since_date": "2026-06-21",
-    "brier_score": 0.1086,
+    "brier_score": 0.11,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1251,
-    "actual_hr_rate": 0.1255,
+    "avg_predicted": 0.1257,
+    "actual_hr_rate": 0.1277,
     "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 4589,
+        "n": 4834,
         "predicted": 0.121,
-        "actual": 0.121
+        "actual": 0.122
       },
       {
         "range": "0.2-0.4",
-        "n": 198,
-        "predicted": 0.226,
-        "actual": 0.237
+        "n": 223,
+        "predicted": 0.228,
+        "actual": 0.26
       }
     ],
     "returns": [
@@ -565,6 +577,13 @@
         "n_wins": 13,
         "daily_pnl": -15.5,
         "cumulative_pnl": -229.5
+      },
+      {
+        "date": "2026-07-20",
+        "n_bets": 83,
+        "n_wins": 20,
+        "daily_pnl": 7.0,
+        "cumulative_pnl": -222.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -698,42 +717,47 @@
         "date": "2026-07-19",
         "brier": 0.1034,
         "n": 701
+      },
+      {
+        "date": "2026-07-20",
+        "brier": 0.1122,
+        "n": 971
       }
     ]
   },
   "k": {
     "today_count": 0,
-    "total_graded": 450,
+    "total_graded": 480,
     "since_date": "2026-06-27",
-    "brier_score": 0.1628,
+    "brier_score": 0.1617,
     "naive_brier": 0.25,
     "avg_lambda": null,
-    "over_rate": 0.256,
+    "over_rate": 0.25,
     "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 165,
+        "n": 174,
         "predicted": 0.142,
-        "actual": 0.091
+        "actual": 0.086
       },
       {
         "range": "0.2-0.4",
-        "n": 229,
+        "n": 243,
         "predicted": 0.278,
-        "actual": 0.284
+        "actual": 0.28
       },
       {
         "range": "0.4-0.6",
-        "n": 53,
-        "predicted": 0.474,
-        "actual": 0.604
+        "n": 59,
+        "predicted": 0.472,
+        "actual": 0.576
       },
       {
         "range": "0.6-0.8",
-        "n": 3,
-        "predicted": 0.649,
-        "actual": 1.0
+        "n": 4,
+        "predicted": 0.643,
+        "actual": 0.75
       }
     ],
     "trend": [
@@ -831,6 +855,11 @@
         "date": "2026-07-19",
         "brier": 0.1781,
         "n": 78
+      },
+      {
+        "date": "2026-07-20",
+        "brier": 0.1693,
+        "n": 108
       }
     ]
   },
@@ -918,12 +947,163 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 0,
-    "total_graded": 41,
-    "accuracy": 1.0,
+    "today_count": 15,
+    "total_graded": 43,
+    "accuracy": 0.667,
     "no_signal_count": 40,
-    "no_signal_rate": 0.976,
-    "matches": [],
+    "no_signal_rate": 0.93,
+    "matches": [
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Jan-Lennard Struff",
+        "player_b": "Aleksandr Shevchenko",
+        "elo_a": 1534.7,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.5497,
+        "winner": "Jan-Lennard Struff"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Marco Trungelliti",
+        "player_b": "Juan Manuel Cerundolo",
+        "elo_a": 1489.1,
+        "elo_b": 1499.4,
+        "p_a_wins": 0.4852,
+        "winner": "Marco Trungelliti"
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Miomir Kecmanovic",
+        "player_b": "Sebastian Baez",
+        "elo_a": 1495.3,
+        "elo_b": 1511.5,
+        "p_a_wins": 0.4767,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Quentin Halys",
+        "player_b": "Laslo Djere",
+        "elo_a": 1477.3,
+        "elo_b": 1463.3,
+        "p_a_wins": 0.5202,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Kilian Feldbausch",
+        "player_b": "Adolfo Daniel Vallejo",
+        "elo_a": 1500.0,
+        "elo_b": 1514.9,
+        "p_a_wins": 0.4786,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Sebastian Ofner",
+        "player_b": "Alex Molcan",
+        "elo_a": 1490.7,
+        "elo_b": 1513.2,
+        "p_a_wins": 0.4676,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Raphael Collignon",
+        "player_b": "Daniel Altmaier",
+        "elo_a": 1502.4,
+        "elo_b": 1474.5,
+        "p_a_wins": 0.5401,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Pablo Carreno Busta",
+        "player_b": "Vilius Gaubas",
+        "elo_a": 1488.1,
+        "elo_b": 1487.0,
+        "p_a_wins": 0.5017,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Jesper de Jong",
+        "player_b": "Timofey Skatov",
+        "elo_a": 1517.3,
+        "elo_b": 1485.9,
+        "p_a_wins": 0.5451,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Tiago Pereira",
+        "player_b": "Gonzalo Bueno",
+        "elo_a": 1500.0,
+        "elo_b": 1516.9,
+        "p_a_wins": 0.4757,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Orlando Luz",
+        "player_b": "Nuno Borges",
+        "elo_a": 1500.0,
+        "elo_b": 1504.2,
+        "p_a_wins": 0.4939,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Damir Dzumhur",
+        "player_b": "Hugo Gaston",
+        "elo_a": 1458.2,
+        "elo_b": 1434.6,
+        "p_a_wins": 0.5339,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Kyrian Jacquet",
+        "player_b": "Daniel Merida",
+        "elo_a": 1494.4,
+        "elo_b": 1500.0,
+        "p_a_wins": 0.492,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Roman Andres Burruchaga",
+        "player_b": "Stan Wawrinka",
+        "elo_a": 1469.1,
+        "elo_b": 1422.8,
+        "p_a_wins": 0.5662,
+        "winner": null
+      },
+      {
+        "tour": "atp",
+        "round": "Round 1",
+        "player_a": "Jaime Faria",
+        "player_b": "Botic Van De Zandschulp",
+        "elo_a": 1419.1,
+        "elo_b": 1489.1,
+        "p_a_wins": 0.4006,
+        "winner": null
+      }
+    ],
     "trend": []
   },
   "picks": {
