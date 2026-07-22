@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-21",
+  "generated_at": "2026-07-22",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
     "since_date": "2026-06-20",
     "brier_score": 0.2348,
-    "recent_brier_score": 0.2308,
+    "recent_brier_score": 0.2295,
     "naive_brier": 0.235,
     "avg_predicted": 0.6238,
     "actual_hit_rate": 0.6132,
@@ -373,107 +373,26 @@
     ]
   },
   "hr": {
-    "today_count": 234,
-    "total_graded": 5057,
+    "today_count": 0,
+    "total_graded": 5290,
     "since_date": "2026-06-21",
-    "brier_score": 0.11,
+    "brier_score": 0.1095,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1257,
-    "actual_hr_rate": 0.1277,
-    "top10_today": [
-      {
-        "player_name": "James Wood",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2587
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2523
-      },
-      {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Carson Palmquist",
-        "venue": "Coors Field",
-        "lineup_spot": 3,
-        "p_hr": 0.247
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Brandon Sproat",
-        "venue": "American Family Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2399
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Kevin Gausman",
-        "venue": "Rogers Centre",
-        "lineup_spot": 3,
-        "p_hr": 0.2393
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Tyler Phillips",
-        "venue": "Daikin Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2296
-      },
-      {
-        "player_name": "CJ Abrams",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hr": 0.2204
-      },
-      {
-        "player_name": "Curtis Mead",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Michael Lorenzen",
-        "venue": "Coors Field",
-        "lineup_spot": 5,
-        "p_hr": 0.204
-      },
-      {
-        "player_name": "Heriberto Hern\u00e1ndez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Tatsuya Imai",
-        "venue": "Daikin Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2016
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Walker Buehler",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1898
-      }
-    ],
+    "avg_predicted": 0.1258,
+    "actual_hr_rate": 0.1272,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 4834,
+        "n": 5058,
         "predicted": 0.121,
-        "actual": 0.122
+        "actual": 0.121
       },
       {
         "range": "0.2-0.4",
-        "n": 223,
+        "n": 232,
         "predicted": 0.228,
-        "actual": 0.26
+        "actual": 0.259
       }
     ],
     "returns": [
@@ -665,6 +584,13 @@
         "n_wins": 20,
         "daily_pnl": 7.0,
         "cumulative_pnl": -222.5
+      },
+      {
+        "date": "2026-07-21",
+        "n_bets": 46,
+        "n_wins": 10,
+        "daily_pnl": -1.0,
+        "cumulative_pnl": -223.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -803,137 +729,41 @@
         "date": "2026-07-20",
         "brier": 0.1122,
         "n": 971
+      },
+      {
+        "date": "2026-07-21",
+        "brier": 0.1112,
+        "n": 1186
       }
     ]
   },
   "k": {
-    "today_count": 26,
-    "total_graded": 480,
+    "today_count": 0,
+    "total_graded": 506,
     "since_date": "2026-06-27",
-    "brier_score": 0.1617,
+    "brier_score": 0.1607,
     "naive_brier": 0.25,
-    "avg_lambda": 4.92,
-    "over_rate": 0.25,
-    "top10_today": [
-      {
-        "pitcher_name": "Zack Wheeler",
-        "team": "Philadelphia Phillies",
-        "opponent": "Los Angeles Dodgers",
-        "venue": "Citizens Bank Park",
-        "line": 6.5,
-        "lambda_k": 6.33,
-        "p_over": 0.4465,
-        "p_under": 0.5535
-      },
-      {
-        "pitcher_name": "Chase Burns",
-        "team": "Cincinnati Reds",
-        "opponent": "Seattle Mariners",
-        "venue": "T-Mobile Park",
-        "line": 6.5,
-        "lambda_k": 6.08,
-        "p_over": 0.406,
-        "p_under": 0.594
-      },
-      {
-        "pitcher_name": "Justin Wrobleski",
-        "team": "Los Angeles Dodgers",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Citizens Bank Park",
-        "line": 6.5,
-        "lambda_k": 5.58,
-        "p_over": 0.3266,
-        "p_under": 0.6734
-      },
-      {
-        "pitcher_name": "Matthew Liberatore",
-        "team": "St. Louis Cardinals",
-        "opponent": "Los Angeles Angels",
-        "venue": "Angel Stadium",
-        "line": 6.5,
-        "lambda_k": 5.52,
-        "p_over": 0.3168,
-        "p_under": 0.6832
-      },
-      {
-        "pitcher_name": "Kohl Drake",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Athletics",
-        "venue": "Chase Field",
-        "line": 6.5,
-        "lambda_k": 5.46,
-        "p_over": 0.3074,
-        "p_under": 0.6926
-      },
-      {
-        "pitcher_name": "Kumar Rocker",
-        "team": "Texas Rangers",
-        "opponent": "Chicago White Sox",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 5.35,
-        "p_over": 0.2899,
-        "p_under": 0.7101
-      },
-      {
-        "pitcher_name": "Parker Messick",
-        "team": "Cleveland Guardians",
-        "opponent": "Minnesota Twins",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 5.27,
-        "p_over": 0.2788,
-        "p_under": 0.7212
-      },
-      {
-        "pitcher_name": "Brandon Sproat",
-        "team": "Milwaukee Brewers",
-        "opponent": "New York Mets",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 5.22,
-        "p_over": 0.271,
-        "p_under": 0.729
-      },
-      {
-        "pitcher_name": "Luis Castillo",
-        "team": "Seattle Mariners",
-        "opponent": "Cincinnati Reds",
-        "venue": "T-Mobile Park",
-        "line": 6.5,
-        "lambda_k": 5.21,
-        "p_over": 0.2689,
-        "p_under": 0.7311
-      },
-      {
-        "pitcher_name": "Tatsuya Imai",
-        "team": "Houston Astros",
-        "opponent": "Miami Marlins",
-        "venue": "Daikin Park",
-        "line": 6.5,
-        "lambda_k": 5.13,
-        "p_over": 0.2568,
-        "p_under": 0.7432
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.247,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 174,
+        "n": 183,
         "predicted": 0.142,
-        "actual": 0.086
+        "actual": 0.087
       },
       {
         "range": "0.2-0.4",
-        "n": 243,
-        "predicted": 0.278,
-        "actual": 0.28
+        "n": 258,
+        "predicted": 0.277,
+        "actual": 0.275
       },
       {
         "range": "0.4-0.6",
-        "n": 59,
-        "predicted": 0.472,
-        "actual": 0.576
+        "n": 61,
+        "predicted": 0.471,
+        "actual": 0.574
       },
       {
         "range": "0.6-0.8",
@@ -1042,6 +872,11 @@
         "date": "2026-07-20",
         "brier": 0.1693,
         "n": 108
+      },
+      {
+        "date": "2026-07-21",
+        "brier": 0.1639,
+        "n": 134
       }
     ]
   },
@@ -1129,163 +964,12 @@
     "calibration": []
   },
   "tennis": {
-    "today_count": 15,
+    "today_count": 0,
     "total_graded": 43,
     "accuracy": 0.667,
     "no_signal_count": 40,
     "no_signal_rate": 0.93,
-    "matches": [
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Jan-Lennard Struff",
-        "player_b": "Aleksandr Shevchenko",
-        "elo_a": 1534.7,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.5497,
-        "winner": "Jan-Lennard Struff"
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Marco Trungelliti",
-        "player_b": "Juan Manuel Cerundolo",
-        "elo_a": 1489.1,
-        "elo_b": 1499.4,
-        "p_a_wins": 0.4852,
-        "winner": "Marco Trungelliti"
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Miomir Kecmanovic",
-        "player_b": "Sebastian Baez",
-        "elo_a": 1495.3,
-        "elo_b": 1511.5,
-        "p_a_wins": 0.4767,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Quentin Halys",
-        "player_b": "Laslo Djere",
-        "elo_a": 1477.3,
-        "elo_b": 1463.3,
-        "p_a_wins": 0.5202,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Kilian Feldbausch",
-        "player_b": "Adolfo Daniel Vallejo",
-        "elo_a": 1500.0,
-        "elo_b": 1514.9,
-        "p_a_wins": 0.4786,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Sebastian Ofner",
-        "player_b": "Alex Molcan",
-        "elo_a": 1490.7,
-        "elo_b": 1513.2,
-        "p_a_wins": 0.4676,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Raphael Collignon",
-        "player_b": "Daniel Altmaier",
-        "elo_a": 1502.4,
-        "elo_b": 1474.5,
-        "p_a_wins": 0.5401,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Pablo Carreno Busta",
-        "player_b": "Vilius Gaubas",
-        "elo_a": 1488.1,
-        "elo_b": 1487.0,
-        "p_a_wins": 0.5017,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Jesper de Jong",
-        "player_b": "Timofey Skatov",
-        "elo_a": 1517.3,
-        "elo_b": 1485.9,
-        "p_a_wins": 0.5451,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Tiago Pereira",
-        "player_b": "Gonzalo Bueno",
-        "elo_a": 1500.0,
-        "elo_b": 1516.9,
-        "p_a_wins": 0.4757,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Orlando Luz",
-        "player_b": "Nuno Borges",
-        "elo_a": 1500.0,
-        "elo_b": 1504.2,
-        "p_a_wins": 0.4939,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Damir Dzumhur",
-        "player_b": "Hugo Gaston",
-        "elo_a": 1458.2,
-        "elo_b": 1434.6,
-        "p_a_wins": 0.5339,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Kyrian Jacquet",
-        "player_b": "Daniel Merida",
-        "elo_a": 1494.4,
-        "elo_b": 1500.0,
-        "p_a_wins": 0.492,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Roman Andres Burruchaga",
-        "player_b": "Stan Wawrinka",
-        "elo_a": 1469.1,
-        "elo_b": 1422.8,
-        "p_a_wins": 0.5662,
-        "winner": null
-      },
-      {
-        "tour": "atp",
-        "round": "Round 1",
-        "player_a": "Jaime Faria",
-        "player_b": "Botic Van De Zandschulp",
-        "elo_a": 1419.1,
-        "elo_b": 1489.1,
-        "p_a_wins": 0.4006,
-        "winner": null
-      }
-    ],
+    "matches": [],
     "trend": []
   },
   "picks": {
