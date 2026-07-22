@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 162,
     "total_graded": 5290,
     "since_date": "2026-06-21",
     "brier_score": 0.1095,
     "naive_brier": 0.235,
     "avg_predicted": 0.1258,
     "actual_hr_rate": 0.1272,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2902
+      },
+      {
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2544
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Braydon Fisher",
+        "venue": "Rogers Centre",
+        "lineup_spot": 3,
+        "p_hr": 0.2347
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Bubba Chandler",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2276
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2254
+      },
+      {
+        "player_name": "Max Muncy",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2241
+      },
+      {
+        "player_name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2226
+      },
+      {
+        "player_name": "Derek Hill",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 6,
+        "p_hr": 0.22
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Sandy Alcantara",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2154
+      },
+      {
+        "player_name": "Mookie Betts",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 5,
+        "p_hr": 0.2153
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -738,14 +819,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 506,
     "since_date": "2026-06-27",
     "brier_score": 0.1607,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.64,
     "over_rate": 0.247,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Max Fried",
+        "team": "New York Yankees",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 5.79,
+        "p_over": 0.36,
+        "p_under": 0.64
+      },
+      {
+        "pitcher_name": "Peter Lambert",
+        "team": "Houston Astros",
+        "opponent": "Miami Marlins",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.5,
+        "p_over": 0.3134,
+        "p_under": 0.6866
+      },
+      {
+        "pitcher_name": "Kyle Bradish",
+        "team": "Baltimore Orioles",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.3,
+        "p_over": 0.2822,
+        "p_under": 0.7178
+      },
+      {
+        "pitcher_name": "Eduardo Rivera",
+        "team": "Boston Red Sox",
+        "opponent": "Baltimore Orioles",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.23,
+        "p_over": 0.2718,
+        "p_under": 0.7282
+      },
+      {
+        "pitcher_name": "Sandy Alcantara",
+        "team": "Miami Marlins",
+        "opponent": "Houston Astros",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.15,
+        "p_over": 0.2607,
+        "p_under": 0.7393
+      },
+      {
+        "pitcher_name": "Aaron Nola",
+        "team": "Philadelphia Phillies",
+        "opponent": "Los Angeles Dodgers",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 4.92,
+        "p_over": 0.2262,
+        "p_under": 0.7738
+      },
+      {
+        "pitcher_name": "Bubba Chandler",
+        "team": "Pittsburgh Pirates",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 4.79,
+        "p_over": 0.2077,
+        "p_under": 0.7923
+      },
+      {
+        "pitcher_name": "Bailey Ober",
+        "team": "Minnesota Twins",
+        "opponent": "Cleveland Guardians",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 4.78,
+        "p_over": 0.2061,
+        "p_under": 0.7939
+      },
+      {
+        "pitcher_name": "Tyler Alexander",
+        "team": "Texas Rangers",
+        "opponent": "Chicago White Sox",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 4.69,
+        "p_over": 0.1945,
+        "p_under": 0.8055
+      },
+      {
+        "pitcher_name": "Michael King",
+        "team": "San Diego Padres",
+        "opponent": "Atlanta Braves",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 4.67,
+        "p_over": 0.1911,
+        "p_under": 0.8089
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
