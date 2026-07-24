@@ -5300,24 +5300,24 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-21,823114,624431,Jose Trevino,Cincinnati Reds,Seattle Mariners,7,T-Mobile Park,0.85,Luis Castillo,0.1133,0.0325,3.7,0.0,True
 2026-07-21,823114,670770,TJ Friedl,Cincinnati Reds,Seattle Mariners,8,T-Mobile Park,0.85,Luis Castillo,0.0853,0.0248,3.6,0.0,True
 2026-07-21,823114,695490,Edwin Arroyo,Cincinnati Reds,Seattle Mariners,9,T-Mobile Park,0.85,Luis Castillo,0.073,0.0217,3.5,0.0,True
-2026-07-22,823519,663757,Trent Grisham,New York Yankees,Pittsburgh Pirates,1,Yankee Stadium,1.18,Bubba Chandler,0.1581,0.04,4.3,0.0,True
-2026-07-22,823519,700250,Ben Rice,New York Yankees,Pittsburgh Pirates,2,Yankee Stadium,1.18,Bubba Chandler,0.2276,0.0615,4.2,0.0,True
-2026-07-22,823519,502671,Paul Goldschmidt,New York Yankees,Pittsburgh Pirates,3,Yankee Stadium,1.18,Bubba Chandler,0.1623,0.0432,4.1,0.0,True
-2026-07-22,823519,641355,Cody Bellinger,New York Yankees,Pittsburgh Pirates,4,Yankee Stadium,1.18,Bubba Chandler,0.1149,0.0305,4.0,0.0,True
-2026-07-22,823519,665862,Jazz Chisholm Jr.,New York Yankees,Pittsburgh Pirates,5,Yankee Stadium,1.18,Bubba Chandler,0.1599,0.0447,3.9,0.0,True
-2026-07-22,823519,691176,Jasson Domínguez,New York Yankees,Pittsburgh Pirates,6,Yankee Stadium,1.18,Bubba Chandler,0.1271,0.0358,3.8,0.0,True
-2026-07-22,823519,683011,Anthony Volpe,New York Yankees,Pittsburgh Pirates,7,Yankee Stadium,1.18,Bubba Chandler,0.0958,0.0272,3.7,0.0,True
-2026-07-22,823519,641857,Ryan McMahon,New York Yankees,Pittsburgh Pirates,8,Yankee Stadium,1.18,Bubba Chandler,0.1285,0.0382,3.6,0.0,True
-2026-07-22,823519,645305,Ali Sánchez,New York Yankees,Pittsburgh Pirates,9,Yankee Stadium,1.18,Bubba Chandler,0.1069,0.0323,3.5,0.0,True
-2026-07-22,823519,693304,Nick Gonzales,Pittsburgh Pirates,New York Yankees,1,Yankee Stadium,1.18,Max Fried,0.0853,0.0207,4.3,0.0,True
-2026-07-22,823519,669707,Jared Triolo,Pittsburgh Pirates,New York Yankees,2,Yankee Stadium,1.18,Max Fried,0.0757,0.0187,4.2,0.0,True
-2026-07-22,823519,668804,Bryan Reynolds,Pittsburgh Pirates,New York Yankees,3,Yankee Stadium,1.18,Max Fried,0.1015,0.0261,4.1,0.0,True
-2026-07-22,823519,699013,Esmerlyn Valdez,Pittsburgh Pirates,New York Yankees,4,Yankee Stadium,1.18,Max Fried,0.154,0.0418,4.0,0.0,True
-2026-07-22,823519,656811,Ryan O'Hearn,Pittsburgh Pirates,New York Yankees,5,Yankee Stadium,1.18,Max Fried,0.1086,0.0295,3.9,0.0,True
-2026-07-22,823519,542303,Marcell Ozuna,Pittsburgh Pirates,New York Yankees,6,Yankee Stadium,1.18,Max Fried,0.0949,0.0262,3.8,0.0,True
-2026-07-22,823519,664040,Brandon Lowe,Pittsburgh Pirates,New York Yankees,7,Yankee Stadium,1.18,Max Fried,0.1014,0.0289,3.7,0.0,True
-2026-07-22,823519,804668,Rafael Flores Jr.,Pittsburgh Pirates,New York Yankees,8,Yankee Stadium,1.18,Max Fried,0.0855,0.0248,3.6,0.0,True
-2026-07-22,823519,695257,Billy Cook,Pittsburgh Pirates,New York Yankees,9,Yankee Stadium,1.18,Max Fried,0.0742,0.022,3.5,0.0,True
+2026-07-22,823518,663757,Trent Grisham,New York Yankees,Pittsburgh Pirates,1,Yankee Stadium,1.18,Bubba Chandler,0.1581,0.04,4.3,0.0,True
+2026-07-22,823518,700250,Ben Rice,New York Yankees,Pittsburgh Pirates,2,Yankee Stadium,1.18,Bubba Chandler,0.2276,0.0615,4.2,0.0,True
+2026-07-22,823518,502671,Paul Goldschmidt,New York Yankees,Pittsburgh Pirates,3,Yankee Stadium,1.18,Bubba Chandler,0.1623,0.0432,4.1,0.0,True
+2026-07-22,823518,641355,Cody Bellinger,New York Yankees,Pittsburgh Pirates,4,Yankee Stadium,1.18,Bubba Chandler,0.1149,0.0305,4.0,0.0,True
+2026-07-22,823518,665862,Jazz Chisholm Jr.,New York Yankees,Pittsburgh Pirates,5,Yankee Stadium,1.18,Bubba Chandler,0.1599,0.0447,3.9,0.0,True
+2026-07-22,823518,691176,Jasson Domínguez,New York Yankees,Pittsburgh Pirates,6,Yankee Stadium,1.18,Bubba Chandler,0.1271,0.0358,3.8,0.0,True
+2026-07-22,823518,683011,Anthony Volpe,New York Yankees,Pittsburgh Pirates,7,Yankee Stadium,1.18,Bubba Chandler,0.0958,0.0272,3.7,0.0,True
+2026-07-22,823518,641857,Ryan McMahon,New York Yankees,Pittsburgh Pirates,8,Yankee Stadium,1.18,Bubba Chandler,0.1285,0.0382,3.6,0.0,True
+2026-07-22,823518,645305,Ali Sánchez,New York Yankees,Pittsburgh Pirates,9,Yankee Stadium,1.18,Bubba Chandler,0.1069,0.0323,3.5,0.0,True
+2026-07-22,823518,693304,Nick Gonzales,Pittsburgh Pirates,New York Yankees,1,Yankee Stadium,1.18,Max Fried,0.0853,0.0207,4.3,0.0,True
+2026-07-22,823518,669707,Jared Triolo,Pittsburgh Pirates,New York Yankees,2,Yankee Stadium,1.18,Max Fried,0.0757,0.0187,4.2,0.0,True
+2026-07-22,823518,668804,Bryan Reynolds,Pittsburgh Pirates,New York Yankees,3,Yankee Stadium,1.18,Max Fried,0.1015,0.0261,4.1,0.0,True
+2026-07-22,823518,699013,Esmerlyn Valdez,Pittsburgh Pirates,New York Yankees,4,Yankee Stadium,1.18,Max Fried,0.154,0.0418,4.0,0.0,True
+2026-07-22,823518,656811,Ryan O'Hearn,Pittsburgh Pirates,New York Yankees,5,Yankee Stadium,1.18,Max Fried,0.1086,0.0295,3.9,0.0,True
+2026-07-22,823518,542303,Marcell Ozuna,Pittsburgh Pirates,New York Yankees,6,Yankee Stadium,1.18,Max Fried,0.0949,0.0262,3.8,0.0,True
+2026-07-22,823518,664040,Brandon Lowe,Pittsburgh Pirates,New York Yankees,7,Yankee Stadium,1.18,Max Fried,0.1014,0.0289,3.7,0.0,True
+2026-07-22,823518,804668,Rafael Flores Jr.,Pittsburgh Pirates,New York Yankees,8,Yankee Stadium,1.18,Max Fried,0.0855,0.0248,3.6,0.0,True
+2026-07-22,823518,695257,Billy Cook,Pittsburgh Pirates,New York Yankees,9,Yankee Stadium,1.18,Max Fried,0.0742,0.022,3.5,0.0,True
 2026-07-22,824732,678011,Anthony Seigler,Boston Red Sox,Baltimore Orioles,1,Fenway Park,0.92,Kyle Bradish,0.1075,0.0264,4.3,0.0,True
 2026-07-22,824732,678882,Ceddanne Rafaela,Boston Red Sox,Baltimore Orioles,2,Fenway Park,0.92,Kyle Bradish,0.0977,0.0245,4.2,0.0,True
 2026-07-22,824732,677800,Wilyer Abreu,Boston Red Sox,Baltimore Orioles,3,Fenway Park,0.92,Kyle Bradish,0.1301,0.034,4.1,0.0,True
