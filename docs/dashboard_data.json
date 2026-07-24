@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 252,
     "total_graded": 5452,
     "since_date": "2026-06-21",
     "brier_score": 0.109,
     "naive_brier": 0.235,
     "avg_predicted": 0.126,
     "actual_hr_rate": 0.1266,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Roki Sasaki",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2226
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "American Family Field",
+        "lineup_spot": 7,
+        "p_hr": 0.2117
+      },
+      {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Bryce Miller",
+        "venue": "Globe Life Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2078
+      },
+      {
+        "player_name": "Shea Langeliers",
+        "team": "Athletics",
+        "opponent_pitcher": "Zebby Matthews",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2027
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Spencer Arrighetti",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2001
+      },
+      {
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "American Family Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1989
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "American Family Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1986
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Joey Cantillo",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.195
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Cam Schlittler",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1906
+      },
+      {
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Spencer Arrighetti",
+        "venue": "Rate Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1904
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -750,14 +831,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 29,
     "total_graded": 524,
     "since_date": "2026-06-27",
     "brier_score": 0.1598,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.08,
     "over_rate": 0.244,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Jes\u00fas Luzardo",
+        "team": "Philadelphia Phillies",
+        "opponent": "New York Yankees",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 7.39,
+        "p_over": 0.6072,
+        "p_under": 0.3928
+      },
+      {
+        "pitcher_name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 7.12,
+        "p_over": 0.5673,
+        "p_under": 0.4327
+      },
+      {
+        "pitcher_name": "Tarik Skubal",
+        "team": "Detroit Tigers",
+        "opponent": "Kansas City Royals",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 6.3,
+        "p_over": 0.4414,
+        "p_under": 0.5586
+      },
+      {
+        "pitcher_name": "Bryce Miller",
+        "team": "Seattle Mariners",
+        "opponent": "Texas Rangers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 6.07,
+        "p_over": 0.4048,
+        "p_under": 0.5952
+      },
+      {
+        "pitcher_name": "Dustin May",
+        "team": "St. Louis Cardinals",
+        "opponent": "Cincinnati Reds",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 5.84,
+        "p_over": 0.368,
+        "p_under": 0.632
+      },
+      {
+        "pitcher_name": "Spencer Arrighetti",
+        "team": "Houston Astros",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.84,
+        "p_over": 0.3676,
+        "p_under": 0.6324
+      },
+      {
+        "pitcher_name": "MacKenzie Gore",
+        "team": "Texas Rangers",
+        "opponent": "Seattle Mariners",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.75,
+        "p_over": 0.3529,
+        "p_under": 0.6471
+      },
+      {
+        "pitcher_name": "Logan Webb",
+        "team": "San Francisco Giants",
+        "opponent": "Los Angeles Angels",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 5.47,
+        "p_over": 0.3088,
+        "p_under": 0.6912
+      },
+      {
+        "pitcher_name": "Jared Jones",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Chicago Cubs",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.31,
+        "p_over": 0.2842,
+        "p_under": 0.7158
+      },
+      {
+        "pitcher_name": "Matthew Boyd",
+        "team": "Chicago Cubs",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.29,
+        "p_over": 0.2815,
+        "p_under": 0.7185
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
