@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 90,
     "total_graded": 5704,
     "since_date": "2026-06-21",
     "brier_score": 0.1077,
@@ -382,84 +382,84 @@
     "actual_hr_rate": 0.1248,
     "top10_today": [
       {
-        "player_name": "Kerry Carpenter",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Michael Wacha",
-        "venue": "Comerica Park",
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mitch Bratt",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2121
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Oracle Park",
         "lineup_spot": 4,
-        "p_hr": 0.1326
+        "p_hr": 0.1866
       },
       {
-        "player_name": "Riley Greene",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Michael Wacha",
-        "venue": "Comerica Park",
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mitch Bratt",
+        "venue": "Nationals Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1821
+      },
+      {
+        "player_name": "Curtis Mead",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mitch Bratt",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1765
+      },
+      {
+        "player_name": "Manny Machado",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Eury P\u00e9rez",
+        "venue": "loanDepot park",
+        "lineup_spot": 3,
+        "p_hr": 0.1725
+      },
+      {
+        "player_name": "Ty France",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Eury P\u00e9rez",
+        "venue": "loanDepot park",
+        "lineup_spot": 4,
+        "p_hr": 0.1673
+      },
+      {
+        "player_name": "Andr\u00e9s Chaparro",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Mitch Bratt",
+        "venue": "Nationals Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1651
+      },
+      {
+        "player_name": "Casey Schmitt",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Oracle Park",
         "lineup_spot": 5,
-        "p_hr": 0.1287
+        "p_hr": 0.1635
       },
       {
-        "player_name": "Colt Keith",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Michael Wacha",
-        "venue": "Comerica Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1225
+        "player_name": "Ketel Marte",
+        "team": "Arizona Diamondbacks",
+        "opponent_pitcher": "Foster Griffin",
+        "venue": "Nationals Park",
+        "lineup_spot": 4,
+        "p_hr": 0.162
       },
       {
-        "player_name": "Hao-Yu Lee",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Michael Wacha",
-        "venue": "Comerica Park",
-        "lineup_spot": 6,
-        "p_hr": 0.1052
-      },
-      {
-        "player_name": "Kevin McGonigle",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Michael Wacha",
-        "venue": "Comerica Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1047
-      },
-      {
-        "player_name": "Carter Jensen",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Casey Mize",
-        "venue": "Comerica Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1015
-      },
-      {
-        "player_name": "Gleyber Torres",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Michael Wacha",
-        "venue": "Comerica Park",
+        "player_name": "Kazuma Okamoto",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Sonny Gray",
+        "venue": "Fenway Park",
         "lineup_spot": 3,
-        "p_hr": 0.1011
-      },
-      {
-        "player_name": "Jake Rogers",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Michael Wacha",
-        "venue": "Comerica Park",
-        "lineup_spot": 9,
-        "p_hr": 0.1004
-      },
-      {
-        "player_name": "Jac Caglianone",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Casey Mize",
-        "venue": "Comerica Park",
-        "lineup_spot": 3,
-        "p_hr": 0.0947
-      },
-      {
-        "player_name": "Lane Thomas",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Casey Mize",
-        "venue": "Comerica Park",
-        "lineup_spot": 2,
-        "p_hr": 0.0924
+        "p_hr": 0.1548
       }
     ],
     "calibration": [
@@ -843,23 +843,53 @@
     ]
   },
   "k": {
-    "today_count": 2,
+    "today_count": 12,
     "total_graded": 553,
     "since_date": "2026-06-27",
     "brier_score": 0.1577,
     "naive_brier": 0.25,
-    "avg_lambda": 5.36,
+    "avg_lambda": 4.94,
     "over_rate": 0.242,
     "top10_today": [
+      {
+        "pitcher_name": "Dylan Cease",
+        "team": "Toronto Blue Jays",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 7.12,
+        "p_over": 0.5687,
+        "p_under": 0.4313
+      },
+      {
+        "pitcher_name": "Eury P\u00e9rez",
+        "team": "Miami Marlins",
+        "opponent": "San Diego Padres",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 5.78,
+        "p_over": 0.3588,
+        "p_under": 0.6412
+      },
+      {
+        "pitcher_name": "Robbie Ray",
+        "team": "San Francisco Giants",
+        "opponent": "Los Angeles Angels",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 5.33,
+        "p_over": 0.2872,
+        "p_under": 0.7128
+      },
       {
         "pitcher_name": "Michael Wacha",
         "team": "Kansas City Royals",
         "opponent": "Detroit Tigers",
         "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 5.51,
-        "p_over": 0.3151,
-        "p_under": 0.6849
+        "lambda_k": 5.28,
+        "p_over": 0.279,
+        "p_under": 0.721
       },
       {
         "pitcher_name": "Casey Mize",
@@ -867,9 +897,59 @@
         "opponent": "Kansas City Royals",
         "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 5.21,
-        "p_over": 0.2687,
-        "p_under": 0.7313
+        "lambda_k": 5.06,
+        "p_over": 0.2461,
+        "p_under": 0.7539
+      },
+      {
+        "pitcher_name": "Tim Mayza",
+        "team": "Philadelphia Phillies",
+        "opponent": "New York Yankees",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 4.76,
+        "p_over": 0.2035,
+        "p_under": 0.7965
+      },
+      {
+        "pitcher_name": "Foster Griffin",
+        "team": "Washington Nationals",
+        "opponent": "Arizona Diamondbacks",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 4.73,
+        "p_over": 0.1999,
+        "p_under": 0.8001
+      },
+      {
+        "pitcher_name": "Sonny Gray",
+        "team": "Boston Red Sox",
+        "opponent": "Toronto Blue Jays",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 4.69,
+        "p_over": 0.1944,
+        "p_under": 0.8056
+      },
+      {
+        "pitcher_name": "Ryan Johnson",
+        "team": "Los Angeles Angels",
+        "opponent": "San Francisco Giants",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 4.43,
+        "p_over": 0.1601,
+        "p_under": 0.8399
+      },
+      {
+        "pitcher_name": "Mitch Bratt",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 4.34,
+        "p_over": 0.149,
+        "p_under": 0.851
       }
     ],
     "calibration": [
