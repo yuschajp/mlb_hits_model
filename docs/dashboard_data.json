@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 90,
+    "today_count": 270,
     "total_graded": 5704,
     "since_date": "2026-06-21",
     "brier_score": 0.1077,
@@ -382,12 +382,76 @@
     "actual_hr_rate": 0.1248,
     "top10_today": [
       {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "American Family Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2731
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2512
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "PNC Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2379
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2359
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Sean Burke",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2352
+      },
+      {
         "player_name": "James Wood",
         "team": "Washington Nationals",
         "opponent_pitcher": "Mitch Bratt",
         "venue": "Nationals Park",
         "lineup_spot": 1,
-        "p_hr": 0.2121
+        "p_hr": 0.2138
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "American Family Field",
+        "lineup_spot": 5,
+        "p_hr": 0.2095
+      },
+      {
+        "player_name": "Dominic Canzone",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Globe Life Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1994
+      },
+      {
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "American Family Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1948
       },
       {
         "player_name": "Rafael Devers",
@@ -395,71 +459,7 @@
         "opponent_pitcher": "Ryan Johnson",
         "venue": "Oracle Park",
         "lineup_spot": 4,
-        "p_hr": 0.1866
-      },
-      {
-        "player_name": "CJ Abrams",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Mitch Bratt",
-        "venue": "Nationals Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1821
-      },
-      {
-        "player_name": "Curtis Mead",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Mitch Bratt",
-        "venue": "Nationals Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1765
-      },
-      {
-        "player_name": "Manny Machado",
-        "team": "San Diego Padres",
-        "opponent_pitcher": "Eury P\u00e9rez",
-        "venue": "loanDepot park",
-        "lineup_spot": 3,
-        "p_hr": 0.1725
-      },
-      {
-        "player_name": "Ty France",
-        "team": "San Diego Padres",
-        "opponent_pitcher": "Eury P\u00e9rez",
-        "venue": "loanDepot park",
-        "lineup_spot": 4,
-        "p_hr": 0.1673
-      },
-      {
-        "player_name": "Andr\u00e9s Chaparro",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Mitch Bratt",
-        "venue": "Nationals Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1651
-      },
-      {
-        "player_name": "Casey Schmitt",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Ryan Johnson",
-        "venue": "Oracle Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1635
-      },
-      {
-        "player_name": "Ketel Marte",
-        "team": "Arizona Diamondbacks",
-        "opponent_pitcher": "Foster Griffin",
-        "venue": "Nationals Park",
-        "lineup_spot": 4,
-        "p_hr": 0.162
-      },
-      {
-        "player_name": "Kazuma Okamoto",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Sonny Gray",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1548
+        "p_hr": 0.1939
       }
     ],
     "calibration": [
@@ -843,12 +843,12 @@
     ]
   },
   "k": {
-    "today_count": 12,
+    "today_count": 30,
     "total_graded": 553,
     "since_date": "2026-06-27",
     "brier_score": 0.1577,
     "naive_brier": 0.25,
-    "avg_lambda": 4.94,
+    "avg_lambda": 5.1,
     "over_rate": 0.242,
     "top10_today": [
       {
@@ -857,99 +857,99 @@
         "opponent": "Boston Red Sox",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 7.12,
-        "p_over": 0.5687,
-        "p_under": 0.4313
+        "lambda_k": 7.0,
+        "p_over": 0.5506,
+        "p_under": 0.4494
       },
       {
-        "pitcher_name": "Eury P\u00e9rez",
-        "team": "Miami Marlins",
-        "opponent": "San Diego Padres",
-        "venue": "loanDepot park",
+        "pitcher_name": "Nathan Eovaldi",
+        "team": "Texas Rangers",
+        "opponent": "Seattle Mariners",
+        "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 5.78,
-        "p_over": 0.3588,
-        "p_under": 0.6412
+        "lambda_k": 6.6,
+        "p_over": 0.4897,
+        "p_under": 0.5103
       },
       {
-        "pitcher_name": "Robbie Ray",
-        "team": "San Francisco Giants",
-        "opponent": "Los Angeles Angels",
-        "venue": "Oracle Park",
-        "line": 6.5,
-        "lambda_k": 5.33,
-        "p_over": 0.2872,
-        "p_under": 0.7128
-      },
-      {
-        "pitcher_name": "Michael Wacha",
-        "team": "Kansas City Royals",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.28,
-        "p_over": 0.279,
-        "p_under": 0.721
-      },
-      {
-        "pitcher_name": "Casey Mize",
-        "team": "Detroit Tigers",
-        "opponent": "Kansas City Royals",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.06,
-        "p_over": 0.2461,
-        "p_under": 0.7539
-      },
-      {
-        "pitcher_name": "Tim Mayza",
-        "team": "Philadelphia Phillies",
-        "opponent": "New York Yankees",
+        "pitcher_name": "Ryan Weathers",
+        "team": "New York Yankees",
+        "opponent": "Philadelphia Phillies",
         "venue": "Citizens Bank Park",
         "line": 6.5,
-        "lambda_k": 4.76,
-        "p_over": 0.2035,
-        "p_under": 0.7965
+        "lambda_k": 6.21,
+        "p_over": 0.4274,
+        "p_under": 0.5726
       },
       {
-        "pitcher_name": "Foster Griffin",
-        "team": "Washington Nationals",
-        "opponent": "Arizona Diamondbacks",
-        "venue": "Nationals Park",
+        "pitcher_name": "Yoshinobu Yamamoto",
+        "team": "Los Angeles Dodgers",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
         "line": 6.5,
-        "lambda_k": 4.73,
-        "p_over": 0.1999,
-        "p_under": 0.8001
+        "lambda_k": 5.93,
+        "p_over": 0.3828,
+        "p_under": 0.6172
       },
       {
-        "pitcher_name": "Sonny Gray",
-        "team": "Boston Red Sox",
-        "opponent": "Toronto Blue Jays",
-        "venue": "Fenway Park",
+        "pitcher_name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Chicago Cubs",
+        "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 4.69,
-        "p_over": 0.1944,
-        "p_under": 0.8056
+        "lambda_k": 5.88,
+        "p_over": 0.3736,
+        "p_under": 0.6264
       },
       {
-        "pitcher_name": "Ryan Johnson",
-        "team": "Los Angeles Angels",
-        "opponent": "San Francisco Giants",
-        "venue": "Oracle Park",
+        "pitcher_name": "Hunter Greene",
+        "team": "Cincinnati Reds",
+        "opponent": "St. Louis Cardinals",
+        "venue": "Busch Stadium",
         "line": 6.5,
-        "lambda_k": 4.43,
-        "p_over": 0.1601,
-        "p_under": 0.8399
+        "lambda_k": 5.87,
+        "p_over": 0.3734,
+        "p_under": 0.6266
       },
       {
-        "pitcher_name": "Mitch Bratt",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Washington Nationals",
-        "venue": "Nationals Park",
+        "pitcher_name": "Nolan McLean",
+        "team": "New York Mets",
+        "opponent": "Los Angeles Dodgers",
+        "venue": "Citi Field",
         "line": 6.5,
-        "lambda_k": 4.34,
-        "p_over": 0.149,
-        "p_under": 0.851
+        "lambda_k": 5.78,
+        "p_over": 0.3586,
+        "p_under": 0.6414
+      },
+      {
+        "pitcher_name": "Shota Imanaga",
+        "team": "Chicago Cubs",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.73,
+        "p_over": 0.3506,
+        "p_under": 0.6494
+      },
+      {
+        "pitcher_name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "opponent": "Houston Astros",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.71,
+        "p_over": 0.348,
+        "p_under": 0.652
+      },
+      {
+        "pitcher_name": "Bryan Woo",
+        "team": "Seattle Mariners",
+        "opponent": "Texas Rangers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.53,
+        "p_over": 0.3188,
+        "p_under": 0.6812
       }
     ],
     "calibration": [
