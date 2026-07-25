@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-24",
+  "generated_at": "2026-07-25",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
     "since_date": "2026-06-20",
     "brier_score": 0.2348,
-    "recent_brier_score": 0.2295,
+    "recent_brier_score": 0.2285,
     "naive_brier": 0.235,
     "avg_predicted": 0.6238,
     "actual_hit_rate": 0.6132,
@@ -373,107 +373,107 @@
     ]
   },
   "hr": {
-    "today_count": 252,
-    "total_graded": 5452,
+    "today_count": 18,
+    "total_graded": 5704,
     "since_date": "2026-06-21",
-    "brier_score": 0.109,
+    "brier_score": 0.1077,
     "naive_brier": 0.235,
-    "avg_predicted": 0.126,
-    "actual_hr_rate": 0.1266,
+    "avg_predicted": 0.1258,
+    "actual_hr_rate": 0.1248,
     "top10_today": [
       {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Roki Sasaki",
-        "venue": "Citi Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2226
-      },
-      {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "American Family Field",
-        "lineup_spot": 7,
-        "p_hr": 0.2117
-      },
-      {
-        "player_name": "Joc Pederson",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Bryce Miller",
-        "venue": "Globe Life Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2078
-      },
-      {
-        "player_name": "Shea Langeliers",
-        "team": "Athletics",
-        "opponent_pitcher": "Zebby Matthews",
-        "venue": "Target Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2027
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Spencer Arrighetti",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2001
-      },
-      {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "American Family Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1989
-      },
-      {
-        "player_name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "American Family Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1986
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.195
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1906
-      },
-      {
-        "player_name": "Colson Montgomery",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Spencer Arrighetti",
-        "venue": "Rate Field",
+        "player_name": "Kerry Carpenter",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Comerica Park",
         "lineup_spot": 4,
-        "p_hr": 0.1904
+        "p_hr": 0.1326
+      },
+      {
+        "player_name": "Riley Greene",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Comerica Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1287
+      },
+      {
+        "player_name": "Colt Keith",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Comerica Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1225
+      },
+      {
+        "player_name": "Hao-Yu Lee",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Comerica Park",
+        "lineup_spot": 6,
+        "p_hr": 0.1052
+      },
+      {
+        "player_name": "Kevin McGonigle",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Comerica Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1047
+      },
+      {
+        "player_name": "Carter Jensen",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Casey Mize",
+        "venue": "Comerica Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1015
+      },
+      {
+        "player_name": "Gleyber Torres",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Comerica Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1011
+      },
+      {
+        "player_name": "Jake Rogers",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Comerica Park",
+        "lineup_spot": 9,
+        "p_hr": 0.1004
+      },
+      {
+        "player_name": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Casey Mize",
+        "venue": "Comerica Park",
+        "lineup_spot": 3,
+        "p_hr": 0.0947
+      },
+      {
+        "player_name": "Lane Thomas",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Casey Mize",
+        "venue": "Comerica Park",
+        "lineup_spot": 2,
+        "p_hr": 0.0924
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 5208,
+        "n": 5455,
         "predicted": 0.121,
-        "actual": 0.12
+        "actual": 0.119
       },
       {
         "range": "0.2-0.4",
-        "n": 244,
-        "predicted": 0.228,
-        "actual": 0.258
+        "n": 249,
+        "predicted": 0.227,
+        "actual": 0.253
       }
     ],
     "returns": [
@@ -679,6 +679,13 @@
         "n_wins": 6,
         "daily_pnl": -19.0,
         "cumulative_pnl": -242.5
+      },
+      {
+        "date": "2026-07-24",
+        "n_bets": 45,
+        "n_wins": 7,
+        "daily_pnl": -13.5,
+        "cumulative_pnl": -256.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -827,143 +834,68 @@
         "date": "2026-07-22",
         "brier": 0.109,
         "n": 1348
+      },
+      {
+        "date": "2026-07-24",
+        "brier": 0.1021,
+        "n": 1366
       }
     ]
   },
   "k": {
-    "today_count": 29,
-    "total_graded": 524,
+    "today_count": 2,
+    "total_graded": 553,
     "since_date": "2026-06-27",
-    "brier_score": 0.1598,
+    "brier_score": 0.1577,
     "naive_brier": 0.25,
-    "avg_lambda": 5.08,
-    "over_rate": 0.244,
+    "avg_lambda": 5.36,
+    "over_rate": 0.242,
     "top10_today": [
       {
-        "pitcher_name": "Jes\u00fas Luzardo",
-        "team": "Philadelphia Phillies",
-        "opponent": "New York Yankees",
-        "venue": "Citizens Bank Park",
+        "pitcher_name": "Michael Wacha",
+        "team": "Kansas City Royals",
+        "opponent": "Detroit Tigers",
+        "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 7.39,
-        "p_over": 0.6072,
-        "p_under": 0.3928
+        "lambda_k": 5.51,
+        "p_over": 0.3151,
+        "p_under": 0.6849
       },
       {
-        "pitcher_name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Citizens Bank Park",
-        "line": 6.5,
-        "lambda_k": 7.12,
-        "p_over": 0.5673,
-        "p_under": 0.4327
-      },
-      {
-        "pitcher_name": "Tarik Skubal",
+        "pitcher_name": "Casey Mize",
         "team": "Detroit Tigers",
         "opponent": "Kansas City Royals",
         "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 6.3,
-        "p_over": 0.4414,
-        "p_under": 0.5586
-      },
-      {
-        "pitcher_name": "Bryce Miller",
-        "team": "Seattle Mariners",
-        "opponent": "Texas Rangers",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 6.07,
-        "p_over": 0.4048,
-        "p_under": 0.5952
-      },
-      {
-        "pitcher_name": "Dustin May",
-        "team": "St. Louis Cardinals",
-        "opponent": "Cincinnati Reds",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 5.84,
-        "p_over": 0.368,
-        "p_under": 0.632
-      },
-      {
-        "pitcher_name": "Spencer Arrighetti",
-        "team": "Houston Astros",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.84,
-        "p_over": 0.3676,
-        "p_under": 0.6324
-      },
-      {
-        "pitcher_name": "MacKenzie Gore",
-        "team": "Texas Rangers",
-        "opponent": "Seattle Mariners",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 5.75,
-        "p_over": 0.3529,
-        "p_under": 0.6471
-      },
-      {
-        "pitcher_name": "Logan Webb",
-        "team": "San Francisco Giants",
-        "opponent": "Los Angeles Angels",
-        "venue": "Oracle Park",
-        "line": 6.5,
-        "lambda_k": 5.47,
-        "p_over": 0.3088,
-        "p_under": 0.6912
-      },
-      {
-        "pitcher_name": "Jared Jones",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Chicago Cubs",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.31,
-        "p_over": 0.2842,
-        "p_under": 0.7158
-      },
-      {
-        "pitcher_name": "Matthew Boyd",
-        "team": "Chicago Cubs",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.29,
-        "p_over": 0.2815,
-        "p_under": 0.7185
+        "lambda_k": 5.21,
+        "p_over": 0.2687,
+        "p_under": 0.7313
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 193,
-        "predicted": 0.141,
-        "actual": 0.093
+        "n": 205,
+        "predicted": 0.142,
+        "actual": 0.088
       },
       {
         "range": "0.2-0.4",
-        "n": 266,
+        "n": 279,
         "predicted": 0.277,
-        "actual": 0.271
+        "actual": 0.269
       },
       {
         "range": "0.4-0.6",
-        "n": 61,
+        "n": 64,
         "predicted": 0.471,
-        "actual": 0.574
+        "actual": 0.578
       },
       {
         "range": "0.6-0.8",
-        "n": 4,
-        "predicted": 0.643,
-        "actual": 0.75
+        "n": 5,
+        "predicted": 0.636,
+        "actual": 0.8
       }
     ],
     "trend": [
@@ -1076,6 +1008,11 @@
         "date": "2026-07-22",
         "brier": 0.1606,
         "n": 152
+      },
+      {
+        "date": "2026-07-24",
+        "brier": 0.1478,
+        "n": 155
       }
     ]
   },
