@@ -387,7 +387,7 @@
         "opponent_pitcher": "Jameson Taillon",
         "venue": "PNC Park",
         "lineup_spot": 4,
-        "p_hr": 0.2979
+        "p_hr": 0.3056
       },
       {
         "player_name": "Yordan Alvarez",
@@ -395,7 +395,7 @@
         "opponent_pitcher": "Erick Fedde",
         "venue": "Rate Field",
         "lineup_spot": 2,
-        "p_hr": 0.2787
+        "p_hr": 0.2992
       },
       {
         "player_name": "Brandon Lowe",
@@ -403,23 +403,7 @@
         "opponent_pitcher": "Jameson Taillon",
         "venue": "PNC Park",
         "lineup_spot": 2,
-        "p_hr": 0.2349
-      },
-      {
-        "player_name": "Byron Buxton",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Jeffrey Springs",
-        "venue": "Target Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2322
-      },
-      {
-        "player_name": "Kody Clemens",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Jeffrey Springs",
-        "venue": "Target Field",
-        "lineup_spot": 5,
-        "p_hr": 0.2272
+        "p_hr": 0.2411
       },
       {
         "player_name": "Ryan O'Hearn",
@@ -427,15 +411,23 @@
         "opponent_pitcher": "Jameson Taillon",
         "venue": "PNC Park",
         "lineup_spot": 5,
-        "p_hr": 0.2215
+        "p_hr": 0.2372
       },
       {
-        "player_name": "Ryan Jeffers",
+        "player_name": "Byron Buxton",
         "team": "Minnesota Twins",
         "opponent_pitcher": "Jeffrey Springs",
         "venue": "Target Field",
-        "lineup_spot": 3,
-        "p_hr": 0.2114
+        "lineup_spot": 2,
+        "p_hr": 0.2292
+      },
+      {
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Target Field",
+        "lineup_spot": 5,
+        "p_hr": 0.2241
       },
       {
         "player_name": "Munetaka Murakami",
@@ -443,23 +435,31 @@
         "opponent_pitcher": "Ronel Blanco",
         "venue": "Rate Field",
         "lineup_spot": 2,
-        "p_hr": 0.2043
+        "p_hr": 0.2214
       },
       {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "American Family Field",
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Erick Fedde",
+        "venue": "Rate Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2195
+      },
+      {
+        "player_name": "Ryan Jeffers",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Target Field",
         "lineup_spot": 3,
-        "p_hr": 0.1977
+        "p_hr": 0.2083
       },
       {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Kyle Freeland",
-        "venue": "American Family Field",
-        "lineup_spot": 5,
-        "p_hr": 0.1962
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Kohl Drake",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2066
       }
     ],
     "calibration": [
@@ -860,7 +860,7 @@
     "since_date": "2026-06-27",
     "brier_score": 0.1583,
     "naive_brier": 0.25,
-    "avg_lambda": 5.05,
+    "avg_lambda": 5.07,
     "over_rate": 0.246,
     "top10_today": [
       {
@@ -869,9 +869,9 @@
         "opponent": "Colorado Rockies",
         "venue": "American Family Field",
         "line": 6.5,
-        "lambda_k": 7.75,
-        "p_over": 0.6558,
-        "p_under": 0.3442
+        "lambda_k": 8.15,
+        "p_over": 0.705,
+        "p_under": 0.295
       },
       {
         "pitcher_name": "Jacob deGrom",
@@ -879,29 +879,9 @@
         "opponent": "Seattle Mariners",
         "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 6.45,
-        "p_over": 0.4657,
-        "p_under": 0.5343
-      },
-      {
-        "pitcher_name": "Ronel Blanco",
-        "team": "Houston Astros",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 6.13,
-        "p_over": 0.414,
-        "p_under": 0.586
-      },
-      {
-        "pitcher_name": "Logan Gilbert",
-        "team": "Seattle Mariners",
-        "opponent": "Texas Rangers",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 6.04,
-        "p_over": 0.3999,
-        "p_under": 0.6001
+        "lambda_k": 6.28,
+        "p_over": 0.4378,
+        "p_under": 0.5622
       },
       {
         "pitcher_name": "Braxton Ashcraft",
@@ -909,9 +889,29 @@
         "opponent": "Chicago Cubs",
         "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 6.0,
-        "p_over": 0.3945,
-        "p_under": 0.6055
+        "lambda_k": 5.98,
+        "p_over": 0.39,
+        "p_under": 0.61
+      },
+      {
+        "pitcher_name": "Logan Gilbert",
+        "team": "Seattle Mariners",
+        "opponent": "Texas Rangers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.91,
+        "p_over": 0.3786,
+        "p_under": 0.6214
+      },
+      {
+        "pitcher_name": "Ronel Blanco",
+        "team": "Houston Astros",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.8,
+        "p_over": 0.3621,
+        "p_under": 0.6379
       },
       {
         "pitcher_name": "Connor Prielipp",
@@ -919,9 +919,9 @@
         "opponent": "Athletics",
         "venue": "Target Field",
         "line": 6.5,
-        "lambda_k": 5.68,
-        "p_over": 0.3433,
-        "p_under": 0.6567
+        "lambda_k": 5.58,
+        "p_over": 0.3273,
+        "p_under": 0.6727
       },
       {
         "pitcher_name": "Carson Whisenhunt",
@@ -939,19 +939,19 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 5.33,
-        "p_over": 0.2875,
-        "p_under": 0.7125
+        "lambda_k": 5.38,
+        "p_over": 0.2953,
+        "p_under": 0.7047
       },
       {
-        "pitcher_name": "Drew Rasmussen",
-        "team": "Tampa Bay Rays",
-        "opponent": "Cleveland Guardians",
-        "venue": "Tropicana Field",
+        "pitcher_name": "Emmet Sheehan",
+        "team": "Los Angeles Dodgers",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
         "line": 6.5,
-        "lambda_k": 5.32,
-        "p_over": 0.2866,
-        "p_under": 0.7134
+        "lambda_k": 5.35,
+        "p_over": 0.291,
+        "p_under": 0.709
       },
       {
         "pitcher_name": "Kevin Gausman",
@@ -959,9 +959,9 @@
         "opponent": "Boston Red Sox",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 5.3,
-        "p_over": 0.2823,
-        "p_under": 0.7177
+        "lambda_k": 5.34,
+        "p_over": 0.2889,
+        "p_under": 0.7111
       }
     ],
     "calibration": [
