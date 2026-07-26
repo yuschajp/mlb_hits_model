@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-25",
+  "generated_at": "2026-07-26",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
     "since_date": "2026-06-20",
     "brier_score": 0.2348,
-    "recent_brier_score": 0.2285,
+    "recent_brier_score": 0.2265,
     "naive_brier": 0.235,
     "avg_predicted": 0.6238,
     "actual_hit_rate": 0.6132,
@@ -373,107 +373,107 @@
     ]
   },
   "hr": {
-    "today_count": 270,
-    "total_graded": 5704,
+    "today_count": 18,
+    "total_graded": 5974,
     "since_date": "2026-06-21",
-    "brier_score": 0.1077,
+    "brier_score": 0.1054,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1258,
-    "actual_hr_rate": 0.1248,
+    "avg_predicted": 0.1256,
+    "actual_hr_rate": 0.1215,
     "top10_today": [
-      {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "American Family Field",
-        "lineup_spot": 4,
-        "p_hr": 0.2731
-      },
       {
         "player_name": "Junior Caminero",
         "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Tanner Bibee",
+        "opponent_pitcher": "Parker Messick",
         "venue": "Tropicana Field",
         "lineup_spot": 3,
-        "p_hr": 0.2512
+        "p_hr": 0.1686
       },
       {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hr": 0.2379
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Citizens Bank Park",
+        "player_name": "Ryan Vilade",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Parker Messick",
+        "venue": "Tropicana Field",
         "lineup_spot": 2,
-        "p_hr": 0.2359
+        "p_hr": 0.1337
       },
       {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Sean Burke",
-        "venue": "Rate Field",
+        "player_name": "Chase DeLauter",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1247
+      },
+      {
+        "player_name": "Angel Mart\u00ednez",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 6,
+        "p_hr": 0.1204
+      },
+      {
+        "player_name": "Jos\u00e9 Ram\u00edrez",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
         "lineup_spot": 2,
-        "p_hr": 0.2352
+        "p_hr": 0.1179
       },
       {
-        "player_name": "James Wood",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Mitch Bratt",
-        "venue": "Nationals Park",
+        "player_name": "Austin Hedges",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 8,
+        "p_hr": 0.1137
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Parker Messick",
+        "venue": "Tropicana Field",
         "lineup_spot": 1,
-        "p_hr": 0.2138
+        "p_hr": 0.1126
       },
       {
-        "player_name": "Jake Bauers",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "American Family Field",
+        "player_name": "Cedric Mullins",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Parker Messick",
+        "venue": "Tropicana Field",
+        "lineup_spot": 7,
+        "p_hr": 0.1113
+      },
+      {
+        "player_name": "Kyle Manzardo",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 7,
+        "p_hr": 0.1109
+      },
+      {
+        "player_name": "Travis Bazzana",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
         "lineup_spot": 5,
-        "p_hr": 0.2095
-      },
-      {
-        "player_name": "Dominic Canzone",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Nathan Eovaldi",
-        "venue": "Globe Life Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1994
-      },
-      {
-        "player_name": "Brice Turang",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Ryan Feltner",
-        "venue": "American Family Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1948
-      },
-      {
-        "player_name": "Rafael Devers",
-        "team": "San Francisco Giants",
-        "opponent_pitcher": "Ryan Johnson",
-        "venue": "Oracle Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1939
+        "p_hr": 0.1106
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 5455,
+        "n": 5718,
         "predicted": 0.121,
-        "actual": 0.119
+        "actual": 0.116
       },
       {
         "range": "0.2-0.4",
-        "n": 249,
-        "predicted": 0.227,
-        "actual": 0.253
+        "n": 256,
+        "predicted": 0.228,
+        "actual": 0.246
       }
     ],
     "returns": [
@@ -686,6 +686,13 @@
         "n_wins": 7,
         "daily_pnl": -13.5,
         "cumulative_pnl": -256.0
+      },
+      {
+        "date": "2026-07-25",
+        "n_bets": 57,
+        "n_wins": 2,
+        "daily_pnl": -48.0,
+        "cumulative_pnl": -304.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -839,137 +846,82 @@
         "date": "2026-07-24",
         "brier": 0.1021,
         "n": 1366
+      },
+      {
+        "date": "2026-07-25",
+        "brier": 0.0933,
+        "n": 1457
       }
     ]
   },
   "k": {
-    "today_count": 30,
-    "total_graded": 553,
+    "today_count": 4,
+    "total_graded": 582,
     "since_date": "2026-06-27",
-    "brier_score": 0.1577,
+    "brier_score": 0.1583,
     "naive_brier": 0.25,
-    "avg_lambda": 5.1,
-    "over_rate": 0.242,
+    "avg_lambda": 4.98,
+    "over_rate": 0.246,
     "top10_today": [
       {
-        "pitcher_name": "Dylan Cease",
-        "team": "Toronto Blue Jays",
-        "opponent": "Boston Red Sox",
+        "pitcher_name": "Ranger Suarez",
+        "team": "Boston Red Sox",
+        "opponent": "Toronto Blue Jays",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 7.0,
-        "p_over": 0.5506,
-        "p_under": 0.4494
+        "lambda_k": 5.18,
+        "p_over": 0.2643,
+        "p_under": 0.7357
       },
       {
-        "pitcher_name": "Nathan Eovaldi",
-        "team": "Texas Rangers",
-        "opponent": "Seattle Mariners",
-        "venue": "Globe Life Field",
+        "pitcher_name": "Kohl Drake",
+        "team": "Arizona Diamondbacks",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 6.6,
-        "p_over": 0.4897,
-        "p_under": 0.5103
+        "lambda_k": 5.1,
+        "p_over": 0.2526,
+        "p_under": 0.7474
       },
       {
-        "pitcher_name": "Ryan Weathers",
-        "team": "New York Yankees",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Citizens Bank Park",
+        "pitcher_name": "Drew Rasmussen",
+        "team": "Tampa Bay Rays",
+        "opponent": "Cleveland Guardians",
+        "venue": "Tropicana Field",
         "line": 6.5,
-        "lambda_k": 6.21,
-        "p_over": 0.4274,
-        "p_under": 0.5726
+        "lambda_k": 5.09,
+        "p_over": 0.2514,
+        "p_under": 0.7486
       },
       {
-        "pitcher_name": "Yoshinobu Yamamoto",
-        "team": "Los Angeles Dodgers",
-        "opponent": "New York Mets",
-        "venue": "Citi Field",
+        "pitcher_name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Tropicana Field",
         "line": 6.5,
-        "lambda_k": 5.93,
-        "p_over": 0.3828,
-        "p_under": 0.6172
-      },
-      {
-        "pitcher_name": "Paul Skenes",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Chicago Cubs",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.88,
-        "p_over": 0.3736,
-        "p_under": 0.6264
-      },
-      {
-        "pitcher_name": "Hunter Greene",
-        "team": "Cincinnati Reds",
-        "opponent": "St. Louis Cardinals",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 5.87,
-        "p_over": 0.3734,
-        "p_under": 0.6266
-      },
-      {
-        "pitcher_name": "Nolan McLean",
-        "team": "New York Mets",
-        "opponent": "Los Angeles Dodgers",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 5.78,
-        "p_over": 0.3586,
-        "p_under": 0.6414
-      },
-      {
-        "pitcher_name": "Shota Imanaga",
-        "team": "Chicago Cubs",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.73,
-        "p_over": 0.3506,
-        "p_under": 0.6494
-      },
-      {
-        "pitcher_name": "Sean Burke",
-        "team": "Chicago White Sox",
-        "opponent": "Houston Astros",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.71,
-        "p_over": 0.348,
-        "p_under": 0.652
-      },
-      {
-        "pitcher_name": "Bryan Woo",
-        "team": "Seattle Mariners",
-        "opponent": "Texas Rangers",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 5.53,
-        "p_over": 0.3188,
-        "p_under": 0.6812
+        "lambda_k": 4.55,
+        "p_over": 0.1759,
+        "p_under": 0.8241
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 205,
-        "predicted": 0.142,
-        "actual": 0.088
+        "n": 214,
+        "predicted": 0.141,
+        "actual": 0.089
       },
       {
         "range": "0.2-0.4",
-        "n": 279,
-        "predicted": 0.277,
-        "actual": 0.269
+        "n": 296,
+        "predicted": 0.278,
+        "actual": 0.27
       },
       {
         "range": "0.4-0.6",
-        "n": 64,
-        "predicted": 0.471,
-        "actual": 0.578
+        "n": 67,
+        "predicted": 0.472,
+        "actual": 0.597
       },
       {
         "range": "0.6-0.8",
@@ -1093,6 +1045,11 @@
         "date": "2026-07-24",
         "brier": 0.1478,
         "n": 155
+      },
+      {
+        "date": "2026-07-25",
+        "brier": 0.148,
+        "n": 163
       }
     ]
   },
