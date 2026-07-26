@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 252,
     "total_graded": 5974,
     "since_date": "2026-06-21",
     "brier_score": 0.1054,
@@ -382,84 +382,84 @@
     "actual_hr_rate": 0.1215,
     "top10_today": [
       {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Parker Messick",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1686
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Jameson Taillon",
+        "venue": "PNC Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2979
       },
       {
-        "player_name": "Ryan Vilade",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Parker Messick",
-        "venue": "Tropicana Field",
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Erick Fedde",
+        "venue": "Rate Field",
         "lineup_spot": 2,
-        "p_hr": 0.1337
+        "p_hr": 0.2787
       },
       {
-        "player_name": "Chase DeLauter",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Drew Rasmussen",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1247
-      },
-      {
-        "player_name": "Angel Mart\u00ednez",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Drew Rasmussen",
-        "venue": "Tropicana Field",
-        "lineup_spot": 6,
-        "p_hr": 0.1204
-      },
-      {
-        "player_name": "Jos\u00e9 Ram\u00edrez",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Drew Rasmussen",
-        "venue": "Tropicana Field",
+        "player_name": "Brandon Lowe",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Jameson Taillon",
+        "venue": "PNC Park",
         "lineup_spot": 2,
-        "p_hr": 0.1179
+        "p_hr": 0.2349
       },
       {
-        "player_name": "Austin Hedges",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Drew Rasmussen",
-        "venue": "Tropicana Field",
-        "lineup_spot": 8,
-        "p_hr": 0.1137
+        "player_name": "Byron Buxton",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Target Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2322
       },
       {
-        "player_name": "Yandy D\u00edaz",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Parker Messick",
-        "venue": "Tropicana Field",
-        "lineup_spot": 1,
-        "p_hr": 0.1126
-      },
-      {
-        "player_name": "Cedric Mullins",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Parker Messick",
-        "venue": "Tropicana Field",
-        "lineup_spot": 7,
-        "p_hr": 0.1113
-      },
-      {
-        "player_name": "Kyle Manzardo",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Drew Rasmussen",
-        "venue": "Tropicana Field",
-        "lineup_spot": 7,
-        "p_hr": 0.1109
-      },
-      {
-        "player_name": "Travis Bazzana",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Drew Rasmussen",
-        "venue": "Tropicana Field",
+        "player_name": "Kody Clemens",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Target Field",
         "lineup_spot": 5,
-        "p_hr": 0.1106
+        "p_hr": 0.2272
+      },
+      {
+        "player_name": "Ryan O'Hearn",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Jameson Taillon",
+        "venue": "PNC Park",
+        "lineup_spot": 5,
+        "p_hr": 0.2215
+      },
+      {
+        "player_name": "Ryan Jeffers",
+        "team": "Minnesota Twins",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Target Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2114
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Ronel Blanco",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2043
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "American Family Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1977
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "American Family Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1962
       }
     ],
     "calibration": [
@@ -855,12 +855,12 @@
     ]
   },
   "k": {
-    "today_count": 21,
+    "today_count": 28,
     "total_graded": 582,
     "since_date": "2026-06-27",
     "brier_score": 0.1583,
     "naive_brier": 0.25,
-    "avg_lambda": 4.91,
+    "avg_lambda": 5.05,
     "over_rate": 0.246,
     "top10_today": [
       {
@@ -874,6 +874,16 @@
         "p_under": 0.3442
       },
       {
+        "pitcher_name": "Jacob deGrom",
+        "team": "Texas Rangers",
+        "opponent": "Seattle Mariners",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 6.45,
+        "p_over": 0.4657,
+        "p_under": 0.5343
+      },
+      {
         "pitcher_name": "Ronel Blanco",
         "team": "Houston Astros",
         "opponent": "Chicago White Sox",
@@ -884,54 +894,54 @@
         "p_under": 0.586
       },
       {
-        "pitcher_name": "Emmet Sheehan",
-        "team": "Los Angeles Dodgers",
-        "opponent": "New York Mets",
-        "venue": "Citi Field",
+        "pitcher_name": "Logan Gilbert",
+        "team": "Seattle Mariners",
+        "opponent": "Texas Rangers",
+        "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 5.43,
-        "p_over": 0.3024,
-        "p_under": 0.6976
+        "lambda_k": 6.04,
+        "p_over": 0.3999,
+        "p_under": 0.6001
       },
       {
-        "pitcher_name": "Kevin Gausman",
-        "team": "Toronto Blue Jays",
-        "opponent": "Boston Red Sox",
-        "venue": "Fenway Park",
+        "pitcher_name": "Braxton Ashcraft",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Chicago Cubs",
+        "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 5.4,
-        "p_over": 0.2989,
-        "p_under": 0.7011
+        "lambda_k": 6.0,
+        "p_over": 0.3945,
+        "p_under": 0.6055
       },
       {
-        "pitcher_name": "Shane Baz",
-        "team": "Baltimore Orioles",
-        "opponent": "Atlanta Braves",
-        "venue": "Oriole Park at Camden Yards",
+        "pitcher_name": "Connor Prielipp",
+        "team": "Minnesota Twins",
+        "opponent": "Athletics",
+        "venue": "Target Field",
         "line": 6.5,
-        "lambda_k": 5.18,
-        "p_over": 0.2648,
-        "p_under": 0.7352
+        "lambda_k": 5.68,
+        "p_over": 0.3433,
+        "p_under": 0.6567
       },
       {
-        "pitcher_name": "Ranger Suarez",
-        "team": "Boston Red Sox",
-        "opponent": "Toronto Blue Jays",
-        "venue": "Fenway Park",
+        "pitcher_name": "Carson Whisenhunt",
+        "team": "San Francisco Giants",
+        "opponent": "Los Angeles Angels",
+        "venue": "Oracle Park",
         "line": 6.5,
-        "lambda_k": 5.18,
-        "p_over": 0.2643,
-        "p_under": 0.7357
+        "lambda_k": 5.55,
+        "p_over": 0.3217,
+        "p_under": 0.6783
       },
       {
-        "pitcher_name": "Kohl Drake",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Washington Nationals",
-        "venue": "Nationals Park",
+        "pitcher_name": "Jameson Taillon",
+        "team": "Chicago Cubs",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 5.1,
-        "p_over": 0.2526,
-        "p_under": 0.7474
+        "lambda_k": 5.33,
+        "p_over": 0.2875,
+        "p_under": 0.7125
       },
       {
         "pitcher_name": "Drew Rasmussen",
@@ -939,29 +949,19 @@
         "opponent": "Cleveland Guardians",
         "venue": "Tropicana Field",
         "line": 6.5,
-        "lambda_k": 5.09,
-        "p_over": 0.2514,
-        "p_under": 0.7486
+        "lambda_k": 5.32,
+        "p_over": 0.2866,
+        "p_under": 0.7134
       },
       {
-        "pitcher_name": "Kyle Leahy",
-        "team": "St. Louis Cardinals",
-        "opponent": "Cincinnati Reds",
-        "venue": "Busch Stadium",
+        "pitcher_name": "Kevin Gausman",
+        "team": "Toronto Blue Jays",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 4.97,
-        "p_over": 0.233,
-        "p_under": 0.767
-      },
-      {
-        "pitcher_name": "Reynaldo L\u00f3pez",
-        "team": "Atlanta Braves",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 4.96,
-        "p_over": 0.2326,
-        "p_under": 0.7674
+        "lambda_k": 5.3,
+        "p_over": 0.2823,
+        "p_under": 0.7177
       }
     ],
     "calibration": [
