@@ -855,14 +855,64 @@
     ]
   },
   "k": {
-    "today_count": 4,
+    "today_count": 21,
     "total_graded": 582,
     "since_date": "2026-06-27",
     "brier_score": 0.1583,
     "naive_brier": 0.25,
-    "avg_lambda": 4.98,
+    "avg_lambda": 4.91,
     "over_rate": 0.246,
     "top10_today": [
+      {
+        "pitcher_name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "opponent": "Colorado Rockies",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 7.75,
+        "p_over": 0.6558,
+        "p_under": 0.3442
+      },
+      {
+        "pitcher_name": "Ronel Blanco",
+        "team": "Houston Astros",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 6.13,
+        "p_over": 0.414,
+        "p_under": 0.586
+      },
+      {
+        "pitcher_name": "Emmet Sheehan",
+        "team": "Los Angeles Dodgers",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 5.43,
+        "p_over": 0.3024,
+        "p_under": 0.6976
+      },
+      {
+        "pitcher_name": "Kevin Gausman",
+        "team": "Toronto Blue Jays",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.4,
+        "p_over": 0.2989,
+        "p_under": 0.7011
+      },
+      {
+        "pitcher_name": "Shane Baz",
+        "team": "Baltimore Orioles",
+        "opponent": "Atlanta Braves",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.18,
+        "p_over": 0.2648,
+        "p_under": 0.7352
+      },
       {
         "pitcher_name": "Ranger Suarez",
         "team": "Boston Red Sox",
@@ -894,14 +944,24 @@
         "p_under": 0.7486
       },
       {
-        "pitcher_name": "Parker Messick",
-        "team": "Cleveland Guardians",
-        "opponent": "Tampa Bay Rays",
-        "venue": "Tropicana Field",
+        "pitcher_name": "Kyle Leahy",
+        "team": "St. Louis Cardinals",
+        "opponent": "Cincinnati Reds",
+        "venue": "Busch Stadium",
         "line": 6.5,
-        "lambda_k": 4.55,
-        "p_over": 0.1759,
-        "p_under": 0.8241
+        "lambda_k": 4.97,
+        "p_over": 0.233,
+        "p_under": 0.767
+      },
+      {
+        "pitcher_name": "Reynaldo L\u00f3pez",
+        "team": "Atlanta Braves",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 4.96,
+        "p_over": 0.2326,
+        "p_under": 0.7674
       }
     ],
     "calibration": [
