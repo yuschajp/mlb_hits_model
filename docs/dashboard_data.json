@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-26",
+  "generated_at": "2026-07-27",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
     "since_date": "2026-06-20",
     "brier_score": 0.2348,
-    "recent_brier_score": 0.2265,
+    "recent_brier_score": 0.2236,
     "naive_brier": 0.235,
     "avg_predicted": 0.6238,
     "actual_hit_rate": 0.6132,
@@ -373,107 +373,26 @@
     ]
   },
   "hr": {
-    "today_count": 270,
-    "total_graded": 5974,
+    "today_count": 0,
+    "total_graded": 6244,
     "since_date": "2026-06-21",
-    "brier_score": 0.1054,
+    "brier_score": 0.1052,
     "naive_brier": 0.235,
     "avg_predicted": 0.1256,
-    "actual_hr_rate": 0.1215,
-    "top10_today": [
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Jameson Taillon",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hr": 0.3056
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Erick Fedde",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2984
-      },
-      {
-        "player_name": "Brandon Lowe",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Jameson Taillon",
-        "venue": "PNC Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2411
-      },
-      {
-        "player_name": "Ryan O'Hearn",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Jameson Taillon",
-        "venue": "PNC Park",
-        "lineup_spot": 5,
-        "p_hr": 0.2372
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Ronel Blanco",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2322
-      },
-      {
-        "player_name": "Byron Buxton",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Jeffrey Springs",
-        "venue": "Target Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2284
-      },
-      {
-        "player_name": "Kody Clemens",
-        "team": "Minnesota Twins",
-        "opponent_pitcher": "Jeffrey Springs",
-        "venue": "Target Field",
-        "lineup_spot": 5,
-        "p_hr": 0.2237
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Will Warren",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2216
-      },
-      {
-        "player_name": "Jeremy Pe\u00f1a",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Erick Fedde",
-        "venue": "Rate Field",
-        "lineup_spot": 1,
-        "p_hr": 0.218
-      },
-      {
-        "player_name": "James Wood",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Kohl Drake",
-        "venue": "Nationals Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2129
-      }
-    ],
+    "actual_hr_rate": 0.1216,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 5718,
+        "n": 5974,
         "predicted": 0.121,
         "actual": 0.116
       },
       {
         "range": "0.2-0.4",
-        "n": 256,
+        "n": 270,
         "predicted": 0.228,
-        "actual": 0.246
+        "actual": 0.256
       }
     ],
     "returns": [
@@ -693,6 +612,13 @@
         "n_wins": 2,
         "daily_pnl": -48.0,
         "cumulative_pnl": -304.0
+      },
+      {
+        "date": "2026-07-26",
+        "n_bets": 66,
+        "n_wins": 17,
+        "daily_pnl": 10.5,
+        "cumulative_pnl": -293.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -851,143 +777,47 @@
         "date": "2026-07-25",
         "brier": 0.0933,
         "n": 1457
+      },
+      {
+        "date": "2026-07-26",
+        "brier": 0.094,
+        "n": 1457
       }
     ]
   },
   "k": {
-    "today_count": 30,
-    "total_graded": 582,
+    "today_count": 0,
+    "total_graded": 612,
     "since_date": "2026-06-27",
-    "brier_score": 0.1583,
+    "brier_score": 0.1573,
     "naive_brier": 0.25,
-    "avg_lambda": 5.14,
-    "over_rate": 0.246,
-    "top10_today": [
-      {
-        "pitcher_name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "opponent": "Colorado Rockies",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 8.16,
-        "p_over": 0.7058,
-        "p_under": 0.2942
-      },
-      {
-        "pitcher_name": "Cristopher S\u00e1nchez",
-        "team": "Philadelphia Phillies",
-        "opponent": "New York Yankees",
-        "venue": "Citizens Bank Park",
-        "line": 6.5,
-        "lambda_k": 6.96,
-        "p_over": 0.5442,
-        "p_under": 0.4558
-      },
-      {
-        "pitcher_name": "Jacob deGrom",
-        "team": "Texas Rangers",
-        "opponent": "Seattle Mariners",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 6.31,
-        "p_over": 0.4436,
-        "p_under": 0.5564
-      },
-      {
-        "pitcher_name": "Braxton Ashcraft",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Chicago Cubs",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.98,
-        "p_over": 0.39,
-        "p_under": 0.61
-      },
-      {
-        "pitcher_name": "Logan Gilbert",
-        "team": "Seattle Mariners",
-        "opponent": "Texas Rangers",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 5.87,
-        "p_over": 0.373,
-        "p_under": 0.627
-      },
-      {
-        "pitcher_name": "Ronel Blanco",
-        "team": "Houston Astros",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.86,
-        "p_over": 0.3718,
-        "p_under": 0.6282
-      },
-      {
-        "pitcher_name": "Connor Prielipp",
-        "team": "Minnesota Twins",
-        "opponent": "Athletics",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 5.61,
-        "p_over": 0.3313,
-        "p_under": 0.6687
-      },
-      {
-        "pitcher_name": "Carson Whisenhunt",
-        "team": "San Francisco Giants",
-        "opponent": "Los Angeles Angels",
-        "venue": "Oracle Park",
-        "line": 6.5,
-        "lambda_k": 5.59,
-        "p_over": 0.3277,
-        "p_under": 0.6723
-      },
-      {
-        "pitcher_name": "Emmet Sheehan",
-        "team": "Los Angeles Dodgers",
-        "opponent": "New York Mets",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 5.4,
-        "p_over": 0.2984,
-        "p_under": 0.7016
-      },
-      {
-        "pitcher_name": "Jameson Taillon",
-        "team": "Chicago Cubs",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.38,
-        "p_over": 0.2953,
-        "p_under": 0.7047
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.242,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 214,
+        "n": 224,
         "predicted": 0.141,
         "actual": 0.089
       },
       {
         "range": "0.2-0.4",
-        "n": 296,
-        "predicted": 0.278,
-        "actual": 0.27
+        "n": 313,
+        "predicted": 0.279,
+        "actual": 0.265
       },
       {
         "range": "0.4-0.6",
-        "n": 67,
+        "n": 69,
         "predicted": 0.472,
-        "actual": 0.597
+        "actual": 0.58
       },
       {
         "range": "0.6-0.8",
-        "n": 5,
-        "predicted": 0.636,
-        "actual": 0.8
+        "n": 6,
+        "predicted": 0.648,
+        "actual": 0.833
       }
     ],
     "trend": [
@@ -1110,6 +940,11 @@
         "date": "2026-07-25",
         "brier": 0.148,
         "n": 163
+      },
+      {
+        "date": "2026-07-26",
+        "brier": 0.142,
+        "n": 162
       }
     ]
   },
