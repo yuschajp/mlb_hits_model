@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-27",
+  "generated_at": "2026-07-28",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
     "since_date": "2026-06-20",
     "brier_score": 0.2348,
-    "recent_brier_score": 0.2236,
+    "recent_brier_score": null,
     "naive_brier": 0.235,
     "avg_predicted": 0.6238,
     "actual_hit_rate": 0.6132,
@@ -373,107 +373,26 @@
     ]
   },
   "hr": {
-    "today_count": 180,
-    "total_graded": 6244,
+    "today_count": 0,
+    "total_graded": 6424,
     "since_date": "2026-06-21",
-    "brier_score": 0.1052,
+    "brier_score": 0.105,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1256,
-    "actual_hr_rate": 0.1216,
-    "top10_today": [
-      {
-        "player_name": "James Wood",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Max Scherzer",
-        "venue": "Nationals Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2878
-      },
-      {
-        "player_name": "CJ Abrams",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Max Scherzer",
-        "venue": "Nationals Park",
-        "lineup_spot": 4,
-        "p_hr": 0.268
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Max Scherzer",
-        "venue": "Nationals Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2529
-      },
-      {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Merrill Kelly",
-        "venue": "PNC Park",
-        "lineup_spot": 4,
-        "p_hr": 0.2394
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Noah Schultz",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2343
-      },
-      {
-        "player_name": "Willson Contreras",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Jack Perkins",
-        "venue": "Sutter Health Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1989
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1891
-      },
-      {
-        "player_name": "Brandon Lowe",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Merrill Kelly",
-        "venue": "PNC Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1881
-      },
-      {
-        "player_name": "Ryan O'Hearn",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Merrill Kelly",
-        "venue": "PNC Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1864
-      },
-      {
-        "player_name": "Seiya Suzuki",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.1854
-      }
-    ],
+    "avg_predicted": 0.1254,
+    "actual_hr_rate": 0.1213,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 5974,
+        "n": 6149,
         "predicted": 0.121,
-        "actual": 0.116
+        "actual": 0.115
       },
       {
         "range": "0.2-0.4",
-        "n": 270,
+        "n": 275,
         "predicted": 0.228,
-        "actual": 0.256
+        "actual": 0.251
       }
     ],
     "returns": [
@@ -700,6 +619,13 @@
         "n_wins": 17,
         "daily_pnl": 10.5,
         "cumulative_pnl": -293.5
+      },
+      {
+        "date": "2026-07-27",
+        "n_bets": 26,
+        "n_wins": 0,
+        "daily_pnl": -26.0,
+        "cumulative_pnl": -319.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -863,137 +789,41 @@
         "date": "2026-07-26",
         "brier": 0.094,
         "n": 1457
+      },
+      {
+        "date": "2026-07-27",
+        "brier": 0.0867,
+        "n": 1367
       }
     ]
   },
   "k": {
-    "today_count": 16,
-    "total_graded": 612,
+    "today_count": 0,
+    "total_graded": 628,
     "since_date": "2026-06-27",
-    "brier_score": 0.1573,
+    "brier_score": 0.1554,
     "naive_brier": 0.25,
-    "avg_lambda": 4.93,
-    "over_rate": 0.242,
-    "top10_today": [
-      {
-        "pitcher_name": "Zack Wheeler",
-        "team": "Philadelphia Phillies",
-        "opponent": "Miami Marlins",
-        "venue": "loanDepot park",
-        "line": 6.5,
-        "lambda_k": 6.83,
-        "p_over": 0.5248,
-        "p_under": 0.4752
-      },
-      {
-        "pitcher_name": "Payton Tolle",
-        "team": "Boston Red Sox",
-        "opponent": "Athletics",
-        "venue": "Sutter Health Park",
-        "line": 6.5,
-        "lambda_k": 6.09,
-        "p_over": 0.4086,
-        "p_under": 0.5914
-      },
-      {
-        "pitcher_name": "Tatsuya Imai",
-        "team": "Houston Astros",
-        "opponent": "Los Angeles Angels",
-        "venue": "Angel Stadium",
-        "line": 6.5,
-        "lambda_k": 5.88,
-        "p_over": 0.3747,
-        "p_under": 0.6253
-      },
-      {
-        "pitcher_name": "Max Fried",
-        "team": "New York Yankees",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.86,
-        "p_over": 0.3716,
-        "p_under": 0.6284
-      },
-      {
-        "pitcher_name": "Jack Perkins",
-        "team": "Athletics",
-        "opponent": "Boston Red Sox",
-        "venue": "Sutter Health Park",
-        "line": 6.5,
-        "lambda_k": 5.28,
-        "p_over": 0.28,
-        "p_under": 0.72
-      },
-      {
-        "pitcher_name": "Noah Schultz",
-        "team": "Chicago White Sox",
-        "opponent": "New York Yankees",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.14,
-        "p_over": 0.259,
-        "p_under": 0.741
-      },
-      {
-        "pitcher_name": "Walbert Ure\u00f1a",
-        "team": "Los Angeles Angels",
-        "opponent": "Houston Astros",
-        "venue": "Angel Stadium",
-        "line": 6.5,
-        "lambda_k": 4.88,
-        "p_over": 0.2197,
-        "p_under": 0.7803
-      },
-      {
-        "pitcher_name": "Brandon Sproat",
-        "team": "Milwaukee Brewers",
-        "opponent": "San Francisco Giants",
-        "venue": "Oracle Park",
-        "line": 6.5,
-        "lambda_k": 4.81,
-        "p_over": 0.2111,
-        "p_under": 0.7889
-      },
-      {
-        "pitcher_name": "Matthew Liberatore",
-        "team": "St. Louis Cardinals",
-        "opponent": "Chicago Cubs",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 4.81,
-        "p_over": 0.2103,
-        "p_under": 0.7897
-      },
-      {
-        "pitcher_name": "Merrill Kelly",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 4.72,
-        "p_over": 0.1978,
-        "p_under": 0.8022
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.237,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 224,
+        "n": 231,
         "predicted": 0.141,
-        "actual": 0.089
+        "actual": 0.087
       },
       {
         "range": "0.2-0.4",
-        "n": 313,
+        "n": 320,
         "predicted": 0.279,
-        "actual": 0.265
+        "actual": 0.259
       },
       {
         "range": "0.4-0.6",
-        "n": 69,
+        "n": 71,
         "predicted": 0.472,
-        "actual": 0.58
+        "actual": 0.577
       },
       {
         "range": "0.6-0.8",
@@ -1127,6 +957,11 @@
         "date": "2026-07-26",
         "brier": 0.142,
         "n": 162
+      },
+      {
+        "date": "2026-07-27",
+        "brier": 0.1348,
+        "n": 148
       }
     ]
   },
