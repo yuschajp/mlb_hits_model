@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28",
+  "generated_at": "2026-07-29",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
@@ -373,107 +373,26 @@
     ]
   },
   "hr": {
-    "today_count": 180,
-    "total_graded": 6424,
+    "today_count": 0,
+    "total_graded": 6604,
     "since_date": "2026-06-21",
-    "brier_score": 0.105,
+    "brier_score": 0.1041,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1254,
-    "actual_hr_rate": 0.1213,
-    "top10_today": [
-      {
-        "player_name": "James Wood",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Nationals Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2523
-      },
-      {
-        "player_name": "CJ Abrams",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Nationals Park",
-        "lineup_spot": 4,
-        "p_hr": 0.2345
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Anthony Kay",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2321
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2311
-      },
-      {
-        "player_name": "Sal Stewart",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Gavin Williams",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hr": 0.23
-      },
-      {
-        "player_name": "Joc Pederson",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Griffin Jax",
-        "venue": "Tropicana Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2196
-      },
-      {
-        "player_name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Gavin Williams",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2171
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Nationals Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2162
-      },
-      {
-        "player_name": "JJ Bleday",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Gavin Williams",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2115
-      },
-      {
-        "player_name": "Heriberto Hern\u00e1ndez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "loanDepot park",
-        "lineup_spot": 3,
-        "p_hr": 0.2028
-      }
-    ],
+    "avg_predicted": 0.1256,
+    "actual_hr_rate": 0.1199,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 6149,
+        "n": 6317,
         "predicted": 0.121,
-        "actual": 0.115
+        "actual": 0.114
       },
       {
         "range": "0.2-0.4",
-        "n": 275,
+        "n": 287,
         "predicted": 0.228,
-        "actual": 0.251
+        "actual": 0.247
       }
     ],
     "returns": [
@@ -707,6 +626,13 @@
         "n_wins": 0,
         "daily_pnl": -26.0,
         "cumulative_pnl": -319.5
+      },
+      {
+        "date": "2026-07-28",
+        "n_bets": 49,
+        "n_wins": 5,
+        "daily_pnl": -26.5,
+        "cumulative_pnl": -346.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -875,143 +801,47 @@
         "date": "2026-07-27",
         "brier": 0.0867,
         "n": 1367
+      },
+      {
+        "date": "2026-07-28",
+        "brier": 0.0821,
+        "n": 1314
       }
     ]
   },
   "k": {
-    "today_count": 23,
-    "total_graded": 628,
+    "today_count": 0,
+    "total_graded": 651,
     "since_date": "2026-06-27",
-    "brier_score": 0.1554,
+    "brier_score": 0.1566,
     "naive_brier": 0.25,
-    "avg_lambda": 5.0,
-    "over_rate": 0.237,
-    "top10_today": [
-      {
-        "pitcher_name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 7.79,
-        "p_over": 0.6598,
-        "p_under": 0.3402
-      },
-      {
-        "pitcher_name": "Troy Melton",
-        "team": "Detroit Tigers",
-        "opponent": "Baltimore Orioles",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 6.3,
-        "p_over": 0.4423,
-        "p_under": 0.5577
-      },
-      {
-        "pitcher_name": "Gerrit Cole",
-        "team": "New York Yankees",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 6.24,
-        "p_over": 0.4316,
-        "p_under": 0.5684
-      },
-      {
-        "pitcher_name": "Taj Bradley",
-        "team": "Minnesota Twins",
-        "opponent": "Kansas City Royals",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 5.84,
-        "p_over": 0.3681,
-        "p_under": 0.6319
-      },
-      {
-        "pitcher_name": "Justin Wrobleski",
-        "team": "Los Angeles Dodgers",
-        "opponent": "Seattle Mariners",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "line": 6.5,
-        "lambda_k": 5.55,
-        "p_over": 0.3215,
-        "p_under": 0.6785
-      },
-      {
-        "pitcher_name": "Sandy Alcantara",
-        "team": "Miami Marlins",
-        "opponent": "Philadelphia Phillies",
-        "venue": "loanDepot park",
-        "line": 6.5,
-        "lambda_k": 5.5,
-        "p_over": 0.3147,
-        "p_under": 0.6853
-      },
-      {
-        "pitcher_name": "Dean Kremer",
-        "team": "Baltimore Orioles",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.41,
-        "p_over": 0.3004,
-        "p_under": 0.6996
-      },
-      {
-        "pitcher_name": "Caleb Ferguson",
-        "team": "Cincinnati Reds",
-        "opponent": "Cleveland Guardians",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 5.25,
-        "p_over": 0.2753,
-        "p_under": 0.7247
-      },
-      {
-        "pitcher_name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "opponent": "Miami Marlins",
-        "venue": "loanDepot park",
-        "line": 6.5,
-        "lambda_k": 5.2,
-        "p_over": 0.2673,
-        "p_under": 0.7327
-      },
-      {
-        "pitcher_name": "Michael King",
-        "team": "San Diego Padres",
-        "opponent": "Colorado Rockies",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 5.18,
-        "p_over": 0.2645,
-        "p_under": 0.7355
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.24,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 231,
+        "n": 241,
         "predicted": 0.141,
-        "actual": 0.087
+        "actual": 0.091
       },
       {
         "range": "0.2-0.4",
-        "n": 320,
+        "n": 330,
         "predicted": 0.279,
-        "actual": 0.259
+        "actual": 0.261
       },
       {
         "range": "0.4-0.6",
-        "n": 71,
-        "predicted": 0.472,
-        "actual": 0.577
+        "n": 73,
+        "predicted": 0.471,
+        "actual": 0.575
       },
       {
         "range": "0.6-0.8",
-        "n": 6,
-        "predicted": 0.648,
-        "actual": 0.833
+        "n": 7,
+        "predicted": 0.649,
+        "actual": 0.857
       }
     ],
     "trend": [
@@ -1144,6 +974,11 @@
         "date": "2026-07-27",
         "brier": 0.1348,
         "n": 148
+      },
+      {
+        "date": "2026-07-28",
+        "brier": 0.1423,
+        "n": 145
       }
     ]
   },
