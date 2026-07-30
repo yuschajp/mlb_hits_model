@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 144,
+    "today_count": 198,
     "total_graded": 6604,
     "since_date": "2026-06-21",
     "brier_score": 0.1041,
@@ -382,20 +382,68 @@
     "actual_hr_rate": 0.1199,
     "top10_today": [
       {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Grayson Rodriguez",
+        "venue": "Angel Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2466
+      },
+      {
+        "player_name": "Dominic Canzone",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2457
+      },
+      {
+        "player_name": "Cole Young",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.214
+      },
+      {
+        "player_name": "Julio Rodr\u00edguez",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.2125
+      },
+      {
+        "player_name": "Randy Arozarena",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.205
+      },
+      {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1927
+      },
+      {
+        "player_name": "Cal Raleigh",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Eric Lauer",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.1875
+      },
+      {
         "player_name": "Chase DeLauter",
         "team": "Cleveland Guardians",
         "opponent_pitcher": "Brady Singer",
         "venue": "Great American Ball Park",
         "lineup_spot": 3,
-        "p_hr": 0.193
-      },
-      {
-        "player_name": "Kyle Manzardo",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 6,
-        "p_hr": 0.1906
+        "p_hr": 0.1873
       },
       {
         "player_name": "Sal Stewart",
@@ -403,63 +451,15 @@
         "opponent_pitcher": "Joey Cantillo",
         "venue": "Great American Ball Park",
         "lineup_spot": 2,
-        "p_hr": 0.1902
+        "p_hr": 0.1855
       },
       {
-        "player_name": "Elly De La Cruz",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Great American Ball Park",
+        "player_name": "Shohei Ohtani",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Emerson Hancock",
+        "venue": "UNIQLO Field at Dodger Stadium",
         "lineup_spot": 1,
-        "p_hr": 0.1878
-      },
-      {
-        "player_name": "Gabriel Arias",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 7,
-        "p_hr": 0.1875
-      },
-      {
-        "player_name": "Jos\u00e9 Ram\u00edrez",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1793
-      },
-      {
-        "player_name": "Travis Bazzana",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 4,
-        "p_hr": 0.177
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "MacKenzie Gore",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1737
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Cam Schlittler",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1725
-      },
-      {
-        "player_name": "Eugenio Su\u00e1rez",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 4,
-        "p_hr": 0.172
+        "p_hr": 0.1853
       }
     ],
     "calibration": [
@@ -891,12 +891,12 @@
     ]
   },
   "k": {
-    "today_count": 19,
+    "today_count": 22,
     "total_graded": 651,
     "since_date": "2026-06-27",
     "brier_score": 0.1566,
     "naive_brier": 0.25,
-    "avg_lambda": 4.97,
+    "avg_lambda": 5.01,
     "over_rate": 0.24,
     "top10_today": [
       {
@@ -905,9 +905,9 @@
         "opponent": "Chicago White Sox",
         "venue": "Rate Field",
         "line": 6.5,
-        "lambda_k": 7.1,
-        "p_over": 0.5652,
-        "p_under": 0.4348
+        "lambda_k": 7.16,
+        "p_over": 0.5732,
+        "p_under": 0.4268
       },
       {
         "pitcher_name": "Chris Sale",
@@ -915,9 +915,9 @@
         "opponent": "New York Mets",
         "venue": "Citi Field",
         "line": 6.5,
-        "lambda_k": 6.48,
-        "p_over": 0.4704,
-        "p_under": 0.5296
+        "lambda_k": 6.67,
+        "p_over": 0.4997,
+        "p_under": 0.5003
       },
       {
         "pitcher_name": "Joey Cantillo",
@@ -925,9 +925,19 @@
         "opponent": "Cincinnati Reds",
         "venue": "Great American Ball Park",
         "line": 6.5,
-        "lambda_k": 6.24,
-        "p_over": 0.4325,
-        "p_under": 0.5675
+        "lambda_k": 6.44,
+        "p_over": 0.4641,
+        "p_under": 0.5359
+      },
+      {
+        "pitcher_name": "Hayden Wesneski",
+        "team": "Houston Astros",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 6.01,
+        "p_over": 0.3948,
+        "p_under": 0.6052
       },
       {
         "pitcher_name": "Joe Ryan",
@@ -935,9 +945,9 @@
         "opponent": "Kansas City Royals",
         "venue": "Target Field",
         "line": 6.5,
-        "lambda_k": 5.7,
-        "p_over": 0.345,
-        "p_under": 0.655
+        "lambda_k": 5.55,
+        "p_over": 0.3224,
+        "p_under": 0.6776
       },
       {
         "pitcher_name": "Christian Scott",
@@ -945,19 +955,9 @@
         "opponent": "Atlanta Braves",
         "venue": "Citi Field",
         "line": 6.5,
-        "lambda_k": 5.34,
-        "p_over": 0.2885,
-        "p_under": 0.7115
-      },
-      {
-        "pitcher_name": "Dustin May",
-        "team": "St. Louis Cardinals",
-        "opponent": "Chicago Cubs",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 5.33,
-        "p_over": 0.2873,
-        "p_under": 0.7127
+        "lambda_k": 5.4,
+        "p_over": 0.2989,
+        "p_under": 0.7011
       },
       {
         "pitcher_name": "Davis Martin",
@@ -965,9 +965,29 @@
         "opponent": "New York Yankees",
         "venue": "Rate Field",
         "line": 6.5,
-        "lambda_k": 5.1,
-        "p_over": 0.2531,
-        "p_under": 0.7469
+        "lambda_k": 5.19,
+        "p_over": 0.2667,
+        "p_under": 0.7333
+      },
+      {
+        "pitcher_name": "Dustin May",
+        "team": "St. Louis Cardinals",
+        "opponent": "Chicago Cubs",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 5.15,
+        "p_over": 0.2605,
+        "p_under": 0.7395
+      },
+      {
+        "pitcher_name": "Patrick Sandoval",
+        "team": "Boston Red Sox",
+        "opponent": "Athletics",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 5.15,
+        "p_over": 0.2596,
+        "p_under": 0.7404
       },
       {
         "pitcher_name": "Gabriel Hughes",
@@ -978,26 +998,6 @@
         "lambda_k": 4.83,
         "p_over": 0.2139,
         "p_under": 0.7861
-      },
-      {
-        "pitcher_name": "Brady Singer",
-        "team": "Cincinnati Reds",
-        "opponent": "Cleveland Guardians",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 4.8,
-        "p_over": 0.2093,
-        "p_under": 0.7907
-      },
-      {
-        "pitcher_name": "MacKenzie Gore",
-        "team": "Texas Rangers",
-        "opponent": "Tampa Bay Rays",
-        "venue": "Tropicana Field",
-        "line": 6.5,
-        "lambda_k": 4.78,
-        "p_over": 0.2058,
-        "p_under": 0.7942
       }
     ],
     "calibration": [
