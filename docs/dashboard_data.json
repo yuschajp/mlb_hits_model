@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29",
+  "generated_at": "2026-07-30",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
@@ -373,107 +373,26 @@
     ]
   },
   "hr": {
-    "today_count": 198,
-    "total_graded": 6604,
+    "today_count": 0,
+    "total_graded": 6802,
     "since_date": "2026-06-21",
-    "brier_score": 0.1041,
+    "brier_score": 0.1032,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1256,
-    "actual_hr_rate": 0.1199,
-    "top10_today": [
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Grayson Rodriguez",
-        "venue": "Angel Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.2466
-      },
-      {
-        "player_name": "Dominic Canzone",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Eric Lauer",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.2457
-      },
-      {
-        "player_name": "Cole Young",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Eric Lauer",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.214
-      },
-      {
-        "player_name": "Julio Rodr\u00edguez",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Eric Lauer",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.2125
-      },
-      {
-        "player_name": "Randy Arozarena",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Eric Lauer",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.205
-      },
-      {
-        "player_name": "Willson Contreras",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Jacob Lopez",
-        "venue": "Sutter Health Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1927
-      },
-      {
-        "player_name": "Cal Raleigh",
-        "team": "Seattle Mariners",
-        "opponent_pitcher": "Eric Lauer",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.1875
-      },
-      {
-        "player_name": "Chase DeLauter",
-        "team": "Cleveland Guardians",
-        "opponent_pitcher": "Brady Singer",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1873
-      },
-      {
-        "player_name": "Sal Stewart",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1855
-      },
-      {
-        "player_name": "Shohei Ohtani",
-        "team": "Los Angeles Dodgers",
-        "opponent_pitcher": "Emerson Hancock",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1853
-      }
-    ],
+    "avg_predicted": 0.1253,
+    "actual_hr_rate": 0.1188,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 6317,
+        "n": 6510,
         "predicted": 0.121,
-        "actual": 0.114
+        "actual": 0.113
       },
       {
         "range": "0.2-0.4",
-        "n": 287,
+        "n": 292,
         "predicted": 0.228,
-        "actual": 0.247
+        "actual": 0.243
       }
     ],
     "returns": [
@@ -714,6 +633,13 @@
         "n_wins": 5,
         "daily_pnl": -26.5,
         "cumulative_pnl": -346.0
+      },
+      {
+        "date": "2026-07-29",
+        "n_bets": 32,
+        "n_wins": 4,
+        "daily_pnl": -14.0,
+        "cumulative_pnl": -360.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -887,137 +813,41 @@
         "date": "2026-07-28",
         "brier": 0.0821,
         "n": 1314
+      },
+      {
+        "date": "2026-07-29",
+        "brier": 0.0798,
+        "n": 1350
       }
     ]
   },
   "k": {
-    "today_count": 22,
-    "total_graded": 651,
+    "today_count": 0,
+    "total_graded": 673,
     "since_date": "2026-06-27",
-    "brier_score": 0.1566,
+    "brier_score": 0.1571,
     "naive_brier": 0.25,
-    "avg_lambda": 5.01,
-    "over_rate": 0.24,
-    "top10_today": [
-      {
-        "pitcher_name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 7.16,
-        "p_over": 0.5732,
-        "p_under": 0.4268
-      },
-      {
-        "pitcher_name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "opponent": "New York Mets",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 6.67,
-        "p_over": 0.4997,
-        "p_under": 0.5003
-      },
-      {
-        "pitcher_name": "Joey Cantillo",
-        "team": "Cleveland Guardians",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 6.44,
-        "p_over": 0.4641,
-        "p_under": 0.5359
-      },
-      {
-        "pitcher_name": "Hayden Wesneski",
-        "team": "Houston Astros",
-        "opponent": "Los Angeles Angels",
-        "venue": "Angel Stadium",
-        "line": 6.5,
-        "lambda_k": 6.01,
-        "p_over": 0.3948,
-        "p_under": 0.6052
-      },
-      {
-        "pitcher_name": "Joe Ryan",
-        "team": "Minnesota Twins",
-        "opponent": "Kansas City Royals",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 5.55,
-        "p_over": 0.3224,
-        "p_under": 0.6776
-      },
-      {
-        "pitcher_name": "Christian Scott",
-        "team": "New York Mets",
-        "opponent": "Atlanta Braves",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 5.4,
-        "p_over": 0.2989,
-        "p_under": 0.7011
-      },
-      {
-        "pitcher_name": "Davis Martin",
-        "team": "Chicago White Sox",
-        "opponent": "New York Yankees",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.19,
-        "p_over": 0.2667,
-        "p_under": 0.7333
-      },
-      {
-        "pitcher_name": "Dustin May",
-        "team": "St. Louis Cardinals",
-        "opponent": "Chicago Cubs",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 5.15,
-        "p_over": 0.2605,
-        "p_under": 0.7395
-      },
-      {
-        "pitcher_name": "Patrick Sandoval",
-        "team": "Boston Red Sox",
-        "opponent": "Athletics",
-        "venue": "Sutter Health Park",
-        "line": 6.5,
-        "lambda_k": 5.15,
-        "p_over": 0.2596,
-        "p_under": 0.7404
-      },
-      {
-        "pitcher_name": "Gabriel Hughes",
-        "team": "Colorado Rockies",
-        "opponent": "San Diego Padres",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 4.83,
-        "p_over": 0.2139,
-        "p_under": 0.7861
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.242,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 241,
-        "predicted": 0.141,
+        "n": 252,
+        "predicted": 0.142,
         "actual": 0.091
       },
       {
         "range": "0.2-0.4",
-        "n": 330,
+        "n": 338,
         "predicted": 0.279,
-        "actual": 0.261
+        "actual": 0.263
       },
       {
         "range": "0.4-0.6",
-        "n": 73,
-        "predicted": 0.471,
-        "actual": 0.575
+        "n": 76,
+        "predicted": 0.473,
+        "actual": 0.592
       },
       {
         "range": "0.6-0.8",
@@ -1161,6 +991,11 @@
         "date": "2026-07-28",
         "brier": 0.1423,
         "n": 145
+      },
+      {
+        "date": "2026-07-29",
+        "brier": 0.1476,
+        "n": 149
       }
     ]
   },
