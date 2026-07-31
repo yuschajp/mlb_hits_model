@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 162,
     "total_graded": 6802,
     "since_date": "2026-06-21",
     "brier_score": 0.1032,
     "naive_brier": 0.235,
     "avg_predicted": 0.1253,
     "actual_hr_rate": 0.1188,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.3003
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Michael Wacha",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2468
+      },
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Bryce Elder",
+        "venue": "Truist Park",
+        "lineup_spot": 1,
+        "p_hr": 0.244
+      },
+      {
+        "player_name": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2365
+      },
+      {
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Daikin Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2317
+      },
+      {
+        "player_name": "Lane Thomas",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2316
+      },
+      {
+        "player_name": "Salvador Perez",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2293
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Erick Fedde",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2273
+      },
+      {
+        "player_name": "Carter Jensen",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2269
+      },
+      {
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Bryce Elder",
+        "venue": "Truist Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2261
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -822,14 +903,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 19,
     "total_graded": 673,
     "since_date": "2026-06-27",
     "brier_score": 0.1571,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.01,
     "over_rate": 0.242,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 7.1,
+        "p_over": 0.565,
+        "p_under": 0.435
+      },
+      {
+        "pitcher_name": "Dylan Cease",
+        "team": "Toronto Blue Jays",
+        "opponent": "St. Louis Cardinals",
+        "venue": "Rogers Centre",
+        "line": 6.5,
+        "lambda_k": 6.75,
+        "p_over": 0.5124,
+        "p_under": 0.4876
+      },
+      {
+        "pitcher_name": "Hunter Greene",
+        "team": "Cincinnati Reds",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 6.53,
+        "p_over": 0.4786,
+        "p_under": 0.5214
+      },
+      {
+        "pitcher_name": "Nathan Eovaldi",
+        "team": "Texas Rangers",
+        "opponent": "Houston Astros",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 6.22,
+        "p_over": 0.4283,
+        "p_under": 0.5717
+      },
+      {
+        "pitcher_name": "Brandon Young",
+        "team": "Baltimore Orioles",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.51,
+        "p_over": 0.3152,
+        "p_under": 0.6848
+      },
+      {
+        "pitcher_name": "Michael Wacha",
+        "team": "Kansas City Royals",
+        "opponent": "Colorado Rockies",
+        "venue": "Coors Field",
+        "line": 6.5,
+        "lambda_k": 5.31,
+        "p_over": 0.2847,
+        "p_under": 0.7153
+      },
+      {
+        "pitcher_name": "Hunter Brown",
+        "team": "Houston Astros",
+        "opponent": "Texas Rangers",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.17,
+        "p_over": 0.2639,
+        "p_under": 0.7361
+      },
+      {
+        "pitcher_name": "Bryce Elder",
+        "team": "Atlanta Braves",
+        "opponent": "Washington Nationals",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 4.94,
+        "p_over": 0.2295,
+        "p_under": 0.7705
+      },
+      {
+        "pitcher_name": "Andrew Painter",
+        "team": "Philadelphia Phillies",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 4.94,
+        "p_over": 0.2287,
+        "p_under": 0.7713
+      },
+      {
+        "pitcher_name": "Kodai Senga",
+        "team": "New York Mets",
+        "opponent": "Miami Marlins",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 4.9,
+        "p_over": 0.2239,
+        "p_under": 0.7761
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
