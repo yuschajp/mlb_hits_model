@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 162,
+    "today_count": 252,
     "total_graded": 6802,
     "since_date": "2026-06-21",
     "brier_score": 0.1032,
@@ -387,7 +387,7 @@
         "opponent_pitcher": "Nathan Eovaldi",
         "venue": "Daikin Park",
         "lineup_spot": 2,
-        "p_hr": 0.3003
+        "p_hr": 0.2952
       },
       {
         "player_name": "Hunter Goodman",
@@ -403,7 +403,7 @@
         "opponent_pitcher": "Bryce Elder",
         "venue": "Truist Park",
         "lineup_spot": 1,
-        "p_hr": 0.244
+        "p_hr": 0.2437
       },
       {
         "player_name": "Jac Caglianone",
@@ -414,12 +414,20 @@
         "p_hr": 0.2365
       },
       {
-        "player_name": "Jeremy Pe\u00f1a",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Nathan Eovaldi",
-        "venue": "Daikin Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2317
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Erick Fedde",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2353
+      },
+      {
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Bryce Elder",
+        "venue": "Truist Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2339
       },
       {
         "player_name": "Lane Thomas",
@@ -438,28 +446,20 @@
         "p_hr": 0.2293
       },
       {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "Erick Fedde",
-        "venue": "Tropicana Field",
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Jeffrey Springs",
+        "venue": "Sutter Health Park",
         "lineup_spot": 3,
-        "p_hr": 0.2273
+        "p_hr": 0.2279
       },
       {
-        "player_name": "Carter Jensen",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Tomoyuki Sugano",
-        "venue": "Coors Field",
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Nathan Eovaldi",
+        "venue": "Daikin Park",
         "lineup_spot": 1,
-        "p_hr": 0.2269
-      },
-      {
-        "player_name": "CJ Abrams",
-        "team": "Washington Nationals",
-        "opponent_pitcher": "Bryce Elder",
-        "venue": "Truist Park",
-        "lineup_spot": 4,
-        "p_hr": 0.2261
+        "p_hr": 0.2279
       }
     ],
     "calibration": [
@@ -903,12 +903,12 @@
     ]
   },
   "k": {
-    "today_count": 19,
+    "today_count": 28,
     "total_graded": 673,
     "since_date": "2026-06-27",
     "brier_score": 0.1571,
     "naive_brier": 0.25,
-    "avg_lambda": 5.01,
+    "avg_lambda": 4.93,
     "over_rate": 0.242,
     "top10_today": [
       {
@@ -927,9 +927,9 @@
         "opponent": "St. Louis Cardinals",
         "venue": "Rogers Centre",
         "line": 6.5,
-        "lambda_k": 6.75,
-        "p_over": 0.5124,
-        "p_under": 0.4876
+        "lambda_k": 6.76,
+        "p_over": 0.514,
+        "p_under": 0.486
       },
       {
         "pitcher_name": "Hunter Greene",
@@ -947,9 +947,19 @@
         "opponent": "Houston Astros",
         "venue": "Daikin Park",
         "line": 6.5,
-        "lambda_k": 6.22,
-        "p_over": 0.4283,
-        "p_under": 0.5717
+        "lambda_k": 6.06,
+        "p_over": 0.4027,
+        "p_under": 0.5973
+      },
+      {
+        "pitcher_name": "Shane Drohan",
+        "team": "Milwaukee Brewers",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 5.5,
+        "p_over": 0.3143,
+        "p_under": 0.6857
       },
       {
         "pitcher_name": "Brandon Young",
@@ -957,9 +967,19 @@
         "opponent": "Philadelphia Phillies",
         "venue": "Oriole Park at Camden Yards",
         "line": 6.5,
-        "lambda_k": 5.51,
-        "p_over": 0.3152,
-        "p_under": 0.6848
+        "lambda_k": 5.47,
+        "p_over": 0.3099,
+        "p_under": 0.6901
+      },
+      {
+        "pitcher_name": "Ranger Suarez",
+        "team": "Boston Red Sox",
+        "opponent": "Los Angeles Dodgers",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 5.39,
+        "p_over": 0.2964,
+        "p_under": 0.7036
       },
       {
         "pitcher_name": "Michael Wacha",
@@ -972,44 +992,24 @@
         "p_under": 0.7153
       },
       {
-        "pitcher_name": "Hunter Brown",
-        "team": "Houston Astros",
-        "opponent": "Texas Rangers",
-        "venue": "Daikin Park",
+        "pitcher_name": "Edgardo Henriquez",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Boston Red Sox",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 5.22,
+        "p_over": 0.2713,
+        "p_under": 0.7287
+      },
+      {
+        "pitcher_name": "Carson Whisenhunt",
+        "team": "San Francisco Giants",
+        "opponent": "San Diego Padres",
+        "venue": "Petco Park",
         "line": 6.5,
         "lambda_k": 5.17,
-        "p_over": 0.2639,
-        "p_under": 0.7361
-      },
-      {
-        "pitcher_name": "Bryce Elder",
-        "team": "Atlanta Braves",
-        "opponent": "Washington Nationals",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 4.94,
-        "p_over": 0.2295,
-        "p_under": 0.7705
-      },
-      {
-        "pitcher_name": "Andrew Painter",
-        "team": "Philadelphia Phillies",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 4.94,
-        "p_over": 0.2287,
-        "p_under": 0.7713
-      },
-      {
-        "pitcher_name": "Kodai Senga",
-        "team": "New York Mets",
-        "opponent": "Miami Marlins",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 4.9,
-        "p_over": 0.2239,
-        "p_under": 0.7761
+        "p_over": 0.2627,
+        "p_under": 0.7373
       }
     ],
     "calibration": [
