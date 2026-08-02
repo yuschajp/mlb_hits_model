@@ -7064,147 +7064,147 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-07-31,823111,686797,Brooks Lee,Minnesota Twins,Seattle Mariners,7,T-Mobile Park,0.85,Bryce Miller,0.1135,0.0326,3.7,1.0,True
 2026-07-31,823111,807712,Luke Keaschall,Minnesota Twins,Seattle Mariners,8,T-Mobile Park,0.85,Bryce Miller,0.0878,0.0255,3.6,0.0,True
 2026-07-31,823111,656484,Tristan Gray,Minnesota Twins,Seattle Mariners,9,T-Mobile Park,0.85,Bryce Miller,0.0959,0.0288,3.5,0.0,True
-2026-08-01,822781,649966,Luis Urías,Toronto Blue Jays,St. Louis Cardinals,1,Rogers Centre,1.05,Quinn Mathews,0.1435,0.036,4.3,,False
-2026-08-01,822781,665489,Vladimir Guerrero Jr.,Toronto Blue Jays,St. Louis Cardinals,2,Rogers Centre,1.05,Quinn Mathews,0.1072,0.027,4.2,,False
-2026-08-01,822781,672960,Kazuma Okamoto,Toronto Blue Jays,St. Louis Cardinals,3,Rogers Centre,1.05,Quinn Mathews,0.163,0.0434,4.1,,False
-2026-08-01,822781,543807,George Springer,Toronto Blue Jays,St. Louis Cardinals,4,Rogers Centre,1.05,Quinn Mathews,0.135,0.0363,4.0,,False
-2026-08-01,822781,672386,Alejandro Kirk,Toronto Blue Jays,St. Louis Cardinals,5,Rogers Centre,1.05,Quinn Mathews,0.1113,0.0302,3.9,,False
-2026-08-01,822781,662139,Daulton Varsho,Toronto Blue Jays,St. Louis Cardinals,6,Rogers Centre,1.05,Quinn Mathews,0.0929,0.0257,3.8,,False
-2026-08-01,822781,676391,Ernie Clement,Toronto Blue Jays,St. Louis Cardinals,7,Rogers Centre,1.05,Quinn Mathews,0.0924,0.0262,3.7,,False
-2026-08-01,822781,664702,Myles Straw,Toronto Blue Jays,St. Louis Cardinals,8,Rogers Centre,1.05,Quinn Mathews,0.0947,0.0276,3.6,,False
-2026-08-01,822781,676914,Davis Schneider,Toronto Blue Jays,St. Louis Cardinals,9,Rogers Centre,1.05,Quinn Mathews,0.1024,0.0309,3.5,,False
-2026-08-01,822781,802139,JJ Wetherholt,St. Louis Cardinals,Toronto Blue Jays,1,Rogers Centre,1.05,Kevin Gausman,0.1452,0.0365,4.3,,False
-2026-08-01,822781,691023,Jordan Walker,St. Louis Cardinals,Toronto Blue Jays,2,Rogers Centre,1.05,Kevin Gausman,0.1589,0.0412,4.2,,False
-2026-08-01,822781,676475,Alec Burleson,St. Louis Cardinals,Toronto Blue Jays,3,Rogers Centre,1.05,Kevin Gausman,0.1288,0.0336,4.1,,False
-2026-08-01,822781,671056,Iván Herrera,St. Louis Cardinals,Toronto Blue Jays,4,Rogers Centre,1.05,Kevin Gausman,0.1123,0.0298,4.0,,False
-2026-08-01,822781,663457,Lars Nootbaar,St. Louis Cardinals,Toronto Blue Jays,5,Rogers Centre,1.05,Kevin Gausman,0.1048,0.0284,3.9,,False
-2026-08-01,822781,691026,Masyn Winn,St. Louis Cardinals,Toronto Blue Jays,6,Rogers Centre,1.05,Kevin Gausman,0.0855,0.0235,3.8,,False
-2026-08-01,822781,701675,Nathan Church,St. Louis Cardinals,Toronto Blue Jays,7,Rogers Centre,1.05,Kevin Gausman,0.1095,0.0314,3.7,,False
-2026-08-01,822781,691458,Blaze Jordan,St. Louis Cardinals,Toronto Blue Jays,8,Rogers Centre,1.05,Kevin Gausman,0.0908,0.0264,3.6,,False
-2026-08-01,822781,699625,Jimmy Crooks,St. Louis Cardinals,Toronto Blue Jays,9,Rogers Centre,1.05,Kevin Gausman,0.1139,0.0346,3.5,,False
-2026-08-01,823109,702284,Cole Young,Seattle Mariners,Minnesota Twins,1,T-Mobile Park,0.85,Connor Prielipp,0.1153,0.0285,4.3,,False
-2026-08-01,823109,668227,Randy Arozarena,Seattle Mariners,Minnesota Twins,2,T-Mobile Park,0.85,Connor Prielipp,0.1124,0.0284,4.2,,False
-2026-08-01,823109,686527,Dominic Canzone,Seattle Mariners,Minnesota Twins,3,T-Mobile Park,0.85,Connor Prielipp,0.1355,0.0355,4.1,,False
-2026-08-01,823109,677594,Julio Rodríguez,Seattle Mariners,Minnesota Twins,4,T-Mobile Park,0.85,Connor Prielipp,0.1139,0.0302,4.0,,False
-2026-08-01,823109,663728,Cal Raleigh,Seattle Mariners,Minnesota Twins,5,T-Mobile Park,0.85,Connor Prielipp,0.1026,0.0278,3.9,,False
-2026-08-01,823109,647304,Josh Naylor,Seattle Mariners,Minnesota Twins,6,T-Mobile Park,0.85,Connor Prielipp,0.0715,0.0195,3.8,,False
-2026-08-01,823109,641598,Mitch Garver,Seattle Mariners,Minnesota Twins,7,T-Mobile Park,0.85,Connor Prielipp,0.0922,0.0262,3.7,,False
-2026-08-01,823109,642215,Weston Wilson,Seattle Mariners,Minnesota Twins,8,T-Mobile Park,0.85,Connor Prielipp,0.0946,0.0276,3.6,,False
-2026-08-01,823109,806068,Colt Emerson,Seattle Mariners,Minnesota Twins,9,T-Mobile Park,0.85,Connor Prielipp,0.082,0.0244,3.5,,False
-2026-08-01,823109,663616,Trevor Larnach,Minnesota Twins,Seattle Mariners,1,T-Mobile Park,0.85,Logan Gilbert,0.1117,0.0275,4.3,,False
-2026-08-01,823109,680777,Ryan Jeffers,Minnesota Twins,Seattle Mariners,2,T-Mobile Park,0.85,Logan Gilbert,0.1369,0.0351,4.2,,False
-2026-08-01,823109,665019,Kody Clemens,Minnesota Twins,Seattle Mariners,3,T-Mobile Park,0.85,Logan Gilbert,0.137,0.0359,4.1,,False
-2026-08-01,823109,668904,Royce Lewis,Minnesota Twins,Seattle Mariners,4,T-Mobile Park,0.85,Logan Gilbert,0.1131,0.03,4.0,,False
-2026-08-01,823109,686797,Brooks Lee,Minnesota Twins,Seattle Mariners,5,T-Mobile Park,0.85,Logan Gilbert,0.1105,0.03,3.9,,False
-2026-08-01,823109,807712,Luke Keaschall,Minnesota Twins,Seattle Mariners,6,T-Mobile Park,0.85,Logan Gilbert,0.076,0.0208,3.8,,False
-2026-08-01,823109,605170,Victor Caratini,Minnesota Twins,Seattle Mariners,7,T-Mobile Park,0.85,Logan Gilbert,0.086,0.0243,3.7,,False
-2026-08-01,823109,668952,Ryan Kreidler,Minnesota Twins,Seattle Mariners,8,T-Mobile Park,0.85,Logan Gilbert,0.0862,0.0251,3.6,,False
-2026-08-01,823109,668885,Austin Martin,Minnesota Twins,Seattle Mariners,9,T-Mobile Park,0.85,Logan Gilbert,0.0697,0.0206,3.5,,False
-2026-08-01,822944,650490,Yandy Díaz,Tampa Bay Rays,Chicago White Sox,1,Tropicana Field,0.97,Jordan Hicks,0.1042,0.0256,4.3,,False
-2026-08-01,822944,802415,Chandler Simpson,Tampa Bay Rays,Chicago White Sox,2,Tropicana Field,0.97,Jordan Hicks,0.0571,0.014,4.2,,False
-2026-08-01,822944,691406,Junior Caminero,Tampa Bay Rays,Chicago White Sox,3,Tropicana Field,0.97,Jordan Hicks,0.1483,0.0392,4.1,,False
-2026-08-01,822944,683748,Victor Mesa Jr.,Tampa Bay Rays,Chicago White Sox,4,Tropicana Field,0.97,Jordan Hicks,0.1247,0.0333,4.0,,False
-2026-08-01,822944,676356,Jonny DeLuca,Tampa Bay Rays,Chicago White Sox,5,Tropicana Field,0.97,Jordan Hicks,0.1001,0.027,3.9,,False
-2026-08-01,822944,668723,Ryan Vilade,Tampa Bay Rays,Chicago White Sox,6,Tropicana Field,0.97,Jordan Hicks,0.1096,0.0306,3.8,,False
-2026-08-01,822944,810938,Ben Williamson,Tampa Bay Rays,Chicago White Sox,7,Tropicana Field,0.97,Jordan Hicks,0.0656,0.0183,3.7,,False
-2026-08-01,822944,663743,Nick Fortes,Tampa Bay Rays,Chicago White Sox,8,Tropicana Field,0.97,Jordan Hicks,0.0835,0.0242,3.6,,False
-2026-08-01,822944,670764,Taylor Walls,Tampa Bay Rays,Chicago White Sox,9,Tropicana Field,0.97,Jordan Hicks,0.0549,0.0161,3.5,,False
-2026-08-01,822944,803011,Sam Antonacci,Chicago White Sox,Tampa Bay Rays,1,Tropicana Field,0.97,Drew Rasmussen,0.116,0.0287,4.3,,False
-2026-08-01,822944,808959,Munetaka Murakami,Chicago White Sox,Tampa Bay Rays,2,Tropicana Field,0.97,Drew Rasmussen,0.1835,0.0483,4.2,,False
-2026-08-01,822944,678246,Miguel Vargas,Chicago White Sox,Tampa Bay Rays,3,Tropicana Field,0.97,Drew Rasmussen,0.1443,0.038,4.1,,False
-2026-08-01,822944,695657,Colson Montgomery,Chicago White Sox,Tampa Bay Rays,4,Tropicana Field,0.97,Drew Rasmussen,0.1508,0.0409,4.0,,False
-2026-08-01,822944,643217,Andrew Benintendi,Chicago White Sox,Tampa Bay Rays,5,Tropicana Field,0.97,Drew Rasmussen,0.1103,0.03,3.9,,False
-2026-08-01,822944,695731,Braden Montgomery,Chicago White Sox,Tampa Bay Rays,6,Tropicana Field,0.97,Drew Rasmussen,0.0921,0.0254,3.8,,False
-2026-08-01,822944,671976,Tristan Peters,Chicago White Sox,Tampa Bay Rays,7,Tropicana Field,0.97,Drew Rasmussen,0.0911,0.0258,3.7,,False
-2026-08-01,822944,805367,Chase Meidroth,Chicago White Sox,Tampa Bay Rays,8,Tropicana Field,0.97,Drew Rasmussen,0.0934,0.0272,3.6,,False
-2026-08-01,822944,700337,Edgar Quero,Chicago White Sox,Tampa Bay Rays,9,Tropicana Field,0.97,Drew Rasmussen,0.0814,0.0243,3.5,,False
-2026-08-01,823594,805999,A.J. Ewing,New York Mets,Miami Marlins,1,Citi Field,0.9,Tyler Phillips,0.1114,0.0275,4.3,,False
-2026-08-01,823594,596019,Francisco Lindor,New York Mets,Miami Marlins,2,Citi Field,0.9,Tyler Phillips,0.1298,0.0331,4.2,,False
-2026-08-01,823594,666182,Bo Bichette,New York Mets,Miami Marlins,3,Citi Field,0.9,Tyler Phillips,0.086,0.0219,4.1,,False
-2026-08-01,823594,701807,Carson Benge,New York Mets,Miami Marlins,4,Citi Field,0.9,Tyler Phillips,0.0957,0.0252,4.0,,False
-2026-08-01,823594,676724,Jared Young,New York Mets,Miami Marlins,5,Citi Field,0.9,Tyler Phillips,0.1089,0.0296,3.9,,False
-2026-08-01,823594,543760,Marcus Semien,New York Mets,Miami Marlins,6,Citi Field,0.9,Tyler Phillips,0.1167,0.0327,3.8,,False
-2026-08-01,823594,683146,Brett Baty,New York Mets,Miami Marlins,7,Citi Field,0.9,Tyler Phillips,0.0926,0.0263,3.7,,False
-2026-08-01,823594,621438,Tyrone Taylor,New York Mets,Miami Marlins,8,Citi Field,0.9,Tyler Phillips,0.1331,0.0397,3.6,,False
-2026-08-01,823594,620443,Luis Torrens,New York Mets,Miami Marlins,9,Citi Field,0.9,Tyler Phillips,0.0758,0.0225,3.5,,False
-2026-08-01,823594,672640,Otto Lopez,Miami Marlins,New York Mets,1,Citi Field,0.9,Zac Thornton,0.0911,0.0222,4.3,,False
-2026-08-01,823594,681715,Heriberto Hernández,Miami Marlins,New York Mets,2,Citi Field,0.9,Zac Thornton,0.1496,0.0386,4.2,,False
-2026-08-01,823594,689414,Liam Hicks,Miami Marlins,New York Mets,3,Citi Field,0.9,Zac Thornton,0.0975,0.025,4.1,,False
-2026-08-01,823594,669364,Xavier Edwards,Miami Marlins,New York Mets,4,Citi Field,0.9,Zac Thornton,0.0767,0.02,4.0,,False
-2026-08-01,823594,677870,Leo Jiménez,Miami Marlins,New York Mets,5,Citi Field,0.9,Zac Thornton,0.0967,0.0261,3.9,,False
-2026-08-01,823594,669065,Kyle Stowers,Miami Marlins,New York Mets,6,Citi Field,0.9,Zac Thornton,0.1212,0.034,3.8,,False
-2026-08-01,823594,691594,Javier Sanoja,Miami Marlins,New York Mets,7,Citi Field,0.9,Zac Thornton,0.0697,0.0195,3.7,,False
-2026-08-01,823594,665923,Esteury Ruiz,Miami Marlins,New York Mets,8,Citi Field,0.9,Zac Thornton,0.0953,0.0278,3.6,,False
-2026-08-01,823594,665052,Griffin Conine,Miami Marlins,New York Mets,9,Citi Field,0.9,Zac Thornton,0.112,0.0339,3.5,,False
-2026-08-01,824485,682829,Elly De La Cruz,Cincinnati Reds,Pittsburgh Pirates,1,Great American Ball Park,1.15,Braxton Ashcraft,0.1843,0.0474,4.3,,False
-2026-08-01,824485,701398,Sal Stewart,Cincinnati Reds,Pittsburgh Pirates,2,Great American Ball Park,1.15,Braxton Ashcraft,0.2045,0.0545,4.2,,False
-2026-08-01,824485,668709,JJ Bleday,Cincinnati Reds,Pittsburgh Pirates,3,Great American Ball Park,1.15,Braxton Ashcraft,0.2037,0.0556,4.1,,False
-2026-08-01,824485,663993,Nathaniel Lowe,Cincinnati Reds,Pittsburgh Pirates,4,Great American Ball Park,1.15,Braxton Ashcraft,0.1712,0.0469,4.0,,False
-2026-08-01,824485,682622,Noelvi Marte,Cincinnati Reds,Pittsburgh Pirates,5,Great American Ball Park,1.15,Braxton Ashcraft,0.1359,0.0375,3.9,,False
-2026-08-01,824485,553993,Eugenio Suárez,Cincinnati Reds,Pittsburgh Pirates,6,Great American Ball Park,1.15,Braxton Ashcraft,0.1715,0.0495,3.8,,False
-2026-08-01,824485,624431,Jose Trevino,Cincinnati Reds,Pittsburgh Pirates,7,Great American Ball Park,1.15,Braxton Ashcraft,0.1493,0.0437,3.7,,False
-2026-08-01,824485,670770,TJ Friedl,Cincinnati Reds,Pittsburgh Pirates,8,Great American Ball Park,1.15,Braxton Ashcraft,0.1128,0.0332,3.6,,False
-2026-08-01,824485,680574,Matt McLain,Cincinnati Reds,Pittsburgh Pirates,9,Great American Ball Park,1.15,Braxton Ashcraft,0.1178,0.0358,3.5,,False
-2026-08-01,824485,663968,Jake Mangum,Pittsburgh Pirates,Cincinnati Reds,1,Great American Ball Park,1.15,Andrew Abbott,0.1301,0.0324,4.3,,False
-2026-08-01,824485,664040,Brandon Lowe,Pittsburgh Pirates,Cincinnati Reds,2,Great American Ball Park,1.15,Andrew Abbott,0.1869,0.0493,4.2,,False
-2026-08-01,824485,668804,Bryan Reynolds,Pittsburgh Pirates,Cincinnati Reds,3,Great American Ball Park,1.15,Andrew Abbott,0.1697,0.0453,4.1,,False
-2026-08-01,824485,699013,Esmerlyn Valdez,Pittsburgh Pirates,Cincinnati Reds,4,Great American Ball Park,1.15,Andrew Abbott,0.2288,0.065,4.0,,False
-2026-08-01,824485,693304,Nick Gonzales,Pittsburgh Pirates,Cincinnati Reds,5,Great American Ball Park,1.15,Andrew Abbott,0.1231,0.0337,3.9,,False
-2026-08-01,824485,542303,Marcell Ozuna,Pittsburgh Pirates,Cincinnati Reds,6,Great American Ball Park,1.15,Andrew Abbott,0.1461,0.0416,3.8,,False
-2026-08-01,824485,669707,Jared Triolo,Pittsburgh Pirates,Cincinnati Reds,7,Great American Ball Park,1.15,Andrew Abbott,0.1035,0.0295,3.7,,False
-2026-08-01,824485,804668,Rafael Flores Jr.,Pittsburgh Pirates,Cincinnati Reds,8,Great American Ball Park,1.15,Andrew Abbott,0.1394,0.0417,3.6,,False
-2026-08-01,824485,680779,Henry Davis,Pittsburgh Pirates,Cincinnati Reds,9,Great American Ball Park,1.15,Andrew Abbott,0.1382,0.0425,3.5,,False
-2026-08-01,824808,691723,Coby Mayo,Baltimore Orioles,Philadelphia Phillies,1,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.1223,0.0303,4.3,,False
-2026-08-01,824808,621493,Taylor Ward,Baltimore Orioles,Philadelphia Phillies,2,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0768,0.019,4.2,,False
-2026-08-01,824808,683002,Gunnar Henderson,Baltimore Orioles,Philadelphia Phillies,3,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0896,0.0229,4.1,,False
-2026-08-01,824808,624413,Pete Alonso,Baltimore Orioles,Philadelphia Phillies,4,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.1034,0.0273,4.0,,False
-2026-08-01,824808,641933,Tyler O'Neill,Baltimore Orioles,Philadelphia Phillies,5,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.097,0.0262,3.9,,False
-2026-08-01,824808,687952,Christian Encarnacion-Strand,Baltimore Orioles,Philadelphia Phillies,6,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0958,0.0265,3.8,,False
-2026-08-01,824808,665750,Leody Taveras,Baltimore Orioles,Philadelphia Phillies,7,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0683,0.0191,3.7,,False
-2026-08-01,824808,702616,Jackson Holliday,Baltimore Orioles,Philadelphia Phillies,8,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0694,0.02,3.6,,False
-2026-08-01,824808,668670,Jake Rogers,Baltimore Orioles,Philadelphia Phillies,9,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0737,0.0219,3.5,,False
-2026-08-01,824808,607208,Trea Turner,Philadelphia Phillies,Baltimore Orioles,1,Oriole Park at Camden Yards,0.85,Shane Baz,0.1004,0.0246,4.3,,False
-2026-08-01,824808,656941,Kyle Schwarber,Philadelphia Phillies,Baltimore Orioles,2,Oriole Park at Camden Yards,0.85,Shane Baz,0.1287,0.0328,4.2,,False
-2026-08-01,824808,547180,Bryce Harper,Philadelphia Phillies,Baltimore Orioles,3,Oriole Park at Camden Yards,0.85,Shane Baz,0.1034,0.0266,4.1,,False
-2026-08-01,824808,664761,Alec Bohm,Philadelphia Phillies,Baltimore Orioles,4,Oriole Park at Camden Yards,0.85,Shane Baz,0.079,0.0206,4.0,,False
-2026-08-01,824808,669016,Brandon Marsh,Philadelphia Phillies,Baltimore Orioles,5,Oriole Park at Camden Yards,0.85,Shane Baz,0.0809,0.0216,3.9,,False
-2026-08-01,824808,592663,J.T. Realmuto,Philadelphia Phillies,Baltimore Orioles,6,Oriole Park at Camden Yards,0.85,Shane Baz,0.0783,0.0214,3.8,,False
-2026-08-01,824808,681082,Bryson Stott,Philadelphia Phillies,Baltimore Orioles,7,Oriole Park at Camden Yards,0.85,Shane Baz,0.0618,0.0172,3.7,,False
-2026-08-01,824808,702222,Justin Crawford,Philadelphia Phillies,Baltimore Orioles,8,Oriole Park at Camden Yards,0.85,Shane Baz,0.0498,0.0142,3.6,,False
-2026-08-01,824808,650559,Bryan De La Cruz,Philadelphia Phillies,Baltimore Orioles,9,Oriole Park at Camden Yards,0.85,Shane Baz,0.0728,0.0216,3.5,,False
-2026-08-01,824162,665161,Jeremy Peña,Houston Astros,Texas Rangers,1,Daikin Park,1.1,Jacob deGrom,0.2012,0.0522,4.3,,False
-2026-08-01,824162,670541,Yordan Alvarez,Houston Astros,Texas Rangers,2,Daikin Park,1.1,Jacob deGrom,0.2651,0.0734,4.2,,False
-2026-08-01,824162,670623,Isaac Paredes,Houston Astros,Texas Rangers,3,Daikin Park,1.1,Jacob deGrom,0.1708,0.0457,4.1,,False
-2026-08-01,824162,572233,Christian Walker,Houston Astros,Texas Rangers,4,Daikin Park,1.1,Jacob deGrom,0.1823,0.0503,4.0,,False
-2026-08-01,824162,673237,Yainer Diaz,Houston Astros,Texas Rangers,5,Daikin Park,1.1,Jacob deGrom,0.1717,0.0483,3.9,,False
-2026-08-01,824162,514888,Jose Altuve,Houston Astros,Texas Rangers,6,Daikin Park,1.1,Jacob deGrom,0.1499,0.0427,3.8,,False
-2026-08-01,824162,666211,Taylor Trammell,Houston Astros,Texas Rangers,7,Daikin Park,1.1,Jacob deGrom,0.1434,0.0418,3.7,,False
-2026-08-01,824162,701358,Cam Smith,Houston Astros,Texas Rangers,8,Daikin Park,1.1,Jacob deGrom,0.1354,0.0404,3.6,,False
-2026-08-01,824162,664774,LaMonte Wade Jr.,Houston Astros,Texas Rangers,9,Daikin Park,1.1,Jacob deGrom,0.1248,0.0381,3.5,,False
-2026-08-01,824162,592626,Joc Pederson,Texas Rangers,Houston Astros,1,Daikin Park,1.1,Ronel Blanco,0.2576,0.0693,4.3,,False
-2026-08-01,824162,694671,Wyatt Langford,Texas Rangers,Houston Astros,2,Daikin Park,1.1,Ronel Blanco,0.2038,0.0543,4.2,,False
-2026-08-01,824162,608369,Corey Seager,Texas Rangers,Houston Astros,3,Daikin Park,1.1,Ronel Blanco,0.1915,0.0518,4.1,,False
-2026-08-01,824162,607043,Brandon Nimmo,Texas Rangers,Houston Astros,4,Daikin Park,1.1,Ronel Blanco,0.1481,0.0401,4.0,,False
-2026-08-01,824162,694497,Evan Carter,Texas Rangers,Houston Astros,5,Daikin Park,1.1,Ronel Blanco,0.1629,0.0456,3.9,,False
-2026-08-01,824162,677649,Ezequiel Duran,Texas Rangers,Houston Astros,6,Daikin Park,1.1,Ronel Blanco,0.1803,0.0523,3.8,,False
-2026-08-01,824162,696030,Alejandro Osuna,Texas Rangers,Houston Astros,7,Daikin Park,1.1,Ronel Blanco,0.1244,0.0359,3.7,,False
-2026-08-01,824162,553869,Elias Díaz,Texas Rangers,Houston Astros,8,Daikin Park,1.1,Ronel Blanco,0.1408,0.0422,3.6,,False
-2026-08-01,824162,670032,Nicky Lopez,Texas Rangers,Houston Astros,9,Daikin Park,1.1,Ronel Blanco,0.1111,0.0336,3.5,,False
-2026-08-01,824405,680757,Steven Kwan,Cleveland Guardians,Arizona Diamondbacks,1,Progressive Field,0.98,Kohl Drake,0.0892,0.0217,4.3,,False
-2026-08-01,824405,608070,José Ramírez,Cleveland Guardians,Arizona Diamondbacks,2,Progressive Field,0.98,Kohl Drake,0.1317,0.0336,4.2,,False
-2026-08-01,824405,800050,Chase DeLauter,Cleveland Guardians,Arizona Diamondbacks,3,Progressive Field,0.98,Kohl Drake,0.1324,0.0346,4.1,,False
-2026-08-01,824405,656555,Rhys Hoskins,Cleveland Guardians,Arizona Diamondbacks,4,Progressive Field,0.98,Kohl Drake,0.1546,0.042,4.0,,False
-2026-08-01,824405,682657,Angel Martínez,Cleveland Guardians,Arizona Diamondbacks,5,Progressive Field,0.98,Kohl Drake,0.1298,0.0356,3.9,,False
-2026-08-01,824405,681807,David Fry,Cleveland Guardians,Arizona Diamondbacks,6,Progressive Field,0.98,Kohl Drake,0.129,0.0364,3.8,,False
-2026-08-01,824405,683953,Travis Bazzana,Cleveland Guardians,Arizona Diamondbacks,7,Progressive Field,0.98,Kohl Drake,0.1094,0.0313,3.7,,False
-2026-08-01,824405,595978,Austin Hedges,Cleveland Guardians,Arizona Diamondbacks,8,Progressive Field,0.98,Kohl Drake,0.1168,0.0345,3.6,,False
-2026-08-01,824405,677587,Brayan Rocchio,Cleveland Guardians,Arizona Diamondbacks,9,Progressive Field,0.98,Kohl Drake,0.1082,0.0327,3.5,,False
-2026-08-01,824405,682998,Corbin Carroll,Arizona Diamondbacks,Cleveland Guardians,1,Progressive Field,0.98,Parker Messick,0.1105,0.0272,4.3,,False
-2026-08-01,824405,672695,Geraldo Perdomo,Arizona Diamondbacks,Cleveland Guardians,2,Progressive Field,0.98,Parker Messick,0.0951,0.0238,4.2,,False
-2026-08-01,824405,672515,Gabriel Moreno,Arizona Diamondbacks,Cleveland Guardians,3,Progressive Field,0.98,Parker Messick,0.0988,0.0254,4.1,,False
-2026-08-01,824405,606466,Ketel Marte,Arizona Diamondbacks,Cleveland Guardians,4,Progressive Field,0.98,Parker Messick,0.1139,0.0302,4.0,,False
-2026-08-01,824405,571448,Nolan Arenado,Arizona Diamondbacks,Cleveland Guardians,5,Progressive Field,0.98,Parker Messick,0.1153,0.0314,3.9,,False
-2026-08-01,824405,694374,Tim Tawa,Arizona Diamondbacks,Cleveland Guardians,6,Progressive Field,0.98,Parker Messick,0.0979,0.0271,3.8,,False
-2026-08-01,824405,545121,Ildemaro Vargas,Arizona Diamondbacks,Cleveland Guardians,7,Progressive Field,0.98,Parker Messick,0.0826,0.0233,3.7,,False
-2026-08-01,824405,543510,James McCann,Arizona Diamondbacks,Cleveland Guardians,8,Progressive Field,0.98,Parker Messick,0.1016,0.0298,3.6,,False
-2026-08-01,824405,814439,Ryan Waldschmidt,Arizona Diamondbacks,Cleveland Guardians,9,Progressive Field,0.98,Parker Messick,0.0778,0.0231,3.5,,False
+2026-08-01,822781,649966,Luis Urías,Toronto Blue Jays,St. Louis Cardinals,1,Rogers Centre,1.05,Quinn Mathews,0.1435,0.036,4.3,0.0,True
+2026-08-01,822781,665489,Vladimir Guerrero Jr.,Toronto Blue Jays,St. Louis Cardinals,2,Rogers Centre,1.05,Quinn Mathews,0.1072,0.027,4.2,0.0,True
+2026-08-01,822781,672960,Kazuma Okamoto,Toronto Blue Jays,St. Louis Cardinals,3,Rogers Centre,1.05,Quinn Mathews,0.163,0.0434,4.1,0.0,True
+2026-08-01,822781,543807,George Springer,Toronto Blue Jays,St. Louis Cardinals,4,Rogers Centre,1.05,Quinn Mathews,0.135,0.0363,4.0,0.0,True
+2026-08-01,822781,672386,Alejandro Kirk,Toronto Blue Jays,St. Louis Cardinals,5,Rogers Centre,1.05,Quinn Mathews,0.1113,0.0302,3.9,0.0,True
+2026-08-01,822781,662139,Daulton Varsho,Toronto Blue Jays,St. Louis Cardinals,6,Rogers Centre,1.05,Quinn Mathews,0.0929,0.0257,3.8,0.0,True
+2026-08-01,822781,676391,Ernie Clement,Toronto Blue Jays,St. Louis Cardinals,7,Rogers Centre,1.05,Quinn Mathews,0.0924,0.0262,3.7,0.0,True
+2026-08-01,822781,664702,Myles Straw,Toronto Blue Jays,St. Louis Cardinals,8,Rogers Centre,1.05,Quinn Mathews,0.0947,0.0276,3.6,0.0,True
+2026-08-01,822781,676914,Davis Schneider,Toronto Blue Jays,St. Louis Cardinals,9,Rogers Centre,1.05,Quinn Mathews,0.1024,0.0309,3.5,0.0,True
+2026-08-01,822781,802139,JJ Wetherholt,St. Louis Cardinals,Toronto Blue Jays,1,Rogers Centre,1.05,Kevin Gausman,0.1452,0.0365,4.3,0.0,True
+2026-08-01,822781,691023,Jordan Walker,St. Louis Cardinals,Toronto Blue Jays,2,Rogers Centre,1.05,Kevin Gausman,0.1589,0.0412,4.2,0.0,True
+2026-08-01,822781,676475,Alec Burleson,St. Louis Cardinals,Toronto Blue Jays,3,Rogers Centre,1.05,Kevin Gausman,0.1288,0.0336,4.1,0.0,True
+2026-08-01,822781,671056,Iván Herrera,St. Louis Cardinals,Toronto Blue Jays,4,Rogers Centre,1.05,Kevin Gausman,0.1123,0.0298,4.0,0.0,True
+2026-08-01,822781,663457,Lars Nootbaar,St. Louis Cardinals,Toronto Blue Jays,5,Rogers Centre,1.05,Kevin Gausman,0.1048,0.0284,3.9,0.0,True
+2026-08-01,822781,691026,Masyn Winn,St. Louis Cardinals,Toronto Blue Jays,6,Rogers Centre,1.05,Kevin Gausman,0.0855,0.0235,3.8,0.0,True
+2026-08-01,822781,701675,Nathan Church,St. Louis Cardinals,Toronto Blue Jays,7,Rogers Centre,1.05,Kevin Gausman,0.1095,0.0314,3.7,0.0,True
+2026-08-01,822781,691458,Blaze Jordan,St. Louis Cardinals,Toronto Blue Jays,8,Rogers Centre,1.05,Kevin Gausman,0.0908,0.0264,3.6,0.0,True
+2026-08-01,822781,699625,Jimmy Crooks,St. Louis Cardinals,Toronto Blue Jays,9,Rogers Centre,1.05,Kevin Gausman,0.1139,0.0346,3.5,0.0,True
+2026-08-01,823109,702284,Cole Young,Seattle Mariners,Minnesota Twins,1,T-Mobile Park,0.85,Connor Prielipp,0.1153,0.0285,4.3,0.0,True
+2026-08-01,823109,668227,Randy Arozarena,Seattle Mariners,Minnesota Twins,2,T-Mobile Park,0.85,Connor Prielipp,0.1124,0.0284,4.2,1.0,True
+2026-08-01,823109,686527,Dominic Canzone,Seattle Mariners,Minnesota Twins,3,T-Mobile Park,0.85,Connor Prielipp,0.1355,0.0355,4.1,0.0,True
+2026-08-01,823109,677594,Julio Rodríguez,Seattle Mariners,Minnesota Twins,4,T-Mobile Park,0.85,Connor Prielipp,0.1139,0.0302,4.0,0.0,True
+2026-08-01,823109,663728,Cal Raleigh,Seattle Mariners,Minnesota Twins,5,T-Mobile Park,0.85,Connor Prielipp,0.1026,0.0278,3.9,0.0,True
+2026-08-01,823109,647304,Josh Naylor,Seattle Mariners,Minnesota Twins,6,T-Mobile Park,0.85,Connor Prielipp,0.0715,0.0195,3.8,0.0,True
+2026-08-01,823109,641598,Mitch Garver,Seattle Mariners,Minnesota Twins,7,T-Mobile Park,0.85,Connor Prielipp,0.0922,0.0262,3.7,0.0,True
+2026-08-01,823109,642215,Weston Wilson,Seattle Mariners,Minnesota Twins,8,T-Mobile Park,0.85,Connor Prielipp,0.0946,0.0276,3.6,0.0,True
+2026-08-01,823109,806068,Colt Emerson,Seattle Mariners,Minnesota Twins,9,T-Mobile Park,0.85,Connor Prielipp,0.082,0.0244,3.5,0.0,True
+2026-08-01,823109,663616,Trevor Larnach,Minnesota Twins,Seattle Mariners,1,T-Mobile Park,0.85,Logan Gilbert,0.1117,0.0275,4.3,1.0,True
+2026-08-01,823109,680777,Ryan Jeffers,Minnesota Twins,Seattle Mariners,2,T-Mobile Park,0.85,Logan Gilbert,0.1369,0.0351,4.2,0.0,True
+2026-08-01,823109,665019,Kody Clemens,Minnesota Twins,Seattle Mariners,3,T-Mobile Park,0.85,Logan Gilbert,0.137,0.0359,4.1,0.0,True
+2026-08-01,823109,668904,Royce Lewis,Minnesota Twins,Seattle Mariners,4,T-Mobile Park,0.85,Logan Gilbert,0.1131,0.03,4.0,0.0,True
+2026-08-01,823109,686797,Brooks Lee,Minnesota Twins,Seattle Mariners,5,T-Mobile Park,0.85,Logan Gilbert,0.1105,0.03,3.9,0.0,True
+2026-08-01,823109,807712,Luke Keaschall,Minnesota Twins,Seattle Mariners,6,T-Mobile Park,0.85,Logan Gilbert,0.076,0.0208,3.8,1.0,True
+2026-08-01,823109,605170,Victor Caratini,Minnesota Twins,Seattle Mariners,7,T-Mobile Park,0.85,Logan Gilbert,0.086,0.0243,3.7,0.0,True
+2026-08-01,823109,668952,Ryan Kreidler,Minnesota Twins,Seattle Mariners,8,T-Mobile Park,0.85,Logan Gilbert,0.0862,0.0251,3.6,0.0,True
+2026-08-01,823109,668885,Austin Martin,Minnesota Twins,Seattle Mariners,9,T-Mobile Park,0.85,Logan Gilbert,0.0697,0.0206,3.5,0.0,True
+2026-08-01,822944,650490,Yandy Díaz,Tampa Bay Rays,Chicago White Sox,1,Tropicana Field,0.97,Jordan Hicks,0.1042,0.0256,4.3,0.0,True
+2026-08-01,822944,802415,Chandler Simpson,Tampa Bay Rays,Chicago White Sox,2,Tropicana Field,0.97,Jordan Hicks,0.0571,0.014,4.2,0.0,True
+2026-08-01,822944,691406,Junior Caminero,Tampa Bay Rays,Chicago White Sox,3,Tropicana Field,0.97,Jordan Hicks,0.1483,0.0392,4.1,0.0,True
+2026-08-01,822944,683748,Victor Mesa Jr.,Tampa Bay Rays,Chicago White Sox,4,Tropicana Field,0.97,Jordan Hicks,0.1247,0.0333,4.0,0.0,True
+2026-08-01,822944,676356,Jonny DeLuca,Tampa Bay Rays,Chicago White Sox,5,Tropicana Field,0.97,Jordan Hicks,0.1001,0.027,3.9,0.0,True
+2026-08-01,822944,668723,Ryan Vilade,Tampa Bay Rays,Chicago White Sox,6,Tropicana Field,0.97,Jordan Hicks,0.1096,0.0306,3.8,0.0,True
+2026-08-01,822944,810938,Ben Williamson,Tampa Bay Rays,Chicago White Sox,7,Tropicana Field,0.97,Jordan Hicks,0.0656,0.0183,3.7,0.0,True
+2026-08-01,822944,663743,Nick Fortes,Tampa Bay Rays,Chicago White Sox,8,Tropicana Field,0.97,Jordan Hicks,0.0835,0.0242,3.6,0.0,True
+2026-08-01,822944,670764,Taylor Walls,Tampa Bay Rays,Chicago White Sox,9,Tropicana Field,0.97,Jordan Hicks,0.0549,0.0161,3.5,0.0,True
+2026-08-01,822944,803011,Sam Antonacci,Chicago White Sox,Tampa Bay Rays,1,Tropicana Field,0.97,Drew Rasmussen,0.116,0.0287,4.3,0.0,True
+2026-08-01,822944,808959,Munetaka Murakami,Chicago White Sox,Tampa Bay Rays,2,Tropicana Field,0.97,Drew Rasmussen,0.1835,0.0483,4.2,0.0,True
+2026-08-01,822944,678246,Miguel Vargas,Chicago White Sox,Tampa Bay Rays,3,Tropicana Field,0.97,Drew Rasmussen,0.1443,0.038,4.1,0.0,True
+2026-08-01,822944,695657,Colson Montgomery,Chicago White Sox,Tampa Bay Rays,4,Tropicana Field,0.97,Drew Rasmussen,0.1508,0.0409,4.0,0.0,True
+2026-08-01,822944,643217,Andrew Benintendi,Chicago White Sox,Tampa Bay Rays,5,Tropicana Field,0.97,Drew Rasmussen,0.1103,0.03,3.9,0.0,True
+2026-08-01,822944,695731,Braden Montgomery,Chicago White Sox,Tampa Bay Rays,6,Tropicana Field,0.97,Drew Rasmussen,0.0921,0.0254,3.8,0.0,True
+2026-08-01,822944,671976,Tristan Peters,Chicago White Sox,Tampa Bay Rays,7,Tropicana Field,0.97,Drew Rasmussen,0.0911,0.0258,3.7,0.0,True
+2026-08-01,822944,805367,Chase Meidroth,Chicago White Sox,Tampa Bay Rays,8,Tropicana Field,0.97,Drew Rasmussen,0.0934,0.0272,3.6,0.0,True
+2026-08-01,822944,700337,Edgar Quero,Chicago White Sox,Tampa Bay Rays,9,Tropicana Field,0.97,Drew Rasmussen,0.0814,0.0243,3.5,0.0,True
+2026-08-01,823594,805999,A.J. Ewing,New York Mets,Miami Marlins,1,Citi Field,0.9,Tyler Phillips,0.1114,0.0275,4.3,0.0,True
+2026-08-01,823594,596019,Francisco Lindor,New York Mets,Miami Marlins,2,Citi Field,0.9,Tyler Phillips,0.1298,0.0331,4.2,0.0,True
+2026-08-01,823594,666182,Bo Bichette,New York Mets,Miami Marlins,3,Citi Field,0.9,Tyler Phillips,0.086,0.0219,4.1,0.0,True
+2026-08-01,823594,701807,Carson Benge,New York Mets,Miami Marlins,4,Citi Field,0.9,Tyler Phillips,0.0957,0.0252,4.0,0.0,True
+2026-08-01,823594,676724,Jared Young,New York Mets,Miami Marlins,5,Citi Field,0.9,Tyler Phillips,0.1089,0.0296,3.9,0.0,True
+2026-08-01,823594,543760,Marcus Semien,New York Mets,Miami Marlins,6,Citi Field,0.9,Tyler Phillips,0.1167,0.0327,3.8,0.0,True
+2026-08-01,823594,683146,Brett Baty,New York Mets,Miami Marlins,7,Citi Field,0.9,Tyler Phillips,0.0926,0.0263,3.7,0.0,True
+2026-08-01,823594,621438,Tyrone Taylor,New York Mets,Miami Marlins,8,Citi Field,0.9,Tyler Phillips,0.1331,0.0397,3.6,1.0,True
+2026-08-01,823594,620443,Luis Torrens,New York Mets,Miami Marlins,9,Citi Field,0.9,Tyler Phillips,0.0758,0.0225,3.5,0.0,True
+2026-08-01,823594,672640,Otto Lopez,Miami Marlins,New York Mets,1,Citi Field,0.9,Zac Thornton,0.0911,0.0222,4.3,0.0,True
+2026-08-01,823594,681715,Heriberto Hernández,Miami Marlins,New York Mets,2,Citi Field,0.9,Zac Thornton,0.1496,0.0386,4.2,0.0,True
+2026-08-01,823594,689414,Liam Hicks,Miami Marlins,New York Mets,3,Citi Field,0.9,Zac Thornton,0.0975,0.025,4.1,0.0,True
+2026-08-01,823594,669364,Xavier Edwards,Miami Marlins,New York Mets,4,Citi Field,0.9,Zac Thornton,0.0767,0.02,4.0,0.0,True
+2026-08-01,823594,677870,Leo Jiménez,Miami Marlins,New York Mets,5,Citi Field,0.9,Zac Thornton,0.0967,0.0261,3.9,0.0,True
+2026-08-01,823594,669065,Kyle Stowers,Miami Marlins,New York Mets,6,Citi Field,0.9,Zac Thornton,0.1212,0.034,3.8,0.0,True
+2026-08-01,823594,691594,Javier Sanoja,Miami Marlins,New York Mets,7,Citi Field,0.9,Zac Thornton,0.0697,0.0195,3.7,1.0,True
+2026-08-01,823594,665923,Esteury Ruiz,Miami Marlins,New York Mets,8,Citi Field,0.9,Zac Thornton,0.0953,0.0278,3.6,0.0,True
+2026-08-01,823594,665052,Griffin Conine,Miami Marlins,New York Mets,9,Citi Field,0.9,Zac Thornton,0.112,0.0339,3.5,1.0,True
+2026-08-01,824485,682829,Elly De La Cruz,Cincinnati Reds,Pittsburgh Pirates,1,Great American Ball Park,1.15,Braxton Ashcraft,0.1843,0.0474,4.3,0.0,True
+2026-08-01,824485,701398,Sal Stewart,Cincinnati Reds,Pittsburgh Pirates,2,Great American Ball Park,1.15,Braxton Ashcraft,0.2045,0.0545,4.2,0.0,True
+2026-08-01,824485,668709,JJ Bleday,Cincinnati Reds,Pittsburgh Pirates,3,Great American Ball Park,1.15,Braxton Ashcraft,0.2037,0.0556,4.1,0.0,True
+2026-08-01,824485,663993,Nathaniel Lowe,Cincinnati Reds,Pittsburgh Pirates,4,Great American Ball Park,1.15,Braxton Ashcraft,0.1712,0.0469,4.0,0.0,True
+2026-08-01,824485,682622,Noelvi Marte,Cincinnati Reds,Pittsburgh Pirates,5,Great American Ball Park,1.15,Braxton Ashcraft,0.1359,0.0375,3.9,0.0,True
+2026-08-01,824485,553993,Eugenio Suárez,Cincinnati Reds,Pittsburgh Pirates,6,Great American Ball Park,1.15,Braxton Ashcraft,0.1715,0.0495,3.8,0.0,True
+2026-08-01,824485,624431,Jose Trevino,Cincinnati Reds,Pittsburgh Pirates,7,Great American Ball Park,1.15,Braxton Ashcraft,0.1493,0.0437,3.7,1.0,True
+2026-08-01,824485,670770,TJ Friedl,Cincinnati Reds,Pittsburgh Pirates,8,Great American Ball Park,1.15,Braxton Ashcraft,0.1128,0.0332,3.6,0.0,True
+2026-08-01,824485,680574,Matt McLain,Cincinnati Reds,Pittsburgh Pirates,9,Great American Ball Park,1.15,Braxton Ashcraft,0.1178,0.0358,3.5,0.0,True
+2026-08-01,824485,663968,Jake Mangum,Pittsburgh Pirates,Cincinnati Reds,1,Great American Ball Park,1.15,Andrew Abbott,0.1301,0.0324,4.3,0.0,True
+2026-08-01,824485,664040,Brandon Lowe,Pittsburgh Pirates,Cincinnati Reds,2,Great American Ball Park,1.15,Andrew Abbott,0.1869,0.0493,4.2,0.0,True
+2026-08-01,824485,668804,Bryan Reynolds,Pittsburgh Pirates,Cincinnati Reds,3,Great American Ball Park,1.15,Andrew Abbott,0.1697,0.0453,4.1,0.0,True
+2026-08-01,824485,699013,Esmerlyn Valdez,Pittsburgh Pirates,Cincinnati Reds,4,Great American Ball Park,1.15,Andrew Abbott,0.2288,0.065,4.0,0.0,True
+2026-08-01,824485,693304,Nick Gonzales,Pittsburgh Pirates,Cincinnati Reds,5,Great American Ball Park,1.15,Andrew Abbott,0.1231,0.0337,3.9,0.0,True
+2026-08-01,824485,542303,Marcell Ozuna,Pittsburgh Pirates,Cincinnati Reds,6,Great American Ball Park,1.15,Andrew Abbott,0.1461,0.0416,3.8,0.0,True
+2026-08-01,824485,669707,Jared Triolo,Pittsburgh Pirates,Cincinnati Reds,7,Great American Ball Park,1.15,Andrew Abbott,0.1035,0.0295,3.7,0.0,True
+2026-08-01,824485,804668,Rafael Flores Jr.,Pittsburgh Pirates,Cincinnati Reds,8,Great American Ball Park,1.15,Andrew Abbott,0.1394,0.0417,3.6,0.0,True
+2026-08-01,824485,680779,Henry Davis,Pittsburgh Pirates,Cincinnati Reds,9,Great American Ball Park,1.15,Andrew Abbott,0.1382,0.0425,3.5,0.0,True
+2026-08-01,824808,691723,Coby Mayo,Baltimore Orioles,Philadelphia Phillies,1,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.1223,0.0303,4.3,0.0,True
+2026-08-01,824808,621493,Taylor Ward,Baltimore Orioles,Philadelphia Phillies,2,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0768,0.019,4.2,0.0,True
+2026-08-01,824808,683002,Gunnar Henderson,Baltimore Orioles,Philadelphia Phillies,3,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0896,0.0229,4.1,0.0,True
+2026-08-01,824808,624413,Pete Alonso,Baltimore Orioles,Philadelphia Phillies,4,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.1034,0.0273,4.0,0.0,True
+2026-08-01,824808,641933,Tyler O'Neill,Baltimore Orioles,Philadelphia Phillies,5,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.097,0.0262,3.9,0.0,True
+2026-08-01,824808,687952,Christian Encarnacion-Strand,Baltimore Orioles,Philadelphia Phillies,6,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0958,0.0265,3.8,0.0,True
+2026-08-01,824808,665750,Leody Taveras,Baltimore Orioles,Philadelphia Phillies,7,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0683,0.0191,3.7,0.0,True
+2026-08-01,824808,702616,Jackson Holliday,Baltimore Orioles,Philadelphia Phillies,8,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0694,0.02,3.6,0.0,True
+2026-08-01,824808,668670,Jake Rogers,Baltimore Orioles,Philadelphia Phillies,9,Oriole Park at Camden Yards,0.85,Cristopher Sánchez,0.0737,0.0219,3.5,0.0,True
+2026-08-01,824808,607208,Trea Turner,Philadelphia Phillies,Baltimore Orioles,1,Oriole Park at Camden Yards,0.85,Shane Baz,0.1004,0.0246,4.3,0.0,True
+2026-08-01,824808,656941,Kyle Schwarber,Philadelphia Phillies,Baltimore Orioles,2,Oriole Park at Camden Yards,0.85,Shane Baz,0.1287,0.0328,4.2,0.0,True
+2026-08-01,824808,547180,Bryce Harper,Philadelphia Phillies,Baltimore Orioles,3,Oriole Park at Camden Yards,0.85,Shane Baz,0.1034,0.0266,4.1,0.0,True
+2026-08-01,824808,664761,Alec Bohm,Philadelphia Phillies,Baltimore Orioles,4,Oriole Park at Camden Yards,0.85,Shane Baz,0.079,0.0206,4.0,0.0,True
+2026-08-01,824808,669016,Brandon Marsh,Philadelphia Phillies,Baltimore Orioles,5,Oriole Park at Camden Yards,0.85,Shane Baz,0.0809,0.0216,3.9,0.0,True
+2026-08-01,824808,592663,J.T. Realmuto,Philadelphia Phillies,Baltimore Orioles,6,Oriole Park at Camden Yards,0.85,Shane Baz,0.0783,0.0214,3.8,0.0,True
+2026-08-01,824808,681082,Bryson Stott,Philadelphia Phillies,Baltimore Orioles,7,Oriole Park at Camden Yards,0.85,Shane Baz,0.0618,0.0172,3.7,0.0,True
+2026-08-01,824808,702222,Justin Crawford,Philadelphia Phillies,Baltimore Orioles,8,Oriole Park at Camden Yards,0.85,Shane Baz,0.0498,0.0142,3.6,0.0,True
+2026-08-01,824808,650559,Bryan De La Cruz,Philadelphia Phillies,Baltimore Orioles,9,Oriole Park at Camden Yards,0.85,Shane Baz,0.0728,0.0216,3.5,0.0,True
+2026-08-01,824162,665161,Jeremy Peña,Houston Astros,Texas Rangers,1,Daikin Park,1.1,Jacob deGrom,0.2012,0.0522,4.3,0.0,True
+2026-08-01,824162,670541,Yordan Alvarez,Houston Astros,Texas Rangers,2,Daikin Park,1.1,Jacob deGrom,0.2651,0.0734,4.2,0.0,True
+2026-08-01,824162,670623,Isaac Paredes,Houston Astros,Texas Rangers,3,Daikin Park,1.1,Jacob deGrom,0.1708,0.0457,4.1,0.0,True
+2026-08-01,824162,572233,Christian Walker,Houston Astros,Texas Rangers,4,Daikin Park,1.1,Jacob deGrom,0.1823,0.0503,4.0,0.0,True
+2026-08-01,824162,673237,Yainer Diaz,Houston Astros,Texas Rangers,5,Daikin Park,1.1,Jacob deGrom,0.1717,0.0483,3.9,0.0,True
+2026-08-01,824162,514888,Jose Altuve,Houston Astros,Texas Rangers,6,Daikin Park,1.1,Jacob deGrom,0.1499,0.0427,3.8,0.0,True
+2026-08-01,824162,666211,Taylor Trammell,Houston Astros,Texas Rangers,7,Daikin Park,1.1,Jacob deGrom,0.1434,0.0418,3.7,0.0,True
+2026-08-01,824162,701358,Cam Smith,Houston Astros,Texas Rangers,8,Daikin Park,1.1,Jacob deGrom,0.1354,0.0404,3.6,0.0,True
+2026-08-01,824162,664774,LaMonte Wade Jr.,Houston Astros,Texas Rangers,9,Daikin Park,1.1,Jacob deGrom,0.1248,0.0381,3.5,0.0,True
+2026-08-01,824162,592626,Joc Pederson,Texas Rangers,Houston Astros,1,Daikin Park,1.1,Ronel Blanco,0.2576,0.0693,4.3,0.0,True
+2026-08-01,824162,694671,Wyatt Langford,Texas Rangers,Houston Astros,2,Daikin Park,1.1,Ronel Blanco,0.2038,0.0543,4.2,1.0,True
+2026-08-01,824162,608369,Corey Seager,Texas Rangers,Houston Astros,3,Daikin Park,1.1,Ronel Blanco,0.1915,0.0518,4.1,0.0,True
+2026-08-01,824162,607043,Brandon Nimmo,Texas Rangers,Houston Astros,4,Daikin Park,1.1,Ronel Blanco,0.1481,0.0401,4.0,0.0,True
+2026-08-01,824162,694497,Evan Carter,Texas Rangers,Houston Astros,5,Daikin Park,1.1,Ronel Blanco,0.1629,0.0456,3.9,0.0,True
+2026-08-01,824162,677649,Ezequiel Duran,Texas Rangers,Houston Astros,6,Daikin Park,1.1,Ronel Blanco,0.1803,0.0523,3.8,0.0,True
+2026-08-01,824162,696030,Alejandro Osuna,Texas Rangers,Houston Astros,7,Daikin Park,1.1,Ronel Blanco,0.1244,0.0359,3.7,0.0,True
+2026-08-01,824162,553869,Elias Díaz,Texas Rangers,Houston Astros,8,Daikin Park,1.1,Ronel Blanco,0.1408,0.0422,3.6,1.0,True
+2026-08-01,824162,670032,Nicky Lopez,Texas Rangers,Houston Astros,9,Daikin Park,1.1,Ronel Blanco,0.1111,0.0336,3.5,0.0,True
+2026-08-01,824405,680757,Steven Kwan,Cleveland Guardians,Arizona Diamondbacks,1,Progressive Field,0.98,Kohl Drake,0.0892,0.0217,4.3,0.0,True
+2026-08-01,824405,608070,José Ramírez,Cleveland Guardians,Arizona Diamondbacks,2,Progressive Field,0.98,Kohl Drake,0.1317,0.0336,4.2,0.0,True
+2026-08-01,824405,800050,Chase DeLauter,Cleveland Guardians,Arizona Diamondbacks,3,Progressive Field,0.98,Kohl Drake,0.1324,0.0346,4.1,1.0,True
+2026-08-01,824405,656555,Rhys Hoskins,Cleveland Guardians,Arizona Diamondbacks,4,Progressive Field,0.98,Kohl Drake,0.1546,0.042,4.0,1.0,True
+2026-08-01,824405,682657,Angel Martínez,Cleveland Guardians,Arizona Diamondbacks,5,Progressive Field,0.98,Kohl Drake,0.1298,0.0356,3.9,0.0,True
+2026-08-01,824405,681807,David Fry,Cleveland Guardians,Arizona Diamondbacks,6,Progressive Field,0.98,Kohl Drake,0.129,0.0364,3.8,0.0,True
+2026-08-01,824405,683953,Travis Bazzana,Cleveland Guardians,Arizona Diamondbacks,7,Progressive Field,0.98,Kohl Drake,0.1094,0.0313,3.7,0.0,True
+2026-08-01,824405,595978,Austin Hedges,Cleveland Guardians,Arizona Diamondbacks,8,Progressive Field,0.98,Kohl Drake,0.1168,0.0345,3.6,0.0,True
+2026-08-01,824405,677587,Brayan Rocchio,Cleveland Guardians,Arizona Diamondbacks,9,Progressive Field,0.98,Kohl Drake,0.1082,0.0327,3.5,0.0,True
+2026-08-01,824405,682998,Corbin Carroll,Arizona Diamondbacks,Cleveland Guardians,1,Progressive Field,0.98,Parker Messick,0.1105,0.0272,4.3,1.0,True
+2026-08-01,824405,672695,Geraldo Perdomo,Arizona Diamondbacks,Cleveland Guardians,2,Progressive Field,0.98,Parker Messick,0.0951,0.0238,4.2,1.0,True
+2026-08-01,824405,672515,Gabriel Moreno,Arizona Diamondbacks,Cleveland Guardians,3,Progressive Field,0.98,Parker Messick,0.0988,0.0254,4.1,0.0,True
+2026-08-01,824405,606466,Ketel Marte,Arizona Diamondbacks,Cleveland Guardians,4,Progressive Field,0.98,Parker Messick,0.1139,0.0302,4.0,0.0,True
+2026-08-01,824405,571448,Nolan Arenado,Arizona Diamondbacks,Cleveland Guardians,5,Progressive Field,0.98,Parker Messick,0.1153,0.0314,3.9,1.0,True
+2026-08-01,824405,694374,Tim Tawa,Arizona Diamondbacks,Cleveland Guardians,6,Progressive Field,0.98,Parker Messick,0.0979,0.0271,3.8,0.0,True
+2026-08-01,824405,545121,Ildemaro Vargas,Arizona Diamondbacks,Cleveland Guardians,7,Progressive Field,0.98,Parker Messick,0.0826,0.0233,3.7,0.0,True
+2026-08-01,824405,543510,James McCann,Arizona Diamondbacks,Cleveland Guardians,8,Progressive Field,0.98,Parker Messick,0.1016,0.0298,3.6,0.0,True
+2026-08-01,824405,814439,Ryan Waldschmidt,Arizona Diamondbacks,Cleveland Guardians,9,Progressive Field,0.98,Parker Messick,0.0778,0.0231,3.5,0.0,True

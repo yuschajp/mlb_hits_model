@@ -701,21 +701,21 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-07-31,823922,683618,Edgardo Henriquez,Los Angeles Dodgers,Boston Red Sox,UNIQLO Field at Dodger Stadium,0.96,6.5,9.0,7.941,0.2208,42.0,11.3,5.5,5.224,0.2713,0.7287,1.0,True
 2026-07-31,823111,805673,Zebby Matthews,Minnesota Twins,Seattle Mariners,T-Mobile Park,0.98,6.5,6.987,6.75,0.2299,76.0,26.7,5.85,4.946,0.2299,0.7701,10.0,True
 2026-07-31,823111,682243,Bryce Miller,Seattle Mariners,Minnesota Twins,T-Mobile Park,0.92,6.5,9.306,6.652,0.2149,68.7,23.0,5.72,5.061,0.2468,0.7532,3.0,True
-2026-08-01,822781,687273,Quinn Mathews,St. Louis Cardinals,Toronto Blue Jays,Rogers Centre,0.97,6.5,6.0,6.0,0.1937,3.0,3.0,3.0,4.324,0.1471,0.8529,,False
-2026-08-01,822781,592332,Kevin Gausman,Toronto Blue Jays,St. Louis Cardinals,Rogers Centre,1.0,6.5,9.072,9.791,0.2042,125.0,30.3,5.45,5.019,0.2406,0.7594,,False
-2026-08-01,823109,687570,Connor Prielipp,Minnesota Twins,Seattle Mariners,T-Mobile Park,0.98,6.5,9.456,11.34,0.2313,72.3,16.7,5.17,5.731,0.3506,0.6494,,False
-2026-08-01,823109,669302,Logan Gilbert,Seattle Mariners,Minnesota Twins,T-Mobile Park,0.92,6.5,9.525,9.092,0.215,125.7,32.7,5.98,5.652,0.338,0.662,,False
-2026-08-01,822944,663855,Jordan Hicks,Chicago White Sox,Tampa Bay Rays,Tropicana Field,1.02,6.5,10.452,14.595,0.1923,31.0,12.3,5.5,5.242,0.274,0.726,,False
-2026-08-01,822944,656876,Drew Rasmussen,Tampa Bay Rays,Chicago White Sox,Tropicana Field,0.97,6.5,9.054,8.171,0.2355,111.3,25.3,5.57,5.625,0.3337,0.6663,,False
-2026-08-01,823594,663969,Tyler Phillips,Miami Marlins,New York Mets,Citi Field,0.93,6.5,6.723,4.846,0.2259,84.3,26.0,4.15,3.696,0.0815,0.9185,,False
-2026-08-01,823594,804267,Zac Thornton,New York Mets,Miami Marlins,Citi Field,0.97,6.5,6.674,5.586,0.217,29.7,19.3,5.93,4.647,0.1882,0.8118,,False
-2026-08-01,824485,677952,Braxton Ashcraft,Pittsburgh Pirates,Cincinnati Reds,Great American Ball Park,0.97,6.5,9.932,9.818,0.2519,122.3,25.7,5.83,6.733,0.5098,0.4902,,False
-2026-08-01,824485,671096,Andrew Abbott,Cincinnati Reds,Pittsburgh Pirates,Great American Ball Park,1.05,6.5,7.231,8.0,0.2402,117.0,27.0,5.32,5.05,0.2452,0.7548,,False
-2026-08-01,824808,650911,Cristopher Sánchez,Philadelphia Phillies,Baltimore Orioles,Oriole Park at Camden Yards,1.03,6.5,10.19,9.418,0.2412,138.7,28.7,6.3,6.853,0.5282,0.4718,,False
-2026-08-01,824808,669358,Shane Baz,Baltimore Orioles,Philadelphia Phillies,Oriole Park at Camden Yards,0.97,6.5,7.893,8.357,0.2375,122.0,28.0,5.81,5.539,0.3201,0.6799,,False
-2026-08-01,824162,594798,Jacob deGrom,Texas Rangers,Houston Astros,Daikin Park,1.02,6.5,10.767,10.8,0.2172,110.3,21.7,5.52,5.898,0.3773,0.6227,,False
-2026-08-01,824162,669854,Ronel Blanco,Houston Astros,Texas Rangers,Daikin Park,1.0,6.5,10.8,10.8,0.2264,10.0,10.0,5.0,5.608,0.3311,0.6689,,False
-2026-08-01,824405,684442,Kohl Drake,Arizona Diamondbacks,Cleveland Guardians,Progressive Field,1.02,6.5,6.0,6.0,0.2214,9.0,9.0,4.5,4.782,0.2068,0.7932,,False
-2026-08-01,824405,800048,Parker Messick,Cleveland Guardians,Arizona Diamondbacks,Progressive Field,0.99,6.5,8.761,6.097,0.1921,125.3,31.0,5.97,4.463,0.1642,0.8358,,False
+2026-08-01,822781,687273,Quinn Mathews,St. Louis Cardinals,Toronto Blue Jays,Rogers Centre,0.97,6.5,6.0,6.0,0.1937,3.0,3.0,3.0,4.324,0.1471,0.8529,3.0,True
+2026-08-01,822781,592332,Kevin Gausman,Toronto Blue Jays,St. Louis Cardinals,Rogers Centre,1.0,6.5,9.072,9.791,0.2042,125.0,30.3,5.45,5.019,0.2406,0.7594,4.0,True
+2026-08-01,823109,687570,Connor Prielipp,Minnesota Twins,Seattle Mariners,T-Mobile Park,0.98,6.5,9.456,11.34,0.2313,72.3,16.7,5.17,5.731,0.3506,0.6494,5.0,True
+2026-08-01,823109,669302,Logan Gilbert,Seattle Mariners,Minnesota Twins,T-Mobile Park,0.92,6.5,9.525,9.092,0.215,125.7,32.7,5.98,5.652,0.338,0.662,6.0,True
+2026-08-01,822944,663855,Jordan Hicks,Chicago White Sox,Tampa Bay Rays,Tropicana Field,1.02,6.5,10.452,14.595,0.1923,31.0,12.3,5.5,5.242,0.274,0.726,1.0,True
+2026-08-01,822944,656876,Drew Rasmussen,Tampa Bay Rays,Chicago White Sox,Tropicana Field,0.97,6.5,9.054,8.171,0.2355,111.3,25.3,5.57,5.625,0.3337,0.6663,10.0,True
+2026-08-01,823594,663969,Tyler Phillips,Miami Marlins,New York Mets,Citi Field,0.93,6.5,6.723,4.846,0.2259,84.3,26.0,4.15,3.696,0.0815,0.9185,3.0,True
+2026-08-01,823594,804267,Zac Thornton,New York Mets,Miami Marlins,Citi Field,0.97,6.5,6.674,5.586,0.217,29.7,19.3,5.93,4.647,0.1882,0.8118,2.0,True
+2026-08-01,824485,677952,Braxton Ashcraft,Pittsburgh Pirates,Cincinnati Reds,Great American Ball Park,0.97,6.5,9.932,9.818,0.2519,122.3,25.7,5.83,6.733,0.5098,0.4902,5.0,True
+2026-08-01,824485,671096,Andrew Abbott,Cincinnati Reds,Pittsburgh Pirates,Great American Ball Park,1.05,6.5,7.231,8.0,0.2402,117.0,27.0,5.32,5.05,0.2452,0.7548,1.0,True
+2026-08-01,824808,650911,Cristopher Sánchez,Philadelphia Phillies,Baltimore Orioles,Oriole Park at Camden Yards,1.03,6.5,10.19,9.418,0.2412,138.7,28.7,6.3,6.853,0.5282,0.4718,11.0,True
+2026-08-01,824808,669358,Shane Baz,Baltimore Orioles,Philadelphia Phillies,Oriole Park at Camden Yards,0.97,6.5,7.893,8.357,0.2375,122.0,28.0,5.81,5.539,0.3201,0.6799,4.0,True
+2026-08-01,824162,594798,Jacob deGrom,Texas Rangers,Houston Astros,Daikin Park,1.02,6.5,10.767,10.8,0.2172,110.3,21.7,5.52,5.898,0.3773,0.6227,3.0,True
+2026-08-01,824162,669854,Ronel Blanco,Houston Astros,Texas Rangers,Daikin Park,1.0,6.5,10.8,10.8,0.2264,10.0,10.0,5.0,5.608,0.3311,0.6689,4.0,True
+2026-08-01,824405,684442,Kohl Drake,Arizona Diamondbacks,Cleveland Guardians,Progressive Field,1.02,6.5,6.0,6.0,0.2214,9.0,9.0,4.5,4.782,0.2068,0.7932,6.0,True
+2026-08-01,824405,800048,Parker Messick,Cleveland Guardians,Arizona Diamondbacks,Progressive Field,0.99,6.5,8.761,6.097,0.1921,125.3,31.0,5.97,4.463,0.1642,0.8358,6.0,True
 2026-08-01,824890,625643,Reynaldo López,Atlanta Braves,Washington Nationals,Truist Park,1.01,6.5,8.288,9.36,0.2124,71.7,25.0,4.39,4.47,0.1652,0.8348,,False
-2026-08-01,824326,663372,Ryan Feltner,Colorado Rockies,Kansas City Royals,Coors Field,1.13,6.5,6.877,7.225,0.2137,70.7,23.7,4.71,4.115,0.123,0.877,,False
+2026-08-01,824326,663372,Ryan Feltner,Colorado Rockies,Kansas City Royals,Coors Field,1.13,6.5,6.877,7.225,0.2137,70.7,23.7,4.71,4.115,0.123,0.877,3.0,True
