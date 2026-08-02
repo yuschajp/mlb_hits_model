@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 270,
     "total_graded": 7198,
     "since_date": "2026-06-21",
     "brier_score": 0.1032,
     "naive_brier": 0.235,
     "avg_predicted": 0.1254,
     "actual_hr_rate": 0.1189,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Kumar Rocker",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2462
+      },
+      {
+        "player_name": "Jac Caglianone",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2303
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Colin Rea",
+        "venue": "Wrigley Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2301
+      },
+      {
+        "player_name": "James Wood",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "JR Ritchie",
+        "venue": "Truist Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2281
+      },
+      {
+        "player_name": "Salvador Perez",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2249
+      },
+      {
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "JR Ritchie",
+        "venue": "Truist Park",
+        "lineup_spot": 4,
+        "p_hr": 0.223
+      },
+      {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Emmet Sheehan",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2166
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Griffin Jax",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2164
+      },
+      {
+        "player_name": "Jordan Walker",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Max Scherzer",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hr": 0.2082
+      },
+      {
+        "player_name": "Carter Jensen",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Kyle Freeland",
+        "venue": "Coors Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2078
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -846,14 +927,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 30,
     "total_graded": 718,
     "since_date": "2026-06-27",
     "brier_score": 0.1543,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.25,
     "over_rate": 0.237,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 8.9,
+        "p_over": 0.7842,
+        "p_under": 0.2158
+      },
+      {
+        "pitcher_name": "Zack Wheeler",
+        "team": "Philadelphia Phillies",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 7.68,
+        "p_over": 0.6465,
+        "p_under": 0.3535
+      },
+      {
+        "pitcher_name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 6.56,
+        "p_over": 0.4829,
+        "p_under": 0.5171
+      },
+      {
+        "pitcher_name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "opponent": "Arizona Diamondbacks",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 6.4,
+        "p_over": 0.458,
+        "p_under": 0.542
+      },
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 6.08,
+        "p_over": 0.4071,
+        "p_under": 0.5929
+      },
+      {
+        "pitcher_name": "Peter Lambert",
+        "team": "Houston Astros",
+        "opponent": "Texas Rangers",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.78,
+        "p_over": 0.358,
+        "p_under": 0.642
+      },
+      {
+        "pitcher_name": "Gage Jump",
+        "team": "Athletics",
+        "opponent": "Detroit Tigers",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 5.76,
+        "p_over": 0.3549,
+        "p_under": 0.6451
+      },
+      {
+        "pitcher_name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "opponent": "Chicago Cubs",
+        "venue": "Wrigley Field",
+        "line": 6.5,
+        "lambda_k": 5.75,
+        "p_over": 0.3537,
+        "p_under": 0.6463
+      },
+      {
+        "pitcher_name": "Griffin Jax",
+        "team": "Tampa Bay Rays",
+        "opponent": "Chicago White Sox",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.65,
+        "p_over": 0.3378,
+        "p_under": 0.6622
+      },
+      {
+        "pitcher_name": "Emmet Sheehan",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Boston Red Sox",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 5.28,
+        "p_over": 0.2795,
+        "p_under": 0.7205
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
