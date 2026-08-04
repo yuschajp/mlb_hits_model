@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 252,
     "total_graded": 7467,
     "since_date": "2026-06-21",
     "brier_score": 0.103,
     "naive_brier": 0.235,
     "avg_predicted": 0.1255,
     "actual_hr_rate": 0.1185,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Freddy Peralta",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2702
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Hunter Dobbins",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.2284
+      },
+      {
+        "player_name": "Griffin Conine",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2259
+      },
+      {
+        "player_name": "Mickey Moniak",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Freddy Peralta",
+        "venue": "Coors Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2242
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Trey Yesavage",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2221
+      },
+      {
+        "player_name": "Tyler Soderstrom",
+        "team": "Athletics",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2112
+      },
+      {
+        "player_name": "Kyle Stowers",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "Truist Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2028
+      },
+      {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "J.T. Ginn",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2018
+      },
+      {
+        "player_name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "J.T. Ginn",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1971
+      },
+      {
+        "player_name": "Heriberto Hern\u00e1ndez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "Truist Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1967
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -858,14 +939,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 29,
     "total_graded": 748,
     "since_date": "2026-06-27",
     "brier_score": 0.1559,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.04,
     "over_rate": 0.239,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Tarik Skubal",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Chicago Cubs",
+        "venue": "Wrigley Field",
+        "line": 6.5,
+        "lambda_k": 6.54,
+        "p_over": 0.4794,
+        "p_under": 0.5206
+      },
+      {
+        "pitcher_name": "Jes\u00fas Luzardo",
+        "team": "Philadelphia Phillies",
+        "opponent": "Washington Nationals",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 6.29,
+        "p_over": 0.4407,
+        "p_under": 0.5593
+      },
+      {
+        "pitcher_name": "Logan Henderson",
+        "team": "Milwaukee Brewers",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 6.01,
+        "p_over": 0.3949,
+        "p_under": 0.6051
+      },
+      {
+        "pitcher_name": "Troy Melton",
+        "team": "Detroit Tigers",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 5.91,
+        "p_over": 0.3793,
+        "p_under": 0.6207
+      },
+      {
+        "pitcher_name": "J.T. Ginn",
+        "team": "Athletics",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.8,
+        "p_over": 0.3617,
+        "p_under": 0.6383
+      },
+      {
+        "pitcher_name": "Joey Cantillo",
+        "team": "Cleveland Guardians",
+        "opponent": "New York Mets",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 5.72,
+        "p_over": 0.3496,
+        "p_under": 0.6504
+      },
+      {
+        "pitcher_name": "Patrick Sandoval",
+        "team": "Boston Red Sox",
+        "opponent": "Chicago White Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.61,
+        "p_over": 0.3313,
+        "p_under": 0.6687
+      },
+      {
+        "pitcher_name": "Cade Povich",
+        "team": "Baltimore Orioles",
+        "opponent": "Los Angeles Angels",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.47,
+        "p_over": 0.3086,
+        "p_under": 0.6914
+      },
+      {
+        "pitcher_name": "MacKenzie Gore",
+        "team": "Texas Rangers",
+        "opponent": "San Francisco Giants",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 5.43,
+        "p_over": 0.3024,
+        "p_under": 0.6976
+      },
+      {
+        "pitcher_name": "Trey Yesavage",
+        "team": "Toronto Blue Jays",
+        "opponent": "Houston Astros",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.4,
+        "p_over": 0.2989,
+        "p_under": 0.7011
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
