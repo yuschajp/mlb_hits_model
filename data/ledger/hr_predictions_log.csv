@@ -7892,3 +7892,57 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-08-05,823753,669707,Jared Triolo,Pittsburgh Pirates,Milwaukee Brewers,7,American Family Field,1.08,Kyle Harrison,0.0875,0.0248,3.7,0.0,True
 2026-08-05,823753,804668,Rafael Flores Jr.,Pittsburgh Pirates,Milwaukee Brewers,8,American Family Field,1.08,Kyle Harrison,0.1163,0.0343,3.6,0.0,True
 2026-08-05,823753,691373,Jhostynxon Garcia,Pittsburgh Pirates,Milwaukee Brewers,9,American Family Field,1.08,Kyle Harrison,0.1046,0.0316,3.5,0.0,True
+2026-08-08,823514,502671,Paul Goldschmidt,New York Yankees,Atlanta Braves,1,Yankee Stadium,1.18,Chris Sale,0.1374,0.0344,4.3,,False
+2026-08-08,823514,671218,Heliot Ramos,New York Yankees,Atlanta Braves,2,Yankee Stadium,1.18,Chris Sale,0.1039,0.0261,4.2,,False
+2026-08-08,823514,700250,Ben Rice,New York Yankees,Atlanta Braves,3,Yankee Stadium,1.18,Chris Sale,0.1587,0.0421,4.1,,False
+2026-08-08,823514,642708,Amed Rosario,New York Yankees,Atlanta Braves,4,Yankee Stadium,1.18,Chris Sale,0.121,0.0322,4.0,,False
+2026-08-08,823514,663757,Trent Grisham,New York Yankees,Atlanta Braves,5,Yankee Stadium,1.18,Chris Sale,0.1086,0.0295,3.9,,False
+2026-08-08,823514,806146,George Lombard Jr.,New York Yankees,Atlanta Braves,6,Yankee Stadium,1.18,Chris Sale,0.1085,0.0302,3.8,,False
+2026-08-08,823514,682987,Spencer Jones,New York Yankees,Atlanta Braves,7,Yankee Stadium,1.18,Chris Sale,0.1142,0.0328,3.7,,False
+2026-08-08,823514,676609,José Caballero,New York Yankees,Atlanta Braves,8,Yankee Stadium,1.18,Chris Sale,0.1018,0.0298,3.6,,False
+2026-08-08,823514,669224,Austin Wells,New York Yankees,Atlanta Braves,9,Yankee Stadium,1.18,Chris Sale,0.1063,0.0321,3.5,,False
+2026-08-08,823514,686948,Drake Baldwin,Atlanta Braves,New York Yankees,1,Yankee Stadium,1.18,Gerrit Cole,0.2109,0.0551,4.3,,False
+2026-08-08,823514,660670,Ronald Acuña Jr.,Atlanta Braves,New York Yankees,2,Yankee Stadium,1.18,Gerrit Cole,0.1985,0.0527,4.2,,False
+2026-08-08,823514,621566,Matt Olson,Atlanta Braves,New York Yankees,3,Yankee Stadium,1.18,Gerrit Cole,0.2534,0.0713,4.1,,False
+2026-08-08,823514,671739,Michael Harris II,Atlanta Braves,New York Yankees,4,Yankee Stadium,1.18,Gerrit Cole,0.1823,0.0503,4.0,,False
+2026-08-08,823514,645277,Ozzie Albies,Atlanta Braves,New York Yankees,5,Yankee Stadium,1.18,Gerrit Cole,0.1762,0.0497,3.9,,False
+2026-08-08,823514,643289,Mauricio Dubón,Atlanta Braves,New York Yankees,6,Yankee Stadium,1.18,Gerrit Cole,0.1242,0.0349,3.8,,False
+2026-08-08,823514,573262,Mike Yastrzemski,Atlanta Braves,New York Yankees,7,Yankee Stadium,1.18,Gerrit Cole,0.1559,0.0458,3.7,,False
+2026-08-08,823514,663586,Austin Riley,Atlanta Braves,New York Yankees,8,Yankee Stadium,1.18,Gerrit Cole,0.1568,0.0474,3.6,,False
+2026-08-08,823514,805347,Jim Jarvis,Atlanta Braves,New York Yankees,9,Yankee Stadium,1.18,Gerrit Cole,0.1194,0.0363,3.5,,False
+2026-08-08,824726,663330,Jahmai Jones,Boston Red Sox,Athletics,1,Fenway Park,0.92,Gage Jump,0.1266,0.0315,4.3,,False
+2026-08-08,824726,678882,Ceddanne Rafaela,Boston Red Sox,Athletics,2,Fenway Park,0.92,Gage Jump,0.1275,0.0325,4.2,,False
+2026-08-08,824726,702332,Caleb Durbin,Boston Red Sox,Athletics,3,Fenway Park,0.92,Gage Jump,0.1066,0.0275,4.1,,False
+2026-08-08,824726,575929,Willson Contreras,Boston Red Sox,Athletics,4,Fenway Park,0.92,Gage Jump,0.1408,0.0379,4.0,,False
+2026-08-08,824726,655316,Andruw Monasterio,Boston Red Sox,Athletics,5,Fenway Park,0.92,Gage Jump,0.1032,0.0279,3.9,,False
+2026-08-08,824726,642201,Eli White,Boston Red Sox,Athletics,6,Fenway Park,0.92,Gage Jump,0.1054,0.0293,3.8,,False
+2026-08-08,824726,686765,Nick Sogard,Boston Red Sox,Athletics,7,Fenway Park,0.92,Gage Jump,0.0852,0.0241,3.7,,False
+2026-08-08,824726,680776,Jarren Duran,Boston Red Sox,Athletics,8,Fenway Park,0.92,Gage Jump,0.0971,0.0284,3.6,,False
+2026-08-08,824726,657136,Connor Wong,Boston Red Sox,Athletics,9,Fenway Park,0.92,Gage Jump,0.0907,0.0272,3.5,,False
+2026-08-08,824726,703607,Henry Bolte,Athletics,Boston Red Sox,1,Fenway Park,0.92,Jake Bennett,0.0856,0.0208,4.3,,False
+2026-08-08,824726,805779,Jacob Wilson,Athletics,Boston Red Sox,2,Fenway Park,0.92,Jake Bennett,0.0894,0.0223,4.2,,False
+2026-08-08,824726,641680,Jonah Heim,Athletics,Boston Red Sox,3,Fenway Park,0.92,Jake Bennett,0.1062,0.0274,4.1,,False
+2026-08-08,824726,691016,Tyler Soderstrom,Athletics,Boston Red Sox,4,Fenway Park,0.92,Jake Bennett,0.1152,0.0306,4.0,,False
+2026-08-08,824726,695720,Tommy White,Athletics,Boston Red Sox,5,Fenway Park,0.92,Jake Bennett,0.0723,0.0193,3.9,,False
+2026-08-08,824726,661531,Brian Serven,Athletics,Boston Red Sox,6,Fenway Park,0.92,Jake Bennett,0.1012,0.0281,3.8,,False
+2026-08-08,824726,671732,Lawrence Butler,Athletics,Boston Red Sox,7,Fenway Park,0.92,Jake Bennett,0.0775,0.0218,3.7,,False
+2026-08-08,824726,691777,Max Muncy,Athletics,Boston Red Sox,8,Fenway Park,0.92,Jake Bennett,0.0787,0.0228,3.6,,False
+2026-08-08,824726,675961,Alika Williams,Athletics,Boston Red Sox,9,Fenway Park,0.92,Jake Bennett,0.0691,0.0205,3.5,,False
+2026-08-08,823834,805300,Jakob Marsee,Miami Marlins,Los Angeles Angels,1,loanDepot park,0.85,Walbert Ureña,0.0668,0.0161,4.3,,False
+2026-08-08,823834,669364,Xavier Edwards,Miami Marlins,Los Angeles Angels,2,loanDepot park,0.85,Walbert Ureña,0.0542,0.0133,4.2,,False
+2026-08-08,823834,669065,Kyle Stowers,Miami Marlins,Los Angeles Angels,3,loanDepot park,0.85,Walbert Ureña,0.0955,0.0245,4.1,,False
+2026-08-08,823834,672640,Otto Lopez,Miami Marlins,Los Angeles Angels,4,loanDepot park,0.85,Walbert Ureña,0.0583,0.015,4.0,,False
+2026-08-08,823834,665052,Griffin Conine,Miami Marlins,Los Angeles Angels,5,loanDepot park,0.85,Walbert Ureña,0.1078,0.0292,3.9,,False
+2026-08-08,823834,681715,Heriberto Hernández,Miami Marlins,Los Angeles Angels,6,loanDepot park,0.85,Walbert Ureña,0.0894,0.0246,3.8,,False
+2026-08-08,823834,683357,Owen Caissie,Miami Marlins,Los Angeles Angels,7,loanDepot park,0.85,Walbert Ureña,0.0827,0.0233,3.7,,False
+2026-08-08,823834,691788,Joe Mack,Miami Marlins,Los Angeles Angels,8,loanDepot park,0.85,Walbert Ureña,0.0883,0.0257,3.6,,False
+2026-08-08,823834,691594,Javier Sanoja,Miami Marlins,Los Angeles Angels,9,loanDepot park,0.85,Walbert Ureña,0.0515,0.0151,3.5,,False
+2026-08-08,823834,685133,Wade Meckler,Los Angeles Angels,Miami Marlins,1,loanDepot park,0.85,Sandy Alcantara,0.0921,0.0225,4.3,,False
+2026-08-08,823834,545361,Mike Trout,Los Angeles Angels,Miami Marlins,2,loanDepot park,0.85,Sandy Alcantara,0.1169,0.0296,4.2,,False
+2026-08-08,823834,694384,Nolan Schanuel,Los Angeles Angels,Miami Marlins,3,loanDepot park,0.85,Sandy Alcantara,0.0798,0.0203,4.1,,False
+2026-08-08,823834,687263,Zach Neto,Los Angeles Angels,Miami Marlins,4,loanDepot park,0.85,Sandy Alcantara,0.1024,0.027,4.0,,False
+2026-08-08,823834,687093,Vaughn Grissom,Los Angeles Angels,Miami Marlins,5,loanDepot park,0.85,Sandy Alcantara,0.0941,0.0253,3.9,,False
+2026-08-08,823834,694208,Moisés Ballesteros,Los Angeles Angels,Miami Marlins,6,loanDepot park,0.85,Sandy Alcantara,0.0919,0.0254,3.8,,False
+2026-08-08,823834,694203,Denzer Guzman,Los Angeles Angels,Miami Marlins,7,loanDepot park,0.85,Sandy Alcantara,0.0894,0.0253,3.7,,False
+2026-08-08,823834,666139,Josh Lowe,Los Angeles Angels,Miami Marlins,8,loanDepot park,0.85,Sandy Alcantara,0.092,0.0268,3.6,,False
+2026-08-08,823834,623168,Tyler Heineman,Los Angeles Angels,Miami Marlins,9,loanDepot park,0.85,Sandy Alcantara,0.0723,0.0214,3.5,,False

@@ -798,4 +798,9 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-08-05,823753,690986,Kyle Harrison,Milwaukee Brewers,Pittsburgh Pirates,American Family Field,1.02,6.5,10.864,6.75,0.2413,83.7,6.7,4.92,5.716,0.3481,0.6519,10.0,True
 2026-08-05,823106,623454,Drew Anderson,Detroit Tigers,Seattle Mariners,T-Mobile Park,0.95,6.5,11.026,9.0,0.2297,63.7,13.0,3.44,5.121,0.2557,0.7443,0.0,True
 2026-08-05,823106,693433,Bryan Woo,Seattle Mariners,Detroit Tigers,T-Mobile Park,0.92,6.5,9.125,10.714,0.2279,120.3,21.0,5.73,5.91,0.3792,0.6208,5.0,True
+2026-08-08,823514,519242,Chris Sale,Atlanta Braves,New York Yankees,Yankee Stadium,1.01,6.5,11.0,11.333,0.2446,117.0,27.0,5.85,7.099,0.5649,0.4351,,False
 2026-08-08,823514,543037,Gerrit Cole,New York Yankees,Atlanta Braves,Yankee Stadium,1.04,6.5,9.529,10.742,0.2126,73.7,31.0,5.67,5.573,0.3254,0.6746,,False
+2026-08-08,824726,695611,Gage Jump,Athletics,Boston Red Sox,Fenway Park,0.93,6.5,9.855,11.137,0.2173,66.7,26.7,5.13,5.48,0.3108,0.6892,,False
+2026-08-08,824726,687562,Jake Bennett,Boston Red Sox,Athletics,Fenway Park,1.06,6.5,6.308,5.576,0.2288,71.3,30.7,5.94,4.618,0.1844,0.8156,,False
+2026-08-08,823834,700712,Walbert Ureña,Los Angeles Angels,Miami Marlins,loanDepot park,0.99,6.5,8.607,8.182,0.2151,99.3,22.0,5.43,4.956,0.2314,0.7686,,False
+2026-08-08,823834,645261,Sandy Alcantara,Miami Marlins,Los Angeles Angels,loanDepot park,0.93,6.5,6.894,7.902,0.2524,156.7,41.0,6.53,5.937,0.3836,0.6164,,False
