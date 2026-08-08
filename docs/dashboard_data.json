@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 54,
+    "today_count": 234,
     "total_graded": 7881,
     "since_date": "2026-06-21",
     "brier_score": 0.1021,
@@ -382,12 +382,52 @@
     "actual_hr_rate": 0.1171,
     "top10_today": [
       {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Max Scherzer",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2568
+      },
+      {
         "player_name": "Matt Olson",
         "team": "Atlanta Braves",
         "opponent_pitcher": "Gerrit Cole",
         "venue": "Yankee Stadium",
         "lineup_spot": 3,
-        "p_hr": 0.2534
+        "p_hr": 0.2436
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Gavin Williams",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.241
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Max Scherzer",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2351
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Busch Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2049
+      },
+      {
+        "player_name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Max Scherzer",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2044
       },
       {
         "player_name": "Drake Baldwin",
@@ -395,71 +435,31 @@
         "opponent_pitcher": "Gerrit Cole",
         "venue": "Yankee Stadium",
         "lineup_spot": 1,
-        "p_hr": 0.2109
+        "p_hr": 0.2025
       },
       {
-        "player_name": "Ronald Acu\u00f1a Jr.",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
+        "player_name": "Jes\u00fas S\u00e1nchez",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hr": 0.199
+      },
+      {
+        "player_name": "Brett Bateman",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 2,
-        "p_hr": 0.1985
+        "p_hr": 0.1948
       },
       {
-        "player_name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.1823
-      },
-      {
-        "player_name": "Ozzie Albies",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.1762
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Chris Sale",
-        "venue": "Yankee Stadium",
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Gavin Williams",
+        "venue": "Rate Field",
         "lineup_spot": 3,
-        "p_hr": 0.1587
-      },
-      {
-        "player_name": "Austin Riley",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 8,
-        "p_hr": 0.1568
-      },
-      {
-        "player_name": "Mike Yastrzemski",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 7,
-        "p_hr": 0.1559
-      },
-      {
-        "player_name": "Willson Contreras",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Gage Jump",
-        "venue": "Fenway Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1408
-      },
-      {
-        "player_name": "Paul Goldschmidt",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Chris Sale",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1374
+        "p_hr": 0.1936
       }
     ],
     "calibration": [
@@ -963,23 +963,43 @@
     ]
   },
   "k": {
-    "today_count": 11,
+    "today_count": 28,
     "total_graded": 797,
     "since_date": "2026-06-27",
     "brier_score": 0.1584,
     "naive_brier": 0.25,
-    "avg_lambda": 5.12,
+    "avg_lambda": 5.2,
     "over_rate": 0.241,
     "top10_today": [
+      {
+        "pitcher_name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 8.02,
+        "p_over": 0.6888,
+        "p_under": 0.3112
+      },
       {
         "pitcher_name": "Chris Sale",
         "team": "Atlanta Braves",
         "opponent": "New York Yankees",
         "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 7.1,
-        "p_over": 0.5649,
-        "p_under": 0.4351
+        "lambda_k": 7.2,
+        "p_over": 0.5797,
+        "p_under": 0.4203
+      },
+      {
+        "pitcher_name": "Jacob deGrom",
+        "team": "Texas Rangers",
+        "opponent": "Baltimore Orioles",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 6.38,
+        "p_over": 0.4553,
+        "p_under": 0.5447
       },
       {
         "pitcher_name": "Sandy Alcantara",
@@ -987,9 +1007,9 @@
         "opponent": "Los Angeles Angels",
         "venue": "loanDepot park",
         "line": 6.5,
-        "lambda_k": 5.94,
-        "p_over": 0.3836,
-        "p_under": 0.6164
+        "lambda_k": 6.07,
+        "p_over": 0.4052,
+        "p_under": 0.5948
       },
       {
         "pitcher_name": "Gerrit Cole",
@@ -997,9 +1017,49 @@
         "opponent": "Atlanta Braves",
         "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 5.57,
-        "p_over": 0.3254,
-        "p_under": 0.6746
+        "lambda_k": 5.67,
+        "p_over": 0.3416,
+        "p_under": 0.6584
+      },
+      {
+        "pitcher_name": "Peter Lambert",
+        "team": "Houston Astros",
+        "opponent": "San Diego Padres",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 5.66,
+        "p_over": 0.3394,
+        "p_under": 0.6606
+      },
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 5.63,
+        "p_over": 0.3353,
+        "p_under": 0.6647
+      },
+      {
+        "pitcher_name": "Robert Stock",
+        "team": "New York Mets",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.6,
+        "p_over": 0.3291,
+        "p_under": 0.6709
+      },
+      {
+        "pitcher_name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "opponent": "Milwaukee Brewers",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.59,
+        "p_over": 0.3276,
+        "p_under": 0.6724
       },
       {
         "pitcher_name": "Gage Jump",
@@ -1007,69 +1067,9 @@
         "opponent": "Boston Red Sox",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 5.48,
-        "p_over": 0.3108,
-        "p_under": 0.6892
-      },
-      {
-        "pitcher_name": "Landen Roupp",
-        "team": "San Francisco Giants",
-        "opponent": "Detroit Tigers",
-        "venue": "Oracle Park",
-        "line": 6.5,
-        "lambda_k": 5.08,
-        "p_over": 0.2493,
-        "p_under": 0.7507
-      },
-      {
-        "pitcher_name": "Walbert Ure\u00f1a",
-        "team": "Los Angeles Angels",
-        "opponent": "Miami Marlins",
-        "venue": "loanDepot park",
-        "line": 6.5,
-        "lambda_k": 4.96,
-        "p_over": 0.2314,
-        "p_under": 0.7686
-      },
-      {
-        "pitcher_name": "Michael King",
-        "team": "San Diego Padres",
-        "opponent": "Houston Astros",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 4.9,
-        "p_over": 0.2235,
-        "p_under": 0.7765
-      },
-      {
-        "pitcher_name": "Jake Bennett",
-        "team": "Boston Red Sox",
-        "opponent": "Athletics",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 4.62,
-        "p_over": 0.1844,
-        "p_under": 0.8156
-      },
-      {
-        "pitcher_name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "opponent": "Toronto Blue Jays",
-        "venue": "Citizens Bank Park",
-        "line": 6.5,
-        "lambda_k": 4.51,
-        "p_over": 0.1709,
-        "p_under": 0.8291
-      },
-      {
-        "pitcher_name": "Anthony Kay",
-        "team": "Chicago White Sox",
-        "opponent": "Cleveland Guardians",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 4.44,
-        "p_over": 0.1608,
-        "p_under": 0.8392
+        "lambda_k": 5.5,
+        "p_over": 0.3146,
+        "p_under": 0.6854
       }
     ],
     "calibration": [
