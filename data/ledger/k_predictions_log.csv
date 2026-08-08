@@ -798,3 +798,4 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-08-05,823753,690986,Kyle Harrison,Milwaukee Brewers,Pittsburgh Pirates,American Family Field,1.02,6.5,10.864,6.75,0.2413,83.7,6.7,4.92,5.716,0.3481,0.6519,10.0,True
 2026-08-05,823106,623454,Drew Anderson,Detroit Tigers,Seattle Mariners,T-Mobile Park,0.95,6.5,11.026,9.0,0.2297,63.7,13.0,3.44,5.121,0.2557,0.7443,0.0,True
 2026-08-05,823106,693433,Bryan Woo,Seattle Mariners,Detroit Tigers,T-Mobile Park,0.92,6.5,9.125,10.714,0.2279,120.3,21.0,5.73,5.91,0.3792,0.6208,5.0,True
+2026-08-08,823514,543037,Gerrit Cole,New York Yankees,Atlanta Braves,Yankee Stadium,1.04,6.5,9.529,10.742,0.2126,73.7,31.0,5.67,5.573,0.3254,0.6746,,False
