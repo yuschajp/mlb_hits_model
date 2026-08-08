@@ -804,3 +804,8 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-08-08,824726,687562,Jake Bennett,Boston Red Sox,Athletics,Fenway Park,1.06,6.5,6.308,5.576,0.2288,71.3,30.7,5.94,4.618,0.1844,0.8156,,False
 2026-08-08,823834,700712,Walbert Ureña,Los Angeles Angels,Miami Marlins,loanDepot park,0.99,6.5,8.607,8.182,0.2151,99.3,22.0,5.43,4.956,0.2314,0.7686,,False
 2026-08-08,823834,645261,Sandy Alcantara,Miami Marlins,Los Angeles Angels,loanDepot park,0.93,6.5,6.894,7.902,0.2524,156.7,41.0,6.53,5.937,0.3836,0.6164,,False
+2026-08-08,823426,605400,Aaron Nola,Philadelphia Phillies,Toronto Blue Jays,Citizens Bank Park,1.03,6.5,9.075,8.743,0.1947,120.0,35.0,5.22,4.515,0.1709,0.8291,,False
+2026-08-08,823267,650633,Michael King,San Diego Padres,Houston Astros,Petco Park,0.92,6.5,7.872,8.357,0.2141,130.3,28.0,5.67,4.901,0.2235,0.7765,,False
+2026-08-08,823188,694738,Landen Roupp,San Francisco Giants,Detroit Tigers,Oracle Park,0.91,6.5,9.127,6.443,0.2277,118.3,29.3,5.38,5.078,0.2493,0.7507,,False
+2026-08-08,824565,641743,Anthony Kay,Chicago White Sox,Cleveland Guardians,Rate Field,1.02,6.5,7.364,7.962,0.2218,110.0,26.0,4.88,4.436,0.1608,0.8392,,False
+2026-08-08,825049,694297,Brandon Pfaadt,Arizona Diamondbacks,Los Angeles Dodgers,Chase Field,1.02,6.5,5.949,4.84,0.2048,78.7,35.3,5.36,3.684,0.0804,0.9196,,False
