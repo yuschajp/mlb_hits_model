@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07",
+  "generated_at": "2026-08-08",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
@@ -882,14 +882,25 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 1,
     "total_graded": 797,
     "since_date": "2026-06-27",
     "brier_score": 0.1584,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.57,
     "over_rate": 0.241,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "opponent": "Atlanta Braves",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 5.57,
+        "p_over": 0.3254,
+        "p_under": 0.6746
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
