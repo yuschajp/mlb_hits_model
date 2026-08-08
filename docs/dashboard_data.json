@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 54,
     "total_graded": 7881,
     "since_date": "2026-06-21",
     "brier_score": 0.1021,
     "naive_brier": 0.235,
     "avg_predicted": 0.1256,
     "actual_hr_rate": 0.1171,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.2534
+      },
+      {
+        "player_name": "Drake Baldwin",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.2109
+      },
+      {
+        "player_name": "Ronald Acu\u00f1a Jr.",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.1985
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.1823
+      },
+      {
+        "player_name": "Ozzie Albies",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.1762
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Chris Sale",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.1587
+      },
+      {
+        "player_name": "Austin Riley",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 8,
+        "p_hr": 0.1568
+      },
+      {
+        "player_name": "Mike Yastrzemski",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Gerrit Cole",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 7,
+        "p_hr": 0.1559
+      },
+      {
+        "player_name": "Willson Contreras",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Gage Jump",
+        "venue": "Fenway Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1408
+      },
+      {
+        "player_name": "Paul Goldschmidt",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Chris Sale",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.1374
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -882,14 +963,34 @@
     ]
   },
   "k": {
-    "today_count": 1,
+    "today_count": 6,
     "total_graded": 797,
     "since_date": "2026-06-27",
     "brier_score": 0.1584,
     "naive_brier": 0.25,
-    "avg_lambda": 5.57,
+    "avg_lambda": 5.61,
     "over_rate": 0.241,
     "top10_today": [
+      {
+        "pitcher_name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 7.1,
+        "p_over": 0.5649,
+        "p_under": 0.4351
+      },
+      {
+        "pitcher_name": "Sandy Alcantara",
+        "team": "Miami Marlins",
+        "opponent": "Los Angeles Angels",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 5.94,
+        "p_over": 0.3836,
+        "p_under": 0.6164
+      },
       {
         "pitcher_name": "Gerrit Cole",
         "team": "New York Yankees",
@@ -899,6 +1000,36 @@
         "lambda_k": 5.57,
         "p_over": 0.3254,
         "p_under": 0.6746
+      },
+      {
+        "pitcher_name": "Gage Jump",
+        "team": "Athletics",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.48,
+        "p_over": 0.3108,
+        "p_under": 0.6892
+      },
+      {
+        "pitcher_name": "Walbert Ure\u00f1a",
+        "team": "Los Angeles Angels",
+        "opponent": "Miami Marlins",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 4.96,
+        "p_over": 0.2314,
+        "p_under": 0.7686
+      },
+      {
+        "pitcher_name": "Jake Bennett",
+        "team": "Boston Red Sox",
+        "opponent": "Athletics",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 4.62,
+        "p_over": 0.1844,
+        "p_under": 0.8156
       }
     ],
     "calibration": [
