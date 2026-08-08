@@ -963,12 +963,12 @@
     ]
   },
   "k": {
-    "today_count": 6,
+    "today_count": 11,
     "total_graded": 797,
     "since_date": "2026-06-27",
     "brier_score": 0.1584,
     "naive_brier": 0.25,
-    "avg_lambda": 5.61,
+    "avg_lambda": 5.12,
     "over_rate": 0.241,
     "top10_today": [
       {
@@ -1012,6 +1012,16 @@
         "p_under": 0.6892
       },
       {
+        "pitcher_name": "Landen Roupp",
+        "team": "San Francisco Giants",
+        "opponent": "Detroit Tigers",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 5.08,
+        "p_over": 0.2493,
+        "p_under": 0.7507
+      },
+      {
         "pitcher_name": "Walbert Ure\u00f1a",
         "team": "Los Angeles Angels",
         "opponent": "Miami Marlins",
@@ -1022,6 +1032,16 @@
         "p_under": 0.7686
       },
       {
+        "pitcher_name": "Michael King",
+        "team": "San Diego Padres",
+        "opponent": "Houston Astros",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 4.9,
+        "p_over": 0.2235,
+        "p_under": 0.7765
+      },
+      {
         "pitcher_name": "Jake Bennett",
         "team": "Boston Red Sox",
         "opponent": "Athletics",
@@ -1030,6 +1050,26 @@
         "lambda_k": 4.62,
         "p_over": 0.1844,
         "p_under": 0.8156
+      },
+      {
+        "pitcher_name": "Aaron Nola",
+        "team": "Philadelphia Phillies",
+        "opponent": "Toronto Blue Jays",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 4.51,
+        "p_over": 0.1709,
+        "p_under": 0.8291
+      },
+      {
+        "pitcher_name": "Anthony Kay",
+        "team": "Chicago White Sox",
+        "opponent": "Cleveland Guardians",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 4.44,
+        "p_over": 0.1608,
+        "p_under": 0.8392
       }
     ],
     "calibration": [
