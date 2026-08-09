@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 180,
+    "today_count": 252,
     "total_graded": 8114,
     "since_date": "2026-06-21",
     "brier_score": 0.1015,
@@ -387,7 +387,15 @@
         "opponent_pitcher": "Grant Holmes",
         "venue": "Yankee Stadium",
         "lineup_spot": 2,
-        "p_hr": 0.2585
+        "p_hr": 0.2513
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2491
       },
       {
         "player_name": "CJ Abrams",
@@ -398,44 +406,12 @@
         "p_hr": 0.2379
       },
       {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2208
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Grant Holmes",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.2117
-      },
-      {
         "player_name": "Bryce Harper",
         "team": "Philadelphia Phillies",
         "opponent_pitcher": "Shane Bieber",
         "venue": "Citizens Bank Park",
         "lineup_spot": 3,
-        "p_hr": 0.21
-      },
-      {
-        "player_name": "Jazz Chisholm Jr.",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Grant Holmes",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 5,
-        "p_hr": 0.2019
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2009
+        "p_hr": 0.2218
       },
       {
         "player_name": "Matt Olson",
@@ -443,15 +419,39 @@
         "opponent_pitcher": "Cam Schlittler",
         "venue": "Yankee Stadium",
         "lineup_spot": 3,
-        "p_hr": 0.2004
+        "p_hr": 0.2077
       },
       {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Michael McGreevy",
-        "venue": "Busch Stadium",
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "Yankee Stadium",
         "lineup_spot": 4,
-        "p_hr": 0.19
+        "p_hr": 0.2062
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Joey Cantillo",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1991
+      },
+      {
+        "player_name": "Jazz Chisholm Jr.",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Grant Holmes",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.1963
+      },
+      {
+        "player_name": "Trea Turner",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1926
       },
       {
         "player_name": "Trent Grisham",
@@ -459,7 +459,7 @@
         "opponent_pitcher": "Grant Holmes",
         "venue": "Yankee Stadium",
         "lineup_spot": 1,
-        "p_hr": 0.1876
+        "p_hr": 0.1913
       }
     ],
     "calibration": [
@@ -975,12 +975,12 @@
     ]
   },
   "k": {
-    "today_count": 21,
+    "today_count": 29,
     "total_graded": 825,
     "since_date": "2026-06-27",
     "brier_score": 0.1579,
     "naive_brier": 0.25,
-    "avg_lambda": 5.07,
+    "avg_lambda": 4.96,
     "over_rate": 0.242,
     "top10_today": [
       {
@@ -989,9 +989,9 @@
         "opponent": "Minnesota Twins",
         "venue": "American Family Field",
         "line": 6.5,
-        "lambda_k": 7.56,
-        "p_over": 0.6304,
-        "p_under": 0.3696
+        "lambda_k": 7.65,
+        "p_over": 0.6419,
+        "p_under": 0.3581
       },
       {
         "pitcher_name": "Cam Schlittler",
@@ -999,19 +999,9 @@
         "opponent": "Atlanta Braves",
         "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 6.37,
-        "p_over": 0.4523,
-        "p_under": 0.5477
-      },
-      {
-        "pitcher_name": "Erik Miller",
-        "team": "Boston Red Sox",
-        "opponent": "Athletics",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 6.2,
-        "p_over": 0.4257,
-        "p_under": 0.5743
+        "lambda_k": 6.58,
+        "p_over": 0.4864,
+        "p_under": 0.5136
       },
       {
         "pitcher_name": "Joey Cantillo",
@@ -1019,9 +1009,9 @@
         "opponent": "Chicago White Sox",
         "venue": "Rate Field",
         "line": 6.5,
-        "lambda_k": 6.13,
-        "p_over": 0.4141,
-        "p_under": 0.5859
+        "lambda_k": 6.11,
+        "p_over": 0.411,
+        "p_under": 0.589
       },
       {
         "pitcher_name": "Jes\u00fas Luzardo",
@@ -1029,9 +1019,29 @@
         "opponent": "Toronto Blue Jays",
         "venue": "Citizens Bank Park",
         "line": 6.5,
-        "lambda_k": 5.64,
-        "p_over": 0.3361,
-        "p_under": 0.6639
+        "lambda_k": 5.92,
+        "p_over": 0.3801,
+        "p_under": 0.6199
+      },
+      {
+        "pitcher_name": "Erik Miller",
+        "team": "Boston Red Sox",
+        "opponent": "Athletics",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.87,
+        "p_over": 0.3726,
+        "p_under": 0.6274
+      },
+      {
+        "pitcher_name": "Ian Seymour",
+        "team": "Tampa Bay Rays",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 5.82,
+        "p_over": 0.3645,
+        "p_under": 0.6355
       },
       {
         "pitcher_name": "Kumar Rocker",
@@ -1039,39 +1049,9 @@
         "opponent": "Baltimore Orioles",
         "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 5.41,
-        "p_over": 0.2996,
-        "p_under": 0.7004
-      },
-      {
-        "pitcher_name": "Jared Jones",
-        "team": "Pittsburgh Pirates",
-        "opponent": "New York Mets",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.36,
-        "p_over": 0.2919,
-        "p_under": 0.7081
-      },
-      {
-        "pitcher_name": "J.T. Ginn",
-        "team": "Athletics",
-        "opponent": "Boston Red Sox",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 5.09,
-        "p_over": 0.2512,
-        "p_under": 0.7488
-      },
-      {
-        "pitcher_name": "Connor Prielipp",
-        "team": "Minnesota Twins",
-        "opponent": "Milwaukee Brewers",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 5.05,
-        "p_over": 0.2453,
-        "p_under": 0.7547
+        "lambda_k": 5.47,
+        "p_over": 0.3088,
+        "p_under": 0.6912
       },
       {
         "pitcher_name": "Sean Manaea",
@@ -1079,9 +1059,29 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "PNC Park",
         "line": 6.5,
-        "lambda_k": 5.03,
-        "p_over": 0.2417,
-        "p_under": 0.7583
+        "lambda_k": 5.37,
+        "p_over": 0.2943,
+        "p_under": 0.7057
+      },
+      {
+        "pitcher_name": "Jared Jones",
+        "team": "Pittsburgh Pirates",
+        "opponent": "New York Mets",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.24,
+        "p_over": 0.2738,
+        "p_under": 0.7262
+      },
+      {
+        "pitcher_name": "Troy Melton",
+        "team": "Detroit Tigers",
+        "opponent": "San Francisco Giants",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 5.2,
+        "p_over": 0.2679,
+        "p_under": 0.7321
       }
     ],
     "calibration": [
