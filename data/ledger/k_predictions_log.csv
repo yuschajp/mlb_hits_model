@@ -827,4 +827,23 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-08-08,825049,694297,Brandon Pfaadt,Arizona Diamondbacks,Los Angeles Dodgers,Chase Field,1.02,6.5,5.949,4.84,0.2048,78.7,35.3,5.36,3.684,0.0804,0.9196,2.0,True
 2026-08-08,823102,669923,George Kirby,Seattle Mariners,Tampa Bay Rays,T-Mobile Park,0.92,6.5,7.795,7.435,0.1912,127.0,23.0,6.05,4.457,0.1634,0.8366,2.0,True
 2026-08-09,822700,663903,Brady Singer,Cincinnati Reds,Washington Nationals,Nationals Park,1.05,6.5,7.68,7.468,0.215,113.7,31.3,5.17,4.461,0.164,0.836,,False
+2026-08-09,822700,695418,Brad Lord,Washington Nationals,Cincinnati Reds,Nationals Park,0.99,6.5,7.932,0.0,0.2529,59.0,2.3,2.92,4.425,0.1594,0.8406,,False
+2026-08-09,824724,669372,J.T. Ginn,Athletics,Boston Red Sox,Fenway Park,0.93,6.5,8.194,10.016,0.2186,115.3,20.7,5.33,5.09,0.2512,0.7488,,False
 2026-08-09,824724,669062,Erik Miller,Boston Red Sox,Athletics,Fenway Park,1.06,6.5,12.6,15.431,0.2283,35.0,2.3,5.5,6.2,0.4257,0.5743,,False
+2026-08-09,823345,640455,Sean Manaea,New York Mets,Pittsburgh Pirates,PNC Park,0.97,6.5,8.754,8.191,0.2411,97.7,29.7,4.62,5.027,0.2417,0.7583,,False
+2026-08-09,823345,683003,Jared Jones,Pittsburgh Pirates,New York Mets,PNC Park,0.97,6.5,9.964,10.333,0.2268,56.0,27.0,4.67,5.358,0.2919,0.7081,,False
+2026-08-09,823425,669456,Shane Bieber,Toronto Blue Jays,Philadelphia Phillies,Citizens Bank Park,1.0,6.5,6.811,7.125,0.2304,37.0,24.0,4.63,4.6,0.1819,0.8181,,False
+2026-08-09,823425,666200,Jesús Luzardo,Philadelphia Phillies,Toronto Blue Jays,Citizens Bank Park,1.03,6.5,10.8,10.53,0.1956,136.7,33.3,5.94,5.64,0.3361,0.6639,,False
+2026-08-09,823513,656550,Grant Holmes,Atlanta Braves,New York Yankees,Yankee Stadium,1.01,6.5,7.667,7.364,0.2456,108.0,25.7,4.91,4.929,0.2275,0.7725,,False
+2026-08-09,823513,693645,Cam Schlittler,New York Yankees,Atlanta Braves,Yankee Stadium,1.04,6.5,11.019,12.112,0.2131,139.7,35.7,5.82,6.366,0.4523,0.5477,,False
+2026-08-09,823835,680570,Grayson Rodriguez,Los Angeles Angels,Miami Marlins,loanDepot park,0.99,6.5,7.412,6.395,0.2153,51.0,25.3,4.64,4.197,0.1321,0.8679,,False
+2026-08-09,823835,687473,Ryan Gusto,Miami Marlins,Los Angeles Angels,loanDepot park,0.93,6.5,7.8,7.403,0.253,45.0,20.7,3.96,4.895,0.2226,0.7774,,False
+2026-08-09,824078,571510,Matthew Boyd,Chicago Cubs,Kansas City Royals,Kauffman Stadium,1.0,6.5,7.803,6.0,0.2098,72.7,39.0,5.59,4.414,0.1581,0.8419,,False
+2026-08-09,824078,677976,Randy Dobnak,Kansas City Royals,Chicago Cubs,Kauffman Stadium,0.94,6.5,4.355,4.333,0.2179,31.0,27.0,5.17,3.902,0.1007,0.8993,,False
+2026-08-09,824564,676282,Joey Cantillo,Cleveland Guardians,Chicago White Sox,Rate Field,0.99,6.5,9.784,13.012,0.2396,118.7,27.7,4.94,6.127,0.4141,0.5859,,False
+2026-08-09,824564,663436,Davis Martin,Chicago White Sox,Cleveland Guardians,Rate Field,1.02,6.5,7.893,5.961,0.2212,122.0,25.7,5.55,4.678,0.1924,0.8076,,False
+2026-08-09,823751,687570,Connor Prielipp,Minnesota Twins,Milwaukee Brewers,American Family Field,0.98,6.5,9.386,9.0,0.2138,77.7,16.0,5.18,5.051,0.2453,0.7547,,False
+2026-08-09,823751,694819,Jacob Misiorowski,Milwaukee Brewers,Minnesota Twins,American Family Field,1.02,6.5,13.819,15.261,0.2126,127.0,23.0,6.05,7.563,0.6304,0.3696,,False
+2026-08-09,823020,547179,Michael Lorenzen,Colorado Rockies,St. Louis Cardinals,Busch Stadium,1.13,6.5,6.687,5.4,0.2037,107.7,21.7,4.64,3.549,0.0691,0.9309,,False
+2026-08-09,823020,700241,Michael McGreevy,St. Louis Cardinals,Colorado Rockies,Busch Stadium,0.97,6.5,6.058,7.56,0.2277,120.3,25.0,5.47,4.518,0.1712,0.8288,,False
+2026-08-09,822862,677958,Kumar Rocker,Texas Rangers,Baltimore Orioles,Globe Life Field,1.02,6.5,8.167,9.0,0.2437,108.0,28.0,5.14,5.408,0.2996,0.7004,,False
