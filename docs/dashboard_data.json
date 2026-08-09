@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08",
+  "generated_at": "2026-08-09",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
@@ -373,107 +373,26 @@
     ]
   },
   "hr": {
-    "today_count": 234,
-    "total_graded": 7881,
+    "today_count": 0,
+    "total_graded": 8114,
     "since_date": "2026-06-21",
-    "brier_score": 0.1021,
+    "brier_score": 0.1015,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1256,
-    "actual_hr_rate": 0.1171,
-    "top10_today": [
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Max Scherzer",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2568
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.2436
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Gavin Williams",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.241
-      },
-      {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Max Scherzer",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2351
-      },
-      {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.2049
-      },
-      {
-        "player_name": "Trea Turner",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Max Scherzer",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2044
-      },
-      {
-        "player_name": "Drake Baldwin",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Gerrit Cole",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.2025
-      },
-      {
-        "player_name": "Jes\u00fas S\u00e1nchez",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 4,
-        "p_hr": 0.199
-      },
-      {
-        "player_name": "Brett Bateman",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1948
-      },
-      {
-        "player_name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Gavin Williams",
-        "venue": "Rate Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1936
-      }
-    ],
+    "avg_predicted": 0.1254,
+    "actual_hr_rate": 0.1165,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 7537,
+        "n": 7763,
         "predicted": 0.121,
-        "actual": 0.112
+        "actual": 0.111
       },
       {
         "range": "0.2-0.4",
-        "n": 344,
+        "n": 351,
         "predicted": 0.227,
-        "actual": 0.233
+        "actual": 0.236
       }
     ],
     "returns": [
@@ -756,6 +675,13 @@
         "n_wins": 0,
         "daily_pnl": -39.0,
         "cumulative_pnl": -465.0
+      },
+      {
+        "date": "2026-08-08",
+        "n_bets": 44,
+        "n_wins": 9,
+        "daily_pnl": -3.5,
+        "cumulative_pnl": -468.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -959,143 +885,47 @@
         "date": "2026-08-05",
         "brier": 0.0951,
         "n": 1079
+      },
+      {
+        "date": "2026-08-08",
+        "brier": 0.0887,
+        "n": 916
       }
     ]
   },
   "k": {
-    "today_count": 28,
-    "total_graded": 797,
+    "today_count": 0,
+    "total_graded": 825,
     "since_date": "2026-06-27",
-    "brier_score": 0.1584,
+    "brier_score": 0.1579,
     "naive_brier": 0.25,
-    "avg_lambda": 5.2,
-    "over_rate": 0.241,
-    "top10_today": [
-      {
-        "pitcher_name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 8.02,
-        "p_over": 0.6888,
-        "p_under": 0.3112
-      },
-      {
-        "pitcher_name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "opponent": "New York Yankees",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 7.2,
-        "p_over": 0.5797,
-        "p_under": 0.4203
-      },
-      {
-        "pitcher_name": "Jacob deGrom",
-        "team": "Texas Rangers",
-        "opponent": "Baltimore Orioles",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 6.38,
-        "p_over": 0.4553,
-        "p_under": 0.5447
-      },
-      {
-        "pitcher_name": "Sandy Alcantara",
-        "team": "Miami Marlins",
-        "opponent": "Los Angeles Angels",
-        "venue": "loanDepot park",
-        "line": 6.5,
-        "lambda_k": 6.07,
-        "p_over": 0.4052,
-        "p_under": 0.5948
-      },
-      {
-        "pitcher_name": "Gerrit Cole",
-        "team": "New York Yankees",
-        "opponent": "Atlanta Braves",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 5.67,
-        "p_over": 0.3416,
-        "p_under": 0.6584
-      },
-      {
-        "pitcher_name": "Peter Lambert",
-        "team": "Houston Astros",
-        "opponent": "San Diego Padres",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 5.66,
-        "p_over": 0.3394,
-        "p_under": 0.6606
-      },
-      {
-        "pitcher_name": "Chase Burns",
-        "team": "Cincinnati Reds",
-        "opponent": "Washington Nationals",
-        "venue": "Nationals Park",
-        "line": 6.5,
-        "lambda_k": 5.63,
-        "p_over": 0.3353,
-        "p_under": 0.6647
-      },
-      {
-        "pitcher_name": "Robert Stock",
-        "team": "New York Mets",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.6,
-        "p_over": 0.3291,
-        "p_under": 0.6709
-      },
-      {
-        "pitcher_name": "Taj Bradley",
-        "team": "Minnesota Twins",
-        "opponent": "Milwaukee Brewers",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 5.59,
-        "p_over": 0.3276,
-        "p_under": 0.6724
-      },
-      {
-        "pitcher_name": "Gage Jump",
-        "team": "Athletics",
-        "opponent": "Boston Red Sox",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 5.5,
-        "p_over": 0.3146,
-        "p_under": 0.6854
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.242,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 291,
-        "predicted": 0.141,
+        "n": 301,
+        "predicted": 0.142,
         "actual": 0.096
       },
       {
         "range": "0.2-0.4",
-        "n": 408,
+        "n": 422,
         "predicted": 0.279,
-        "actual": 0.26
+        "actual": 0.258
       },
       {
         "range": "0.4-0.6",
-        "n": 89,
+        "n": 92,
         "predicted": 0.474,
-        "actual": 0.573
+        "actual": 0.587
       },
       {
         "range": "0.6-0.8",
-        "n": 9,
-        "predicted": 0.664,
-        "actual": 0.778
+        "n": 10,
+        "predicted": 0.667,
+        "actual": 0.8
       }
     ],
     "trend": [
@@ -1263,6 +1093,11 @@
         "date": "2026-08-05",
         "brier": 0.1655,
         "n": 124
+      },
+      {
+        "date": "2026-08-08",
+        "brier": 0.1817,
+        "n": 107
       }
     ]
   },
