@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 252,
+    "today_count": 270,
     "total_graded": 8114,
     "since_date": "2026-06-21",
     "brier_score": 0.1015,
@@ -975,12 +975,12 @@
     ]
   },
   "k": {
-    "today_count": 29,
+    "today_count": 30,
     "total_graded": 825,
     "since_date": "2026-06-27",
     "brier_score": 0.1579,
     "naive_brier": 0.25,
-    "avg_lambda": 4.96,
+    "avg_lambda": 4.94,
     "over_rate": 0.242,
     "top10_today": [
       {
