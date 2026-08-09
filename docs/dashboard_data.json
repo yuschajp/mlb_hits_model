@@ -894,14 +894,35 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 2,
     "total_graded": 825,
     "since_date": "2026-06-27",
     "brier_score": 0.1579,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.33,
     "over_rate": 0.242,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Erik Miller",
+        "team": "Boston Red Sox",
+        "opponent": "Athletics",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 6.2,
+        "p_over": 0.4257,
+        "p_under": 0.5743
+      },
+      {
+        "pitcher_name": "Brady Singer",
+        "team": "Cincinnati Reds",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 4.46,
+        "p_over": 0.164,
+        "p_under": 0.836
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
