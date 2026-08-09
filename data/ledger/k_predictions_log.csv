@@ -826,3 +826,5 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-08-08,824565,641743,Anthony Kay,Chicago White Sox,Cleveland Guardians,Rate Field,1.02,6.5,7.364,7.962,0.2218,110.0,26.0,4.88,4.436,0.1608,0.8392,4.0,True
 2026-08-08,825049,694297,Brandon Pfaadt,Arizona Diamondbacks,Los Angeles Dodgers,Chase Field,1.02,6.5,5.949,4.84,0.2048,78.7,35.3,5.36,3.684,0.0804,0.9196,2.0,True
 2026-08-08,823102,669923,George Kirby,Seattle Mariners,Tampa Bay Rays,T-Mobile Park,0.92,6.5,7.795,7.435,0.1912,127.0,23.0,6.05,4.457,0.1634,0.8366,2.0,True
+2026-08-09,822700,663903,Brady Singer,Cincinnati Reds,Washington Nationals,Nationals Park,1.05,6.5,7.68,7.468,0.215,113.7,31.3,5.17,4.461,0.164,0.836,,False
+2026-08-09,824724,669062,Erik Miller,Boston Red Sox,Athletics,Fenway Park,1.06,6.5,12.6,15.431,0.2283,35.0,2.3,5.5,6.2,0.4257,0.5743,,False
