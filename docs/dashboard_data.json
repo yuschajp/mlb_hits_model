@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 144,
     "total_graded": 8384,
     "since_date": "2026-06-21",
     "brier_score": 0.1013,
     "naive_brier": 0.235,
     "avg_predicted": 0.1252,
     "actual_hr_rate": 0.1162,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "CJ Abrams",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Nationals Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2181
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2127
+      },
+      {
+        "player_name": "Andr\u00e9s Chaparro",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Nationals Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2046
+      },
+      {
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "Comerica Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1992
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Nolan McLean",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1941
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Bryan Woo",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.1937
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Jake Irvin",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1936
+      },
+      {
+        "player_name": "Dominic Canzone",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.1852
+      },
+      {
+        "player_name": "Julio Rodr\u00edguez",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.1851
+      },
+      {
+        "player_name": "Dylan Crews",
+        "team": "Washington Nationals",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Nationals Park",
+        "lineup_spot": 1,
+        "p_hr": 0.176
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -906,14 +987,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 22,
     "total_graded": 855,
     "since_date": "2026-06-27",
     "brier_score": 0.1579,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.22,
     "over_rate": 0.243,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Dylan Cease",
+        "team": "Toronto Blue Jays",
+        "opponent": "Boston Red Sox",
+        "venue": "Rogers Centre",
+        "line": 6.5,
+        "lambda_k": 7.12,
+        "p_over": 0.5683,
+        "p_under": 0.4317
+      },
+      {
+        "pitcher_name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "opponent": "Cincinnati Reds",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 6.9,
+        "p_over": 0.5356,
+        "p_under": 0.4644
+      },
+      {
+        "pitcher_name": "Bryan Woo",
+        "team": "Seattle Mariners",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 6.24,
+        "p_over": 0.4322,
+        "p_under": 0.5678
+      },
+      {
+        "pitcher_name": "Eury P\u00e9rez",
+        "team": "Miami Marlins",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 6.18,
+        "p_over": 0.4221,
+        "p_under": 0.5779
+      },
+      {
+        "pitcher_name": "Nolan McLean",
+        "team": "New York Mets",
+        "opponent": "Atlanta Braves",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 6.13,
+        "p_over": 0.4154,
+        "p_under": 0.5846
+      },
+      {
+        "pitcher_name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Miami Marlins",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 6.11,
+        "p_over": 0.4115,
+        "p_under": 0.5885
+      },
+      {
+        "pitcher_name": "Cristopher S\u00e1nchez",
+        "team": "Philadelphia Phillies",
+        "opponent": "St. Louis Cardinals",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 6.09,
+        "p_over": 0.4086,
+        "p_under": 0.5914
+      },
+      {
+        "pitcher_name": "Ryan Weathers",
+        "team": "New York Yankees",
+        "opponent": "Seattle Mariners",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 5.72,
+        "p_over": 0.3482,
+        "p_under": 0.6518
+      },
+      {
+        "pitcher_name": "Nick Lodolo",
+        "team": "Cincinnati Reds",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.14,
+        "p_over": 0.2588,
+        "p_under": 0.7412
+      },
+      {
+        "pitcher_name": "Shota Imanaga",
+        "team": "Chicago Cubs",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 5.02,
+        "p_over": 0.241,
+        "p_under": 0.759
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
