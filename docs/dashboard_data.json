@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 198,
     "total_graded": 8852,
     "since_date": "2026-06-21",
     "brier_score": 0.1018,
     "naive_brier": 0.235,
     "avg_predicted": 0.1251,
     "actual_hr_rate": 0.117,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hr": 0.2284
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "George Kirby",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2089
+      },
+      {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Steven Matz",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1973
+      },
+      {
+        "player_name": "Griffin Conine",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1947
+      },
+      {
+        "player_name": "Trent Grisham",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 1,
+        "p_hr": 0.1931
+      },
+      {
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Shane Bieber",
+        "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hr": 0.1929
+      },
+      {
+        "player_name": "Coby Mayo",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Steven Matz",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1887
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Brandon Pfaadt",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1876
+      },
+      {
+        "player_name": "Ty France",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Gavin Williams",
+        "venue": "Progressive Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1835
+      },
+      {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Sandy Alcantara",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1814
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -930,14 +1011,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 24,
     "total_graded": 907,
     "since_date": "2026-06-27",
     "brier_score": 0.1544,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.05,
     "over_rate": 0.237,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "opponent": "San Diego Padres",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 7.18,
+        "p_over": 0.5761,
+        "p_under": 0.4239
+      },
+      {
+        "pitcher_name": "Gage Jump",
+        "team": "Athletics",
+        "opponent": "Texas Rangers",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 6.2,
+        "p_over": 0.4253,
+        "p_under": 0.5747
+      },
+      {
+        "pitcher_name": "Sandy Alcantara",
+        "team": "Miami Marlins",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.79,
+        "p_over": 0.3606,
+        "p_under": 0.6394
+      },
+      {
+        "pitcher_name": "Peter Lambert",
+        "team": "Houston Astros",
+        "opponent": "Seattle Mariners",
+        "venue": "Daikin Park",
+        "line": 6.5,
+        "lambda_k": 5.75,
+        "p_over": 0.3534,
+        "p_under": 0.6466
+      },
+      {
+        "pitcher_name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "opponent": "Arizona Diamondbacks",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 5.74,
+        "p_over": 0.3525,
+        "p_under": 0.6475
+      },
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "opponent": "Miami Marlins",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.71,
+        "p_over": 0.3476,
+        "p_under": 0.6524
+      },
+      {
+        "pitcher_name": "Yoshinobu Yamamoto",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Milwaukee Brewers",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 5.36,
+        "p_over": 0.2913,
+        "p_under": 0.7087
+      },
+      {
+        "pitcher_name": "Jackson Jobe",
+        "team": "Detroit Tigers",
+        "opponent": "Chicago White Sox",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.33,
+        "p_over": 0.2869,
+        "p_under": 0.7131
+      },
+      {
+        "pitcher_name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "opponent": "Toronto Blue Jays",
+        "venue": "Rogers Centre",
+        "line": 6.5,
+        "lambda_k": 5.3,
+        "p_over": 0.2834,
+        "p_under": 0.7166
+      },
+      {
+        "pitcher_name": "Seth Lugo",
+        "team": "Kansas City Royals",
+        "opponent": "Los Angeles Angels",
+        "venue": "Angel Stadium",
+        "line": 6.5,
+        "lambda_k": 5.1,
+        "p_over": 0.2525,
+        "p_under": 0.7475
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
