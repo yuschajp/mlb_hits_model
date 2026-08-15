@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14",
+  "generated_at": "2026-08-15",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
@@ -373,107 +373,107 @@
     ]
   },
   "hr": {
-    "today_count": 198,
-    "total_graded": 8852,
+    "today_count": 54,
+    "total_graded": 9050,
     "since_date": "2026-06-21",
-    "brier_score": 0.1018,
+    "brier_score": 0.1019,
     "naive_brier": 0.235,
-    "avg_predicted": 0.1251,
-    "actual_hr_rate": 0.117,
+    "avg_predicted": 0.1249,
+    "actual_hr_rate": 0.1171,
     "top10_today": [
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Michael McGreevy",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1875
+      },
       {
         "player_name": "Ben Rice",
         "team": "New York Yankees",
-        "opponent_pitcher": "Shane Bieber",
+        "opponent_pitcher": "Braydon Fisher",
         "venue": "Rogers Centre",
         "lineup_spot": 2,
-        "p_hr": 0.2284
+        "p_hr": 0.1821
       },
       {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "George Kirby",
-        "venue": "Daikin Park",
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Troy Melton",
+        "venue": "Comerica Park",
         "lineup_spot": 2,
-        "p_hr": 0.2089
+        "p_hr": 0.1756
       },
       {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Steven Matz",
-        "venue": "Tropicana Field",
-        "lineup_spot": 1,
-        "p_hr": 0.1973
-      },
-      {
-        "player_name": "Griffin Conine",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Chase Burns",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1947
-      },
-      {
-        "player_name": "Trent Grisham",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Shane Bieber",
-        "venue": "Rogers Centre",
-        "lineup_spot": 1,
-        "p_hr": 0.1931
+        "player_name": "Seiya Suzuki",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Michael McGreevy",
+        "venue": "Wrigley Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1727
       },
       {
         "player_name": "Luis Garc\u00eda Jr.",
         "team": "New York Yankees",
-        "opponent_pitcher": "Shane Bieber",
+        "opponent_pitcher": "Braydon Fisher",
         "venue": "Rogers Centre",
         "lineup_spot": 4,
-        "p_hr": 0.1929
+        "p_hr": 0.1649
       },
       {
-        "player_name": "Coby Mayo",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Steven Matz",
-        "venue": "Tropicana Field",
+        "player_name": "Trent Grisham",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Braydon Fisher",
+        "venue": "Rogers Centre",
+        "lineup_spot": 1,
+        "p_hr": 0.1612
+      },
+      {
+        "player_name": "Dillon Dingler",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Anthony Kay",
+        "venue": "Comerica Park",
         "lineup_spot": 3,
-        "p_hr": 0.1887
+        "p_hr": 0.149
       },
       {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Brandon Pfaadt",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1876
-      },
-      {
-        "player_name": "Ty France",
-        "team": "San Diego Padres",
-        "opponent_pitcher": "Gavin Williams",
-        "venue": "Progressive Field",
+        "player_name": "Alex Bregman",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Michael McGreevy",
+        "venue": "Wrigley Field",
         "lineup_spot": 4,
-        "p_hr": 0.1835
+        "p_hr": 0.147
       },
       {
-        "player_name": "Sal Stewart",
-        "team": "Cincinnati Reds",
-        "opponent_pitcher": "Sandy Alcantara",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1814
+        "player_name": "Ian Happ",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Michael McGreevy",
+        "venue": "Wrigley Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1456
+      },
+      {
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Troy Melton",
+        "venue": "Comerica Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1425
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 8478,
-        "predicted": 0.121,
-        "actual": 0.111
+        "n": 8674,
+        "predicted": 0.12,
+        "actual": 0.112
       },
       {
         "range": "0.2-0.4",
-        "n": 374,
+        "n": 376,
         "predicted": 0.227,
-        "actual": 0.243
+        "actual": 0.245
       }
     ],
     "returns": [
@@ -784,6 +784,13 @@
         "n_wins": 8,
         "daily_pnl": -15.0,
         "cumulative_pnl": -457.0
+      },
+      {
+        "date": "2026-08-14",
+        "n_bets": 30,
+        "n_wins": 5,
+        "daily_pnl": -7.5,
+        "cumulative_pnl": -464.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1007,137 +1014,102 @@
         "date": "2026-08-12",
         "brier": 0.0993,
         "n": 971
+      },
+      {
+        "date": "2026-08-14",
+        "brier": 0.1004,
+        "n": 1169
       }
     ]
   },
   "k": {
-    "today_count": 24,
-    "total_graded": 907,
+    "today_count": 6,
+    "total_graded": 931,
     "since_date": "2026-06-27",
-    "brier_score": 0.1544,
+    "brier_score": 0.1543,
     "naive_brier": 0.25,
-    "avg_lambda": 5.05,
-    "over_rate": 0.237,
+    "avg_lambda": 4.72,
+    "over_rate": 0.235,
     "top10_today": [
       {
-        "pitcher_name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "opponent": "San Diego Padres",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 7.18,
-        "p_over": 0.5761,
-        "p_under": 0.4239
-      },
-      {
-        "pitcher_name": "Gage Jump",
-        "team": "Athletics",
-        "opponent": "Texas Rangers",
-        "venue": "Sutter Health Park",
-        "line": 6.5,
-        "lambda_k": 6.2,
-        "p_over": 0.4253,
-        "p_under": 0.5747
-      },
-      {
-        "pitcher_name": "Sandy Alcantara",
-        "team": "Miami Marlins",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 5.79,
-        "p_over": 0.3606,
-        "p_under": 0.6394
-      },
-      {
-        "pitcher_name": "Peter Lambert",
-        "team": "Houston Astros",
-        "opponent": "Seattle Mariners",
-        "venue": "Daikin Park",
-        "line": 6.5,
-        "lambda_k": 5.75,
-        "p_over": 0.3534,
-        "p_under": 0.6466
-      },
-      {
-        "pitcher_name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "opponent": "Arizona Diamondbacks",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 5.74,
-        "p_over": 0.3525,
-        "p_under": 0.6475
-      },
-      {
-        "pitcher_name": "Chase Burns",
-        "team": "Cincinnati Reds",
-        "opponent": "Miami Marlins",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 5.71,
-        "p_over": 0.3476,
-        "p_under": 0.6524
-      },
-      {
-        "pitcher_name": "Yoshinobu Yamamoto",
-        "team": "Los Angeles Dodgers",
-        "opponent": "Milwaukee Brewers",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "line": 6.5,
-        "lambda_k": 5.36,
-        "p_over": 0.2913,
-        "p_under": 0.7087
-      },
-      {
-        "pitcher_name": "Jackson Jobe",
-        "team": "Detroit Tigers",
-        "opponent": "Chicago White Sox",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.33,
-        "p_over": 0.2869,
-        "p_under": 0.7131
-      },
-      {
-        "pitcher_name": "Gerrit Cole",
+        "pitcher_name": "Cam Schlittler",
         "team": "New York Yankees",
         "opponent": "Toronto Blue Jays",
         "venue": "Rogers Centre",
         "line": 6.5,
-        "lambda_k": 5.3,
-        "p_over": 0.2834,
-        "p_under": 0.7166
+        "lambda_k": 6.08,
+        "p_over": 0.407,
+        "p_under": 0.593
       },
       {
-        "pitcher_name": "Seth Lugo",
-        "team": "Kansas City Royals",
-        "opponent": "Los Angeles Angels",
-        "venue": "Angel Stadium",
+        "pitcher_name": "Troy Melton",
+        "team": "Detroit Tigers",
+        "opponent": "Chicago White Sox",
+        "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 5.1,
-        "p_over": 0.2525,
-        "p_under": 0.7475
+        "lambda_k": 5.71,
+        "p_over": 0.3467,
+        "p_under": 0.6533
+      },
+      {
+        "pitcher_name": "Anthony Kay",
+        "team": "Chicago White Sox",
+        "opponent": "Detroit Tigers",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 4.5,
+        "p_over": 0.1683,
+        "p_under": 0.8317
+      },
+      {
+        "pitcher_name": "Michael McGreevy",
+        "team": "St. Louis Cardinals",
+        "opponent": "Chicago Cubs",
+        "venue": "Wrigley Field",
+        "line": 6.5,
+        "lambda_k": 4.26,
+        "p_over": 0.1391,
+        "p_under": 0.8609
+      },
+      {
+        "pitcher_name": "Matthew Boyd",
+        "team": "Chicago Cubs",
+        "opponent": "St. Louis Cardinals",
+        "venue": "Wrigley Field",
+        "line": 6.5,
+        "lambda_k": 4.1,
+        "p_over": 0.1209,
+        "p_under": 0.8791
+      },
+      {
+        "pitcher_name": "Braydon Fisher",
+        "team": "Toronto Blue Jays",
+        "opponent": "New York Yankees",
+        "venue": "Rogers Centre",
+        "line": 6.5,
+        "lambda_k": 3.71,
+        "p_over": 0.0827,
+        "p_under": 0.9173
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 340,
+        "n": 348,
         "predicted": 0.142,
-        "actual": 0.091
+        "actual": 0.092
       },
       {
         "range": "0.2-0.4",
-        "n": 455,
+        "n": 469,
         "predicted": 0.279,
-        "actual": 0.255
+        "actual": 0.254
       },
       {
         "range": "0.4-0.6",
-        "n": 101,
-        "predicted": 0.472,
-        "actual": 0.584
+        "n": 103,
+        "predicted": 0.473,
+        "actual": 0.573
       },
       {
         "range": "0.6-0.8",
@@ -1331,6 +1303,11 @@
         "date": "2026-08-12",
         "brier": 0.1249,
         "n": 110
+      },
+      {
+        "date": "2026-08-14",
+        "brier": 0.13,
+        "n": 134
       }
     ]
   },
