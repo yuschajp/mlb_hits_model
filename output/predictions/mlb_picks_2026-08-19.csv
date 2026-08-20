@@ -1,0 +1,11 @@
+name,team,opponent,lineup_position,base_pct,after_star_penalty,after_game_script,after_form_boost,final_pct,cold_penalty,form_boost,depth_weight,featured_fanduel,status,reason
+Pete Alonso,Orioles,Rays,4,41.0,16.4,24.6,27.6,27.6,0.0,12.0,30.0,True,TIER_2_FEATURED,Hot 2-day form | 4+ HR/7 days | FanDuel featured | 90th+ offensive ability
+Jac Caglianone,Royals,Angels,3,32.0,16.0,24.0,26.9,26.9,0.0,12.0,30.0,False,TIER_2_FEATURED,Hot 2-day form | 4+ HR/7 days
+Fernando Tatis,Padres,Royals,4,39.0,15.6,23.4,26.2,26.2,0.0,12.0,30.0,True,TIER_2_FEATURED,Hot 2-day form | 4+ HR/7 days | FanDuel featured | 90th+ offensive ability
+Juan Soto,Yankees,Orioles,2,38.0,15.2,22.8,25.5,25.5,0.0,12.0,30.0,False,TIER_3_MODERATE,Hot 2-day form | 4+ HR/7 days | 90th+ offensive ability
+Ronald Acuña Jr.,Braves,Diamondbacks,1,41.0,16.4,24.6,25.0,25.0,0.0,1.5,30.0,True,TIER_3_MODERATE,4+ HR/7 days | FanDuel featured | 90th+ offensive ability
+Manny Machado,Padres,Royals,3,36.0,14.4,21.6,21.1,21.1,0.0,-2.5,30.0,False,TIER_3_MODERATE,Season-based projection
+Kyle Schwarber,Phillies,Twins,5,39.0,15.6,17.9,20.1,20.1,0.0,12.0,30.0,True,TIER_3_MODERATE,Hot 2-day form | 4+ HR/7 days | FanDuel featured
+Bryce Harper,Phillies,Twins,3,38.0,15.2,17.5,19.6,19.6,0.0,12.0,30.0,False,TIER_3_MODERATE,Hot 2-day form | 4+ HR/7 days | 90th+ offensive ability
+Yordan Alvarez,Astros,Mariners,4,42.0,16.8,19.3,18.8,18.8,0.0,-2.5,30.0,True,TIER_4_WEAK,FanDuel featured | 90th+ offensive ability
+Mookie Betts,Dodgers,Brewers,1,40.0,16.0,18.4,18.7,18.7,0.0,1.5,30.0,False,TIER_4_WEAK,4+ HR/7 days | 90th+ offensive ability
