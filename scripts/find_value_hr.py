@@ -84,6 +84,10 @@ def main():
 
             pred = pred_by_name[matched_name]
             implied_prob = odds.american_to_implied_prob(info["price"])
+            # Ledger audit (n=1,755): the 0.08-0.10 band predicts .0908
+            # and delivers .0678 -- 25% overprediction. Skip it.
+            if pred["p_hr"] < 0.10:
+                continue
             edge = pred["p_hr"] - implied_prob
 
             row = {
