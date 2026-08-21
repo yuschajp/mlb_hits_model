@@ -38,7 +38,8 @@ OUT              = ROOT / "docs" / "dashboard_data.json"
 F1_QUALI_LEDGER  = ROOT.parent / "f1_model" / "data" / "ledger" / "quali_predictions_log.csv"
 F1_RACE_LEDGER   = ROOT.parent / "f1_model" / "data" / "ledger" / "predictions_log.csv"
 
-NAIVE_BRIER = 0.235
+NAIVE_BRIER = 0.235      # hits: base rate ~0.61 -> p(1-p)
+NAIVE_BRIER_HR = 0.1034  # HR: base rate ~0.117 -> p(1-p)
 
 
 # ── P&L simulation ────────────────────────────────────────────────────────────
@@ -329,7 +330,7 @@ def summarize_hr(ledger_path):
         "total_graded":  len(graded),
         "since_date":    str(graded["date"].min().date()) if not graded.empty else None,
         "brier_score":   round(score, 4) if score else None,
-        "naive_brier":   NAIVE_BRIER,
+        "naive_brier":   NAIVE_BRIER_HR,
         "avg_predicted": round(float(graded["p_hr"].mean()), 4) if not graded.empty else None,
         "actual_hr_rate": round(float(graded["actual_hr"].mean()), 4) if not graded.empty else None,
         "top10_today": [

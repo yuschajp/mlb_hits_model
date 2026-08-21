@@ -8,3 +8,5 @@ venv/
 ai-alpha-labs/
 logs/*.log
 *.bak
+data/statcast/
+data/statcast_*.parquet
