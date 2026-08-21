@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20",
+  "generated_at": "2026-08-21",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
@@ -377,7 +377,7 @@
     "total_graded": 9194,
     "since_date": "2026-06-21",
     "brier_score": 0.1019,
-    "naive_brier": 0.235,
+    "naive_brier": 0.1034,
     "avg_predicted": 0.1248,
     "actual_hr_rate": 0.1171,
     "top10_today": [],
