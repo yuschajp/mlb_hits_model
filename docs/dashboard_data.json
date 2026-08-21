@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 216,
     "total_graded": 9194,
     "since_date": "2026-06-21",
     "brier_score": 0.1019,
     "naive_brier": 0.1034,
     "avg_predicted": 0.1248,
     "actual_hr_rate": 0.1171,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Sean Manaea",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.23
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Hunter Dobbins",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2246
+      },
+      {
+        "player_name": "Nathaniel Lowe",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 5,
+        "p_hr": 0.2049
+      },
+      {
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Sean Manaea",
+        "venue": "Rate Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2034
+      },
+      {
+        "player_name": "Chase DeLauter",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2004
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Mason Fluharty",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2002
+      },
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "J.T. Ginn",
+        "venue": "Daikin Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1996
+      },
+      {
+        "player_name": "Jo Adell",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1972
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "American Family Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1945
+      },
+      {
+        "player_name": "Bryce Harper",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Hunter Dobbins",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.185
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -1296,9 +1377,379 @@
     "trend": []
   },
   "picks": {
-    "singles": [],
-    "parlays": [],
-    "round_robins": []
+    "singles": [
+      {
+        "player_name": "Ronald Acu\u00f1a Jr.",
+        "team": "Atlanta Braves",
+        "model_p_hr": 0.1498,
+        "implied_prob": 0.0714,
+        "edge": 0.0784,
+        "best_price": 1300,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      },
+      {
+        "player_name": "Chase Meidroth",
+        "team": "Chicago White Sox",
+        "model_p_hr": 0.1549,
+        "implied_prob": 0.08,
+        "edge": 0.0749,
+        "best_price": 1150,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      },
+      {
+        "player_name": "Dominic Smith",
+        "team": "Atlanta Braves",
+        "model_p_hr": 0.1111,
+        "implied_prob": 0.05,
+        "edge": 0.0611,
+        "best_price": 1900,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      },
+      {
+        "player_name": "Mike Yastrzemski",
+        "team": "Atlanta Braves",
+        "model_p_hr": 0.1081,
+        "implied_prob": 0.05,
+        "edge": 0.0581,
+        "best_price": 1900,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "model_p_hr": 0.1104,
+        "implied_prob": 0.0526,
+        "edge": 0.0578,
+        "best_price": 1800,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "model_p_hr": 0.1945,
+        "implied_prob": 0.1429,
+        "edge": 0.0516,
+        "best_price": 600,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      },
+      {
+        "player_name": "Ozzie Albies",
+        "team": "Atlanta Braves",
+        "model_p_hr": 0.1295,
+        "implied_prob": 0.0833,
+        "edge": 0.0462,
+        "best_price": 1100,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      },
+      {
+        "player_name": "Steven Kwan",
+        "team": "Cleveland Guardians",
+        "model_p_hr": 0.1352,
+        "implied_prob": 0.0909,
+        "edge": 0.0443,
+        "best_price": 1000,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "model_p_hr": 0.1122,
+        "implied_prob": 0.0714,
+        "edge": 0.0408,
+        "best_price": 1300,
+        "bookmaker": "betrivers",
+        "type": "hr"
+      }
+    ],
+    "parlays": [
+      {
+        "legs": [
+          {
+            "player_name": "Ronald Acu\u00f1a Jr.",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 1300,
+            "bookmaker": "betrivers"
+          },
+          {
+            "player_name": "Matt Olson",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 600,
+            "bookmaker": "betrivers"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.0291,
+        "implied_prob": 0.0102,
+        "edge": 0.0189,
+        "payout": 9700
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Chase Meidroth",
+            "team": "Chicago White Sox",
+            "type": "hr",
+            "price": 1150,
+            "bookmaker": "betrivers"
+          },
+          {
+            "player_name": "Matt Olson",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 600,
+            "bookmaker": "betrivers"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.0301,
+        "implied_prob": 0.0114,
+        "edge": 0.0187,
+        "payout": 8650
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Ronald Acu\u00f1a Jr.",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 1300,
+            "bookmaker": "betrivers"
+          },
+          {
+            "player_name": "Chase Meidroth",
+            "team": "Chicago White Sox",
+            "type": "hr",
+            "price": 1150,
+            "bookmaker": "betrivers"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.0232,
+        "implied_prob": 0.0057,
+        "edge": 0.0175,
+        "payout": 17400
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Dominic Smith",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 1900,
+            "bookmaker": "betrivers"
+          },
+          {
+            "player_name": "Matt Olson",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 600,
+            "bookmaker": "betrivers"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.0216,
+        "implied_prob": 0.0071,
+        "edge": 0.0145,
+        "payout": 13900
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Jackson Chourio",
+            "team": "Milwaukee Brewers",
+            "type": "hr",
+            "price": 1800,
+            "bookmaker": "betrivers"
+          },
+          {
+            "player_name": "Matt Olson",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 600,
+            "bookmaker": "betrivers"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.0215,
+        "implied_prob": 0.0075,
+        "edge": 0.014,
+        "payout": 13200
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Mike Yastrzemski",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 1900,
+            "bookmaker": "betrivers"
+          },
+          {
+            "player_name": "Matt Olson",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 600,
+            "bookmaker": "betrivers"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.021,
+        "implied_prob": 0.0071,
+        "edge": 0.0139,
+        "payout": 13900
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Chase Meidroth",
+            "team": "Chicago White Sox",
+            "type": "hr",
+            "price": 1150,
+            "bookmaker": "betrivers"
+          },
+          {
+            "player_name": "Dominic Smith",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 1900,
+            "bookmaker": "betrivers"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.0172,
+        "implied_prob": 0.004,
+        "edge": 0.0132,
+        "payout": 24900
+      },
+      {
+        "legs": [
+          {
+            "player_name": "Ronald Acu\u00f1a Jr.",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 1300,
+            "bookmaker": "betrivers"
+          },
+          {
+            "player_name": "Dominic Smith",
+            "team": "Atlanta Braves",
+            "type": "hr",
+            "price": 1900,
+            "bookmaker": "betrivers"
+          }
+        ],
+        "n_legs": 2,
+        "model_prob": 0.0166,
+        "implied_prob": 0.0036,
+        "edge": 0.0131,
+        "payout": 27900
+      }
+    ],
+    "round_robins": [
+      {
+        "size": 3,
+        "picks": [
+          "Ronald Acu\u00f1a Jr.",
+          "Chase Meidroth",
+          "Dominic Smith"
+        ],
+        "parlays": [
+          {
+            "players": [
+              "Ronald Acu\u00f1a Jr.",
+              "Chase Meidroth"
+            ],
+            "payout": 17400,
+            "model_prob": 0.0232
+          },
+          {
+            "players": [
+              "Ronald Acu\u00f1a Jr.",
+              "Dominic Smith"
+            ],
+            "payout": 27900,
+            "model_prob": 0.0166
+          },
+          {
+            "players": [
+              "Chase Meidroth",
+              "Dominic Smith"
+            ],
+            "payout": 24900,
+            "model_prob": 0.0172
+          }
+        ]
+      },
+      {
+        "size": 4,
+        "picks": [
+          "Ronald Acu\u00f1a Jr.",
+          "Chase Meidroth",
+          "Dominic Smith",
+          "Mike Yastrzemski"
+        ],
+        "parlays": [
+          {
+            "players": [
+              "Ronald Acu\u00f1a Jr.",
+              "Chase Meidroth"
+            ],
+            "payout": 17400,
+            "model_prob": 0.0232
+          },
+          {
+            "players": [
+              "Ronald Acu\u00f1a Jr.",
+              "Dominic Smith"
+            ],
+            "payout": 27900,
+            "model_prob": 0.0166
+          },
+          {
+            "players": [
+              "Ronald Acu\u00f1a Jr.",
+              "Mike Yastrzemski"
+            ],
+            "payout": 27900,
+            "model_prob": 0.0162
+          },
+          {
+            "players": [
+              "Chase Meidroth",
+              "Dominic Smith"
+            ],
+            "payout": 24900,
+            "model_prob": 0.0172
+          },
+          {
+            "players": [
+              "Chase Meidroth",
+              "Mike Yastrzemski"
+            ],
+            "payout": 24900,
+            "model_prob": 0.0167
+          },
+          {
+            "players": [
+              "Dominic Smith",
+              "Mike Yastrzemski"
+            ],
+            "payout": 39900,
+            "model_prob": 0.012
+          }
+        ]
+      }
+    ]
   },
   "f1": {
     "quali": {
