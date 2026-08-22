@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 54,
     "total_graded": 9428,
     "since_date": "2026-06-21",
     "brier_score": 0.1015,
     "naive_brier": 0.1034,
     "avg_predicted": 0.1246,
     "actual_hr_rate": 0.1166,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Logan Henderson",
+        "venue": "American Family Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2482
+      },
+      {
+        "player_name": "Griffin Conine",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Jake Irvin",
+        "venue": "loanDepot park",
+        "lineup_spot": 2,
+        "p_hr": 0.1882
+      },
+      {
+        "player_name": "Ronald Acu\u00f1a Jr.",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Logan Henderson",
+        "venue": "American Family Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1876
+      },
+      {
+        "player_name": "Drake Baldwin",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Logan Henderson",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1862
+      },
+      {
+        "player_name": "Kazuma Okamoto",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.1825
+      },
+      {
+        "player_name": "Ozzie Albies",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Logan Henderson",
+        "venue": "American Family Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1677
+      },
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Dylan Cease",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.1653
+      },
+      {
+        "player_name": "Alejandro Kirk",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.1627
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Logan Henderson",
+        "venue": "American Family Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1589
+      },
+      {
+        "player_name": "Daz Cameron",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Ryan Weathers",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 7,
+        "p_hr": 0.1488
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
