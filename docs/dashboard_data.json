@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 54,
+    "today_count": 72,
     "total_graded": 9428,
     "since_date": "2026-06-21",
     "brier_score": 0.1015,
@@ -387,7 +387,39 @@
         "opponent_pitcher": "Logan Henderson",
         "venue": "American Family Field",
         "lineup_spot": 3,
-        "p_hr": 0.2482
+        "p_hr": 0.243
+      },
+      {
+        "player_name": "Jordan Walker",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2087
+      },
+      {
+        "player_name": "Alec Burleson",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2055
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Quinn Mathews",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2018
+      },
+      {
+        "player_name": "Joshua B\u00e1ez",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 5,
+        "p_hr": 0.198
       },
       {
         "player_name": "Griffin Conine",
@@ -403,7 +435,7 @@
         "opponent_pitcher": "Logan Henderson",
         "venue": "American Family Field",
         "lineup_spot": 2,
-        "p_hr": 0.1876
+        "p_hr": 0.1834
       },
       {
         "player_name": "Drake Baldwin",
@@ -411,7 +443,7 @@
         "opponent_pitcher": "Logan Henderson",
         "venue": "American Family Field",
         "lineup_spot": 1,
-        "p_hr": 0.1862
+        "p_hr": 0.1828
       },
       {
         "player_name": "Kazuma Okamoto",
@@ -419,47 +451,15 @@
         "opponent_pitcher": "Ryan Weathers",
         "venue": "Yankee Stadium",
         "lineup_spot": 5,
-        "p_hr": 0.1825
+        "p_hr": 0.1786
       },
       {
-        "player_name": "Ozzie Albies",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Logan Henderson",
-        "venue": "American Family Field",
-        "lineup_spot": 5,
-        "p_hr": 0.1677
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Dylan Cease",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.1653
-      },
-      {
-        "player_name": "Alejandro Kirk",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.1627
-      },
-      {
-        "player_name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Logan Henderson",
-        "venue": "American Family Field",
-        "lineup_spot": 4,
-        "p_hr": 0.1589
-      },
-      {
-        "player_name": "Daz Cameron",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Ryan Weathers",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 7,
-        "p_hr": 0.1488
+        "player_name": "JJ Wetherholt",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1643
       }
     ],
     "calibration": [
