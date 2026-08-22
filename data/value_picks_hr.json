@@ -2,84 +2,66 @@
   "date": "2026-08-21",
   "picks": [
     {
-      "player_name": "Ronald Acu\u00f1a Jr.",
-      "team": "Atlanta Braves",
-      "model_p_hr": 0.1498,
-      "implied_prob": 0.0714,
-      "edge": 0.0784,
-      "best_price": 1300,
-      "bookmaker": "betrivers"
-    },
-    {
       "player_name": "Chase Meidroth",
       "team": "Chicago White Sox",
       "model_p_hr": 0.1549,
-      "implied_prob": 0.08,
-      "edge": 0.0749,
-      "best_price": 1150,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Dominic Smith",
-      "team": "Atlanta Braves",
-      "model_p_hr": 0.1111,
-      "implied_prob": 0.05,
-      "edge": 0.0611,
-      "best_price": 1900,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Mike Yastrzemski",
-      "team": "Atlanta Braves",
-      "model_p_hr": 0.1081,
-      "implied_prob": 0.05,
-      "edge": 0.0581,
-      "best_price": 1900,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Jackson Chourio",
-      "team": "Milwaukee Brewers",
-      "model_p_hr": 0.1104,
-      "implied_prob": 0.0526,
-      "edge": 0.0578,
-      "best_price": 1800,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Matt Olson",
-      "team": "Atlanta Braves",
-      "model_p_hr": 0.1945,
-      "implied_prob": 0.1429,
-      "edge": 0.0516,
-      "best_price": 600,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Ozzie Albies",
-      "team": "Atlanta Braves",
-      "model_p_hr": 0.1295,
       "implied_prob": 0.0833,
-      "edge": 0.0462,
+      "edge": 0.0716,
       "best_price": 1100,
       "bookmaker": "betrivers"
     },
     {
-      "player_name": "Steven Kwan",
-      "team": "Cleveland Guardians",
-      "model_p_hr": 0.1352,
+      "player_name": "Brett Bateman",
+      "team": "Toronto Blue Jays",
+      "model_p_hr": 0.1131,
+      "implied_prob": 0.0714,
+      "edge": 0.0417,
+      "best_price": 1300,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Gabriel Moreno",
+      "team": "Arizona Diamondbacks",
+      "model_p_hr": 0.1525,
+      "implied_prob": 0.1176,
+      "edge": 0.0349,
+      "best_price": 750,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Ildemaro Vargas",
+      "team": "Arizona Diamondbacks",
+      "model_p_hr": 0.1516,
+      "implied_prob": 0.1176,
+      "edge": 0.034,
+      "best_price": 750,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Ali S\u00e1nchez",
+      "team": "New York Yankees",
+      "model_p_hr": 0.1206,
+      "implied_prob": 0.087,
+      "edge": 0.0336,
+      "best_price": 1050,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Denzer Guzman",
+      "team": "Los Angeles Angels",
+      "model_p_hr": 0.1233,
       "implied_prob": 0.0909,
-      "edge": 0.0443,
+      "edge": 0.0324,
       "best_price": 1000,
       "bookmaker": "betrivers"
     },
     {
-      "player_name": "Jake Bauers",
-      "team": "Milwaukee Brewers",
-      "model_p_hr": 0.1122,
-      "implied_prob": 0.0714,
-      "edge": 0.0408,
-      "best_price": 1300,
+      "player_name": "Geraldo Perdomo",
+      "team": "Arizona Diamondbacks",
+      "model_p_hr": 0.1214,
+      "implied_prob": 0.0909,
+      "edge": 0.0305,
+      "best_price": 1000,
       "bookmaker": "betrivers"
     }
   ]
