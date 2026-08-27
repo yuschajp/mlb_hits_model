@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23",
+  "generated_at": "2026-08-27",
   "hits": {
     "today_count": 0,
     "total_graded": 5210,
@@ -373,107 +373,26 @@
     ]
   },
   "hr": {
-    "today_count": 144,
-    "total_graded": 9428,
+    "today_count": 0,
+    "total_graded": 10184,
     "since_date": "2026-06-21",
-    "brier_score": 0.1015,
+    "brier_score": 0.1012,
     "naive_brier": 0.1034,
-    "avg_predicted": 0.1246,
-    "actual_hr_rate": 0.1166,
-    "top10_today": [
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Nolan McLean",
-        "venue": "Rate Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2123
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Kyle Leahy",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1946
-      },
-      {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jos\u00e9 Soriano",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 2,
-        "p_hr": 0.1917
-      },
-      {
-        "player_name": "Zack Gelof",
-        "team": "Athletics",
-        "opponent_pitcher": "Cristian Javier",
-        "venue": "Daikin Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1903
-      },
-      {
-        "player_name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Nolan McLean",
-        "venue": "Rate Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1782
-      },
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Brady Basso",
-        "venue": "Daikin Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1751
-      },
-      {
-        "player_name": "Luis Garc\u00eda Jr.",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jos\u00e9 Soriano",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 3,
-        "p_hr": 0.1722
-      },
-      {
-        "player_name": "Lawrence Butler",
-        "team": "Athletics",
-        "opponent_pitcher": "Cristian Javier",
-        "venue": "Daikin Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1661
-      },
-      {
-        "player_name": "Trent Grisham",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Jos\u00e9 Soriano",
-        "venue": "Yankee Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.164
-      },
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Nick Martinez",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 2,
-        "p_hr": 0.1631
-      }
-    ],
+    "avg_predicted": 0.1243,
+    "actual_hr_rate": 0.1163,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 9046,
+        "n": 9777,
         "predicted": 0.12,
         "actual": 0.111
       },
       {
         "range": "0.2-0.4",
-        "n": 382,
-        "predicted": 0.227,
-        "actual": 0.243
+        "n": 407,
+        "predicted": 0.226,
+        "actual": 0.241
       }
     ],
     "returns": [
@@ -812,6 +731,34 @@
         "n_wins": 5,
         "daily_pnl": -12.5,
         "cumulative_pnl": -489.0
+      },
+      {
+        "date": "2026-08-22",
+        "n_bets": 17,
+        "n_wins": 4,
+        "daily_pnl": 1.0,
+        "cumulative_pnl": -488.0
+      },
+      {
+        "date": "2026-08-23",
+        "n_bets": 42,
+        "n_wins": 4,
+        "daily_pnl": -24.0,
+        "cumulative_pnl": -512.0
+      },
+      {
+        "date": "2026-08-25",
+        "n_bets": 35,
+        "n_wins": 6,
+        "daily_pnl": -8.0,
+        "cumulative_pnl": -520.0
+      },
+      {
+        "date": "2026-08-26",
+        "n_bets": 32,
+        "n_wins": 11,
+        "daily_pnl": 17.5,
+        "cumulative_pnl": -502.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1055,6 +1002,26 @@
         "date": "2026-08-21",
         "brier": 0.0919,
         "n": 378
+      },
+      {
+        "date": "2026-08-22",
+        "brier": 0.0916,
+        "n": 396
+      },
+      {
+        "date": "2026-08-23",
+        "brier": 0.0887,
+        "n": 558
+      },
+      {
+        "date": "2026-08-25",
+        "brier": 0.0908,
+        "n": 756
+      },
+      {
+        "date": "2026-08-26",
+        "brier": 0.0947,
+        "n": 990
       }
     ]
   },
