@@ -1,67 +1,49 @@
 {
-  "date": "2026-08-21",
+  "date": "2026-08-25",
   "picks": [
+    {
+      "player_name": "Kyle Isbel",
+      "team": "Kansas City Royals",
+      "model_p_hr": 0.1578,
+      "implied_prob": 0.1053,
+      "edge": 0.0525,
+      "best_price": 850,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Yainer Diaz",
+      "team": "Houston Astros",
+      "model_p_hr": 0.1494,
+      "implied_prob": 0.1111,
+      "edge": 0.0383,
+      "best_price": 800,
+      "bookmaker": "betrivers"
+    },
     {
       "player_name": "Chase Meidroth",
       "team": "Chicago White Sox",
-      "model_p_hr": 0.1549,
-      "implied_prob": 0.0833,
-      "edge": 0.0716,
-      "best_price": 1100,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Brett Bateman",
-      "team": "Toronto Blue Jays",
-      "model_p_hr": 0.1131,
-      "implied_prob": 0.0714,
-      "edge": 0.0417,
-      "best_price": 1300,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Gabriel Moreno",
-      "team": "Arizona Diamondbacks",
-      "model_p_hr": 0.1525,
-      "implied_prob": 0.1176,
-      "edge": 0.0349,
-      "best_price": 750,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Ildemaro Vargas",
-      "team": "Arizona Diamondbacks",
-      "model_p_hr": 0.1516,
-      "implied_prob": 0.1176,
-      "edge": 0.034,
-      "best_price": 750,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Ali S\u00e1nchez",
-      "team": "New York Yankees",
-      "model_p_hr": 0.1206,
-      "implied_prob": 0.087,
-      "edge": 0.0336,
-      "best_price": 1050,
-      "bookmaker": "betrivers"
-    },
-    {
-      "player_name": "Denzer Guzman",
-      "team": "Los Angeles Angels",
-      "model_p_hr": 0.1233,
+      "model_p_hr": 0.1279,
       "implied_prob": 0.0909,
-      "edge": 0.0324,
+      "edge": 0.037,
       "best_price": 1000,
       "bookmaker": "betrivers"
     },
     {
-      "player_name": "Geraldo Perdomo",
-      "team": "Arizona Diamondbacks",
-      "model_p_hr": 0.1214,
-      "implied_prob": 0.0909,
-      "edge": 0.0305,
-      "best_price": 1000,
+      "player_name": "Turner Hill",
+      "team": "San Francisco Giants",
+      "model_p_hr": 0.1165,
+      "implied_prob": 0.08,
+      "edge": 0.0365,
+      "best_price": 1150,
+      "bookmaker": "betrivers"
+    },
+    {
+      "player_name": "Luis Torrens",
+      "team": "New York Mets",
+      "model_p_hr": 0.1312,
+      "implied_prob": 0.1,
+      "edge": 0.0312,
+      "best_price": 900,
       "bookmaker": "betrivers"
     }
   ]

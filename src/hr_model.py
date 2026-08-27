@@ -34,7 +34,7 @@ EXPECTED_AB_BY_SLOT = {
 }
 
 
-def stabilized_hr_rate(homers, at_bats, league_rate=LEAGUE_AVG_HR_RATE, prior_ab=400):
+def stabilized_hr_rate(homers, at_bats, league_rate=LEAGUE_AVG_HR_RATE, prior_ab=120):
     """
     Empirical-Bayes shrinkage of an observed HR rate toward league average.
     prior_ab is much larger than hit_model.py's equivalent (200) because HR
@@ -89,7 +89,7 @@ def hr_probability(season, recent, vs_hand, lineup_spot,
     """
     base_rate = blended_hr_rate(season, recent, vs_hand, weights)
     adj = pitcher_hr_adjustment(pitcher_hr_allowed, pitcher_ab_faced)
-    adjusted_rate = base_rate * adj * park_factor
+    adjusted_rate = base_rate * adj * (park_factor ** 0.5)
     adjusted_rate = max(0.005, min(0.20, adjusted_rate))  # sanity bounds
 
     expected_ab = EXPECTED_AB_BY_SLOT.get(lineup_spot, 3.8)
