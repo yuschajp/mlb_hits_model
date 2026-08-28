@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-08-27",
+  "generated_at": "2026-08-28",
   "hits": {
     "today_count": 0,
-    "total_graded": 5210,
+    "total_graded": 5225,
     "since_date": "2026-06-20",
-    "brier_score": 0.2348,
+    "brier_score": 0.2349,
     "recent_brier_score": null,
     "naive_brier": 0.235,
     "avg_predicted": 0.6238,
-    "actual_hit_rate": 0.6132,
+    "actual_hit_rate": 0.6124,
     "top10_today": [],
     "calibration": [
       {
         "range": "0.4-0.6",
-        "n": 1798,
+        "n": 1802,
         "predicted": 0.562,
-        "actual": 0.567
+        "actual": 0.566
       },
       {
         "range": "0.6-0.8",
-        "n": 3382,
+        "n": 3393,
         "predicted": 0.655,
         "actual": 0.636
       },
@@ -40,192 +40,192 @@
       },
       {
         "date": "2026-06-21",
-        "n_bets": 202,
-        "n_wins": 134,
-        "daily_pnl": 53.818,
-        "cumulative_pnl": 96.455
+        "n_bets": 213,
+        "n_wins": 139,
+        "daily_pnl": 52.364,
+        "cumulative_pnl": 95.0
       },
       {
         "date": "2026-06-22",
         "n_bets": 132,
         "n_wins": 72,
         "daily_pnl": 5.455,
-        "cumulative_pnl": 101.909
+        "cumulative_pnl": 100.455
       },
       {
         "date": "2026-06-23",
         "n_bets": 104,
         "n_wins": 66,
         "daily_pnl": 22.0,
-        "cumulative_pnl": 123.909
+        "cumulative_pnl": 122.455
       },
       {
         "date": "2026-06-24",
         "n_bets": 89,
         "n_wins": 55,
         "daily_pnl": 16.0,
-        "cumulative_pnl": 139.909
+        "cumulative_pnl": 138.455
       },
       {
         "date": "2026-06-25",
         "n_bets": 49,
         "n_wins": 28,
         "daily_pnl": 4.455,
-        "cumulative_pnl": 144.364
+        "cumulative_pnl": 142.909
       },
       {
         "date": "2026-06-26",
         "n_bets": 123,
         "n_wins": 74,
         "daily_pnl": 18.273,
-        "cumulative_pnl": 162.636
+        "cumulative_pnl": 161.182
       },
       {
         "date": "2026-06-27",
         "n_bets": 75,
         "n_wins": 51,
         "daily_pnl": 22.364,
-        "cumulative_pnl": 185.0
+        "cumulative_pnl": 183.545
       },
       {
         "date": "2026-06-28",
         "n_bets": 128,
         "n_wins": 74,
         "daily_pnl": 13.273,
-        "cumulative_pnl": 198.273
+        "cumulative_pnl": 196.818
       },
       {
         "date": "2026-06-29",
         "n_bets": 80,
         "n_wins": 51,
         "daily_pnl": 17.364,
-        "cumulative_pnl": 215.636
+        "cumulative_pnl": 214.182
       },
       {
         "date": "2026-06-30",
         "n_bets": 47,
         "n_wins": 26,
         "daily_pnl": 2.636,
-        "cumulative_pnl": 218.273
+        "cumulative_pnl": 216.818
       },
       {
         "date": "2026-07-01",
         "n_bets": 97,
         "n_wins": 61,
         "daily_pnl": 19.455,
-        "cumulative_pnl": 237.727
+        "cumulative_pnl": 236.273
       },
       {
         "date": "2026-07-02",
         "n_bets": 39,
         "n_wins": 26,
         "daily_pnl": 10.636,
-        "cumulative_pnl": 248.364
+        "cumulative_pnl": 246.909
       },
       {
         "date": "2026-07-03",
         "n_bets": 146,
         "n_wins": 90,
         "daily_pnl": 25.818,
-        "cumulative_pnl": 274.182
+        "cumulative_pnl": 272.727
       },
       {
         "date": "2026-07-04",
         "n_bets": 175,
         "n_wins": 115,
         "daily_pnl": 44.545,
-        "cumulative_pnl": 318.727
+        "cumulative_pnl": 317.273
       },
       {
         "date": "2026-07-05",
         "n_bets": 168,
         "n_wins": 109,
         "daily_pnl": 40.091,
-        "cumulative_pnl": 358.818
+        "cumulative_pnl": 357.364
       },
       {
         "date": "2026-07-06",
         "n_bets": 92,
         "n_wins": 62,
         "daily_pnl": 26.364,
-        "cumulative_pnl": 385.182
+        "cumulative_pnl": 383.727
       },
       {
         "date": "2026-07-07",
         "n_bets": 159,
         "n_wins": 105,
         "daily_pnl": 41.455,
-        "cumulative_pnl": 426.636
+        "cumulative_pnl": 425.182
       },
       {
         "date": "2026-07-08",
         "n_bets": 137,
         "n_wins": 88,
         "daily_pnl": 31.0,
-        "cumulative_pnl": 457.636
+        "cumulative_pnl": 456.182
       },
       {
         "date": "2026-07-09",
         "n_bets": 149,
         "n_wins": 86,
         "daily_pnl": 15.182,
-        "cumulative_pnl": 472.818
+        "cumulative_pnl": 471.364
       },
       {
         "date": "2026-07-10",
         "n_bets": 170,
         "n_wins": 119,
         "daily_pnl": 57.182,
-        "cumulative_pnl": 530.0
+        "cumulative_pnl": 528.545
       },
       {
         "date": "2026-07-11",
         "n_bets": 127,
         "n_wins": 78,
         "daily_pnl": 21.909,
-        "cumulative_pnl": 551.909
+        "cumulative_pnl": 550.455
       },
       {
         "date": "2026-07-12",
         "n_bets": 149,
         "n_wins": 94,
         "daily_pnl": 30.455,
-        "cumulative_pnl": 582.364
+        "cumulative_pnl": 580.909
       },
       {
         "date": "2026-07-14",
         "n_bets": 11,
         "n_wins": 5,
         "daily_pnl": -1.455,
-        "cumulative_pnl": 580.909
+        "cumulative_pnl": 579.455
       },
       {
         "date": "2026-07-17",
         "n_bets": 141,
         "n_wins": 88,
         "daily_pnl": 27.0,
-        "cumulative_pnl": 607.909
+        "cumulative_pnl": 606.455
       },
       {
         "date": "2026-07-18",
         "n_bets": 130,
         "n_wins": 84,
         "daily_pnl": 30.364,
-        "cumulative_pnl": 638.273
+        "cumulative_pnl": 636.818
       },
       {
         "date": "2026-07-19",
         "n_bets": 156,
         "n_wins": 105,
         "daily_pnl": 44.455,
-        "cumulative_pnl": 682.727
+        "cumulative_pnl": 681.273
       },
       {
         "date": "2026-07-20",
         "n_bets": 186,
         "n_wins": 128,
         "daily_pnl": 58.364,
-        "cumulative_pnl": 741.091
+        "cumulative_pnl": 739.636
       }
     ],
     "returns_label": "p_hit \u2265 60% \u00b7 flat -110",
@@ -237,38 +237,38 @@
       },
       {
         "date": "2026-06-21",
-        "brier": 0.2226,
-        "n": 414
+        "brier": 0.2248,
+        "n": 429
       },
       {
         "date": "2026-06-22",
-        "brier": 0.2338,
-        "n": 571
+        "brier": 0.2351,
+        "n": 586
       },
       {
         "date": "2026-06-23",
-        "brier": 0.2339,
-        "n": 695
+        "brier": 0.235,
+        "n": 710
       },
       {
         "date": "2026-06-24",
-        "brier": 0.2348,
-        "n": 803
+        "brier": 0.2357,
+        "n": 818
       },
       {
         "date": "2026-06-25",
-        "brier": 0.2358,
-        "n": 857
+        "brier": 0.2366,
+        "n": 872
       },
       {
         "date": "2026-06-26",
-        "brier": 0.2366,
-        "n": 1055
+        "brier": 0.2373,
+        "n": 1070
       },
       {
         "date": "2026-06-27",
-        "brier": 0.2375,
-        "n": 1000
+        "brier": 0.2383,
+        "n": 1015
       },
       {
         "date": "2026-06-28",
@@ -374,25 +374,25 @@
   },
   "hr": {
     "today_count": 0,
-    "total_graded": 10184,
+    "total_graded": 10309,
     "since_date": "2026-06-21",
     "brier_score": 0.1012,
     "naive_brier": 0.1034,
-    "avg_predicted": 0.1243,
+    "avg_predicted": 0.1242,
     "actual_hr_rate": 0.1163,
     "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 9777,
+        "n": 9901,
         "predicted": 0.12,
         "actual": 0.111
       },
       {
         "range": "0.2-0.4",
-        "n": 407,
+        "n": 408,
         "predicted": 0.226,
-        "actual": 0.241
+        "actual": 0.24
       }
     ],
     "returns": [
@@ -759,6 +759,13 @@
         "n_wins": 11,
         "daily_pnl": 17.5,
         "cumulative_pnl": -502.5
+      },
+      {
+        "date": "2026-08-27",
+        "n_bets": 16,
+        "n_wins": 5,
+        "daily_pnl": 6.5,
+        "cumulative_pnl": -496.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1022,6 +1029,11 @@
         "date": "2026-08-26",
         "brier": 0.0947,
         "n": 990
+      },
+      {
+        "date": "2026-08-27",
+        "brier": 0.0957,
+        "n": 1115
       }
     ]
   },
