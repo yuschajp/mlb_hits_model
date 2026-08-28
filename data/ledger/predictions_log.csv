@@ -179,24 +179,24 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-06-20,825068,605170,Victor Caratini,Minnesota Twins,Arizona Diamondbacks,7,Chase Field,1.02,Zac Gallen,0.7221,0.2925,3.7,1.0,True
 2026-06-20,825068,807712,Luke Keaschall,Minnesota Twins,Arizona Diamondbacks,8,Chase Field,1.02,Zac Gallen,0.7291,0.3043,3.6,1.0,True
 2026-06-20,825068,668952,Ryan Kreidler,Minnesota Twins,Arizona Diamondbacks,9,Chase Field,1.02,Zac Gallen,0.6901,0.2845,3.5,1.0,True
-2026-06-21,824664,691718,Pete Crow-Armstrong,Chicago Cubs,Toronto Blue Jays,1,Wrigley Field,1.0,Dylan Cease,0.7253,0.2596,4.3,,False
-2026-06-21,824664,608324,Alex Bregman,Chicago Cubs,Toronto Blue Jays,2,Wrigley Field,1.0,Dylan Cease,0.6566,0.2247,4.2,,False
-2026-06-21,824664,683737,Michael Busch,Chicago Cubs,Toronto Blue Jays,3,Wrigley Field,1.0,Dylan Cease,0.6521,0.227,4.1,,False
-2026-06-21,824664,673548,Seiya Suzuki,Chicago Cubs,Toronto Blue Jays,4,Wrigley Field,1.0,Dylan Cease,0.6554,0.2338,4.0,,False
-2026-06-21,824664,664023,Ian Happ,Chicago Cubs,Toronto Blue Jays,5,Wrigley Field,1.0,Dylan Cease,0.6189,0.2191,3.9,,False
+2026-06-21,824664,691718,Pete Crow-Armstrong,Chicago Cubs,Toronto Blue Jays,1,Wrigley Field,1.0,Dylan Cease,0.7253,0.2596,4.3,1.0,True
+2026-06-21,824664,608324,Alex Bregman,Chicago Cubs,Toronto Blue Jays,2,Wrigley Field,1.0,Dylan Cease,0.6566,0.2247,4.2,1.0,True
+2026-06-21,824664,683737,Michael Busch,Chicago Cubs,Toronto Blue Jays,3,Wrigley Field,1.0,Dylan Cease,0.6521,0.227,4.1,0.0,True
+2026-06-21,824664,673548,Seiya Suzuki,Chicago Cubs,Toronto Blue Jays,4,Wrigley Field,1.0,Dylan Cease,0.6554,0.2338,4.0,0.0,True
+2026-06-21,824664,664023,Ian Happ,Chicago Cubs,Toronto Blue Jays,5,Wrigley Field,1.0,Dylan Cease,0.6189,0.2191,3.9,0.0,True
 2026-06-21,824664,807713,Matt Shaw,Chicago Cubs,Toronto Blue Jays,6,Wrigley Field,1.0,Dylan Cease,0.6196,0.2246,3.8,,False
-2026-06-21,824664,663538,Nico Hoerner,Chicago Cubs,Toronto Blue Jays,7,Wrigley Field,1.0,Dylan Cease,0.5741,0.206,3.7,,False
-2026-06-21,824664,608348,Carson Kelly,Chicago Cubs,Toronto Blue Jays,8,Wrigley Field,1.0,Dylan Cease,0.6131,0.2318,3.6,,False
-2026-06-21,824664,621020,Dansby Swanson,Chicago Cubs,Toronto Blue Jays,9,Wrigley Field,1.0,Dylan Cease,0.5208,0.1896,3.5,,False
-2026-06-21,824664,543807,George Springer,Toronto Blue Jays,Chicago Cubs,1,Wrigley Field,1.0,Shota Imanaga,0.6603,0.222,4.3,,False
+2026-06-21,824664,663538,Nico Hoerner,Chicago Cubs,Toronto Blue Jays,7,Wrigley Field,1.0,Dylan Cease,0.5741,0.206,3.7,0.0,True
+2026-06-21,824664,608348,Carson Kelly,Chicago Cubs,Toronto Blue Jays,8,Wrigley Field,1.0,Dylan Cease,0.6131,0.2318,3.6,0.0,True
+2026-06-21,824664,621020,Dansby Swanson,Chicago Cubs,Toronto Blue Jays,9,Wrigley Field,1.0,Dylan Cease,0.5208,0.1896,3.5,0.0,True
+2026-06-21,824664,543807,George Springer,Toronto Blue Jays,Chicago Cubs,1,Wrigley Field,1.0,Shota Imanaga,0.6603,0.222,4.3,0.0,True
 2026-06-21,824664,665489,Vladimir Guerrero Jr.,Toronto Blue Jays,Chicago Cubs,2,Wrigley Field,1.0,Shota Imanaga,0.686,0.241,4.2,,False
-2026-06-21,824664,672960,Kazuma Okamoto,Toronto Blue Jays,Chicago Cubs,3,Wrigley Field,1.0,Shota Imanaga,0.6427,0.222,4.1,,False
-2026-06-21,824664,672386,Alejandro Kirk,Toronto Blue Jays,Chicago Cubs,4,Wrigley Field,1.0,Shota Imanaga,0.6321,0.2212,4.0,,False
+2026-06-21,824664,672960,Kazuma Okamoto,Toronto Blue Jays,Chicago Cubs,3,Wrigley Field,1.0,Shota Imanaga,0.6427,0.222,4.1,1.0,True
+2026-06-21,824664,672386,Alejandro Kirk,Toronto Blue Jays,Chicago Cubs,4,Wrigley Field,1.0,Shota Imanaga,0.6321,0.2212,4.0,1.0,True
 2026-06-21,824664,662139,Daulton Varsho,Toronto Blue Jays,Chicago Cubs,5,Wrigley Field,1.0,Shota Imanaga,0.6244,0.2221,3.9,,False
-2026-06-21,824664,676391,Ernie Clement,Toronto Blue Jays,Chicago Cubs,6,Wrigley Field,1.0,Shota Imanaga,0.6576,0.2458,3.8,,False
-2026-06-21,824664,676914,Davis Schneider,Toronto Blue Jays,Chicago Cubs,7,Wrigley Field,1.0,Shota Imanaga,0.5844,0.2113,3.7,,False
-2026-06-21,824664,660821,Jesús Sánchez,Toronto Blue Jays,Chicago Cubs,8,Wrigley Field,1.0,Shota Imanaga,0.623,0.2374,3.6,,False
-2026-06-21,824664,664702,Myles Straw,Toronto Blue Jays,Chicago Cubs,9,Wrigley Field,1.0,Shota Imanaga,0.584,0.2217,3.5,,False
+2026-06-21,824664,676391,Ernie Clement,Toronto Blue Jays,Chicago Cubs,6,Wrigley Field,1.0,Shota Imanaga,0.6576,0.2458,3.8,1.0,True
+2026-06-21,824664,676914,Davis Schneider,Toronto Blue Jays,Chicago Cubs,7,Wrigley Field,1.0,Shota Imanaga,0.5844,0.2113,3.7,0.0,True
+2026-06-21,824664,660821,Jesús Sánchez,Toronto Blue Jays,Chicago Cubs,8,Wrigley Field,1.0,Shota Imanaga,0.623,0.2374,3.6,0.0,True
+2026-06-21,824664,664702,Myles Straw,Toronto Blue Jays,Chicago Cubs,9,Wrigley Field,1.0,Shota Imanaga,0.584,0.2217,3.5,0.0,True
 2026-06-21,823531,700250,Ben Rice,New York Yankees,Cincinnati Reds,1,Yankee Stadium,1.04,Chase Burns,0.7014,0.245,4.3,1.0,True
 2026-06-21,823531,691176,Jasson Domínguez,New York Yankees,Cincinnati Reds,2,Yankee Stadium,1.04,Chase Burns,0.6503,0.2213,4.2,1.0,True
 2026-06-21,823531,641355,Cody Bellinger,New York Yankees,Cincinnati Reds,3,Yankee Stadium,1.04,Chase Burns,0.6734,0.2389,4.1,1.0,True
