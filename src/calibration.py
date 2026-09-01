@@ -27,13 +27,28 @@ def brier_score(graded_df, prob_col="p_hit", outcome_col="actual_hit"):
     return float(((df[prob_col] - df[outcome_col]) ** 2).mean())
 
 
-def calibration_table(graded_df, n_bins=5, prob_col="p_hit", outcome_col="actual_hit"):
-    """Buckets predicted probability into bins and compares average prediction to actual frequency."""
+def calibration_table(graded_df, n_bins=5, prob_col="p_hit", outcome_col="actual_hit",
+                      edges=None):
+    """
+    Buckets predicted probability into bins and compares average prediction
+    to actual frequency.
+
+    edges: optional explicit bin boundaries. Evenly spaced 0-1 bins are
+    fine for hits (which spread across 0.4-0.8) but collapse HR -- where
+    every prediction sits below ~0.25 -- into one or two rows. That hides
+    real structure: a band predicting .0908 and delivering .0686 gets
+    averaged together with one predicting .1338 and delivering .1336, and
+    the row reads as well-calibrated when half of it is not.
+    """
     df = graded_df.dropna(subset=[outcome_col])
     if df.empty:
         return pd.DataFrame(columns=["PredRange", "N", "AvgPredicted", "ActualFrequency"])
 
-    bins = np.linspace(0, 1, n_bins + 1)
+    if edges is not None:
+        bins = np.asarray(edges, dtype=float)
+        n_bins = len(bins) - 1
+    else:
+        bins = np.linspace(0, 1, n_bins + 1)
     bin_idx = np.clip(np.digitize(df[prob_col].to_numpy(), bins) - 1, 0, n_bins - 1)
 
     rows = []
@@ -42,7 +57,10 @@ def calibration_table(graded_df, n_bins=5, prob_col="p_hit", outcome_col="actual
         if mask.sum() == 0:
             continue
         rows.append({
-            "PredRange": f"{bins[b]:.1f}-{bins[b + 1]:.1f}",
+            # 2dp when explicit edges are passed -- .08 and .10 both
+            # render as "0.1" at one decimal, which merges distinct bands.
+            "PredRange": (f"{bins[b]:.2f}-{bins[b + 1]:.2f}" if edges is not None
+                          else f"{bins[b]:.1f}-{bins[b + 1]:.1f}"),
             "N": int(mask.sum()),
             "AvgPredicted": df[prob_col].to_numpy()[mask].mean(),
             "ActualFrequency": df[outcome_col].to_numpy()[mask].mean(),

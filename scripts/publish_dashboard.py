@@ -321,7 +321,10 @@ def summarize_hr(ledger_path):
     )
 
     score    = brier_score(graded, prob_col="p_hr", outcome_col="actual_hr") if not graded.empty else None
-    cal      = calibration_table(graded, prob_col="p_hr", outcome_col="actual_hr") if not graded.empty else None
+    # Explicit edges: evenly spaced 0-1 bins collapse HR into two rows and
+    # hide that .08-.10 overpredicts by ~25% while .12-.15 is near exact.
+    cal      = calibration_table(graded, prob_col="p_hr", outcome_col="actual_hr",
+                                 edges=[0, .08, .10, .12, .15, .20, 1.0]) if not graded.empty else None
     cal_rows = cal.to_dict(orient="records") if cal is not None else []
     trend    = rolling_brier_by_date(graded, "date", "p_hr", "actual_hr") if not graded.empty else []
 
