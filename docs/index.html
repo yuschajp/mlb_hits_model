@@ -1090,7 +1090,7 @@
       }
       if (hrb != null) {
         document.getElementById('hr-baseline').innerHTML =
-          `vs naive <span class="naive">${naive}</span>`;
+          `vs naive <span class="naive">${d.hr?.naive_brier ?? naive}</span>`;
       }
 
       document.getElementById('stat-graded').textContent =
