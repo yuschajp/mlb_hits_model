@@ -31,6 +31,7 @@ sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from src import odds_client as odds
 from src.ledger import hr_columns, load_ledger
+from src.pick_ledger import append_picks
 from src.name_matching import build_name_index, match_name
 
 HR_LEDGER_PATH  = Path(__file__).resolve().parents[1] / "data" / "ledger" / "hr_predictions_log.csv"
@@ -51,6 +52,7 @@ def save_value_picks(value_rows, today):
 
 def main():
     today = date.today()
+    all_rows = []
     ledger = load_ledger(HR_LEDGER_PATH, columns=hr_columns())
     today_predictions = ledger[ledger["date"].dt.date == today]
 
@@ -84,10 +86,6 @@ def main():
 
             pred = pred_by_name[matched_name]
             implied_prob = odds.american_to_implied_prob(info["price"])
-            # Ledger audit (n=1,755): the 0.08-0.10 band predicts .0908
-            # and delivers .0678 -- 25% overprediction. Skip it.
-            if pred["p_hr"] < 0.10:
-                continue
             edge = pred["p_hr"] - implied_prob
 
             row = {
@@ -96,14 +94,25 @@ def main():
                 "model_p_hr": round(pred["p_hr"], 4),
                 "implied_prob": round(implied_prob, 4),
                 "edge": round(edge, 4),
+                "rel_edge": round(edge / implied_prob, 4) if implied_prob > 0 else None,
                 "best_price": info["price"],
                 "bookmaker": info["bookmaker"],
             }
 
-            if edge >= SUSPICIOUS_EDGE:
+            # The 0.08-0.10 skip was justified by a +25% overprediction that
+            # prior_ab=400 was largely causing. prior_ab is now 120, so this
+            # rule is under review -- the row is logged either way.
+            if pred["p_hr"] < 0.10:
+                row["decision"] = "below_min_prob"
+            elif edge >= SUSPICIOUS_EDGE:
+                row["decision"] = "suspicious"
                 suspicious_rows.append(row)
             elif edge >= EDGE_THRESHOLD:
+                row["decision"] = "value"
                 value_rows.append(row)
+            else:
+                row["decision"] = "no_edge"
+            all_rows.append(row)
 
     total = matched_count + unmatched_count
     print(f"Matched {matched_count}/{total} odds-feed batters to a logged HR prediction "
@@ -122,6 +131,7 @@ def main():
 
     if not value_rows:
         print("\nNo clean HR value found above the edge threshold today.")
+        append_picks(all_rows, today)
         save_value_picks(value_rows, today)
         return
 
@@ -131,6 +141,7 @@ def main():
               f"market={r['implied_prob']:.1%}  edge=+{r['edge']:.1%}  "
               f"({r['best_price']:+d} @ {r['bookmaker']})")
 
+    append_picks(all_rows, today)
     save_value_picks(value_rows, today)
 
 

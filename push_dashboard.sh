@@ -6,7 +6,7 @@ echo "Exporting dashboard data..."
 /Users/victoria/Documents/anaconda3/bin/python3 scripts/publish_dashboard.py
 
 echo "Committing and pushing to GitHub..."
-git add docs/dashboard_data.json
+git add docs/dashboard_data.json data/ledger/*.csv data/value_picks*.json
 git commit -m "dashboard: auto-update $(date +%Y-%m-%d)" || echo "Nothing new to commit."
 
 # Pull any remote changes (e.g. from the 11am cron job, or a manual push
