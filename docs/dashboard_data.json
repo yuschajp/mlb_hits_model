@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 217,
+    "today_count": 253,
     "total_graded": 12122,
     "since_date": "2026-06-21",
     "brier_score": 0.101,
@@ -398,28 +398,20 @@
         "p_hr": 0.2374
       },
       {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Bailey Ober",
+        "venue": "Rate Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2264
+      },
+      {
         "player_name": "Sal Stewart",
         "team": "Cincinnati Reds",
         "opponent_pitcher": "Kyle Harrison",
         "venue": "Great American Ball Park",
         "lineup_spot": 3,
         "p_hr": 0.2145
-      },
-      {
-        "player_name": "Jordan Walker",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Coors Field",
-        "lineup_spot": 4,
-        "p_hr": 0.2134
-      },
-      {
-        "player_name": "Joshua B\u00e1ez",
-        "team": "St. Louis Cardinals",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Coors Field",
-        "lineup_spot": 6,
-        "p_hr": 0.2124
       },
       {
         "player_name": "Pete Crow-Armstrong",
@@ -460,6 +452,14 @@
         "venue": "Citizens Bank Park",
         "lineup_spot": 4,
         "p_hr": 0.2092
+      },
+      {
+        "player_name": "Eugenio Su\u00e1rez",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Kyle Harrison",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 5,
+        "p_hr": 0.2085
       }
     ],
     "calibration": [
@@ -1227,12 +1227,12 @@
     ]
   },
   "k": {
-    "today_count": 25,
+    "today_count": 28,
     "total_graded": 952,
     "since_date": "2026-06-27",
     "brier_score": 0.153,
     "naive_brier": 0.25,
-    "avg_lambda": 5.16,
+    "avg_lambda": 5.07,
     "over_rate": 0.233,
     "top10_today": [
       {
@@ -1281,29 +1281,9 @@
         "opponent": "Texas Rangers",
         "venue": "Globe Life Field",
         "line": 6.5,
-        "lambda_k": 6.07,
-        "p_over": 0.4054,
-        "p_under": 0.5946
-      },
-      {
-        "pitcher_name": "Michael King",
-        "team": "San Diego Padres",
-        "opponent": "New York Yankees",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 5.63,
-        "p_over": 0.3344,
-        "p_under": 0.6656
-      },
-      {
-        "pitcher_name": "Gerrit Cole",
-        "team": "New York Yankees",
-        "opponent": "San Diego Padres",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 5.62,
-        "p_over": 0.3329,
-        "p_under": 0.6671
+        "lambda_k": 5.89,
+        "p_over": 0.3758,
+        "p_under": 0.6242
       },
       {
         "pitcher_name": "Gage Jump",
@@ -1311,9 +1291,9 @@
         "opponent": "Seattle Mariners",
         "venue": "T-Mobile Park",
         "line": 6.5,
-        "lambda_k": 5.59,
-        "p_over": 0.3275,
-        "p_under": 0.6725
+        "lambda_k": 5.74,
+        "p_over": 0.3524,
+        "p_under": 0.6476
       },
       {
         "pitcher_name": "Walbert Ure\u00f1a",
@@ -1326,14 +1306,34 @@
         "p_under": 0.6746
       },
       {
-        "pitcher_name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "opponent": "Atlanta Braves",
-        "venue": "Citizens Bank Park",
+        "pitcher_name": "Bryan Woo",
+        "team": "Seattle Mariners",
+        "opponent": "Athletics",
+        "venue": "T-Mobile Park",
         "line": 6.5,
-        "lambda_k": 5.34,
-        "p_over": 0.2898,
-        "p_under": 0.7102
+        "lambda_k": 5.54,
+        "p_over": 0.3197,
+        "p_under": 0.6803
+      },
+      {
+        "pitcher_name": "Michael King",
+        "team": "San Diego Padres",
+        "opponent": "New York Yankees",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 5.51,
+        "p_over": 0.3156,
+        "p_under": 0.6844
+      },
+      {
+        "pitcher_name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "opponent": "San Diego Padres",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 5.41,
+        "p_over": 0.2998,
+        "p_under": 0.7002
       }
     ],
     "calibration": [
