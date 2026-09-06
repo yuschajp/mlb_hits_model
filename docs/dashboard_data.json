@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01",
+  "generated_at": "2026-09-06",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -373,50 +373,131 @@
     ]
   },
   "hr": {
-    "today_count": 0,
-    "total_graded": 11100,
+    "today_count": 217,
+    "total_graded": 12122,
     "since_date": "2026-06-21",
-    "brier_score": 0.1007,
+    "brier_score": 0.101,
     "naive_brier": 0.1034,
-    "avg_predicted": 0.1241,
-    "actual_hr_rate": 0.1157,
-    "top10_today": [],
+    "avg_predicted": 0.1242,
+    "actual_hr_rate": 0.116,
+    "top10_today": [
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2584
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2374
+      },
+      {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Kyle Harrison",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2145
+      },
+      {
+        "player_name": "Jordan Walker",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2134
+      },
+      {
+        "player_name": "Joshua B\u00e1ez",
+        "team": "St. Louis Cardinals",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Coors Field",
+        "lineup_spot": 6,
+        "p_hr": 0.2124
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Tyler Phillips",
+        "venue": "loanDepot park",
+        "lineup_spot": 1,
+        "p_hr": 0.211
+      },
+      {
+        "player_name": "Drake Baldwin",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.21
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2099
+      },
+      {
+        "player_name": "Ronald Acu\u00f1a Jr.",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2093
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 4,
+        "p_hr": 0.2092
+      }
+    ],
     "calibration": [
       {
         "range": "0.00-0.08",
-        "n": 898,
+        "n": 981,
         "predicted": 0.071,
         "actual": 0.058
       },
       {
         "range": "0.08-0.10",
-        "n": 2135,
+        "n": 2323,
         "predicted": 0.091,
-        "actual": 0.068
+        "actual": 0.071
       },
       {
         "range": "0.10-0.12",
-        "n": 2804,
+        "n": 3057,
         "predicted": 0.11,
         "actual": 0.105
       },
       {
         "range": "0.12-0.15",
-        "n": 2915,
+        "n": 3198,
         "predicted": 0.134,
-        "actual": 0.131
+        "actual": 0.13
       },
       {
         "range": "0.15-0.20",
-        "n": 1910,
+        "n": 2083,
         "predicted": 0.169,
-        "actual": 0.161
+        "actual": 0.163
       },
       {
         "range": "0.20-1.00",
-        "n": 438,
+        "n": 480,
         "predicted": 0.226,
-        "actual": 0.235
+        "actual": 0.231
       }
     ],
     "returns": [
@@ -811,6 +892,34 @@
         "n_wins": 13,
         "daily_pnl": 0.5,
         "cumulative_pnl": -503.0
+      },
+      {
+        "date": "2026-09-01",
+        "n_bets": 61,
+        "n_wins": 13,
+        "daily_pnl": -2.5,
+        "cumulative_pnl": -505.5
+      },
+      {
+        "date": "2026-09-02",
+        "n_bets": 33,
+        "n_wins": 2,
+        "daily_pnl": -24.0,
+        "cumulative_pnl": -529.5
+      },
+      {
+        "date": "2026-09-04",
+        "n_bets": 61,
+        "n_wins": 14,
+        "daily_pnl": 2.0,
+        "cumulative_pnl": -527.5
+      },
+      {
+        "date": "2026-09-05",
+        "n_bets": 60,
+        "n_wins": 11,
+        "daily_pnl": -10.5,
+        "cumulative_pnl": -538.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1094,18 +1203,139 @@
         "date": "2026-08-30",
         "brier": 0.0974,
         "n": 1348
+      },
+      {
+        "date": "2026-09-01",
+        "brier": 0.0996,
+        "n": 1420
+      },
+      {
+        "date": "2026-09-02",
+        "brier": 0.0962,
+        "n": 1383
+      },
+      {
+        "date": "2026-09-04",
+        "brier": 0.0983,
+        "n": 1276
+      },
+      {
+        "date": "2026-09-05",
+        "brier": 0.1046,
+        "n": 1274
       }
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 25,
     "total_graded": 952,
     "since_date": "2026-06-27",
     "brier_score": 0.153,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.16,
     "over_rate": 0.233,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "opponent": "Detroit Tigers",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 7.36,
+        "p_over": 0.6027,
+        "p_under": 0.3973
+      },
+      {
+        "pitcher_name": "Payton Tolle",
+        "team": "Boston Red Sox",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 6.68,
+        "p_over": 0.5021,
+        "p_under": 0.4979
+      },
+      {
+        "pitcher_name": "Kyle Harrison",
+        "team": "Milwaukee Brewers",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 6.36,
+        "p_over": 0.4511,
+        "p_under": 0.5489
+      },
+      {
+        "pitcher_name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Los Angeles Angels",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 6.2,
+        "p_over": 0.4256,
+        "p_under": 0.5744
+      },
+      {
+        "pitcher_name": "Ian Seymour",
+        "team": "Tampa Bay Rays",
+        "opponent": "Texas Rangers",
+        "venue": "Globe Life Field",
+        "line": 6.5,
+        "lambda_k": 6.07,
+        "p_over": 0.4054,
+        "p_under": 0.5946
+      },
+      {
+        "pitcher_name": "Michael King",
+        "team": "San Diego Padres",
+        "opponent": "New York Yankees",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 5.63,
+        "p_over": 0.3344,
+        "p_under": 0.6656
+      },
+      {
+        "pitcher_name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "opponent": "San Diego Padres",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 5.62,
+        "p_over": 0.3329,
+        "p_under": 0.6671
+      },
+      {
+        "pitcher_name": "Gage Jump",
+        "team": "Athletics",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 5.59,
+        "p_over": 0.3275,
+        "p_under": 0.6725
+      },
+      {
+        "pitcher_name": "Walbert Ure\u00f1a",
+        "team": "Los Angeles Angels",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 5.57,
+        "p_over": 0.3254,
+        "p_under": 0.6746
+      },
+      {
+        "pitcher_name": "Aaron Nola",
+        "team": "Philadelphia Phillies",
+        "opponent": "Atlanta Braves",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 5.34,
+        "p_over": 0.2898,
+        "p_under": 0.7102
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
