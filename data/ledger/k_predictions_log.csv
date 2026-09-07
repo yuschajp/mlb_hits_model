@@ -981,15 +981,17 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-06,823253,650633,Michael King,San Diego Padres,New York Yankees,Petco Park,0.92,6.5,7.76,7.5,0.247,167.0,42.0,5.77,5.51,0.3156,0.6844,3.0,True
 2026-09-06,824552,641927,Bailey Ober,Minnesota Twins,Chicago White Sox,Rate Field,0.98,6.5,6.274,5.468,0.2386,113.3,26.3,5.4,4.456,0.1634,0.8366,6.0,True
 2026-09-06,824552,663542,Bryan Hudson,Chicago White Sox,Minnesota Twins,Rate Field,1.02,6.5,8.343,7.816,0.2087,59.3,12.7,1.14,3.237,0.0469,0.9531,2.0,True
-2026-09-07,823415,656550,Grant Holmes,Atlanta Braves,Philadelphia Phillies,Citizens Bank Park,1.01,6.5,7.109,5.157,0.2203,131.7,29.7,4.88,3.932,0.1037,0.8963,,False
-2026-09-07,823415,666200,Jesús Luzardo,Philadelphia Phillies,Atlanta Braves,Citizens Bank Park,1.03,6.5,11.086,11.415,0.2178,169.7,41.0,6.06,6.674,0.5007,0.4993,,False
-2026-09-07,823820,804636,Jonah Tong,New York Mets,Miami Marlins,loanDepot park,0.97,6.5,6.3,8.9,0.2173,10.0,0.0,3.33,4.595,0.1813,0.8187,,False
-2026-09-07,823820,691587,Eury Pérez,Miami Marlins,New York Mets,loanDepot park,0.93,6.5,9.643,9.685,0.2257,135.3,30.7,5.41,5.657,0.3387,0.6613,,False
-2026-09-07,824715,680570,Grayson Rodriguez,Los Angeles Angels,Boston Red Sox,Fenway Park,0.99,6.5,8.343,9.624,0.2136,77.7,33.7,4.85,4.736,0.2004,0.7996,,False
-2026-09-07,824715,678394,Brayan Bello,Boston Red Sox,Los Angeles Angels,Fenway Park,1.06,6.5,6.45,5.087,0.2522,97.7,23.0,4.68,4.351,0.1503,0.8497,,False
-2026-09-07,824793,676282,Joey Cantillo,Cleveland Guardians,Baltimore Orioles,Oriole Park at Camden Yards,0.99,6.5,9.593,8.679,0.2452,141.7,28.0,4.89,5.541,0.3205,0.6795,,False
-2026-09-07,824793,669432,Trevor Rogers,Baltimore Orioles,Cleveland Guardians,Oriole Park at Camden Yards,0.97,6.5,8.231,11.163,0.2131,144.3,34.7,5.55,5.3,0.2828,0.7172,,False
+2026-09-07,823415,656550,Grant Holmes,Atlanta Braves,Philadelphia Phillies,Citizens Bank Park,1.01,6.5,7.231,5.881,0.2206,135.7,33.7,4.85,4.015,0.1123,0.8877,,False
+2026-09-07,823415,666200,Jesús Luzardo,Philadelphia Phillies,Atlanta Braves,Citizens Bank Park,1.03,6.5,11.121,11.543,0.2184,174.0,46.0,5.99,6.689,0.503,0.497,,False
+2026-09-07,823820,804636,Jonah Tong,New York Mets,Miami Marlins,loanDepot park,0.97,6.5,8.736,22.5,0.2177,11.3,2.0,2.92,4.758,0.2033,0.7967,,False
+2026-09-07,823820,691587,Eury Pérez,Miami Marlins,New York Mets,loanDepot park,0.93,6.5,9.765,10.194,0.2259,137.3,32.7,5.28,5.672,0.3412,0.6588,,False
+2026-09-07,824715,680570,Grayson Rodriguez,Los Angeles Angels,Boston Red Sox,Fenway Park,0.99,6.5,8.352,9.606,0.2136,78.7,34.7,4.63,4.595,0.1813,0.8187,,False
+2026-09-07,824715,678394,Brayan Bello,Boston Red Sox,Los Angeles Angels,Fenway Park,1.06,6.5,6.568,5.918,0.2525,98.7,24.3,4.51,4.366,0.1521,0.8479,,False
+2026-09-07,824793,676282,Joey Cantillo,Cleveland Guardians,Baltimore Orioles,Oriole Park at Camden Yards,0.99,6.5,9.589,8.69,0.2452,142.7,29.0,4.76,5.431,0.3031,0.6969,,False
+2026-09-07,824793,669432,Trevor Rogers,Baltimore Orioles,Cleveland Guardians,Oriole Park at Camden Yards,0.97,6.5,8.174,10.85,0.2129,145.3,35.7,5.38,5.121,0.2557,0.7443,,False
 2026-09-07,824062,571882,Derek Law,Arizona Diamondbacks,Kansas City Royals,Kauffman Stadium,1.02,6.5,5.785,5.785,0.2073,4.7,4.7,5.5,4.746,0.2017,0.7983,,False
 2026-09-07,824062,702070,Noah Cameron,Kansas City Royals,Arizona Diamondbacks,Kauffman Stadium,0.94,6.5,8.048,7.215,0.1941,154.3,38.7,5.72,4.338,0.1487,0.8513,,False
 2026-09-07,823742,571510,Matthew Boyd,Chicago Cubs,Milwaukee Brewers,American Family Field,1.0,6.5,6.948,4.706,0.2153,102.3,36.3,5.69,4.164,0.1284,0.8716,,False
+2026-09-07,823742,688107,Robert Gasser,Milwaukee Brewers,Chicago Cubs,American Family Field,1.02,6.5,8.515,8.877,0.2138,86.7,24.3,5.1,4.804,0.2097,0.7903,,False
 2026-09-07,824229,657746,Joe Ryan,Minnesota Twins,Detroit Tigers,Comerica Park,0.98,6.5,9.883,5.063,0.2294,125.7,5.3,5.46,5.532,0.319,0.681,,False
+2026-09-07,824229,675512,Troy Melton,Detroit Tigers,Minnesota Twins,Comerica Park,0.95,6.5,7.388,6.113,0.2103,102.3,35.3,6.02,4.546,0.1749,0.8251,,False
