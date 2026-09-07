@@ -1239,12 +1239,12 @@
     ]
   },
   "k": {
-    "today_count": 11,
+    "today_count": 12,
     "total_graded": 980,
     "since_date": "2026-06-27",
     "brier_score": 0.1526,
     "naive_brier": 0.25,
-    "avg_lambda": 5.04,
+    "avg_lambda": 4.96,
     "over_rate": 0.233,
     "top10_today": [
       {
