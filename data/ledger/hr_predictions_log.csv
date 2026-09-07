@@ -12519,21 +12519,57 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-07,824229,663616,Trevor Larnach,Minnesota Twins,Detroit Tigers,7,Comerica Park,0.88,Troy Melton,0.1064,0.0304,3.7,,False
 2026-09-07,824229,701785,Kaelen Culpepper,Minnesota Twins,Detroit Tigers,8,Comerica Park,0.88,Troy Melton,0.1018,0.0298,3.6,,False
 2026-09-07,824229,805805,Walker Jenkins,Minnesota Twins,Detroit Tigers,9,Comerica Park,0.88,Troy Melton,0.1034,0.0312,3.5,,False
-2026-09-07,823254,665487,Fernando Tatis Jr.,San Diego Padres,Washington Nationals,1,Petco Park,0.85,Jake Irvin,0.1798,0.0461,4.3,,False
-2026-09-07,823254,630105,Jake Cronenworth,San Diego Padres,Washington Nationals,2,Petco Park,0.85,Jake Irvin,0.1154,0.0292,4.2,,False
-2026-09-07,823254,592518,Manny Machado,San Diego Padres,Washington Nationals,3,Petco Park,0.85,Jake Irvin,0.1681,0.0449,4.1,,False
-2026-09-07,823254,664034,Ty France,San Diego Padres,Washington Nationals,4,Petco Park,0.85,Jake Irvin,0.1688,0.0462,4.0,,False
-2026-09-07,823254,701538,Jackson Merrill,San Diego Padres,Washington Nationals,5,Petco Park,0.85,Jake Irvin,0.1606,0.0449,3.9,,False
-2026-09-07,823254,669134,Luis Campusano,San Diego Padres,Washington Nationals,6,Petco Park,0.85,Jake Irvin,0.1442,0.041,3.8,,False
-2026-09-07,823254,687957,Dustin Harris,San Diego Padres,Washington Nationals,7,Petco Park,0.85,Jake Irvin,0.1109,0.0318,3.7,,False
-2026-09-07,823254,593428,Xander Bogaerts,San Diego Padres,Washington Nationals,8,Petco Park,0.85,Jake Irvin,0.1106,0.0326,3.6,,False
-2026-09-07,823254,806956,Ethan Salas,San Diego Padres,Washington Nationals,9,Petco Park,0.85,Jake Irvin,0.1158,0.0352,3.5,,False
-2026-09-07,823254,695578,James Wood,Washington Nationals,San Diego Padres,1,Petco Park,0.85,Nick Pivetta,0.1362,0.034,4.3,,False
-2026-09-07,823254,694673,Abimelec Ortiz,Washington Nationals,San Diego Padres,2,Petco Park,0.85,Nick Pivetta,0.1111,0.028,4.2,,False
-2026-09-07,823254,686611,Dylan Crews,Washington Nationals,San Diego Padres,3,Petco Park,0.85,Nick Pivetta,0.0841,0.0214,4.1,,False
-2026-09-07,823254,682928,CJ Abrams,Washington Nationals,San Diego Padres,4,Petco Park,0.85,Nick Pivetta,0.1208,0.0322,4.0,,False
-2026-09-07,823254,691781,Brady House,Washington Nationals,San Diego Padres,5,Petco Park,0.85,Nick Pivetta,0.0922,0.0248,3.9,,False
-2026-09-07,823254,695734,Daylen Lile,Washington Nationals,San Diego Padres,6,Petco Park,0.85,Nick Pivetta,0.1031,0.0286,3.8,,False
-2026-09-07,823254,660688,Keibert Ruiz,Washington Nationals,San Diego Padres,7,Petco Park,0.85,Nick Pivetta,0.0864,0.0244,3.7,,False
-2026-09-07,823254,678391,Jorbit Vivas,Washington Nationals,San Diego Padres,8,Petco Park,0.85,Nick Pivetta,0.0624,0.0179,3.6,,False
-2026-09-07,823254,696285,Jacob Young,Washington Nationals,San Diego Padres,9,Petco Park,0.85,Nick Pivetta,0.0738,0.0219,3.5,,False
+2026-09-07,823254,665487,Fernando Tatis Jr.,San Diego Padres,Washington Nationals,1,Petco Park,0.85,Jake Irvin,0.1724,0.044,4.3,,False
+2026-09-07,823254,630105,Jake Cronenworth,San Diego Padres,Washington Nationals,2,Petco Park,0.85,Jake Irvin,0.1106,0.0279,4.2,,False
+2026-09-07,823254,592518,Manny Machado,San Diego Padres,Washington Nationals,3,Petco Park,0.85,Jake Irvin,0.1616,0.043,4.1,,False
+2026-09-07,823254,664034,Ty France,San Diego Padres,Washington Nationals,4,Petco Park,0.85,Jake Irvin,0.1626,0.0444,4.0,,False
+2026-09-07,823254,701538,Jackson Merrill,San Diego Padres,Washington Nationals,5,Petco Park,0.85,Jake Irvin,0.1544,0.043,3.9,,False
+2026-09-07,823254,669134,Luis Campusano,San Diego Padres,Washington Nationals,6,Petco Park,0.85,Jake Irvin,0.1383,0.0392,3.8,,False
+2026-09-07,823254,687957,Dustin Harris,San Diego Padres,Washington Nationals,7,Petco Park,0.85,Jake Irvin,0.1062,0.0304,3.7,,False
+2026-09-07,823254,593428,Xander Bogaerts,San Diego Padres,Washington Nationals,8,Petco Park,0.85,Jake Irvin,0.1064,0.0313,3.6,,False
+2026-09-07,823254,806956,Ethan Salas,San Diego Padres,Washington Nationals,9,Petco Park,0.85,Jake Irvin,0.1112,0.0337,3.5,,False
+2026-09-07,823254,695578,James Wood,Washington Nationals,San Diego Padres,1,Petco Park,0.85,Nick Pivetta,0.1298,0.0323,4.3,,False
+2026-09-07,823254,694673,Abimelec Ortiz,Washington Nationals,San Diego Padres,2,Petco Park,0.85,Nick Pivetta,0.1056,0.0266,4.2,,False
+2026-09-07,823254,686611,Dylan Crews,Washington Nationals,San Diego Padres,3,Petco Park,0.85,Nick Pivetta,0.0852,0.0217,4.1,,False
+2026-09-07,823254,682928,CJ Abrams,Washington Nationals,San Diego Padres,4,Petco Park,0.85,Nick Pivetta,0.1153,0.0306,4.0,,False
+2026-09-07,823254,691781,Brady House,Washington Nationals,San Diego Padres,5,Petco Park,0.85,Nick Pivetta,0.0877,0.0235,3.9,,False
+2026-09-07,823254,695734,Daylen Lile,Washington Nationals,San Diego Padres,6,Petco Park,0.85,Nick Pivetta,0.0982,0.0272,3.8,,False
+2026-09-07,823254,660688,Keibert Ruiz,Washington Nationals,San Diego Padres,7,Petco Park,0.85,Nick Pivetta,0.0822,0.0232,3.7,,False
+2026-09-07,823254,678391,Jorbit Vivas,Washington Nationals,San Diego Padres,8,Petco Park,0.85,Nick Pivetta,0.0594,0.017,3.6,,False
+2026-09-07,823254,696285,Jacob Young,Washington Nationals,San Diego Padres,9,Petco Park,0.85,Nick Pivetta,0.0703,0.0208,3.5,,False
+2026-09-07,823175,806367,Turner Hill,San Francisco Giants,St. Louis Cardinals,1,Oracle Park,0.78,Michael McGreevy,0.1037,0.0255,4.3,,False
+2026-09-07,823175,646240,Rafael Devers,San Francisco Giants,St. Louis Cardinals,2,Oracle Park,0.78,Michael McGreevy,0.1982,0.0526,4.2,,False
+2026-09-07,823175,805811,Bryce Eldridge,San Francisco Giants,St. Louis Cardinals,3,Oracle Park,0.78,Michael McGreevy,0.1325,0.0347,4.1,,False
+2026-09-07,823175,813841,Jonah Cox,San Francisco Giants,St. Louis Cardinals,4,Oracle Park,0.78,Michael McGreevy,0.1243,0.0332,4.0,,False
+2026-09-07,823175,808982,Jung Hoo Lee,San Francisco Giants,St. Louis Cardinals,5,Oracle Park,0.78,Michael McGreevy,0.0863,0.0231,3.9,,False
+2026-09-07,823175,678545,Osleivis Basabe,San Francisco Giants,St. Louis Cardinals,6,Oracle Park,0.78,Michael McGreevy,0.1146,0.032,3.8,,False
+2026-09-07,823175,668800,Andrew Knizner,San Francisco Giants,St. Louis Cardinals,7,Oracle Park,0.78,Michael McGreevy,0.1045,0.0298,3.7,,False
+2026-09-07,823175,694376,Shay Whitcomb,San Francisco Giants,St. Louis Cardinals,8,Oracle Park,0.78,Michael McGreevy,0.106,0.0311,3.6,,False
+2026-09-07,823175,683766,Christian Koss,San Francisco Giants,St. Louis Cardinals,9,Oracle Park,0.78,Michael McGreevy,0.0912,0.0273,3.5,,False
+2026-09-07,823175,663494,Bryan Torres,St. Louis Cardinals,San Francisco Giants,1,Oracle Park,0.78,Logan Webb,0.0809,0.0196,4.3,,False
+2026-09-07,823175,671056,Iván Herrera,St. Louis Cardinals,San Francisco Giants,2,Oracle Park,0.78,Logan Webb,0.0799,0.0198,4.2,,False
+2026-09-07,823175,676475,Alec Burleson,St. Louis Cardinals,San Francisco Giants,3,Oracle Park,0.78,Logan Webb,0.0899,0.023,4.1,,False
+2026-09-07,823175,691023,Jordan Walker,St. Louis Cardinals,San Francisco Giants,4,Oracle Park,0.78,Logan Webb,0.104,0.0275,4.0,,False
+2026-09-07,823175,699024,Leo Bernal,St. Louis Cardinals,San Francisco Giants,5,Oracle Park,0.78,Logan Webb,0.0808,0.0216,3.9,,False
+2026-09-07,823175,669357,Nolan Gorman,St. Louis Cardinals,San Francisco Giants,6,Oracle Park,0.78,Logan Webb,0.084,0.0231,3.8,,False
+2026-09-07,823175,695491,Joshua Báez,St. Louis Cardinals,San Francisco Giants,7,Oracle Park,0.78,Logan Webb,0.1003,0.0286,3.7,,False
+2026-09-07,823175,695336,Thomas Saggese,St. Louis Cardinals,San Francisco Giants,8,Oracle Park,0.78,Logan Webb,0.0814,0.0236,3.6,,False
+2026-09-07,823175,701675,Nathan Church,St. Louis Cardinals,San Francisco Giants,9,Oracle Park,0.78,Logan Webb,0.0626,0.0185,3.5,,False
+2026-09-07,823902,660271,Shohei Ohtani,Los Angeles Dodgers,Cincinnati Reds,1,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.1591,0.0403,4.3,,False
+2026-09-07,823902,518692,Freddie Freeman,Los Angeles Dodgers,Cincinnati Reds,2,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.1078,0.0272,4.2,,False
+2026-09-07,823902,669242,Tommy Edman,Los Angeles Dodgers,Cincinnati Reds,3,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.107,0.0276,4.1,,False
+2026-09-07,823902,571970,Max Muncy,Los Angeles Dodgers,Cincinnati Reds,4,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.1529,0.0415,4.0,,False
+2026-09-07,823902,606192,Teoscar Hernández,Los Angeles Dodgers,Cincinnati Reds,5,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.0995,0.0269,3.9,,False
+2026-09-07,823902,663656,Kyle Tucker,Los Angeles Dodgers,Cincinnati Reds,6,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.0968,0.0268,3.8,,False
+2026-09-07,823902,676439,Hunter Feduccia,Los Angeles Dodgers,Cincinnati Reds,7,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.0932,0.0264,3.7,,False
+2026-09-07,823902,669743,Alex Call,Los Angeles Dodgers,Cincinnati Reds,8,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.0826,0.0239,3.6,,False
+2026-09-07,823902,690976,Alex Freeland,Los Angeles Dodgers,Cincinnati Reds,9,UNIQLO Field at Dodger Stadium,1.02,Chase Burns,0.0847,0.0253,3.5,,False
+2026-09-07,823902,699302,Héctor Rodríguez,Cincinnati Reds,Los Angeles Dodgers,1,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.2072,0.054,4.3,,False
+2026-09-07,823902,682829,Elly De La Cruz,Cincinnati Reds,Los Angeles Dodgers,2,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1919,0.0507,4.2,,False
+2026-09-07,823902,701398,Sal Stewart,Cincinnati Reds,Los Angeles Dodgers,3,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.2249,0.0621,4.1,,False
+2026-09-07,823902,668709,JJ Bleday,Cincinnati Reds,Los Angeles Dodgers,4,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1942,0.054,4.0,,False
+2026-09-07,823902,663886,Tyler Stephenson,Cincinnati Reds,Los Angeles Dodgers,5,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1893,0.0538,3.9,,False
+2026-09-07,823902,553993,Eugenio Suárez,Cincinnati Reds,Los Angeles Dodgers,6,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.2089,0.0617,3.8,,False
+2026-09-07,823902,680574,Matt McLain,Cincinnati Reds,Los Angeles Dodgers,7,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1689,0.05,3.7,,False
+2026-09-07,823902,699115,Carlos Jorge,Cincinnati Reds,Los Angeles Dodgers,8,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1461,0.0439,3.6,,False
+2026-09-07,823902,663647,Ke'Bryan Hayes,Cincinnati Reds,Los Angeles Dodgers,9,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1379,0.0424,3.5,,False
