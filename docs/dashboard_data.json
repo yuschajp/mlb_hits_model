@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 126,
+    "today_count": 144,
     "total_graded": 12374,
     "since_date": "2026-06-21",
     "brier_score": 0.1008,
@@ -381,6 +381,14 @@
     "avg_predicted": 0.1242,
     "actual_hr_rate": 0.1158,
     "top10_today": [
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hr": 0.25
+      },
       {
         "player_name": "Kyle Schwarber",
         "team": "Philadelphia Phillies",
@@ -390,20 +398,12 @@
         "p_hr": 0.2499
       },
       {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "American Family Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2475
-      },
-      {
         "player_name": "Alex Bregman",
         "team": "Chicago Cubs",
         "opponent_pitcher": "Robert Gasser",
         "venue": "American Family Field",
         "lineup_spot": 3,
-        "p_hr": 0.1967
+        "p_hr": 0.1986
       },
       {
         "player_name": "Mickey Gasper",
@@ -411,7 +411,15 @@
         "opponent_pitcher": "Grayson Rodriguez",
         "venue": "Fenway Park",
         "lineup_spot": 2,
-        "p_hr": 0.1865
+        "p_hr": 0.1963
+      },
+      {
+        "player_name": "Seiya Suzuki",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "American Family Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1816
       },
       {
         "player_name": "Bryce Harper",
@@ -422,20 +430,12 @@
         "p_hr": 0.1802
       },
       {
-        "player_name": "Seiya Suzuki",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "American Family Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1794
-      },
-      {
-        "player_name": "Jackson Chourio",
-        "team": "Milwaukee Brewers",
-        "opponent_pitcher": "Matthew Boyd",
-        "venue": "American Family Field",
+        "player_name": "Fernando Tatis Jr.",
+        "team": "San Diego Padres",
+        "opponent_pitcher": "Jake Irvin",
+        "venue": "Petco Park",
         "lineup_spot": 1,
-        "p_hr": 0.1767
+        "p_hr": 0.1798
       },
       {
         "player_name": "Heriberto Hern\u00e1ndez",
@@ -459,7 +459,7 @@
         "opponent_pitcher": "Joey Cantillo",
         "venue": "Oriole Park at Camden Yards",
         "lineup_spot": 2,
-        "p_hr": 0.1673
+        "p_hr": 0.1714
       }
     ],
     "calibration": [
@@ -1239,12 +1239,12 @@
     ]
   },
   "k": {
-    "today_count": 14,
+    "today_count": 17,
     "total_graded": 980,
     "since_date": "2026-06-27",
     "brier_score": 0.1526,
     "naive_brier": 0.25,
-    "avg_lambda": 4.91,
+    "avg_lambda": 4.89,
     "over_rate": 0.233,
     "top10_today": [
       {
@@ -1258,6 +1258,16 @@
         "p_under": 0.497
       },
       {
+        "pitcher_name": "Joe Ryan",
+        "team": "Minnesota Twins",
+        "opponent": "Detroit Tigers",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.8,
+        "p_over": 0.3617,
+        "p_under": 0.6383
+      },
+      {
         "pitcher_name": "Eury P\u00e9rez",
         "team": "Miami Marlins",
         "opponent": "New York Mets",
@@ -1268,24 +1278,14 @@
         "p_under": 0.6588
       },
       {
-        "pitcher_name": "Joe Ryan",
-        "team": "Minnesota Twins",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.53,
-        "p_over": 0.319,
-        "p_under": 0.681
-      },
-      {
         "pitcher_name": "Joey Cantillo",
         "team": "Cleveland Guardians",
         "opponent": "Baltimore Orioles",
         "venue": "Oriole Park at Camden Yards",
         "line": 6.5,
-        "lambda_k": 5.43,
-        "p_over": 0.3031,
-        "p_under": 0.6969
+        "lambda_k": 5.51,
+        "p_over": 0.3154,
+        "p_under": 0.6846
       },
       {
         "pitcher_name": "Trevor Rogers",
@@ -1293,9 +1293,19 @@
         "opponent": "Cleveland Guardians",
         "venue": "Oriole Park at Camden Yards",
         "line": 6.5,
-        "lambda_k": 5.12,
-        "p_over": 0.2557,
-        "p_under": 0.7443
+        "lambda_k": 5.25,
+        "p_over": 0.2746,
+        "p_under": 0.7254
+      },
+      {
+        "pitcher_name": "Nick Pivetta",
+        "team": "San Diego Padres",
+        "opponent": "Washington Nationals",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 5.17,
+        "p_over": 0.2625,
+        "p_under": 0.7375
       },
       {
         "pitcher_name": "Robert Gasser",
@@ -1303,9 +1313,19 @@
         "opponent": "Chicago Cubs",
         "venue": "American Family Field",
         "line": 6.5,
-        "lambda_k": 4.8,
-        "p_over": 0.2097,
-        "p_under": 0.7903
+        "lambda_k": 4.81,
+        "p_over": 0.2101,
+        "p_under": 0.7899
+      },
+      {
+        "pitcher_name": "Jake Irvin",
+        "team": "Washington Nationals",
+        "opponent": "San Diego Padres",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 4.79,
+        "p_over": 0.2085,
+        "p_under": 0.7915
       },
       {
         "pitcher_name": "Jonah Tong",
@@ -1318,16 +1338,6 @@
         "p_under": 0.7967
       },
       {
-        "pitcher_name": "Derek Law",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Kansas City Royals",
-        "venue": "Kauffman Stadium",
-        "line": 6.5,
-        "lambda_k": 4.75,
-        "p_over": 0.2017,
-        "p_under": 0.7983
-      },
-      {
         "pitcher_name": "Grayson Rodriguez",
         "team": "Los Angeles Angels",
         "opponent": "Boston Red Sox",
@@ -1336,16 +1346,6 @@
         "lambda_k": 4.59,
         "p_over": 0.1813,
         "p_under": 0.8187
-      },
-      {
-        "pitcher_name": "Troy Melton",
-        "team": "Detroit Tigers",
-        "opponent": "Minnesota Twins",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 4.55,
-        "p_over": 0.1749,
-        "p_under": 0.8251
       }
     ],
     "calibration": [
