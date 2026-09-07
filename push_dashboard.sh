@@ -3,7 +3,7 @@ set -uo pipefail
 cd ~/Desktop/mlb_hits_model
 
 echo "Exporting dashboard data..."
-/Users/victoria/Documents/anaconda3/bin/python3 scripts/publish_dashboard.py
+/Users/yuschajp/Desktop/mlb_hits_model/venv/bin/python3 scripts/publish_dashboard.py
 
 echo "Committing and pushing to GitHub..."
 git add docs/dashboard_data.json data/ledger/*.csv data/value_picks*.json

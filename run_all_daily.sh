@@ -2,7 +2,7 @@
 
 cd ~/Desktop/mlb_hits_model || { echo "Could not cd into mlb_hits_model -- aborting."; exit 1; }
 
-PYTHON=/Users/victoria/Documents/anaconda3/bin/python3
+PYTHON=/Users/yuschajp/Desktop/mlb_hits_model/venv/bin/python3
 LOG_DIR="logs"
 mkdir -p "$LOG_DIR"
 
