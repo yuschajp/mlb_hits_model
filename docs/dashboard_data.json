@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 90,
+    "today_count": 126,
     "total_graded": 12374,
     "since_date": "2026-06-21",
     "brier_score": 0.1008,
@@ -387,7 +387,23 @@
         "opponent_pitcher": "Grant Holmes",
         "venue": "Citizens Bank Park",
         "lineup_spot": 1,
-        "p_hr": 0.2542
+        "p_hr": 0.2499
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2475
+      },
+      {
+        "player_name": "Alex Bregman",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "American Family Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1967
       },
       {
         "player_name": "Mickey Gasper",
@@ -395,7 +411,7 @@
         "opponent_pitcher": "Grayson Rodriguez",
         "venue": "Fenway Park",
         "lineup_spot": 2,
-        "p_hr": 0.1876
+        "p_hr": 0.1865
       },
       {
         "player_name": "Bryce Harper",
@@ -403,23 +419,23 @@
         "opponent_pitcher": "Grant Holmes",
         "venue": "Citizens Bank Park",
         "lineup_spot": 3,
-        "p_hr": 0.1831
+        "p_hr": 0.1802
       },
       {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Eury P\u00e9rez",
-        "venue": "loanDepot park",
+        "player_name": "Seiya Suzuki",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Robert Gasser",
+        "venue": "American Family Field",
         "lineup_spot": 2,
-        "p_hr": 0.1769
+        "p_hr": 0.1794
       },
       {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 2,
-        "p_hr": 0.1679
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Matthew Boyd",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1767
       },
       {
         "player_name": "Heriberto Hern\u00e1ndez",
@@ -427,39 +443,23 @@
         "opponent_pitcher": "Jonah Tong",
         "venue": "loanDepot park",
         "lineup_spot": 2,
-        "p_hr": 0.1659
+        "p_hr": 0.1765
       },
       {
-        "player_name": "Francisco Lindor",
+        "player_name": "Juan Soto",
         "team": "New York Mets",
         "opponent_pitcher": "Eury P\u00e9rez",
         "venue": "loanDepot park",
-        "lineup_spot": 1,
-        "p_hr": 0.1552
+        "lineup_spot": 2,
+        "p_hr": 0.1745
       },
       {
-        "player_name": "Griffin Conine",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Jonah Tong",
-        "venue": "loanDepot park",
-        "lineup_spot": 3,
-        "p_hr": 0.154
-      },
-      {
-        "player_name": "Carter Jensen",
-        "team": "Kansas City Royals",
-        "opponent_pitcher": "Derek Law",
-        "venue": "Kauffman Stadium",
-        "lineup_spot": 1,
-        "p_hr": 0.1499
-      },
-      {
-        "player_name": "Kyle Stowers",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Jonah Tong",
-        "venue": "loanDepot park",
-        "lineup_spot": 1,
-        "p_hr": 0.1463
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Joey Cantillo",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 2,
+        "p_hr": 0.1673
       }
     ],
     "calibration": [
@@ -1239,12 +1239,12 @@
     ]
   },
   "k": {
-    "today_count": 12,
+    "today_count": 14,
     "total_graded": 980,
     "since_date": "2026-06-27",
     "brier_score": 0.1526,
     "naive_brier": 0.25,
-    "avg_lambda": 4.96,
+    "avg_lambda": 4.91,
     "over_rate": 0.233,
     "top10_today": [
       {
@@ -1253,9 +1253,9 @@
         "opponent": "Atlanta Braves",
         "venue": "Citizens Bank Park",
         "line": 6.5,
-        "lambda_k": 6.67,
-        "p_over": 0.5007,
-        "p_under": 0.4993
+        "lambda_k": 6.69,
+        "p_over": 0.503,
+        "p_under": 0.497
       },
       {
         "pitcher_name": "Eury P\u00e9rez",
@@ -1263,19 +1263,9 @@
         "opponent": "New York Mets",
         "venue": "loanDepot park",
         "line": 6.5,
-        "lambda_k": 5.66,
-        "p_over": 0.3387,
-        "p_under": 0.6613
-      },
-      {
-        "pitcher_name": "Joey Cantillo",
-        "team": "Cleveland Guardians",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 5.54,
-        "p_over": 0.3205,
-        "p_under": 0.6795
+        "lambda_k": 5.67,
+        "p_over": 0.3412,
+        "p_under": 0.6588
       },
       {
         "pitcher_name": "Joe Ryan",
@@ -1288,14 +1278,44 @@
         "p_under": 0.681
       },
       {
+        "pitcher_name": "Joey Cantillo",
+        "team": "Cleveland Guardians",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.43,
+        "p_over": 0.3031,
+        "p_under": 0.6969
+      },
+      {
         "pitcher_name": "Trevor Rogers",
         "team": "Baltimore Orioles",
         "opponent": "Cleveland Guardians",
         "venue": "Oriole Park at Camden Yards",
         "line": 6.5,
-        "lambda_k": 5.3,
-        "p_over": 0.2828,
-        "p_under": 0.7172
+        "lambda_k": 5.12,
+        "p_over": 0.2557,
+        "p_under": 0.7443
+      },
+      {
+        "pitcher_name": "Robert Gasser",
+        "team": "Milwaukee Brewers",
+        "opponent": "Chicago Cubs",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 4.8,
+        "p_over": 0.2097,
+        "p_under": 0.7903
+      },
+      {
+        "pitcher_name": "Jonah Tong",
+        "team": "New York Mets",
+        "opponent": "Miami Marlins",
+        "venue": "loanDepot park",
+        "line": 6.5,
+        "lambda_k": 4.76,
+        "p_over": 0.2033,
+        "p_under": 0.7967
       },
       {
         "pitcher_name": "Derek Law",
@@ -1313,39 +1333,19 @@
         "opponent": "Boston Red Sox",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 4.74,
-        "p_over": 0.2004,
-        "p_under": 0.7996
-      },
-      {
-        "pitcher_name": "Jonah Tong",
-        "team": "New York Mets",
-        "opponent": "Miami Marlins",
-        "venue": "loanDepot park",
-        "line": 6.5,
         "lambda_k": 4.59,
         "p_over": 0.1813,
         "p_under": 0.8187
       },
       {
-        "pitcher_name": "Brayan Bello",
-        "team": "Boston Red Sox",
-        "opponent": "Los Angeles Angels",
-        "venue": "Fenway Park",
+        "pitcher_name": "Troy Melton",
+        "team": "Detroit Tigers",
+        "opponent": "Minnesota Twins",
+        "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 4.35,
-        "p_over": 0.1503,
-        "p_under": 0.8497
-      },
-      {
-        "pitcher_name": "Noah Cameron",
-        "team": "Kansas City Royals",
-        "opponent": "Arizona Diamondbacks",
-        "venue": "Kauffman Stadium",
-        "line": 6.5,
-        "lambda_k": 4.34,
-        "p_over": 0.1487,
-        "p_under": 0.8513
+        "lambda_k": 4.55,
+        "p_over": 0.1749,
+        "p_under": 0.8251
       }
     ],
     "calibration": [
