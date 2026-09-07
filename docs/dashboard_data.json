@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 144,
+    "today_count": 180,
     "total_graded": 12374,
     "since_date": "2026-06-21",
     "brier_score": 0.1008,
@@ -398,12 +398,44 @@
         "p_hr": 0.2499
       },
       {
+        "player_name": "Sal Stewart",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Emmet Sheehan",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.2249
+      },
+      {
+        "player_name": "Eugenio Su\u00e1rez",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Emmet Sheehan",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 6,
+        "p_hr": 0.2089
+      },
+      {
+        "player_name": "H\u00e9ctor Rodr\u00edguez",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Emmet Sheehan",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.2072
+      },
+      {
         "player_name": "Alex Bregman",
         "team": "Chicago Cubs",
         "opponent_pitcher": "Robert Gasser",
         "venue": "American Family Field",
         "lineup_spot": 3,
         "p_hr": 0.1986
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Michael McGreevy",
+        "venue": "Oracle Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1982
       },
       {
         "player_name": "Mickey Gasper",
@@ -414,52 +446,20 @@
         "p_hr": 0.1963
       },
       {
-        "player_name": "Seiya Suzuki",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Robert Gasser",
-        "venue": "American Family Field",
+        "player_name": "JJ Bleday",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Emmet Sheehan",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.1942
+      },
+      {
+        "player_name": "Elly De La Cruz",
+        "team": "Cincinnati Reds",
+        "opponent_pitcher": "Emmet Sheehan",
+        "venue": "UNIQLO Field at Dodger Stadium",
         "lineup_spot": 2,
-        "p_hr": 0.1816
-      },
-      {
-        "player_name": "Bryce Harper",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Grant Holmes",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1802
-      },
-      {
-        "player_name": "Fernando Tatis Jr.",
-        "team": "San Diego Padres",
-        "opponent_pitcher": "Jake Irvin",
-        "venue": "Petco Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1798
-      },
-      {
-        "player_name": "Heriberto Hern\u00e1ndez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Jonah Tong",
-        "venue": "loanDepot park",
-        "lineup_spot": 2,
-        "p_hr": 0.1765
-      },
-      {
-        "player_name": "Juan Soto",
-        "team": "New York Mets",
-        "opponent_pitcher": "Eury P\u00e9rez",
-        "venue": "loanDepot park",
-        "lineup_spot": 2,
-        "p_hr": 0.1745
-      },
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Joey Cantillo",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 2,
-        "p_hr": 0.1714
+        "p_hr": 0.1919
       }
     ],
     "calibration": [
@@ -1239,12 +1239,12 @@
     ]
   },
   "k": {
-    "today_count": 17,
+    "today_count": 21,
     "total_graded": 980,
     "since_date": "2026-06-27",
     "brier_score": 0.1526,
     "naive_brier": 0.25,
-    "avg_lambda": 4.89,
+    "avg_lambda": 4.91,
     "over_rate": 0.233,
     "top10_today": [
       {
@@ -1258,6 +1258,16 @@
         "p_under": 0.497
       },
       {
+        "pitcher_name": "Emmet Sheehan",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Cincinnati Reds",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 5.84,
+        "p_over": 0.3683,
+        "p_under": 0.6317
+      },
+      {
         "pitcher_name": "Joe Ryan",
         "team": "Minnesota Twins",
         "opponent": "Detroit Tigers",
@@ -1266,6 +1276,16 @@
         "lambda_k": 5.8,
         "p_over": 0.3617,
         "p_under": 0.6383
+      },
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "opponent": "Los Angeles Dodgers",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 5.75,
+        "p_over": 0.3532,
+        "p_under": 0.6468
       },
       {
         "pitcher_name": "Eury P\u00e9rez",
@@ -1298,16 +1318,6 @@
         "p_under": 0.7254
       },
       {
-        "pitcher_name": "Nick Pivetta",
-        "team": "San Diego Padres",
-        "opponent": "Washington Nationals",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 5.17,
-        "p_over": 0.2625,
-        "p_under": 0.7375
-      },
-      {
         "pitcher_name": "Robert Gasser",
         "team": "Milwaukee Brewers",
         "opponent": "Chicago Cubs",
@@ -1318,14 +1328,14 @@
         "p_under": 0.7899
       },
       {
-        "pitcher_name": "Jake Irvin",
-        "team": "Washington Nationals",
-        "opponent": "San Diego Padres",
+        "pitcher_name": "Nick Pivetta",
+        "team": "San Diego Padres",
+        "opponent": "Washington Nationals",
         "venue": "Petco Park",
         "line": 6.5,
-        "lambda_k": 4.79,
-        "p_over": 0.2085,
-        "p_under": 0.7915
+        "lambda_k": 4.78,
+        "p_over": 0.207,
+        "p_under": 0.793
       },
       {
         "pitcher_name": "Jonah Tong",
@@ -1336,16 +1346,6 @@
         "lambda_k": 4.76,
         "p_over": 0.2033,
         "p_under": 0.7967
-      },
-      {
-        "pitcher_name": "Grayson Rodriguez",
-        "team": "Los Angeles Angels",
-        "opponent": "Boston Red Sox",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 4.59,
-        "p_over": 0.1813,
-        "p_under": 0.8187
       }
     ],
     "calibration": [
