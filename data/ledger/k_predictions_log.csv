@@ -987,11 +987,14 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-07,823820,691587,Eury Pérez,Miami Marlins,New York Mets,loanDepot park,0.93,6.5,9.765,10.194,0.2259,137.3,32.7,5.28,5.672,0.3412,0.6588,,False
 2026-09-07,824715,680570,Grayson Rodriguez,Los Angeles Angels,Boston Red Sox,Fenway Park,0.99,6.5,8.352,9.606,0.2136,78.7,34.7,4.63,4.595,0.1813,0.8187,,False
 2026-09-07,824715,678394,Brayan Bello,Boston Red Sox,Los Angeles Angels,Fenway Park,1.06,6.5,6.568,5.918,0.2525,98.7,24.3,4.51,4.366,0.1521,0.8479,,False
-2026-09-07,824793,676282,Joey Cantillo,Cleveland Guardians,Baltimore Orioles,Oriole Park at Camden Yards,0.99,6.5,9.589,8.69,0.2452,142.7,29.0,4.76,5.431,0.3031,0.6969,,False
-2026-09-07,824793,669432,Trevor Rogers,Baltimore Orioles,Cleveland Guardians,Oriole Park at Camden Yards,0.97,6.5,8.174,10.85,0.2129,145.3,35.7,5.38,5.121,0.2557,0.7443,,False
-2026-09-07,824062,571882,Derek Law,Arizona Diamondbacks,Kansas City Royals,Kauffman Stadium,1.02,6.5,5.785,5.785,0.2073,4.7,4.7,5.5,4.746,0.2017,0.7983,,False
-2026-09-07,824062,702070,Noah Cameron,Kansas City Royals,Arizona Diamondbacks,Kauffman Stadium,0.94,6.5,8.048,7.215,0.1941,154.3,38.7,5.72,4.338,0.1487,0.8513,,False
-2026-09-07,823742,571510,Matthew Boyd,Chicago Cubs,Milwaukee Brewers,American Family Field,1.0,6.5,6.948,4.706,0.2153,102.3,36.3,5.69,4.164,0.1284,0.8716,,False
-2026-09-07,823742,688107,Robert Gasser,Milwaukee Brewers,Chicago Cubs,American Family Field,1.02,6.5,8.515,8.877,0.2138,86.7,24.3,5.1,4.804,0.2097,0.7903,,False
-2026-09-07,824229,657746,Joe Ryan,Minnesota Twins,Detroit Tigers,Comerica Park,0.98,6.5,9.883,5.063,0.2294,125.7,5.3,5.46,5.532,0.319,0.681,,False
-2026-09-07,824229,675512,Troy Melton,Detroit Tigers,Minnesota Twins,Comerica Park,0.95,6.5,7.388,6.113,0.2103,102.3,35.3,6.02,4.546,0.1749,0.8251,,False
+2026-09-07,824793,676282,Joey Cantillo,Cleveland Guardians,Baltimore Orioles,Oriole Park at Camden Yards,0.99,6.5,9.625,8.901,0.2453,144.0,30.3,4.8,5.509,0.3154,0.6846,,False
+2026-09-07,824793,669432,Trevor Rogers,Baltimore Orioles,Cleveland Guardians,Oriole Park at Camden Yards,0.97,6.5,8.189,10.5,0.2129,151.7,42.0,5.62,5.246,0.2746,0.7254,,False
+2026-09-07,824062,571882,Derek Law,Arizona Diamondbacks,Kansas City Royals,Kauffman Stadium,1.02,6.5,4.05,4.05,0.207,6.7,6.7,2.0,4.238,0.137,0.863,,False
+2026-09-07,824062,702070,Noah Cameron,Kansas City Royals,Arizona Diamondbacks,Kauffman Stadium,0.94,6.5,8.139,7.657,0.195,160.3,44.7,5.73,4.44,0.1613,0.8387,,False
+2026-09-07,823742,571510,Matthew Boyd,Chicago Cubs,Milwaukee Brewers,American Family Field,1.0,6.5,7.079,5.4,0.2156,109.3,43.3,5.75,4.301,0.1444,0.8556,,False
+2026-09-07,823742,688107,Robert Gasser,Milwaukee Brewers,Chicago Cubs,American Family Field,1.02,6.5,8.573,9.0,0.2136,91.3,29.0,5.07,4.807,0.2101,0.7899,,False
+2026-09-07,824229,657746,Joe Ryan,Minnesota Twins,Detroit Tigers,Comerica Park,0.98,6.5,10.064,9.643,0.2297,129.7,9.3,5.4,5.801,0.3617,0.6383,,False
+2026-09-07,824229,675512,Troy Melton,Detroit Tigers,Minnesota Twins,Comerica Park,0.95,6.5,7.295,6.025,0.21,107.3,40.3,5.96,4.454,0.1631,0.8369,,False
+2026-09-07,823254,663623,Jake Irvin,Washington Nationals,San Diego Padres,Petco Park,0.99,6.5,9.14,8.69,0.2181,85.7,29.0,4.76,4.795,0.2085,0.7915,,False
+2026-09-07,823254,601713,Nick Pivetta,San Diego Padres,Washington Nationals,Petco Park,0.92,6.5,13.5,8.9,0.2175,16.0,0.0,4.0,5.166,0.2625,0.7375,,False
+2026-09-07,823175,700241,Michael McGreevy,St. Louis Cardinals,San Francisco Giants,Oracle Park,0.97,6.5,6.231,7.468,0.2142,147.3,31.3,5.46,4.217,0.1345,0.8655,,False
