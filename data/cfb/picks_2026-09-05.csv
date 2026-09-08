@@ -1,0 +1,11 @@
+date,away,home,cls,model,market,edge,side,dir,spread_size,neutral,playable,result,actual_margin
+2026-09-05,Tennessee State,Georgia,FCS,-62.6,-48.5,-14.1,Georgia,FAV,48.5,False,True,W,-60
+2026-09-05,Texas State,Texas,FBS,-12.5,-29.5,17.0,Texas State,DOG,29.5,False,True,L,-52
+2026-09-05,Marshall,Penn State,FBS,-18.2,-23.5,5.3,Marshall,DOG,23.5,False,True,L,-45
+2026-09-05,Boise State,Oregon,FBS,-20.1,-24.5,4.4,Boise State,DOG,24.5,False,True,W,-7
+2026-09-05,Northern Illinois,Iowa,FBS,-30.5,-31.5,1.0,Northern Illinois,DOG,31.5,False,False,L,-40
+2026-09-05,Missouri State,Texas A&M,FBS,-23.5,-40.5,17.0,Missouri State,DOG,40.5,False,True,L,-50
+2026-09-05,Abilene Christian,Texas Tech,FCS,-46.0,-43.5,-2.5,Texas Tech,FAV,43.5,False,False,L,-23
+2026-09-05,Clemson,LSU,FBS,-1.8,-10.0,8.2,Clemson,DOG,10.0,False,True,L,-41
+2026-09-05,Western Michigan,Michigan,FBS,-15.0,-27.5,12.5,Western Michigan,DOG,27.5,False,True,W,-1
+2026-09-05,Utah Tech,BYU,FCS,-55.9,-49.5,-6.4,BYU,FAV,49.5,False,True,W,-56

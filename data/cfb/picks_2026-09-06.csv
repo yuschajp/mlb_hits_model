@@ -1,0 +1,4 @@
+date,away,home,cls,model,market,edge,side,dir,spread_size,neutral,playable,result,actual_margin
+2026-09-06,Washington State,Washington,FBS,-11.5,-23.5,12.0,Washington State,DOG,23.5,False,True,W,-14
+2026-09-06,Wisconsin,Notre Dame,FBS,-24.6,-20.5,-4.1,Notre Dame,FAV,20.5,True,True,W,-28
+2026-09-06,Louisville,Ole Miss,FBS,-8.3,-6.5,-1.8,Ole Miss,FAV,6.5,True,False,L,-3

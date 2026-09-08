@@ -1,0 +1,9 @@
+away,home,cls,model,market,edge,side,dir,spread_size,neutral,playable,flag
+Old Dominion,Virginia Tech,FBS,11.9,-19.5,31.4,Old Dominion,DOG,19.5,False,False,INFO-GAP
+Howard,Indiana,FCS,-72.0,-56.5,-15.5,Indiana,FAV,56.5,False,True,
+Oregon,Oklahoma State,FBS,35.2,22.5,12.7,Oregon,FAV,22.5,False,True,BLIND-SPOT
+Penn State,Temple,FBS,17.8,23.5,-5.7,Temple,DOG,23.5,False,True,
+Oklahoma,Michigan,FBS,0.1,5.5,-5.4,Michigan,DOG,5.5,False,True,
+Alabama,Kentucky,FBS,14.4,10.5,3.9,Alabama,FAV,10.5,False,False,
+Wake Forest,Purdue,FBS,5.9,3.0,2.9,Wake Forest,FAV,3.0,False,False,
+Arizona,BYU,FBS,-6.4,-7.5,1.1,Arizona,DOG,7.5,False,False,

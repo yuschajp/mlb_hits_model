@@ -1,0 +1,1428 @@
+game_id,week,home_team,away_team,home_points,away_points,home_drives,away_drives,neutral
+401525434,1,Notre Dame,Navy,42,3,8,8,True
+401540199,1,Mercer,North Alabama,17,7,10,10,True
+401520145,1,Jacksonville State,UTEP,17,14,11,11,False
+401540628,1,UAlbany,Fordham,34,13,12,12,False
+401525450,1,New Mexico State,Massachusetts,30,41,13,12,False
+401532392,1,San Diego State,Ohio,20,13,10,10,False
+401539999,1,Jackson State,South Carolina State,37,7,9,12,True
+401520147,1,Vanderbilt,Hawai'i,35,28,7,15,False
+401523986,1,USC,San José State,56,28,8,15,False
+401520146,1,Louisiana Tech,Florida International,22,17,13,12,False
+401540244,1,Lamar,Idaho,17,42,11,11,False
+401532393,1,Western Michigan,Saint Francis,35,17,10,10,False
+401525461,1,Wake Forest,Elon,37,17,13,12,False
+401525816,1,UCF,Kent State,56,6,12,13,False
+401531834,1,Georgia State,Rhode Island,42,35,11,12,False
+401540534,1,Furman,Tennessee Tech,45,10,13,13,False
+401540299,1,Indiana State,Eastern Illinois,0,27,12,10,False
+401540323,1,Stony Brook,Delaware,13,37,13,12,False
+401520174,1,UConn,NC State,14,24,9,10,False
+401540278,1,Abilene Christian,Northern Colorado,31,11,10,9,False
+401520176,1,Utah,Florida,24,11,12,12,False
+401531337,1,Tulsa,Arkansas-Pine Bluff,42,7,12,13,False
+401520165,1,Missouri,South Dakota,35,10,10,11,False
+401520148,1,Minnesota,Nebraska,13,10,10,9,False
+401531377,1,UAB,North Carolina A&T,35,6,8,9,False
+401523987,1,Arizona State,Southern Utah,24,21,12,10,False
+401532394,1,Eastern Michigan,Howard,33,23,10,11,False
+401525463,1,Miami,Miami (OH),38,3,11,10,False
+401520163,1,Michigan State,Central Michigan,31,7,13,13,False
+401525462,1,Georgia Tech,Louisville,34,39,13,12,True
+401525815,1,Kansas,Missouri State,48,17,12,11,False
+401523988,1,Hawai'i,Stanford,24,37,11,11,False
+401540285,1,Nicholls,Sacramento State,24,38,13,14,False
+401540065,1,Holy Cross,Merrimack,42,20,9,10,False
+401540396,1,VMI,Davidson,12,7,12,11,False
+401540225,1,Cal Poly,San Diego,27,10,13,12,False
+401540219,1,Montana State,Utah Tech,63,20,12,12,False
+401540166,1,Texas Southern,Prairie View A&M,34,37,15,15,False
+401540078,1,Lehigh,Villanova,10,38,14,13,False
+401520170,1,Purdue,Fresno State,35,39,11,13,False
+401520172,1,SMU,Louisiana Tech,38,14,12,12,False
+401520157,1,Iowa,Utah State,24,14,13,13,False
+401525464,1,Boston College,Northern Illinois,24,27,12,12,False
+401520160,1,Liberty,Bowling Green,34,24,13,12,False
+401525822,1,Oklahoma,Arkansas State,73,0,11,13,False
+401520162,1,Michigan,East Carolina,30,3,9,9,False
+401520159,1,Kentucky,Ball State,44,14,9,11,False
+401520179,1,Tennessee,Virginia,49,13,14,15,True
+401523994,1,TCU,Colorado,42,45,12,13,False
+401540057,1,Georgetown,Marist,49,7,9,10,False
+401532570,1,Air Force,Robert Morris,42,7,10,10,False
+401520158,1,Jacksonville State,East Tennessee State,49,3,14,14,False
+401540258,1,Montana,Butler,35,20,13,13,False
+401520168,1,Ole Miss,Mercer,73,7,12,13,False
+401531387,1,Temple,Akron,24,21,13,12,False
+401525820,1,Iowa State,Northern Iowa,30,9,12,13,False
+401532395,1,Ohio,Long Island University,27,10,11,11,False
+401523992,1,Oregon,Portland State,81,7,13,13,False
+401520180,1,Wisconsin,Buffalo,38,17,15,14,False
+401540235,1,North Dakota State,Eastern Washington,35,10,12,12,True
+401520161,1,Maryland,Towson,38,6,10,11,False
+401523997,1,Washington,Boise State,56,19,15,14,False
+401520156,1,Indiana,Ohio State,3,23,11,10,False
+401520151,1,Auburn,Massachusetts,59,14,12,13,False
+401525465,1,Pittsburgh,Wofford,45,7,11,10,False
+401531835,1,App State,Gardner-Webb,45,24,12,13,False
+401525824,1,Texas,Rice,37,10,12,12,False
+401525435,1,Notre Dame,Tennessee State,56,3,10,12,False
+401520181,1,Western Kentucky,South Florida,41,24,14,15,False
+401525818,1,Cincinnati,Eastern Kentucky,66,13,12,13,False
+401523991,1,North Texas,California,21,58,16,15,False
+401525466,1,Syracuse,Colgate,65,0,14,16,False
+401520150,1,Arkansas,Western Carolina,56,13,12,13,True
+401520164,1,Mississippi State,SE Louisiana,48,7,11,11,False
+401540369,1,North Dakota,Drake,55,7,12,12,False
+401532572,1,UNLV,Bryant,44,14,12,11,False
+401531836,1,Georgia Southern,The Citadel,34,0,11,11,False
+401531402,1,Charlotte,South Carolina State,24,3,12,12,False
+401531837,1,James Madison,Bucknell,38,3,13,13,False
+401520154,1,Georgia,UT Martin,48,7,12,14,False
+401539978,1,Richmond,Morgan State,10,17,13,14,False
+401540115,1,Alabama State,Southern,14,10,11,11,False
+401540043,1,Fordham,Wagner,46,16,13,13,False
+401540027,1,Sacred Heart,Lafayette,14,19,9,10,False
+401531418,1,Florida Atlantic,Monmouth,42,20,15,15,False
+401531838,1,Marshall,UAlbany,21,17,13,12,False
+401520153,1,Florida International,Maine,14,12,11,12,False
+401523996,1,USC,Nevada,66,14,12,14,False
+401520178,1,Vanderbilt,Alabama A&M,47,13,13,12,False
+401520175,1,UL Monroe,Army,17,13,12,12,False
+401525821,1,Kansas State,Southeast Missouri State,45,0,11,12,False
+401531841,1,Troy,Stephen F. Austin,48,30,12,13,False
+401540363,1,Murray State,Presbyterian,41,10,12,11,False
+401540200,1,North Alabama,Chattanooga,41,27,15,16,False
+401540173,1,Southern Illinois,Austin Peay,49,23,13,13,False
+401525819,1,Houston,UTSA,17,14,12,11,False
+401525823,1,Oklahoma State,Central Arkansas,27,13,13,11,False
+401523990,1,Colorado State,Washington State,24,50,13,13,False
+401531840,1,Southern Miss,Alcorn State,40,14,12,13,False
+401531426,1,Memphis,Bethune-Cookman,56,14,16,13,False
+401525817,1,Baylor,Texas State,31,42,12,12,False
+401520173,1,Texas A&M,New Mexico,52,10,11,11,False
+401531839,1,Louisiana,Northwestern State,38,13,15,16,False
+401520167,1,North Carolina,South Carolina,31,17,12,12,True
+401520149,1,Alabama,Middle Tennessee,56,7,13,12,False
+401525825,1,Wyoming,Texas Tech,35,33,14,14,False
+401520169,1,Penn State,West Virginia,38,15,9,10,False
+401520155,1,Illinois,Toledo,30,28,9,11,False
+401540213,1,McNeese,Tarleton State,34,52,14,13,False
+401525467,1,Virginia Tech,Old Dominion,36,17,12,12,False
+401531347,1,Tulane,South Alabama,37,17,12,11,False
+401520177,1,UTEP,Incarnate Word,28,14,9,8,False
+401520166,1,New Mexico State,Western Illinois,58,21,12,11,False
+401523989,1,Arizona,Northern Arizona,38,3,11,12,False
+401520152,1,BYU,Sam Houston,14,0,14,14,False
+401523995,1,UCLA,Coastal Carolina,27,13,11,11,False
+401532571,1,San Diego State,Idaho State,36,28,15,14,False
+401520171,1,Rutgers,Northwestern,24,7,11,12,False
+401540148,1,Florida A&M,Jackson State,28,10,12,11,True
+401532573,1,San José State,Oregon State,17,42,10,10,False
+401520182,1,Florida State,LSU,45,24,12,11,True
+401525468,1,Duke,Clemson,28,7,12,13,False
+401525469,2,Louisville,Murray State,56,0,14,13,False
+401520193,2,Indiana,Indiana State,41,7,11,10,False
+401520195,2,Kansas,Illinois,34,23,11,11,False
+401520216,2,Wake Forest,Vanderbilt,36,20,11,10,False
+401525490,2,Boston College,Holy Cross,31,28,9,8,False
+401520188,2,Colorado,Nebraska,36,14,13,13,False
+401523999,2,Baylor,Utah,13,20,11,11,False
+401525436,2,NC State,Notre Dame,24,45,16,16,False
+401520191,2,Georgia,Ball State,45,3,12,13,False
+401525498,2,Virginia,James Madison,35,36,14,14,False
+401525829,2,Kansas State,Troy,42,13,13,13,False
+401520185,2,Army,Delaware State,57,0,12,11,False
+401540004,2,Central Connecticut,Stonehill,30,33,8,7,False
+401520209,2,Penn State,Delaware,63,7,11,12,False
+401520208,2,Ohio State,Youngstown State,35,7,10,10,False
+401520215,2,Virginia Tech,Purdue,17,24,13,14,False
+401540028,2,Georgetown,Sacred Heart,27,10,12,12,False
+401525494,2,Georgia Tech,South Carolina State,48,13,12,12,False
+401540553,2,Presbyterian,Virginia Lynchburg,48,17,8,4,False
+401541636,2,Butler,Taylor,41,13,12,12,False
+401532396,2,Central Michigan,New Hampshire,45,42,13,13,False
+401532400,2,Bowling Green,Eastern Illinois,38,15,9,9,False
+401540441,2,South Dakota,St. Thomas (MN),24,0,5,4,False
+401525491,2,Clemson,Charleston Southern,66,17,13,14,False
+401540625,2,Western Carolina,Samford,30,7,10,9,False
+401525828,2,BYU,Southern Utah,41,16,13,12,False
+401540312,2,The Citadel,Campbell,7,56,11,10,False
+401520196,2,Kentucky,Eastern Kentucky,28,17,11,11,False
+401540383,2,North Dakota State,Maine,44,7,11,12,False
+401531395,2,UTSA,Texas State,20,13,12,11,False
+401520203,2,Michigan State,Richmond,45,14,13,11,False
+401526833,2,Massachusetts,Miami (OH),28,41,14,14,False
+401525497,2,Syracuse,Western Michigan,48,7,12,12,False
+401520207,2,Northwestern,UTEP,38,7,12,11,False
+401520201,2,Miami,Texas A&M,48,33,13,14,False
+401520202,2,Michigan,UNLV,35,7,11,11,False
+401532397,2,Northern Illinois,Southern Illinois,11,14,12,13,False
+401520194,2,Iowa State,Iowa,13,20,12,11,False
+401532398,2,Toledo,Texas Southern,71,3,11,12,False
+401520214,2,Tulane,Ole Miss,20,37,14,13,False
+401531432,2,Navy,Wagner,24,0,13,13,False
+401532578,2,San José State,Cal Poly,59,3,12,11,False
+401540272,2,North Dakota,Northern Arizona,37,22,9,9,False
+401520184,2,Arkansas,Kent State,28,6,9,9,False
+401540100,2,Western Illinois,Illinois State,18,34,13,12,False
+401540279,2,Northern Colorado,Incarnate Word,7,42,14,13,False
+401531411,2,East Carolina,Marshall,13,31,14,14,False
+401540079,2,Merrimack,Lehigh,12,14,15,13,False
+401532580,2,Wyoming,Portland State,31,17,12,11,False
+401540310,2,Northern Iowa,Weber State,17,34,13,15,False
+401520213,2,Tennessee,Austin Peay,30,13,13,12,False
+401524004,2,Washington,Tulsa,43,10,9,10,False
+401531844,2,South Alabama,SE Louisiana,35,17,10,9,False
+401525495,2,North Carolina,App State,40,34,12,10,False
+401540605,2,Villanova,Colgate,42,19,11,11,False
+401540020,2,Bryant,Long Island University,21,10,12,11,False
+401540616,2,William & Mary,Wofford,23,6,10,10,False
+401540581,2,Chattanooga,Kennesaw State,27,20,10,10,False
+401525492,2,Duke,Lafayette,42,7,9,9,False
+401531378,2,Georgia Southern,UAB,49,35,12,12,False
+401540503,2,Towson,Monmouth,23,42,7,7,False
+401525830,2,Oklahoma,SMU,28,11,12,11,False
+401531419,2,Florida Atlantic,Ohio,10,17,12,12,False
+401532399,2,Akron,Morgan State,24,21,11,16,False
+401540033,2,Robert Morris,Saint Francis,31,21,11,12,False
+401531842,2,Old Dominion,Louisiana,38,31,11,10,False
+401525833,2,West Virginia,Duquesne,56,17,13,15,False
+401532401,2,Buffalo,Fordham,37,40,9,10,False
+401520198,2,Liberty,New Mexico State,33,17,10,10,False
+401540047,2,Bucknell,VMI,21,13,13,13,False
+401520189,2,Florida International,North Texas,46,39,14,17,False
+401525496,2,Pittsburgh,Cincinnati,21,27,12,12,False
+401525831,2,Rice,Houston,43,41,13,13,False
+401525827,2,Boise State,UCF,16,18,10,10,False
+401524002,2,Texas Tech,Oregon,30,38,13,11,False
+401520187,2,Coastal Carolina,Jacksonville State,30,16,12,11,False
+401520183,2,Alabama,Texas,24,34,12,12,False
+401540266,2,South Dakota State,Montana State,20,16,9,9,False
+401540346,2,UT Martin,Missouri State,38,31,12,13,False
+401540183,2,Central Arkansas,Texas College,70,2,12,13,False
+401540513,2,Drake,Northwestern (IA),24,27,10,11,False
+401520197,2,Louisiana Tech,Northwestern State,51,21,15,16,False
+401539994,2,North Carolina A&T,North Carolina Central,16,30,11,11,False
+401520206,2,Missouri,Middle Tennessee,23,19,10,10,False
+401531427,2,Arkansas State,Memphis,3,37,13,12,False
+401520218,2,Western Kentucky,Houston Christian,52,22,11,11,False
+401531422,2,South Florida,Florida A&M,38,24,14,13,False
+401540125,2,Stephen F. Austin,Alcorn State,38,10,12,11,False
+401532576,2,Nevada,Idaho,6,33,9,11,False
+401540494,2,Southeast Missouri State,Lindenwood,45,7,11,12,False
+401540528,2,Mercer,Morehead State,48,22,10,12,False
+401520192,2,Georgia State,UConn,35,14,13,13,False
+401520199,2,LSU,Grambling,72,10,11,11,False
+401524001,2,San Diego State,UCLA,10,35,13,14,False
+401520212,2,South Carolina,Furman,47,21,13,14,False
+401520205,2,Mississippi State,Arizona,31,24,13,12,False
+401520200,2,Maryland,Charlotte,38,20,12,10,False
+401520204,2,Minnesota,Eastern Michigan,25,6,8,9,False
+401520190,2,Florida,McNeese,49,7,10,10,False
+401520217,2,Washington State,Wisconsin,31,22,13,12,False
+401520210,2,Rutgers,Temple,36,7,13,12,False
+401532577,2,New Mexico,Tennessee Tech,56,10,12,13,False
+401532579,2,Utah State,Idaho State,78,28,14,15,False
+401531843,2,UL Monroe,Lamar,24,14,10,10,False
+401525832,2,TCU,Nicholls,41,6,15,15,False
+401520211,2,Sam Houston,Air Force,3,13,9,10,True
+401525493,2,Florida State,Southern Miss,66,13,12,12,False
+401524000,2,Oregon State,UC Davis,55,7,12,13,False
+401532574,2,Fresno State,Eastern Washington,34,31,15,17,False
+401540220,2,Utah Tech,Montana,13,43,15,13,False
+401540286,2,Sacramento State,East Texas A&M,34,6,11,10,False
+401524003,2,USC,Stanford,56,10,13,14,False
+401523998,2,Arizona State,Oklahoma State,15,27,12,12,False
+401520186,2,California,Auburn,10,14,13,13,False
+401532575,2,Hawai'i,UAlbany,31,20,15,14,False
+401531428,3,Memphis,Navy,28,24,14,14,False
+401525499,3,Miami,Bethune-Cookman,48,7,10,10,False
+401531396,3,UTSA,Army,29,37,10,10,False
+401520231,3,Maryland,Virginia,42,14,10,12,False
+401532581,3,Air Force,Utah State,39,21,10,9,False
+401520222,3,Buffalo,Liberty,27,55,16,17,False
+401520249,3,Wisconsin,Georgia Southern,35,14,13,13,False
+401525504,3,Old Dominion,Wake Forest,24,27,14,16,False
+401520235,3,Mississippi State,LSU,14,41,10,11,False
+401525838,3,Ohio,Iowa State,10,7,11,10,False
+401540080,3,Lehigh,Cornell,20,23,12,13,False
+401532404,3,Kent State,Central Connecticut,38,10,14,13,False
+401525500,3,Boston College,Florida State,29,31,11,12,False
+401520230,3,Indiana,Louisville,14,21,10,10,True
+401520236,3,Missouri,Kansas State,30,27,13,13,False
+401525834,3,Baylor,Long Island University,30,7,10,9,False
+401520226,3,Illinois,Penn State,13,30,15,15,False
+401532582,3,Boise State,North Dakota,42,18,13,13,False
+401540039,3,Georgetown,Stonehill,20,23,9,9,False
+401540072,3,Lafayette,Columbia,24,3,11,10,False
+401549200,3,Colgate,Pennsylvania,6,20,12,11,False
+401540313,3,Monmouth,Campbell,31,45,8,8,False
+401540044,3,Sacred Heart,Wagner,10,17,12,12,False
+401540398,3,Marist,Davidson,21,49,13,14,False
+401526834,3,Eastern Michigan,Massachusetts,19,17,14,13,False
+401524012,3,Utah,Weber State,31,7,10,11,False
+401540375,3,South Dakota,Lamar,35,6,8,8,False
+401540452,3,Youngstown State,Robert Morris,48,28,12,11,False
+401532402,3,Ball State,Indiana State,45,7,12,12,False
+401531388,3,Temple,Norfolk State,41,9,10,10,False
+401525502,3,NC State,VMI,45,7,8,10,False
+401525437,3,Notre Dame,Central Michigan,41,17,12,11,False
+401540101,3,Eastern Illinois,Illinois State,14,13,14,15,False
+401540267,3,Montana State,Stetson,57,20,11,11,False
+401520227,3,Iowa,Western Michigan,41,10,13,14,False
+401520243,3,Rutgers,Virginia Tech,35,16,13,13,False
+401525842,3,Tulsa,Oklahoma,17,66,13,12,False
+401540464,3,South Dakota State,Drake,70,7,13,14,True
+401520239,3,North Carolina,Minnesota,31,13,12,11,False
+401520225,3,Georgia,South Carolina,24,14,11,10,False
+401540184,3,North Dakota State,Central Arkansas,49,31,10,10,False
+401520223,3,Duke,Northwestern,38,14,10,9,False
+401531412,3,App State,East Carolina,43,28,11,13,False
+401524009,3,Oregon State,San Diego State,26,9,12,11,False
+401534851,3,Howard,Hampton,34,35,12,12,True
+401520246,3,UConn,Florida International,17,24,14,14,False
+401520244,3,South Florida,Alabama,3,17,13,12,False
+401539971,3,Richmond,Delaware State,38,6,9,11,False
+401540488,3,Maine,Rhode Island,17,34,11,11,False
+401524006,3,California,Idaho,31,17,11,12,False
+401540221,3,Northern Arizona,Utah Tech,36,50,15,11,False
+401540236,3,Eastern Washington,SE Louisiana,40,29,5,6,False
+401520245,3,Texas A&M,UL Monroe,47,3,11,11,False
+401540559,3,San Diego,Princeton,12,23,15,15,False
+401540283,3,Portland State,North American,91,0,13,16,False
+401531348,3,Southern Miss,Tulane,3,21,10,11,False
+401540290,3,Bryant,Brown,25,29,11,12,False
+401520240,3,Ohio State,Western Kentucky,63,10,12,14,False
+401524011,3,UCLA,North Carolina Central,59,7,13,13,False
+401520233,3,Michigan State,Washington,7,41,12,12,False
+401540598,3,Kennesaw State,Furman,28,31,14,14,False
+401524013,3,Washington State,Northern Colorado,64,21,12,12,False
+401540334,3,New Hampshire,Dartmouth,24,7,12,11,False
+401539979,3,Morgan State,Towson,10,20,14,14,False
+401540484,3,Tennessee State,Gardner-Webb,27,25,19,19,False
+401540554,3,Wofford,Presbyterian,20,23,12,11,False
+401540034,3,Delaware,Saint Francis,42,14,10,11,False
+401540192,3,Eastern Kentucky,Western Carolina,24,27,13,12,False
+401540411,3,Elon,North Carolina A&T,27,3,11,11,False
+401531403,3,Charlotte,Georgia State,25,41,11,13,False
+401540582,3,Chattanooga,The Citadel,48,3,10,11,False
+401525843,3,UCF,Villanova,48,14,13,13,False
+401525835,3,Cincinnati,Miami (OH),24,31,12,11,False
+401540202,3,Tennessee Tech,North Alabama,7,20,12,12,False
+401540409,3,Northwestern State,Stephen F. Austin,7,41,17,15,False
+401532403,3,Toledo,San José State,21,17,10,13,False
+401520229,3,Louisiana Tech,North Texas,37,40,12,11,False
+401520221,3,Auburn,Samford,45,13,12,13,False
+401520237,3,Nebraska,Northern Illinois,35,11,13,13,False
+401520234,3,Middle Tennessee,Murray State,35,14,13,14,False
+401520247,3,UNLV,Vanderbilt,40,37,15,15,False
+401531438,3,SMU,Prairie View A&M,69,0,11,13,False
+401531441,3,Rice,Texas Southern,59,7,14,13,False
+401531845,3,Coastal Carolina,Duquesne,66,7,9,13,False
+401531846,3,Arkansas State,Stony Brook,31,7,11,11,False
+401531848,3,Troy,James Madison,14,16,13,14,False
+401540174,3,Austin Peay,East Tennessee State,63,3,10,12,False
+401540355,3,UT Martin,Houston Christian,66,7,14,14,False
+401520224,3,Florida,Tennessee,29,16,11,11,False
+401525839,3,Oklahoma State,South Alabama,7,33,11,13,False
+401540446,3,Southeast Missouri State,Southern Illinois,25,26,14,15,False
+401525841,3,Texas Tech,Tarleton State,41,3,11,13,False
+401531379,3,UAB,Louisiana,21,41,13,14,False
+401540450,3,Western Illinois,Lindenwood,40,43,11,11,False
+401525503,3,West Virginia,Pittsburgh,17,6,12,11,False
+401520228,3,Kentucky,Akron,35,3,10,11,False
+401520241,3,Ole Miss,Georgia Tech,48,23,11,11,False
+401520232,3,Michigan,Bowling Green,31,6,12,13,False
+401520220,3,Arkansas,BYU,31,38,15,15,False
+401520242,3,Purdue,Syracuse,20,35,11,12,False
+401524010,3,Stanford,Sacramento State,23,30,11,8,False
+401524008,3,Oregon,Hawai'i,55,10,11,11,False
+401525501,3,Clemson,Florida Atlantic,48,14,14,15,False
+401525840,3,Texas,Wyoming,31,10,9,11,False
+401520238,3,New Mexico,New Mexico State,17,27,9,9,False
+401525836,3,Houston,TCU,13,36,12,14,False
+401541630,3,Abilene Christian,Incarnate Word,20,27,10,11,False
+401531847,3,Texas State,Jackson State,77,34,13,13,False
+401540206,3,UC Davis,Southern Utah,23,21,13,12,False
+401524007,3,Colorado,Colorado State,43,35,16,15,False
+401524005,3,Arizona State,Fresno State,0,29,13,13,False
+401525837,3,Nevada,Kansas,24,31,10,11,False
+401520219,3,Arizona,UTEP,31,10,12,11,False
+401540087,4,Alabama A&M,Arkansas-Pine Bluff,31,24,12,12,False
+401531849,4,Coastal Carolina,Georgia State,17,30,9,10,False
+401520266,4,Purdue,Wisconsin,17,38,11,11,False
+401540291,4,Harvard,Brown,34,31,10,10,False
+401525505,4,Virginia,NC State,21,24,13,13,False
+401532584,4,San José State,Air Force,20,45,9,9,False
+401532583,4,San Diego State,Boise State,31,34,12,12,False
+401525507,4,Clemson,Florida State,24,31,13,11,False
+401525511,4,Marshall,Virginia Tech,24,17,14,13,False
+401520271,4,Troy,Western Kentucky,27,24,13,11,False
+401525849,4,TCU,SMU,34,17,11,11,False
+401531338,4,Northern Illinois,Tulsa,14,22,13,14,False
+401520260,4,Michigan,Rutgers,31,7,7,8,False
+401540029,4,Saint Francis,Sacred Heart,34,37,12,13,False
+401540307,4,Yale,Cornell,21,23,9,9,False
+401540422,4,Princeton,Bryant,13,16,11,12,False
+401520268,4,Syracuse,Army,29,16,12,11,False
+401525845,4,Cincinnati,Oklahoma,6,20,12,12,False
+401520270,4,Texas A&M,Auburn,27,10,13,11,False
+401520274,4,Vanderbilt,Kentucky,28,45,15,14,False
+401540058,4,Columbia,Georgetown,30,0,11,11,False
+401540102,4,Illinois State,Lindenwood,48,17,11,11,False
+401540599,4,Furman,Mercer,38,14,12,10,False
+401540040,4,Fordham,Stonehill,44,0,13,14,False
+401532406,4,Toledo,Western Michigan,49,31,17,15,False
+401540081,4,Dartmouth,Lehigh,34,17,12,12,False
+401540067,4,Holy Cross,Colgate,47,7,11,11,False
+401540529,4,St. Thomas (MN),Morehead State,35,28,13,14,False
+401540549,4,Villanova,Rhode Island,35,9,11,9,False
+401531871,4,Ball State,Georgia Southern,3,40,13,14,False
+401540472,4,Western Carolina,Charleston Southern,77,21,14,13,False
+401539995,4,North Carolina Central,Mississippi Valley State,45,3,13,12,True
+401540222,4,Missouri State,Utah Tech,59,14,14,15,False
+401540390,4,Eastern Illinois,McNeese,31,28,10,11,False
+401540583,4,Samford,Chattanooga,24,47,11,10,False
+401540499,4,Robert Morris,Virginia Lynchburg,46,0,9,2,False
+401520261,4,Michigan State,Maryland,9,31,11,11,False
+401540048,4,Bucknell,Pennsylvania,21,37,12,12,False
+401540573,4,Stony Brook,Richmond,19,20,13,13,False
+401525506,4,Louisville,Boston College,56,28,12,12,False
+401520272,4,UConn,Duke,7,41,13,13,False
+401540073,4,Lafayette,Monmouth,28,20,10,9,False
+401525847,4,Kansas,BYU,38,27,9,10,False
+401520255,4,Illinois,Florida Atlantic,23,17,13,12,False
+401525509,4,Temple,Miami,7,41,11,12,False
+401520250,4,Alabama,Ole Miss,24,10,11,10,False
+401532408,4,Miami (OH),Delaware State,62,20,12,11,False
+401525850,4,West Virginia,Texas Tech,20,13,13,13,False
+401540489,4,William & Mary,Maine,28,3,10,9,False
+401524015,4,Oregon,Colorado,42,6,10,11,False
+401532405,4,Bowling Green,Ohio,7,38,13,11,False
+401526835,4,Massachusetts,New Mexico,31,34,11,11,False
+401531873,4,Old Dominion,East Texas A&M,10,9,13,14,False
+401524017,4,Utah,UCLA,14,7,14,14,False
+401520263,4,Nebraska,Louisiana Tech,28,14,12,11,False
+401525846,4,Iowa State,Oklahoma State,34,27,15,15,False
+401520269,4,Tennessee,UTSA,45,14,14,16,False
+401540260,4,Northern Arizona,Montana,28,14,9,8,False
+401540245,4,Idaho,Sacramento State,36,27,10,9,False
+401540045,4,Wagner,Merrimack,30,27,16,13,False
+401539988,4,Towson,Norfolk State,14,21,13,12,False
+401540227,4,Portland State,Cal Poly,59,21,13,14,False
+401531423,4,South Florida,Rice,42,29,12,11,False
+401531876,4,South Alabama,Central Michigan,30,34,11,11,False
+401540467,4,San Diego,Dayton,40,25,12,13,False
+401520257,4,Jacksonville State,Eastern Michigan,21,0,14,13,False
+401540117,4,Florida A&M,Alabama State,23,10,10,11,False
+401540193,4,Eastern Kentucky,Southeast Missouri State,41,38,11,11,False
+401540314,4,Campbell,Elon,24,28,9,8,False
+401531413,4,East Carolina,Gardner-Webb,44,0,15,14,False
+401520275,4,Florida International,Liberty,6,38,12,13,False
+401525508,4,Wake Forest,Georgia Tech,16,30,12,13,False
+401524019,4,Washington State,Oregon State,38,35,11,11,False
+401531874,4,Arkansas State,Southern Miss,44,37,14,14,False
+401524016,4,Stanford,Arizona,20,21,10,11,False
+401520254,4,Houston,Sam Houston,38,7,12,11,False
+401520262,4,Middle Tennessee,Colorado State,23,31,12,11,False
+401520251,4,Florida,Charlotte,22,7,11,11,False
+401531877,4,Texas State,Nevada,35,24,12,10,False
+401540399,4,Davidson,St. Andrews,84,6,12,14,False
+401540356,4,SE Louisiana,Houston Christian,19,34,10,11,False
+401531349,4,Tulane,Nicholls,36,7,11,12,False
+401540376,4,Lamar,Lincoln (CA),38,0,12,11,False
+401540126,4,Alcorn State,Prairie View A&M,20,23,10,10,False
+401531870,4,Wyoming,App State,22,19,12,12,False
+401540203,4,North Alabama,UT Martin,21,37,14,15,False
+401540142,4,Jackson State,Bethune-Cookman,22,16,13,13,False
+401540175,4,Stephen F. Austin,Austin Peay,20,22,13,12,False
+401540535,4,Tennessee Tech,Kennesaw State,17,7,11,11,False
+401520258,4,LSU,Arkansas,34,31,9,10,False
+401544201,4,Incarnate Word,North American,63,3,11,14,False
+401520256,4,Indiana,Akron,29,27,14,18,False
+401525844,4,Baylor,Texas,6,38,14,11,False
+401520267,4,South Carolina,Mississippi State,37,30,12,12,False
+401520265,4,Penn State,Iowa,31,0,12,10,False
+401531875,4,Louisiana,Buffalo,45,38,13,16,False
+401520252,4,Georgia,UAB,49,21,12,14,False
+401520264,4,Northwestern,Minnesota,37,34,14,13,False
+401521330,4,Notre Dame,Ohio State,14,17,9,8,False
+401520259,4,Missouri,Memphis,34,27,12,12,True
+401531872,4,Utah State,James Madison,38,45,17,17,False
+401540268,4,Weber State,Montana State,0,40,12,13,False
+401525848,4,Kansas State,UCF,44,31,11,12,False
+401540207,4,Southern Utah,Western Illinois,37,17,12,13,False
+401525510,4,Pittsburgh,North Carolina,24,41,12,12,False
+401520273,4,UTEP,UNLV,28,45,13,13,False
+401540237,4,UC Davis,Eastern Washington,24,27,7,5,False
+401524014,4,Arizona State,USC,28,42,12,12,False
+401524018,4,Washington,California,59,32,11,14,False
+401532407,4,Fresno State,Kent State,53,10,10,10,False
+401520253,4,Hawai'i,New Mexico State,20,17,10,9,False
+401520277,5,Western Kentucky,Middle Tennessee,31,10,13,13,False
+401531339,5,Tulsa,Temple,48,26,13,11,False
+401520276,5,Sam Houston,Jacksonville State,28,35,17,16,False
+401525512,5,NC State,Louisville,10,13,13,13,False
+401541632,5,Princeton,Columbia,10,7,12,10,False
+401520278,5,UTEP,Louisiana Tech,10,24,11,10,False
+401524020,5,Oregon State,Utah,21,7,12,12,False
+401525851,5,BYU,Cincinnati,35,27,12,12,False
+401540005,5,Brown,Central Connecticut,42,20,13,12,False
+401539981,5,Yale,Morgan State,45,3,13,15,False
+401520292,5,UConn,Utah State,33,34,13,13,False
+401532412,5,Akron,Buffalo,10,13,11,11,False
+401520284,5,Minnesota,Louisiana,35,24,10,10,False
+401534852,5,Robert Morris,Howard,10,35,11,10,False
+401524023,5,Colorado,USC,41,48,14,15,False
+401540013,5,Long Island University,Duquesne,28,31,12,12,False
+401520279,5,Arkansas,Texas A&M,22,34,13,12,True
+401525514,5,Syracuse,Clemson,14,31,14,14,False
+401540400,5,Davidson,San Diego,55,33,11,11,False
+401520282,5,Kentucky,Florida,33,14,11,10,False
+401531880,5,James Madison,South Alabama,31,23,15,15,False
+401531370,5,Tulane,UAB,35,23,10,11,False
+401520287,5,Northwestern,Penn State,13,41,13,12,False
+401540035,5,Stonehill,Saint Francis,10,15,14,13,False
+401540522,5,Marist,Stetson,34,24,10,11,False
+401539972,5,Delaware State,Virginia Lynchburg,48,10,15,15,False
+401540555,5,Butler,Presbyterian,27,17,11,10,False
+401540468,5,Dayton,St. Thomas (MN),14,20,13,15,False
+401540082,5,Monmouth,Lehigh,49,7,12,13,False
+401540030,5,Sacred Heart,Merrimack,7,17,16,16,False
+401540335,5,Pennsylvania,Dartmouth,20,23,15,16,False
+401540591,5,Samford,East Tennessee State,42,28,14,13,False
+401532410,5,Central Michigan,Eastern Michigan,26,23,9,9,False
+401540308,5,Cornell,Colgate,25,35,15,13,False
+401525513,5,Boston College,Virginia,27,24,13,13,False
+401540514,5,Morehead State,Drake,9,16,10,10,False
+401540618,5,The Citadel,Western Carolina,14,49,10,9,False
+401539989,5,Norfolk State,North Carolina A&T,26,28,1,1,False
+401540176,5,Lindenwood,Austin Peay,10,52,17,17,False
+401540384,5,North Dakota State,South Dakota,19,24,6,7,False
+401540412,5,Elon,William & Mary,14,6,10,10,False
+401540059,5,Georgetown,Fordham,28,24,11,11,False
+401540407,5,Northern Iowa,Youngstown State,44,41,14,13,False
+401532413,5,Kent State,Miami (OH),3,23,11,12,False
+401540370,5,South Dakota State,North Dakota,42,21,8,8,False
+401524022,5,California,Arizona State,24,21,13,13,False
+401540172,5,Texas Southern,Lincoln (CA),52,7,12,11,True
+401540280,5,Northern Colorado,Weber State,21,28,13,13,False
+401540509,5,New Hampshire,Towson,51,54,13,13,False
+401520280,5,Auburn,Georgia,20,27,11,11,False
+401520286,5,Nebraska,Michigan,7,45,10,9,False
+401525856,5,UCF,Baylor,35,36,12,11,False
+401531424,5,Navy,South Florida,30,44,15,13,False
+401520290,5,Rutgers,Wagner,52,3,9,9,False
+401520289,5,Purdue,Illinois,44,19,11,13,False
+401526836,5,Massachusetts,Arkansas State,28,52,11,11,False
+401520283,5,Maryland,Indiana,44,17,13,12,False
+401532409,5,Western Michigan,Ball State,42,24,13,11,False
+401531881,5,Marshall,Old Dominion,41,35,16,16,False
+401532411,5,Toledo,Northern Illinois,35,33,12,12,False
+401525855,5,Texas Tech,Houston,49,28,9,12,False
+401525515,5,Georgia Tech,Bowling Green,27,38,11,11,False
+401540606,5,UAlbany,Villanova,31,10,10,10,False
+401525854,5,Texas,Kansas,40,14,11,11,False
+401540490,5,Maine,Stony Brook,56,28,16,16,False
+401540049,5,Lafayette,Bucknell,56,22,12,12,False
+401540238,5,Eastern Washington,Idaho,36,44,10,10,False
+401540269,5,Montana State,Portland State,38,22,9,9,False
+401540611,5,Mercer,VMI,38,3,12,12,False
+401539996,5,North Carolina Central,Campbell,49,48,12,11,False
+401532586,5,UNLV,Hawai'i,44,20,12,12,False
+401532588,5,Wyoming,New Mexico,35,26,12,11,False
+401540253,5,Montana,Idaho State,28,20,11,10,False
+401531429,5,Memphis,Boise State,35,32,11,12,False
+401540215,5,SE Louisiana,Tarleton State,13,14,11,11,False
+401520293,5,Vanderbilt,Missouri,21,38,11,12,False
+401540068,5,Holy Cross,Harvard,28,38,12,12,True
+401540135,5,Arkansas-Pine Bluff,Southern,0,27,13,13,False
+401540347,5,Southern Illinois,Missouri State,33,20,10,9,False
+401540584,5,Wofford,Chattanooga,13,23,13,13,False
+401520288,5,Ole Miss,LSU,55,49,12,13,False
+401540473,5,Charleston Southern,Kennesaw State,13,10,9,10,False
+401540118,5,Alabama State,Alcorn State,20,23,11,12,False
+401524024,5,Stanford,Oregon,6,42,9,10,False
+401540158,5,Prairie View A&M,Grambling,20,35,12,12,True
+401531883,5,Southern Miss,Texas State,36,50,15,14,False
+401531878,5,Georgia Southern,Coastal Carolina,38,28,13,14,False
+401532585,5,Colorado State,Utah Tech,41,20,12,12,False
+401540542,5,UT Martin,Tennessee State,20,10,12,11,False
+401540438,5,Stephen F. Austin,East Texas A&M,56,27,12,12,False
+401531414,5,Rice,East Carolina,24,17,13,12,False
+401531879,5,Georgia State,Troy,7,28,10,10,False
+401540194,5,North Alabama,Eastern Kentucky,22,32,13,13,False
+401540300,5,Murray State,Indiana State,30,28,10,11,False
+401540357,5,Houston Christian,Lamar,19,21,12,13,False
+401525852,5,Oklahoma,Iowa State,50,20,11,13,False
+401540430,5,Northwestern State,Eastern Illinois,10,19,13,12,False
+401531436,5,North Texas,Abilene Christian,45,31,13,13,False
+401531404,5,SMU,Charlotte,34,16,10,11,False
+401525438,5,Duke,Notre Dame,14,21,12,12,False
+401520291,5,Tennessee,South Carolina,41,20,13,13,False
+401520281,5,Iowa,Michigan State,26,16,15,15,False
+401540186,5,Southern Utah,Central Arkansas,27,29,14,14,False
+401540228,5,Cal Poly,UC Davis,13,31,11,11,False
+401532589,5,Air Force,San Diego State,49,10,8,9,False
+401540391,5,McNeese,Nicholls,10,31,10,11,False
+401525853,5,TCU,West Virginia,21,24,12,13,False
+401531882,5,UL Monroe,App State,40,41,15,14,False
+401525516,5,Virginia Tech,Pittsburgh,38,21,13,12,False
+401520285,5,Mississippi State,Alabama,17,40,12,11,False
+401540273,5,Sacramento State,Northern Arizona,31,30,10,10,False
+401524021,5,Arizona,Washington,24,31,9,10,False
+401532587,5,Fresno State,Nevada,27,9,13,12,False
+401520294,6,Middle Tennessee,Jacksonville State,30,45,19,18,False
+401520297,6,New Mexico State,Florida International,34,17,12,13,False
+401520296,6,Liberty,Sam Houston,21,16,12,12,False
+401520295,6,Louisiana Tech,Western Kentucky,28,35,15,15,False
+401540309,6,Harvard,Cornell,41,23,11,11,False
+401525857,6,Oklahoma State,Kansas State,29,21,13,13,False
+401520301,6,Illinois,Nebraska,7,20,12,14,False
+401520304,6,Mississippi State,Western Michigan,41,28,12,13,False
+401540292,6,Brown,Rhode Island,30,34,14,13,False
+401520307,6,Ohio State,Maryland,37,17,12,13,False
+401520311,6,Wisconsin,Rutgers,24,13,12,13,False
+401520305,6,Missouri,LSU,39,49,13,12,False
+401525861,6,Texas,Oklahoma,30,34,11,12,True
+401526837,6,Massachusetts,Toledo,24,41,11,11,False
+401520298,6,Army,Boston College,24,27,10,10,False
+401525522,6,Virginia,William & Mary,27,13,10,10,False
+401540523,6,Columbia,Marist,16,0,13,13,False
+401540469,6,Morehead State,Dayton,31,7,14,13,False
+401540041,6,Merrimack,Stonehill,45,34,13,13,False
+401540563,6,St. Thomas (MN),Butler,17,10,10,10,False
+401540556,6,Presbyterian,Stetson,24,28,11,10,False
+401540050,6,Bucknell,Holy Cross,27,55,15,14,False
+401539973,6,Central Connecticut,Delaware State,51,44,14,12,False
+401540060,6,Pennsylvania,Georgetown,42,39,14,13,False
+401540074,6,Princeton,Lafayette,9,12,11,11,False
+401540083,6,Fordham,Lehigh,38,35,10,11,False
+401540627,6,Wofford,Samford,10,31,12,13,False
+401540336,6,Dartmouth,Yale,24,31,11,12,False
+401531389,6,Temple,UTSA,34,49,12,13,False
+401532415,6,Buffalo,Central Michigan,37,13,11,13,False
+401540371,6,North Dakota,Western Illinois,49,10,8,9,False
+401539997,6,Elon,North Carolina Central,23,34,11,11,False
+401540600,6,Furman,The Citadel,28,14,11,10,False
+401525521,6,NC State,Marshall,48,41,19,18,False
+401540495,6,Lindenwood,Tennessee Tech,23,0,14,13,False
+401540457,6,Drake,Valparaiso,20,14,14,13,False
+401520306,6,Northwestern,Howard,23,20,10,10,False
+401524028,6,UCLA,Washington State,25,17,17,16,False
+401540608,6,Kennesaw State,Tennessee State,20,27,15,15,False
+401540014,6,Delaware,Duquesne,43,17,11,12,False
+401540479,6,Eastern Illinois,UT Martin,27,28,14,13,False
+401540348,6,Missouri State,North Dakota State,10,38,10,11,False
+401540119,6,Alabama State,Bethune-Cookman,19,14,11,11,False
+401531433,6,Navy,North Texas,27,24,12,11,False
+401520310,6,Texas A&M,Alabama,20,26,13,13,False
+401540491,6,Richmond,Maine,42,31,14,13,False
+401525518,6,Florida State,Virginia Tech,39,17,12,11,False
+401525520,6,North Carolina,Syracuse,40,7,10,11,False
+401531884,6,Louisiana,Texas State,34,30,11,10,False
+401532414,6,Eastern Michigan,Ball State,24,10,11,11,False
+401540127,6,Alcorn State,Grambling,25,24,12,11,False
+401532418,6,Akron,Northern Illinois,14,55,14,13,False
+401520302,6,Iowa,Purdue,20,14,15,14,False
+401532416,6,Miami (OH),Bowling Green,27,0,8,8,False
+401532417,6,Ohio,Kent State,42,17,11,12,False
+401540592,6,East Tennessee State,Mercer,6,24,15,15,False
+401525517,6,Clemson,Wake Forest,17,12,11,12,False
+401540377,6,Lamar,Northwestern State,27,13,9,10,False
+401531887,6,Troy,Arkansas State,37,3,12,11,False
+401540358,6,Nicholls,Houston Christian,38,7,15,14,False
+401525860,6,Kansas,UCF,51,22,9,11,False
+401540544,6,North Carolina A&T,Villanova,14,37,10,13,False
+401520299,6,Florida,Vanderbilt,38,14,11,11,False
+401540578,6,Towson,UAlbany,17,24,11,11,False
+401540585,6,Chattanooga,Western Carolina,50,52,13,12,False
+401531380,6,UAB,South Florida,56,35,15,15,False
+401540089,6,Alabama A&M,Jackson State,30,45,16,15,True
+401540187,6,Central Arkansas,Southeast Missouri State,38,33,12,12,False
+401540435,6,Incarnate Word,SE Louisiana,33,26,11,10,False
+401520309,6,Rice,UConn,31,38,12,13,False
+401531340,6,Florida Atlantic,Tulsa,20,17,12,12,False
+401540447,6,Youngstown State,Southern Illinois,31,3,11,10,False
+401524026,6,Arizona State,Colorado,24,27,13,12,False
+401531886,6,Southern Miss,Old Dominion,13,17,10,12,False
+401540165,6,Prairie View A&M,Mississippi Valley State,31,12,9,9,False
+401540261,6,UC Davis,Montana,23,31,13,15,False
+401540208,6,Tarleton State,Southern Utah,26,27,9,10,False
+401520300,6,Georgia,Kentucky,51,13,11,11,False
+401540151,6,Southern,Florida A&M,19,26,12,12,False
+401540103,6,Illinois State,South Dakota State,21,40,9,11,False
+401540301,6,Indiana State,Northern Iowa,20,27,10,10,False
+401531885,6,UL Monroe,South Alabama,7,55,11,10,False
+401520308,6,Ole Miss,Arkansas,27,20,12,11,False
+401520303,6,Minnesota,Michigan,10,52,12,10,False
+401525439,6,Louisville,Notre Dame,33,20,14,15,False
+401540392,6,East Texas A&M,McNeese,41,10,14,14,False
+401525519,6,Miami,Georgia Tech,20,23,13,12,False
+401532591,6,Wyoming,Fresno State,24,19,9,10,False
+401540274,6,Weber State,Northern Arizona,10,27,11,11,False
+401525859,6,Iowa State,TCU,27,14,13,12,False
+401540229,6,Cal Poly,Idaho,14,42,14,13,False
+401532590,6,Utah State,Colorado State,44,24,17,17,False
+401532592,6,Boise State,San José State,35,27,13,13,False
+401525858,6,Baylor,Texas Tech,14,39,14,13,False
+401540223,6,Utah Tech,Stephen F. Austin,37,31,14,13,False
+401524027,6,California,Oregon State,40,52,11,12,False
+401524025,6,USC,Arizona,43,41,14,14,False
+401520313,7,Middle Tennessee,Louisiana Tech,31,23,11,11,False
+401531888,7,App State,Coastal Carolina,24,27,10,11,False
+401520312,7,Jacksonville State,Liberty,13,31,9,10,False
+401520314,7,Florida International,UTEP,14,27,13,12,False
+401520315,7,New Mexico State,Sam Houston,27,13,13,13,False
+401525862,7,Houston,West Virginia,41,39,11,12,False
+401540036,7,Saint Francis,Wagner,31,7,10,10,False
+401531415,7,East Carolina,SMU,10,31,16,15,False
+401531371,7,Memphis,Tulane,21,31,12,12,False
+401532594,7,Utah State,Fresno State,32,37,12,13,False
+401524029,7,Colorado,Stanford,43,46,13,14,False
+401525524,7,Florida State,Syracuse,41,3,14,14,False
+401531390,7,North Texas,Temple,45,14,11,11,False
+401540006,7,Duquesne,Central Connecticut,44,20,12,11,False
+401525863,7,Cincinnati,Iowa State,10,30,10,10,False
+401520316,7,Alabama,Arkansas,24,21,12,12,False
+401540524,7,Marist,San Diego,30,16,13,14,False
+401540293,7,Brown,Princeton,28,27,15,13,False
+401520321,7,Michigan,Indiana,52,7,11,11,False
+401520323,7,Purdue,Ohio State,7,41,13,13,False
+401531890,7,James Madison,Georgia Southern,41,13,11,11,False
+401540061,7,Lehigh,Georgetown,7,17,10,10,False
+401520324,7,Rutgers,Michigan State,27,24,11,11,False
+401520327,7,Vanderbilt,Georgia,20,37,10,10,False
+401532422,7,Eastern Michigan,Kent State,28,14,15,16,False
+401540031,7,Yale,Sacred Heart,31,3,13,14,False
+401540510,7,Dayton,Presbyterian,17,20,12,12,False
+401540515,7,Drake,St. Thomas (MN),52,21,13,10,False
+401540530,7,New Hampshire,UAlbany,38,31,16,15,False
+401540601,7,Samford,Furman,21,27,10,11,False
+401540619,7,The Citadel,VMI,13,17,10,10,False
+401540051,7,Cornell,Bucknell,13,21,11,10,False
+401540022,7,Maine,Long Island University,24,13,9,10,False
+401540337,7,Colgate,Dartmouth,27,24,11,11,False
+401540401,7,Butler,Davidson,33,35,11,11,False
+401540413,7,Villanova,Elon,21,0,9,9,False
+401540418,7,Monmouth,Hampton,61,10,12,14,False
+401534853,7,Harvard,Howard,48,7,11,11,False
+401541633,7,Columbia,Pennsylvania,17,20,12,13,False
+401540442,7,South Dakota,Youngstown State,34,31,12,12,False
+401540372,7,North Dakota,North Dakota State,49,24,8,9,False
+401540458,7,Valparaiso,Morehead State,21,24,12,13,False
+401540177,7,Austin Peay,Gardner-Webb,41,14,12,13,False
+401532419,7,Ball State,Toledo,6,13,9,10,False
+401531405,7,Charlotte,Navy,0,14,14,13,False
+401540365,7,Murray State,Southern Illinois,6,27,12,12,False
+401524033,7,Utah,California,34,14,11,11,False
+401540325,7,Delaware,North Carolina A&T,21,6,13,12,False
+401540110,7,Grambling,Alabama A&M,24,45,13,13,False
+401540408,7,South Dakota State,Northern Iowa,41,6,10,11,False
+401540143,7,Bethune-Cookman,Texas Southern,31,34,11,11,False
+401540195,7,Eastern Kentucky,Tarleton State,41,35,11,12,False
+401540281,7,Northern Colorado,Sacramento State,13,21,11,11,False
+401540120,7,Jackson State,Alabama State,19,24,13,13,False
+401540480,7,Southeast Missouri State,Eastern Illinois,35,28,13,14,False
+401540136,7,Mississippi Valley State,Arkansas-Pine Bluff,42,17,11,13,False
+401540104,7,Illinois State,Indiana State,44,7,11,12,False
+401540593,7,East Tennessee State,Wofford,41,10,9,11,False
+401532423,7,Western Michigan,Miami (OH),21,34,12,12,False
+401540575,7,Stony Brook,Fordham,7,26,12,13,False
+401532421,7,Buffalo,Bowling Green,14,24,13,12,False
+401520325,7,South Carolina,Florida,39,41,12,12,False
+401531420,7,South Florida,Florida Atlantic,14,56,12,13,False
+401525865,7,TCU,BYU,44,11,13,13,False
+401524034,7,Washington,Oregon,36,33,10,11,False
+401520320,7,Maryland,Illinois,24,27,12,12,False
+401532420,7,Central Michigan,Akron,17,10,13,13,False
+401525527,7,Virginia Tech,Wake Forest,30,13,14,12,False
+401525864,7,Oklahoma State,Kansas,39,32,13,14,False
+401520322,7,Penn State,Massachusetts,63,0,10,13,False
+401520317,7,Army,Troy,0,19,13,12,False
+401520326,7,Tennessee,Texas A&M,20,13,10,11,False
+401540378,7,SE Louisiana,Lamar,24,30,12,12,False
+401532424,7,Northern Illinois,Ohio,23,13,11,10,False
+401540474,7,Charleston Southern,Lindenwood,24,10,12,13,False
+401540349,7,Western Illinois,Missouri State,7,48,10,8,False
+401540586,7,Mercer,Chattanooga,10,22,15,14,False
+401520328,7,Wisconsin,Iowa,6,15,15,15,False
+401540275,7,Northern Arizona,Portland State,21,45,11,10,False
+401540188,7,Central Arkansas,Stephen F. Austin,24,21,12,12,False
+401532597,7,Nevada,UNLV,27,45,13,13,False
+401540170,7,Southern,Lincoln (CA),45,18,12,13,False
+401540439,7,Incarnate Word,East Texas A&M,28,11,16,16,False
+401539990,7,Tennessee State,Norfolk State,24,17,12,12,False
+401532596,7,New Mexico,San José State,24,52,12,12,False
+401525525,7,Pittsburgh,Louisville,38,21,14,14,False
+401525866,7,Texas Tech,Kansas State,21,38,12,13,False
+401520319,7,LSU,Auburn,48,18,11,11,False
+401524030,7,Washington State,Arizona,6,44,11,12,False
+401540168,7,Houston Christian,Prairie View A&M,30,0,12,10,False
+401531889,7,Georgia State,Marshall,41,24,11,12,False
+401531891,7,Texas State,UL Monroe,21,20,12,12,False
+401532598,7,Air Force,Wyoming,34,27,10,9,False
+401520318,7,Kentucky,Missouri,21,38,13,13,False
+401524031,7,Notre Dame,USC,48,20,12,14,False
+401525526,7,North Carolina,Miami,41,31,13,14,False
+401531381,7,UTSA,UAB,41,20,11,12,False
+401525523,7,Duke,NC State,24,3,12,12,False
+401540230,7,Montana State,Cal Poly,59,19,13,15,False
+401540289,7,Weber State,UC Davis,16,17,13,14,False
+401524032,7,Oregon State,UCLA,36,24,11,12,False
+401532593,7,Colorado State,Boise State,31,30,14,12,False
+401540246,7,Idaho,Montana,21,23,9,11,False
+401532595,7,Hawai'i,San Diego State,34,41,14,14,False
+401520330,8,Liberty,Middle Tennessee,42,35,14,13,False
+401520329,8,Jacksonville State,Western Kentucky,20,17,13,13,False
+401531892,8,South Alabama,Southern Miss,55,3,12,11,False
+401520331,8,Sam Houston,Florida International,27,33,12,12,False
+401520332,8,UTEP,New Mexico State,7,28,9,10,False
+401531341,8,Tulsa,Rice,10,42,12,13,False
+401531893,8,Marshall,James Madison,9,20,13,14,False
+401539983,8,Morgan State,North Carolina Central,10,16,11,11,False
+401540432,8,Northwestern State,SE Louisiana,20,37,15,13,False
+401531391,8,Temple,SMU,0,55,13,12,False
+401531382,8,UAB,Memphis,21,45,11,11,False
+401525871,8,Oklahoma,UCF,31,29,14,13,False
+401539974,8,Delaware State,South Carolina State,7,35,10,11,False
+401520334,8,Arkansas,Mississippi State,3,7,12,11,False
+401520343,8,Ohio State,Penn State,20,12,14,14,False
+401520337,8,Indiana,Rutgers,14,31,9,10,False
+401531434,8,Navy,Air Force,6,17,14,13,False
+401525868,8,Cincinnati,Baylor,29,32,11,12,False
+401525528,8,Georgia Tech,Boston College,23,38,13,12,False
+401544197,8,Yale,Pennsylvania,17,27,9,9,False
+401540007,8,Wagner,Central Connecticut,3,17,11,11,False
+401532428,8,Ohio,Western Michigan,20,17,11,10,False
+401534854,8,Howard,Norfolk State,27,23,10,11,False
+401540032,8,Stonehill,Sacred Heart,22,19,12,14,False
+401540069,8,Holy Cross,Lafayette,35,38,10,10,False
+401540302,8,Indiana State,South Dakota,3,17,8,9,False
+401540342,8,Princeton,Harvard,21,14,14,15,False
+401540402,8,Davidson,Valparaiso,42,21,11,10,False
+401540511,8,Dayton,Butler,10,37,11,12,False
+401540525,8,Presbyterian,Marist,10,19,12,11,False
+401540545,8,North Carolina A&T,Richmond,10,33,12,10,False
+401540564,8,Stetson,St. Thomas (MN),6,38,11,12,False
+401540294,8,Cornell,Brown,36,14,11,12,False
+401540587,8,Chattanooga,East Tennessee State,34,3,13,14,False
+401540015,8,Duquesne,Saint Francis,38,35,12,11,False
+401540052,8,Bucknell,Lehigh,18,27,14,14,False
+401540623,8,VMI,Samford,14,27,12,14,False
+401532429,8,Bowling Green,Akron,41,14,12,11,False
+401531406,8,East Carolina,Charlotte,7,10,13,13,False
+401531894,8,Georgia Southern,UL Monroe,38,28,17,17,False
+401540414,8,Elon,Monmouth,28,26,12,12,False
+401540105,8,Youngstown State,Illinois State,41,38,13,12,False
+401540500,8,Tennessee Tech,Southeast Missouri State,3,28,11,11,False
+401540602,8,Western Carolina,Furman,17,29,9,9,False
+401540062,8,Georgetown,Colgate,18,28,13,12,False
+401540161,8,Mississippi Valley State,Jackson State,6,21,14,15,False
+401540425,8,Eastern Illinois,Bryant,25,24,10,10,False
+401540475,8,UT Martin,Charleston Southern,17,0,12,11,False
+401540448,8,Southern Illinois,South Dakota State,10,17,10,10,False
+401540630,8,Tennessee State,Lincoln (CA),54,0,11,11,False
+401540128,8,Arkansas-Pine Bluff,Alcorn State,7,31,12,13,False
+401540350,8,Missouri State,Murray State,28,24,13,13,False
+401525532,8,Wake Forest,Pittsburgh,21,17,13,14,False
+401520338,8,Iowa,Minnesota,10,12,14,15,False
+401520333,8,Alabama,Tennessee,34,20,13,14,False
+401520336,8,Illinois,Wisconsin,21,25,11,11,False
+401520341,8,Missouri,South Carolina,34,12,12,11,False
+401524035,8,Oregon,Washington State,38,24,12,11,False
+401520344,8,UConn,South Florida,21,24,14,13,False
+401532430,8,Kent State,Buffalo,6,24,13,13,False
+401532425,8,Ball State,Central Michigan,24,17,10,9,False
+401520342,8,Nebraska,Northwestern,17,9,13,13,False
+401531372,8,Tulane,North Texas,35,28,11,12,False
+401540385,8,North Dakota State,Western Illinois,52,7,11,11,False
+401540531,8,Stony Brook,New Hampshire,14,45,12,12,False
+401540571,8,UAlbany,Rhode Island,35,10,12,12,False
+401525872,8,West Virginia,Oklahoma State,34,48,14,14,False
+401540579,8,William & Mary,Towson,24,34,8,10,False
+401532426,8,Northern Illinois,Eastern Michigan,20,13,10,10,False
+401525869,8,Houston,Texas,24,31,11,12,False
+401540612,8,Mercer,Wofford,31,17,10,12,False
+401540144,8,Bethune-Cookman,Southern,18,28,13,12,True
+401540316,8,Campbell,Maine,34,28,13,12,False
+401540254,8,Portland State,Idaho State,24,38,11,11,False
+401532427,8,Miami (OH),Toledo,17,21,12,13,False
+401540440,8,East Texas A&M,Nicholls,7,27,12,11,False
+401541631,8,Stephen F. Austin,Abilene Christian,27,34,13,14,False
+401540516,8,San Diego,Drake,20,25,12,14,False
+401540373,8,Northern Iowa,North Dakota,27,0,11,10,False
+401532600,8,New Mexico,Hawai'i,42,21,11,10,False
+401531397,8,Florida Atlantic,UTSA,10,36,12,13,False
+401525531,8,North Carolina,Virginia,27,31,14,14,False
+401540216,8,Tarleton State,Morehead State,42,0,13,15,False
+401540205,8,North Alabama,Utah Tech,31,30,9,9,False
+401531895,8,Old Dominion,App State,28,21,10,10,False
+401540240,8,Eastern Washington,Weber State,31,23,9,9,False
+401532602,8,San José State,Utah State,42,21,13,12,False
+401525867,8,BYU,Texas Tech,27,14,12,13,False
+401520335,8,Auburn,Ole Miss,21,28,13,14,False
+401532599,8,UNLV,Colorado State,25,23,12,11,False
+401531896,8,Arkansas State,Coastal Carolina,17,27,13,13,False
+401525870,8,Kansas State,TCU,41,3,9,9,False
+401520340,8,Michigan State,Michigan,0,49,12,11,False
+401520339,8,LSU,Army,62,0,11,12,False
+401525530,8,Florida State,Duke,38,20,11,10,False
+401540152,8,Texas Southern,Florida A&M,21,31,12,11,False
+401540231,8,Cal Poly,Northern Colorado,24,17,7,7,False
+401531897,8,Louisiana,Georgia State,17,20,11,12,False
+401525529,8,Miami,Clemson,28,20,13,13,False
+401540393,8,McNeese,Incarnate Word,24,35,13,12,False
+401540178,8,Southern Utah,Austin Peay,45,48,15,13,False
+401524037,8,USC,Utah,32,34,11,12,False
+401532601,8,San Diego State,Nevada,0,6,10,11,False
+401540270,8,Sacramento State,Montana State,30,42,11,10,False
+401524038,8,Washington,Arizona State,15,7,11,12,False
+401524036,8,Stanford,UCLA,7,42,13,14,False
+401520345,9,Louisiana Tech,New Mexico State,24,27,10,11,False
+401520346,9,Western Kentucky,Liberty,29,42,10,11,False
+401520347,9,Florida International,Jacksonville State,16,41,15,14,False
+401520348,9,Sam Houston,UTEP,34,37,12,12,False
+401540008,9,Central Connecticut,Long Island University,23,24,14,15,False
+401531929,9,Georgia Southern,Georgia State,44,27,13,14,False
+401539998,9,North Carolina Central,South Carolina State,62,28,14,14,False
+401525533,9,Virginia Tech,Syracuse,38,10,12,12,False
+401540295,9,Pennsylvania,Brown,26,30,12,12,False
+401531407,9,Charlotte,Florida Atlantic,16,38,11,11,False
+401541634,9,Yale,Columbia,35,7,11,10,False
+401520349,9,Army,Massachusetts,14,21,9,8,False
+401540042,9,Wagner,Stonehill,28,17,13,14,False
+401531342,9,SMU,Tulsa,69,10,13,15,False
+401520358,9,Penn State,Indiana,33,24,14,12,False
+401520359,9,Texas A&M,South Carolina,30,17,12,12,False
+401525878,9,UCF,West Virginia,28,41,11,11,False
+401525875,9,Kansas State,Houston,41,0,11,12,False
+401540016,9,Sacred Heart,Duquesne,0,27,13,12,False
+401525874,9,Kansas,Oklahoma,38,33,12,14,False
+401520351,9,Boston College,UConn,21,14,9,9,False
+401540497,9,Robert Morris,Tennessee Tech,13,38,16,11,False
+401534855,9,Delaware State,Howard,10,17,8,9,False
+401525536,9,Wake Forest,Florida State,16,41,14,14,False
+401520356,9,Northwestern,Maryland,33,27,13,12,False
+401540517,9,Drake,Stetson,33,7,11,11,False
+401540330,9,Cornell,Princeton,3,14,11,10,False
+401540459,9,Butler,Valparaiso,17,7,9,8,False
+401540492,9,Maine,UAlbany,21,37,11,9,False
+401532431,9,Eastern Michigan,Western Michigan,21,45,14,14,False
+401540106,9,Illinois State,Northern Iowa,21,24,10,11,False
+401540070,9,Fordham,Holy Cross,47,49,11,11,False
+401540053,9,Colgate,Bucknell,34,49,13,13,False
+401540327,9,Towson,Delaware,13,51,10,12,False
+401540037,9,Saint Francis,Merrimack,28,21,12,11,False
+401540504,9,William & Mary,Monmouth,31,28,10,10,False
+401540588,9,VMI,Chattanooga,23,24,11,11,False
+401525534,9,NC State,Clemson,24,17,13,14,False
+401540576,9,Villanova,Stony Brook,48,13,11,13,False
+401540526,9,St. Thomas (MN),Marist,49,14,12,12,False
+401540351,9,Youngstown State,Missouri State,44,28,12,12,False
+401540303,9,North Dakota,Indiana State,36,33,14,14,False
+401540443,9,South Dakota,South Dakota State,3,37,9,9,False
+401540594,9,Furman,East Tennessee State,16,8,13,11,False
+401540613,9,Western Carolina,Mercer,38,45,13,14,False
+401531430,9,North Texas,Memphis,42,45,13,13,False
+401540137,9,Arkansas-Pine Bluff,Jackson State,14,40,11,12,False
+401540620,9,Samford,The Citadel,37,7,12,10,False
+401540501,9,Nicholls,Southeast Missouri State,31,35,15,13,False
+401540262,9,Montana,Northern Colorado,40,0,13,14,False
+401540145,9,Grambling,Bethune-Cookman,28,14,15,16,False
+401540609,9,Kennesaw State,Lincoln (CA),28,12,12,12,False
+401540496,9,Tennessee State,Lindenwood,43,20,13,14,False
+401540359,9,Houston Christian,East Texas A&M,17,13,12,11,False
+401540209,9,Southern Utah,Abilene Christian,52,14,13,13,False
+401540111,9,Alabama State,Alabama A&M,31,16,11,12,True
+401525440,9,Notre Dame,Pittsburgh,58,7,12,13,False
+401540366,9,North Dakota State,Murray State,38,6,11,12,False
+401532432,9,Ohio,Miami (OH),16,30,12,12,False
+401520350,9,Auburn,Mississippi State,27,13,11,11,False
+401520355,9,Nebraska,Purdue,31,14,14,14,False
+401531898,9,App State,Southern Miss,48,38,14,15,False
+401531398,9,UTSA,East Carolina,41,27,15,13,False
+401540317,9,Richmond,Campbell,44,13,11,11,False
+401525535,9,Louisville,Duke,23,0,11,10,False
+401525877,9,Texas,BYU,35,6,11,13,False
+401520354,9,Minnesota,Michigan State,27,12,13,13,False
+401525873,9,Baylor,Iowa State,18,30,12,13,False
+401525538,9,Miami,Virginia,29,26,12,13,False
+401524044,9,Utah,Oregon,6,35,12,11,False
+401520352,9,Florida,Georgia,20,43,11,12,True
+401540339,9,Harvard,Dartmouth,17,9,13,12,False
+401540241,9,Portland State,Eastern Washington,47,35,12,12,False
+401540379,9,Lamar,Incarnate Word,7,17,12,13,False
+401540179,9,Austin Peay,North Alabama,49,39,15,15,False
+401540153,9,Florida A&M,Prairie View A&M,45,7,12,14,False
+401531373,9,Rice,Tulane,28,30,10,10,False
+401540276,9,Northern Arizona,UC Davis,38,21,10,11,False
+401524041,9,California,USC,49,50,16,18,False
+401540247,9,Idaho,Montana State,24,21,9,8,False
+401540449,9,Western Illinois,Southern Illinois,0,63,16,14,False
+401540426,9,Charleston Southern,Bryant,24,47,13,13,False
+401540171,9,Southern,Texas Southern,23,17,13,14,False
+401540550,9,San Diego,Morehead State,17,11,12,12,False
+401531901,9,UL Monroe,Arkansas State,24,34,13,13,False
+401540189,9,Central Arkansas,Tarleton State,23,25,10,10,False
+401531902,9,South Alabama,Louisiana,20,33,12,12,False
+401532607,9,Boise State,Wyoming,32,7,11,12,False
+401531899,9,Coastal Carolina,Marshall,34,6,12,13,False
+401532603,9,Colorado State,Air Force,13,30,10,11,False
+401531903,9,Texas State,Troy,13,31,12,12,False
+401520353,9,Kentucky,Tennessee,27,33,10,10,False
+401524042,9,Stanford,Washington,33,42,14,14,False
+401540403,9,Davidson,Presbyterian,45,28,11,10,False
+401520360,9,Wisconsin,Ohio State,10,24,12,12,False
+401524043,9,UCLA,Colorado,28,16,12,13,False
+401520357,9,Ole Miss,Vanderbilt,33,7,12,12,False
+401525537,9,Georgia Tech,North Carolina,46,42,13,12,False
+401531900,9,James Madison,Old Dominion,30,27,13,14,False
+401540197,9,Utah Tech,Eastern Kentucky,30,34,12,11,False
+401524040,9,Arizona State,Washington State,38,27,10,9,False
+401525876,9,Oklahoma State,Cincinnati,45,13,14,15,False
+401540255,9,Sacramento State,Idaho State,51,16,14,14,False
+401532604,9,Nevada,New Mexico,34,24,12,13,False
+401532606,9,Fresno State,UNLV,31,24,14,12,False
+401524039,9,Arizona,Oregon State,27,24,9,9,False
+401532605,9,Hawai'i,San José State,0,35,10,11,False
+401532433,10,Central Michigan,Northern Illinois,37,31,14,13,False
+401532434,10,Toledo,Buffalo,31,13,15,15,False
+401532435,10,Bowling Green,Ball State,24,21,10,11,False
+401532436,10,Akron,Kent State,31,27,11,11,False
+401525879,10,Texas Tech,TCU,35,28,13,12,False
+401540146,10,Bethune-Cookman,Mississippi Valley State,20,7,11,12,False
+401531904,10,Troy,South Alabama,28,10,11,12,False
+401525539,10,Duke,Wake Forest,24,21,13,13,False
+401540340,10,Dartmouth,Princeton,23,21,12,14,False
+401525540,10,Syracuse,Boston College,10,17,12,12,False
+401532609,10,Wyoming,Colorado State,24,15,12,12,False
+401540009,10,Sacred Heart,Central Connecticut,31,24,12,12,False
+401520375,10,Rutgers,Ohio State,16,35,12,10,False
+401520369,10,Michigan State,Nebraska,20,17,13,13,False
+401540024,10,Saint Francis,Long Island University,28,29,11,11,False
+401525545,10,North Carolina,Campbell,59,7,13,13,False
+401540557,10,Presbyterian,San Diego,13,23,14,13,False
+401540017,10,Wagner,Duquesne,26,34,11,11,False
+401540518,10,Marist,Drake,3,10,10,10,False
+401540071,10,Lehigh,Holy Cross,24,28,11,11,False
+401540296,10,Brown,Yale,17,36,15,16,False
+401520376,10,South Carolina,Jacksonville State,38,28,16,17,False
+401520377,10,Tennessee,UConn,59,3,10,12,False
+401520374,10,Ole Miss,Texas A&M,38,35,11,10,False
+401525884,10,Texas,Kansas State,33,30,16,17,False
+401525441,10,Clemson,Notre Dame,31,23,15,14,False
+401520365,10,Indiana,Wisconsin,20,14,11,12,False
+401520363,10,Florida,Arkansas,36,39,15,15,False
+401540075,10,Lafayette,Colgate,34,37,14,15,False
+401540343,10,Columbia,Harvard,24,38,11,11,False
+401539975,10,Morgan State,Delaware State,24,17,11,10,False
+401540404,10,Stetson,Davidson,41,61,13,14,False
+401540427,10,Bryant,Gardner-Webb,44,45,12,14,False
+401540420,10,Maine,Hampton,35,42,12,13,False
+401540546,10,North Carolina A&T,Towson,32,42,11,10,False
+401540331,10,Pennsylvania,Cornell,23,8,8,8,False
+401540328,10,Delaware,Elon,27,33,15,17,False
+401540304,10,Indiana State,Youngstown State,7,19,11,12,False
+401540505,10,Monmouth,Stony Brook,56,17,11,12,False
+401540054,10,Fordham,Bucknell,27,21,11,12,False
+401540533,10,New Hampshire,Villanova,33,45,13,13,False
+401525451,10,Sam Houston,Kennesaw State,24,21,11,10,False
+401540595,10,East Tennessee State,VMI,24,31,11,12,False
+401540617,10,UAlbany,William & Mary,24,8,9,10,False
+401540589,10,Chattanooga,Furman,14,17,14,13,False
+401540807,10,Northern Iowa,Western Illinois,50,6,11,11,False
+401540551,10,Morehead State,Butler,7,49,13,12,False
+401540614,10,The Citadel,Mercer,16,38,12,11,False
+401540498,10,Southeast Missouri State,Robert Morris,20,21,12,13,False
+401540367,10,Murray State,North Dakota,31,45,9,10,False
+401540460,10,Valparaiso,Dayton,21,7,13,11,False
+401540112,10,Alabama A&M,Florida A&M,28,42,14,13,False
+401524049,10,Utah,Arizona State,55,3,14,14,False
+401525542,10,Virginia,Georgia Tech,17,45,13,12,False
+401531392,10,Temple,Navy,32,18,11,11,False
+401540536,10,Tennessee Tech,UT Martin,41,44,15,14,False
+401520361,10,Air Force,Army,3,23,12,13,True
+401531383,10,UAB,Florida Atlantic,45,42,14,15,False
+401540138,10,Prairie View A&M,Arkansas-Pine Bluff,38,14,12,12,False
+401540107,10,Missouri State,Illinois State,35,36,10,10,False
+401540626,10,Wofford,Western Carolina,25,28,12,11,False
+401540130,10,Alcorn State,Southern,44,21,10,13,False
+401540224,10,Abilene Christian,Utah Tech,24,7,11,10,False
+401540248,10,Northern Colorado,Idaho,13,27,9,8,False
+401540386,10,South Dakota State,North Dakota State,33,16,9,10,False
+401553854,10,Montana State,Northern Arizona,45,21,12,12,False
+401540210,10,Southern Utah,Lincoln (CA),35,6,12,13,False
+401531908,10,Arkansas State,Louisiana,37,17,10,11,False
+401531399,10,North Texas,UTSA,29,37,11,12,False
+401531425,10,Memphis,South Florida,59,50,16,15,False
+401540481,10,Lindenwood,Eastern Illinois,10,16,13,14,False
+401520364,10,Georgia,Missouri,30,21,10,10,False
+401525881,10,Cincinnati,UCF,26,28,10,11,False
+401525880,10,Baylor,Houston,24,25,10,10,False
+401531374,10,East Carolina,Tulane,10,13,7,8,False
+401520370,10,Minnesota,Illinois,26,27,12,13,False
+401525883,10,Oklahoma State,Oklahoma,27,24,14,13,False
+401525543,10,Louisville,Virginia Tech,34,3,10,11,False
+401531907,10,Old Dominion,Coastal Carolina,24,28,14,13,False
+401520400,10,Massachusetts,Merrimack,31,21,12,11,False
+401520373,10,Northwestern,Iowa,7,10,11,11,True
+401525541,10,Pittsburgh,Florida State,7,24,14,14,False
+401520367,10,Maryland,Penn State,15,51,12,12,False
+401539991,10,North Carolina Central,Norfolk State,38,24,10,11,False
+401531906,10,Georgia State,James Madison,14,42,11,11,False
+401540232,10,Eastern Washington,Cal Poly,48,13,13,15,False
+401532610,10,Nevada,Hawai'i,14,27,15,14,False
+401531909,10,Southern Miss,UL Monroe,24,7,14,13,False
+401540380,10,Lamar,East Texas A&M,41,21,14,13,False
+401544202,10,Incarnate Word,Nicholls,32,45,13,12,False
+401540476,10,Charleston Southern,Tennessee State,35,21,15,16,False
+401531343,10,Tulsa,Charlotte,26,33,14,14,False
+401540395,10,SE Louisiana,McNeese,38,24,14,14,False
+401520379,10,Vanderbilt,Auburn,15,31,13,14,False
+401540121,10,Alabama State,Grambling,17,6,11,10,True
+401540180,10,Eastern Kentucky,Austin Peay,30,33,14,15,False
+401540190,10,North Alabama,Central Arkansas,14,27,14,14,False
+401531910,10,Texas State,Georgia Southern,45,24,11,11,False
+401524047,10,Oregon,California,63,19,14,14,False
+401532611,10,New Mexico,UNLV,14,56,11,11,False
+401540256,10,Idaho State,Weber State,21,33,16,17,False
+401520372,10,New Mexico State,Middle Tennessee,13,7,11,11,False
+401520366,10,Liberty,Louisiana Tech,56,30,11,10,False
+401531905,10,App State,Marshall,31,9,11,9,False
+401540217,10,Tarleton State,Stephen F. Austin,59,17,14,13,False
+401540284,10,UC Davis,Portland State,37,23,10,9,False
+401532612,10,San Diego State,Utah State,24,32,13,12,False
+401525882,10,Iowa State,Kansas,21,28,10,10,False
+401525885,10,West Virginia,BYU,37,7,11,10,False
+401520368,10,Michigan,Purdue,41,13,14,14,False
+401531440,10,Rice,SMU,31,36,13,15,False
+401524048,10,USC,Washington,42,52,11,11,False
+401520371,10,Mississippi State,Kentucky,3,24,12,10,False
+401520362,10,Alabama,LSU,42,28,11,10,False
+401540263,10,Montana,Sacramento State,34,7,12,13,False
+401525544,10,NC State,Miami,20,6,12,12,False
+401520378,10,UTEP,Western Kentucky,13,21,10,11,False
+401524050,10,Washington State,Stanford,7,10,11,11,False
+401524046,10,Colorado,Oregon State,19,26,12,12,False
+401532608,10,Fresno State,Boise State,37,30,12,12,False
+401524045,10,Arizona,UCLA,27,10,9,9,False
+401532437,11,Northern Illinois,Ball State,17,20,10,10,False
+401532438,11,Western Michigan,Central Michigan,38,28,15,15,False
+401532439,11,Buffalo,Ohio,10,20,8,7,False
+401532441,11,Miami (OH),Akron,19,0,13,12,False
+401532442,11,Kent State,Bowling Green,19,49,13,13,False
+401532440,11,Toledo,Eastern Michigan,49,23,10,10,False
+401525546,11,Louisville,Virginia,31,24,13,12,False
+401531911,11,Louisiana,Southern Miss,31,34,12,14,False
+401531437,11,SMU,North Texas,45,21,13,12,False
+401532618,11,UNLV,Wyoming,34,14,12,12,False
+401525547,11,Boston College,Virginia Tech,22,48,12,12,False
+401525548,11,Clemson,Georgia Tech,42,21,13,13,False
+401520383,11,Illinois,Indiana,48,45,13,14,False
+401544198,11,Princeton,Yale,28,36,12,14,False
+401520392,11,Nebraska,Maryland,10,13,10,11,False
+401520396,11,South Carolina,Vanderbilt,47,6,13,13,False
+401539976,11,Delaware State,Norfolk State,21,44,11,12,False
+401520394,11,Penn State,Michigan,15,24,10,11,False
+401520381,11,Army,Holy Cross,17,14,8,8,False
+401540477,11,Robert Morris,Charleston Southern,14,12,12,10,False
+401525888,11,Kansas,Texas Tech,13,16,12,11,False
+401531344,11,Tulane,Tulsa,24,22,12,12,False
+401540010,11,Merrimack,Central Connecticut,35,24,11,10,False
+401531393,11,South Florida,Temple,27,23,13,13,False
+401540506,11,Monmouth,New Hampshire,24,31,12,11,False
+401520386,11,Kentucky,Alabama,21,49,13,12,False
+401540018,11,Duquesne,Stonehill,28,33,14,12,False
+401540453,11,Youngstown State,South Dakota State,0,34,10,10,False
+401540297,11,Columbia,Brown,14,21,11,12,False
+401540076,11,Lafayette,Fordham,24,16,8,8,False
+401540580,11,Villanova,Towson,33,10,10,11,False
+401540305,11,Indiana State,Western Illinois,27,6,11,12,False
+401540113,11,Bethune-Cookman,Alabama A&M,31,14,12,13,False
+401540084,11,Colgate,Lehigh,37,21,11,12,False
+401540596,11,Western Carolina,East Tennessee State,58,7,14,13,False
+401540577,11,Stony Brook,UAlbany,20,38,9,10,False
+401540568,11,Valparaiso,Stetson,23,20,11,13,False
+401540512,11,Dayton,Marist,35,6,12,12,False
+401540482,11,Eastern Illinois,Tennessee State,30,17,14,12,False
+401540421,11,Hampton,William & Mary,10,31,11,10,False
+401540405,11,Morehead State,Davidson,47,17,16,15,False
+401540374,11,South Dakota,North Dakota,14,10,9,8,False
+401540344,11,Harvard,Pennsylvania,25,23,10,10,False
+401540318,11,Campbell,Delaware,7,45,12,12,False
+401540055,11,Bucknell,Georgetown,47,50,17,17,False
+401520388,11,Liberty,Old Dominion,38,10,11,11,False
+401540332,11,Dartmouth,Cornell,30,14,11,12,False
+401540603,11,Furman,VMI,37,3,13,14,False
+401540519,11,Drake,Presbyterian,16,14,13,11,False
+401531915,11,UL Monroe,Troy,14,45,13,13,False
+401540415,11,Richmond,Elon,38,24,12,12,False
+401531913,11,Georgia State,App State,14,42,14,15,False
+401540621,11,The Citadel,Wofford,3,11,10,10,False
+401540428,11,Lindenwood,Bryant,3,38,9,10,False
+401540181,11,Austin Peay,Utah Tech,30,17,15,13,False
+401531408,11,Charlotte,Memphis,38,44,15,14,False
+401520385,11,James Madison,UConn,44,6,10,11,False
+401525551,11,Wake Forest,NC State,6,26,9,12,False
+401524052,11,Colorado,Arizona,31,34,12,12,False
+401540487,11,Tennessee Tech,Gardner-Webb,0,35,17,16,False
+401525889,11,Kansas State,Baylor,59,25,13,16,False
+401532615,11,Utah State,Nevada,41,24,16,16,False
+401540122,11,Mississippi Valley State,Alabama State,3,20,12,13,False
+401540352,11,Missouri State,Northern Iowa,35,16,12,11,False
+401540610,11,Kennesaw State,Virginia Lynchburg,63,3,9,11,False
+401540502,11,UT Martin,Southeast Missouri State,41,14,14,13,False
+401520387,11,Louisiana Tech,Sam Houston,27,42,13,12,False
+401540242,11,Montana State,Eastern Washington,57,14,14,15,False
+401540277,11,Northern Arizona,Northern Colorado,28,7,12,11,False
+401540218,11,Abilene Christian,Tarleton State,30,31,11,12,False
+401540169,11,Southern,Prairie View A&M,21,27,13,13,False
+401540615,11,Mercer,Samford,28,21,12,12,False
+401540249,11,Weber State,Idaho,31,29,11,12,False
+401524056,11,Washington,Utah,35,28,12,13,False
+401520384,11,Iowa,Rutgers,22,0,11,11,False
+401520391,11,Missouri,Tennessee,36,7,11,11,False
+401520390,11,Middle Tennessee,Florida International,40,6,12,13,False
+401525892,11,UCF,Oklahoma State,45,3,14,14,False
+401540387,11,North Dakota State,Southern Illinois,34,10,11,11,False
+401534857,11,Howard,North Carolina Central,50,20,11,9,False
+401531384,11,Navy,UAB,31,6,11,11,False
+401520395,11,Purdue,Minnesota,49,30,12,12,False
+401520399,11,Western Kentucky,New Mexico State,29,38,10,9,False
+401520398,11,Wisconsin,Northwestern,10,24,10,11,False
+401525550,11,Florida State,Miami,27,20,13,13,False
+401531912,11,Coastal Carolina,Texas State,31,23,11,12,False
+401525552,11,Syracuse,Pittsburgh,28,13,11,12,True
+401540381,11,Nicholls,Lamar,37,24,12,11,False
+401531416,11,Florida Atlantic,East Carolina,7,22,14,15,False
+401540560,11,San Diego,St. Thomas (MN),14,20,10,10,False
+401520380,11,Arkansas,Auburn,10,48,13,12,False
+401524051,11,California,Washington State,42,39,12,14,False
+401540436,11,East Texas A&M,SE Louisiana,14,52,15,15,False
+401531916,11,South Alabama,Arkansas State,21,14,12,12,False
+401540233,11,Sacramento State,Cal Poly,41,30,14,13,False
+401540211,11,Stephen F. Austin,Southern Utah,17,45,13,12,False
+401540191,11,Central Arkansas,Eastern Kentucky,27,24,11,12,False
+401524054,11,Oregon State,Stanford,62,17,13,13,False
+401540257,11,Idaho State,UC Davis,14,21,14,15,False
+401531914,11,Marshall,Georgia Southern,38,33,15,15,False
+401532617,11,Colorado State,San Diego State,22,19,12,10,False
+401520382,11,Georgia,Ole Miss,52,17,11,11,False
+401525890,11,Oklahoma,West Virginia,59,20,13,14,False
+401525887,11,Houston,Cincinnati,14,24,11,11,False
+401531400,11,UTSA,Rice,34,14,11,11,False
+401520397,11,Texas A&M,Mississippi State,51,10,12,12,False
+401520393,11,Ohio State,Michigan State,38,3,11,11,False
+401525891,11,TCU,Texas,26,29,12,13,False
+401520389,11,LSU,Florida,52,35,12,13,False
+401540361,11,McNeese,Houston Christian,24,35,12,10,False
+401525549,11,North Carolina,Duke,47,45,10,11,False
+401524055,11,UCLA,Arizona State,7,17,11,11,False
+401540264,11,Portland State,Montana,10,34,9,9,False
+401532616,11,Boise State,New Mexico,42,14,10,9,False
+401525886,11,BYU,Iowa State,13,45,12,12,False
+401524053,11,Oregon,USC,36,27,10,9,False
+401532614,11,San José State,Fresno State,42,18,11,13,False
+401540154,11,Florida A&M,Lincoln (CA),28,0,8,10,False
+401532613,11,Hawai'i,Air Force,27,13,9,9,False
+401532443,12,Bowling Green,Toledo,31,32,13,14,False
+401532444,12,Northern Illinois,Western Michigan,24,0,9,9,False
+401532445,12,Eastern Michigan,Akron,30,27,8,9,False
+401532447,12,Miami (OH),Buffalo,23,10,11,11,False
+401532446,12,Ohio,Central Michigan,34,20,11,12,False
+401540437,12,SE Louisiana,Nicholls,16,21,12,13,False
+401525553,12,Pittsburgh,Boston College,24,16,11,10,False
+401540114,12,Alabama A&M,Mississippi Valley State,30,21,15,14,False
+401531401,12,UTSA,South Florida,49,21,14,14,False
+401524057,12,Washington State,Colorado,56,14,13,16,False
+401520417,12,Penn State,Rutgers,27,6,9,10,False
+401520405,12,Indiana,Michigan State,21,24,11,13,False
+401540011,12,Central Connecticut,Saint Francis,14,49,10,12,False
+401540046,12,Wagner,Post,48,21,13,13,False
+401531431,12,Memphis,SMU,34,38,10,11,False
+401531417,12,Navy,East Carolina,10,0,14,14,False
+401520416,12,Ole Miss,UL Monroe,35,3,11,11,False
+401540019,12,Merrimack,Duquesne,14,26,13,12,False
+401540056,12,Marist,Bucknell,21,38,11,11,False
+401531375,12,Florida Atlantic,Tulane,8,24,9,10,False
+401520410,12,Maryland,Michigan,24,31,11,10,False
+401525893,12,BYU,Oklahoma,24,31,11,10,False
+401520414,12,Northwestern,Purdue,23,15,14,13,False
+401540604,12,Wofford,Furman,19,13,12,13,False
+401520403,12,Army,Coastal Carolina,28,21,8,9,False
+401520412,12,Mississippi State,Southern Miss,41,20,14,13,False
+401520420,12,Texas A&M,Abilene Christian,38,10,13,13,False
+401520421,12,UConn,Sacred Heart,31,3,10,11,False
+401520401,12,Alabama,Chattanooga,66,10,12,13,False
+401540561,12,Stetson,San Diego,20,47,11,11,False
+401525558,12,Miami,Louisville,31,38,13,12,False
+401540483,12,Robert Morris,Eastern Illinois,14,28,11,11,False
+401540624,12,VMI,Western Carolina,27,24,11,10,False
+401540345,12,Yale,Harvard,23,18,15,14,False
+401540077,12,Lehigh,Lafayette,21,49,10,11,False
+401540520,12,Butler,Drake,9,13,9,9,False
+401540064,12,Holy Cross,Georgetown,31,10,8,8,False
+401540298,12,Brown,Dartmouth,13,38,13,12,False
+401540429,12,Bryant,Southeast Missouri State,45,21,13,12,False
+401540543,12,Samford,UT Martin,27,17,13,13,False
+401552541,12,Pennsylvania,Princeton,24,31,11,10,False
+401541635,12,Colgate,Fordham,21,14,13,11,False
+401540416,12,Elon,Hampton,51,14,13,16,False
+401534858,12,Howard,Morgan State,14,7,11,11,False
+401520408,12,Liberty,Massachusetts,49,25,12,13,False
+401540597,12,East Tennessee State,The Citadel,35,23,12,14,False
+401540329,12,Delaware,Villanova,7,35,12,11,False
+401540319,12,North Carolina A&T,Campbell,14,28,9,10,False
+401540574,12,William & Mary,Richmond,26,27,11,10,False
+401540572,12,Towson,Rhode Island,31,30,12,13,False
+401540333,12,Cornell,Columbia,14,29,10,11,False
+401540493,12,New Hampshire,Maine,44,25,11,11,False
+401540198,12,Eastern Kentucky,Stephen F. Austin,36,24,9,10,False
+401531409,12,Charlotte,Rice,7,28,12,12,False
+401540182,12,Austin Peay,Central Arkansas,14,12,8,8,False
+401532448,12,Ball State,Kent State,34,3,11,10,False
+401540445,12,Western Illinois,South Dakota,6,48,13,14,False
+401531918,12,James Madison,App State,23,26,13,13,False
+401532620,12,Wyoming,Hawai'i,42,9,13,13,False
+401540109,12,North Dakota,Illinois State,22,21,5,4,False
+401540306,12,Southern Illinois,Indiana State,38,9,12,11,False
+401539992,12,Norfolk State,South Carolina State,17,44,11,10,False
+401539977,12,North Carolina Central,Delaware State,55,14,9,8,False
+401520407,12,Jacksonville State,Louisiana Tech,56,17,14,14,False
+401520411,12,Middle Tennessee,UTEP,34,30,15,12,False
+401540265,12,Montana,Montana State,37,7,12,11,False
+401540462,12,St. Thomas (MN),Valparaiso,16,10,11,9,False
+401540368,12,Murray State,Youngstown State,17,34,11,11,False
+401540282,12,Northern Colorado,Portland State,23,27,10,9,False
+401525899,12,West Virginia,Cincinnati,42,21,10,10,False
+401524058,12,Arizona,Utah,42,18,10,11,False
+401540362,12,Houston Christian,Incarnate Word,24,45,12,13,False
+401531345,12,Tulsa,North Texas,28,35,14,15,False
+401540123,12,Prairie View A&M,Alabama State,21,14,11,10,False
+401525555,12,Virginia,Duke,30,27,12,12,False
+401531385,12,UAB,Temple,34,24,11,10,False
+401540132,12,Jackson State,Alcorn State,24,28,12,12,False
+401540353,12,South Dakota State,Missouri State,35,17,10,9,False
+401540537,12,Tennessee State,Tennessee Tech,0,35,12,13,False
+401532621,12,Colorado State,Nevada,30,20,11,10,False
+401531919,12,Arkansas State,Texas State,77,31,10,14,False
+401540287,12,UC Davis,Sacramento State,31,21,11,10,False
+401525897,12,TCU,Baylor,42,17,10,10,False
+401520423,12,Western Kentucky,Sam Houston,28,23,15,15,False
+401525554,12,Clemson,North Carolina,31,20,15,15,False
+401531921,12,Troy,Louisiana,31,24,11,11,False
+401525442,12,Notre Dame,Wake Forest,45,7,11,10,False
+401532624,12,Air Force,UNLV,27,31,15,15,False
+401520406,12,Iowa,Illinois,15,13,12,12,False
+401524062,12,USC,UCLA,20,38,12,12,False
+401520419,12,Tennessee,Georgia,10,38,11,10,False
+401525559,12,Virginia Tech,NC State,28,35,12,12,False
+401540147,12,Florida A&M,Bethune-Cookman,24,7,11,10,True
+401540243,12,Eastern Washington,Northern Arizona,42,49,14,16,False
+401520415,12,Ohio State,Minnesota,37,3,11,10,False
+401524059,12,Arizona State,Oregon,13,49,10,10,False
+401520404,12,Auburn,New Mexico State,10,31,8,8,False
+401525894,12,Houston,Oklahoma State,30,43,12,14,False
+401540382,12,Lamar,McNeese,52,27,11,11,False
+401525898,12,Texas Tech,UCF,24,23,10,10,False
+401540388,12,Northern Iowa,North Dakota State,27,48,13,12,False
+401531920,12,South Alabama,Marshall,28,0,12,12,False
+401531917,12,Georgia Southern,Old Dominion,17,20,11,11,False
+401524061,12,Stanford,California,15,27,12,12,False
+401525556,12,Florida State,North Alabama,58,13,14,15,False
+401540250,12,Idaho,Idaho State,63,21,14,15,False
+401525896,12,Kansas,Kansas State,27,31,9,11,False
+401532619,12,Utah State,Boise State,10,45,14,15,False
+401540212,12,Utah Tech,Southern Utah,16,24,10,11,False
+401540406,12,Davidson,Dayton,14,45,8,6,False
+401520402,12,Arkansas,Florida International,44,20,14,14,False
+401520422,12,Wisconsin,Nebraska,24,17,10,11,False
+401524060,12,Oregon State,Washington,20,22,10,11,False
+401520413,12,Missouri,Florida,33,31,11,12,False
+401520418,12,South Carolina,Kentucky,17,14,12,12,False
+401525557,12,Georgia Tech,Syracuse,31,22,12,11,False
+401525895,12,Iowa State,Texas,16,26,10,11,False
+401540234,12,Cal Poly,Weber State,21,48,12,13,False
+401520409,12,LSU,Georgia State,56,14,9,9,False
+401532622,12,Fresno State,New Mexico,17,25,10,12,False
+401532623,12,San José State,San Diego State,24,13,8,7,False
+401532450,13,Western Michigan,Bowling Green,10,34,11,9,False
+401532449,13,Buffalo,Eastern Michigan,11,24,11,12,False
+401540124,13,Alabama State,Tuskegee,41,3,8,11,False
+401520424,13,Mississippi State,Ole Miss,7,17,12,13,False
+401532451,13,Central Michigan,Toledo,17,32,10,11,False
+401525560,13,Boston College,Miami,20,45,11,11,False
+401532452,13,Akron,Ohio,14,25,9,10,False
+401520425,13,Nebraska,Iowa,10,13,12,14,False
+401531394,13,Temple,Memphis,21,45,12,12,False
+401525900,13,Oklahoma,TCU,69,45,13,15,False
+401532629,13,New Mexico,Utah State,41,44,13,13,False
+401531376,13,Tulane,UTSA,29,16,14,13,False
+401532625,13,Boise State,Air Force,27,19,11,11,False
+401520426,13,Arkansas,Missouri,14,48,13,13,False
+401520435,13,Michigan State,Penn State,0,42,12,12,True
+401525901,13,Texas,Texas Tech,57,7,14,15,False
+401524063,13,Oregon,Oregon State,31,7,9,9,False
+401525561,13,Duke,Pittsburgh,30,19,11,10,False
+401525906,13,UCF,Houston,27,13,9,8,False
+401520432,13,Louisville,Kentucky,31,38,11,11,False
+401531927,13,Southern Miss,Troy,17,35,11,11,False
+401520443,13,Massachusetts,UConn,18,31,13,12,False
+401532453,13,Kent State,Northern Illinois,27,37,11,11,False
+401531435,13,SMU,Navy,59,14,13,16,False
+401532454,13,Ball State,Miami (OH),15,17,11,12,False
+401520440,13,Sam Houston,Middle Tennessee,23,20,12,13,False
+401520438,13,Purdue,Indiana,35,31,15,14,False
+401520434,13,Michigan,Ohio State,30,24,10,10,False
+401520433,13,LSU,Texas A&M,42,30,10,10,False
+401531421,13,Rice,Florida Atlantic,24,21,10,9,False
+401540159,13,Grambling,Southern,22,27,13,13,True
+401531346,13,East Carolina,Tulsa,27,29,11,12,False
+401531386,13,North Texas,UAB,45,42,13,12,False
+401525563,13,Syracuse,Wake Forest,35,31,9,8,False
+401531925,13,Old Dominion,Georgia State,25,24,16,16,False
+401531926,13,Louisiana,UL Monroe,52,21,10,10,False
+401520428,13,Florida International,Western Kentucky,28,41,12,12,False
+401532628,13,UNLV,San José State,31,37,11,12,False
+401524067,13,Utah,Colorado,23,17,8,7,False
+401524064,13,Arizona State,Arizona,23,59,13,13,False
+401520442,13,Tennessee,Vanderbilt,48,24,12,14,False
+401520439,13,Rutgers,Maryland,24,42,13,13,False
+401520436,13,Minnesota,Wisconsin,14,28,11,12,False
+401520431,13,Illinois,Northwestern,43,45,12,14,False
+401520427,13,Auburn,Alabama,24,27,11,11,False
+401520444,13,UTEP,Liberty,28,42,12,13,False
+401525564,13,Virginia,Virginia Tech,17,55,14,14,False
+401531922,13,App State,Georgia Southern,55,27,14,11,False
+401525905,13,Oklahoma State,BYU,40,34,16,14,False
+401531923,13,Coastal Carolina,James Madison,14,56,12,12,False
+401531924,13,Marshall,Arkansas State,35,21,14,14,False
+401524068,13,Washington,Washington State,24,21,13,12,False
+401520437,13,New Mexico State,Jacksonville State,20,17,12,11,False
+401531928,13,Texas State,South Alabama,52,44,12,13,False
+401524065,13,Stanford,Notre Dame,23,56,14,12,False
+401520429,13,Florida,Florida State,15,24,11,11,False
+401525902,13,Baylor,West Virginia,31,34,10,11,False
+401520441,13,South Carolina,Clemson,7,16,12,12,False
+401525903,13,Cincinnati,Kansas,16,49,11,10,False
+401531410,13,South Florida,Charlotte,48,14,14,13,False
+401520430,13,Georgia Tech,Georgia,23,31,9,9,False
+401525562,13,NC State,North Carolina,39,20,13,12,False
+401525904,13,Kansas State,Iowa State,35,42,13,13,False
+401532630,13,Nevada,Wyoming,6,42,10,10,False
+401524066,13,UCLA,California,7,33,12,11,False
+401532627,13,San Diego State,Fresno State,33,18,11,11,False
+401532626,13,Hawai'i,Colorado State,27,24,10,10,False
+401539476,14,Liberty,New Mexico State,49,35,11,10,False
+401539475,14,Washington,Oregon,34,31,11,10,True
+401539479,14,Texas,Oklahoma State,49,21,11,11,True
+401539481,14,Toledo,Miami (OH),14,23,14,14,True
+401539482,14,UNLV,Boise State,20,44,12,13,False
+401539477,14,Tulane,SMU,14,26,15,14,False
+401539483,14,Alabama,Georgia,27,24,11,11,True
+401539484,14,Troy,App State,49,23,11,13,False
+401539480,14,Iowa,Michigan,0,26,13,14,True
+401539478,14,Florida State,Louisville,16,6,16,16,True
+401520445,15,Army,Navy,17,11,10,11,True
