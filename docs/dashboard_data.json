@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 180,
+    "today_count": 235,
     "total_graded": 12554,
     "since_date": "2026-06-21",
     "brier_score": 0.1005,
@@ -446,20 +446,20 @@
         "p_hr": 0.1863
       },
       {
+        "player_name": "Mookie Betts",
+        "team": "Los Angeles Dodgers",
+        "opponent_pitcher": "Nick Lodolo",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "lineup_spot": 2,
+        "p_hr": 0.1832
+      },
+      {
         "player_name": "Jeremy Pe\u00f1a",
         "team": "Houston Astros",
         "opponent_pitcher": "Andrew Painter",
         "venue": "Citizens Bank Park",
         "lineup_spot": 1,
         "p_hr": 0.1812
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "AJ Smith-Shawver",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1806
       }
     ],
     "calibration": [
@@ -1251,14 +1251,24 @@
     ]
   },
   "k": {
-    "today_count": 23,
+    "today_count": 28,
     "total_graded": 1001,
     "since_date": "2026-06-27",
     "brier_score": 0.1546,
     "naive_brier": 0.25,
-    "avg_lambda": 5.03,
+    "avg_lambda": 5.07,
     "over_rate": 0.236,
     "top10_today": [
+      {
+        "pitcher_name": "Tarik Skubal",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Cincinnati Reds",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 7.45,
+        "p_over": 0.6147,
+        "p_under": 0.3853
+      },
       {
         "pitcher_name": "Jacob Misiorowski",
         "team": "Milwaukee Brewers",
@@ -1340,24 +1350,14 @@
         "p_under": 0.736
       },
       {
-        "pitcher_name": "Bubba Chandler",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
+        "pitcher_name": "Riley Cornelio",
+        "team": "Washington Nationals",
+        "opponent": "San Diego Padres",
+        "venue": "Petco Park",
         "line": 6.5,
-        "lambda_k": 5.02,
-        "p_over": 0.2405,
-        "p_under": 0.7595
-      },
-      {
-        "pitcher_name": "Corbin Burnes",
-        "team": "Arizona Diamondbacks",
-        "opponent": "Kansas City Royals",
-        "venue": "Kauffman Stadium",
-        "line": 6.5,
-        "lambda_k": 4.96,
-        "p_over": 0.2326,
-        "p_under": 0.7674
+        "lambda_k": 5.17,
+        "p_over": 0.2625,
+        "p_under": 0.7375
       }
     ],
     "calibration": [
