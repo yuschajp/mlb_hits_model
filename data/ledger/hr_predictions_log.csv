@@ -12573,6 +12573,7 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-07,823902,680574,Matt McLain,Cincinnati Reds,Los Angeles Dodgers,7,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1689,0.05,3.7,0.0,True
 2026-09-07,823902,699115,Carlos Jorge,Cincinnati Reds,Los Angeles Dodgers,8,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1461,0.0439,3.6,0.0,True
 2026-09-07,823902,663647,Ke'Bryan Hayes,Cincinnati Reds,Los Angeles Dodgers,9,UNIQLO Field at Dodger Stadium,1.02,Emmet Sheehan,0.1379,0.0424,3.5,0.0,True
+2026-09-08,824063,682998,Corbin Carroll,Arizona Diamondbacks,Kansas City Royals,5,Kauffman Stadium,0.85,Michael Wacha,0.1248,0.0342,3.9,,False
 2026-09-08,824792,702616,Jackson Holliday,Baltimore Orioles,Cleveland Guardians,1,Oriole Park at Camden Yards,0.85,Tanner Bibee,0.1218,0.0302,4.3,,False
 2026-09-08,824792,624413,Pete Alonso,Baltimore Orioles,Cleveland Guardians,2,Oriole Park at Camden Yards,0.85,Tanner Bibee,0.2158,0.0579,4.2,,False
 2026-09-08,824792,683002,Gunnar Henderson,Baltimore Orioles,Cleveland Guardians,3,Oriole Park at Camden Yards,0.85,Tanner Bibee,0.1489,0.0393,4.1,,False
@@ -12712,10 +12713,10 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-08,824063,606466,Ketel Marte,Arizona Diamondbacks,Kansas City Royals,2,Kauffman Stadium,0.85,Michael Wacha,0.151,0.039,4.2,,False
 2026-09-08,824063,672515,Gabriel Moreno,Arizona Diamondbacks,Kansas City Royals,3,Kauffman Stadium,0.85,Michael Wacha,0.1236,0.0322,4.1,,False
 2026-09-08,824063,672695,Geraldo Perdomo,Arizona Diamondbacks,Kansas City Royals,4,Kauffman Stadium,0.85,Michael Wacha,0.0905,0.0237,4.0,,False
-2026-09-08,824063,682998,Corbin Carroll,Arizona Diamondbacks,Kansas City Royals,5,Kauffman Stadium,0.85,Michael Wacha,0.1248,0.0342,3.9,,False
-2026-09-08,824063,571448,Nolan Arenado,Arizona Diamondbacks,Kansas City Royals,6,Kauffman Stadium,0.85,Michael Wacha,0.1426,0.0405,3.8,,False
-2026-09-08,824063,694371,Tommy Troy,Arizona Diamondbacks,Kansas City Royals,7,Kauffman Stadium,0.85,Michael Wacha,0.1123,0.0322,3.7,,False
-2026-09-08,824063,694374,Tim Tawa,Arizona Diamondbacks,Kansas City Royals,8,Kauffman Stadium,0.85,Michael Wacha,0.1154,0.0341,3.6,,False
+2026-09-08,824063,571448,Nolan Arenado,Arizona Diamondbacks,Kansas City Royals,5,Kauffman Stadium,0.85,Michael Wacha,0.1461,0.0405,3.9,,False
+2026-09-08,824063,694371,Tommy Troy,Arizona Diamondbacks,Kansas City Royals,6,Kauffman Stadium,0.85,Michael Wacha,0.1152,0.0322,3.8,,False
+2026-09-08,824063,694374,Tim Tawa,Arizona Diamondbacks,Kansas City Royals,7,Kauffman Stadium,0.85,Michael Wacha,0.1184,0.0341,3.7,,False
+2026-09-08,824063,545121,Ildemaro Vargas,Arizona Diamondbacks,Kansas City Royals,8,Kauffman Stadium,0.85,Michael Wacha,0.0903,0.0263,3.6,,False
 2026-09-08,824063,814439,Ryan Waldschmidt,Arizona Diamondbacks,Kansas City Royals,9,Kauffman Stadium,0.85,Michael Wacha,0.0875,0.0262,3.5,,False
 2026-09-08,824551,803011,Sam Antonacci,Chicago White Sox,Pittsburgh Pirates,1,Rate Field,1.07,Bubba Chandler,0.0858,0.0209,4.3,,False
 2026-09-08,824551,678246,Miguel Vargas,Chicago White Sox,Pittsburgh Pirates,2,Rate Field,1.07,Bubba Chandler,0.1491,0.0384,4.2,,False
@@ -12753,3 +12754,57 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-08,823738,807713,Matt Shaw,Chicago Cubs,Milwaukee Brewers,7,American Family Field,1.08,Jacob Misiorowski,0.1058,0.0302,3.7,,False
 2026-09-08,823738,621438,Tyrone Taylor,Chicago Cubs,Milwaukee Brewers,8,American Family Field,1.08,Jacob Misiorowski,0.1071,0.0315,3.6,,False
 2026-09-08,823738,665804,Miguel Amaya,Chicago Cubs,Milwaukee Brewers,9,American Family Field,1.08,Jacob Misiorowski,0.0975,0.0293,3.5,,False
+2026-09-08,823250,665487,Fernando Tatis Jr.,San Diego Padres,Washington Nationals,1,Petco Park,0.85,Riley Cornelio,0.142,0.0356,4.3,,False
+2026-09-08,823250,630105,Jake Cronenworth,San Diego Padres,Washington Nationals,2,Petco Park,0.85,Riley Cornelio,0.0904,0.0226,4.2,,False
+2026-09-08,823250,592518,Manny Machado,San Diego Padres,Washington Nationals,3,Petco Park,0.85,Riley Cornelio,0.1326,0.0347,4.1,,False
+2026-09-08,823250,664034,Ty France,San Diego Padres,Washington Nationals,4,Petco Park,0.85,Riley Cornelio,0.1331,0.0357,4.0,,False
+2026-09-08,823250,701538,Jackson Merrill,San Diego Padres,Washington Nationals,5,Petco Park,0.85,Riley Cornelio,0.123,0.0337,3.9,,False
+2026-09-08,823250,669134,Luis Campusano,San Diego Padres,Washington Nationals,6,Petco Park,0.85,Riley Cornelio,0.1136,0.0317,3.8,,False
+2026-09-08,823250,687957,Dustin Harris,San Diego Padres,Washington Nationals,7,Petco Park,0.85,Riley Cornelio,0.0864,0.0244,3.7,,False
+2026-09-08,823250,593428,Xander Bogaerts,San Diego Padres,Washington Nationals,8,Petco Park,0.85,Riley Cornelio,0.0867,0.0252,3.6,,False
+2026-09-08,823250,666023,Freddy Fermin,San Diego Padres,Washington Nationals,9,Petco Park,0.85,Riley Cornelio,0.0779,0.0232,3.5,,False
+2026-09-08,823250,695578,James Wood,Washington Nationals,San Diego Padres,1,Petco Park,0.85,Casey Mize,0.1559,0.0394,4.3,,False
+2026-09-08,823250,694673,Abimelec Ortiz,Washington Nationals,San Diego Padres,2,Petco Park,0.85,Casey Mize,0.1278,0.0325,4.2,,False
+2026-09-08,823250,686611,Dylan Crews,Washington Nationals,San Diego Padres,3,Petco Park,0.85,Casey Mize,0.1033,0.0266,4.1,,False
+2026-09-08,823250,682928,CJ Abrams,Washington Nationals,San Diego Padres,4,Petco Park,0.85,Casey Mize,0.1392,0.0375,4.0,,False
+2026-09-08,823250,691781,Brady House,Washington Nationals,San Diego Padres,5,Petco Park,0.85,Casey Mize,0.1058,0.0287,3.9,,False
+2026-09-08,823250,695734,Daylen Lile,Washington Nationals,San Diego Padres,6,Petco Park,0.85,Casey Mize,0.1192,0.0334,3.8,,False
+2026-09-08,823250,691002,Yohandy Morales,Washington Nationals,San Diego Padres,7,Petco Park,0.85,Casey Mize,0.1079,0.0309,3.7,,False
+2026-09-08,823250,678391,Jorbit Vivas,Washington Nationals,San Diego Padres,8,Petco Park,0.85,Casey Mize,0.0723,0.0208,3.6,,False
+2026-09-08,823250,695670,Harry Ford,Washington Nationals,San Diego Padres,9,Petco Park,0.85,Casey Mize,0.096,0.0288,3.5,,False
+2026-09-08,823174,813841,Jonah Cox,San Francisco Giants,St. Louis Cardinals,1,Oracle Park,0.78,Quinn Mathews,0.1064,0.0262,4.3,,False
+2026-09-08,823174,646240,Rafael Devers,San Francisco Giants,St. Louis Cardinals,2,Oracle Park,0.78,Quinn Mathews,0.1451,0.0373,4.2,,False
+2026-09-08,823174,805811,Bryce Eldridge,San Francisco Giants,St. Louis Cardinals,3,Oracle Park,0.78,Quinn Mathews,0.1041,0.0268,4.1,,False
+2026-09-08,823174,678545,Osleivis Basabe,San Francisco Giants,St. Louis Cardinals,4,Oracle Park,0.78,Quinn Mathews,0.0913,0.0239,4.0,,False
+2026-09-08,823174,806367,Turner Hill,San Francisco Giants,St. Louis Cardinals,5,Oracle Park,0.78,Quinn Mathews,0.0752,0.0201,3.9,,False
+2026-09-08,823174,668800,Andrew Knizner,San Francisco Giants,St. Louis Cardinals,6,Oracle Park,0.78,Quinn Mathews,0.0849,0.0233,3.8,,False
+2026-09-08,823174,694376,Shay Whitcomb,San Francisco Giants,St. Louis Cardinals,7,Oracle Park,0.78,Quinn Mathews,0.0857,0.0242,3.7,,False
+2026-09-08,823174,687529,Grant McCray,San Francisco Giants,St. Louis Cardinals,8,Oracle Park,0.78,Quinn Mathews,0.0812,0.0235,3.6,,False
+2026-09-08,823174,683766,Christian Koss,San Francisco Giants,St. Louis Cardinals,9,Oracle Park,0.78,Quinn Mathews,0.0777,0.0231,3.5,,False
+2026-09-08,823174,663494,Bryan Torres,St. Louis Cardinals,San Francisco Giants,1,Oracle Park,0.78,Landen Roupp,0.0832,0.0202,4.3,,False
+2026-09-08,823174,671056,Iván Herrera,St. Louis Cardinals,San Francisco Giants,2,Oracle Park,0.78,Landen Roupp,0.0828,0.0206,4.2,,False
+2026-09-08,823174,676475,Alec Burleson,St. Louis Cardinals,San Francisco Giants,3,Oracle Park,0.78,Landen Roupp,0.0978,0.0251,4.1,,False
+2026-09-08,823174,691023,Jordan Walker,St. Louis Cardinals,San Francisco Giants,4,Oracle Park,0.78,Landen Roupp,0.1048,0.0277,4.0,,False
+2026-09-08,823174,699024,Leo Bernal,St. Louis Cardinals,San Francisco Giants,5,Oracle Park,0.78,Landen Roupp,0.0824,0.022,3.9,,False
+2026-09-08,823174,669357,Nolan Gorman,St. Louis Cardinals,San Francisco Giants,6,Oracle Park,0.78,Landen Roupp,0.0861,0.0237,3.8,,False
+2026-09-08,823174,695336,Thomas Saggese,St. Louis Cardinals,San Francisco Giants,7,Oracle Park,0.78,Landen Roupp,0.0852,0.0241,3.7,,False
+2026-09-08,823174,691026,Masyn Winn,St. Louis Cardinals,San Francisco Giants,8,Oracle Park,0.78,Landen Roupp,0.0573,0.0164,3.6,,False
+2026-09-08,823174,701675,Nathan Church,St. Louis Cardinals,San Francisco Giants,9,Oracle Park,0.78,Landen Roupp,0.0646,0.0191,3.5,,False
+2026-09-08,823901,669242,Tommy Edman,Los Angeles Dodgers,Cincinnati Reds,1,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1577,0.0399,4.3,,False
+2026-09-08,823901,605141,Mookie Betts,Los Angeles Dodgers,Cincinnati Reds,2,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1832,0.0482,4.2,,False
+2026-09-08,823901,669257,Will Smith,Los Angeles Dodgers,Cincinnati Reds,3,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1468,0.0387,4.1,,False
+2026-09-08,823901,518692,Freddie Freeman,Los Angeles Dodgers,Cincinnati Reds,4,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1391,0.0374,4.0,,False
+2026-09-08,823901,606192,Teoscar Hernández,Los Angeles Dodgers,Cincinnati Reds,5,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1515,0.0421,3.9,,False
+2026-09-08,823901,500743,Miguel Rojas,Los Angeles Dodgers,Cincinnati Reds,6,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1236,0.0347,3.8,,False
+2026-09-08,823901,669743,Alex Call,Los Angeles Dodgers,Cincinnati Reds,7,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1198,0.0345,3.7,,False
+2026-09-08,823901,571970,Max Muncy,Los Angeles Dodgers,Cincinnati Reds,8,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1812,0.0555,3.6,,False
+2026-09-08,823901,571771,Enrique Hernández,Los Angeles Dodgers,Cincinnati Reds,9,UNIQLO Field at Dodger Stadium,1.02,Nick Lodolo,0.1358,0.0417,3.5,,False
+2026-09-08,823901,667472,Dane Myers,Cincinnati Reds,Los Angeles Dodgers,1,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.1098,0.0271,4.3,,False
+2026-09-08,823901,682829,Elly De La Cruz,Cincinnati Reds,Los Angeles Dodgers,2,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.1323,0.0338,4.2,,False
+2026-09-08,823901,701398,Sal Stewart,Cincinnati Reds,Los Angeles Dodgers,3,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.1426,0.0375,4.1,,False
+2026-09-08,823901,663886,Tyler Stephenson,Cincinnati Reds,Los Angeles Dodgers,4,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.1188,0.0316,4.0,,False
+2026-09-08,823901,553993,Eugenio Suárez,Cincinnati Reds,Los Angeles Dodgers,5,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.1363,0.0376,3.9,,False
+2026-09-08,823901,668709,JJ Bleday,Cincinnati Reds,Los Angeles Dodgers,6,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.1136,0.0317,3.8,,False
+2026-09-08,823901,624431,Jose Trevino,Cincinnati Reds,Los Angeles Dodgers,7,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.0968,0.0275,3.7,,False
+2026-09-08,823901,680574,Matt McLain,Cincinnati Reds,Los Angeles Dodgers,8,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.1095,0.0322,3.6,,False
+2026-09-08,823901,699302,Héctor Rodríguez,Cincinnati Reds,Los Angeles Dodgers,9,UNIQLO Field at Dodger Stadium,1.02,Tarik Skubal,0.1067,0.0323,3.5,,False

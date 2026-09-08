@@ -1022,6 +1022,11 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-08,824551,680732,Sean Burke,Chicago White Sox,Pittsburgh Pirates,Rate Field,1.02,6.5,9.718,8.011,0.244,154.7,30.3,5.52,5.968,0.3885,0.6115,,False
 2026-09-08,823738,656849,David Peterson,Chicago Cubs,Milwaukee Brewers,American Family Field,1.0,6.5,8.008,9.692,0.2157,127.0,26.0,4.65,4.483,0.1667,0.8333,,False
 2026-09-08,823738,694819,Jacob Misiorowski,Milwaukee Brewers,Chicago Cubs,American Family Field,1.02,6.5,13.181,10.286,0.2134,155.0,28.0,5.96,6.803,0.5206,0.4794,,False
+2026-09-08,823250,683000,Riley Cornelio,Washington Nationals,San Diego Padres,Petco Park,0.99,6.5,9.132,10.124,0.2174,22.7,2.7,4.33,5.166,0.2625,0.7375,,False
 2026-09-08,823250,663554,Casey Mize,San Diego Padres,Washington Nationals,Petco Park,0.92,6.5,7.918,5.0,0.2177,113.7,27.0,5.17,4.266,0.1401,0.8599,,False
 2026-09-08,823092,682243,Bryce Miller,Seattle Mariners,Texas Rangers,T-Mobile Park,0.92,6.5,8.666,7.662,0.2258,98.7,24.7,5.48,5.176,0.264,0.736,,False
+2026-09-08,824957,678022,Jack Perkins,Athletics,Toronto Blue Jays,Sutter Health Park,0.93,6.5,10.617,9.851,0.1915,98.3,24.7,4.41,4.42,0.1588,0.8412,,False
+2026-09-08,823174,687273,Quinn Mathews,St. Louis Cardinals,San Francisco Giants,Oracle Park,0.97,6.5,8.757,9.61,0.2135,24.7,19.7,4.93,5.002,0.2381,0.7619,,False
 2026-09-08,823174,694738,Landen Roupp,San Francisco Giants,St. Louis Cardinals,Oracle Park,0.91,6.5,8.523,5.81,0.2079,144.7,26.3,5.36,4.409,0.1575,0.8425,,False
+2026-09-08,823901,666157,Nick Lodolo,Cincinnati Reds,Los Angeles Dodgers,UNIQLO Field at Dodger Stadium,1.05,6.5,7.306,7.657,0.2063,85.0,22.3,5.0,4.207,0.1334,0.8666,,False
+2026-09-08,823901,669373,Tarik Skubal,Los Angeles Dodgers,Cincinnati Reds,UNIQLO Field at Dodger Stadium,0.96,6.5,10.814,10.85,0.254,132.3,35.7,6.02,7.448,0.6147,0.3853,,False
