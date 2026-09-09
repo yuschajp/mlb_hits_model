@@ -387,15 +387,15 @@
         "opponent_pitcher": "Andrew Painter",
         "venue": "Citizens Bank Park",
         "lineup_spot": 2,
-        "p_hr": 0.2295
+        "p_hr": 0.2284
       },
       {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "American Family Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2141
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 2,
+        "p_hr": 0.2224
       },
       {
         "player_name": "Joc Pederson",
@@ -406,28 +406,12 @@
         "p_hr": 0.2131
       },
       {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Tanner Bibee",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 2,
-        "p_hr": 0.2122
-      },
-      {
-        "player_name": "Heriberto Hern\u00e1ndez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Sean Manaea",
-        "venue": "loanDepot park",
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "American Family Field",
         "lineup_spot": 1,
-        "p_hr": 0.2021
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Freddy Peralta",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2005
+        "p_hr": 0.2122
       },
       {
         "player_name": "Junior Caminero",
@@ -435,7 +419,7 @@
         "opponent_pitcher": "AJ Smith-Shawver",
         "venue": "Truist Park",
         "lineup_spot": 3,
-        "p_hr": 0.1964
+        "p_hr": 0.2061
       },
       {
         "player_name": "Kyle Schwarber",
@@ -443,7 +427,23 @@
         "opponent_pitcher": "Hayden Wesneski",
         "venue": "Citizens Bank Park",
         "lineup_spot": 1,
-        "p_hr": 0.1932
+        "p_hr": 0.2041
+      },
+      {
+        "player_name": "Heriberto Hern\u00e1ndez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Sean Manaea",
+        "venue": "loanDepot park",
+        "lineup_spot": 1,
+        "p_hr": 0.2
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Freddy Peralta",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1988
       },
       {
         "player_name": "Kazuma Okamoto",
@@ -459,7 +459,7 @@
         "opponent_pitcher": "Andrew Painter",
         "venue": "Citizens Bank Park",
         "lineup_spot": 1,
-        "p_hr": 0.1873
+        "p_hr": 0.1863
       }
     ],
     "calibration": [
@@ -1256,7 +1256,7 @@
     "since_date": "2026-06-27",
     "brier_score": 0.1546,
     "naive_brier": 0.25,
-    "avg_lambda": 4.99,
+    "avg_lambda": 5.01,
     "over_rate": 0.236,
     "top10_today": [
       {
@@ -1270,34 +1270,24 @@
         "p_under": 0.3853
       },
       {
-        "pitcher_name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "opponent": "Colorado Rockies",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 6.81,
-        "p_over": 0.5215,
-        "p_under": 0.4785
-      },
-      {
         "pitcher_name": "Jacob Misiorowski",
         "team": "Milwaukee Brewers",
         "opponent": "Chicago Cubs",
         "venue": "American Family Field",
         "line": 6.5,
-        "lambda_k": 6.71,
-        "p_over": 0.5059,
-        "p_under": 0.4941
+        "lambda_k": 6.88,
+        "p_over": 0.5319,
+        "p_under": 0.4681
       },
       {
-        "pitcher_name": "Sean Burke",
-        "team": "Chicago White Sox",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "Rate Field",
+        "pitcher_name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "opponent": "Colorado Rockies",
+        "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 5.83,
-        "p_over": 0.366,
-        "p_under": 0.634
+        "lambda_k": 6.88,
+        "p_over": 0.5319,
+        "p_under": 0.4681
       },
       {
         "pitcher_name": "Patrick Sandoval",
@@ -1305,9 +1295,19 @@
         "opponent": "Los Angeles Angels",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 5.82,
-        "p_over": 0.3652,
-        "p_under": 0.6348
+        "lambda_k": 5.93,
+        "p_over": 0.3818,
+        "p_under": 0.6182
+      },
+      {
+        "pitcher_name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.88,
+        "p_over": 0.3747,
+        "p_under": 0.6253
       },
       {
         "pitcher_name": "Reid Detmers",
@@ -1315,9 +1315,9 @@
         "opponent": "Boston Red Sox",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 5.76,
-        "p_over": 0.3554,
-        "p_under": 0.6446
+        "lambda_k": 5.83,
+        "p_over": 0.3664,
+        "p_under": 0.6336
       },
       {
         "pitcher_name": "Tanner Bibee",
@@ -1325,9 +1325,9 @@
         "opponent": "Baltimore Orioles",
         "venue": "Oriole Park at Camden Yards",
         "line": 6.5,
-        "lambda_k": 5.23,
-        "p_over": 0.2724,
-        "p_under": 0.7276
+        "lambda_k": 5.22,
+        "p_over": 0.2706,
+        "p_under": 0.7294
       },
       {
         "pitcher_name": "Bryce Miller",
@@ -1355,9 +1355,9 @@
         "opponent": "Detroit Tigers",
         "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 5.06,
-        "p_over": 0.2462,
-        "p_under": 0.7538
+        "lambda_k": 5.07,
+        "p_over": 0.2478,
+        "p_under": 0.7522
       }
     ],
     "calibration": [
