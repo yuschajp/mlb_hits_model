@@ -403,7 +403,7 @@
         "opponent_pitcher": "Bryce Miller",
         "venue": "T-Mobile Park",
         "lineup_spot": 1,
-        "p_hr": 0.2131
+        "p_hr": 0.2186
       },
       {
         "player_name": "Pete Crow-Armstrong",
@@ -411,7 +411,7 @@
         "opponent_pitcher": "Jacob Misiorowski",
         "venue": "American Family Field",
         "lineup_spot": 1,
-        "p_hr": 0.2122
+        "p_hr": 0.2096
       },
       {
         "player_name": "Junior Caminero",
@@ -419,7 +419,7 @@
         "opponent_pitcher": "AJ Smith-Shawver",
         "venue": "Truist Park",
         "lineup_spot": 3,
-        "p_hr": 0.2061
+        "p_hr": 0.2067
       },
       {
         "player_name": "Kyle Schwarber",
@@ -443,7 +443,7 @@
         "opponent_pitcher": "Freddy Peralta",
         "venue": "Truist Park",
         "lineup_spot": 3,
-        "p_hr": 0.1988
+        "p_hr": 0.1961
       },
       {
         "player_name": "Kazuma Okamoto",
@@ -451,7 +451,7 @@
         "opponent_pitcher": "Jack Perkins",
         "venue": "Sutter Health Park",
         "lineup_spot": 6,
-        "p_hr": 0.1892
+        "p_hr": 0.1882
       },
       {
         "player_name": "Jeremy Pe\u00f1a",
@@ -1256,7 +1256,7 @@
     "since_date": "2026-06-27",
     "brier_score": 0.1546,
     "naive_brier": 0.25,
-    "avg_lambda": 5.01,
+    "avg_lambda": 4.98,
     "over_rate": 0.236,
     "top10_today": [
       {
@@ -1275,9 +1275,9 @@
         "opponent": "Chicago Cubs",
         "venue": "American Family Field",
         "line": 6.5,
-        "lambda_k": 6.88,
-        "p_over": 0.5319,
-        "p_under": 0.4681
+        "lambda_k": 6.93,
+        "p_over": 0.5403,
+        "p_under": 0.4597
       },
       {
         "pitcher_name": "Cam Schlittler",
@@ -1305,9 +1305,9 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "Rate Field",
         "line": 6.5,
-        "lambda_k": 5.88,
-        "p_over": 0.3747,
-        "p_under": 0.6253
+        "lambda_k": 5.87,
+        "p_over": 0.3724,
+        "p_under": 0.6276
       },
       {
         "pitcher_name": "Reid Detmers",
@@ -1330,24 +1330,24 @@
         "p_under": 0.7294
       },
       {
+        "pitcher_name": "Bubba Chandler",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.19,
+        "p_over": 0.2663,
+        "p_under": 0.7337
+      },
+      {
         "pitcher_name": "Bryce Miller",
         "team": "Seattle Mariners",
         "opponent": "Texas Rangers",
         "venue": "T-Mobile Park",
         "line": 6.5,
-        "lambda_k": 5.18,
-        "p_over": 0.264,
-        "p_under": 0.736
-      },
-      {
-        "pitcher_name": "Riley Cornelio",
-        "team": "Washington Nationals",
-        "opponent": "San Diego Padres",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 5.17,
-        "p_over": 0.2625,
-        "p_under": 0.7375
+        "lambda_k": 5.11,
+        "p_over": 0.2533,
+        "p_under": 0.7467
       },
       {
         "pitcher_name": "Dean Kremer",
@@ -1777,12 +1777,12 @@
         "moved": false
       },
       {
-        "player": "De'Von Achane",
+        "player": "Christian McCaffrey",
         "pos": "RB",
-        "team": "MIA",
-        "game": "MIA@LV",
-        "p_td": 0.5064724921068855,
-        "fair": -102,
+        "team": "SF",
+        "game": "SF@LA",
+        "p_td": 0.5022006285824189,
+        "fair": -100,
         "moved": false
       },
       {
@@ -1790,16 +1790,16 @@
         "pos": "RB",
         "team": "LV",
         "game": "MIA@LV",
-        "p_td": 0.5061814684086987,
-        "fair": -102,
+        "p_td": 0.5011691260974183,
+        "fair": -100,
         "moved": false
       },
       {
-        "player": "Christian McCaffrey",
+        "player": "De'Von Achane",
         "pos": "RB",
-        "team": "SF",
-        "game": "SF@LA",
-        "p_td": 0.5022006285824189,
+        "team": "MIA",
+        "game": "MIA@LV",
+        "p_td": 0.5001945542465465,
         "fair": -100,
         "moved": false
       },
