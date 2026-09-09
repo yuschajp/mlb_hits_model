@@ -94,7 +94,7 @@ run_optional "Run NFL O/U"   "data/nfl"                   nfl_props_board.py
 # ── 3. Commit ledger updates ───────────────────────────────────────────────
 echo ""
 echo "── Commit ledger updates ──────────────────────"
-if git diff --quiet data/ledger/ 2>/dev/null; then
+if git diff --quiet data/ledger/ data/cfb/ data/nfl/ 2>/dev/null; then
     echo "  Nothing to commit."
     RESULTS+=("OK    Commit ledger updates (nothing to commit)")
 else
