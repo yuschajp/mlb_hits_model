@@ -89,6 +89,7 @@ run_optional "Run CFB"    "data/cfb/lines_${TODAY}.txt"   cfb_board2.py "$TODAY"
 # data/nfl/lines_current.txt; on days it does not exist the step skips quietly.
 NFL_LINES="${NFL_LINES:-data/nfl/lines_current.txt}"
 run_optional "Run NFL props" "$NFL_LINES"                 nfl_td_board.py "$NFL_LINES"
+run_optional "Run NFL O/U"   "data/nfl"                   nfl_props_board.py
 
 # ── 3. Commit ledger updates ───────────────────────────────────────────────
 echo ""

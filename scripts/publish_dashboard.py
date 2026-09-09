@@ -798,6 +798,57 @@ def summarize_nfl():
                 out["avg_predicted"] = float(g.p_td.mean())
                 out["actual_rate"] = float(g.hit.mean())
                 out["brier"] = float(((g.p_td - g.hit) ** 2).mean())
+
+        # Held-out validation. This is the model's credential and belongs on the
+        # page, not buried in a note -- without it the tab is a ranked list with
+        # no stated reason to trust it. Recomputed from td_features.csv so it
+        # tracks the model rather than going stale as a hard-coded number.
+        pb = NFL_DIR / "props_board.csv"
+        if pb.exists():
+            pr = pd.read_csv(pb)
+            top = []
+            for m, sub in pr.groupby("market"):
+                sub = sub.sort_values("fair", ascending=False).head(12)
+                top += [{"player": r.player, "team": r.team, "market": m,
+                         "exp_opp": float(r.exp_opp), "fair": float(r.fair),
+                         "p25": float(r.p25), "p75": float(r.p75)}
+                        for _, r in sub.iterrows()]
+            out["props"] = top
+        pv = NFL_DIR / "props_validation.json"
+        if pv.exists():
+            out["props_validation"] = json.loads(pv.read_text())
+
+        sv = NFL_DIR / "sides_validation.json"
+        if sv.exists():
+            out["sides"] = json.loads(sv.read_text())
+
+        fp = NFL_DIR / "td_features.csv"
+        if fp.exists():
+            import numpy as np
+            d = pd.read_csv(fp, low_memory=False)
+            d = d[(d.season >= 2024) & (d.games_prior >= 4)].dropna(subset=["p_td", "hit"])
+            if len(d) > 500:
+                pv, yv, n = d.p_td.values, d.hit.values, len(d)
+                order = np.argsort(pv); ys = yv[order]; ranks = np.arange(1, n + 1)
+                n1, n0 = ys.sum(), n - ys.sum()
+                auc = float((ranks[ys == 1].sum() - n1 * (n1 + 1) / 2) / (n1 * n0))
+                dec = pd.qcut(d.p_td, 10, labels=False, duplicates="drop")
+                top = float(d.loc[dec == dec.max(), "hit"].mean())
+                bot = float(d.loc[dec == dec.min(), "hit"].mean())
+                bands = []
+                for a, b in [(0,.05),(.05,.10),(.10,.15),(.15,.20),
+                             (.20,.30),(.30,.45),(.45,1.01)]:
+                    m = (pv >= a) & (pv < b)
+                    if m.sum() < 30:
+                        continue
+                    bands.append({"band": f"{a:.2f}-{b:.2f}", "n": int(m.sum()),
+                                  "pred": float(pv[m].mean()), "obs": float(yv[m].mean())})
+                out["validation"] = {
+                    "n": n, "seasons": f"{int(d.season.min())}-{int(d.season.max())}",
+                    "auc": auc, "brier": float(np.mean((pv - yv) ** 2)),
+                    "predicted": float(pv.mean()), "observed": float(yv.mean()),
+                    "lift": (top / bot) if bot else None, "bands": bands,
+                }
     except Exception as e:
         out["error"] = str(e)
     return out

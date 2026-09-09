@@ -705,6 +705,16 @@
           <span class="footer-note" id="nfl-meta"></span></div>
         <div class="pred-table" id="nfl-board"></div>
       </div>
+      <div class="card">
+        <div class="card-head"><h2>Held-out validation</h2>
+          <span class="footer-note" id="nfl-val-meta"></span></div>
+        <div class="pred-table" id="nfl-validation"></div>
+      </div>
+      <div class="card" style="grid-column:1/-1">
+        <div class="card-head"><h2>Over/under fair lines</h2>
+          <span class="footer-note" id="nfl-props-meta"></span></div>
+        <div class="pred-table" id="nfl-props"></div>
+      </div>
     </div>
   </div>
 </main>
@@ -770,6 +780,61 @@
     if (nfl?.brier != null) meta.push('Brier ' + nfl.brier.toFixed(4));
     if (nfl?.total_graded) meta.push(nfl.total_graded + ' graded');
     document.getElementById('nfl-meta').textContent = meta.join('  \u00b7  ');
+  }
+
+  function renderNFLValidation(v) {
+    const meta = document.getElementById('nfl-val-meta');
+    const el = document.getElementById('nfl-validation');
+    if (!v) {
+      meta.textContent = '';
+      el.innerHTML = '<div style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">Run nfl_td_model.py to generate td_features.csv.</div>';
+      return;
+    }
+    meta.textContent = v.seasons + '  \u00b7  ' + v.n.toLocaleString() + ' rows never tuned on';
+    const sd = window.__nflSides;
+    const sidesRow = sd ? '<tr><td><strong>Spread model</strong></td><td colspan="4">'
+        + '<span class="naive">TESTED AND REJECTED</span> &nbsp;' + sd.record + ' = '
+        + (sd.ats * 100).toFixed(2) + '% ATS on ' + sd.n.toLocaleString()
+        + ' games (z ' + sd.z.toFixed(2) + ', ROI ' + (sd.roi * 100).toFixed(2)
+        + '%). MAE ' + sd.mae_model.toFixed(2) + ' vs market ' + sd.mae_market.toFixed(2)
+        + '. Not bet.</td></tr>' : '';
+    const rows = (v.bands || []).map(b =>
+      '<tr><td>' + b.band + '</td><td>' + b.n.toLocaleString() + '</td><td>'
+      + pct(b.pred) + '</td><td>' + pct(b.obs) + '</td><td>'
+      + (b.obs > 0 ? ((b.pred / b.obs - 1) * 100).toFixed(0) + '%' : '&mdash;')
+      + '</td></tr>').join('');
+    el.innerHTML =
+      '<table class="cal-table"><tbody>'
+      + '<tr><td><strong>AUC</strong></td><td colspan="4">' + v.auc.toFixed(4)
+      + ' &nbsp;<span class="naive">0.50 = no signal</span></td></tr>'
+      + '<tr><td><strong>Brier</strong></td><td colspan="4">' + v.brier.toFixed(5) + '</td></tr>'
+      + '<tr><td><strong>Decile lift</strong></td><td colspan="4">'
+      + (v.lift ? v.lift.toFixed(1) + '&times;' : '&mdash;') + '</td></tr>'
+      + '<tr><td><strong>Calibration</strong></td><td colspan="4">predicted '
+      + pct(v.predicted) + ' vs observed ' + pct(v.observed) + '</td></tr>'
+      + sidesRow
+      + '</tbody></table>'
+      + '<table class="cal-table" style="margin-top:12px"><thead><tr><th>Band</th><th>n</th>'
+      + '<th>Pred</th><th>Obs</th><th>Over</th></tr></thead><tbody>' + rows + '</tbody></table>';
+  }
+
+  function renderNFLProps(rows, val) {
+    const el = document.getElementById('nfl-props');
+    if (!rows || !rows.length) {
+      el.innerHTML = '<div style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">Run nfl_props_board.py.</div>';
+      return;
+    }
+    el.innerHTML = '<table class="cal-table"><thead><tr><th>Player</th><th>Tm</th>'
+      + '<th>Market</th><th>Exp opp</th><th>Fair</th><th>p25&ndash;p75</th></tr></thead><tbody>'
+      + rows.map(r => '<tr><td>' + r.player + '</td><td>' + r.team + '</td><td>'
+          + r.market.replace(/_/g, ' ') + '</td><td>' + r.exp_opp.toFixed(1) + '</td><td><strong>'
+          + r.fair.toFixed(1) + '</strong></td><td>' + r.p25.toFixed(1) + ' &ndash; '
+          + r.p75.toFixed(1) + '</td></tr>').join('') + '</tbody></table>';
+    if (val) {
+      const worst = Math.max(...Object.values(val).map(v => v.worst));
+      document.getElementById('nfl-props-meta').textContent =
+        'PIT calibrated \u00b7 max decile deviation ' + worst.toFixed(1) + 'pp on held-out 2024-25';
+    }
   }
 
   function switchTab(name) {
@@ -1195,6 +1260,9 @@
       // CFB + NFL tabs
       renderCFB(d.cfb);
       renderNFL(d.nfl);
+      window.__nflSides = d.nfl?.sides;
+      renderNFLValidation(d.nfl?.validation);
+      renderNFLProps(d.nfl?.props, d.nfl?.props_validation);
 
       // K tab
       document.getElementById('k-date').textContent = d.generated_at ?? '';

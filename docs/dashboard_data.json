@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08",
+  "generated_at": "2026-09-09",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -373,95 +373,14 @@
     ]
   },
   "hr": {
-    "today_count": 271,
+    "today_count": 0,
     "total_graded": 12554,
     "since_date": "2026-06-21",
     "brier_score": 0.1005,
     "naive_brier": 0.1034,
     "avg_predicted": 0.1241,
     "actual_hr_rate": 0.1154,
-    "top10_today": [
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Andrew Painter",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2295
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "American Family Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2141
-      },
-      {
-        "player_name": "Joc Pederson",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Bryce Miller",
-        "venue": "T-Mobile Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2131
-      },
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Tanner Bibee",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 2,
-        "p_hr": 0.2122
-      },
-      {
-        "player_name": "Heriberto Hern\u00e1ndez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Sean Manaea",
-        "venue": "loanDepot park",
-        "lineup_spot": 1,
-        "p_hr": 0.2021
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Freddy Peralta",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2005
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "AJ Smith-Shawver",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1964
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Hayden Wesneski",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1932
-      },
-      {
-        "player_name": "Kazuma Okamoto",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Jack Perkins",
-        "venue": "Sutter Health Park",
-        "lineup_spot": 6,
-        "p_hr": 0.1892
-      },
-      {
-        "player_name": "Jeremy Pe\u00f1a",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Andrew Painter",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1873
-      }
-    ],
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.00-0.08",
@@ -1251,115 +1170,14 @@
     ]
   },
   "k": {
-    "today_count": 30,
+    "today_count": 0,
     "total_graded": 1001,
     "since_date": "2026-06-27",
     "brier_score": 0.1546,
     "naive_brier": 0.25,
-    "avg_lambda": 4.99,
+    "avg_lambda": null,
     "over_rate": 0.236,
-    "top10_today": [
-      {
-        "pitcher_name": "Tarik Skubal",
-        "team": "Los Angeles Dodgers",
-        "opponent": "Cincinnati Reds",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "line": 6.5,
-        "lambda_k": 7.45,
-        "p_over": 0.6147,
-        "p_under": 0.3853
-      },
-      {
-        "pitcher_name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "opponent": "Colorado Rockies",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 6.81,
-        "p_over": 0.5215,
-        "p_under": 0.4785
-      },
-      {
-        "pitcher_name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "opponent": "Chicago Cubs",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 6.71,
-        "p_over": 0.5059,
-        "p_under": 0.4941
-      },
-      {
-        "pitcher_name": "Sean Burke",
-        "team": "Chicago White Sox",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.83,
-        "p_over": 0.366,
-        "p_under": 0.634
-      },
-      {
-        "pitcher_name": "Patrick Sandoval",
-        "team": "Boston Red Sox",
-        "opponent": "Los Angeles Angels",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 5.82,
-        "p_over": 0.3652,
-        "p_under": 0.6348
-      },
-      {
-        "pitcher_name": "Reid Detmers",
-        "team": "Los Angeles Angels",
-        "opponent": "Boston Red Sox",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 5.76,
-        "p_over": 0.3554,
-        "p_under": 0.6446
-      },
-      {
-        "pitcher_name": "Tanner Bibee",
-        "team": "Cleveland Guardians",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 5.23,
-        "p_over": 0.2724,
-        "p_under": 0.7276
-      },
-      {
-        "pitcher_name": "Bryce Miller",
-        "team": "Seattle Mariners",
-        "opponent": "Texas Rangers",
-        "venue": "T-Mobile Park",
-        "line": 6.5,
-        "lambda_k": 5.18,
-        "p_over": 0.264,
-        "p_under": 0.736
-      },
-      {
-        "pitcher_name": "Riley Cornelio",
-        "team": "Washington Nationals",
-        "opponent": "San Diego Padres",
-        "venue": "Petco Park",
-        "line": 6.5,
-        "lambda_k": 5.17,
-        "p_over": 0.2625,
-        "p_under": 0.7375
-      },
-      {
-        "pitcher_name": "Dean Kremer",
-        "team": "Minnesota Twins",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.06,
-        "p_over": 0.2462,
-        "p_under": 0.7538
-      }
-    ],
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -2101,6 +1919,447 @@
         "moved": true
       }
     ],
-    "week_file": "td_board_w1.csv"
+    "week_file": "td_board_w1.csv",
+    "props": [
+      {
+        "player": "Amon-Ra St. Brown",
+        "team": "DET",
+        "market": "receiving_yards",
+        "exp_opp": 13.1,
+        "fair": 82.6,
+        "p25": 53.5,
+        "p75": 124.8
+      },
+      {
+        "player": "Puka Nacua",
+        "team": "LA",
+        "market": "receiving_yards",
+        "exp_opp": 11.5,
+        "fair": 82.1,
+        "p25": 53.2,
+        "p75": 124.1
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "team": "CIN",
+        "market": "receiving_yards",
+        "exp_opp": 11.0,
+        "fair": 73.1,
+        "p25": 47.4,
+        "p75": 110.5
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "team": "SEA",
+        "market": "receiving_yards",
+        "exp_opp": 10.1,
+        "fair": 67.3,
+        "p25": 43.6,
+        "p75": 101.8
+      },
+      {
+        "player": "A.J. Brown",
+        "team": "NE",
+        "market": "receiving_yards",
+        "exp_opp": 8.2,
+        "fair": 66.4,
+        "p25": 36.2,
+        "p75": 102.6
+      },
+      {
+        "player": "Rashee Rice",
+        "team": "KC",
+        "market": "receiving_yards",
+        "exp_opp": 10.3,
+        "fair": 65.3,
+        "p25": 42.4,
+        "p75": 98.8
+      },
+      {
+        "player": "Justin Jefferson",
+        "team": "MIN",
+        "market": "receiving_yards",
+        "exp_opp": 7.7,
+        "fair": 62.0,
+        "p25": 33.8,
+        "p75": 95.8
+      },
+      {
+        "player": "Jameson Williams",
+        "team": "DET",
+        "market": "receiving_yards",
+        "exp_opp": 7.2,
+        "fair": 60.0,
+        "p25": 32.7,
+        "p75": 92.6
+      },
+      {
+        "player": "Chris Olave",
+        "team": "NO",
+        "market": "receiving_yards",
+        "exp_opp": 9.8,
+        "fair": 59.9,
+        "p25": 38.8,
+        "p75": 90.5
+      },
+      {
+        "player": "George Kittle",
+        "team": "SF",
+        "market": "receiving_yards",
+        "exp_opp": 7.0,
+        "fair": 58.2,
+        "p25": 31.7,
+        "p75": 89.9
+      },
+      {
+        "player": "Trey McBride",
+        "team": "ARI",
+        "market": "receiving_yards",
+        "exp_opp": 10.0,
+        "fair": 56.8,
+        "p25": 36.8,
+        "p75": 85.9
+      },
+      {
+        "player": "Courtland Sutton",
+        "team": "DEN",
+        "market": "receiving_yards",
+        "exp_opp": 8.2,
+        "fair": 56.1,
+        "p25": 30.6,
+        "p75": 86.7
+      },
+      {
+        "player": "Amon-Ra St. Brown",
+        "team": "DET",
+        "market": "receptions",
+        "exp_opp": 13.1,
+        "fair": 8.1,
+        "p25": 5.4,
+        "p75": 10.8
+      },
+      {
+        "player": "Puka Nacua",
+        "team": "LA",
+        "market": "receptions",
+        "exp_opp": 11.5,
+        "fair": 6.9,
+        "p25": 4.6,
+        "p75": 9.3
+      },
+      {
+        "player": "Rashee Rice",
+        "team": "KC",
+        "market": "receptions",
+        "exp_opp": 10.3,
+        "fair": 6.4,
+        "p25": 4.2,
+        "p75": 8.5
+      },
+      {
+        "player": "Trey McBride",
+        "team": "ARI",
+        "market": "receptions",
+        "exp_opp": 10.0,
+        "fair": 6.3,
+        "p25": 4.2,
+        "p75": 8.4
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "team": "CIN",
+        "market": "receptions",
+        "exp_opp": 11.0,
+        "fair": 6.2,
+        "p25": 4.2,
+        "p75": 8.3
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "team": "SEA",
+        "market": "receptions",
+        "exp_opp": 10.1,
+        "fair": 6.0,
+        "p25": 4.0,
+        "p75": 8.0
+      },
+      {
+        "player": "Chris Olave",
+        "team": "NO",
+        "market": "receptions",
+        "exp_opp": 9.8,
+        "fair": 5.2,
+        "p25": 3.5,
+        "p75": 7.0
+      },
+      {
+        "player": "Wan'Dale Robinson",
+        "team": "TEN",
+        "market": "receptions",
+        "exp_opp": 9.1,
+        "fair": 5.2,
+        "p25": 3.5,
+        "p75": 7.0
+      },
+      {
+        "player": "Bijan Robinson",
+        "team": "ATL",
+        "market": "receptions",
+        "exp_opp": 7.9,
+        "fair": 5.2,
+        "p25": 3.3,
+        "p75": 7.4
+      },
+      {
+        "player": "Colston Loveland",
+        "team": "CHI",
+        "market": "receptions",
+        "exp_opp": 7.9,
+        "fair": 4.9,
+        "p25": 3.1,
+        "p75": 6.9
+      },
+      {
+        "player": "Harold Fannin Jr.",
+        "team": "CLE",
+        "market": "receptions",
+        "exp_opp": 7.9,
+        "fair": 4.7,
+        "p25": 3.0,
+        "p75": 6.7
+      },
+      {
+        "player": "Malik Nabers",
+        "team": "NYG",
+        "market": "receptions",
+        "exp_opp": 8.4,
+        "fair": 4.7,
+        "p25": 3.0,
+        "p75": 6.6
+      },
+      {
+        "player": "Derrick Henry",
+        "team": "BAL",
+        "market": "rushing_yards",
+        "exp_opp": 20.4,
+        "fair": 84.5,
+        "p25": 49.6,
+        "p75": 128.4
+      },
+      {
+        "player": "Saquon Barkley",
+        "team": "PHI",
+        "market": "rushing_yards",
+        "exp_opp": 19.7,
+        "fair": 75.4,
+        "p25": 44.2,
+        "p75": 114.5
+      },
+      {
+        "player": "Jonathan Taylor",
+        "team": "IND",
+        "market": "rushing_yards",
+        "exp_opp": 18.3,
+        "fair": 74.8,
+        "p25": 43.9,
+        "p75": 113.6
+      },
+      {
+        "player": "Bijan Robinson",
+        "team": "ATL",
+        "market": "rushing_yards",
+        "exp_opp": 17.3,
+        "fair": 70.2,
+        "p25": 41.2,
+        "p75": 106.7
+      },
+      {
+        "player": "Christian McCaffrey",
+        "team": "SF",
+        "market": "rushing_yards",
+        "exp_opp": 17.8,
+        "fair": 69.1,
+        "p25": 40.5,
+        "p75": 105.0
+      },
+      {
+        "player": "J.K. Dobbins",
+        "team": "DEN",
+        "market": "rushing_yards",
+        "exp_opp": 15.0,
+        "fair": 64.6,
+        "p25": 37.9,
+        "p75": 98.1
+      },
+      {
+        "player": "Bucky Irving",
+        "team": "TB",
+        "market": "rushing_yards",
+        "exp_opp": 16.8,
+        "fair": 63.5,
+        "p25": 37.3,
+        "p75": 96.5
+      },
+      {
+        "player": "Aaron Jones",
+        "team": "MIN",
+        "market": "rushing_yards",
+        "exp_opp": 15.7,
+        "fair": 63.4,
+        "p25": 37.2,
+        "p75": 96.3
+      },
+      {
+        "player": "Tony Pollard",
+        "team": "TEN",
+        "market": "rushing_yards",
+        "exp_opp": 16.1,
+        "fair": 61.8,
+        "p25": 36.3,
+        "p75": 93.9
+      },
+      {
+        "player": "James Cook",
+        "team": "BUF",
+        "market": "rushing_yards",
+        "exp_opp": 14.5,
+        "fair": 61.1,
+        "p25": 35.8,
+        "p75": 92.8
+      },
+      {
+        "player": "Jahmyr Gibbs",
+        "team": "DET",
+        "market": "rushing_yards",
+        "exp_opp": 13.6,
+        "fair": 59.7,
+        "p25": 35.0,
+        "p75": 90.7
+      },
+      {
+        "player": "De'Von Achane",
+        "team": "MIA",
+        "market": "rushing_yards",
+        "exp_opp": 12.6,
+        "fair": 58.6,
+        "p25": 34.3,
+        "p75": 89.0
+      }
+    ],
+    "props_validation": {
+      "receptions": {
+        "n": 5231,
+        "worst": 1.0915694895813424,
+        "deciles": [
+          9.653985853565283,
+          9.845153890269547,
+          10.380424393041483,
+          10.2466067673485,
+          10.55247562607532,
+          8.908430510418658,
+          9.921621104951251,
+          10.76276046645001,
+          9.864270693939973,
+          9.864270693939973
+        ]
+      },
+      "receiving_yards": {
+        "n": 5231,
+        "worst": 0.877461288472567,
+        "deciles": [
+          9.577518638883578,
+          9.653985853565283,
+          10.476008411393616,
+          9.82603708659912,
+          9.405467405849741,
+          9.998088319632958,
+          10.093672337985089,
+          10.877461288472567,
+          10.533358822404894,
+          9.558401835213152
+        ]
+      },
+      "rushing_yards": {
+        "n": 1711,
+        "worst": 1.642314436002339,
+        "deciles": [
+          8.357685563997661,
+          9.818819403857393,
+          10.929281122150789,
+          9.585037989479837,
+          10.578609000584454,
+          11.221507890122735,
+          10.461718293395675,
+          11.104617182933957,
+          8.416130917592051,
+          9.526592635885448
+        ]
+      }
+    },
+    "sides": {
+      "tested": "2026-09-09",
+      "n": 4254,
+      "record": "2132-2122",
+      "ats": 0.5011753643629525,
+      "z": -2.9512794390330246,
+      "roi": -0.04320611189468737,
+      "mae_model": 10.513215587491146,
+      "mae_market": 10.054205821682329,
+      "seasons": "2010-2025",
+      "verdict": "NO EDGE -- do not bet"
+    },
+    "validation": {
+      "n": 11180,
+      "seasons": "2024-2025",
+      "auc": 0.7370921803740497,
+      "brier": 0.13664442966434842,
+      "predicted": 0.18471910899309812,
+      "observed": 0.1904293381037567,
+      "lift": 12.547619047619046,
+      "bands": [
+        {
+          "band": "0.00-0.05",
+          "n": 1601,
+          "pred": 0.029603664546154606,
+          "obs": 0.038101186758276076
+        },
+        {
+          "band": "0.05-0.10",
+          "n": 2098,
+          "pred": 0.07469200498569493,
+          "obs": 0.0776930409914204
+        },
+        {
+          "band": "0.10-0.15",
+          "n": 1795,
+          "pred": 0.12360463743494791,
+          "obs": 0.1275766016713092
+        },
+        {
+          "band": "0.15-0.20",
+          "n": 1497,
+          "pred": 0.1743309090587592,
+          "obs": 0.19505678022712092
+        },
+        {
+          "band": "0.20-0.30",
+          "n": 2040,
+          "pred": 0.24616867694799077,
+          "obs": 0.2446078431372549
+        },
+        {
+          "band": "0.30-0.45",
+          "n": 1569,
+          "pred": 0.3621128496944322,
+          "obs": 0.3715742511153601
+        },
+        {
+          "band": "0.45-1.01",
+          "n": 580,
+          "pred": 0.530823255074649,
+          "obs": 0.5206896551724138
+        }
+      ]
+    }
   }
 }
