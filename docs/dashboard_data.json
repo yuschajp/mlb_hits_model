@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08",
+  "generated_at": "2026-09-09",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -373,131 +373,50 @@
     ]
   },
   "hr": {
-    "today_count": 271,
-    "total_graded": 12554,
+    "today_count": 0,
+    "total_graded": 12824,
     "since_date": "2026-06-21",
-    "brier_score": 0.1005,
+    "brier_score": 0.1007,
     "naive_brier": 0.1034,
-    "avg_predicted": 0.1241,
-    "actual_hr_rate": 0.1154,
-    "top10_today": [
-      {
-        "player_name": "Yordan Alvarez",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Andrew Painter",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2284
-      },
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Tanner Bibee",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 2,
-        "p_hr": 0.2224
-      },
-      {
-        "player_name": "Joc Pederson",
-        "team": "Texas Rangers",
-        "opponent_pitcher": "Bryce Miller",
-        "venue": "T-Mobile Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2186
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Jacob Misiorowski",
-        "venue": "American Family Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2096
-      },
-      {
-        "player_name": "Junior Caminero",
-        "team": "Tampa Bay Rays",
-        "opponent_pitcher": "AJ Smith-Shawver",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2067
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Hayden Wesneski",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2041
-      },
-      {
-        "player_name": "Heriberto Hern\u00e1ndez",
-        "team": "Miami Marlins",
-        "opponent_pitcher": "Sean Manaea",
-        "venue": "loanDepot park",
-        "lineup_spot": 1,
-        "p_hr": 0.2
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Freddy Peralta",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1961
-      },
-      {
-        "player_name": "Kazuma Okamoto",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Jack Perkins",
-        "venue": "Sutter Health Park",
-        "lineup_spot": 6,
-        "p_hr": 0.1882
-      },
-      {
-        "player_name": "Jeremy Pe\u00f1a",
-        "team": "Houston Astros",
-        "opponent_pitcher": "Andrew Painter",
-        "venue": "Citizens Bank Park",
-        "lineup_spot": 1,
-        "p_hr": 0.1863
-      }
-    ],
+    "avg_predicted": 0.124,
+    "actual_hr_rate": 0.1157,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.00-0.08",
-        "n": 1013,
+        "n": 1027,
         "predicted": 0.071,
-        "actual": 0.058
+        "actual": 0.057
       },
       {
         "range": "0.08-0.10",
-        "n": 2412,
+        "n": 2475,
         "predicted": 0.091,
         "actual": 0.07
       },
       {
         "range": "0.10-0.12",
-        "n": 3183,
+        "n": 3259,
         "predicted": 0.11,
         "actual": 0.102
       },
       {
         "range": "0.12-0.15",
-        "n": 3294,
+        "n": 3361,
         "predicted": 0.134,
-        "actual": 0.13
+        "actual": 0.131
       },
       {
         "range": "0.15-0.20",
-        "n": 2153,
+        "n": 2196,
         "predicted": 0.169,
-        "actual": 0.162
+        "actual": 0.163
       },
       {
         "range": "0.20-1.00",
-        "n": 499,
+        "n": 506,
         "predicted": 0.226,
-        "actual": 0.236
+        "actual": 0.237
       }
     ],
     "returns": [
@@ -934,6 +853,13 @@
         "n_wins": 6,
         "daily_pnl": -6.0,
         "cumulative_pnl": -550.5
+      },
+      {
+        "date": "2026-09-08",
+        "n_bets": 50,
+        "n_wins": 12,
+        "daily_pnl": 4.0,
+        "cumulative_pnl": -546.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1247,143 +1173,47 @@
         "date": "2026-09-07",
         "brier": 0.099,
         "n": 1454
+      },
+      {
+        "date": "2026-09-08",
+        "brier": 0.0991,
+        "n": 1454
       }
     ]
   },
   "k": {
-    "today_count": 30,
-    "total_graded": 1001,
+    "today_count": 0,
+    "total_graded": 1031,
     "since_date": "2026-06-27",
-    "brier_score": 0.1546,
+    "brier_score": 0.1538,
     "naive_brier": 0.25,
-    "avg_lambda": 4.98,
-    "over_rate": 0.236,
-    "top10_today": [
-      {
-        "pitcher_name": "Tarik Skubal",
-        "team": "Los Angeles Dodgers",
-        "opponent": "Cincinnati Reds",
-        "venue": "UNIQLO Field at Dodger Stadium",
-        "line": 6.5,
-        "lambda_k": 7.45,
-        "p_over": 0.6147,
-        "p_under": 0.3853
-      },
-      {
-        "pitcher_name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "opponent": "Chicago Cubs",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 6.93,
-        "p_over": 0.5403,
-        "p_under": 0.4597
-      },
-      {
-        "pitcher_name": "Cam Schlittler",
-        "team": "New York Yankees",
-        "opponent": "Colorado Rockies",
-        "venue": "Yankee Stadium",
-        "line": 6.5,
-        "lambda_k": 6.88,
-        "p_over": 0.5319,
-        "p_under": 0.4681
-      },
-      {
-        "pitcher_name": "Patrick Sandoval",
-        "team": "Boston Red Sox",
-        "opponent": "Los Angeles Angels",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 5.93,
-        "p_over": 0.3818,
-        "p_under": 0.6182
-      },
-      {
-        "pitcher_name": "Sean Burke",
-        "team": "Chicago White Sox",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.87,
-        "p_over": 0.3724,
-        "p_under": 0.6276
-      },
-      {
-        "pitcher_name": "Reid Detmers",
-        "team": "Los Angeles Angels",
-        "opponent": "Boston Red Sox",
-        "venue": "Fenway Park",
-        "line": 6.5,
-        "lambda_k": 5.83,
-        "p_over": 0.3664,
-        "p_under": 0.6336
-      },
-      {
-        "pitcher_name": "Tanner Bibee",
-        "team": "Cleveland Guardians",
-        "opponent": "Baltimore Orioles",
-        "venue": "Oriole Park at Camden Yards",
-        "line": 6.5,
-        "lambda_k": 5.22,
-        "p_over": 0.2706,
-        "p_under": 0.7294
-      },
-      {
-        "pitcher_name": "Bubba Chandler",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.19,
-        "p_over": 0.2663,
-        "p_under": 0.7337
-      },
-      {
-        "pitcher_name": "Bryce Miller",
-        "team": "Seattle Mariners",
-        "opponent": "Texas Rangers",
-        "venue": "T-Mobile Park",
-        "line": 6.5,
-        "lambda_k": 5.11,
-        "p_over": 0.2533,
-        "p_under": 0.7467
-      },
-      {
-        "pitcher_name": "Dean Kremer",
-        "team": "Minnesota Twins",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
-        "line": 6.5,
-        "lambda_k": 5.07,
-        "p_over": 0.2478,
-        "p_under": 0.7522
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.235,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 378,
-        "predicted": 0.142,
-        "actual": 0.098
+        "n": 394,
+        "predicted": 0.143,
+        "actual": 0.096
       },
       {
         "range": "0.2-0.4",
-        "n": 501,
+        "n": 512,
         "predicted": 0.279,
-        "actual": 0.251
+        "actual": 0.252
       },
       {
         "range": "0.4-0.6",
-        "n": 109,
-        "predicted": 0.472,
-        "actual": 0.569
+        "n": 111,
+        "predicted": 0.473,
+        "actual": 0.577
       },
       {
         "range": "0.6-0.8",
-        "n": 13,
-        "predicted": 0.661,
-        "actual": 0.846
+        "n": 14,
+        "predicted": 0.658,
+        "actual": 0.786
       }
     ],
     "trend": [
@@ -1596,6 +1426,11 @@
         "date": "2026-09-07",
         "brier": 0.1867,
         "n": 49
+      },
+      {
+        "date": "2026-09-08",
+        "brier": 0.1639,
+        "n": 79
       }
     ]
   },
@@ -1777,15 +1612,6 @@
         "moved": false
       },
       {
-        "player": "Christian McCaffrey",
-        "pos": "RB",
-        "team": "SF",
-        "game": "SF@LA",
-        "p_td": 0.5022006285824189,
-        "fair": -100,
-        "moved": false
-      },
-      {
         "player": "Ashton Jeanty",
         "pos": "RB",
         "team": "LV",
@@ -1801,6 +1627,15 @@
         "game": "MIA@LV",
         "p_td": 0.5001945542465465,
         "fair": -100,
+        "moved": false
+      },
+      {
+        "player": "Christian McCaffrey",
+        "pos": "RB",
+        "team": "SF",
+        "game": "SF@LA",
+        "p_td": 0.497276494927469,
+        "fair": 101,
         "moved": false
       },
       {
@@ -1844,8 +1679,8 @@
         "pos": "RB",
         "team": "LA",
         "game": "SF@LA",
-        "p_td": 0.4814958574175327,
-        "fair": 107,
+        "p_td": 0.4774674543467808,
+        "fair": 109,
         "moved": false
       },
       {
@@ -2006,18 +1841,9 @@
         "pos": "WR",
         "team": "LA",
         "game": "SF@LA",
-        "p_td": 0.3620141568591627,
-        "fair": 176,
+        "p_td": 0.3586265457039366,
+        "fair": 178,
         "moved": false
-      },
-      {
-        "player": "Mike Evans",
-        "pos": "WR",
-        "team": "SF",
-        "game": "SF@LA",
-        "p_td": 0.3583969850911194,
-        "fair": 179,
-        "moved": true
       },
       {
         "player": "Javonte Williams",
@@ -2027,6 +1853,15 @@
         "p_td": 0.3575316293644517,
         "fair": 179,
         "moved": false
+      },
+      {
+        "player": "Mike Evans",
+        "pos": "WR",
+        "team": "SF",
+        "game": "SF@LA",
+        "p_td": 0.354366512649419,
+        "fair": 182,
+        "moved": true
       },
       {
         "player": "TreVeyon Henderson",
