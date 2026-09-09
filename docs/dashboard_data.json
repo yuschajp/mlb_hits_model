@@ -387,7 +387,7 @@
         "opponent_pitcher": "Andrew Painter",
         "venue": "Citizens Bank Park",
         "lineup_spot": 2,
-        "p_hr": 0.2242
+        "p_hr": 0.2295
       },
       {
         "player_name": "Pete Crow-Armstrong",
@@ -395,15 +395,7 @@
         "opponent_pitcher": "Jacob Misiorowski",
         "venue": "American Family Field",
         "lineup_spot": 1,
-        "p_hr": 0.2158
-      },
-      {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Tanner Bibee",
-        "venue": "Oriole Park at Camden Yards",
-        "lineup_spot": 2,
-        "p_hr": 0.2136
+        "p_hr": 0.2141
       },
       {
         "player_name": "Joc Pederson",
@@ -414,12 +406,20 @@
         "p_hr": 0.2131
       },
       {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 2,
+        "p_hr": 0.2122
+      },
+      {
         "player_name": "Heriberto Hern\u00e1ndez",
         "team": "Miami Marlins",
         "opponent_pitcher": "Sean Manaea",
         "venue": "loanDepot park",
         "lineup_spot": 1,
-        "p_hr": 0.2029
+        "p_hr": 0.2021
       },
       {
         "player_name": "Matt Olson",
@@ -427,7 +427,7 @@
         "opponent_pitcher": "Freddy Peralta",
         "venue": "Truist Park",
         "lineup_spot": 3,
-        "p_hr": 0.2007
+        "p_hr": 0.2005
       },
       {
         "player_name": "Junior Caminero",
@@ -435,7 +435,7 @@
         "opponent_pitcher": "AJ Smith-Shawver",
         "venue": "Truist Park",
         "lineup_spot": 3,
-        "p_hr": 0.1983
+        "p_hr": 0.1964
       },
       {
         "player_name": "Kyle Schwarber",
@@ -443,7 +443,7 @@
         "opponent_pitcher": "Hayden Wesneski",
         "venue": "Citizens Bank Park",
         "lineup_spot": 1,
-        "p_hr": 0.195
+        "p_hr": 0.1932
       },
       {
         "player_name": "Kazuma Okamoto",
@@ -454,12 +454,12 @@
         "p_hr": 0.1892
       },
       {
-        "player_name": "Ben Rice",
-        "team": "New York Yankees",
-        "opponent_pitcher": "Gabriel Hughes",
-        "venue": "Yankee Stadium",
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citizens Bank Park",
         "lineup_spot": 1,
-        "p_hr": 0.185
+        "p_hr": 0.1873
       }
     ],
     "calibration": [
@@ -1256,7 +1256,7 @@
     "since_date": "2026-06-27",
     "brier_score": 0.1546,
     "naive_brier": 0.25,
-    "avg_lambda": 5.0,
+    "avg_lambda": 4.99,
     "over_rate": 0.236,
     "top10_today": [
       {
@@ -1270,24 +1270,24 @@
         "p_under": 0.3853
       },
       {
-        "pitcher_name": "Jacob Misiorowski",
-        "team": "Milwaukee Brewers",
-        "opponent": "Chicago Cubs",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 6.8,
-        "p_over": 0.5206,
-        "p_under": 0.4794
-      },
-      {
         "pitcher_name": "Cam Schlittler",
         "team": "New York Yankees",
         "opponent": "Colorado Rockies",
         "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 6.66,
-        "p_over": 0.4992,
-        "p_under": 0.5008
+        "lambda_k": 6.81,
+        "p_over": 0.5215,
+        "p_under": 0.4785
+      },
+      {
+        "pitcher_name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "opponent": "Chicago Cubs",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 6.71,
+        "p_over": 0.5059,
+        "p_under": 0.4941
       },
       {
         "pitcher_name": "Sean Burke",
@@ -1295,9 +1295,9 @@
         "opponent": "Pittsburgh Pirates",
         "venue": "Rate Field",
         "line": 6.5,
-        "lambda_k": 5.97,
-        "p_over": 0.3885,
-        "p_under": 0.6115
+        "lambda_k": 5.83,
+        "p_over": 0.366,
+        "p_under": 0.634
       },
       {
         "pitcher_name": "Patrick Sandoval",
@@ -1305,9 +1305,9 @@
         "opponent": "Los Angeles Angels",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 5.73,
-        "p_over": 0.3509,
-        "p_under": 0.6491
+        "lambda_k": 5.82,
+        "p_over": 0.3652,
+        "p_under": 0.6348
       },
       {
         "pitcher_name": "Reid Detmers",
@@ -1315,9 +1315,9 @@
         "opponent": "Boston Red Sox",
         "venue": "Fenway Park",
         "line": 6.5,
-        "lambda_k": 5.61,
-        "p_over": 0.3317,
-        "p_under": 0.6683
+        "lambda_k": 5.76,
+        "p_over": 0.3554,
+        "p_under": 0.6446
       },
       {
         "pitcher_name": "Tanner Bibee",
@@ -1325,9 +1325,9 @@
         "opponent": "Baltimore Orioles",
         "venue": "Oriole Park at Camden Yards",
         "line": 6.5,
-        "lambda_k": 5.22,
-        "p_over": 0.2707,
-        "p_under": 0.7293
+        "lambda_k": 5.23,
+        "p_over": 0.2724,
+        "p_under": 0.7276
       },
       {
         "pitcher_name": "Bryce Miller",
@@ -1355,9 +1355,9 @@
         "opponent": "Detroit Tigers",
         "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 5.08,
-        "p_over": 0.249,
-        "p_under": 0.751
+        "lambda_k": 5.06,
+        "p_over": 0.2462,
+        "p_under": 0.7538
       }
     ],
     "calibration": [
@@ -1745,8 +1745,8 @@
         "pos": "RB",
         "team": "BAL",
         "game": "BAL@IND",
-        "p_td": 0.7079694125504636,
-        "fair": -242,
+        "p_td": 0.7122751426880884,
+        "fair": -247,
         "moved": false
       },
       {
@@ -1754,8 +1754,8 @@
         "pos": "RB",
         "team": "DET",
         "game": "NO@DET",
-        "p_td": 0.5876315101419517,
-        "fair": -142,
+        "p_td": 0.5915047921977385,
+        "fair": -144,
         "moved": false
       },
       {
@@ -1763,8 +1763,8 @@
         "pos": "WR",
         "team": "CIN",
         "game": "TB@CIN",
-        "p_td": 0.5534870405182938,
-        "fair": -123,
+        "p_td": 0.5575199121900771,
+        "fair": -125,
         "moved": false
       },
       {
@@ -1772,8 +1772,8 @@
         "pos": "RB",
         "team": "IND",
         "game": "BAL@IND",
-        "p_td": 0.5204946868198375,
-        "fair": -108,
+        "p_td": 0.5255851139038543,
+        "fair": -110,
         "moved": false
       },
       {
@@ -1781,8 +1781,8 @@
         "pos": "RB",
         "team": "MIA",
         "game": "MIA@LV",
-        "p_td": 0.5126715742762491,
-        "fair": -105,
+        "p_td": 0.5064724921068855,
+        "fair": -102,
         "moved": false
       },
       {
@@ -1790,17 +1790,8 @@
         "pos": "RB",
         "team": "LV",
         "game": "MIA@LV",
-        "p_td": 0.5111434458032109,
-        "fair": -104,
-        "moved": false
-      },
-      {
-        "player": "Bijan Robinson",
-        "pos": "RB",
-        "team": "ATL",
-        "game": "ATL@PIT",
-        "p_td": 0.5088070335876687,
-        "fair": -103,
+        "p_td": 0.5061814684086987,
+        "fair": -102,
         "moved": false
       },
       {
@@ -1813,12 +1804,12 @@
         "moved": false
       },
       {
-        "player": "Omarion Hampton",
+        "player": "Bijan Robinson",
         "pos": "RB",
-        "team": "LAC",
-        "game": "ARI@LAC",
-        "p_td": 0.4924562120128856,
-        "fair": 103,
+        "team": "ATL",
+        "game": "ATL@PIT",
+        "p_td": 0.4967986320889658,
+        "fair": 101,
         "moved": false
       },
       {
@@ -1826,8 +1817,17 @@
         "pos": "RB",
         "team": "CIN",
         "game": "TB@CIN",
-        "p_td": 0.4916564367739233,
-        "fair": 103,
+        "p_td": 0.495512064474548,
+        "fair": 101,
+        "moved": false
+      },
+      {
+        "player": "Omarion Hampton",
+        "pos": "RB",
+        "team": "LAC",
+        "game": "ARI@LAC",
+        "p_td": 0.488814952906424,
+        "fair": 104,
         "moved": false
       },
       {
@@ -1835,8 +1835,8 @@
         "pos": "WR",
         "team": "DET",
         "game": "NO@DET",
-        "p_td": 0.4838930215656201,
-        "fair": 106,
+        "p_td": 0.4875170262778459,
+        "fair": 105,
         "moved": false
       },
       {
@@ -1853,8 +1853,8 @@
         "pos": "RB",
         "team": "PHI",
         "game": "WAS@PHI",
-        "p_td": 0.4639603049557946,
-        "fair": 115,
+        "p_td": 0.4598110487262875,
+        "fair": 117,
         "moved": false
       },
       {
@@ -1867,30 +1867,12 @@
         "moved": false
       },
       {
-        "player": "DK Metcalf",
-        "pos": "WR",
-        "team": "PIT",
-        "game": "ATL@PIT",
-        "p_td": 0.4333595583891733,
-        "fair": 130,
-        "moved": false
-      },
-      {
-        "player": "Aaron Jones",
-        "pos": "RB",
-        "team": "MIN",
-        "game": "GB@MIN",
-        "p_td": 0.4333012887352035,
-        "fair": 130,
-        "moved": false
-      },
-      {
         "player": "Colston Loveland",
         "pos": "TE",
         "team": "CHI",
         "game": "CHI@CAR",
-        "p_td": 0.4321323866008999,
-        "fair": 131,
+        "p_td": 0.4361415745031797,
+        "fair": 129,
         "moved": false
       },
       {
@@ -1903,12 +1885,30 @@
         "moved": true
       },
       {
+        "player": "Aaron Jones",
+        "pos": "RB",
+        "team": "MIN",
+        "game": "GB@MIN",
+        "p_td": 0.4290987618740922,
+        "fair": 133,
+        "moved": false
+      },
+      {
+        "player": "DK Metcalf",
+        "pos": "WR",
+        "team": "PIT",
+        "game": "ATL@PIT",
+        "p_td": 0.4244559090479667,
+        "fair": 135,
+        "moved": false
+      },
+      {
         "player": "Tucker Kraft",
         "pos": "TE",
         "team": "GB",
         "game": "GB@MIN",
-        "p_td": 0.4251770772062607,
-        "fair": 135,
+        "p_td": 0.4206683194510546,
+        "fair": 137,
         "moved": false
       },
       {
@@ -1925,8 +1925,17 @@
         "pos": "RB",
         "team": "TB",
         "game": "TB@CIN",
-        "p_td": 0.4110950260790248,
-        "fair": 143,
+        "p_td": 0.4069152836282451,
+        "fair": 145,
+        "moved": false
+      },
+      {
+        "player": "Tee Higgins",
+        "pos": "WR",
+        "team": "CIN",
+        "game": "TB@CIN",
+        "p_td": 0.4068393594297236,
+        "fair": 145,
         "moved": false
       },
       {
@@ -1939,12 +1948,12 @@
         "moved": false
       },
       {
-        "player": "Tee Higgins",
-        "pos": "WR",
-        "team": "CIN",
-        "game": "TB@CIN",
-        "p_td": 0.4033819851717718,
-        "fair": 147,
+        "player": "D'Andre Swift",
+        "pos": "RB",
+        "team": "CHI",
+        "game": "CHI@CAR",
+        "p_td": 0.3986344695904316,
+        "fair": 150,
         "moved": false
       },
       {
@@ -1952,16 +1961,7 @@
         "pos": "RB",
         "team": "NYG",
         "game": "DAL@NYG",
-        "p_td": 0.3993755936132542,
-        "fair": 150,
-        "moved": false
-      },
-      {
-        "player": "D'Andre Swift",
-        "pos": "RB",
-        "team": "CHI",
-        "game": "CHI@CAR",
-        "p_td": 0.3948407162326819,
+        "p_td": 0.3950999440295298,
         "fair": 153,
         "moved": false
       },
@@ -1970,8 +1970,8 @@
         "pos": "RB",
         "team": "TB",
         "game": "TB@CIN",
-        "p_td": 0.3930028181018601,
-        "fair": 154,
+        "p_td": 0.3889416904400319,
+        "fair": 157,
         "moved": true
       },
       {
@@ -1984,20 +1984,20 @@
         "moved": false
       },
       {
-        "player": "Christian Watson",
-        "pos": "WR",
-        "team": "GB",
-        "game": "GB@MIN",
-        "p_td": 0.3664191424257076,
-        "fair": 172,
-        "moved": false
-      },
-      {
         "player": "RJ Harvey",
         "pos": "RB",
         "team": "DEN",
         "game": "DEN@KC",
         "p_td": 0.3634929025718052,
+        "fair": 175,
+        "moved": false
+      },
+      {
+        "player": "Christian Watson",
+        "pos": "WR",
+        "team": "GB",
+        "game": "GB@MIN",
+        "p_td": 0.3623258579989094,
         "fair": 175,
         "moved": false
       },
@@ -2011,24 +2011,6 @@
         "moved": false
       },
       {
-        "player": "Javonte Williams",
-        "pos": "RB",
-        "team": "DAL",
-        "game": "DAL@NYG",
-        "p_td": 0.3609527102458755,
-        "fair": 177,
-        "moved": false
-      },
-      {
-        "player": "Rico Dowdle",
-        "pos": "RB",
-        "team": "PIT",
-        "game": "ATL@PIT",
-        "p_td": 0.3590937824871473,
-        "fair": 178,
-        "moved": true
-      },
-      {
         "player": "Mike Evans",
         "pos": "WR",
         "team": "SF",
@@ -2038,6 +2020,15 @@
         "moved": true
       },
       {
+        "player": "Javonte Williams",
+        "pos": "RB",
+        "team": "DAL",
+        "game": "DAL@NYG",
+        "p_td": 0.3575316293644517,
+        "fair": 179,
+        "moved": false
+      },
+      {
         "player": "TreVeyon Henderson",
         "pos": "RB",
         "team": "NE",
@@ -2045,6 +2036,15 @@
         "p_td": 0.3531058691956166,
         "fair": 183,
         "moved": false
+      },
+      {
+        "player": "Rico Dowdle",
+        "pos": "RB",
+        "team": "PIT",
+        "game": "ATL@PIT",
+        "p_td": 0.3512200089147262,
+        "fair": 184,
+        "moved": true
       },
       {
         "player": "Kenneth Walker III",
@@ -2065,6 +2065,15 @@
         "moved": false
       },
       {
+        "player": "Jacory Croskey-Merritt",
+        "pos": "RB",
+        "team": "WAS",
+        "game": "WAS@PHI",
+        "p_td": 0.3465543480715836,
+        "fair": 188,
+        "moved": false
+      },
+      {
         "player": "Parker Washington",
         "pos": "WR",
         "team": "JAX",
@@ -2074,21 +2083,12 @@
         "moved": false
       },
       {
-        "player": "Jacory Croskey-Merritt",
-        "pos": "RB",
-        "team": "WAS",
-        "game": "WAS@PHI",
-        "p_td": 0.3418935363727724,
-        "fair": 192,
-        "moved": false
-      },
-      {
         "player": "Jameson Williams",
         "pos": "WR",
         "team": "DET",
         "game": "NO@DET",
-        "p_td": 0.3379128510939142,
-        "fair": 195,
+        "p_td": 0.3408150228605374,
+        "fair": 193,
         "moved": false
       },
       {
