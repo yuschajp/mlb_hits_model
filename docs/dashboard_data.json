@@ -1612,6 +1612,15 @@
         "moved": false
       },
       {
+        "player": "Christian McCaffrey",
+        "pos": "RB",
+        "team": "SF",
+        "game": "SF@LA",
+        "p_td": 0.5022006285824189,
+        "fair": -100,
+        "moved": false
+      },
+      {
         "player": "Ashton Jeanty",
         "pos": "RB",
         "team": "LV",
@@ -1627,15 +1636,6 @@
         "game": "MIA@LV",
         "p_td": 0.5001945542465465,
         "fair": -100,
-        "moved": false
-      },
-      {
-        "player": "Christian McCaffrey",
-        "pos": "RB",
-        "team": "SF",
-        "game": "SF@LA",
-        "p_td": 0.497276494927469,
-        "fair": 101,
         "moved": false
       },
       {
@@ -1679,8 +1679,8 @@
         "pos": "RB",
         "team": "LA",
         "game": "SF@LA",
-        "p_td": 0.4774674543467808,
-        "fair": 109,
+        "p_td": 0.4814958574175327,
+        "fair": 107,
         "moved": false
       },
       {
@@ -1841,9 +1841,18 @@
         "pos": "WR",
         "team": "LA",
         "game": "SF@LA",
-        "p_td": 0.3586265457039366,
-        "fair": 178,
+        "p_td": 0.3620141568591627,
+        "fair": 176,
         "moved": false
+      },
+      {
+        "player": "Mike Evans",
+        "pos": "WR",
+        "team": "SF",
+        "game": "SF@LA",
+        "p_td": 0.3583969850911194,
+        "fair": 179,
+        "moved": true
       },
       {
         "player": "Javonte Williams",
@@ -1853,15 +1862,6 @@
         "p_td": 0.3575316293644517,
         "fair": 179,
         "moved": false
-      },
-      {
-        "player": "Mike Evans",
-        "pos": "WR",
-        "team": "SF",
-        "game": "SF@LA",
-        "p_td": 0.354366512649419,
-        "fair": 182,
-        "moved": true
       },
       {
         "player": "TreVeyon Henderson",
