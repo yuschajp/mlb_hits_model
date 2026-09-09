@@ -19,3 +19,4 @@ data/nfl/games.csv
 data/nfl/roster_weekly_*.csv
 data/nfl/td_features.csv
 data/nfl/lines_current.txt
+data/nfl/td_board_w1.csv
