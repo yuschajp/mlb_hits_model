@@ -20,3 +20,14 @@ data/nfl/roster_weekly_*.csv
 data/nfl/td_features.csv
 data/nfl/lines_current.txt
 data/nfl/td_board_w1.csv
+data/nfl/td_board_w*.csv
+data/nfl/lines_current.txt
+data/nfl/lines_2026-w*.txt
+data/nfl/props_board.csv
+data/cfb/lines_2026-*.txt
+data/cfb/picks_2026-*.csv
+data/nfl/td_board_w*.csv
+data/nfl/lines_current.txt
+data/nfl/lines_2026-w*.txt
+data/nfl/props_board.csv
+data/cfb/lines_2026-*.txt
