@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 216,
     "total_graded": 12824,
     "since_date": "2026-06-21",
     "brier_score": 0.1007,
     "naive_brier": 0.1034,
     "avg_predicted": 0.124,
     "actual_hr_rate": 0.1157,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.2707
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Logan Henderson",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2698
+      },
+      {
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.235
+      },
+      {
+        "player_name": "Aaron Judge",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Tomoyuki Sugano",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.2331
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Hunter Brown",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2261
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Lake Bachar",
+        "venue": "Rate Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2256
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Will Warren",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2222
+      },
+      {
+        "player_name": "Mickey Gasper",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Ryan Johnson",
+        "venue": "Fenway Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2197
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Reynaldo L\u00f3pez",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2027
+      },
+      {
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Lake Bachar",
+        "venue": "Rate Field",
+        "lineup_spot": 5,
+        "p_hr": 0.2001
+      }
+    ],
     "calibration": [
       {
         "range": "0.00-0.08",
@@ -1182,14 +1263,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 24,
     "total_graded": 1031,
     "since_date": "2026-06-27",
     "brier_score": 0.1538,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.68,
     "over_rate": 0.235,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Cristopher S\u00e1nchez",
+        "team": "Philadelphia Phillies",
+        "opponent": "Houston Astros",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 6.26,
+        "p_over": 0.4362,
+        "p_under": 0.5638
+      },
+      {
+        "pitcher_name": "Jake Bennett",
+        "team": "Boston Red Sox",
+        "opponent": "Los Angeles Angels",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 6.03,
+        "p_over": 0.3991,
+        "p_under": 0.6009
+      },
+      {
+        "pitcher_name": "Hunter Brown",
+        "team": "Houston Astros",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Citizens Bank Park",
+        "line": 6.5,
+        "lambda_k": 5.57,
+        "p_over": 0.3244,
+        "p_under": 0.6756
+      },
+      {
+        "pitcher_name": "Foster Griffin",
+        "team": "Cleveland Guardians",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.54,
+        "p_over": 0.32,
+        "p_under": 0.68
+      },
+      {
+        "pitcher_name": "Kevin Gausman",
+        "team": "Chicago Cubs",
+        "opponent": "Milwaukee Brewers",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.45,
+        "p_over": 0.3056,
+        "p_under": 0.6944
+      },
+      {
+        "pitcher_name": "Logan Henderson",
+        "team": "Milwaukee Brewers",
+        "opponent": "Chicago Cubs",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.33,
+        "p_over": 0.2875,
+        "p_under": 0.7125
+      },
+      {
+        "pitcher_name": "Davis Martin",
+        "team": "Chicago White Sox",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.19,
+        "p_over": 0.2666,
+        "p_under": 0.7334
+      },
+      {
+        "pitcher_name": "Will Warren",
+        "team": "New York Yankees",
+        "opponent": "Colorado Rockies",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 5.05,
+        "p_over": 0.2446,
+        "p_under": 0.7554
+      },
+      {
+        "pitcher_name": "Shane Baz",
+        "team": "Baltimore Orioles",
+        "opponent": "Cleveland Guardians",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.04,
+        "p_over": 0.2434,
+        "p_under": 0.7566
+      },
+      {
+        "pitcher_name": "Kade Anderson",
+        "team": "Seattle Mariners",
+        "opponent": "Texas Rangers",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 4.89,
+        "p_over": 0.2223,
+        "p_under": 0.7777
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -1612,21 +1794,12 @@
         "moved": false
       },
       {
-        "player": "Christian McCaffrey",
+        "player": "Bijan Robinson",
         "pos": "RB",
-        "team": "SF",
-        "game": "SF@LA",
-        "p_td": 0.5022006285824189,
-        "fair": -100,
-        "moved": false
-      },
-      {
-        "player": "Ashton Jeanty",
-        "pos": "RB",
-        "team": "LV",
-        "game": "MIA@LV",
-        "p_td": 0.5011691260974183,
-        "fair": -100,
+        "team": "ATL",
+        "game": "ATL@PIT",
+        "p_td": 0.5028390878126441,
+        "fair": -101,
         "moved": false
       },
       {
@@ -1639,11 +1812,11 @@
         "moved": false
       },
       {
-        "player": "Bijan Robinson",
+        "player": "Christian McCaffrey",
         "pos": "RB",
-        "team": "ATL",
-        "game": "ATL@PIT",
-        "p_td": 0.4967986320889658,
+        "team": "SF",
+        "game": "SF@LA",
+        "p_td": 0.497276494927469,
         "fair": 101,
         "moved": false
       },
@@ -1654,6 +1827,15 @@
         "game": "TB@CIN",
         "p_td": 0.495512064474548,
         "fair": 101,
+        "moved": false
+      },
+      {
+        "player": "Ashton Jeanty",
+        "pos": "RB",
+        "team": "LV",
+        "game": "MIA@LV",
+        "p_td": 0.4909912966856814,
+        "fair": 103,
         "moved": false
       },
       {
@@ -1679,8 +1861,8 @@
         "pos": "RB",
         "team": "LA",
         "game": "SF@LA",
-        "p_td": 0.4814958574175327,
-        "fair": 107,
+        "p_td": 0.4774674543467808,
+        "fair": 109,
         "moved": false
       },
       {
@@ -1733,8 +1915,8 @@
         "pos": "WR",
         "team": "PIT",
         "game": "ATL@PIT",
-        "p_td": 0.4244559090479667,
-        "fair": 135,
+        "p_td": 0.4289250855942261,
+        "fair": 133,
         "moved": false
       },
       {
@@ -1841,18 +2023,9 @@
         "pos": "WR",
         "team": "LA",
         "game": "SF@LA",
-        "p_td": 0.3620141568591627,
-        "fair": 176,
+        "p_td": 0.3586265457039366,
+        "fair": 178,
         "moved": false
-      },
-      {
-        "player": "Mike Evans",
-        "pos": "WR",
-        "team": "SF",
-        "game": "SF@LA",
-        "p_td": 0.3583969850911194,
-        "fair": 179,
-        "moved": true
       },
       {
         "player": "Javonte Williams",
@@ -1864,6 +2037,24 @@
         "moved": false
       },
       {
+        "player": "Rico Dowdle",
+        "pos": "RB",
+        "team": "PIT",
+        "game": "ATL@PIT",
+        "p_td": 0.355168913525034,
+        "fair": 181,
+        "moved": true
+      },
+      {
+        "player": "Mike Evans",
+        "pos": "WR",
+        "team": "SF",
+        "game": "SF@LA",
+        "p_td": 0.354366512649419,
+        "fair": 182,
+        "moved": true
+      },
+      {
         "player": "TreVeyon Henderson",
         "pos": "RB",
         "team": "NE",
@@ -1873,15 +2064,6 @@
         "moved": false
       },
       {
-        "player": "Rico Dowdle",
-        "pos": "RB",
-        "team": "PIT",
-        "game": "ATL@PIT",
-        "p_td": 0.3512200089147262,
-        "fair": 184,
-        "moved": true
-      },
-      {
         "player": "Kenneth Walker III",
         "pos": "RB",
         "team": "KC",
@@ -1889,15 +2071,6 @@
         "p_td": 0.3508784808862953,
         "fair": 184,
         "moved": true
-      },
-      {
-        "player": "Tony Pollard",
-        "pos": "RB",
-        "team": "TEN",
-        "game": "NYJ@TEN",
-        "p_td": 0.349586954843293,
-        "fair": 186,
-        "moved": false
       },
       {
         "player": "Jacory Croskey-Merritt",
@@ -1924,6 +2097,15 @@
         "game": "NO@DET",
         "p_td": 0.3408150228605374,
         "fair": 193,
+        "moved": false
+      },
+      {
+        "player": "Tony Pollard",
+        "pos": "RB",
+        "team": "TEN",
+        "game": "NYJ@TEN",
+        "p_td": 0.336098252450505,
+        "fair": 197,
         "moved": false
       },
       {
