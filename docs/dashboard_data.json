@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09",
+  "generated_at": "2026-09-08",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 271,
     "total_graded": 12554,
     "since_date": "2026-06-21",
     "brier_score": 0.1005,
     "naive_brier": 0.1034,
     "avg_predicted": 0.1241,
     "actual_hr_rate": 0.1154,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2295
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2141
+      },
+      {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Bryce Miller",
+        "venue": "T-Mobile Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2131
+      },
+      {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Tanner Bibee",
+        "venue": "Oriole Park at Camden Yards",
+        "lineup_spot": 2,
+        "p_hr": 0.2122
+      },
+      {
+        "player_name": "Heriberto Hern\u00e1ndez",
+        "team": "Miami Marlins",
+        "opponent_pitcher": "Sean Manaea",
+        "venue": "loanDepot park",
+        "lineup_spot": 1,
+        "p_hr": 0.2021
+      },
+      {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Freddy Peralta",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2005
+      },
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "AJ Smith-Shawver",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1964
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Hayden Wesneski",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1932
+      },
+      {
+        "player_name": "Kazuma Okamoto",
+        "team": "Toronto Blue Jays",
+        "opponent_pitcher": "Jack Perkins",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 6,
+        "p_hr": 0.1892
+      },
+      {
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citizens Bank Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1873
+      }
+    ],
     "calibration": [
       {
         "range": "0.00-0.08",
@@ -1170,14 +1251,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 30,
     "total_graded": 1001,
     "since_date": "2026-06-27",
     "brier_score": 0.1546,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.99,
     "over_rate": 0.236,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Tarik Skubal",
+        "team": "Los Angeles Dodgers",
+        "opponent": "Cincinnati Reds",
+        "venue": "UNIQLO Field at Dodger Stadium",
+        "line": 6.5,
+        "lambda_k": 7.45,
+        "p_over": 0.6147,
+        "p_under": 0.3853
+      },
+      {
+        "pitcher_name": "Cam Schlittler",
+        "team": "New York Yankees",
+        "opponent": "Colorado Rockies",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 6.81,
+        "p_over": 0.5215,
+        "p_under": 0.4785
+      },
+      {
+        "pitcher_name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "opponent": "Chicago Cubs",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 6.71,
+        "p_over": 0.5059,
+        "p_under": 0.4941
+      },
+      {
+        "pitcher_name": "Sean Burke",
+        "team": "Chicago White Sox",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.83,
+        "p_over": 0.366,
+        "p_under": 0.634
+      },
+      {
+        "pitcher_name": "Patrick Sandoval",
+        "team": "Boston Red Sox",
+        "opponent": "Los Angeles Angels",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.82,
+        "p_over": 0.3652,
+        "p_under": 0.6348
+      },
+      {
+        "pitcher_name": "Reid Detmers",
+        "team": "Los Angeles Angels",
+        "opponent": "Boston Red Sox",
+        "venue": "Fenway Park",
+        "line": 6.5,
+        "lambda_k": 5.76,
+        "p_over": 0.3554,
+        "p_under": 0.6446
+      },
+      {
+        "pitcher_name": "Tanner Bibee",
+        "team": "Cleveland Guardians",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.23,
+        "p_over": 0.2724,
+        "p_under": 0.7276
+      },
+      {
+        "pitcher_name": "Bryce Miller",
+        "team": "Seattle Mariners",
+        "opponent": "Texas Rangers",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 5.18,
+        "p_over": 0.264,
+        "p_under": 0.736
+      },
+      {
+        "pitcher_name": "Riley Cornelio",
+        "team": "Washington Nationals",
+        "opponent": "San Diego Padres",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 5.17,
+        "p_over": 0.2625,
+        "p_under": 0.7375
+      },
+      {
+        "pitcher_name": "Dean Kremer",
+        "team": "Minnesota Twins",
+        "opponent": "Detroit Tigers",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.06,
+        "p_over": 0.2462,
+        "p_under": 0.7538
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -2313,7 +2495,7 @@
       "seasons": "2024-2025",
       "auc": 0.7370921803740497,
       "brier": 0.13664442966434842,
-      "predicted": 0.18471910899309812,
+      "predicted": 0.18471910899309815,
       "observed": 0.1904293381037567,
       "lift": 12.547619047619046,
       "bands": [
