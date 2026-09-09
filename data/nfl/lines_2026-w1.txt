@@ -1,0 +1,18 @@
+# NFL Week 1 2026, DraftKings via ESPN. away, home, home_spread, total[, N]
+# home_spread POSITIVE = home favoured (nflverse convention)
+NE,  SEA,  3.0,  44.5
+SF,  LA,   3.5,  48.5, N
+TB,  CIN,  3.5,  50.5
+NO,  DET,  7.0,  49.5
+NYJ, TEN,  1.5,  39.5
+BAL, IND, -3.5,  47.5
+ATL, PIT,  3.5,  42.5
+CHI, CAR, -3.0,  46.5
+CLE, JAX,  8.5,  40.5
+BUF, HOU, -1.5,  44.5
+MIA, LV,   3.5,  41.5
+GB,  MIN,  1.5,  46.5
+WAS, PHI,  5.5,  44.5
+ARI, LAC,  9.5,  47.5
+DAL, NYG, -3.0,  48.5
+DEN, KC,   2.5,  43.5

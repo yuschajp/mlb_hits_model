@@ -387,6 +387,8 @@
   <div class="tab" onclick="switchTab('f1')">F1 Racing</div>
   <div class="tab" onclick="switchTab('picks')">Picks &amp; Parlays</div>
   <div class="tab" onclick="switchTab('trends')">Trends</div>
+  <div class="tab" onclick="switchTab('cfb')">College FB</div>
+  <div class="tab" onclick="switchTab('nfl')">NFL Props</div>
 </nav>
 
 <main class="panels">
@@ -680,6 +682,31 @@
     </div>
   </div>
 
+
+  <div class="panel" id="panel-cfb">
+    <div class="panel-grid">
+      <div class="card">
+        <div class="card-head"><h2>Today's board</h2>
+          <span class="footer-note" id="cfb-record"></span></div>
+        <div class="pred-table" id="cfb-board"></div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h2>Season splits</h2>
+          <span class="footer-note" id="cfb-mae"></span></div>
+        <div class="pred-table" id="cfb-splits"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" id="panel-nfl">
+    <div class="panel-grid">
+      <div class="card">
+        <div class="card-head"><h2>Anytime touchdown</h2>
+          <span class="footer-note" id="nfl-meta"></span></div>
+        <div class="pred-table" id="nfl-board"></div>
+      </div>
+    </div>
+  </div>
 </main>
 
 <footer>
@@ -694,8 +721,59 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
+
+  function renderCFB(cfb) {
+    const el = document.getElementById('cfb-board');
+    const rows = cfb?.board || [];
+    if (!rows.length) {
+      el.innerHTML = '<div style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No board today &mdash; run cfb_board2.py with a lines file.</div>';
+    } else {
+      el.innerHTML = '<table class="cal-table"><thead><tr><th>Matchup</th><th>Model</th>'
+        + '<th>Market</th><th>Edge</th><th>Take</th><th></th></tr></thead><tbody>'
+        + rows.map(r => {
+            const dim = r.playable ? '' : ' style="opacity:.45"';
+            const flag = r.flag ? ' <span class="naive">' + r.flag + '</span>' : '';
+            return '<tr' + dim + '><td>' + r.away + ' @ ' + r.home + '</td><td>'
+              + r.model.toFixed(1) + '</td><td>' + r.market.toFixed(1) + '</td><td>'
+              + (r.edge > 0 ? '+' : '') + r.edge.toFixed(1) + '</td><td>' + r.side
+              + '</td><td>' + r.dir + flag + '</td></tr>';
+          }).join('') + '</tbody></table>';
+    }
+    document.getElementById('cfb-record').textContent =
+      cfb?.record ? cfb.record + '  (' + pct(cfb.win_pct) + ', n=' + cfb.total_graded + ')' : '';
+    document.getElementById('cfb-mae').textContent =
+      (cfb?.mae_model != null)
+        ? 'model MAE ' + cfb.mae_model.toFixed(2) + ' vs market ' + cfb.mae_market.toFixed(2) : '';
+    const sp = document.getElementById('cfb-splits');
+    const sr = cfb?.splits || [];
+    sp.innerHTML = sr.length
+      ? '<table class="cal-table"><thead><tr><th>Split</th><th>Record</th><th>Win%</th><th>n</th></tr></thead><tbody>'
+        + sr.map(r => '<tr><td>' + r.split + '</td><td>' + r.record + '</td><td>'
+            + pct(r.win_pct) + '</td><td>' + r.n + '</td></tr>').join('') + '</tbody></table>'
+      : '<div style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">Nothing graded yet.</div>';
+  }
+
+  function renderNFL(nfl) {
+    const el = document.getElementById('nfl-board');
+    const rows = nfl?.board || [];
+    el.innerHTML = rows.length
+      ? '<table class="cal-table"><thead><tr><th>Player</th><th>Pos</th><th>Game</th>'
+        + '<th>P(TD)</th><th>Fair</th><th></th></tr></thead><tbody>'
+        + rows.map(r => '<tr><td>' + r.player + '</td><td>' + r.pos + '</td><td>'
+            + r.game + '</td><td>' + pct(r.p_td) + '</td><td>'
+            + (r.fair != null ? (r.fair > 0 ? '+' : '') + r.fair : '&mdash;') + '</td><td>'
+            + (r.moved ? '<span class="naive">NEW TEAM</span>' : '') + '</td></tr>').join('')
+        + '</tbody></table>'
+      : '<div style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">No board &mdash; run nfl_td_board.py with a lines file.</div>';
+    const meta = [];
+    if (nfl?.today_count) meta.push(nfl.today_count + ' priced');
+    if (nfl?.brier != null) meta.push('Brier ' + nfl.brier.toFixed(4));
+    if (nfl?.total_graded) meta.push(nfl.total_graded + ' graded');
+    document.getElementById('nfl-meta').textContent = meta.join('  \u00b7  ');
+  }
+
   function switchTab(name) {
-    const tabNames = ['hits', 'hr', 'k', 'wc', 'tennis', 'f1', 'picks', 'trends'];
+    const tabNames = ['hits', 'hr', 'k', 'wc', 'tennis', 'f1', 'picks', 'trends', 'cfb', 'nfl'];
     document.querySelectorAll('.tab').forEach((t, i) => {
       t.classList.toggle('active', tabNames[i] === name);
     });
@@ -1113,6 +1191,10 @@
       // WC tab
       renderWCMatches(d.wc?.matches_today);
       renderWCGoalscorers(d.wc_gs?.top15_today);
+
+      // CFB + NFL tabs
+      renderCFB(d.cfb);
+      renderNFL(d.nfl);
 
       // K tab
       document.getElementById('k-date').textContent = d.generated_at ?? '';

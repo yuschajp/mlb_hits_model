@@ -15,6 +15,7 @@ import sys
 from datetime import date, timedelta
 from itertools import combinations
 from pathlib import Path
+import pathlib
 
 import pandas as pd
 
@@ -721,6 +722,87 @@ def summarize_f1():
     return result
 
 
+# ---------------------------------------------------------------------------
+# CFB and NFL -- added 2026-09-08. Both read local CSVs only, no network.
+# Every value is wrapped so a missing file degrades to an empty section rather
+# than taking the whole dashboard down.
+# ---------------------------------------------------------------------------
+CFB_DIR = ROOT / "data" / "cfb"
+NFL_DIR = ROOT / "data" / "nfl"
+
+
+def summarize_cfb():
+    import glob
+    out = {"today_count": 0, "total_graded": 0, "board": [], "splits": []}
+    try:
+        today = date.today().isoformat()
+        bp = CFB_DIR / f"picks_{today}.csv"
+        if bp.exists():
+            b = pd.read_csv(bp)
+            b = b.reindex(b.edge.abs().sort_values(ascending=False).index)
+            out["today_count"] = int(len(b))
+            out["board"] = [
+                {"away": r.away, "home": r.home, "cls": r.get("cls", ""),
+                 "model": float(r.model), "market": float(r.market),
+                 "edge": float(r.edge), "side": r.side, "dir": r["dir"],
+                 "playable": bool(r.get("playable", True)),
+                 "flag": "" if pd.isna(r.get("flag")) else str(r.get("flag", ""))}
+                for _, r in b.head(30).iterrows()]
+        gf = sorted(glob.glob(str(CFB_DIR / "graded_*.csv")))
+        if gf:
+            g = pd.concat([pd.read_csv(f) for f in gf], ignore_index=True)
+            g = g[g.result.isin(["W", "L", "P"])]
+            w, l = int((g.result == "W").sum()), int((g.result == "L").sum())
+            n = w + l
+            out["total_graded"] = n
+            out["record"] = f"{w}-{l}"
+            out["win_pct"] = (w / n) if n else None
+            v = g.dropna(subset=["model", "market", "actual_margin"])
+            if len(v):
+                out["mae_model"] = float((v.model - v.actual_margin).abs().mean())
+                out["mae_market"] = float((v.market - v.actual_margin).abs().mean())
+            for lab, sub in (("FBS", g[g.get("cls", "") == "FBS"]),
+                             ("FCS", g[g.get("cls", "") == "FCS"]),
+                             ("FAV", g[g.get("dir", "") == "FAV"]),
+                             ("DOG", g[g.get("dir", "") == "DOG"])):
+                ww, ll = int((sub.result == "W").sum()), int((sub.result == "L").sum())
+                if ww + ll:
+                    out["splits"].append({"split": lab, "record": f"{ww}-{ll}",
+                                          "win_pct": ww / (ww + ll), "n": ww + ll})
+    except Exception as e:
+        out["error"] = str(e)
+    return out
+
+
+def summarize_nfl():
+    import glob
+    out = {"today_count": 0, "total_graded": 0, "board": []}
+    try:
+        bf = sorted(glob.glob(str(NFL_DIR / "td_board_*.csv")))
+        if bf:
+            b = pd.read_csv(bf[-1]).sort_values("p_td", ascending=False)
+            out["week_file"] = pathlib.Path(bf[-1]).name
+            out["today_count"] = int(len(b))
+            out["board"] = [
+                {"player": r.player_display_name, "pos": r.position_group,
+                 "team": r.team, "game": r.game, "p_td": float(r.p_td),
+                 "fair": None if pd.isna(r.fair) else int(r.fair),
+                 "moved": bool(r.get("moved", False))}
+                for _, r in b.head(40).iterrows()]
+        gf = sorted(glob.glob(str(NFL_DIR / "graded_*.csv")))
+        if gf:
+            g = pd.concat([pd.read_csv(f) for f in gf], ignore_index=True)
+            g = g.dropna(subset=["p_td", "hit"])
+            out["total_graded"] = int(len(g))
+            if len(g):
+                out["avg_predicted"] = float(g.p_td.mean())
+                out["actual_rate"] = float(g.hit.mean())
+                out["brier"] = float(((g.p_td - g.hit) ** 2).mean())
+    except Exception as e:
+        out["error"] = str(e)
+    return out
+
+
 def main():
     today   = date.today()
     f1_data = summarize_f1()
@@ -738,6 +820,8 @@ def main():
         "tennis": tennis_data,
         "picks": _build_picks_payload(today),
         "f1":    f1_data,
+        "cfb":   summarize_cfb(),
+        "nfl":   summarize_nfl(),
     }
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -763,6 +847,10 @@ def main():
     quali_graded = f1_data.get("quali", {}).get("stats", {}).get("total_graded", 0)
     print(f"  F1:   {len(f1_data.get('quali', {}).get('grid', []))} quali predictions, "
           f"{quali_graded} graded total")
+    print(f"  CFB:  {payload['cfb'].get('today_count',0)} board rows today, "
+          f"{payload['cfb'].get('total_graded',0)} graded total")
+    print(f"  NFL:  {payload['nfl'].get('today_count',0)} props priced, "
+          f"{payload['nfl'].get('total_graded',0)} graded total")
     print(f"\nNext: run push_dashboard.sh to commit and publish to GitHub Pages.")
 
 

@@ -14,7 +14,7 @@
 # ============================================================
 
 set -e
-PYTHON="/Users/victoria/Documents/anaconda3/bin/python3"
+PYTHON="/Users/yuschajp/Desktop/mlb_hits_model/venv/bin/python3"
 MLB_DIR="$HOME/Desktop/mlb_hits_model"
 F1_DIR="$HOME/Desktop/f1_model"
 ODDS_API_KEY="4aa9574c600aeea17551361dc706a76a"

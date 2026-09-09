@@ -10,3 +10,11 @@ logs/*.log
 *.bak
 data/statcast/
 data/statcast_*.parquet
+
+# nflverse raw + derived data -- 99MB and fully reproducible.
+# nfl_fetch.py re-downloads the raw files; nfl_td_model.py rebuilds the features.
+# The BOARDS and GRADED files are the ledger and DO get committed.
+data/nfl/player_week_*.csv
+data/nfl/games.csv
+data/nfl/roster_weekly_*.csv
+data/nfl/td_features.csv

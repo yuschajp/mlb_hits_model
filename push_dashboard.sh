@@ -20,6 +20,16 @@ git commit -m "dashboard: auto-update $(date +%Y-%m-%d)" || echo "Nothing new to
 # a conflict in a file other than dashboard_data.json), the script stops
 # here instead of blindly attempting a push that's guaranteed to be
 # rejected.
+# A dirty tree blocks rebase before any conflict can happen. Say which it is --
+# the old message sent us hunting for a conflict that did not exist.
+if ! git diff --quiet; then
+    echo ""
+    echo "!!! unstaged changes to tracked files -- rebase cannot run. !!!"
+    git diff --name-only | sed 's/^/    /'
+    echo "Commit or stash these, then re-run. NOT pushing."
+    exit 1
+fi
+
 if ! git pull --rebase -X ours origin master; then
     echo ""
     echo "!!! git pull --rebase failed -- see the error above. !!!"
