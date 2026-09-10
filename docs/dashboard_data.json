@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 54,
     "total_graded": 13040,
     "since_date": "2026-06-21",
     "brier_score": 0.1012,
     "naive_brier": 0.1034,
     "avg_predicted": 0.124,
     "actual_hr_rate": 0.1164,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Ben Rice",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.244
+      },
+      {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Logan Gilbert",
+        "venue": "T-Mobile Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2172
+      },
+      {
+        "player_name": "Munetaka Murakami",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Rate Field",
+        "lineup_spot": 3,
+        "p_hr": 0.2166
+      },
+      {
+        "player_name": "Luis Garc\u00eda Jr.",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 4,
+        "p_hr": 0.2115
+      },
+      {
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Rate Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1939
+      },
+      {
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Jared Jones",
+        "venue": "Rate Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1843
+      },
+      {
+        "player_name": "Corey Seager",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Logan Gilbert",
+        "venue": "T-Mobile Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1821
+      },
+      {
+        "player_name": "Spencer Jones",
+        "team": "New York Yankees",
+        "opponent_pitcher": "Ryan Feltner",
+        "venue": "Yankee Stadium",
+        "lineup_spot": 5,
+        "p_hr": 0.1738
+      },
+      {
+        "player_name": "Jake Burger",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Logan Gilbert",
+        "venue": "T-Mobile Park",
+        "lineup_spot": 7,
+        "p_hr": 0.1676
+      },
+      {
+        "player_name": "Cal Raleigh",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Jacob deGrom",
+        "venue": "T-Mobile Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1654
+      }
+    ],
     "calibration": [
       {
         "range": "0.00-0.08",
@@ -1194,14 +1275,75 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 6,
     "total_graded": 1055,
     "since_date": "2026-06-27",
     "brier_score": 0.1523,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.91,
     "over_rate": 0.231,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Jacob deGrom",
+        "team": "Texas Rangers",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 6.76,
+        "p_over": 0.5138,
+        "p_under": 0.4862
+      },
+      {
+        "pitcher_name": "Logan Gilbert",
+        "team": "Seattle Mariners",
+        "opponent": "Texas Rangers",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 6.41,
+        "p_over": 0.4588,
+        "p_under": 0.5412
+      },
+      {
+        "pitcher_name": "Hagen Smith",
+        "team": "Chicago White Sox",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 6.37,
+        "p_over": 0.4527,
+        "p_under": 0.5473
+      },
+      {
+        "pitcher_name": "Jared Jones",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Chicago White Sox",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.9,
+        "p_over": 0.3772,
+        "p_under": 0.6228
+      },
+      {
+        "pitcher_name": "Max Fried",
+        "team": "New York Yankees",
+        "opponent": "Colorado Rockies",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 5.33,
+        "p_over": 0.2878,
+        "p_under": 0.7122
+      },
+      {
+        "pitcher_name": "Ryan Feltner",
+        "team": "Colorado Rockies",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 4.68,
+        "p_over": 0.1923,
+        "p_under": 0.8077
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -1546,15 +1688,6 @@
         "moved": false
       },
       {
-        "player": "Bijan Robinson",
-        "pos": "RB",
-        "team": "ATL",
-        "game": "ATL@PIT",
-        "p_td": 0.5028390878126441,
-        "fair": -101,
-        "moved": false
-      },
-      {
         "player": "De'Von Achane",
         "pos": "RB",
         "team": "MIA",
@@ -1568,8 +1701,8 @@
         "pos": "RB",
         "team": "SF",
         "game": "SF@LA",
-        "p_td": 0.497276494927469,
-        "fair": 101,
+        "p_td": 0.4923036527091018,
+        "fair": 103,
         "moved": false
       },
       {
@@ -1609,12 +1742,21 @@
         "moved": false
       },
       {
+        "player": "Bijan Robinson",
+        "pos": "RB",
+        "team": "ATL",
+        "game": "ATL@PIT",
+        "p_td": 0.4844966561370144,
+        "fair": 106,
+        "moved": false
+      },
+      {
         "player": "Kyren Williams",
         "pos": "RB",
         "team": "LA",
         "game": "SF@LA",
-        "p_td": 0.4774674543467808,
-        "fair": 109,
+        "p_td": 0.4734077534907891,
+        "fair": 111,
         "moved": false
       },
       {
@@ -1645,13 +1787,13 @@
         "moved": false
       },
       {
-        "player": "Chris Rodriguez Jr.",
-        "pos": "RB",
-        "team": "JAX",
-        "game": "CLE@JAX",
-        "p_td": 0.4311981479597149,
-        "fair": 131,
-        "moved": true
+        "player": "DK Metcalf",
+        "pos": "WR",
+        "team": "PIT",
+        "game": "ATL@PIT",
+        "p_td": 0.4333595583891733,
+        "fair": 130,
+        "moved": false
       },
       {
         "player": "Aaron Jones",
@@ -1663,22 +1805,13 @@
         "moved": false
       },
       {
-        "player": "DK Metcalf",
-        "pos": "WR",
-        "team": "PIT",
-        "game": "ATL@PIT",
-        "p_td": 0.4289250855942261,
-        "fair": 133,
-        "moved": false
-      },
-      {
-        "player": "Josh Allen",
-        "pos": "QB",
-        "team": "BUF",
-        "game": "BUF@HOU",
-        "p_td": 0.4223964169417372,
-        "fair": 136,
-        "moved": false
+        "player": "Chris Rodriguez Jr.",
+        "pos": "RB",
+        "team": "JAX",
+        "game": "CLE@JAX",
+        "p_td": 0.427114287013577,
+        "fair": 134,
+        "moved": true
       },
       {
         "player": "Tucker Kraft",
@@ -1687,6 +1820,15 @@
         "game": "GB@MIN",
         "p_td": 0.4206683194510546,
         "fair": 137,
+        "moved": false
+      },
+      {
+        "player": "Josh Allen",
+        "pos": "QB",
+        "team": "BUF",
+        "game": "BUF@HOU",
+        "p_td": 0.4180885589795184,
+        "fair": 139,
         "moved": false
       },
       {
@@ -1739,8 +1881,8 @@
         "pos": "RB",
         "team": "BUF",
         "game": "BUF@HOU",
-        "p_td": 0.391344929005359,
-        "fair": 155,
+        "p_td": 0.3872400204786981,
+        "fair": 158,
         "moved": false
       },
       {
@@ -1762,13 +1904,13 @@
         "moved": false
       },
       {
-        "player": "Puka Nacua",
-        "pos": "WR",
-        "team": "LA",
-        "game": "SF@LA",
-        "p_td": 0.3586265457039366,
+        "player": "Rico Dowdle",
+        "pos": "RB",
+        "team": "PIT",
+        "game": "ATL@PIT",
+        "p_td": 0.3590937824871473,
         "fair": 178,
-        "moved": false
+        "moved": true
       },
       {
         "player": "Javonte Williams",
@@ -1780,22 +1922,13 @@
         "moved": false
       },
       {
-        "player": "Rico Dowdle",
-        "pos": "RB",
-        "team": "PIT",
-        "game": "ATL@PIT",
-        "p_td": 0.355168913525034,
-        "fair": 181,
-        "moved": true
-      },
-      {
-        "player": "Mike Evans",
+        "player": "Puka Nacua",
         "pos": "WR",
-        "team": "SF",
+        "team": "LA",
         "game": "SF@LA",
-        "p_td": 0.354366512649419,
-        "fair": 182,
-        "moved": true
+        "p_td": 0.35522094683086,
+        "fair": 181,
+        "moved": false
       },
       {
         "player": "Kenneth Walker III",
@@ -1807,12 +1940,21 @@
         "moved": true
       },
       {
+        "player": "Mike Evans",
+        "pos": "WR",
+        "team": "SF",
+        "game": "SF@LA",
+        "p_td": 0.3503107212679289,
+        "fair": 185,
+        "moved": true
+      },
+      {
         "player": "Parker Washington",
         "pos": "WR",
         "team": "JAX",
         "game": "CLE@JAX",
-        "p_td": 0.3454689111948635,
-        "fair": 189,
+        "p_td": 0.3419419520191239,
+        "fair": 192,
         "moved": false
       },
       {
@@ -1852,21 +1994,21 @@
         "moved": false
       },
       {
-        "player": "Davante Adams",
-        "pos": "WR",
-        "team": "LA",
-        "game": "SF@LA",
-        "p_td": 0.3269721043859909,
-        "fair": 205,
-        "moved": false
-      },
-      {
         "player": "Jaylen Warren",
         "pos": "RB",
         "team": "PIT",
         "game": "ATL@PIT",
-        "p_td": 0.325613758373762,
-        "fair": 207,
+        "p_td": 0.3293004172097559,
+        "fair": 203,
+        "moved": false
+      },
+      {
+        "player": "Davante Adams",
+        "pos": "WR",
+        "team": "LA",
+        "game": "SF@LA",
+        "p_td": 0.3237869668817683,
+        "fair": 208,
         "moved": false
       }
     ],
@@ -2327,7 +2469,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 0,
+        "today": 54,
         "graded": 13040,
         "metric": "Brier",
         "value": 0.1012,
@@ -2337,7 +2479,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 0,
+        "today": 6,
         "graded": 1055,
         "metric": "Brier",
         "value": 0.1523,
@@ -2422,7 +2564,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 366,
+    "total_today": 426,
     "total_graded": 23630,
     "model_count": 10
   }
