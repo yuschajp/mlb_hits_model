@@ -13060,3 +13060,57 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-09,823739,699393,Pedro Ramírez,Chicago Cubs,Milwaukee Brewers,7,American Family Field,1.08,Logan Henderson,0.1256,0.0363,3.7,0.0,True
 2026-09-09,823739,624424,Michael Conforto,Chicago Cubs,Milwaukee Brewers,8,American Family Field,1.08,Logan Henderson,0.1733,0.0529,3.6,0.0,True
 2026-09-09,823739,608348,Carson Kelly,Chicago Cubs,Milwaukee Brewers,9,American Family Field,1.08,Logan Henderson,0.1209,0.0368,3.5,0.0,True
+2026-09-10,823088,641487,J.P. Crawford,Seattle Mariners,Texas Rangers,1,T-Mobile Park,0.85,Jacob deGrom,0.1137,0.0281,4.3,,False
+2026-09-10,823088,668227,Randy Arozarena,Seattle Mariners,Texas Rangers,2,T-Mobile Park,0.85,Jacob deGrom,0.1535,0.0397,4.2,,False
+2026-09-10,823088,686527,Dominic Canzone,Seattle Mariners,Texas Rangers,3,T-Mobile Park,0.85,Jacob deGrom,0.1393,0.0366,4.1,,False
+2026-09-10,823088,663728,Cal Raleigh,Seattle Mariners,Texas Rangers,4,T-Mobile Park,0.85,Jacob deGrom,0.1654,0.0452,4.0,,False
+2026-09-10,823088,677594,Julio Rodríguez,Seattle Mariners,Texas Rangers,5,T-Mobile Park,0.85,Jacob deGrom,0.1165,0.0318,3.9,,False
+2026-09-10,823088,647304,Josh Naylor,Seattle Mariners,Texas Rangers,6,T-Mobile Park,0.85,Jacob deGrom,0.08,0.0219,3.8,,False
+2026-09-10,823088,702284,Cole Young,Seattle Mariners,Texas Rangers,7,T-Mobile Park,0.85,Jacob deGrom,0.1033,0.0295,3.7,,False
+2026-09-10,823088,703155,Lazaro Montes,Seattle Mariners,Texas Rangers,8,T-Mobile Park,0.85,Jacob deGrom,0.1192,0.0352,3.6,,False
+2026-09-10,823088,801126,Brock Rodden,Seattle Mariners,Texas Rangers,9,T-Mobile Park,0.85,Jacob deGrom,0.0863,0.0258,3.5,,False
+2026-09-10,823088,592626,Joc Pederson,Texas Rangers,Seattle Mariners,1,T-Mobile Park,0.85,Logan Gilbert,0.2172,0.0569,4.3,,False
+2026-09-10,823088,608369,Corey Seager,Texas Rangers,Seattle Mariners,2,T-Mobile Park,0.85,Logan Gilbert,0.1821,0.0478,4.2,,False
+2026-09-10,823088,677649,Ezequiel Duran,Texas Rangers,Seattle Mariners,3,T-Mobile Park,0.85,Logan Gilbert,0.147,0.0388,4.1,,False
+2026-09-10,823088,607043,Brandon Nimmo,Texas Rangers,Seattle Mariners,4,T-Mobile Park,0.85,Logan Gilbert,0.1138,0.0302,4.0,,False
+2026-09-10,823088,694671,Wyatt Langford,Texas Rangers,Seattle Mariners,5,T-Mobile Park,0.85,Logan Gilbert,0.1489,0.0413,3.9,,False
+2026-09-10,823088,694497,Evan Carter,Texas Rangers,Seattle Mariners,6,T-Mobile Park,0.85,Logan Gilbert,0.1146,0.032,3.8,,False
+2026-09-10,823088,669394,Jake Burger,Texas Rangers,Seattle Mariners,7,T-Mobile Park,0.85,Logan Gilbert,0.1676,0.0496,3.7,,False
+2026-09-10,823088,670032,Nicky Lopez,Texas Rangers,Seattle Mariners,8,T-Mobile Park,0.85,Logan Gilbert,0.093,0.0271,3.6,,False
+2026-09-10,823088,643376,Danny Jansen,Texas Rangers,Seattle Mariners,9,T-Mobile Park,0.85,Logan Gilbert,0.1337,0.041,3.5,,False
+2026-09-10,823499,700250,Ben Rice,New York Yankees,Colorado Rockies,1,Yankee Stadium,1.18,Ryan Feltner,0.244,0.0651,4.3,,False
+2026-09-10,823499,641355,Cody Bellinger,New York Yankees,Colorado Rockies,2,Yankee Stadium,1.18,Ryan Feltner,0.1617,0.042,4.2,,False
+2026-09-10,823499,691176,Jasson Domínguez,New York Yankees,Colorado Rockies,3,Yankee Stadium,1.18,Ryan Feltner,0.1582,0.042,4.1,,False
+2026-09-10,823499,671277,Luis García Jr.,New York Yankees,Colorado Rockies,4,Yankee Stadium,1.18,Ryan Feltner,0.2115,0.0594,4.0,,False
+2026-09-10,823499,682987,Spencer Jones,New York Yankees,Colorado Rockies,5,Yankee Stadium,1.18,Ryan Feltner,0.1738,0.049,3.9,,False
+2026-09-10,823499,806146,George Lombard Jr.,New York Yankees,Colorado Rockies,6,Yankee Stadium,1.18,Ryan Feltner,0.1427,0.0405,3.8,,False
+2026-09-10,823499,641857,Ryan McMahon,New York Yankees,Colorado Rockies,7,Yankee Stadium,1.18,Ryan Feltner,0.144,0.042,3.7,,False
+2026-09-10,823499,669224,Austin Wells,New York Yankees,Colorado Rockies,8,Yankee Stadium,1.18,Ryan Feltner,0.1433,0.0429,3.6,,False
+2026-09-10,823499,683011,Anthony Volpe,New York Yankees,Colorado Rockies,9,Yankee Stadium,1.18,Ryan Feltner,0.1175,0.0357,3.5,,False
+2026-09-10,823499,664983,Jake McCarthy,Colorado Rockies,New York Yankees,1,Yankee Stadium,1.18,Max Fried,0.0836,0.0203,4.3,,False
+2026-09-10,823499,681393,Connor Norby,Colorado Rockies,New York Yankees,2,Yankee Stadium,1.18,Max Fried,0.0828,0.0206,4.2,,False
+2026-09-10,823499,696100,Hunter Goodman,Colorado Rockies,New York Yankees,3,Yankee Stadium,1.18,Max Fried,0.1263,0.0329,4.1,,False
+2026-09-10,823499,681198,TJ Rumfield,Colorado Rockies,New York Yankees,4,Yankee Stadium,1.18,Max Fried,0.0789,0.0206,4.0,,False
+2026-09-10,823499,694249,Cole Carrigg,Colorado Rockies,New York Yankees,5,Yankee Stadium,1.18,Max Fried,0.0743,0.0198,3.9,,False
+2026-09-10,823499,691720,Kyle Karros,Colorado Rockies,New York Yankees,6,Yankee Stadium,1.18,Max Fried,0.0768,0.021,3.8,,False
+2026-09-10,823499,691182,Adael Amador,Colorado Rockies,New York Yankees,7,Yankee Stadium,1.18,Max Fried,0.0891,0.0252,3.7,,False
+2026-09-10,823499,687597,Jordan Beck,Colorado Rockies,New York Yankees,8,Yankee Stadium,1.18,Max Fried,0.0617,0.0177,3.6,,False
+2026-09-10,823499,678662,Ezequiel Tovar,Colorado Rockies,New York Yankees,9,Yankee Stadium,1.18,Max Fried,0.0635,0.0188,3.5,,False
+2026-09-10,824550,803011,Sam Antonacci,Chicago White Sox,Pittsburgh Pirates,1,Rate Field,1.07,Jared Jones,0.1122,0.0277,4.3,,False
+2026-09-10,824550,678246,Miguel Vargas,Chicago White Sox,Pittsburgh Pirates,2,Rate Field,1.07,Jared Jones,0.1939,0.0513,4.2,,False
+2026-09-10,824550,808959,Munetaka Murakami,Chicago White Sox,Pittsburgh Pirates,3,Rate Field,1.07,Jared Jones,0.2166,0.0595,4.1,,False
+2026-09-10,824550,643217,Andrew Benintendi,Chicago White Sox,Pittsburgh Pirates,4,Rate Field,1.07,Jared Jones,0.1442,0.0389,4.0,,False
+2026-09-10,824550,695657,Colson Montgomery,Chicago White Sox,Pittsburgh Pirates,5,Rate Field,1.07,Jared Jones,0.1843,0.0522,3.9,,False
+2026-09-10,824550,695731,Braden Montgomery,Chicago White Sox,Pittsburgh Pirates,6,Rate Field,1.07,Jared Jones,0.117,0.0327,3.8,,False
+2026-09-10,824550,805367,Chase Meidroth,Chicago White Sox,Pittsburgh Pirates,7,Rate Field,1.07,Jared Jones,0.105,0.03,3.7,,False
+2026-09-10,824550,671976,Tristan Peters,Chicago White Sox,Pittsburgh Pirates,8,Rate Field,1.07,Jared Jones,0.1388,0.0415,3.6,,False
+2026-09-10,824550,668670,Jake Rogers,Chicago White Sox,Pittsburgh Pirates,9,Rate Field,1.07,Jared Jones,0.1204,0.0367,3.5,,False
+2026-09-10,824550,804606,Konnor Griffin,Pittsburgh Pirates,Chicago White Sox,1,Rate Field,1.07,Hagen Smith,0.1113,0.0274,4.3,,False
+2026-09-10,824550,665833,Oneil Cruz,Pittsburgh Pirates,Chicago White Sox,2,Rate Field,1.07,Hagen Smith,0.1444,0.0371,4.2,,False
+2026-09-10,824550,668804,Bryan Reynolds,Pittsburgh Pirates,Chicago White Sox,3,Rate Field,1.07,Hagen Smith,0.1079,0.0279,4.1,,False
+2026-09-10,824550,693304,Nick Gonzales,Pittsburgh Pirates,Chicago White Sox,4,Rate Field,1.07,Hagen Smith,0.08,0.0208,4.0,,False
+2026-09-10,824550,664040,Brandon Lowe,Pittsburgh Pirates,Chicago White Sox,5,Rate Field,1.07,Hagen Smith,0.1406,0.0388,3.9,,False
+2026-09-10,824550,804668,Rafael Flores Jr.,Pittsburgh Pirates,Chicago White Sox,6,Rate Field,1.07,Hagen Smith,0.1501,0.0428,3.8,,False
+2026-09-10,824550,663968,Jake Mangum,Pittsburgh Pirates,Chicago White Sox,7,Rate Field,1.07,Hagen Smith,0.077,0.0217,3.7,,False
+2026-09-10,824550,687462,Spencer Horwitz,Pittsburgh Pirates,Chicago White Sox,8,Rate Field,1.07,Hagen Smith,0.09,0.0262,3.6,,False
+2026-09-10,824550,669707,Jared Triolo,Pittsburgh Pirates,Chicago White Sox,9,Rate Field,1.07,Hagen Smith,0.0844,0.0252,3.5,,False

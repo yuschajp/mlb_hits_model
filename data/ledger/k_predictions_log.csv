@@ -1056,3 +1056,9 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-09,824549,663436,Davis Martin,Chicago White Sox,Pittsburgh Pirates,Rate Field,1.02,6.5,7.852,7.269,0.2425,130.7,8.7,5.23,5.193,0.2666,0.7334,1.0,True
 2026-09-09,823739,592332,Kevin Gausman,Chicago Cubs,Milwaukee Brewers,American Family Field,1.0,6.5,9.148,9.771,0.2162,162.3,35.0,5.6,5.446,0.3056,0.6944,6.0,True
 2026-09-09,823739,701656,Logan Henderson,Milwaukee Brewers,Chicago Cubs,American Family Field,1.02,6.5,10.044,8.37,0.214,83.3,33.3,5.56,5.33,0.2875,0.7125,6.0,True
+2026-09-10,823088,594798,Jacob deGrom,Texas Rangers,Seattle Mariners,T-Mobile Park,1.02,6.5,11.21,12.869,0.2344,149.3,35.7,5.33,6.759,0.5138,0.4862,,False
+2026-09-10,823088,669302,Logan Gilbert,Seattle Mariners,Texas Rangers,T-Mobile Park,0.92,6.5,9.785,10.983,0.228,172.0,39.3,5.93,6.407,0.4588,0.5412,,False
+2026-09-10,823499,663372,Ryan Feltner,Colorado Rockies,New York Yankees,Yankee Stadium,1.13,6.5,6.834,7.2,0.2473,106.7,30.0,4.85,4.677,0.1923,0.8077,,False
+2026-09-10,823499,608331,Max Fried,New York Yankees,Colorado Rockies,Yankee Stadium,1.04,6.5,8.185,8.274,0.2299,95.7,20.7,5.63,5.332,0.2878,0.7122,,False
+2026-09-10,824550,683003,Jared Jones,Pittsburgh Pirates,Chicago White Sox,Rate Field,0.97,6.5,10.525,11.912,0.2401,78.7,22.7,4.63,5.897,0.3772,0.6228,,False
+2026-09-10,824550,696146,Hagen Smith,Chicago White Sox,Pittsburgh Pirates,Rate Field,1.02,6.5,12.938,12.938,0.2418,16.0,16.0,3.0,6.369,0.4527,0.5473,,False
