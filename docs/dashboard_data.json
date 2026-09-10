@@ -1451,89 +1451,6 @@
       }
     ]
   },
-  "wc": {
-    "today_count": 0,
-    "total_graded": 30,
-    "brier_home": 0.1955,
-    "naive_brier": 0.222,
-    "matches_today": [],
-    "trend": [
-      {
-        "date": "2026-06-30",
-        "brier": 0.3184,
-        "n": 7
-      },
-      {
-        "date": "2026-07-01",
-        "brier": 0.2869,
-        "n": 10
-      },
-      {
-        "date": "2026-07-02",
-        "brier": 0.2541,
-        "n": 13
-      },
-      {
-        "date": "2026-07-03",
-        "brier": 0.253,
-        "n": 16
-      },
-      {
-        "date": "2026-07-04",
-        "brier": 0.2296,
-        "n": 18
-      },
-      {
-        "date": "2026-07-05",
-        "brier": 0.2493,
-        "n": 19
-      },
-      {
-        "date": "2026-07-06",
-        "brier": 0.1959,
-        "n": 18
-      },
-      {
-        "date": "2026-07-07",
-        "brier": 0.1717,
-        "n": 17
-      },
-      {
-        "date": "2026-07-09",
-        "brier": 0.1649,
-        "n": 12
-      },
-      {
-        "date": "2026-07-10",
-        "brier": 0.1435,
-        "n": 10
-      },
-      {
-        "date": "2026-07-11",
-        "brier": 0.1581,
-        "n": 10
-      },
-      {
-        "date": "2026-07-14",
-        "brier": 0.1271,
-        "n": 5
-      },
-      {
-        "date": "2026-07-15",
-        "brier": 0.1195,
-        "n": 6
-      }
-    ]
-  },
-  "wc_gs": {
-    "today_count": 0,
-    "total_graded": 0,
-    "since_date": null,
-    "brier_score": null,
-    "naive_brier": 0.2,
-    "top15_today": [],
-    "calibration": []
-  },
   "tennis": {
     "today_count": 0,
     "total_graded": 43,
@@ -2347,7 +2264,7 @@
       "seasons": "2024-2025",
       "auc": 0.7370921803740497,
       "brier": 0.13664442966434842,
-      "predicted": 0.18471910899309815,
+      "predicted": 0.18471910899309812,
       "observed": 0.1904293381037567,
       "lift": 12.547619047619046,
       "bands": [
@@ -2395,5 +2312,118 @@
         }
       ]
     }
+  },
+  "overview": {
+    "rows": [
+      {
+        "model": "MLB hits",
+        "today": 0,
+        "graded": 5225,
+        "metric": "Brier",
+        "value": 0.2349,
+        "baseline": 0.235,
+        "edge_pct": 0.04255319148935702,
+        "verdict": "beats baseline"
+      },
+      {
+        "model": "MLB home runs",
+        "today": 0,
+        "graded": 13040,
+        "metric": "Brier",
+        "value": 0.1012,
+        "baseline": 0.1034,
+        "edge_pct": 2.127659574468092,
+        "verdict": "beats baseline"
+      },
+      {
+        "model": "MLB strikeouts",
+        "today": 0,
+        "graded": 1055,
+        "metric": "Brier",
+        "value": 0.1523,
+        "baseline": 0.25,
+        "edge_pct": 39.080000000000005,
+        "verdict": "beats baseline"
+      },
+      {
+        "model": "Tennis",
+        "today": 0,
+        "graded": 43,
+        "metric": "Accuracy",
+        "value": 0.667,
+        "baseline": 0.5,
+        "edge_pct": 16.700000000000003,
+        "verdict": "vs coin flip"
+      },
+      {
+        "model": "College FB spread",
+        "today": 0,
+        "graded": 13,
+        "metric": "ATS",
+        "value": 0.46153846153846156,
+        "baseline": 0.5238,
+        "edge_pct": -6.2261538461538475,
+        "note": "MAE 14.95 vs market 14.00",
+        "verdict": "6-7"
+      },
+      {
+        "model": "NFL anytime TD",
+        "today": 366,
+        "graded": 0,
+        "metric": "AUC",
+        "value": 0.7370921803740497,
+        "baseline": 0.5,
+        "edge_pct": null,
+        "note": "held out 11,180 rows",
+        "verdict": "calibrated, never priced"
+      },
+      {
+        "model": "NFL spread",
+        "today": 0,
+        "graded": 4254,
+        "metric": "ATS",
+        "value": 0.5011753643629525,
+        "baseline": 0.5238,
+        "edge_pct": -2.262463563704753,
+        "note": "MAE 10.51 vs market 10.05",
+        "verdict": "REJECTED - do not bet"
+      },
+      {
+        "model": "NFL receptions",
+        "today": 0,
+        "graded": 0,
+        "metric": "PIT dev",
+        "value": 1.0915694895813424,
+        "baseline": null,
+        "edge_pct": null,
+        "note": "5,231 held-out rows",
+        "verdict": "calibrated, never priced"
+      },
+      {
+        "model": "NFL receiving yards",
+        "today": 0,
+        "graded": 0,
+        "metric": "PIT dev",
+        "value": 0.877461288472567,
+        "baseline": null,
+        "edge_pct": null,
+        "note": "5,231 held-out rows",
+        "verdict": "calibrated, never priced"
+      },
+      {
+        "model": "NFL rushing yards",
+        "today": 0,
+        "graded": 0,
+        "metric": "PIT dev",
+        "value": 1.642314436002339,
+        "baseline": null,
+        "edge_pct": null,
+        "note": "1,711 held-out rows",
+        "verdict": "calibrated, never priced"
+      }
+    ],
+    "total_today": 366,
+    "total_graded": 23630,
+    "model_count": 10
   }
 }

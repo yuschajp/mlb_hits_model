@@ -854,26 +854,100 @@ def summarize_nfl():
     return out
 
 
+def summarize_overview(payload):
+    """One row per model: today's volume, what has settled, and the one number
+    that says whether it is working.
+
+    Deliberately NOT a single shared metric. A probability model is judged by
+    Brier against its own naive baseline; a spread model by MAE against the
+    market and by ATS%. Forcing them into one column would invent comparability
+    that does not exist.
+    """
+    def brier_row(name, d, naive_key="naive_brier", b="brier_score"):
+        if not isinstance(d, dict): return None
+        bs, nv = d.get(b), d.get(naive_key)
+        skill = ((nv - bs) / nv * 100) if (bs is not None and nv) else None
+        return {"model": name, "today": d.get("today_count", 0),
+                "graded": d.get("total_graded", 0),
+                "metric": "Brier", "value": bs, "baseline": nv,
+                "edge_pct": skill,
+                "verdict": ("beats baseline" if (skill or 0) > 0 else
+                            "below baseline" if bs is not None else "no data")}
+
+    rows = []
+    for name, key in (("MLB hits", "hits"), ("MLB home runs", "hr"),
+                      ("MLB strikeouts", "k")):
+        r = brier_row(name, payload.get(key))
+        if r: rows.append(r)
+
+
+    t = payload.get("tennis") or {}
+    if t.get("total_graded"):
+        rows.append({"model": "Tennis", "today": t.get("today_count", 0),
+                     "graded": t.get("total_graded", 0), "metric": "Accuracy",
+                     "value": t.get("accuracy"), "baseline": 0.5,
+                     "edge_pct": ((t.get("accuracy") or 0) - 0.5) * 100,
+                     "verdict": "vs coin flip"})
+
+    c = payload.get("cfb") or {}
+    if c.get("total_graded"):
+        mm, mk = c.get("mae_model"), c.get("mae_market")
+        rows.append({"model": "College FB spread", "today": c.get("today_count", 0),
+                     "graded": c.get("total_graded", 0), "metric": "ATS",
+                     "value": c.get("win_pct"), "baseline": 0.5238,
+                     "edge_pct": ((c.get("win_pct") or 0) - 0.5238) * 100,
+                     "note": (f"MAE {mm:.2f} vs market {mk:.2f}" if mm and mk else ""),
+                     "verdict": c.get("record", "")})
+
+    n = payload.get("nfl") or {}
+    v = n.get("validation") or {}
+    if v:
+        rows.append({"model": "NFL anytime TD", "today": n.get("today_count", 0),
+                     "graded": n.get("total_graded", 0), "metric": "AUC",
+                     "value": v.get("auc"), "baseline": 0.5,
+                     "edge_pct": None,
+                     "note": f"held out {v.get('n', 0):,} rows",
+                     "verdict": "calibrated, never priced"})
+    sd = n.get("sides") or {}
+    if sd:
+        rows.append({"model": "NFL spread", "today": 0, "graded": sd.get("n", 0),
+                     "metric": "ATS", "value": sd.get("ats"), "baseline": 0.5238,
+                     "edge_pct": ((sd.get("ats") or 0) - 0.5238) * 100,
+                     "note": f"MAE {sd.get('mae_model',0):.2f} vs market {sd.get('mae_market',0):.2f}",
+                     "verdict": "REJECTED - do not bet"})
+    pv = n.get("props_validation") or {}
+    for m, x in pv.items():
+        rows.append({"model": f"NFL {m.replace('_',' ')}", "today": 0,
+                     "graded": 0, "metric": "PIT dev",
+                     "value": x.get("worst"), "baseline": None, "edge_pct": None,
+                     "note": f"{x.get('n',0):,} held-out rows",
+                     "verdict": "calibrated, never priced"})
+
+    tot_today = sum(r.get("today", 0) or 0 for r in rows)
+    tot_graded = sum(r.get("graded", 0) or 0 for r in rows)
+    return {"rows": [r for r in rows if r],
+            "total_today": tot_today, "total_graded": tot_graded,
+            "model_count": len([r for r in rows if r])}
+
+
 def main():
     today   = date.today()
     f1_data = summarize_f1()
     k_data  = summarize_k()
-    wc_data = summarize_wc()
-    wc_gs_data = summarize_wc_gs()
     tennis_data = summarize_tennis()
     payload = {
         "generated_at": today.isoformat(),
         "hits":  summarize_hits(HITS_LEDGER),
         "hr":    summarize_hr(HR_LEDGER),
         "k":     k_data,
-        "wc":    wc_data,
-        "wc_gs": wc_gs_data,
         "tennis": tennis_data,
         "picks": _build_picks_payload(today),
         "f1":    f1_data,
         "cfb":   summarize_cfb(),
         "nfl":   summarize_nfl(),
     }
+
+    payload["overview"] = summarize_overview(payload)
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     # Sanitize NaN/Inf values which are invalid JSON -- replace with null
@@ -891,10 +965,6 @@ def main():
           f"{payload['hr'].get('total_graded', 0)} graded total")
     print(f"  K:    {k_data.get('today_count', 0)} predictions today, "
           f"{k_data.get('total_graded', 0)} graded total")
-    print(f"  WC:   {wc_data.get('today_count', 0)} match predictions today, "
-          f"{wc_data.get('total_graded', 0)} graded total")
-    print(f"  WC-GS: {wc_gs_data.get('today_count', 0)} goalscorer predictions today, "
-          f"{wc_gs_data.get('total_graded', 0)} graded total")
     quali_graded = f1_data.get("quali", {}).get("stats", {}).get("total_graded", 0)
     print(f"  F1:   {len(f1_data.get('quali', {}).get('grid', []))} quali predictions, "
           f"{quali_graded} graded total")

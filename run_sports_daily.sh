@@ -48,8 +48,6 @@ run_grade() {
     note "Grading strikeouts..."
     $PYTHON scripts/grade_yesterday_k.py && ok "K graded"
 
-    note "Grading World Cup matches..."
-    $PYTHON scripts/grade_wc.py && ok "WC graded"
 }
 
 # ── DAILY PREDICTIONS ────────────────────────────────────────
@@ -65,11 +63,6 @@ run_predict() {
     note "MLB strikeouts..."
     $PYTHON scripts/run_daily_k.py && ok "K logged"
 
-    note "World Cup matches..."
-    $PYTHON scripts/run_daily_wc.py && ok "WC matches logged"
-
-    note "World Cup goalscorers..."
-    $PYTHON scripts/run_daily_wc_gs.py && ok "WC goalscorers logged"
 }
 
 # ── VALUE PICKS ──────────────────────────────────────────────
@@ -85,11 +78,6 @@ run_value() {
     note "MLB strikeout value..."
     $PYTHON scripts/find_value_k.py
 
-    note "World Cup match value..."
-    $PYTHON scripts/find_value_wc.py
-
-    note "World Cup goalscorer value..."
-    $PYTHON scripts/find_value_wc_gs.py
 }
 
 # ── PUBLISH DASHBOARD ────────────────────────────────────────
