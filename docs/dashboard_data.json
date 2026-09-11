@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 162,
+    "today_count": 216,
     "total_graded": 13094,
     "since_date": "2026-06-21",
     "brier_score": 0.1011,
@@ -381,6 +381,14 @@
     "avg_predicted": 0.124,
     "actual_hr_rate": 0.1164,
     "top10_today": [
+      {
+        "player_name": "Pete Alonso",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Max Scherzer",
+        "venue": "Rogers Centre",
+        "lineup_spot": 2,
+        "p_hr": 0.2465
+      },
       {
         "player_name": "Matt Olson",
         "team": "Atlanta Braves",
@@ -414,6 +422,14 @@
         "p_hr": 0.2195
       },
       {
+        "player_name": "Coby Mayo",
+        "team": "Baltimore Orioles",
+        "opponent_pitcher": "Max Scherzer",
+        "venue": "Rogers Centre",
+        "lineup_spot": 4,
+        "p_hr": 0.2117
+      },
+      {
         "player_name": "Drake Baldwin",
         "team": "Atlanta Braves",
         "opponent_pitcher": "Aaron Nola",
@@ -444,22 +460,6 @@
         "venue": "Busch Stadium",
         "lineup_spot": 3,
         "p_hr": 0.1975
-      },
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Wilber Dotel",
-        "venue": "Wrigley Field",
-        "lineup_spot": 1,
-        "p_hr": 0.1965
-      },
-      {
-        "player_name": "Colson Montgomery",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
-        "lineup_spot": 4,
-        "p_hr": 0.1925
       }
     ],
     "calibration": [
@@ -1287,12 +1287,12 @@
     ]
   },
   "k": {
-    "today_count": 22,
+    "today_count": 27,
     "total_graded": 1061,
     "since_date": "2026-06-27",
     "brier_score": 0.153,
     "naive_brier": 0.25,
-    "avg_lambda": 5.19,
+    "avg_lambda": 5.04,
     "over_rate": 0.234,
     "top10_today": [
       {
@@ -1678,8 +1678,8 @@
         "home": "Louisville",
         "cls": "FCS",
         "model": -21.7,
-        "market": -37.5,
-        "edge": 15.8,
+        "market": -38.5,
+        "edge": 16.8,
         "side": "Villanova",
         "dir": "DOG",
         "playable": true,
@@ -1702,8 +1702,8 @@
         "home": "Virginia",
         "cls": "FCS",
         "model": -52.9,
-        "market": -46.5,
-        "edge": -6.4,
+        "market": -46.25,
+        "edge": -6.6,
         "side": "Virginia",
         "dir": "FAV",
         "playable": true,
@@ -1726,8 +1726,8 @@
         "home": "Kansas",
         "cls": "FBS",
         "model": 4.6,
-        "market": 4.5,
-        "edge": 0.1,
+        "market": 4.25,
+        "edge": 0.4,
         "side": "Missouri",
         "dir": "FAV",
         "playable": false,
@@ -1896,6 +1896,15 @@
         "moved": false
       },
       {
+        "player": "Chris Rodriguez Jr.",
+        "pos": "RB",
+        "team": "JAX",
+        "game": "CLE@JAX",
+        "p_td": 0.4311981479597149,
+        "fair": 131,
+        "moved": true
+      },
+      {
         "player": "Aaron Jones",
         "pos": "RB",
         "team": "MIN",
@@ -1903,15 +1912,6 @@
         "p_td": 0.4290987618740922,
         "fair": 133,
         "moved": false
-      },
-      {
-        "player": "Chris Rodriguez Jr.",
-        "pos": "RB",
-        "team": "JAX",
-        "game": "CLE@JAX",
-        "p_td": 0.427114287013577,
-        "fair": 134,
-        "moved": true
       },
       {
         "player": "Tucker Kraft",
@@ -2035,8 +2035,8 @@
         "pos": "WR",
         "team": "JAX",
         "game": "CLE@JAX",
-        "p_td": 0.3419419520191239,
-        "fair": 192,
+        "p_td": 0.3454689111948635,
+        "fair": 189,
         "moved": false
       },
       {
@@ -2587,7 +2587,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 162,
+        "today": 216,
         "graded": 13094,
         "metric": "Brier",
         "value": 0.1011,
@@ -2597,7 +2597,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 22,
+        "today": 27,
         "graded": 1061,
         "metric": "Brier",
         "value": 0.153,
@@ -2682,7 +2682,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 530,
+    "total_today": 589,
     "total_graded": 23691,
     "model_count": 10
   }
