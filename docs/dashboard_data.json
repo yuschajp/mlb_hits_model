@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 162,
     "total_graded": 13094,
     "since_date": "2026-06-21",
     "brier_score": 0.1011,
@@ -382,12 +382,20 @@
     "actual_hr_rate": 0.1164,
     "top10_today": [
       {
+        "player_name": "Matt Olson",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Truist Park",
+        "lineup_spot": 3,
+        "p_hr": 0.2318
+      },
+      {
         "player_name": "Rafael Flores Jr.",
         "team": "Pittsburgh Pirates",
         "opponent_pitcher": "Shota Imanaga",
         "venue": "Wrigley Field",
         "lineup_spot": 4,
-        "p_hr": 0.2284
+        "p_hr": 0.2267
       },
       {
         "player_name": "Esmerlyn Valdez",
@@ -395,7 +403,7 @@
         "opponent_pitcher": "Shota Imanaga",
         "venue": "Wrigley Field",
         "lineup_spot": 5,
-        "p_hr": 0.2228
+        "p_hr": 0.2215
       },
       {
         "player_name": "Oneil Cruz",
@@ -403,7 +411,39 @@
         "opponent_pitcher": "Shota Imanaga",
         "venue": "Wrigley Field",
         "lineup_spot": 2,
-        "p_hr": 0.2205
+        "p_hr": 0.2195
+      },
+      {
+        "player_name": "Drake Baldwin",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Truist Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2094
+      },
+      {
+        "player_name": "Ronald Acu\u00f1a Jr.",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Truist Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2046
+      },
+      {
+        "player_name": "Michael Harris II",
+        "team": "Atlanta Braves",
+        "opponent_pitcher": "Aaron Nola",
+        "venue": "Truist Park",
+        "lineup_spot": 4,
+        "p_hr": 0.1999
+      },
+      {
+        "player_name": "Miguel Vargas",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Busch Stadium",
+        "lineup_spot": 3,
+        "p_hr": 0.1975
       },
       {
         "player_name": "Pete Crow-Armstrong",
@@ -411,55 +451,15 @@
         "opponent_pitcher": "Wilber Dotel",
         "venue": "Wrigley Field",
         "lineup_spot": 1,
-        "p_hr": 0.2012
+        "p_hr": 0.1965
       },
       {
-        "player_name": "Konnor Griffin",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Wrigley Field",
-        "lineup_spot": 1,
-        "p_hr": 0.1636
-      },
-      {
-        "player_name": "Bryan Reynolds",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Wrigley Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1598
-      },
-      {
-        "player_name": "Henry Davis",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Wrigley Field",
-        "lineup_spot": 9,
-        "p_hr": 0.1584
-      },
-      {
-        "player_name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Wilber Dotel",
-        "venue": "Wrigley Field",
+        "player_name": "Colson Montgomery",
+        "team": "Chicago White Sox",
+        "opponent_pitcher": "Matthew Liberatore",
+        "venue": "Busch Stadium",
         "lineup_spot": 4,
-        "p_hr": 0.1429
-      },
-      {
-        "player_name": "Michael Conforto",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Wilber Dotel",
-        "venue": "Wrigley Field",
-        "lineup_spot": 7,
-        "p_hr": 0.1322
-      },
-      {
-        "player_name": "Seiya Suzuki",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Wilber Dotel",
-        "venue": "Wrigley Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1305
+        "p_hr": 0.1925
       }
     ],
     "calibration": [
@@ -1287,33 +1287,113 @@
     ]
   },
   "k": {
-    "today_count": 2,
+    "today_count": 22,
     "total_graded": 1061,
     "since_date": "2026-06-27",
     "brier_score": 0.153,
     "naive_brier": 0.25,
-    "avg_lambda": 5.2,
+    "avg_lambda": 5.19,
     "over_rate": 0.234,
     "top10_today": [
+      {
+        "pitcher_name": "Cade Cavalli",
+        "team": "Washington Nationals",
+        "opponent": "Los Angeles Angels",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 7.06,
+        "p_over": 0.5588,
+        "p_under": 0.4412
+      },
+      {
+        "pitcher_name": "Chris Sale",
+        "team": "Atlanta Braves",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 6.63,
+        "p_over": 0.4934,
+        "p_under": 0.5066
+      },
+      {
+        "pitcher_name": "Nolan McLean",
+        "team": "New York Mets",
+        "opponent": "New York Yankees",
+        "venue": "Yankee Stadium",
+        "line": 6.5,
+        "lambda_k": 6.08,
+        "p_over": 0.4072,
+        "p_under": 0.5928
+      },
+      {
+        "pitcher_name": "Taj Bradley",
+        "team": "Minnesota Twins",
+        "opponent": "Cleveland Guardians",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 6.04,
+        "p_over": 0.4,
+        "p_under": 0.6
+      },
       {
         "pitcher_name": "Shota Imanaga",
         "team": "Chicago Cubs",
         "opponent": "Pittsburgh Pirates",
         "venue": "Wrigley Field",
         "line": 6.5,
-        "lambda_k": 6.0,
-        "p_over": 0.3935,
-        "p_under": 0.6065
+        "lambda_k": 5.85,
+        "p_over": 0.3703,
+        "p_under": 0.6297
       },
       {
-        "pitcher_name": "Wilber Dotel",
-        "team": "Pittsburgh Pirates",
-        "opponent": "Chicago Cubs",
-        "venue": "Wrigley Field",
+        "pitcher_name": "Matthew Liberatore",
+        "team": "St. Louis Cardinals",
+        "opponent": "Chicago White Sox",
+        "venue": "Busch Stadium",
         "line": 6.5,
-        "lambda_k": 4.41,
-        "p_over": 0.1573,
-        "p_under": 0.8427
+        "lambda_k": 5.77,
+        "p_over": 0.3563,
+        "p_under": 0.6437
+      },
+      {
+        "pitcher_name": "Parker Messick",
+        "team": "Cleveland Guardians",
+        "opponent": "Minnesota Twins",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 5.75,
+        "p_over": 0.3541,
+        "p_under": 0.6459
+      },
+      {
+        "pitcher_name": "Mason Adams",
+        "team": "Colorado Rockies",
+        "opponent": "Detroit Tigers",
+        "venue": "Comerica Park",
+        "line": 6.5,
+        "lambda_k": 5.7,
+        "p_over": 0.3448,
+        "p_under": 0.6552
+      },
+      {
+        "pitcher_name": "Dustin May",
+        "team": "Milwaukee Brewers",
+        "opponent": "Cincinnati Reds",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.48,
+        "p_over": 0.3102,
+        "p_under": 0.6898
+      },
+      {
+        "pitcher_name": "Aaron Nola",
+        "team": "Philadelphia Phillies",
+        "opponent": "Atlanta Braves",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 5.46,
+        "p_over": 0.3078,
+        "p_under": 0.6922
       }
     ],
     "calibration": [
@@ -1622,8 +1702,8 @@
         "home": "Virginia",
         "cls": "FCS",
         "model": -52.9,
-        "market": -46.25,
-        "edge": -6.6,
+        "market": -46.5,
+        "edge": -6.4,
         "side": "Virginia",
         "dir": "FAV",
         "playable": true,
@@ -1771,21 +1851,21 @@
         "moved": false
       },
       {
-        "player": "Bijan Robinson",
-        "pos": "RB",
-        "team": "ATL",
-        "game": "ATL@PIT",
-        "p_td": 0.4782333416895604,
-        "fair": 109,
-        "moved": false
-      },
-      {
         "player": "Saquon Barkley",
         "pos": "RB",
         "team": "PHI",
         "game": "WAS@PHI",
         "p_td": 0.4639603049557946,
         "fair": 115,
+        "moved": false
+      },
+      {
+        "player": "Bijan Robinson",
+        "pos": "RB",
+        "team": "ATL",
+        "game": "ATL@PIT",
+        "p_td": 0.4589830968572108,
+        "fair": 117,
         "moved": false
       },
       {
@@ -1802,8 +1882,8 @@
         "pos": "WR",
         "team": "PIT",
         "game": "ATL@PIT",
-        "p_td": 0.4377595969120607,
-        "fair": 128,
+        "p_td": 0.4421254685495985,
+        "fair": 126,
         "moved": false
       },
       {
@@ -1834,21 +1914,21 @@
         "moved": true
       },
       {
-        "player": "Josh Allen",
-        "pos": "QB",
-        "team": "BUF",
-        "game": "BUF@HOU",
-        "p_td": 0.4223964169417372,
-        "fair": 136,
-        "moved": false
-      },
-      {
         "player": "Tucker Kraft",
         "pos": "TE",
         "team": "GB",
         "game": "GB@MIN",
         "p_td": 0.4206683194510546,
         "fair": 137,
+        "moved": false
+      },
+      {
+        "player": "Josh Allen",
+        "pos": "QB",
+        "team": "BUF",
+        "game": "BUF@HOU",
+        "p_td": 0.4180885589795184,
+        "fair": 139,
         "moved": false
       },
       {
@@ -1901,9 +1981,18 @@
         "pos": "RB",
         "team": "BUF",
         "game": "BUF@HOU",
-        "p_td": 0.391344929005359,
-        "fair": 155,
+        "p_td": 0.3872400204786981,
+        "fair": 158,
         "moved": false
+      },
+      {
+        "player": "Rico Dowdle",
+        "pos": "RB",
+        "team": "PIT",
+        "game": "ATL@PIT",
+        "p_td": 0.3668719977638105,
+        "fair": 172,
+        "moved": true
       },
       {
         "player": "RJ Harvey",
@@ -1913,15 +2002,6 @@
         "p_td": 0.3634929025718052,
         "fair": 175,
         "moved": false
-      },
-      {
-        "player": "Rico Dowdle",
-        "pos": "RB",
-        "team": "PIT",
-        "game": "ATL@PIT",
-        "p_td": 0.362994762097936,
-        "fair": 175,
-        "moved": true
       },
       {
         "player": "Christian Watson",
@@ -1978,21 +2058,21 @@
         "moved": false
       },
       {
+        "player": "Jaylen Warren",
+        "pos": "RB",
+        "team": "PIT",
+        "game": "ATL@PIT",
+        "p_td": 0.3366133836210285,
+        "fair": 197,
+        "moved": false
+      },
+      {
         "player": "Tony Pollard",
         "pos": "RB",
         "team": "TEN",
         "game": "NYJ@TEN",
         "p_td": 0.336098252450505,
         "fair": 197,
-        "moved": false
-      },
-      {
-        "player": "Jaylen Warren",
-        "pos": "RB",
-        "team": "PIT",
-        "game": "ATL@PIT",
-        "p_td": 0.332966922233981,
-        "fair": 200,
         "moved": false
       },
       {
@@ -2507,7 +2587,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 18,
+        "today": 162,
         "graded": 13094,
         "metric": "Brier",
         "value": 0.1011,
@@ -2517,7 +2597,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 2,
+        "today": 22,
         "graded": 1061,
         "metric": "Brier",
         "value": 0.153,
@@ -2602,7 +2682,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 366,
+    "total_today": 530,
     "total_graded": 23691,
     "model_count": 10
   }
