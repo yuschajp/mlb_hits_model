@@ -1489,7 +1489,7 @@
   },
   "cfb": {
     "today_count": 5,
-    "total_graded": 13,
+    "total_graded": 14,
     "board": [
       {
         "away": "Villanova",
@@ -1520,21 +1520,9 @@
         "home": "Virginia",
         "cls": "FCS",
         "model": -52.9,
-        "market": -45.25,
-        "edge": -7.6,
+        "market": -45.75,
+        "edge": -7.1,
         "side": "Virginia",
-        "dir": "FAV",
-        "playable": true,
-        "flag": "BLIND-SPOT"
-      },
-      {
-        "away": "Florida A&M",
-        "home": "Miami",
-        "cls": "FCS",
-        "model": -67.0,
-        "market": -59.5,
-        "edge": -7.5,
-        "side": "Miami",
         "dir": "FAV",
         "playable": true,
         "flag": "BLIND-SPOT"
@@ -1544,10 +1532,22 @@
         "home": "NC State",
         "cls": "FCS",
         "model": -35.6,
-        "market": -32.0,
-        "edge": -3.6,
+        "market": -33.25,
+        "edge": -2.4,
         "side": "NC State",
         "dir": "FAV",
+        "playable": false,
+        "flag": ""
+      },
+      {
+        "away": "Missouri",
+        "home": "Kansas",
+        "cls": "FBS",
+        "model": 4.6,
+        "market": 5.25,
+        "edge": -0.6,
+        "side": "Kansas",
+        "dir": "DOG",
         "playable": false,
         "flag": ""
       }
@@ -1561,15 +1561,15 @@
       },
       {
         "split": "FCS",
-        "record": "2-1",
-        "win_pct": 0.6666666666666666,
-        "n": 3
+        "record": "3-1",
+        "win_pct": 0.75,
+        "n": 4
       },
       {
         "split": "FAV",
-        "record": "3-2",
-        "win_pct": 0.6,
-        "n": 5
+        "record": "4-2",
+        "win_pct": 0.6666666666666666,
+        "n": 6
       },
       {
         "split": "DOG",
@@ -1578,10 +1578,10 @@
         "n": 8
       }
     ],
-    "record": "6-7",
-    "win_pct": 0.46153846153846156,
-    "mae_model": 14.950000000000001,
-    "mae_market": 14.0
+    "record": "7-7",
+    "win_pct": 0.5,
+    "mae_model": 14.153333333333334,
+    "mae_market": 13.766666666666667
   },
   "nfl": {
     "today_count": 341,
@@ -2436,13 +2436,13 @@
       {
         "model": "College FB spread",
         "today": 5,
-        "graded": 13,
+        "graded": 14,
         "metric": "ATS",
-        "value": 0.46153846153846156,
+        "value": 0.5,
         "baseline": 0.5238,
-        "edge_pct": -6.2261538461538475,
-        "note": "MAE 14.95 vs market 14.00",
-        "verdict": "6-7"
+        "edge_pct": -2.3800000000000043,
+        "note": "MAE 14.15 vs market 13.77",
+        "verdict": "7-7"
       },
       {
         "model": "NFL anytime TD",
@@ -2501,7 +2501,7 @@
       }
     ],
     "total_today": 346,
-    "total_graded": 23690,
+    "total_graded": 23691,
     "model_count": 10
   }
 }
