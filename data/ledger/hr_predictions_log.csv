@@ -13186,6 +13186,24 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-11,823498,666624,Christopher Morel,New York Mets,New York Yankees,7,Yankee Stadium,1.18,Carlos Rodón,0.1067,0.0305,3.7,,False
 2026-09-11,823498,805999,A.J. Ewing,New York Mets,New York Yankees,8,Yankee Stadium,1.18,Carlos Rodón,0.0912,0.0266,3.6,,False
 2026-09-11,823498,682626,Francisco Alvarez,New York Mets,New York Yankees,9,Yankee Stadium,1.18,Carlos Rodón,0.1158,0.0352,3.5,,False
+2026-09-11,822767,703520,Brett Bateman,Toronto Blue Jays,Baltimore Orioles,1,Rogers Centre,1.05,Chris Bassitt,0.09,0.0219,4.3,,False
+2026-09-11,822767,543807,George Springer,Toronto Blue Jays,Baltimore Orioles,2,Rogers Centre,1.05,Chris Bassitt,0.1193,0.0302,4.2,,False
+2026-09-11,822767,665489,Vladimir Guerrero Jr.,Toronto Blue Jays,Baltimore Orioles,3,Rogers Centre,1.05,Chris Bassitt,0.0856,0.0218,4.1,,False
+2026-09-11,822767,672386,Alejandro Kirk,Toronto Blue Jays,Baltimore Orioles,4,Rogers Centre,1.05,Chris Bassitt,0.1275,0.0341,4.0,,False
+2026-09-11,822767,664770,Nathan Lukes,Toronto Blue Jays,Baltimore Orioles,5,Rogers Centre,1.05,Chris Bassitt,0.1107,0.0301,3.9,,False
+2026-09-11,822767,672960,Kazuma Okamoto,Toronto Blue Jays,Baltimore Orioles,6,Rogers Centre,1.05,Chris Bassitt,0.1492,0.0425,3.8,,False
+2026-09-11,822767,669701,Josh Smith,Toronto Blue Jays,Baltimore Orioles,7,Rogers Centre,1.05,Chris Bassitt,0.1288,0.0373,3.7,,False
+2026-09-11,822767,665926,Andrés Giménez,Toronto Blue Jays,Baltimore Orioles,8,Rogers Centre,1.05,Chris Bassitt,0.0839,0.0243,3.6,,False
+2026-09-11,822767,676391,Ernie Clement,Toronto Blue Jays,Baltimore Orioles,9,Rogers Centre,1.05,Chris Bassitt,0.069,0.0204,3.5,,False
+2026-09-11,822767,687637,Dylan Beavers,Baltimore Orioles,Toronto Blue Jays,1,Rogers Centre,1.05,Max Scherzer,0.1663,0.0423,4.3,,False
+2026-09-11,822767,624413,Pete Alonso,Baltimore Orioles,Toronto Blue Jays,2,Rogers Centre,1.05,Max Scherzer,0.2465,0.0674,4.2,,False
+2026-09-11,822767,702616,Jackson Holliday,Baltimore Orioles,Toronto Blue Jays,3,Rogers Centre,1.05,Max Scherzer,0.1374,0.0361,4.1,,False
+2026-09-11,822767,691723,Coby Mayo,Baltimore Orioles,Toronto Blue Jays,4,Rogers Centre,1.05,Max Scherzer,0.2117,0.0595,4.0,,False
+2026-09-11,822767,683002,Gunnar Henderson,Baltimore Orioles,Toronto Blue Jays,5,Rogers Centre,1.05,Max Scherzer,0.1642,0.046,3.9,,False
+2026-09-11,822767,694212,Samuel Basallo,Baltimore Orioles,Toronto Blue Jays,6,Rogers Centre,1.05,Max Scherzer,0.1748,0.0506,3.8,,False
+2026-09-11,822767,687952,Christian Encarnacion-Strand,Baltimore Orioles,Toronto Blue Jays,7,Rogers Centre,1.05,Max Scherzer,0.1627,0.048,3.7,,False
+2026-09-11,822767,677008,Heston Kjerstad,Baltimore Orioles,Toronto Blue Jays,8,Rogers Centre,1.05,Max Scherzer,0.1393,0.0417,3.6,,False
+2026-09-11,822767,681297,Colton Cowser,Baltimore Orioles,Toronto Blue Jays,9,Rogers Centre,1.05,Max Scherzer,0.1654,0.0516,3.5,,False
 2026-09-11,824711,701350,Roman Anthony,Boston Red Sox,Kansas City Royals,1,Fenway Park,0.92,Seth Lugo,0.1221,0.0303,4.3,,False
 2026-09-11,824711,681508,Mickey Gasper,Boston Red Sox,Kansas City Royals,2,Fenway Park,0.92,Seth Lugo,0.1572,0.0407,4.2,,False
 2026-09-11,824711,668939,Adley Rutschman,Boston Red Sox,Kansas City Royals,3,Fenway Park,0.92,Seth Lugo,0.1246,0.0325,4.1,,False
@@ -13204,6 +13222,24 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-11,824711,679845,Nick Loftin,Kansas City Royals,Boston Red Sox,7,Fenway Park,0.92,Sonny Gray,0.0853,0.0241,3.7,,False
 2026-09-11,824711,664728,Kyle Isbel,Kansas City Royals,Boston Red Sox,8,Fenway Park,0.92,Sonny Gray,0.086,0.025,3.6,,False
 2026-09-11,824711,686555,Isaac Collins,Kansas City Royals,Boston Red Sox,9,Fenway Park,0.92,Sonny Gray,0.0658,0.0194,3.5,,False
+2026-09-11,822930,650490,Yandy Díaz,Tampa Bay Rays,Houston Astros,1,Tropicana Field,0.97,Miguel Ullola,0.1559,0.0394,4.3,,False
+2026-09-11,822930,666018,Jonathan Aranda,Tampa Bay Rays,Houston Astros,2,Tropicana Field,0.97,Miguel Ullola,0.1489,0.0384,4.2,,False
+2026-09-11,822930,691406,Junior Caminero,Tampa Bay Rays,Houston Astros,3,Tropicana Field,0.97,Miguel Ullola,0.1961,0.0532,4.1,,False
+2026-09-11,822930,689414,Liam Hicks,Tampa Bay Rays,Houston Astros,4,Tropicana Field,0.97,Miguel Ullola,0.1473,0.0398,4.0,,False
+2026-09-11,822930,683748,Victor Mesa Jr.,Tampa Bay Rays,Houston Astros,5,Tropicana Field,0.97,Miguel Ullola,0.1607,0.0449,3.9,,False
+2026-09-11,822930,802415,Chandler Simpson,Tampa Bay Rays,Houston Astros,6,Tropicana Field,0.97,Miguel Ullola,0.0629,0.0171,3.8,,False
+2026-09-11,822930,656775,Cedric Mullins,Tampa Bay Rays,Houston Astros,7,Tropicana Field,0.97,Miguel Ullola,0.1211,0.0349,3.7,,False
+2026-09-11,822930,680700,Richie Palacios,Tampa Bay Rays,Houston Astros,8,Tropicana Field,0.97,Miguel Ullola,0.126,0.0374,3.6,,False
+2026-09-11,822930,622761,Jorge Mateo,Tampa Bay Rays,Houston Astros,9,Tropicana Field,0.97,Miguel Ullola,0.1094,0.0331,3.5,,False
+2026-09-11,822930,514888,Jose Altuve,Houston Astros,Tampa Bay Rays,1,Tropicana Field,0.97,Drew Rasmussen,0.1068,0.0263,4.3,,False
+2026-09-11,822930,665161,Jeremy Peña,Houston Astros,Tampa Bay Rays,2,Tropicana Field,0.97,Drew Rasmussen,0.1252,0.0319,4.2,,False
+2026-09-11,822930,670623,Isaac Paredes,Houston Astros,Tampa Bay Rays,3,Tropicana Field,0.97,Drew Rasmussen,0.1181,0.0306,4.1,,False
+2026-09-11,822930,662139,Daulton Varsho,Houston Astros,Tampa Bay Rays,4,Tropicana Field,0.97,Drew Rasmussen,0.0936,0.0246,4.0,,False
+2026-09-11,822930,673237,Yainer Diaz,Houston Astros,Tampa Bay Rays,5,Tropicana Field,0.97,Drew Rasmussen,0.112,0.0305,3.9,,False
+2026-09-11,822930,572233,Christian Walker,Houston Astros,Tampa Bay Rays,6,Tropicana Field,0.97,Drew Rasmussen,0.1165,0.0326,3.8,,False
+2026-09-11,822930,701358,Cam Smith,Houston Astros,Tampa Bay Rays,7,Tropicana Field,0.97,Drew Rasmussen,0.1118,0.032,3.7,,False
+2026-09-11,822930,666211,Taylor Trammell,Houston Astros,Tampa Bay Rays,8,Tropicana Field,0.97,Drew Rasmussen,0.0851,0.0247,3.6,,False
+2026-09-11,822930,669397,Nick Allen,Houston Astros,Tampa Bay Rays,9,Tropicana Field,0.97,Drew Rasmussen,0.083,0.0247,3.5,,False
 2026-09-11,824873,686948,Drake Baldwin,Atlanta Braves,Philadelphia Phillies,1,Truist Park,1.02,Aaron Nola,0.2094,0.0546,4.3,,False
 2026-09-11,824873,660670,Ronald Acuña Jr.,Atlanta Braves,Philadelphia Phillies,2,Truist Park,1.02,Aaron Nola,0.2046,0.0545,4.2,,False
 2026-09-11,824873,621566,Matt Olson,Atlanta Braves,Philadelphia Phillies,3,Truist Park,1.02,Aaron Nola,0.2318,0.0643,4.1,,False
@@ -13276,3 +13312,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-11,823012,695731,Braden Montgomery,Chicago White Sox,St. Louis Cardinals,7,Busch Stadium,0.9,Matthew Liberatore,0.1175,0.0338,3.7,,False
 2026-09-11,823012,668670,Jake Rogers,Chicago White Sox,St. Louis Cardinals,8,Busch Stadium,0.9,Matthew Liberatore,0.128,0.038,3.6,,False
 2026-09-11,823012,682668,Luisangel Acuña,Chicago White Sox,St. Louis Cardinals,9,Busch Stadium,0.9,Matthew Liberatore,0.1018,0.0307,3.5,,False
+2026-09-11,823173,813841,Jonah Cox,San Francisco Giants,San Diego Padres,1,Oracle Park,0.78,Robbie Ray,0.1342,0.0335,4.3,,False
+2026-09-11,823173,646240,Rafael Devers,San Francisco Giants,San Diego Padres,2,Oracle Park,0.78,Robbie Ray,0.1856,0.0489,4.2,,False
+2026-09-11,823173,805811,Bryce Eldridge,San Francisco Giants,San Diego Padres,3,Oracle Park,0.78,Robbie Ray,0.1375,0.0361,4.1,,False
+2026-09-11,823173,678545,Osleivis Basabe,San Francisco Giants,San Diego Padres,4,Oracle Park,0.78,Robbie Ray,0.1184,0.0315,4.0,,False
+2026-09-11,823173,806367,Turner Hill,San Francisco Giants,San Diego Padres,5,Oracle Park,0.78,Robbie Ray,0.0952,0.0257,3.9,,False
+2026-09-11,823173,694376,Shay Whitcomb,San Francisco Giants,San Diego Padres,6,Oracle Park,0.78,Robbie Ray,0.1085,0.0302,3.8,,False
+2026-09-11,823173,808982,Jung Hoo Lee,San Francisco Giants,San Diego Padres,7,Oracle Park,0.78,Robbie Ray,0.0794,0.0223,3.7,,False
+2026-09-11,823173,668800,Andrew Knizner,San Francisco Giants,San Diego Padres,8,Oracle Park,0.78,Robbie Ray,0.1026,0.0301,3.6,,False
+2026-09-11,823173,683766,Christian Koss,San Francisco Giants,San Diego Padres,9,Oracle Park,0.78,Robbie Ray,0.1086,0.0328,3.5,,False
+2026-09-11,823173,665487,Fernando Tatis Jr.,San Diego Padres,San Francisco Giants,1,Oracle Park,0.78,Anthony Molina,0.143,0.0359,4.3,,False
+2026-09-11,823173,630105,Jake Cronenworth,San Diego Padres,San Francisco Giants,2,Oracle Park,0.78,Anthony Molina,0.0971,0.0243,4.2,,False
+2026-09-11,823173,592518,Manny Machado,San Diego Padres,San Francisco Giants,3,Oracle Park,0.78,Anthony Molina,0.141,0.0371,4.1,,False
+2026-09-11,823173,669134,Luis Campusano,San Diego Padres,San Francisco Giants,4,Oracle Park,0.78,Anthony Molina,0.1202,0.032,4.0,,False
+2026-09-11,823173,701538,Jackson Merrill,San Diego Padres,San Francisco Giants,5,Oracle Park,0.78,Anthony Molina,0.1359,0.0374,3.9,,False
+2026-09-11,823173,593428,Xander Bogaerts,San Diego Padres,San Francisco Giants,6,Oracle Park,0.78,Anthony Molina,0.0971,0.0269,3.8,,False
+2026-09-11,823173,669392,Samad Taylor,San Diego Padres,San Francisco Giants,7,Oracle Park,0.78,Anthony Molina,0.0916,0.026,3.7,,False
+2026-09-11,823173,687957,Dustin Harris,San Diego Padres,San Francisco Giants,8,Oracle Park,0.78,Anthony Molina,0.0888,0.0258,3.6,,False
+2026-09-11,823173,666023,Freddy Fermin,San Diego Padres,San Francisco Giants,9,Oracle Park,0.78,Anthony Molina,0.0836,0.0249,3.5,,False
