@@ -11,7 +11,24 @@ outlier line is the most common way a board ends up with a fake 30-point edge.
 Exits 0 with no file when there are no games, so the daily runner just skips.
 """
 import json, os, sys, urllib.request
-from datetime import date as _date
+from datetime import date as _date, datetime
+from zoneinfo import ZoneInfo
+
+# CFBD returns startDate in UTC. Comparing the raw string puts every kickoff
+# after 8pm ET on the NEXT day's board -- which silently split one slate across
+# two files and left night games ungraded. College football is scheduled in
+# Eastern, so convert before comparing.
+ET = ZoneInfo("America/New_York")
+
+
+def kick_date(g):
+    raw = str(g.get("startDate") or g.get("start_date") or "")
+    if not raw:
+        return ""
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00")).astimezone(ET).date().isoformat()
+    except ValueError:
+        return raw[:10]
 from pathlib import Path
 from statistics import median
 
@@ -46,7 +63,7 @@ for wk in range(1, 17):
         gs = get("/games", year=YEAR, week=wk, seasonType="regular")
     except Exception:
         continue
-    hit = [g for g in gs if str(pick(g, "startDate", "start_date", default=""))[:10] == DATE]
+    hit = [g for g in gs if kick_date(g) == DATE]
     if hit:
         weeks.add(wk); games += hit
     if weeks and wk > max(weeks) + 1:

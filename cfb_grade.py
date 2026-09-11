@@ -1,74 +1,90 @@
-"""Grade every logged board against real finals. No API key -- ESPN's public
-scoreboard only.
+"""Grade every logged board against CFBD finals.
 
     python3 cfb_grade.py              grade every ungraded picks_*.csv
-    python3 cfb_grade.py 2026-09-12   grade one date
+    python3 cfb_grade.py 2026-09-10   one date
     python3 cfb_grade.py --regrade    redo everything
 
-For each data/cfb/picks_<DATE>.csv it writes data/cfb/graded_<DATE>.csv adding
-actual_home, actual_away, actual_margin (home perspective) and result (W/L/P),
-then prints a season summary broken out the way week 1 said matters: FBS vs FCS,
-favourite vs underdog, and edge bucket.
+WHY CFBD AND NOT ESPN
+    ESPN's public scoreboard returns 403 from a plain client, so the previous
+    version silently graded nothing. CFBD needs the key you already have, and
+    it is the same source the boards are built from -- which means team names
+    match EXACTLY. The ESPN version had to fuzzy-match "Texas A&M" against
+    "Texas A&M Aggies", and a fuzzy match that fails is a game that quietly
+    never grades.
 
-WHY THIS EXISTS
-  Resolving a true 55% edge at 95% confidence takes roughly 1,400 games. Every
-  result graded by hand is a game you will not get to. This turns grading into
-  something that happens automatically after every slate.
+    Kickoffs are bucketed by EASTERN date, not UTC. CFBD returns UTC, so an
+    8pm ET game reads as the next day and would be looked up under the wrong
+    date -- the same bug that put Thursday's Miami game on Friday's board.
 """
-import glob, json, re, sys, time, urllib.request
+import glob, json, os, sys, urllib.request
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 import numpy as np, pandas as pd
 
-ESPN = ("https://site.api.espn.com/apis/site/v2/sports/football/"
-        "college-football/scoreboard?dates={d}&groups=80&limit=900")
+KEY = os.environ.get("CFBD_KEY")
+BASE = "https://api.collegefootballdata.com"
+ET = ZoneInfo("America/New_York")
+OUT = Path("data/cfb")
 
 
-def norm(s):
-    """Loose key so 'Texas A&M', 'Texas A&M Aggies' and 'texas am' all agree."""
-    s = str(s).lower()
-    s = s.replace("&", "and").replace("'", "").replace(".", "")
-    s = re.sub(r"\b(state)\b", "st", s)
-    s = re.sub(r"[^a-z0-9]+", "", s)
-    return s
+def get(path, **pm):
+    if not KEY:
+        sys.exit("Set CFBD_KEY first:  set -a; . ./.env; set +a")
+    q = "&".join(f"{k}={v}" for k, v in pm.items() if v is not None)
+    req = urllib.request.Request(f"{BASE}{path}?{q}", headers={
+        "Authorization": f"Bearer {KEY}", "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        return json.load(r)
 
 
-def fetch(date):
-    """Return {normalised team key: (home_pts, away_pts, home_key, away_key)}."""
-    url = ESPN.format(d=date.replace("-", ""))
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    with urllib.request.urlopen(req, timeout=45) as f:
-        js = json.load(f)
+def pick(d, *names, default=None):
+    for n in names:
+        if d.get(n) is not None:
+            return d[n]
+    return default
+
+
+def kick_date(g):
+    raw = str(pick(g, "startDate", "start_date", default=""))
+    if not raw:
+        return ""
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00")).astimezone(ET).date().isoformat()
+    except ValueError:
+        return raw[:10]
+
+
+_cache = {}
+def finals_for(date):
+    """{(away, home): (away_pts, home_pts)} for every completed game that day."""
+    if date in _cache:
+        return _cache[date]
+    year = int(date[:4])
     out = {}
-    for ev in js.get("events", []):
-        for comp in ev.get("competitions", []):
-            st = (comp.get("status") or {}).get("type") or {}
-            if not st.get("completed"):
+    for wk in range(1, 17):
+        try:
+            gs = get("/games", year=year, week=wk, seasonType="regular")
+        except Exception as e:
+            print(f"    week {wk}: {e}")
+            continue
+        hit = [g for g in gs if kick_date(g) == date]
+        if not hit:
+            if out:
+                break
+            continue
+        for g in hit:
+            hp = pick(g, "homePoints", "home_points")
+            ap = pick(g, "awayPoints", "away_points")
+            h = pick(g, "homeTeam", "home_team")
+            a = pick(g, "awayTeam", "away_team")
+            if None in (hp, ap, h, a):
                 continue
-            sides = {}
-            for c in comp.get("competitors", []):
-                t = c.get("team") or {}
-                names = {t.get("displayName"), t.get("shortDisplayName"),
-                         t.get("location"), t.get("name"), t.get("nickname")}
-                sides[c.get("homeAway")] = (
-                    [norm(n) for n in names if n], int(c.get("score") or 0))
-            if "home" not in sides or "away" not in sides:
-                continue
-            (hk, hp), (ak, ap) = sides["home"], sides["away"]
-            for a in hk:
-                for b in ak:
-                    out[(a, b)] = (hp, ap)
+            out[(a, h)] = (float(ap), float(hp))
+        if out:
+            break
+    _cache[date] = out
     return out
-
-
-def look(idx, home, away):
-    h, a = norm(home), norm(away)
-    if (h, a) in idx:
-        return idx[(h, a)]
-    for (kh, ka), v in idx.items():          # substring fallback
-        if (kh.startswith(h) or h.startswith(kh)) and \
-           (ka.startswith(a) or a.startswith(ka)):
-            return v
-    return None
 
 
 args = [x for x in sys.argv[1:] if not x.startswith("-")]
@@ -79,95 +95,93 @@ files = ([f"data/cfb/picks_{d}.csv" for d in args] if args
 frames, missed = [], []
 for fp in files:
     date = Path(fp).stem.replace("picks_", "")
-    gout = Path(f"data/cfb/graded_{date}.csv")
+    gout = OUT / f"graded_{date}.csv"
     if gout.exists() and not regrade and not args:
-        frames.append(pd.read_csv(gout));  continue
+        frames.append(pd.read_csv(gout)); continue
     try:
         p = pd.read_csv(fp)
     except Exception as e:
-        print(f"  {fp}: {e}");  continue
-    try:
-        idx = fetch(date)
-    except Exception as e:
-        print(f"  {date}: ESPN fetch failed ({e}) -- skipped");  continue
+        print(f"  {fp}: {e}"); continue
 
-    hp, ap = [], []
+    fin = finals_for(date)
+    if not fin:
+        print(f"  {date}: no completed games returned -- skipped"); continue
+
+    ah, aa = [], []
     for _, r in p.iterrows():
-        got = look(idx, r.home, r.away)
+        got = fin.get((r.away, r.home))
         if got is None:
-            hp.append(np.nan); ap.append(np.nan)
+            ah.append(np.nan); aa.append(np.nan)
             missed.append(f"{date}  {r.away} @ {r.home}")
         else:
-            hp.append(got[0]); ap.append(got[1])
+            aa.append(got[0]); ah.append(got[1])
     p["date"] = date
-    p["actual_home"], p["actual_away"] = hp, ap
-    p["actual_margin"] = p.actual_home - p.actual_away      # home perspective
-    covered_home = p.actual_margin < p.market               # market is home-persp
+    p["actual_home"], p["actual_away"] = ah, aa
+    # SIGN CONVENTION -- the one thing to get right here.
+    # model/market are SPREADS: negative means the home team is favoured.
+    # So the actual result must use the SAME sign: negative when home wins.
+    # Writing home-minus-away instead flips every game, turns a 70-point cover
+    # into a 137-point "error", and grades wins as losses.
+    p["actual_margin"] = p.actual_away - p.actual_home
+    covered_home = p.actual_margin < p.market
     p["result"] = np.where(p.actual_margin.isna(), "",
                    np.where(p.actual_margin == p.market, "P",
                     np.where(((p.side == p.home) & covered_home) |
                              ((p.side == p.away) & ~covered_home), "W", "L")))
     p.to_csv(gout, index=False)
-    print(f"  graded {date}: {(p.result=='W').sum()}-{(p.result=='L').sum()}"
-          + (f"-{(p.result=='P').sum()}" if (p.result=='P').any() else "")
-          + f"   -> {gout}")
+    w, l = int((p.result == "W").sum()), int((p.result == "L").sum())
+    print(f"  graded {date}: {w}-{l}"
+          + (f"-{int((p.result=='P').sum())}" if (p.result == 'P').any() else "")
+          + f"  -> {gout.name}")
     frames.append(p)
-    time.sleep(0.4)
 
 if not frames:
     sys.exit("nothing graded")
+if args:
+    # a date was requested, but the SEASON line should still be the season --
+    # otherwise grading one night prints "SEASON 0-1" and looks like a collapse
+    for g in sorted(glob.glob("data/cfb/graded_*.csv")):
+        if Path(g).stem.replace("graded_", "") not in args:
+            try: frames.append(pd.read_csv(g))
+            except Exception: pass
 d = pd.concat(frames, ignore_index=True)
 d = d[d.result.isin(["W", "L", "P"])]
 if missed:
-    print(f"\n  {len(missed)} games had no ESPN match (check team spelling):")
-    for m in missed[:12]:
+    print(f"\n  {len(missed)} games had no CFBD final (not played yet, or name drift):")
+    for m in missed[:10]:
         print(f"    {m}")
-
-def line(lab, s):
-    w, l, p = (s.result == "W").sum(), (s.result == "L").sum(), (s.result == "P").sum()
-    n = w + l
-    rec = f"{w}-{l}" + (f"-{p}" if p else "")
-    pct = f"{w/n*100:.1f}%" if n else "  -  "
-    print(f"   {lab:<26}{rec:>10}{pct:>9}{n:>6}")
 
 def wilson(k, m, z=1.96):
     if not m: return (0, 0)
-    ph = k / m; dd = 1 + z*z/m; c = (ph + z*z/(2*m))/dd
+    ph = k/m; dd = 1+z*z/m; c = (ph+z*z/(2*m))/dd
     h = z*((ph*(1-ph)/m + z*z/(4*m*m))**0.5)/dd
     return c-h, c+h
 
-W, L = (d.result == "W").sum(), (d.result == "L").sum()
+W, L = int((d.result == "W").sum()), int((d.result == "L").sum())
 N = W + L
-lo, hi = wilson(W, N); se = (0.25/N)**0.5 if N else float("nan")
 print("\n" + "=" * 58)
-print(f"SEASON  {W}-{L}  =  {W/N*100:.1f}%" if N else "SEASON  no decided games")
+print(f"SEASON  {W}-{L}  =  {W/N*100:.1f}%" if N else "SEASON  nothing decided")
 if N:
-    print(f"        95% CI [{lo*100:.1f}%, {hi*100:.1f}%]   "
-          f"z vs 52.38% break-even = {(W/N-0.5238)/se:+.2f}")
+    lo, hi = wilson(W, N); se = (0.25/N)**0.5
+    print(f"        95% CI [{lo*100:.1f}%, {hi*100:.1f}%]   z vs 52.38% = {(W/N-0.5238)/se:+.2f}")
 print("=" * 58)
+def line(lab, s):
+    w, l = int((s.result=="W").sum()), int((s.result=="L").sum())
+    if w+l: print(f"   {lab:<26}{f'{w}-{l}':>10}{w/(w+l)*100:>8.1f}%{w+l:>6}")
 print(f"   {'split':<26}{'record':>10}{'win%':>9}{'n':>6}")
-print("   " + "-" * 51)
+print("   " + "-"*51)
 if "cls" in d:
-    for c in sorted(d.cls.dropna().unique()):
-        line(f"class {c}", d[d.cls == c])
+    for c in sorted(d.cls.dropna().unique()): line(f"class {c}", d[d.cls == c])
 for k in ("FAV", "DOG"):
     if "dir" in d: line(f"{k} side", d[d['dir'] == k])
 if "edge" in d:
     e = d.edge.abs()
     for a, b, lab in [(0,4,"edge under 4"), (4,9,"edge 4-9"), (9,99,"edge 9+")]:
         line(lab, d[(e >= a) & (e < b)])
-if "spread_size" in d:
-    line("spread >= 22", d[d.spread_size >= 22])
-    line("spread < 22",  d[d.spread_size < 22])
-
-if {"model", "actual_margin", "market"} <= set(d.columns):
-    v = d.dropna(subset=["model", "market", "actual_margin"])
-    if len(v):
-        me = (v.model - v.actual_margin).abs().mean()
-        ke = (v.market - v.actual_margin).abs().mean()
-        print(f"\n   model MAE {me:.2f}   market MAE {ke:.2f}   "
-              f"model is {me-ke:+.2f} vs market   (n={len(v)})")
-        sl = (v.model * v.actual_margin).sum() / (v.model ** 2).sum()
-        print(f"   scale slope (actual on model) = {sl:.3f}   "
-              f"{'-> still compressed' if sl > 1.08 else ''}")
+v = d.dropna(subset=["model", "market", "actual_margin"])
+if len(v):
+    me = (v.model - v.actual_margin).abs().mean()
+    ke = (v.market - v.actual_margin).abs().mean()
+    print(f"\n   model MAE {me:.2f}   market MAE {ke:.2f}   "
+          f"model is {me-ke:+.2f} vs market   (n={len(v)})")
 print(f"\n   {int(N)} decided. ~1,400 needed to resolve a real edge.")
