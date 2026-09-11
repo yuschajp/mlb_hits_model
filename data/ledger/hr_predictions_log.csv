@@ -13114,3 +13114,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-10,824550,663968,Jake Mangum,Pittsburgh Pirates,Chicago White Sox,7,Rate Field,1.07,Hagen Smith,0.077,0.0217,3.7,0.0,True
 2026-09-10,824550,687462,Spencer Horwitz,Pittsburgh Pirates,Chicago White Sox,8,Rate Field,1.07,Hagen Smith,0.09,0.0262,3.6,0.0,True
 2026-09-10,824550,669707,Jared Triolo,Pittsburgh Pirates,Chicago White Sox,9,Rate Field,1.07,Hagen Smith,0.0844,0.0252,3.5,0.0,True
+2026-09-11,824631,691718,Pete Crow-Armstrong,Chicago Cubs,Pittsburgh Pirates,1,Wrigley Field,1.0,Wilber Dotel,0.2012,0.0522,4.3,,False
+2026-09-11,824631,673548,Seiya Suzuki,Chicago Cubs,Pittsburgh Pirates,2,Wrigley Field,1.0,Wilber Dotel,0.1305,0.0333,4.2,,False
+2026-09-11,824631,683737,Michael Busch,Chicago Cubs,Pittsburgh Pirates,3,Wrigley Field,1.0,Wilber Dotel,0.1105,0.0286,4.1,,False
+2026-09-11,824631,608324,Alex Bregman,Chicago Cubs,Pittsburgh Pirates,4,Wrigley Field,1.0,Wilber Dotel,0.1429,0.0385,4.0,,False
+2026-09-11,824631,664023,Ian Happ,Chicago Cubs,Pittsburgh Pirates,5,Wrigley Field,1.0,Wilber Dotel,0.121,0.0331,3.9,,False
+2026-09-11,824631,663538,Nico Hoerner,Chicago Cubs,Pittsburgh Pirates,6,Wrigley Field,1.0,Wilber Dotel,0.0682,0.0186,3.8,,False
+2026-09-11,824631,624424,Michael Conforto,Chicago Cubs,Pittsburgh Pirates,7,Wrigley Field,1.0,Wilber Dotel,0.1322,0.0383,3.7,,False
+2026-09-11,824631,699393,Pedro Ramírez,Chicago Cubs,Pittsburgh Pirates,8,Wrigley Field,1.0,Wilber Dotel,0.0897,0.0261,3.6,,False
+2026-09-11,824631,608348,Carson Kelly,Chicago Cubs,Pittsburgh Pirates,9,Wrigley Field,1.0,Wilber Dotel,0.0895,0.0268,3.5,,False
+2026-09-11,824631,804606,Konnor Griffin,Pittsburgh Pirates,Chicago Cubs,1,Wrigley Field,1.0,Shota Imanaga,0.1636,0.0415,4.3,,False
+2026-09-11,824631,665833,Oneil Cruz,Pittsburgh Pirates,Chicago Cubs,2,Wrigley Field,1.0,Shota Imanaga,0.2205,0.0593,4.2,,False
+2026-09-11,824631,668804,Bryan Reynolds,Pittsburgh Pirates,Chicago Cubs,3,Wrigley Field,1.0,Shota Imanaga,0.1598,0.0425,4.1,,False
+2026-09-11,824631,804668,Rafael Flores Jr.,Pittsburgh Pirates,Chicago Cubs,4,Wrigley Field,1.0,Shota Imanaga,0.2284,0.0648,4.0,,False
+2026-09-11,824631,699013,Esmerlyn Valdez,Pittsburgh Pirates,Chicago Cubs,5,Wrigley Field,1.0,Shota Imanaga,0.2228,0.0646,3.9,,False
+2026-09-11,824631,693304,Nick Gonzales,Pittsburgh Pirates,Chicago Cubs,6,Wrigley Field,1.0,Shota Imanaga,0.1137,0.0318,3.8,,False
+2026-09-11,824631,663968,Jake Mangum,Pittsburgh Pirates,Chicago Cubs,7,Wrigley Field,1.0,Shota Imanaga,0.1153,0.0331,3.7,,False
+2026-09-11,824631,669707,Jared Triolo,Pittsburgh Pirates,Chicago Cubs,8,Wrigley Field,1.0,Shota Imanaga,0.129,0.0384,3.6,,False
+2026-09-11,824631,680779,Henry Davis,Pittsburgh Pirates,Chicago Cubs,9,Wrigley Field,1.0,Shota Imanaga,0.1584,0.0493,3.5,,False

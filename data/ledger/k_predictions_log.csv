@@ -1062,3 +1062,5 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-10,823499,608331,Max Fried,New York Yankees,Colorado Rockies,Yankee Stadium,1.04,6.5,8.185,8.274,0.2299,95.7,20.7,5.63,5.332,0.2878,0.7122,7.0,True
 2026-09-10,824550,683003,Jared Jones,Pittsburgh Pirates,Chicago White Sox,Rate Field,0.97,6.5,10.525,11.912,0.2401,78.7,22.7,4.63,5.897,0.3772,0.6228,8.0,True
 2026-09-10,824550,696146,Hagen Smith,Chicago White Sox,Pittsburgh Pirates,Rate Field,1.02,6.5,12.938,12.938,0.2418,16.0,16.0,3.0,6.369,0.4527,0.5473,3.0,True
+2026-09-11,824631,696062,Wilber Dotel,Pittsburgh Pirates,Chicago Cubs,Wrigley Field,0.97,6.5,9.367,7.5,0.2142,32.7,6.0,3.2,4.408,0.1573,0.8427,,False
+2026-09-11,824631,684007,Shota Imanaga,Chicago Cubs,Pittsburgh Pirates,Wrigley Field,1.0,6.5,8.751,10.267,0.2414,156.3,23.7,5.58,5.999,0.3935,0.6065,,False
