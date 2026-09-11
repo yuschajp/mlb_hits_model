@@ -31,3 +31,4 @@ data/nfl/lines_current.txt
 data/nfl/lines_2026-w*.txt
 data/nfl/props_board.csv
 data/cfb/lines_2026-*.txt
+*.espn-bak
