@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 13094,
     "since_date": "2026-06-21",
     "brier_score": 0.1011,
     "naive_brier": 0.1034,
     "avg_predicted": 0.124,
     "actual_hr_rate": 0.1164,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Rafael Flores Jr.",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2284
+      },
+      {
+        "player_name": "Esmerlyn Valdez",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 5,
+        "p_hr": 0.2228
+      },
+      {
+        "player_name": "Oneil Cruz",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2205
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Wilber Dotel",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2012
+      },
+      {
+        "player_name": "Konnor Griffin",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1636
+      },
+      {
+        "player_name": "Bryan Reynolds",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1598
+      },
+      {
+        "player_name": "Henry Davis",
+        "team": "Pittsburgh Pirates",
+        "opponent_pitcher": "Shota Imanaga",
+        "venue": "Wrigley Field",
+        "lineup_spot": 9,
+        "p_hr": 0.1584
+      },
+      {
+        "player_name": "Alex Bregman",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Wilber Dotel",
+        "venue": "Wrigley Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1429
+      },
+      {
+        "player_name": "Michael Conforto",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Wilber Dotel",
+        "venue": "Wrigley Field",
+        "lineup_spot": 7,
+        "p_hr": 0.1322
+      },
+      {
+        "player_name": "Seiya Suzuki",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Wilber Dotel",
+        "venue": "Wrigley Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1305
+      }
+    ],
     "calibration": [
       {
         "range": "0.00-0.08",
@@ -1206,14 +1287,35 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 2,
     "total_graded": 1061,
     "since_date": "2026-06-27",
     "brier_score": 0.153,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.2,
     "over_rate": 0.234,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Shota Imanaga",
+        "team": "Chicago Cubs",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "Wrigley Field",
+        "line": 6.5,
+        "lambda_k": 6.0,
+        "p_over": 0.3935,
+        "p_under": 0.6065
+      },
+      {
+        "pitcher_name": "Wilber Dotel",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Chicago Cubs",
+        "venue": "Wrigley Field",
+        "line": 6.5,
+        "lambda_k": 4.41,
+        "p_over": 0.1573,
+        "p_under": 0.8427
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -2405,7 +2507,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 0,
+        "today": 18,
         "graded": 13094,
         "metric": "Brier",
         "value": 0.1011,
@@ -2415,7 +2517,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 0,
+        "today": 2,
         "graded": 1061,
         "metric": "Brier",
         "value": 0.153,
@@ -2500,7 +2602,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 346,
+    "total_today": 366,
     "total_graded": 23691,
     "model_count": 10
   }
