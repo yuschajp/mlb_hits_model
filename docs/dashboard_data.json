@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 180,
     "total_graded": 13310,
     "since_date": "2026-06-21",
     "brier_score": 0.101,
@@ -382,84 +382,84 @@
     "actual_hr_rate": 0.1163,
     "top10_today": [
       {
-        "player_name": "Riley Greene",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Comerica Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1627
-      },
-      {
-        "player_name": "Hunter Goodman",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Andrew Sears",
-        "venue": "Comerica Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1621
-      },
-      {
-        "player_name": "Spencer Torkelson",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Comerica Park",
-        "lineup_spot": 7,
-        "p_hr": 0.1484
-      },
-      {
-        "player_name": "Eduardo Valencia",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Comerica Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1479
-      },
-      {
-        "player_name": "Kevin McGonigle",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Comerica Park",
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Tyler Mahle",
+        "venue": "Truist Park",
         "lineup_spot": 1,
-        "p_hr": 0.147
+        "p_hr": 0.2361
       },
       {
-        "player_name": "Hao-Yu Lee",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Comerica Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1413
-      },
-      {
-        "player_name": "Colt Keith",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Comerica Park",
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "American Family Field",
         "lineup_spot": 3,
-        "p_hr": 0.1348
+        "p_hr": 0.2134
       },
       {
-        "player_name": "Max Clark",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Comerica Park",
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "American Family Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2094
+      },
+      {
+        "player_name": "Rafael Devers",
+        "team": "San Francisco Giants",
+        "opponent_pitcher": "Michael King",
+        "venue": "Oracle Park",
+        "lineup_spot": 2,
+        "p_hr": 0.1952
+      },
+      {
+        "player_name": "Joc Pederson",
+        "team": "Texas Rangers",
+        "opponent_pitcher": "Brandon Pfaadt",
+        "venue": "Chase Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1836
+      },
+      {
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Ian Seymour",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1832
+      },
+      {
+        "player_name": "Isaac Paredes",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Ian Seymour",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1796
+      },
+      {
+        "player_name": "Cam Smith",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Ian Seymour",
+        "venue": "Tropicana Field",
+        "lineup_spot": 7,
+        "p_hr": 0.1729
+      },
+      {
+        "player_name": "Christian Walker",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Ian Seymour",
+        "venue": "Tropicana Field",
         "lineup_spot": 6,
-        "p_hr": 0.1215
+        "p_hr": 0.1707
       },
       {
-        "player_name": "Brett Callahan",
-        "team": "Detroit Tigers",
-        "opponent_pitcher": "Tanner Gordon",
-        "venue": "Comerica Park",
-        "lineup_spot": 8,
-        "p_hr": 0.1184
-      },
-      {
-        "player_name": "Adael Amador",
-        "team": "Colorado Rockies",
-        "opponent_pitcher": "Andrew Sears",
-        "venue": "Comerica Park",
-        "lineup_spot": 8,
-        "p_hr": 0.1108
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Brady Singer",
+        "venue": "American Family Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1694
       }
     ],
     "calibration": [
@@ -1299,14 +1299,54 @@
     ]
   },
   "k": {
-    "today_count": 3,
+    "today_count": 19,
     "total_graded": 1088,
     "since_date": "2026-06-27",
     "brier_score": 0.1521,
     "naive_brier": 0.25,
-    "avg_lambda": 4.89,
+    "avg_lambda": 4.92,
     "over_rate": 0.231,
     "top10_today": [
+      {
+        "pitcher_name": "Bryan Woo",
+        "team": "Seattle Mariners",
+        "opponent": "Athletics",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 5.75,
+        "p_over": 0.3539,
+        "p_under": 0.6461
+      },
+      {
+        "pitcher_name": "Gage Jump",
+        "team": "Athletics",
+        "opponent": "Seattle Mariners",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 5.69,
+        "p_over": 0.344,
+        "p_under": 0.656
+      },
+      {
+        "pitcher_name": "Shane Drohan",
+        "team": "Milwaukee Brewers",
+        "opponent": "Cincinnati Reds",
+        "venue": "American Family Field",
+        "line": 6.5,
+        "lambda_k": 5.67,
+        "p_over": 0.3411,
+        "p_under": 0.6589
+      },
+      {
+        "pitcher_name": "Ian Seymour",
+        "team": "Tampa Bay Rays",
+        "opponent": "Houston Astros",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.66,
+        "p_over": 0.3391,
+        "p_under": 0.6609
+      },
       {
         "pitcher_name": "Gerrit Cole",
         "team": "New York Yankees",
@@ -1318,24 +1358,54 @@
         "p_under": 0.6721
       },
       {
-        "pitcher_name": "Andrew Sears",
-        "team": "Detroit Tigers",
-        "opponent": "Colorado Rockies",
-        "venue": "Comerica Park",
+        "pitcher_name": "Kyle Leahy",
+        "team": "St. Louis Cardinals",
+        "opponent": "Chicago White Sox",
+        "venue": "Busch Stadium",
         "line": 6.5,
-        "lambda_k": 4.89,
-        "p_over": 0.2218,
-        "p_under": 0.7782
+        "lambda_k": 5.47,
+        "p_over": 0.3093,
+        "p_under": 0.6907
       },
       {
-        "pitcher_name": "Tanner Gordon",
-        "team": "Colorado Rockies",
-        "opponent": "Detroit Tigers",
-        "venue": "Comerica Park",
+        "pitcher_name": "Andrew Alvarez",
+        "team": "Washington Nationals",
+        "opponent": "Los Angeles Angels",
+        "venue": "Nationals Park",
         "line": 6.5,
-        "lambda_k": 4.18,
-        "p_over": 0.1307,
-        "p_under": 0.8693
+        "lambda_k": 5.37,
+        "p_over": 0.2928,
+        "p_under": 0.7072
+      },
+      {
+        "pitcher_name": "Daniel Espino",
+        "team": "Cleveland Guardians",
+        "opponent": "Minnesota Twins",
+        "venue": "Target Field",
+        "line": 6.5,
+        "lambda_k": 5.28,
+        "p_over": 0.2798,
+        "p_under": 0.7202
+      },
+      {
+        "pitcher_name": "Walbert Ure\u00f1a",
+        "team": "Los Angeles Angels",
+        "opponent": "Washington Nationals",
+        "venue": "Nationals Park",
+        "line": 6.5,
+        "lambda_k": 5.05,
+        "p_over": 0.2451,
+        "p_under": 0.7549
+      },
+      {
+        "pitcher_name": "Tyler Mahle",
+        "team": "Atlanta Braves",
+        "opponent": "Philadelphia Phillies",
+        "venue": "Truist Park",
+        "line": 6.5,
+        "lambda_k": 5.01,
+        "p_over": 0.2394,
+        "p_under": 0.7606
       }
     ],
     "calibration": [
@@ -1617,7 +1687,7 @@
     "history": []
   },
   "cfb": {
-    "today_count": 56,
+    "today_count": 114,
     "total_graded": 19,
     "board": [
       {
@@ -1625,12 +1695,48 @@
         "home": "Virginia Tech",
         "cls": "FBS",
         "model": 11.9,
-        "market": -19.5,
-        "edge": 31.4,
+        "market": -17.5,
+        "edge": 29.4,
         "side": "Old Dominion",
         "dir": "DOG",
         "playable": false,
         "flag": "INFO-GAP"
+      },
+      {
+        "away": "Louisiana Tech",
+        "home": "LSU",
+        "cls": "FBS",
+        "model": -7.1,
+        "market": -34.75,
+        "edge": 27.7,
+        "side": "Louisiana Tech",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "San Diego State",
+        "home": "UCLA",
+        "cls": "FBS",
+        "model": 11.4,
+        "market": -13.5,
+        "edge": 24.9,
+        "side": "San Diego State",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "New Haven",
+        "home": "South Dakota State",
+        "cls": "fcs-only",
+        "model": -22.6,
+        "market": -42.5,
+        "edge": 19.9,
+        "side": "New Haven",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT thin-data"
       },
       {
         "away": "Sacred Heart",
@@ -1645,13 +1751,37 @@
         "flag": "BLIND-SPOT"
       },
       {
+        "away": "Southern Miss",
+        "home": "Auburn",
+        "cls": "FBS",
+        "model": -14.4,
+        "market": -32.75,
+        "edge": 18.3,
+        "side": "Southern Miss",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
         "away": "Western Kentucky",
         "home": "Georgia",
         "cls": "FBS",
         "model": -22.4,
-        "market": -39.75,
-        "edge": 17.4,
+        "market": -40.5,
+        "edge": 18.1,
         "side": "Western Kentucky",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Ohio State",
+        "home": "Texas",
+        "cls": "FBS",
+        "model": 15.3,
+        "market": -1.75,
+        "edge": 17.0,
+        "side": "Ohio State",
         "dir": "DOG",
         "playable": true,
         "flag": ""
@@ -1669,18 +1799,6 @@
         "flag": ""
       },
       {
-        "away": "South Florida",
-        "home": "Army",
-        "cls": "FBS",
-        "model": 12.6,
-        "market": -3.5,
-        "edge": 16.1,
-        "side": "South Florida",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "NY-RESTRICTED"
-      },
-      {
         "away": "Maryland",
         "home": "UConn",
         "cls": "FBS",
@@ -1691,6 +1809,30 @@
         "dir": "DOG",
         "playable": true,
         "flag": ""
+      },
+      {
+        "away": "North Alabama",
+        "home": "SE Louisiana",
+        "cls": "fcs-only",
+        "model": -22.5,
+        "market": -6.5,
+        "edge": -16.0,
+        "side": "SE Louisiana",
+        "dir": "FAV",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "South Florida",
+        "home": "Army",
+        "cls": "FBS",
+        "model": 12.6,
+        "market": -3.0,
+        "edge": 15.6,
+        "side": "South Florida",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "NY-RESTRICTED"
       },
       {
         "away": "UT Martin",
@@ -1705,13 +1847,49 @@
         "flag": ""
       },
       {
+        "away": "Utah State",
+        "home": "Washington",
+        "cls": "FBS",
+        "model": -13.0,
+        "market": -28.5,
+        "edge": 15.5,
+        "side": "Utah State",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Bowling Green",
+        "home": "Nebraska",
+        "cls": "FBS",
+        "model": -15.3,
+        "market": -30.5,
+        "edge": 15.2,
+        "side": "Bowling Green",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
         "away": "East Tennessee State",
         "home": "North Carolina",
         "cls": "FCS",
         "model": -20.5,
-        "market": -36.0,
-        "edge": 15.5,
+        "market": -35.5,
+        "edge": 15.0,
         "side": "East Tennessee State",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "San Diego",
+        "home": "Idaho State",
+        "cls": "fcs-only",
+        "model": -7.6,
+        "market": -22.5,
+        "edge": 14.9,
+        "side": "San Diego",
         "dir": "DOG",
         "playable": true,
         "flag": ""
@@ -1721,36 +1899,12 @@
         "home": "Indiana",
         "cls": "FCS",
         "model": -72.0,
-        "market": -57.25,
-        "edge": -14.8,
+        "market": -57.5,
+        "edge": -14.5,
         "side": "Indiana",
         "dir": "FAV",
         "playable": true,
         "flag": ""
-      },
-      {
-        "away": "Utah State",
-        "home": "Washington",
-        "cls": "FBS",
-        "model": -13.0,
-        "market": -27.5,
-        "edge": 14.5,
-        "side": "Utah State",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "UAlbany",
-        "home": "Long Island University",
-        "cls": "fcs-only",
-        "model": -10.3,
-        "market": 4.0,
-        "edge": -14.3,
-        "side": "Long Island University",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "BLIND-SPOT NY-RESTRICTED"
       },
       {
         "away": "Drake",
@@ -1765,6 +1919,42 @@
         "flag": ""
       },
       {
+        "away": "UAlbany",
+        "home": "Long Island University",
+        "cls": "fcs-only",
+        "model": -10.3,
+        "market": 2.5,
+        "edge": -12.8,
+        "side": "Long Island University",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT NY-RESTRICTED"
+      },
+      {
+        "away": "Illinois State",
+        "home": "Northern Illinois",
+        "cls": "FCS",
+        "model": -10.3,
+        "market": 2.5,
+        "edge": -12.8,
+        "side": "Northern Illinois",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Georgia State",
+        "home": "Kennesaw State",
+        "cls": "FBS",
+        "model": -19.8,
+        "market": -7.25,
+        "edge": -12.6,
+        "side": "Kennesaw State",
+        "dir": "FAV",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
         "away": "Washington State",
         "home": "Kansas State",
         "cls": "FBS",
@@ -1777,28 +1967,52 @@
         "flag": ""
       },
       {
-        "away": "Oregon",
-        "home": "Oklahoma State",
-        "cls": "FBS",
-        "model": 35.2,
-        "market": 23.5,
-        "edge": 11.7,
-        "side": "Oregon",
-        "dir": "FAV",
+        "away": "West Georgia",
+        "home": "Arkansas State",
+        "cls": "FCS",
+        "model": -19.4,
+        "market": -31.5,
+        "edge": 12.1,
+        "side": "West Georgia",
+        "dir": "DOG",
         "playable": true,
-        "flag": "BLIND-SPOT"
+        "flag": ""
+      },
+      {
+        "away": "Prairie View A&M",
+        "home": "Baylor",
+        "cls": "FCS",
+        "model": -26.1,
+        "market": -37.5,
+        "edge": 11.4,
+        "side": "Prairie View A&M",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
       },
       {
         "away": "UNLV",
         "home": "North Texas",
         "cls": "FBS",
         "model": -8.6,
-        "market": 3.0,
-        "edge": -11.6,
+        "market": 2.75,
+        "edge": -11.3,
         "side": "North Texas",
         "dir": "DOG",
         "playable": true,
         "flag": ""
+      },
+      {
+        "away": "Oregon",
+        "home": "Oklahoma State",
+        "cls": "FBS",
+        "model": 35.2,
+        "market": 24.0,
+        "edge": 11.2,
+        "side": "Oregon",
+        "dir": "FAV",
+        "playable": true,
+        "flag": "BLIND-SPOT"
       },
       {
         "away": "Stetson",
@@ -1813,172 +2027,28 @@
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "Utah Tech",
-        "home": "Montana",
-        "cls": "fcs-only",
-        "model": -28.1,
-        "market": -38.5,
-        "edge": 10.4,
-        "side": "Utah Tech",
+        "away": "Towson",
+        "home": "South Carolina",
+        "cls": "FCS",
+        "model": -33.5,
+        "market": -44.5,
+        "edge": 11.0,
+        "side": "Towson",
         "dir": "DOG",
         "playable": true,
         "flag": ""
       },
       {
-        "away": "App State",
-        "home": "East Carolina",
+        "away": "Texas Tech",
+        "home": "Oregon State",
         "cls": "FBS",
-        "model": -15.6,
-        "market": -6.5,
-        "edge": -9.1,
-        "side": "East Carolina",
+        "model": 36.1,
+        "market": 25.5,
+        "edge": 10.6,
+        "side": "Texas Tech",
         "dir": "FAV",
         "playable": true,
         "flag": "BLIND-SPOT"
-      },
-      {
-        "away": "Northern Colorado",
-        "home": "Wyoming",
-        "cls": "FCS",
-        "model": -31.2,
-        "market": -22.5,
-        "edge": -8.7,
-        "side": "Wyoming",
-        "dir": "FAV",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "Morehead State",
-        "home": "Austin Peay",
-        "cls": "fcs-only",
-        "model": -27.2,
-        "market": -35.5,
-        "edge": 8.3,
-        "side": "Morehead State",
-        "dir": "DOG",
-        "playable": true,
-        "flag": "BLIND-SPOT"
-      },
-      {
-        "away": "Wagner",
-        "home": "James Madison",
-        "cls": "FCS",
-        "model": -54.7,
-        "market": -46.5,
-        "edge": -8.2,
-        "side": "James Madison",
-        "dir": "FAV",
-        "playable": false,
-        "flag": "NY-RESTRICTED"
-      },
-      {
-        "away": "Eastern Michigan",
-        "home": "Michigan State",
-        "cls": "FBS",
-        "model": -9.4,
-        "market": -17.25,
-        "edge": 7.8,
-        "side": "Eastern Michigan",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "California",
-        "home": "Syracuse",
-        "cls": "FBS",
-        "model": 4.0,
-        "market": -3.5,
-        "edge": 7.5,
-        "side": "California",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "BLIND-SPOT NY-RESTRICTED"
-      },
-      {
-        "away": "Colgate",
-        "home": "Central Michigan",
-        "cls": "FCS",
-        "model": -26.2,
-        "market": -18.75,
-        "edge": -7.4,
-        "side": "Central Michigan",
-        "dir": "FAV",
-        "playable": false,
-        "flag": "NY-RESTRICTED"
-      },
-      {
-        "away": "Delaware",
-        "home": "Vanderbilt",
-        "cls": "FBS",
-        "model": -28.1,
-        "market": -21.0,
-        "edge": -7.1,
-        "side": "Vanderbilt",
-        "dir": "FAV",
-        "playable": true,
-        "flag": "BLIND-SPOT"
-      },
-      {
-        "away": "Penn State",
-        "home": "Temple",
-        "cls": "FBS",
-        "model": 17.8,
-        "market": 24.25,
-        "edge": -6.4,
-        "side": "Temple",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "Rice",
-        "home": "Notre Dame",
-        "cls": "FBS",
-        "model": -39.5,
-        "market": -45.25,
-        "edge": 5.7,
-        "side": "Rice",
-        "dir": "DOG",
-        "playable": true,
-        "flag": "BLIND-SPOT"
-      },
-      {
-        "away": "Oklahoma",
-        "home": "Michigan",
-        "cls": "FBS",
-        "model": 0.1,
-        "market": 5.0,
-        "edge": -4.9,
-        "side": "Michigan",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "Alabama State",
-        "home": "Troy",
-        "cls": "FCS",
-        "model": -18.2,
-        "market": -23.0,
-        "edge": 4.8,
-        "side": "Alabama State",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "UCF",
-        "home": "Pittsburgh",
-        "cls": "FBS",
-        "model": -11.7,
-        "market": -7.0,
-        "edge": -4.7,
-        "side": "Pittsburgh",
-        "dir": "FAV",
-        "playable": true,
-        "flag": ""
       }
     ],
     "splits": [
@@ -2071,21 +2141,21 @@
         "moved": false
       },
       {
+        "player": "Omarion Hampton",
+        "pos": "RB",
+        "team": "LAC",
+        "game": "ARI@LAC",
+        "p_td": 0.490512044027959,
+        "fair": 103,
+        "moved": false
+      },
+      {
         "player": "Chase Brown",
         "pos": "RB",
         "team": "CIN",
         "game": "TB@CIN",
         "p_td": 0.4904791818573472,
         "fair": 103,
-        "moved": false
-      },
-      {
-        "player": "Omarion Hampton",
-        "pos": "RB",
-        "team": "LAC",
-        "game": "ARI@LAC",
-        "p_td": 0.4868775166315502,
-        "fair": 105,
         "moved": false
       },
       {
@@ -2327,8 +2397,8 @@
         "pos": "WR",
         "team": "LAC",
         "game": "ARI@LAC",
-        "p_td": 0.3316269613440072,
-        "fair": 201,
+        "p_td": 0.3344896952354028,
+        "fair": 198,
         "moved": false
       },
       {
@@ -2995,7 +3065,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 18,
+        "today": 180,
         "graded": 13310,
         "metric": "Brier",
         "value": 0.101,
@@ -3005,7 +3075,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 3,
+        "today": 19,
         "graded": 1088,
         "metric": "Brier",
         "value": 0.1521,
@@ -3025,7 +3095,7 @@
       },
       {
         "model": "College FB spread",
-        "today": 56,
+        "today": 114,
         "graded": 19,
         "metric": "ATS",
         "value": 0.5263157894736842,
@@ -3101,7 +3171,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 418,
+    "total_today": 654,
     "total_graded": 28257,
     "model_count": 11
   }
