@@ -1,0 +1,6 @@
+away,home,cls,model,market,edge,side,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Villanova,Louisville,FCS,-21.7,-38.5,16.8,Villanova,DOG,38.5,False,True,,2026-09-11,59.0,13.0,-46.0,L
+Rutgers,Boston College,FBS,5.2,-3.0,8.2,Rutgers,DOG,3.0,False,True,,2026-09-11,28.0,21.0,-7.0,L
+Norfolk State,Virginia,FCS,-52.9,-46.25,-6.6,Virginia,FAV,46.25,False,True,BLIND-SPOT,2026-09-11,59.0,3.0,-56.0,W
+Richmond,NC State,FCS,-35.6,-33.25,-2.4,NC State,FAV,33.25,False,False,,2026-09-11,73.0,0.0,-73.0,W
+Missouri,Kansas,FBS,4.6,4.25,0.4,Missouri,FAV,4.25,False,False,,2026-09-11,21.0,38.0,17.0,W
