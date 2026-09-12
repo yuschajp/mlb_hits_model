@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11",
+  "generated_at": "2026-09-12",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -373,131 +373,131 @@
     ]
   },
   "hr": {
-    "today_count": 216,
-    "total_graded": 13094,
+    "today_count": 18,
+    "total_graded": 13310,
     "since_date": "2026-06-21",
-    "brier_score": 0.1011,
+    "brier_score": 0.101,
     "naive_brier": 0.1034,
     "avg_predicted": 0.124,
-    "actual_hr_rate": 0.1164,
+    "actual_hr_rate": 0.1163,
     "top10_today": [
       {
-        "player_name": "Pete Alonso",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Max Scherzer",
-        "venue": "Rogers Centre",
-        "lineup_spot": 2,
-        "p_hr": 0.2465
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2318
-      },
-      {
-        "player_name": "Rafael Flores Jr.",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Wrigley Field",
+        "player_name": "Riley Greene",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Comerica Park",
         "lineup_spot": 4,
-        "p_hr": 0.2267
+        "p_hr": 0.1627
       },
       {
-        "player_name": "Esmerlyn Valdez",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Wrigley Field",
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Andrew Sears",
+        "venue": "Comerica Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1621
+      },
+      {
+        "player_name": "Spencer Torkelson",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Comerica Park",
+        "lineup_spot": 7,
+        "p_hr": 0.1484
+      },
+      {
+        "player_name": "Eduardo Valencia",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Comerica Park",
         "lineup_spot": 5,
-        "p_hr": 0.2215
+        "p_hr": 0.1479
       },
       {
-        "player_name": "Oneil Cruz",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Shota Imanaga",
-        "venue": "Wrigley Field",
-        "lineup_spot": 2,
-        "p_hr": 0.2195
-      },
-      {
-        "player_name": "Coby Mayo",
-        "team": "Baltimore Orioles",
-        "opponent_pitcher": "Max Scherzer",
-        "venue": "Rogers Centre",
-        "lineup_spot": 4,
-        "p_hr": 0.2117
-      },
-      {
-        "player_name": "Drake Baldwin",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
+        "player_name": "Kevin McGonigle",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Comerica Park",
         "lineup_spot": 1,
-        "p_hr": 0.2094
+        "p_hr": 0.147
       },
       {
-        "player_name": "Ronald Acu\u00f1a Jr.",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
+        "player_name": "Hao-Yu Lee",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Comerica Park",
         "lineup_spot": 2,
-        "p_hr": 0.2046
+        "p_hr": 0.1413
       },
       {
-        "player_name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1999
-      },
-      {
-        "player_name": "Miguel Vargas",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Matthew Liberatore",
-        "venue": "Busch Stadium",
+        "player_name": "Colt Keith",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Comerica Park",
         "lineup_spot": 3,
-        "p_hr": 0.1975
+        "p_hr": 0.1348
+      },
+      {
+        "player_name": "Max Clark",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Comerica Park",
+        "lineup_spot": 6,
+        "p_hr": 0.1215
+      },
+      {
+        "player_name": "Brett Callahan",
+        "team": "Detroit Tigers",
+        "opponent_pitcher": "Tanner Gordon",
+        "venue": "Comerica Park",
+        "lineup_spot": 8,
+        "p_hr": 0.1184
+      },
+      {
+        "player_name": "Adael Amador",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Andrew Sears",
+        "venue": "Comerica Park",
+        "lineup_spot": 8,
+        "p_hr": 0.1108
       }
     ],
     "calibration": [
       {
         "range": "0.00-0.08",
-        "n": 1060,
+        "n": 1074,
         "predicted": 0.071,
-        "actual": 0.057
+        "actual": 0.056
       },
       {
         "range": "0.08-0.10",
-        "n": 2532,
+        "n": 2578,
         "predicted": 0.091,
         "actual": 0.071
       },
       {
         "range": "0.10-0.12",
-        "n": 3311,
+        "n": 3364,
         "predicted": 0.11,
-        "actual": 0.103
+        "actual": 0.102
       },
       {
         "range": "0.12-0.15",
-        "n": 3427,
+        "n": 3484,
         "predicted": 0.134,
-        "actual": 0.132
+        "actual": 0.131
       },
       {
         "range": "0.15-0.20",
-        "n": 2244,
+        "n": 2282,
         "predicted": 0.169,
-        "actual": 0.164
+        "actual": 0.166
       },
       {
         "range": "0.20-1.00",
-        "n": 520,
+        "n": 528,
         "predicted": 0.226,
-        "actual": 0.24
+        "actual": 0.241
       }
     ],
     "returns": [
@@ -955,6 +955,13 @@
         "n_wins": 2,
         "daily_pnl": -5.0,
         "cumulative_pnl": -545.5
+      },
+      {
+        "date": "2026-09-11",
+        "n_bets": 46,
+        "n_wins": 12,
+        "daily_pnl": 8.0,
+        "cumulative_pnl": -537.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1283,137 +1290,72 @@
         "date": "2026-09-10",
         "brier": 0.1052,
         "n": 1527
+      },
+      {
+        "date": "2026-09-11",
+        "brier": 0.103,
+        "n": 1456
       }
     ]
   },
   "k": {
-    "today_count": 27,
-    "total_graded": 1061,
+    "today_count": 3,
+    "total_graded": 1088,
     "since_date": "2026-06-27",
-    "brier_score": 0.153,
+    "brier_score": 0.1521,
     "naive_brier": 0.25,
-    "avg_lambda": 5.04,
-    "over_rate": 0.234,
+    "avg_lambda": 4.89,
+    "over_rate": 0.231,
     "top10_today": [
       {
-        "pitcher_name": "Cade Cavalli",
-        "team": "Washington Nationals",
-        "opponent": "Los Angeles Angels",
-        "venue": "Nationals Park",
-        "line": 6.5,
-        "lambda_k": 7.06,
-        "p_over": 0.5588,
-        "p_under": 0.4412
-      },
-      {
-        "pitcher_name": "Chris Sale",
-        "team": "Atlanta Braves",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 6.63,
-        "p_over": 0.4934,
-        "p_under": 0.5066
-      },
-      {
-        "pitcher_name": "Nolan McLean",
-        "team": "New York Mets",
-        "opponent": "New York Yankees",
+        "pitcher_name": "Gerrit Cole",
+        "team": "New York Yankees",
+        "opponent": "New York Mets",
         "venue": "Yankee Stadium",
         "line": 6.5,
-        "lambda_k": 6.08,
-        "p_over": 0.4072,
-        "p_under": 0.5928
+        "lambda_k": 5.59,
+        "p_over": 0.3279,
+        "p_under": 0.6721
       },
       {
-        "pitcher_name": "Taj Bradley",
-        "team": "Minnesota Twins",
-        "opponent": "Cleveland Guardians",
-        "venue": "Target Field",
+        "pitcher_name": "Andrew Sears",
+        "team": "Detroit Tigers",
+        "opponent": "Colorado Rockies",
+        "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 6.04,
-        "p_over": 0.4,
-        "p_under": 0.6
+        "lambda_k": 4.89,
+        "p_over": 0.2218,
+        "p_under": 0.7782
       },
       {
-        "pitcher_name": "Shota Imanaga",
-        "team": "Chicago Cubs",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "Wrigley Field",
-        "line": 6.5,
-        "lambda_k": 5.85,
-        "p_over": 0.3703,
-        "p_under": 0.6297
-      },
-      {
-        "pitcher_name": "Matthew Liberatore",
-        "team": "St. Louis Cardinals",
-        "opponent": "Chicago White Sox",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 5.77,
-        "p_over": 0.3563,
-        "p_under": 0.6437
-      },
-      {
-        "pitcher_name": "Parker Messick",
-        "team": "Cleveland Guardians",
-        "opponent": "Minnesota Twins",
-        "venue": "Target Field",
-        "line": 6.5,
-        "lambda_k": 5.75,
-        "p_over": 0.3541,
-        "p_under": 0.6459
-      },
-      {
-        "pitcher_name": "Mason Adams",
+        "pitcher_name": "Tanner Gordon",
         "team": "Colorado Rockies",
         "opponent": "Detroit Tigers",
         "venue": "Comerica Park",
         "line": 6.5,
-        "lambda_k": 5.7,
-        "p_over": 0.3448,
-        "p_under": 0.6552
-      },
-      {
-        "pitcher_name": "Dustin May",
-        "team": "Milwaukee Brewers",
-        "opponent": "Cincinnati Reds",
-        "venue": "American Family Field",
-        "line": 6.5,
-        "lambda_k": 5.48,
-        "p_over": 0.3102,
-        "p_under": 0.6898
-      },
-      {
-        "pitcher_name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "opponent": "Atlanta Braves",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 5.46,
-        "p_over": 0.3078,
-        "p_under": 0.6922
+        "lambda_k": 4.18,
+        "p_over": 0.1307,
+        "p_under": 0.8693
       }
     ],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 408,
+        "n": 420,
         "predicted": 0.142,
         "actual": 0.093
       },
       {
         "range": "0.2-0.4",
-        "n": 524,
-        "predicted": 0.279,
-        "actual": 0.254
+        "n": 535,
+        "predicted": 0.28,
+        "actual": 0.25
       },
       {
         "range": "0.4-0.6",
-        "n": 115,
+        "n": 119,
         "predicted": 0.472,
-        "actual": 0.574
+        "actual": 0.563
       },
       {
         "range": "0.6-0.8",
@@ -1647,6 +1589,11 @@
         "date": "2026-09-10",
         "brier": 0.1532,
         "n": 109
+      },
+      {
+        "date": "2026-09-11",
+        "brier": 0.1464,
+        "n": 136
       }
     ]
   },
@@ -1670,100 +1617,400 @@
     "history": []
   },
   "cfb": {
-    "today_count": 5,
-    "total_graded": 14,
+    "today_count": 114,
+    "total_graded": 19,
     "board": [
       {
-        "away": "Villanova",
-        "home": "Louisville",
-        "cls": "FCS",
-        "model": -21.7,
-        "market": -38.5,
-        "edge": 16.8,
-        "side": "Villanova",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "Rutgers",
-        "home": "Boston College",
+        "away": "Old Dominion",
+        "home": "Virginia Tech",
         "cls": "FBS",
-        "model": 5.2,
-        "market": -3.0,
-        "edge": 8.2,
-        "side": "Rutgers",
+        "model": 11.9,
+        "market": -19.5,
+        "edge": 31.4,
+        "side": "Old Dominion",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "Louisiana Tech",
+        "home": "LSU",
+        "cls": "FBS",
+        "model": -7.1,
+        "market": -35.25,
+        "edge": 28.2,
+        "side": "Louisiana Tech",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "San Diego State",
+        "home": "UCLA",
+        "cls": "FBS",
+        "model": 11.4,
+        "market": -12.75,
+        "edge": 24.1,
+        "side": "San Diego State",
         "dir": "DOG",
         "playable": true,
         "flag": ""
       },
       {
-        "away": "Norfolk State",
-        "home": "Virginia",
+        "away": "New Haven",
+        "home": "South Dakota State",
+        "cls": "fcs-only",
+        "model": -22.6,
+        "market": -43.5,
+        "edge": 20.9,
+        "side": "New Haven",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT thin-data"
+      },
+      {
+        "away": "Sacred Heart",
+        "home": "Massachusetts",
         "cls": "FCS",
-        "model": -52.9,
-        "market": -46.25,
-        "edge": -6.6,
-        "side": "Virginia",
+        "model": -5.0,
+        "market": -23.5,
+        "edge": 18.5,
+        "side": "Sacred Heart",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Southern Miss",
+        "home": "Auburn",
+        "cls": "FBS",
+        "model": -14.4,
+        "market": -32.75,
+        "edge": 18.3,
+        "side": "Southern Miss",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "San Diego",
+        "home": "Idaho State",
+        "cls": "fcs-only",
+        "model": -7.6,
+        "market": -25.5,
+        "edge": 17.9,
+        "side": "San Diego",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Western Kentucky",
+        "home": "Georgia",
+        "cls": "FBS",
+        "model": -22.4,
+        "market": -39.75,
+        "edge": 17.4,
+        "side": "Western Kentucky",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Ohio State",
+        "home": "Texas",
+        "cls": "FBS",
+        "model": 15.3,
+        "market": -1.5,
+        "edge": 16.8,
+        "side": "Ohio State",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Duquesne",
+        "home": "Youngstown State",
+        "cls": "fcs-only",
+        "model": -6.2,
+        "market": -22.5,
+        "edge": 16.3,
+        "side": "Duquesne",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "South Florida",
+        "home": "Army",
+        "cls": "FBS",
+        "model": 12.6,
+        "market": -3.5,
+        "edge": 16.1,
+        "side": "South Florida",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Maryland",
+        "home": "UConn",
+        "cls": "FBS",
+        "model": -4.6,
+        "market": 11.5,
+        "edge": -16.1,
+        "side": "UConn",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "North Alabama",
+        "home": "SE Louisiana",
+        "cls": "fcs-only",
+        "model": -22.5,
+        "market": -6.5,
+        "edge": -16.0,
+        "side": "SE Louisiana",
+        "dir": "FAV",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "UT Martin",
+        "home": "West Virginia",
+        "cls": "FCS",
+        "model": -25.9,
+        "market": -41.5,
+        "edge": 15.6,
+        "side": "UT Martin",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "East Tennessee State",
+        "home": "North Carolina",
+        "cls": "FCS",
+        "model": -20.5,
+        "market": -36.0,
+        "edge": 15.5,
+        "side": "East Tennessee State",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Bowling Green",
+        "home": "Nebraska",
+        "cls": "FBS",
+        "model": -15.3,
+        "market": -30.25,
+        "edge": 14.9,
+        "side": "Bowling Green",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Howard",
+        "home": "Indiana",
+        "cls": "FCS",
+        "model": -72.0,
+        "market": -57.25,
+        "edge": -14.8,
+        "side": "Indiana",
+        "dir": "FAV",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Utah State",
+        "home": "Washington",
+        "cls": "FBS",
+        "model": -13.0,
+        "market": -27.5,
+        "edge": 14.5,
+        "side": "Utah State",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "UAlbany",
+        "home": "Long Island University",
+        "cls": "fcs-only",
+        "model": -10.3,
+        "market": 4.0,
+        "edge": -14.3,
+        "side": "Long Island University",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Illinois State",
+        "home": "Northern Illinois",
+        "cls": "FCS",
+        "model": -10.3,
+        "market": 3.25,
+        "edge": -13.6,
+        "side": "Northern Illinois",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Drake",
+        "home": "Northern Iowa",
+        "cls": "fcs-only",
+        "model": 1.5,
+        "market": -11.5,
+        "edge": 13.0,
+        "side": "Drake",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Washington State",
+        "home": "Kansas State",
+        "cls": "FBS",
+        "model": -5.2,
+        "market": -17.5,
+        "edge": 12.3,
+        "side": "Washington State",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "West Georgia",
+        "home": "Arkansas State",
+        "cls": "FCS",
+        "model": -19.4,
+        "market": -31.5,
+        "edge": 12.1,
+        "side": "West Georgia",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Oregon",
+        "home": "Oklahoma State",
+        "cls": "FBS",
+        "model": 35.2,
+        "market": 23.5,
+        "edge": 11.7,
+        "side": "Oregon",
         "dir": "FAV",
         "playable": true,
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "Richmond",
-        "home": "NC State",
-        "cls": "FCS",
-        "model": -35.6,
-        "market": -33.25,
-        "edge": -2.4,
-        "side": "NC State",
-        "dir": "FAV",
-        "playable": false,
+        "away": "UNLV",
+        "home": "North Texas",
+        "cls": "FBS",
+        "model": -8.6,
+        "market": 3.0,
+        "edge": -11.6,
+        "side": "North Texas",
+        "dir": "DOG",
+        "playable": true,
         "flag": ""
       },
       {
-        "away": "Missouri",
-        "home": "Kansas",
+        "away": "Georgia State",
+        "home": "Kennesaw State",
         "cls": "FBS",
-        "model": 4.6,
-        "market": 4.25,
-        "edge": 0.4,
-        "side": "Missouri",
+        "model": -19.8,
+        "market": -8.25,
+        "edge": -11.6,
+        "side": "Kennesaw State",
         "dir": "FAV",
-        "playable": false,
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Prairie View A&M",
+        "home": "Baylor",
+        "cls": "FCS",
+        "model": -26.1,
+        "market": -37.5,
+        "edge": 11.4,
+        "side": "Prairie View A&M",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Stetson",
+        "home": "Bethune-Cookman",
+        "cls": "fcs-only",
+        "model": -25.6,
+        "market": -14.5,
+        "edge": -11.1,
+        "side": "Bethune-Cookman",
+        "dir": "FAV",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Texas Tech",
+        "home": "Oregon State",
+        "cls": "FBS",
+        "model": 36.1,
+        "market": 25.5,
+        "edge": 10.6,
+        "side": "Texas Tech",
+        "dir": "FAV",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Towson",
+        "home": "South Carolina",
+        "cls": "FCS",
+        "model": -33.5,
+        "market": -44.0,
+        "edge": 10.5,
+        "side": "Towson",
+        "dir": "DOG",
+        "playable": true,
         "flag": ""
       }
     ],
     "splits": [
       {
         "split": "FBS",
-        "record": "4-6",
-        "win_pct": 0.4,
-        "n": 10
+        "record": "5-7",
+        "win_pct": 0.4166666666666667,
+        "n": 12
       },
       {
         "split": "FCS",
-        "record": "3-1",
-        "win_pct": 0.75,
-        "n": 4
+        "record": "5-2",
+        "win_pct": 0.7142857142857143,
+        "n": 7
       },
       {
         "split": "FAV",
-        "record": "4-2",
-        "win_pct": 0.6666666666666666,
-        "n": 6
+        "record": "7-2",
+        "win_pct": 0.7777777777777778,
+        "n": 9
       },
       {
         "split": "DOG",
-        "record": "3-5",
-        "win_pct": 0.375,
-        "n": 8
+        "record": "3-7",
+        "win_pct": 0.3,
+        "n": 10
       }
     ],
-    "record": "7-7",
-    "win_pct": 0.5,
-    "mae_model": 14.153333333333334,
-    "mae_market": 13.766666666666667
+    "record": "10-9",
+    "win_pct": 0.5263157894736842,
+    "mae_model": 15.084999999999997,
+    "mae_market": 14.0125
   },
   "nfl": {
     "today_count": 341,
@@ -1774,8 +2021,8 @@
         "pos": "RB",
         "team": "BAL",
         "game": "BAL@IND",
-        "p_td": 0.7122751426880884,
-        "fair": -247,
+        "p_td": 0.7079694125504636,
+        "fair": -242,
         "moved": false
       },
       {
@@ -1801,8 +2048,8 @@
         "pos": "RB",
         "team": "IND",
         "game": "BAL@IND",
-        "p_td": 0.5255851139038543,
-        "fair": -110,
+        "p_td": 0.5306215010279678,
+        "fair": -113,
         "moved": false
       },
       {
@@ -2587,22 +2834,22 @@
       },
       {
         "model": "MLB home runs",
-        "today": 216,
-        "graded": 13094,
+        "today": 18,
+        "graded": 13310,
         "metric": "Brier",
-        "value": 0.1011,
+        "value": 0.101,
         "baseline": 0.1034,
-        "edge_pct": 2.2243713733075534,
+        "edge_pct": 2.3210831721470013,
         "verdict": "beats baseline"
       },
       {
         "model": "MLB strikeouts",
-        "today": 27,
-        "graded": 1061,
+        "today": 3,
+        "graded": 1088,
         "metric": "Brier",
-        "value": 0.153,
+        "value": 0.1521,
         "baseline": 0.25,
-        "edge_pct": 38.800000000000004,
+        "edge_pct": 39.16,
         "verdict": "beats baseline"
       },
       {
@@ -2617,14 +2864,14 @@
       },
       {
         "model": "College FB spread",
-        "today": 5,
-        "graded": 14,
+        "today": 114,
+        "graded": 19,
         "metric": "ATS",
-        "value": 0.5,
+        "value": 0.5263157894736842,
         "baseline": 0.5238,
-        "edge_pct": -2.3800000000000043,
-        "note": "MAE 14.15 vs market 13.77",
-        "verdict": "7-7"
+        "edge_pct": 0.2515789473684138,
+        "note": "MAE 15.08 vs market 14.01",
+        "verdict": "10-9"
       },
       {
         "model": "NFL anytime TD",
@@ -2682,8 +2929,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 589,
-    "total_graded": 23691,
+    "total_today": 476,
+    "total_graded": 23939,
     "model_count": 10
   }
 }
