@@ -1,115 +1,57 @@
-away,home,cls,model,market,edge,side,dir,spread_size,neutral,playable,flag
-Old Dominion,Virginia Tech,FBS,11.9,-19.5,31.4,Old Dominion,DOG,19.5,False,False,INFO-GAP
-Louisiana Tech,LSU,FBS,-7.1,-35.25,28.2,Louisiana Tech,DOG,35.25,False,False,INFO-GAP
-San Diego State,UCLA,FBS,11.4,-12.75,24.1,San Diego State,DOG,12.75,False,True,
-New Haven,South Dakota State,fcs-only,-22.6,-43.5,20.9,New Haven,DOG,43.5,False,True,BLIND-SPOT thin-data
-Sacred Heart,Massachusetts,FCS,-5.0,-23.5,18.5,Sacred Heart,DOG,23.5,False,True,BLIND-SPOT
-Southern Miss,Auburn,FBS,-14.4,-32.75,18.3,Southern Miss,DOG,32.75,False,True,
-San Diego,Idaho State,fcs-only,-7.6,-25.5,17.9,San Diego,DOG,25.5,False,True,
-Western Kentucky,Georgia,FBS,-22.4,-39.75,17.4,Western Kentucky,DOG,39.75,False,True,
-Ohio State,Texas,FBS,15.3,-1.5,16.8,Ohio State,DOG,1.5,False,True,
-Duquesne,Youngstown State,fcs-only,-6.2,-22.5,16.3,Duquesne,DOG,22.5,False,True,
-South Florida,Army,FBS,12.6,-3.5,16.1,South Florida,DOG,3.5,False,True,
-Maryland,UConn,FBS,-4.6,11.5,-16.1,UConn,DOG,11.5,False,True,
-North Alabama,SE Louisiana,fcs-only,-22.5,-6.5,-16.0,SE Louisiana,FAV,6.5,False,True,
-UT Martin,West Virginia,FCS,-25.9,-41.5,15.6,UT Martin,DOG,41.5,False,True,
-East Tennessee State,North Carolina,FCS,-20.5,-36.0,15.5,East Tennessee State,DOG,36.0,False,True,
-Bowling Green,Nebraska,FBS,-15.3,-30.25,14.9,Bowling Green,DOG,30.25,False,True,BLIND-SPOT
-Howard,Indiana,FCS,-72.0,-57.25,-14.8,Indiana,FAV,57.25,False,True,
-Utah State,Washington,FBS,-13.0,-27.5,14.5,Utah State,DOG,27.5,False,True,
-UAlbany,Long Island University,fcs-only,-10.3,4.0,-14.3,Long Island University,DOG,4.0,False,True,BLIND-SPOT
-Illinois State,Northern Illinois,FCS,-10.3,3.25,-13.6,Northern Illinois,DOG,3.25,False,True,BLIND-SPOT
-Drake,Northern Iowa,fcs-only,1.5,-11.5,13.0,Drake,DOG,11.5,False,True,
-Washington State,Kansas State,FBS,-5.2,-17.5,12.3,Washington State,DOG,17.5,False,True,
-West Georgia,Arkansas State,FCS,-19.4,-31.5,12.1,West Georgia,DOG,31.5,False,True,
-Oregon,Oklahoma State,FBS,35.2,23.5,11.7,Oregon,FAV,23.5,False,True,BLIND-SPOT
-UNLV,North Texas,FBS,-8.6,3.0,-11.6,North Texas,DOG,3.0,False,True,
-Georgia State,Kennesaw State,FBS,-19.8,-8.25,-11.6,Kennesaw State,FAV,8.25,False,True,BLIND-SPOT
-Prairie View A&M,Baylor,FCS,-26.1,-37.5,11.4,Prairie View A&M,DOG,37.5,False,True,
-Stetson,Bethune-Cookman,fcs-only,-25.6,-14.5,-11.1,Bethune-Cookman,FAV,14.5,False,True,BLIND-SPOT
-Texas Tech,Oregon State,FBS,36.1,25.5,10.6,Texas Tech,FAV,25.5,False,True,BLIND-SPOT
-Towson,South Carolina,FCS,-33.5,-44.0,10.5,Towson,DOG,44.0,False,True,
-Utah Tech,Montana,fcs-only,-28.1,-38.5,10.4,Utah Tech,DOG,38.5,False,True,
-Charlotte,Ole Miss,FBS,-35.3,-45.5,10.2,Charlotte,DOG,45.5,False,True,BLIND-SPOT
-Lindenwood,Missouri State,FCS,-26.6,-16.75,-9.9,Missouri State,FAV,16.75,False,True,
-Campbell,Florida,FCS,-41.0,-50.5,9.5,Campbell,DOG,50.5,False,True,
-App State,East Carolina,FBS,-15.6,-6.5,-9.1,East Carolina,FAV,6.5,False,True,BLIND-SPOT
-Southeast Missouri State,Southern Illinois,fcs-only,-16.6,-7.5,-9.1,Southern Illinois,FAV,7.5,False,True,
-Northern Colorado,Wyoming,FCS,-31.2,-22.5,-8.7,Wyoming,FAV,22.5,False,True,
-Chattanooga,Eastern Kentucky,fcs-only,-5.3,3.0,-8.3,Eastern Kentucky,DOG,3.0,False,True,
-Morehead State,Austin Peay,fcs-only,-27.2,-35.5,8.3,Morehead State,DOG,35.5,False,True,BLIND-SPOT
-Wagner,James Madison,FCS,-54.7,-46.5,-8.2,James Madison,FAV,46.5,False,True,
-Tennessee,Georgia Tech,FBS,4.1,12.25,-8.1,Georgia Tech,DOG,12.25,False,True,
-Eastern Michigan,Michigan State,FBS,-9.4,-17.25,7.8,Eastern Michigan,DOG,17.25,False,True,
-California,Syracuse,FBS,4.0,-3.5,7.5,California,DOG,3.5,False,True,BLIND-SPOT
-Colgate,Central Michigan,FCS,-26.2,-18.75,-7.4,Central Michigan,FAV,18.75,False,True,
-Delaware,Vanderbilt,FBS,-28.1,-21.0,-7.1,Vanderbilt,FAV,21.0,False,True,BLIND-SPOT
-Arkansas,Utah,FBS,-19.5,-12.5,-7.0,Utah,FAV,12.5,False,True,
-Sacramento State,Fresno State,FCS,-24.3,-17.5,-6.8,Fresno State,FAV,17.5,False,True,
-South Alabama,Tulane,FBS,-16.3,-9.5,-6.8,Tulane,FAV,9.5,False,True,BLIND-SPOT
-Tulsa,Sam Houston,FBS,5.8,12.5,-6.7,Sam Houston,DOG,12.5,False,True,BLIND-SPOT
-Navy,Florida Atlantic,FBS,10.9,4.25,6.7,Navy,FAV,4.25,False,True,BLIND-SPOT
-Memphis,Boise State,FBS,-2.4,-9.0,6.6,Memphis,DOG,9.0,False,True,
-Penn State,Temple,FBS,17.8,24.25,-6.4,Temple,DOG,24.25,False,True,
-Monmouth,Western Michigan,FCS,-21.9,-27.75,5.9,Monmouth,DOG,27.75,False,True,
-Rice,Notre Dame,FBS,-39.5,-45.25,5.7,Rice,DOG,45.25,False,True,BLIND-SPOT
-Jacksonville State,Ohio,FBS,-7.7,-2.5,-5.2,Ohio,FAV,2.5,False,True,
-Bryant,Hampton,fcs-only,8.6,3.5,5.1,Bryant,FAV,3.5,False,True,BLIND-SPOT
-Louisiana,USC,FBS,-26.1,-31.25,5.1,Louisiana,DOG,31.25,False,True,
-Southern Utah,Colorado State,FCS,-15.6,-20.5,4.9,Southern Utah,DOG,20.5,False,True,
-Oklahoma,Michigan,FBS,0.1,5.0,-4.9,Michigan,DOG,5.0,False,True,
-Alabama State,Troy,FCS,-18.2,-23.0,4.8,Alabama State,DOG,23.0,False,True,
-Fordham,Coastal Carolina,FCS,-30.2,-35.0,4.8,Fordham,DOG,35.0,False,True,BLIND-SPOT
-UCF,Pittsburgh,FBS,-11.7,-7.0,-4.7,Pittsburgh,FAV,7.0,False,True,
-Western Carolina,Cincinnati,FCS,-31.8,-36.5,4.7,Western Carolina,DOG,36.5,False,True,
-Lamar,Idaho,fcs-only,2.0,-2.5,4.5,Lamar,DOG,2.5,False,True,
-Alabama,Kentucky,FBS,14.4,10.0,4.4,Alabama,FAV,10.0,False,True,
-William & Mary,Lehigh,fcs-only,-16.9,-12.5,-4.4,Lehigh,FAV,12.5,False,True,
-Weber State,Colorado,FCS,-33.6,-37.75,4.1,Weber State,DOG,37.75,False,True,
-New Mexico State,Hawai'i,FBS,-11.2,-7.25,-4.0,Hawai'i,FAV,7.25,False,False,BLIND-SPOT
-Wofford,Kent State,FCS,-14.5,-10.5,-4.0,Kent State,FAV,10.5,False,False,BLIND-SPOT
-Arizona State,Texas A&M,FBS,-11.6,-15.5,3.9,Arizona State,DOG,15.5,False,False,
-Middle Tennessee,Marshall,FBS,-9.5,-13.25,3.8,Middle Tennessee,DOG,13.25,False,False,BLIND-SPOT
-Arkansas-Pine Bluff,Alcorn State,fcs-only,-12.2,-8.5,-3.7,Alcorn State,FAV,8.5,True,False,NEUTRAL BLIND-SPOT
-UC Davis,SMU,FCS,-35.2,-31.5,-3.7,SMU,FAV,31.5,False,False,
-Central Connecticut,Toledo,FCS,-38.9,-35.25,-3.6,Toledo,FAV,35.25,False,False,
-UL Monroe,UAB,FBS,-5.9,-9.5,3.6,UL Monroe,DOG,9.5,False,False,BLIND-SPOT
-Indiana State,Eastern Illinois,fcs-only,-2.1,1.5,-3.6,Eastern Illinois,DOG,1.5,False,False,
-North Dakota State,Air Force,FCS,-1.7,1.75,-3.5,Air Force,DOG,1.75,False,False,
-Northwestern State,East Texas A&M,fcs-only,-17.2,-20.5,3.3,Northwestern State,DOG,20.5,False,False,BLIND-SPOT
-Eastern Washington,South Dakota,fcs-only,-13.2,-16.5,3.3,Eastern Washington,DOG,16.5,False,False,
-Mercyhurst,New Mexico,FCS,-44.7,-41.5,-3.2,New Mexico,FAV,41.5,False,False,
-Incarnate Word,Northern Arizona,fcs-only,-1.3,-4.5,3.2,Incarnate Word,DOG,4.5,False,False,
-Wake Forest,Purdue,FBS,5.9,3.0,2.9,Wake Forest,FAV,3.0,False,False,
-North Dakota,Portland State,fcs-only,28.2,25.5,2.7,North Dakota,FAV,25.5,False,False,BLIND-SPOT
-Holy Cross,Miami (OH),FCS,-27.8,-30.5,2.7,Holy Cross,DOG,30.5,False,False,
-Stonehill,New Hampshire,fcs-only,-16.1,-13.5,-2.6,New Hampshire,FAV,13.5,False,False,BLIND-SPOT
-Cal Poly,San José State,FCS,-18.0,-20.5,2.5,Cal Poly,DOG,20.5,False,False,BLIND-SPOT
-Marist,Lafayette,fcs-only,-15.0,-12.5,-2.5,Lafayette,FAV,12.5,False,False,
-Charleston Southern,The Citadel,fcs-only,1.0,-1.5,2.5,Charleston Southern,DOG,1.5,False,False,
-Iowa State,Iowa,FBS,-11.6,-14.0,2.4,Iowa State,DOG,14.0,False,False,
-Buffalo,Florida International,FBS,-7.7,-10.0,2.3,Buffalo,DOG,10.0,False,False,BLIND-SPOT
-Elon,Rhode Island,fcs-only,-10.7,-8.5,-2.2,Rhode Island,FAV,8.5,False,False,
-Tennessee State,Alabama A&M,fcs-only,-0.3,1.5,-1.8,Alabama A&M,DOG,1.5,False,False,BLIND-SPOT
-Furman,Mercer,fcs-only,-17.3,-15.5,-1.8,Mercer,FAV,15.5,False,False,
-Texas Southern,UTEP,FCS,-25.0,-26.75,1.7,Texas Southern,DOG,26.75,False,False,BLIND-SPOT
-Western Illinois,Wisconsin,FCS,-40.0,-41.75,1.7,Western Illinois,DOG,41.75,False,False,
-Robert Morris,Akron,FCS,-25.8,-27.5,1.7,Robert Morris,DOG,27.5,False,False,BLIND-SPOT
-Grambling,TCU,FCS,-45.4,-43.75,-1.6,TCU,FAV,43.75,False,False,
-Duke,Illinois,FBS,-4.4,-6.0,1.6,Duke,DOG,6.0,False,False,
-North Carolina A&T,North Carolina Central,fcs-only,-23.0,-24.5,1.5,North Carolina A&T,DOG,24.5,False,False,BLIND-SPOT
-Bucknell,VMI,fcs-only,10.0,8.5,1.5,Bucknell,FAV,8.5,False,False,BLIND-SPOT
-UTSA,Texas State,FBS,-1.0,-2.5,1.5,UTSA,DOG,2.5,False,False,
-Mississippi State,Minnesota,FBS,2.7,1.25,1.4,Mississippi State,FAV,1.25,False,False,
-Stony Brook,Ball State,FCS,-12.4,-13.75,1.4,Stony Brook,DOG,13.75,False,False,BLIND-SPOT
-Montana State,Nevada,FCS,5.0,3.75,1.2,Montana State,FAV,3.75,False,False,BLIND-SPOT
-Gardner-Webb,Liberty,FCS,-27.5,-28.5,1.0,Gardner-Webb,DOG,28.5,False,False,
-Valparaiso,Murray State,fcs-only,-15.0,-14.0,-1.0,Murray State,FAV,14.0,False,False,BLIND-SPOT
-Merrimack,Maine,fcs-only,-10.8,-10.0,-0.8,Maine,FAV,10.0,False,False,
-Stephen F. Austin,Abilene Christian,fcs-only,2.3,3.0,-0.7,Abilene Christian,DOG,3.0,False,False,
-Arizona,BYU,FBS,-6.4,-7.0,0.6,Arizona,DOG,7.0,False,False,
-Southern,Houston,FCS,-52.1,-51.5,-0.6,Houston,FAV,51.5,False,False,BLIND-SPOT
-Samford,Tennessee Tech,fcs-only,-27.1,-26.5,-0.6,Tennessee Tech,FAV,26.5,False,False,BLIND-SPOT
-UT Rio Grande Valley,Nicholls,fcs-only,6.0,5.5,0.5,UT Rio Grande Valley,FAV,5.5,False,False,
-Georgia Southern,Clemson,FBS,-19.1,-19.5,0.4,Georgia Southern,DOG,19.5,False,False,BLIND-SPOT
-Tarleton State,McNeese,fcs-only,20.4,20.5,-0.1,McNeese,DOG,20.5,False,False,
+away,home,cls,kick,model,market,edge,side,dir,spread_size,neutral,playable,flag
+Old Dominion,Virginia Tech,FBS,12:00,11.9,-19.5,31.4,Old Dominion,DOG,19.5,False,False,INFO-GAP
+Sacred Heart,Massachusetts,FCS,15:30,-5.0,-23.5,18.5,Sacred Heart,DOG,23.5,False,True,BLIND-SPOT
+Western Kentucky,Georgia,FBS,12:45,-22.4,-39.75,17.4,Western Kentucky,DOG,39.75,False,True,
+Duquesne,Youngstown State,fcs-only,14:00,-6.2,-22.5,16.3,Duquesne,DOG,22.5,False,True,
+South Florida,Army,FBS,12:00,12.6,-3.5,16.1,South Florida,DOG,3.5,False,False,NY-RESTRICTED
+Maryland,UConn,FBS,15:30,-4.6,11.5,-16.1,UConn,DOG,11.5,False,True,
+UT Martin,West Virginia,FCS,13:00,-25.9,-41.5,15.6,UT Martin,DOG,41.5,False,True,
+East Tennessee State,North Carolina,FCS,12:00,-20.5,-36.0,15.5,East Tennessee State,DOG,36.0,False,True,
+Howard,Indiana,FCS,12:00,-72.0,-57.25,-14.8,Indiana,FAV,57.25,False,True,
+Utah State,Washington,FBS,15:30,-13.0,-27.5,14.5,Utah State,DOG,27.5,False,True,
+UAlbany,Long Island University,fcs-only,12:00,-10.3,4.0,-14.3,Long Island University,DOG,4.0,False,False,BLIND-SPOT NY-RESTRICTED
+Drake,Northern Iowa,fcs-only,14:00,1.5,-11.5,13.0,Drake,DOG,11.5,False,True,
+Washington State,Kansas State,FBS,12:00,-5.2,-17.5,12.3,Washington State,DOG,17.5,False,True,
+Oregon,Oklahoma State,FBS,12:00,35.2,23.5,11.7,Oregon,FAV,23.5,False,True,BLIND-SPOT
+UNLV,North Texas,FBS,15:45,-8.6,3.0,-11.6,North Texas,DOG,3.0,False,True,
+Stetson,Bethune-Cookman,fcs-only,16:00,-25.6,-14.5,-11.1,Bethune-Cookman,FAV,14.5,False,True,BLIND-SPOT
+Utah Tech,Montana,fcs-only,15:00,-28.1,-38.5,10.4,Utah Tech,DOG,38.5,False,True,
+App State,East Carolina,FBS,12:00,-15.6,-6.5,-9.1,East Carolina,FAV,6.5,False,True,BLIND-SPOT
+Northern Colorado,Wyoming,FCS,16:00,-31.2,-22.5,-8.7,Wyoming,FAV,22.5,False,True,
+Morehead State,Austin Peay,fcs-only,17:00,-27.2,-35.5,8.3,Morehead State,DOG,35.5,False,True,BLIND-SPOT
+Wagner,James Madison,FCS,12:00,-54.7,-46.5,-8.2,James Madison,FAV,46.5,False,False,NY-RESTRICTED
+Eastern Michigan,Michigan State,FBS,15:30,-9.4,-17.25,7.8,Eastern Michigan,DOG,17.25,False,True,
+California,Syracuse,FBS,15:30,4.0,-3.5,7.5,California,DOG,3.5,False,False,BLIND-SPOT NY-RESTRICTED
+Colgate,Central Michigan,FCS,13:00,-26.2,-18.75,-7.4,Central Michigan,FAV,18.75,False,False,NY-RESTRICTED
+Delaware,Vanderbilt,FBS,16:15,-28.1,-21.0,-7.1,Vanderbilt,FAV,21.0,False,True,BLIND-SPOT
+Penn State,Temple,FBS,12:00,17.8,24.25,-6.4,Temple,DOG,24.25,False,True,
+Rice,Notre Dame,FBS,15:30,-39.5,-45.25,5.7,Rice,DOG,45.25,False,True,BLIND-SPOT
+Oklahoma,Michigan,FBS,12:00,0.1,5.0,-4.9,Michigan,DOG,5.0,False,True,
+Alabama State,Troy,FCS,16:00,-18.2,-23.0,4.8,Alabama State,DOG,23.0,False,True,
+UCF,Pittsburgh,FBS,15:30,-11.7,-7.0,-4.7,Pittsburgh,FAV,7.0,False,True,
+Lamar,Idaho,fcs-only,16:00,2.0,-2.5,4.5,Lamar,DOG,2.5,False,True,
+William & Mary,Lehigh,fcs-only,14:00,-16.9,-12.5,-4.4,Lehigh,FAV,12.5,False,True,
+Alabama,Kentucky,FBS,15:30,14.4,10.0,4.4,Alabama,FAV,10.0,False,True,
+Weber State,Colorado,FCS,15:30,-33.6,-37.75,4.1,Weber State,DOG,37.75,False,True,
+Wofford,Kent State,FCS,12:00,-14.5,-10.5,-4.0,Kent State,FAV,10.5,False,False,BLIND-SPOT
+Arizona State,Texas A&M,FBS,12:00,-11.6,-15.5,3.9,Arizona State,DOG,15.5,False,False,
+UC Davis,SMU,FCS,16:00,-35.2,-31.5,-3.7,SMU,FAV,31.5,False,False,
+UL Monroe,UAB,FBS,15:30,-5.9,-9.5,3.6,UL Monroe,DOG,9.5,False,False,BLIND-SPOT
+Central Connecticut,Toledo,FCS,15:30,-38.9,-35.25,-3.6,Toledo,FAV,35.25,False,False,
+Eastern Washington,South Dakota,fcs-only,14:00,-13.2,-16.5,3.3,Eastern Washington,DOG,16.5,False,False,
+Mercyhurst,New Mexico,FCS,16:00,-44.7,-41.5,-3.2,New Mexico,FAV,41.5,False,False,
+Incarnate Word,Northern Arizona,fcs-only,17:00,-1.3,-4.5,3.2,Incarnate Word,DOG,4.5,False,False,
+Wake Forest,Purdue,FBS,12:00,5.9,3.0,2.9,Wake Forest,FAV,3.0,False,False,
+Holy Cross,Miami (OH),FCS,13:00,-27.8,-30.5,2.7,Holy Cross,DOG,30.5,False,False,
+Marist,Lafayette,fcs-only,12:30,-15.0,-12.5,-2.5,Lafayette,FAV,12.5,False,False,NY-RESTRICTED
+Elon,Rhode Island,fcs-only,12:00,-10.7,-8.5,-2.2,Rhode Island,FAV,8.5,False,False,
+Robert Morris,Akron,FCS,15:30,-25.8,-27.5,1.7,Robert Morris,DOG,27.5,False,False,BLIND-SPOT
+Duke,Illinois,FBS,15:30,-4.4,-6.0,1.6,Duke,DOG,6.0,False,False,
+UTSA,Texas State,FBS,15:30,-1.0,-2.5,1.5,UTSA,DOG,2.5,False,False,
+North Carolina A&T,North Carolina Central,fcs-only,12:00,-23.0,-24.5,1.5,North Carolina A&T,DOG,24.5,False,False,BLIND-SPOT
+Bucknell,VMI,fcs-only,13:30,10.0,8.5,1.5,Bucknell,FAV,8.5,False,False,BLIND-SPOT
+Stony Brook,Ball State,FCS,14:00,-12.4,-13.75,1.4,Stony Brook,DOG,13.75,False,False,BLIND-SPOT NY-RESTRICTED
+Mississippi State,Minnesota,FBS,15:30,2.7,1.25,1.4,Mississippi State,FAV,1.25,False,False,
+Gardner-Webb,Liberty,FCS,12:00,-27.5,-28.5,1.0,Gardner-Webb,DOG,28.5,False,False,
+Merrimack,Maine,fcs-only,17:00,-10.8,-10.0,-0.8,Maine,FAV,10.0,False,False,
+Arizona,BYU,FBS,15:30,-6.4,-7.0,0.6,Arizona,DOG,7.0,False,False,

@@ -687,6 +687,11 @@
         <div class="pred-table" id="nfl-validation"></div>
       </div>
       <div class="card" style="grid-column:1/-1">
+        <div class="card-head"><h2>Model vs book &mdash; anytime TD</h2>
+          <span class="footer-note" id="nfl-value-meta"></span></div>
+        <div class="pred-table" id="nfl-value"></div>
+      </div>
+      <div class="card" style="grid-column:1/-1">
         <div class="card-head"><h2>Over/under fair lines</h2>
           <span class="footer-note" id="nfl-props-meta"></span></div>
         <div class="pred-table" id="nfl-props"></div>
@@ -851,6 +856,36 @@
       + 'and by MAE against the market. "Calibrated, never priced" means the distribution is honest '
       + 'but the model has not yet been tested against a real line \u2014 which is what the NFL spread '
       + 'model looked like before it was, and it came back 50.12%.'
+      + '</div>';
+  }
+
+  function renderNFLValue(v) {
+    const el = document.getElementById('nfl-value');
+    if (!v || !v.rows || !v.rows.length) {
+      el.innerHTML = '<div style="padding:20px;color:var(--muted);font-family:var(--mono);font-size:12px">Run nfl_td_value.py to pull book prices.</div>';
+      return;
+    }
+    document.getElementById('nfl-value-meta').textContent =
+      v.n + ' priced  \u00b7  mean edge ' + (v.mean_edge * 100).toFixed(2) + 'pp  \u00b7  '
+      + (v.pct_positive * 100).toFixed(0) + '% positive  \u00b7  ' + v.n_over_4pp + ' over 4pp';
+    el.innerHTML = '<table class="cal-table"><thead><tr><th>Player</th><th>Tm</th>'
+      + '<th>Game</th><th>Model</th><th>Book</th><th>Edge</th><th>EV</th></tr></thead><tbody>'
+      + v.rows.map(r => {
+          const cls = r.edge > 0 ? 'win' : 'loss';
+          return '<tr><td>' + r.player + '</td><td>' + r.team + '</td><td>'
+            + r.matchup.replace(/ @ /, ' @ ') + '</td><td>' + pct(r.model) + '</td><td>'
+            + pct(r.book) + '</td><td class="' + cls + '">'
+            + (r.edge > 0 ? '+' : '') + (r.edge * 100).toFixed(1) + 'pp</td><td class="' + cls + '">'
+            + (r.ev != null ? (r.ev > 0 ? '+' : '') + (r.ev * 100).toFixed(0) + '%' : '&mdash;')
+            + '</td></tr>';
+        }).join('')
+      + '</tbody></table>'
+      + '<div style="padding:14px 0 2px;color:var(--muted);font-family:var(--mono);font-size:11.5px;line-height:1.6">'
+      + 'Model and book are normalised to the same mass per game, so this compares '
+      + 'ALLOCATION (who scores) not level (how many). The largest gaps in either '
+      + 'direction are usually depth-chart errors, not mispricing &mdash; the model runs '
+      + 'on last season\u2019s usage and the book has today\u2019s depth chart. '
+      + 'Nothing here has been graded yet.'
       + '</div>';
   }
 
@@ -1230,6 +1265,7 @@
       renderNFL(d.nfl);
       window.__nflSides = d.nfl?.sides;
       renderNFLValidation(d.nfl?.validation);
+      renderNFLValue(d.nfl?.value);
       renderNFLProps(d.nfl?.props, d.nfl?.props_validation);
 
       // K tab

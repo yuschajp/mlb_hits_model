@@ -21,6 +21,15 @@ from zoneinfo import ZoneInfo
 ET = ZoneInfo("America/New_York")
 
 
+def kick_et(g):
+    """Eastern kickoff as HH:MM, or '' if unknown."""
+    raw = str(pick(g, "startDate", "start_date", default=""))
+    try:
+        return datetime.fromisoformat(raw.replace("Z", "+00:00")).astimezone(ET).strftime("%H:%M")
+    except ValueError:
+        return ""
+
+
 def kick_date(g):
     raw = str(g.get("startDate") or g.get("start_date") or "")
     if not raw:
@@ -94,7 +103,9 @@ for g in games:
     if sp is None:
         unpriced += 1; continue
     neutral = bool(pick(g, "neutralSite", "neutral_site", default=False))
-    rows.append(f"{a}, {h}, {sp}" + (", N" if neutral else ""))
+    t = kick_et(g)
+    extra = ("" if not neutral else ", N") + (f", {t}" if t else "")
+    rows.append(f"{a}, {h}, {sp}{extra}")
 
 if not rows:
     print(f"{len(games)} games on {DATE} but none priced yet -- no file written")
@@ -102,7 +113,7 @@ if not rows:
 
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text(f"# CFB {DATE} -- auto-pulled from CFBD, median spread across books\n"
-               "# Away, Home, home_spread[, N]   negative = home favoured\n"
+               "# Away, Home, home_spread[, N][, HH:MM ET]  negative = home favoured\n"
                + "\n".join(rows) + "\n")
 print(f"{len(rows)} priced games -> {OUT}"
       + (f"   ({unpriced} not yet priced, skipped)" if unpriced else ""))

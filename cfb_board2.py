@@ -32,9 +32,27 @@ MAX_EDGE  = 25.0   # above this it is almost certainly an OFFSEASON CHANGE the
                    # so we find out whether the flag is actually predictive.
 OFFSET    = 32.6   # FBS -> FCS bridge, median of 126 bridge games (mean 31.2 +/- 2.4)
 HFA       = 2.0    # home-field, points
+
+# New York prohibits wagering on any game involving a NY college team, wherever
+# it is played -- so these are not bets no matter what the edge says. All 12 NY
+# Division-I football programs, named exactly as they appear in the ratings
+# files. Marked NY-RESTRICTED and made unplayable; pass --allow-ny to override.
+NY_TEAMS = {
+    "Army", "Syracuse", "Buffalo",                      # FBS
+    "Colgate", "Cornell", "Columbia", "Fordham",        # FCS
+    "Marist", "Wagner", "Stony Brook", "UAlbany",
+    "Long Island University",
+}
+ALLOW_NY = "--allow-ny" in sys.argv
 # -----------------------------------------------------------------------------
 
-DATE = sys.argv[1] if len(sys.argv) > 1 else None
+# optional kickoff window:  --from 12:00 --to 17:00   (Eastern)
+def _arg(flag):
+    return sys.argv[sys.argv.index(flag) + 1] if flag in sys.argv else None
+FROM, TO = _arg("--from"), _arg("--to")
+_pos = [a for a in sys.argv[1:] if not a.startswith("--")
+        and a not in (FROM, TO)]
+DATE = _pos[0] if _pos else None
 if not DATE:
     sys.exit("usage: python3 cfb_board2.py YYYY-MM-DD")
 SRC = Path(f"data/cfb/lines_{DATE}.txt")
@@ -78,13 +96,19 @@ for raw in SRC.read_text().splitlines():
         if len(p) < 3:
             bad.append((raw, "need Away, Home, line")); continue
         a, h, num = p[0], p[1], p[2]
-        neutral = len(p) > 3 and p[3].upper().startswith("N")
+        # extra fields are order-independent: "N" means neutral, HH:MM is kickoff
+        neutral, kick = False, ""
+        for extra in p[3:]:
+            if re.fullmatch(r"\d{1,2}:\d{2}", extra):
+                kick = extra
+            elif extra.upper().startswith("N"):
+                neutral = True
     else:
         m = re.match(r"^(.*?)\s*@\s*(.*?)\s+([+-]?\d+(?:\.\d+)?)\s*(N)?$", ln, re.I)
         if not m:
             bad.append((raw, "unparsed")); continue
         a, h, num, nflag = m.groups()
-        neutral = bool(nflag)
+        neutral = bool(nflag); kick = ""
     try:
         line = float(num)
     except ValueError:
@@ -104,15 +128,21 @@ for raw in SRC.read_text().splitlines():
     if kh in weak or ka in weak:                       flags.append("BLIND-SPOT")
     if gp.get(kh, 0) < 10 or gp.get(ka, 0) < 10:       flags.append("thin-data")
     if abs(model - line) >= MAX_EDGE:                  flags.append("INFO-GAP")
+    ny = (kh in NY_TEAMS or ka in NY_TEAMS) and not ALLOW_NY
+    if ny:                                             flags.append("NY-RESTRICTED")
 
     edge = model - line
     fav  = kh if line < 0 else ka
     take = kh if model < line else ka
-    rows.append(dict(away=ka, home=kh, cls=cls, model=round(model, 1), market=line,
+    if kick and ((FROM and kick < FROM) or (TO and kick > TO)):
+        continue
+    rows.append(dict(away=ka, home=kh, cls=cls, kick=kick,
+                     model=round(model, 1), market=line,
                      edge=round(edge, 1), side=take,
                      dir=("FAV" if take == fav else "DOG"),
                      spread_size=abs(line), neutral=neutral,
-                     playable=(abs(edge) >= MIN_EDGE and abs(edge) < MAX_EDGE),
+                     playable=(abs(edge) >= MIN_EDGE and abs(edge) < MAX_EDGE
+                               and not ny),
                      flag=" ".join(flags)))
 
 if bad:
@@ -126,11 +156,11 @@ if not rows:
 d = pd.DataFrame(rows)
 d = d.reindex(d.edge.abs().sort_values(ascending=False).index)
 
-hdr = (f"{'away':<22}{'home':<20}{'cls':<5}{'model':>8}{'mkt':>8}{'edge':>7} "
+hdr = (f"{'away':<22}{'home':<20}{'cls':<5}{'kick':>6}{'model':>8}{'mkt':>8}{'edge':>7} "
        f"{'take':<20}{'dir':<5}flag")
 def show(sub):
     for _, r in sub.iterrows():
-        print(f"{r.away[:21]:<22}{r.home[:19]:<20}{r.cls:<5}{r.model:>+8.1f}"
+        print(f"{r.away[:21]:<22}{r.home[:19]:<20}{r.cls:<5}{str(r.kick):>6}{r.model:>+8.1f}"
               f"{r.market:>+8.1f}{r.edge:>+7.1f} {r.side[:19]:<20}{r['dir']:<5}{r.flag}")
 
 plays, ref = d[d.playable], d[~d.playable]

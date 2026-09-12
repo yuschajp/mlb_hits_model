@@ -1617,7 +1617,7 @@
     "history": []
   },
   "cfb": {
-    "today_count": 114,
+    "today_count": 56,
     "total_graded": 19,
     "board": [
       {
@@ -1633,42 +1633,6 @@
         "flag": "INFO-GAP"
       },
       {
-        "away": "Louisiana Tech",
-        "home": "LSU",
-        "cls": "FBS",
-        "model": -7.1,
-        "market": -35.25,
-        "edge": 28.2,
-        "side": "Louisiana Tech",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "San Diego State",
-        "home": "UCLA",
-        "cls": "FBS",
-        "model": 11.4,
-        "market": -12.75,
-        "edge": 24.1,
-        "side": "San Diego State",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "New Haven",
-        "home": "South Dakota State",
-        "cls": "fcs-only",
-        "model": -22.6,
-        "market": -43.5,
-        "edge": 20.9,
-        "side": "New Haven",
-        "dir": "DOG",
-        "playable": true,
-        "flag": "BLIND-SPOT thin-data"
-      },
-      {
         "away": "Sacred Heart",
         "home": "Massachusetts",
         "cls": "FCS",
@@ -1681,30 +1645,6 @@
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "Southern Miss",
-        "home": "Auburn",
-        "cls": "FBS",
-        "model": -14.4,
-        "market": -32.75,
-        "edge": 18.3,
-        "side": "Southern Miss",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "San Diego",
-        "home": "Idaho State",
-        "cls": "fcs-only",
-        "model": -7.6,
-        "market": -25.5,
-        "edge": 17.9,
-        "side": "San Diego",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
         "away": "Western Kentucky",
         "home": "Georgia",
         "cls": "FBS",
@@ -1712,18 +1652,6 @@
         "market": -39.75,
         "edge": 17.4,
         "side": "Western Kentucky",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "Ohio State",
-        "home": "Texas",
-        "cls": "FBS",
-        "model": 15.3,
-        "market": -1.5,
-        "edge": 16.8,
-        "side": "Ohio State",
         "dir": "DOG",
         "playable": true,
         "flag": ""
@@ -1749,8 +1677,8 @@
         "edge": 16.1,
         "side": "South Florida",
         "dir": "DOG",
-        "playable": true,
-        "flag": ""
+        "playable": false,
+        "flag": "NY-RESTRICTED"
       },
       {
         "away": "Maryland",
@@ -1761,18 +1689,6 @@
         "edge": -16.1,
         "side": "UConn",
         "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "North Alabama",
-        "home": "SE Louisiana",
-        "cls": "fcs-only",
-        "model": -22.5,
-        "market": -6.5,
-        "edge": -16.0,
-        "side": "SE Louisiana",
-        "dir": "FAV",
         "playable": true,
         "flag": ""
       },
@@ -1799,18 +1715,6 @@
         "dir": "DOG",
         "playable": true,
         "flag": ""
-      },
-      {
-        "away": "Bowling Green",
-        "home": "Nebraska",
-        "cls": "FBS",
-        "model": -15.3,
-        "market": -30.25,
-        "edge": 14.9,
-        "side": "Bowling Green",
-        "dir": "DOG",
-        "playable": true,
-        "flag": "BLIND-SPOT"
       },
       {
         "away": "Howard",
@@ -1845,20 +1749,8 @@
         "edge": -14.3,
         "side": "Long Island University",
         "dir": "DOG",
-        "playable": true,
-        "flag": "BLIND-SPOT"
-      },
-      {
-        "away": "Illinois State",
-        "home": "Northern Illinois",
-        "cls": "FCS",
-        "model": -10.3,
-        "market": 3.25,
-        "edge": -13.6,
-        "side": "Northern Illinois",
-        "dir": "DOG",
-        "playable": true,
-        "flag": "BLIND-SPOT"
+        "playable": false,
+        "flag": "BLIND-SPOT NY-RESTRICTED"
       },
       {
         "away": "Drake",
@@ -1880,18 +1772,6 @@
         "market": -17.5,
         "edge": 12.3,
         "side": "Washington State",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
-        "away": "West Georgia",
-        "home": "Arkansas State",
-        "cls": "FCS",
-        "model": -19.4,
-        "market": -31.5,
-        "edge": 12.1,
-        "side": "West Georgia",
         "dir": "DOG",
         "playable": true,
         "flag": ""
@@ -1921,30 +1801,6 @@
         "flag": ""
       },
       {
-        "away": "Georgia State",
-        "home": "Kennesaw State",
-        "cls": "FBS",
-        "model": -19.8,
-        "market": -8.25,
-        "edge": -11.6,
-        "side": "Kennesaw State",
-        "dir": "FAV",
-        "playable": true,
-        "flag": "BLIND-SPOT"
-      },
-      {
-        "away": "Prairie View A&M",
-        "home": "Baylor",
-        "cls": "FCS",
-        "model": -26.1,
-        "market": -37.5,
-        "edge": 11.4,
-        "side": "Prairie View A&M",
-        "dir": "DOG",
-        "playable": true,
-        "flag": ""
-      },
-      {
         "away": "Stetson",
         "home": "Bethune-Cookman",
         "cls": "fcs-only",
@@ -1957,26 +1813,170 @@
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "Texas Tech",
-        "home": "Oregon State",
+        "away": "Utah Tech",
+        "home": "Montana",
+        "cls": "fcs-only",
+        "model": -28.1,
+        "market": -38.5,
+        "edge": 10.4,
+        "side": "Utah Tech",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "App State",
+        "home": "East Carolina",
         "cls": "FBS",
-        "model": 36.1,
-        "market": 25.5,
-        "edge": 10.6,
-        "side": "Texas Tech",
+        "model": -15.6,
+        "market": -6.5,
+        "edge": -9.1,
+        "side": "East Carolina",
         "dir": "FAV",
         "playable": true,
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "Towson",
-        "home": "South Carolina",
+        "away": "Northern Colorado",
+        "home": "Wyoming",
         "cls": "FCS",
-        "model": -33.5,
-        "market": -44.0,
-        "edge": 10.5,
-        "side": "Towson",
+        "model": -31.2,
+        "market": -22.5,
+        "edge": -8.7,
+        "side": "Wyoming",
+        "dir": "FAV",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Morehead State",
+        "home": "Austin Peay",
+        "cls": "fcs-only",
+        "model": -27.2,
+        "market": -35.5,
+        "edge": 8.3,
+        "side": "Morehead State",
         "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Wagner",
+        "home": "James Madison",
+        "cls": "FCS",
+        "model": -54.7,
+        "market": -46.5,
+        "edge": -8.2,
+        "side": "James Madison",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "NY-RESTRICTED"
+      },
+      {
+        "away": "Eastern Michigan",
+        "home": "Michigan State",
+        "cls": "FBS",
+        "model": -9.4,
+        "market": -17.25,
+        "edge": 7.8,
+        "side": "Eastern Michigan",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "California",
+        "home": "Syracuse",
+        "cls": "FBS",
+        "model": 4.0,
+        "market": -3.5,
+        "edge": 7.5,
+        "side": "California",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT NY-RESTRICTED"
+      },
+      {
+        "away": "Colgate",
+        "home": "Central Michigan",
+        "cls": "FCS",
+        "model": -26.2,
+        "market": -18.75,
+        "edge": -7.4,
+        "side": "Central Michigan",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "NY-RESTRICTED"
+      },
+      {
+        "away": "Delaware",
+        "home": "Vanderbilt",
+        "cls": "FBS",
+        "model": -28.1,
+        "market": -21.0,
+        "edge": -7.1,
+        "side": "Vanderbilt",
+        "dir": "FAV",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Penn State",
+        "home": "Temple",
+        "cls": "FBS",
+        "model": 17.8,
+        "market": 24.25,
+        "edge": -6.4,
+        "side": "Temple",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Rice",
+        "home": "Notre Dame",
+        "cls": "FBS",
+        "model": -39.5,
+        "market": -45.25,
+        "edge": 5.7,
+        "side": "Rice",
+        "dir": "DOG",
+        "playable": true,
+        "flag": "BLIND-SPOT"
+      },
+      {
+        "away": "Oklahoma",
+        "home": "Michigan",
+        "cls": "FBS",
+        "model": 0.1,
+        "market": 5.0,
+        "edge": -4.9,
+        "side": "Michigan",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Alabama State",
+        "home": "Troy",
+        "cls": "FCS",
+        "model": -18.2,
+        "market": -23.0,
+        "edge": 4.8,
+        "side": "Alabama State",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "UCF",
+        "home": "Pittsburgh",
+        "cls": "FBS",
+        "model": -11.7,
+        "market": -7.0,
+        "edge": -4.7,
+        "side": "Pittsburgh",
+        "dir": "FAV",
         "playable": true,
         "flag": ""
       }
@@ -2021,8 +2021,8 @@
         "pos": "RB",
         "team": "BAL",
         "game": "BAL@IND",
-        "p_td": 0.7079694125504636,
-        "fair": -242,
+        "p_td": 0.7054097985210759,
+        "fair": -239,
         "moved": false
       },
       {
@@ -2030,8 +2030,8 @@
         "pos": "RB",
         "team": "DET",
         "game": "NO@DET",
-        "p_td": 0.5915047921977385,
-        "fair": -144,
+        "p_td": 0.5900772787472408,
+        "fair": -143,
         "moved": false
       },
       {
@@ -2039,7 +2039,7 @@
         "pos": "WR",
         "team": "CIN",
         "game": "TB@CIN",
-        "p_td": 0.5534870405182938,
+        "p_td": 0.5519532493777883,
         "fair": -123,
         "moved": false
       },
@@ -2048,8 +2048,8 @@
         "pos": "RB",
         "team": "IND",
         "game": "BAL@IND",
-        "p_td": 0.5306215010279678,
-        "fair": -113,
+        "p_td": 0.5291604736755767,
+        "fair": -112,
         "moved": false
       },
       {
@@ -2057,8 +2057,8 @@
         "pos": "RB",
         "team": "MIA",
         "game": "MIA@LV",
-        "p_td": 0.5064724921068855,
-        "fair": -102,
+        "p_td": 0.5047775688704861,
+        "fair": -101,
         "moved": false
       },
       {
@@ -2066,8 +2066,8 @@
         "pos": "RB",
         "team": "LV",
         "game": "MIA@LV",
-        "p_td": 0.4961059076568752,
-        "fair": 101,
+        "p_td": 0.4936582189506198,
+        "fair": 102,
         "moved": false
       },
       {
@@ -2075,7 +2075,7 @@
         "pos": "RB",
         "team": "CIN",
         "game": "TB@CIN",
-        "p_td": 0.4916564367739233,
+        "p_td": 0.4904791818573472,
         "fair": 103,
         "moved": false
       },
@@ -2084,8 +2084,8 @@
         "pos": "RB",
         "team": "LAC",
         "game": "ARI@LAC",
-        "p_td": 0.488814952906424,
-        "fair": 104,
+        "p_td": 0.4868775166315502,
+        "fair": 105,
         "moved": false
       },
       {
@@ -2093,7 +2093,7 @@
         "pos": "WR",
         "team": "DET",
         "game": "NO@DET",
-        "p_td": 0.4875170262778459,
+        "p_td": 0.485572453173361,
         "fair": 105,
         "moved": false
       },
@@ -2102,8 +2102,8 @@
         "pos": "RB",
         "team": "PHI",
         "game": "WAS@PHI",
-        "p_td": 0.4639603049557946,
-        "fair": 115,
+        "p_td": 0.4627525535167536,
+        "fair": 116,
         "moved": false
       },
       {
@@ -2111,8 +2111,8 @@
         "pos": "RB",
         "team": "ATL",
         "game": "ATL@PIT",
-        "p_td": 0.4589830968572108,
-        "fair": 117,
+        "p_td": 0.4577728573524648,
+        "fair": 118,
         "moved": false
       },
       {
@@ -2120,7 +2120,7 @@
         "pos": "WR",
         "team": "KC",
         "game": "DEN@KC",
-        "p_td": 0.4563020030619852,
+        "p_td": 0.4548037469254995,
         "fair": 119,
         "moved": false
       },
@@ -2129,7 +2129,7 @@
         "pos": "WR",
         "team": "PIT",
         "game": "ATL@PIT",
-        "p_td": 0.4421254685495985,
+        "p_td": 0.4409975754881359,
         "fair": 126,
         "moved": false
       },
@@ -2138,8 +2138,8 @@
         "pos": "TE",
         "team": "CHI",
         "game": "CHI@CAR",
-        "p_td": 0.4361415745031797,
-        "fair": 129,
+        "p_td": 0.4338975548384969,
+        "fair": 130,
         "moved": false
       },
       {
@@ -2147,8 +2147,8 @@
         "pos": "RB",
         "team": "JAX",
         "game": "CLE@JAX",
-        "p_td": 0.4311981479597149,
-        "fair": 131,
+        "p_td": 0.4306658144018513,
+        "fair": 132,
         "moved": true
       },
       {
@@ -2156,7 +2156,7 @@
         "pos": "RB",
         "team": "MIN",
         "game": "GB@MIN",
-        "p_td": 0.4290987618740922,
+        "p_td": 0.4280314867220228,
         "fair": 133,
         "moved": false
       },
@@ -2165,8 +2165,8 @@
         "pos": "TE",
         "team": "GB",
         "game": "GB@MIN",
-        "p_td": 0.4206683194510546,
-        "fair": 137,
+        "p_td": 0.4187087777497723,
+        "fair": 138,
         "moved": false
       },
       {
@@ -2174,8 +2174,8 @@
         "pos": "QB",
         "team": "BUF",
         "game": "BUF@HOU",
-        "p_td": 0.4180885589795184,
-        "fair": 139,
+        "p_td": 0.4159893311875218,
+        "fair": 140,
         "moved": false
       },
       {
@@ -2183,8 +2183,8 @@
         "pos": "RB",
         "team": "TB",
         "game": "TB@CIN",
-        "p_td": 0.4110950260790248,
-        "fair": 143,
+        "p_td": 0.4085811341063934,
+        "fair": 144,
         "moved": false
       },
       {
@@ -2192,8 +2192,8 @@
         "pos": "WR",
         "team": "CIN",
         "game": "TB@CIN",
-        "p_td": 0.4033819851717718,
-        "fair": 147,
+        "p_td": 0.4029028080237384,
+        "fair": 148,
         "moved": false
       },
       {
@@ -2201,8 +2201,8 @@
         "pos": "RB",
         "team": "CHI",
         "game": "CHI@CAR",
-        "p_td": 0.3986344695904316,
-        "fair": 150,
+        "p_td": 0.397953091137987,
+        "fair": 151,
         "moved": false
       },
       {
@@ -2210,7 +2210,7 @@
         "pos": "RB",
         "team": "NYG",
         "game": "DAL@NYG",
-        "p_td": 0.3950999440295298,
+        "p_td": 0.3945443823952067,
         "fair": 153,
         "moved": false
       },
@@ -2219,8 +2219,8 @@
         "pos": "RB",
         "team": "TB",
         "game": "TB@CIN",
-        "p_td": 0.3930028181018601,
-        "fair": 154,
+        "p_td": 0.3914236836202489,
+        "fair": 155,
         "moved": true
       },
       {
@@ -2228,7 +2228,7 @@
         "pos": "RB",
         "team": "BUF",
         "game": "BUF@HOU",
-        "p_td": 0.3872400204786981,
+        "p_td": 0.3866407682461648,
         "fair": 158,
         "moved": false
       },
@@ -2237,8 +2237,8 @@
         "pos": "RB",
         "team": "PIT",
         "game": "ATL@PIT",
-        "p_td": 0.3668719977638105,
-        "fair": 172,
+        "p_td": 0.3658995551460258,
+        "fair": 173,
         "moved": true
       },
       {
@@ -2246,7 +2246,7 @@
         "pos": "RB",
         "team": "DEN",
         "game": "DEN@KC",
-        "p_td": 0.3634929025718052,
+        "p_td": 0.3629462433946629,
         "fair": 175,
         "moved": false
       },
@@ -2255,8 +2255,8 @@
         "pos": "WR",
         "team": "GB",
         "game": "GB@MIN",
-        "p_td": 0.3623258579989094,
-        "fair": 175,
+        "p_td": 0.3621340380647898,
+        "fair": 176,
         "moved": false
       },
       {
@@ -2264,8 +2264,8 @@
         "pos": "RB",
         "team": "DAL",
         "game": "DAL@NYG",
-        "p_td": 0.3575316293644517,
-        "fair": 179,
+        "p_td": 0.3565585587258559,
+        "fair": 180,
         "moved": false
       },
       {
@@ -2273,8 +2273,8 @@
         "pos": "RB",
         "team": "KC",
         "game": "DEN@KC",
-        "p_td": 0.3508784808862953,
-        "fair": 184,
+        "p_td": 0.3503027287841121,
+        "fair": 185,
         "moved": true
       },
       {
@@ -2282,8 +2282,8 @@
         "pos": "WR",
         "team": "JAX",
         "game": "CLE@JAX",
-        "p_td": 0.3454689111948635,
-        "fair": 189,
+        "p_td": 0.3446231563117438,
+        "fair": 190,
         "moved": false
       },
       {
@@ -2291,7 +2291,7 @@
         "pos": "RB",
         "team": "WAS",
         "game": "WAS@PHI",
-        "p_td": 0.3418935363727724,
+        "p_td": 0.3413200238186125,
         "fair": 192,
         "moved": false
       },
@@ -2300,8 +2300,8 @@
         "pos": "WR",
         "team": "DET",
         "game": "NO@DET",
-        "p_td": 0.3408150228605374,
-        "fair": 193,
+        "p_td": 0.3400784493877851,
+        "fair": 194,
         "moved": false
       },
       {
@@ -2309,7 +2309,7 @@
         "pos": "RB",
         "team": "PIT",
         "game": "ATL@PIT",
-        "p_td": 0.3366133836210285,
+        "p_td": 0.3356933010597814,
         "fair": 197,
         "moved": false
       },
@@ -2318,8 +2318,8 @@
         "pos": "RB",
         "team": "TEN",
         "game": "NYJ@TEN",
-        "p_td": 0.336098252450505,
-        "fair": 197,
+        "p_td": 0.3350745626880212,
+        "fair": 198,
         "moved": false
       },
       {
@@ -2327,7 +2327,7 @@
         "pos": "WR",
         "team": "LAC",
         "game": "ARI@LAC",
-        "p_td": 0.3320647538493184,
+        "p_td": 0.3316269613440072,
         "fair": 201,
         "moved": false
       },
@@ -2336,44 +2336,44 @@
         "pos": "RB",
         "team": "NO",
         "game": "NO@DET",
-        "p_td": 0.3228353600158358,
-        "fair": 209,
+        "p_td": 0.3225737984346356,
+        "fair": 210,
         "moved": true
-      },
-      {
-        "player": "Jalen Hurts",
-        "pos": "QB",
-        "team": "PHI",
-        "game": "WAS@PHI",
-        "p_td": 0.3212045826237637,
-        "fair": 211,
-        "moved": false
       },
       {
         "player": "Ryan Flournoy",
         "pos": "WR",
         "team": "DAL",
         "game": "DAL@NYG",
-        "p_td": 0.3209181960900754,
-        "fair": 211,
+        "p_td": 0.3201255365130397,
+        "fair": 212,
         "moved": false
       },
       {
-        "player": "Breece Hall",
+        "player": "Jalen Hurts",
+        "pos": "QB",
+        "team": "PHI",
+        "game": "WAS@PHI",
+        "p_td": 0.3196718288639087,
+        "fair": 212,
+        "moved": false
+      },
+      {
+        "player": "Malik Davis",
         "pos": "RB",
-        "team": "NYJ",
-        "game": "NYJ@TEN",
-        "p_td": 0.3140476661517641,
+        "team": "DAL",
+        "game": "DAL@NYG",
+        "p_td": 0.3135813756558491,
         "fair": 218,
         "moved": false
       },
       {
-        "player": "Rome Odunze",
+        "player": "Jayden Reed",
         "pos": "WR",
-        "team": "CHI",
-        "game": "CHI@CAR",
-        "p_td": 0.3138144834855552,
-        "fair": 218,
+        "team": "GB",
+        "game": "GB@MIN",
+        "p_td": 0.3130265298913615,
+        "fair": 219,
         "moved": false
       }
     ],
@@ -2704,6 +2704,158 @@
         "p75": 89.0
       }
     ],
+    "value": {
+      "n": 301,
+      "mean_edge": 5.901517738871264e-18,
+      "pct_positive": 0.4850498338870432,
+      "n_over_4pp": 61,
+      "rows": [
+        {
+          "player": "Derrick Henry",
+          "team": "BAL",
+          "matchup": "Baltimore Ravens @ Indianapolis Colts",
+          "model": 0.698248871269024,
+          "book": 0.51291845068679,
+          "edge": 0.18533042058223403,
+          "ev": 0.361325314646177
+        },
+        {
+          "player": "Bam Knight",
+          "team": "ARI",
+          "matchup": "Arizona Cardinals @ Los Angeles Chargers",
+          "model": 0.1798420339358949,
+          "book": 0.0265271273376607,
+          "edge": 0.1533149065982342,
+          "ev": 5.779551801697436
+        },
+        {
+          "player": "Ryan Flournoy",
+          "team": "DAL",
+          "matchup": "Dallas Cowboys @ New York Giants",
+          "model": 0.30221527290893896,
+          "book": 0.1538065442295656,
+          "edge": 0.14840872867937335,
+          "ev": 0.9649051633190868
+        },
+        {
+          "player": "Brock Wright",
+          "team": "DET",
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "model": 0.222065159603324,
+          "book": 0.084000089034555,
+          "edge": 0.13806507056876902,
+          "ev": 1.6436300503440346
+        },
+        {
+          "player": "Jonnu Smith",
+          "team": "GB",
+          "matchup": "Green Bay Packers @ Minnesota Vikings",
+          "model": 0.2097997110164275,
+          "book": 0.0845683386952497,
+          "edge": 0.12523137232117781,
+          "ev": 1.4808304650805701
+        },
+        {
+          "player": "RJ Harvey",
+          "team": "DEN",
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "model": 0.3180348520214296,
+          "book": 0.1991838362076608,
+          "edge": 0.1188510158137688,
+          "ev": 0.5966900631929775
+        },
+        {
+          "player": "Tucker Kraft",
+          "team": "GB",
+          "matchup": "Green Bay Packers @ Minnesota Vikings",
+          "model": 0.36621713959206287,
+          "book": 0.2478727168653871,
+          "edge": 0.11834442272667578,
+          "ev": 0.4774402936445217
+        },
+        {
+          "player": "DK Metcalf",
+          "team": "PIT",
+          "matchup": "Atlanta Falcons @ Pittsburgh Steelers",
+          "model": 0.36880363860481064,
+          "book": 0.2508378636173271,
+          "edge": 0.11796577498748356,
+          "ev": 0.47028695463396875
+        },
+        {
+          "player": "Rashee Rice",
+          "team": "KC",
+          "matchup": "Denver Broncos @ Kansas City Chiefs",
+          "model": 0.39852580095438433,
+          "book": 0.2814383443429935,
+          "edge": 0.11708745661139086,
+          "ev": 0.4160323529642942
+        },
+        {
+          "player": "Tank Bigsby",
+          "team": "PHI",
+          "matchup": "Washington Commanders @ Philadelphia Eagles",
+          "model": 0.26718410264514275,
+          "book": 0.1508595963079995,
+          "edge": 0.11632450633714325,
+          "ev": 0.7710779372606276
+        },
+        {
+          "player": "Aaron Jones",
+          "team": "MIN",
+          "matchup": "Green Bay Packers @ Minnesota Vikings",
+          "model": 0.37437110242851235,
+          "book": 0.2738651752014165,
+          "edge": 0.10050592722709584,
+          "ev": 0.3669905352266052
+        },
+        {
+          "player": "Isaac TeSlaa",
+          "team": "DET",
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "model": 0.2539352705919244,
+          "book": 0.1550353755948801,
+          "edge": 0.0988998949970443,
+          "ev": 0.6379182468359845
+        },
+        {
+          "player": "Chuba Hubbard",
+          "team": "CAR",
+          "matchup": "Chicago Bears @ Carolina Panthers",
+          "model": 0.16689821544182745,
+          "book": 0.3250118267251646,
+          "edge": -0.15811361128333715,
+          "ev": -0.4864857161553098
+        },
+        {
+          "player": "David Montgomery",
+          "team": "HOU",
+          "matchup": "Buffalo Bills @ Houston Texans",
+          "model": 0.22825560487500668,
+          "book": 0.3904236254869447,
+          "edge": -0.16216802061193802,
+          "ev": -0.41536426083252154
+        },
+        {
+          "player": "Jacob Saylors",
+          "team": "DET",
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "model": 0.01414506656923421,
+          "book": 0.1772837874074181,
+          "edge": -0.1631387208381839,
+          "ev": -0.9202122947840276
+        },
+        {
+          "player": "Sione Vaki",
+          "team": "DET",
+          "matchup": "New Orleans Saints @ Detroit Lions",
+          "model": 0.013154869424971972,
+          "book": 0.1865058192087847,
+          "edge": -0.17335094978381274,
+          "ev": -0.9294667078980217
+        }
+      ]
+    },
     "props_validation": {
       "receptions": {
         "n": 5231,
@@ -2766,12 +2918,21 @@
       "seasons": "2010-2025",
       "verdict": "NO EDGE -- do not bet"
     },
+    "totals": {
+      "n": 4318,
+      "record": "2181-2137",
+      "ou": 0.5050949513663733,
+      "z": -2.4582732558120766,
+      "mae_model": 10.757455878669692,
+      "mae_market": 10.471349988539995,
+      "verdict": "NO EDGE -- do not bet"
+    },
     "validation": {
       "n": 11180,
       "seasons": "2024-2025",
       "auc": 0.7370921803740497,
       "brier": 0.13664442966434842,
-      "predicted": 0.18471910899309815,
+      "predicted": 0.18471910899309812,
       "observed": 0.1904293381037567,
       "lift": 12.547619047619046,
       "bands": [
@@ -2864,7 +3025,7 @@
       },
       {
         "model": "College FB spread",
-        "today": 114,
+        "today": 56,
         "graded": 19,
         "metric": "ATS",
         "value": 0.5263157894736842,
@@ -2893,6 +3054,17 @@
         "baseline": 0.5238,
         "edge_pct": -2.262463563704753,
         "note": "MAE 10.51 vs market 10.05",
+        "verdict": "REJECTED - do not bet"
+      },
+      {
+        "model": "NFL total",
+        "today": 0,
+        "graded": 4318,
+        "metric": "O/U",
+        "value": 0.5050949513663733,
+        "baseline": 0.5238,
+        "edge_pct": -1.8705048633626764,
+        "note": "MAE 10.76 vs market 10.47",
         "verdict": "REJECTED - do not bet"
       },
       {
@@ -2929,8 +3101,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 476,
-    "total_graded": 23939,
-    "model_count": 10
+    "total_today": 418,
+    "total_graded": 28257,
+    "model_count": 11
   }
 }

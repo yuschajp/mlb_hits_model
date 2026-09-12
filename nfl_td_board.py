@@ -23,7 +23,17 @@ import numpy as np, pandas as pd, warnings
 warnings.filterwarnings("ignore")
 
 SRC = Path(sys.argv[1] if len(sys.argv) > 1 else "data/nfl/lines_2026-w1.txt")
-SEASONS = list(range(2018, 2026))
+SEASONS = list(range(2018, 2027))          # 2026 read once the file exists
+
+# How much LAST season's usage is worth, by current-season week. Measured on
+# 2019-2025 boundaries (nfl_usage_test.py): a blend beats either source alone
+# from week 2, and last season decays to a quarter by week 3.
+PRIOR_W = {1: 1.00, 2: 0.50, 3: 0.25, 4: 0.20, 5: 0.15}
+PRIOR_W_DEFAULT = 0.10
+# Players who changed teams: prior role was measured in a different offence.
+# Same test gave 0.40 at week 2 and ZERO from week 4.
+PRIOR_W_MOVED = {1: 1.00, 2: 0.40, 3: 0.25}
+PRIOR_W_MOVED_DEFAULT = 0.00
 USAGE_SEASON = 2025
 OPP_WINDOW, K_OPP = 4, 0.25
 TD_A, TD_B = -0.651, 0.1361     # team offensive TDs = a + b * implied points
@@ -46,8 +56,13 @@ if len(dup):
              "meaningless. Re-run nfl_lines.py to window it to one slate.")
 print(f"{len(games)} games from {SRC.name}\n")
 
-hist = pd.concat([pd.read_csv(f"data/nfl/player_week_{y}.csv", low_memory=False)
-                  for y in SEASONS], ignore_index=True)
+_frames = []
+for y in SEASONS:
+    try:
+        _frames.append(pd.read_csv(f"data/nfl/player_week_{y}.csv", low_memory=False))
+    except FileNotFoundError:
+        pass                                   # season not started / not fetched
+hist = pd.concat(_frames, ignore_index=True)
 hist = hist[hist.season_type.eq("REG") &
             hist.position_group.isin(["RB", "WR", "TE", "QB"])].copy()
 for c in ("carries", "targets", "rushing_tds", "receiving_tds"):
@@ -74,19 +89,33 @@ for pos, s in car.groupby("position_group"):
     parts.append(s)
 rates = pd.concat(parts, ignore_index=True)
 
-# --- usage: last OPP_WINDOW games of the most recent season ----------------
-u = hist[hist.season == USAGE_SEASON].sort_values(["player_id", "week"])
-u = u.groupby("player_id").tail(OPP_WINDOW)
-use = u.groupby("player_id").agg(g=("week", "size"), team25=("team", "last"),
-                                 mc=("carries", "mean"), mt=("targets", "mean")).reset_index()
-use = use[use.g >= MIN_GAMES]
+# --- usage: blend last season with this one, by measured weight ------------
+# A season with 17+ weeks on file is OVER. Treating it as "current, week 19"
+# would blend a finished season against nothing and mislabel the regime.
+_latest = int(hist.season.max())
+_lw = int(hist[hist.season == _latest].week.max())
+if _lw >= 17:
+    CUR, CUR_WEEK, PRIOR_SEASON = _latest + 1, 1, _latest
+else:
+    CUR, CUR_WEEK, PRIOR_SEASON = _latest, _lw + 1, _latest - 1
+print(f"usage: season {CUR}, predicting week {CUR_WEEK} (prior season {PRIOR_SEASON})")
+pr = hist[hist.season == PRIOR_SEASON].sort_values(["player_id", "week"])
+pr = pr.groupby("player_id").tail(OPP_WINDOW)
+prior = pr.groupby("player_id").agg(g=("week", "size"), team25=("team", "last"),
+                                    pc=("carries", "mean"), pt=("targets", "mean")).reset_index()
+if CUR_WEEK > 1:
+    cu = hist[(hist.season == CUR) & (hist.week < CUR_WEEK)]
+    curr = cu.groupby("player_id").agg(cg=("week", "size"),
+                                       cc=("carries", "mean"),
+                                       ct=("targets", "mean")).reset_index()
+    use = prior.merge(curr, on="player_id", how="outer")
+else:
+    use = prior.assign(cg=0, cc=np.nan, ct=np.nan)
+use["g"] = use.g.fillna(0)
+use = use[(use.g >= MIN_GAMES) | (use.cg.fillna(0) >= 1)]
 
 d = rates.merge(use, on="player_id", how="inner")
-pm = d.groupby("position_group")[["mc", "mt"]].transform("mean")
-W = np.minimum(d.g, OPP_WINDOW)
-d["e_car"] = (d.mc * W + K_OPP * pm.mc) / (W + K_OPP)
-d["e_tar"] = (d.mt * W + K_OPP * pm.mt) / (W + K_OPP)
-
+# blend prior-season and current-season usage using the measured weights
 # --- current team ----------------------------------------------------------
 rp = Path("data/nfl/roster_weekly_2026.csv")
 if rp.exists():
@@ -107,6 +136,34 @@ else:
     d["team"] = d.team25; d["moved"] = False
     print("!! roster_weekly_2026.csv MISSING -- using 2025 teams. Free agents will\n"
           "   be on the wrong side. Fetch it before trusting this board.\n")
+
+# --- expected opportunities: prior season blended with current -------------
+# Weights measured on 2019-2025 season boundaries (nfl_usage_test.py). A blend
+# beats either source alone from week 2; by week 3 last season is worth a
+# quarter, and for players who changed teams it is worth nothing from week 4 --
+# their prior role was recorded in a different offence.
+_w_stay = PRIOR_W.get(CUR_WEEK, PRIOR_W_DEFAULT)
+_w_move = PRIOR_W_MOVED.get(CUR_WEEK, PRIOR_W_MOVED_DEFAULT)
+d["_w"] = np.where(d.moved.values, _w_move, _w_stay)
+
+def _blend(pcol, ccol):
+    pv = pd.to_numeric(d[pcol], errors="coerce").values
+    cv = pd.to_numeric(d[ccol], errors="coerce").values if ccol in d else np.full(len(d), np.nan)
+    w = d["_w"].values
+    return np.where(np.isnan(cv), pv,
+           np.where(np.isnan(pv), cv, w * pv + (1 - w) * cv))
+
+d["u_car"] = _blend("pc", "cc")
+d["u_tar"] = _blend("pt", "ct")
+d = d[~(np.isnan(d.u_car) & np.isnan(d.u_tar))]
+d["u_car"] = np.nan_to_num(d.u_car); d["u_tar"] = np.nan_to_num(d.u_tar)
+
+# then the usual shrink toward the position mean
+pm = d.groupby("position_group")[["u_car", "u_tar"]].transform("mean")
+_n = np.minimum(d.g.fillna(0) + d.get("cg", pd.Series(0, index=d.index)).fillna(0), OPP_WINDOW)
+d["e_car"] = (d.u_car * _n + K_OPP * pm.u_car) / (_n + K_OPP)
+d["e_tar"] = (d.u_tar * _n + K_OPP * pm.u_tar) / (_n + K_OPP)
+print(f"usage blend: prior weight {_w_stay:.2f} (stayed) / {_w_move:.2f} (new team)")
 
 # --- environment: implied team points -> expected team TDs ------------------
 env = []

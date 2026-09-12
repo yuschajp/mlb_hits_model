@@ -814,6 +814,35 @@ def summarize_nfl():
                          "p25": float(r.p25), "p75": float(r.p75)}
                         for _, r in sub.iterrows()]
             out["props"] = top
+        vf = NFL_DIR / "td_value.csv"
+        if vf.exists():
+            v = pd.read_csv(vf)
+            need = {"p_td", "p_book", "matchup", "player_display_name"}
+            if need <= set(v.columns) and len(v):
+                # Normalise per game so model and book carry the SAME mass. The
+                # model splits team TDs over its own player list; the book uses a
+                # longer one, which inflated every model probability ~15% and
+                # flagged 37% of the market as value. The model's claim is WHO
+                # scores, not how many -- so compare allocation only.
+                mt = v.groupby("matchup").p_td.transform("sum")
+                bt = v.groupby("matchup").p_book.transform("sum")
+                v["p_model_adj"] = v.p_td * (bt / mt)
+                v["edge_adj"] = v.p_model_adj - v.p_book
+                v = v.sort_values("edge_adj", ascending=False)
+                out["value"] = {
+                    "n": int(len(v)),
+                    "mean_edge": float(v.edge_adj.mean()),
+                    "pct_positive": float((v.edge_adj > 0).mean()),
+                    "n_over_4pp": int((v.edge_adj >= 0.04).sum()),
+                    "rows": [{"player": r.player_display_name, "team": r.team,
+                              "matchup": r.matchup,
+                              "model": float(r.p_model_adj), "book": float(r.p_book),
+                              "edge": float(r.edge_adj),
+                              "ev": (float(r.p_model_adj / r.p_book - 1)
+                                     if r.p_book else None)}
+                             for _, r in pd.concat([v.head(12), v.tail(4)]).iterrows()],
+                }
+
         pv = NFL_DIR / "props_validation.json"
         if pv.exists():
             out["props_validation"] = json.loads(pv.read_text())
@@ -821,6 +850,9 @@ def summarize_nfl():
         sv = NFL_DIR / "sides_validation.json"
         if sv.exists():
             out["sides"] = json.loads(sv.read_text())
+        tv = NFL_DIR / "totals_validation.json"
+        if tv.exists():
+            out["totals"] = json.loads(tv.read_text())
 
         fp = NFL_DIR / "td_features.csv"
         if fp.exists():
@@ -914,6 +946,13 @@ def summarize_overview(payload):
                      "metric": "ATS", "value": sd.get("ats"), "baseline": 0.5238,
                      "edge_pct": ((sd.get("ats") or 0) - 0.5238) * 100,
                      "note": f"MAE {sd.get('mae_model',0):.2f} vs market {sd.get('mae_market',0):.2f}",
+                     "verdict": "REJECTED - do not bet"})
+    tt = n.get("totals") or {}
+    if tt:
+        rows.append({"model": "NFL total", "today": 0, "graded": tt.get("n", 0),
+                     "metric": "O/U", "value": tt.get("ou"), "baseline": 0.5238,
+                     "edge_pct": ((tt.get("ou") or 0) - 0.5238) * 100,
+                     "note": f"MAE {tt.get('mae_model',0):.2f} vs market {tt.get('mae_market',0):.2f}",
                      "verdict": "REJECTED - do not bet"})
     pv = n.get("props_validation") or {}
     for m, x in pv.items():
