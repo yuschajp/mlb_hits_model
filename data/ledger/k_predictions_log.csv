@@ -1092,3 +1092,19 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-12,824224,685299,Tanner Gordon,Colorado Rockies,Detroit Tigers,Comerica Park,1.13,6.5,7.329,6.136,0.2297,93.3,29.3,4.57,4.184,0.1307,0.8693,,False
 2026-09-12,824224,808825,Andrew Sears,Detroit Tigers,Colorado Rockies,Comerica Park,0.95,6.5,5.838,5.838,0.2297,12.3,12.3,4.83,4.889,0.2218,0.7782,,False
 2026-09-12,823496,543037,Gerrit Cole,New York Yankees,New York Mets,Yankee Stadium,1.04,6.5,9.162,8.438,0.2244,111.0,37.3,5.84,5.588,0.3279,0.6721,,False
+2026-09-12,822685,700712,Walbert Ureña,Los Angeles Angels,Washington Nationals,Nationals Park,0.99,6.5,8.585,8.526,0.2186,137.3,38.0,5.43,5.05,0.2451,0.7549,,False
+2026-09-12,822685,674841,Andrew Alvarez,Washington Nationals,Los Angeles Angels,Nationals Park,0.99,6.5,8.735,8.526,0.2531,102.0,38.0,4.7,5.365,0.2928,0.7072,,False
+2026-09-12,823657,682982,Daniel Espino,Cleveland Guardians,Minnesota Twins,Target Field,0.99,6.5,15.0,12.0,0.2104,12.0,6.0,2.0,5.28,0.2798,0.7202,,False
+2026-09-12,823657,687570,Connor Prielipp,Minnesota Twins,Cleveland Guardians,Target Field,0.98,6.5,9.291,9.084,0.2125,113.3,35.7,5.15,4.985,0.2356,0.7644,,False
+2026-09-12,822927,663567,Peter Lambert,Houston Astros,Tampa Bay Rays,Tropicana Field,1.0,6.5,8.832,8.471,0.1842,142.7,34.0,5.49,4.337,0.1487,0.8513,,False
+2026-09-12,822927,693855,Ian Seymour,Tampa Bay Rays,Houston Astros,Tropicana Field,0.97,6.5,11.025,12.0,0.2177,120.0,36.0,4.75,5.659,0.3391,0.6609,,False
+2026-09-12,823737,663903,Brady Singer,Cincinnati Reds,Milwaukee Brewers,American Family Field,1.05,6.5,7.364,6.273,0.2157,146.7,33.0,5.24,4.235,0.1366,0.8634,,False
+2026-09-12,823737,675660,Shane Drohan,Milwaukee Brewers,Cincinnati Reds,American Family Field,1.02,6.5,9.053,9.281,0.2547,114.3,21.3,4.82,5.672,0.3411,0.6589,,False
+2026-09-12,824870,641835,Tim Mayza,Philadelphia Phillies,Atlanta Braves,Truist Park,1.03,6.5,8.658,9.0,0.2163,61.3,8.0,1.58,4.096,0.1209,0.8791,,False
+2026-09-12,824870,641816,Tyler Mahle,Atlanta Braves,Philadelphia Phillies,Truist Park,1.01,6.5,8.519,7.714,0.2215,131.0,30.3,5.46,5.011,0.2394,0.7606,,False
+2026-09-12,823009,656794,Sean Newcomb,Chicago White Sox,St. Louis Cardinals,Busch Stadium,1.02,6.5,8.024,7.061,0.206,83.0,21.7,2.39,3.578,0.0715,0.9285,,False
+2026-09-12,823009,681517,Kyle Leahy,St. Louis Cardinals,Chicago White Sox,Busch Stadium,0.97,6.5,8.455,11.44,0.2401,132.0,19.7,4.89,5.47,0.3093,0.6907,,False
+2026-09-12,825035,677958,Kumar Rocker,Texas Rangers,Arizona Diamondbacks,Chase Field,1.02,6.5,8.488,9.787,0.1929,134.7,26.7,4.99,4.319,0.1464,0.8536,,False
+2026-09-12,825035,694297,Brandon Pfaadt,Arizona Diamondbacks,Texas Rangers,Chase Field,1.02,6.5,5.906,5.819,0.2279,117.3,38.7,5.7,4.29,0.143,0.857,,False
+2026-09-12,824955,693433,Bryan Woo,Seattle Mariners,Athletics,Sutter Health Park,0.92,6.5,9.096,9.621,0.2246,156.3,29.0,5.79,5.752,0.3539,0.6461,,False
+2026-09-12,824955,695611,Gage Jump,Athletics,Seattle Mariners,Sutter Health Park,0.93,6.5,9.869,9.9,0.2334,96.7,30.0,5.09,5.69,0.344,0.656,,False
