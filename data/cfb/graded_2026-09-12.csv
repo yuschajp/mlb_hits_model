@@ -1,58 +1,115 @@
 away,home,cls,kick,model,market,edge,side,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
-Louisiana Tech,LSU,FBS,19:30,-7.1,-35.25,28.2,Louisiana Tech,DOG,35.25,False,False,INFO-GAP,2026-09-12,,,,
-San Diego State,UCLA,FBS,19:15,11.4,-12.75,24.1,San Diego State,DOG,12.75,False,True,,2026-09-12,,,,
-New Haven,South Dakota State,fcs-only,19:00,-22.6,-43.5,20.9,New Haven,DOG,43.5,False,True,BLIND-SPOT thin-data,2026-09-12,,,,
-Southern Miss,Auburn,FBS,19:45,-14.4,-32.75,18.3,Southern Miss,DOG,32.75,False,True,,2026-09-12,,,,
-San Diego,Idaho State,fcs-only,18:00,-7.6,-25.5,17.9,San Diego,DOG,25.5,False,True,,2026-09-12,,,,
-Ohio State,Texas,FBS,19:30,15.3,-1.5,16.8,Ohio State,DOG,1.5,False,True,,2026-09-12,,,,
-North Alabama,SE Louisiana,fcs-only,19:00,-22.5,-6.5,-16.0,SE Louisiana,FAV,6.5,False,True,,2026-09-12,,,,
-Bowling Green,Nebraska,FBS,19:00,-15.3,-30.25,14.9,Bowling Green,DOG,30.25,False,True,BLIND-SPOT,2026-09-12,,,,
-Illinois State,Northern Illinois,FCS,19:00,-10.3,3.25,-13.6,Northern Illinois,DOG,3.25,False,True,BLIND-SPOT,2026-09-12,,,,
-West Georgia,Arkansas State,FCS,19:00,-19.4,-31.5,12.1,West Georgia,DOG,31.5,False,True,,2026-09-12,,,,
-Georgia State,Kennesaw State,FBS,19:00,-19.8,-8.25,-11.6,Kennesaw State,FAV,8.25,False,True,BLIND-SPOT,2026-09-12,,,,
-Prairie View A&M,Baylor,FCS,20:08,-26.1,-37.5,11.4,Prairie View A&M,DOG,37.5,False,True,,2026-09-12,,,,
-Texas Tech,Oregon State,FBS,19:30,36.1,25.5,10.6,Texas Tech,FAV,25.5,False,True,BLIND-SPOT,2026-09-12,,,,
-Towson,South Carolina,FCS,19:00,-33.5,-44.0,10.5,Towson,DOG,44.0,False,True,,2026-09-12,,,,
-Charlotte,Ole Miss,FBS,19:45,-35.3,-45.5,10.2,Charlotte,DOG,45.5,False,True,BLIND-SPOT,2026-09-12,,,,
-Lindenwood,Missouri State,FCS,19:00,-26.6,-16.75,-9.9,Missouri State,FAV,16.75,False,True,,2026-09-12,,,,
-Southeast Missouri State,Southern Illinois,fcs-only,19:00,-16.6,-7.5,-9.1,Southern Illinois,FAV,7.5,False,True,,2026-09-12,,,,
-Chattanooga,Eastern Kentucky,fcs-only,18:00,-5.3,3.0,-8.3,Eastern Kentucky,DOG,3.0,False,True,,2026-09-12,,,,
-Tennessee,Georgia Tech,FBS,19:00,4.1,12.25,-8.1,Georgia Tech,DOG,12.25,False,True,,2026-09-12,,,,
-Arkansas,Utah,FBS,22:15,-19.5,-12.5,-7.0,Utah,FAV,12.5,False,True,,2026-09-12,,,,
-South Alabama,Tulane,FBS,19:00,-16.3,-9.5,-6.8,Tulane,FAV,9.5,False,True,BLIND-SPOT,2026-09-12,,,,
-Sacramento State,Fresno State,FCS,22:30,-24.3,-17.5,-6.8,Fresno State,FAV,17.5,False,True,,2026-09-12,,,,
-Navy,Florida Atlantic,FBS,19:30,10.9,4.25,6.7,Navy,FAV,4.25,False,True,BLIND-SPOT,2026-09-12,,,,
-Tulsa,Sam Houston,FBS,19:00,5.8,12.5,-6.7,Sam Houston,DOG,12.5,False,True,BLIND-SPOT,2026-09-12,,,,
-Memphis,Boise State,FBS,18:00,-2.4,-9.0,6.6,Memphis,DOG,9.0,False,True,,2026-09-12,,,,
-Monmouth,Western Michigan,FCS,18:30,-21.9,-27.75,5.9,Monmouth,DOG,27.75,False,True,,2026-09-12,,,,
-Jacksonville State,Ohio,FBS,18:00,-7.7,-2.5,-5.2,Ohio,FAV,2.5,False,True,,2026-09-12,,,,
-Louisiana,USC,FBS,23:00,-26.1,-31.25,5.1,Louisiana,DOG,31.25,False,True,,2026-09-12,,,,
-Bryant,Hampton,fcs-only,18:00,8.6,3.5,5.1,Bryant,FAV,3.5,False,True,BLIND-SPOT,2026-09-12,,,,
-Southern Utah,Colorado State,FCS,19:00,-15.6,-20.5,4.9,Southern Utah,DOG,20.5,False,True,,2026-09-12,,,,
-Fordham,Coastal Carolina,FCS,19:30,-30.2,-35.0,4.8,Fordham,DOG,35.0,False,False,BLIND-SPOT NY-RESTRICTED,2026-09-12,,,,
-Western Carolina,Cincinnati,FCS,19:00,-31.8,-36.5,4.7,Western Carolina,DOG,36.5,False,True,,2026-09-12,,,,
-New Mexico State,Hawai'i,FBS,23:59,-11.2,-7.25,-4.0,Hawai'i,FAV,7.25,False,False,BLIND-SPOT,2026-09-12,,,,
-Middle Tennessee,Marshall,FBS,19:00,-9.5,-13.25,3.8,Middle Tennessee,DOG,13.25,False,False,BLIND-SPOT,2026-09-12,,,,
-Arkansas-Pine Bluff,Alcorn State,fcs-only,19:00,-12.2,-8.5,-3.7,Alcorn State,FAV,8.5,True,False,NEUTRAL BLIND-SPOT,2026-09-12,,,,
-Indiana State,Eastern Illinois,fcs-only,19:00,-2.1,1.5,-3.6,Eastern Illinois,DOG,1.5,False,False,,2026-09-12,,,,
-North Dakota State,Air Force,FCS,22:00,-1.7,1.75,-3.5,Air Force,DOG,1.75,False,False,,2026-09-12,,,,
-Northwestern State,East Texas A&M,fcs-only,19:00,-17.2,-20.5,3.3,Northwestern State,DOG,20.5,False,False,BLIND-SPOT,2026-09-12,,,,
-North Dakota,Portland State,fcs-only,22:00,28.2,25.5,2.7,North Dakota,FAV,25.5,False,False,BLIND-SPOT,2026-09-12,,,,
-Stonehill,New Hampshire,fcs-only,18:00,-16.1,-13.5,-2.6,New Hampshire,FAV,13.5,False,False,BLIND-SPOT,2026-09-12,,,,
-Charleston Southern,The Citadel,fcs-only,18:00,1.0,-1.5,2.5,Charleston Southern,DOG,1.5,False,False,,2026-09-12,,,,
-Cal Poly,San José State,FCS,21:00,-18.0,-20.5,2.5,Cal Poly,DOG,20.5,False,False,BLIND-SPOT,2026-09-12,,,,
-Iowa State,Iowa,FBS,19:30,-11.6,-14.0,2.4,Iowa State,DOG,14.0,False,False,,2026-09-12,,,,
-Buffalo,Florida International,FBS,18:00,-7.7,-10.0,2.3,Buffalo,DOG,10.0,False,False,BLIND-SPOT NY-RESTRICTED,2026-09-12,,,,
-Tennessee State,Alabama A&M,fcs-only,19:00,-0.3,1.5,-1.8,Alabama A&M,DOG,1.5,False,False,BLIND-SPOT,2026-09-12,,,,
-Furman,Mercer,fcs-only,18:00,-17.3,-15.5,-1.8,Mercer,FAV,15.5,False,False,,2026-09-12,,,,
-Western Illinois,Wisconsin,FCS,19:15,-40.0,-41.75,1.7,Western Illinois,DOG,41.75,False,False,,2026-09-12,,,,
-Texas Southern,UTEP,FCS,21:00,-25.0,-26.75,1.7,Texas Southern,DOG,26.75,False,False,BLIND-SPOT,2026-09-12,,,,
-Grambling,TCU,FCS,20:00,-45.4,-43.75,-1.6,TCU,FAV,43.75,False,False,,2026-09-12,,,,
-Montana State,Nevada,FCS,22:30,5.0,3.75,1.2,Montana State,FAV,3.75,False,False,BLIND-SPOT,2026-09-12,,,,
-Valparaiso,Murray State,fcs-only,19:00,-15.0,-14.0,-1.0,Murray State,FAV,14.0,False,False,BLIND-SPOT,2026-09-12,,,,
-Stephen F. Austin,Abilene Christian,fcs-only,20:00,2.3,3.0,-0.7,Abilene Christian,DOG,3.0,False,False,,2026-09-12,,,,
-Southern,Houston,FCS,19:00,-52.1,-51.5,-0.6,Houston,FAV,51.5,False,False,BLIND-SPOT,2026-09-12,,,,
-Samford,Tennessee Tech,fcs-only,19:00,-27.1,-26.5,-0.6,Tennessee Tech,FAV,26.5,False,False,BLIND-SPOT,2026-09-12,,,,
-UT Rio Grande Valley,Nicholls,fcs-only,19:00,6.0,5.5,0.5,UT Rio Grande Valley,FAV,5.5,False,False,,2026-09-12,,,,
-Georgia Southern,Clemson,FBS,19:30,-19.1,-19.5,0.4,Georgia Southern,DOG,19.5,False,False,BLIND-SPOT,2026-09-12,,,,
-Tarleton State,McNeese,fcs-only,19:00,20.4,20.5,-0.1,McNeese,DOG,20.5,False,False,,2026-09-12,,,,
+Old Dominion,Virginia Tech,FBS,12:00,11.9,-17.5,29.4,Old Dominion,DOG,17.5,False,False,INFO-GAP,2026-09-12,44.0,21.0,-23.0,L
+Louisiana Tech,LSU,FBS,19:30,-7.1,-34.75,27.7,Louisiana Tech,DOG,34.75,False,False,INFO-GAP,2026-09-12,45.0,14.0,-31.0,W
+San Diego State,UCLA,FBS,19:15,11.4,-13.5,24.9,San Diego State,DOG,13.5,False,True,,2026-09-12,28.0,10.0,-18.0,L
+New Haven,South Dakota State,fcs-only,19:00,-22.6,-42.5,19.9,New Haven,DOG,42.5,False,True,BLIND-SPOT thin-data,2026-09-12,57.0,14.0,-43.0,L
+Sacred Heart,Massachusetts,FCS,15:30,-5.0,-23.5,18.5,Sacred Heart,DOG,23.5,False,True,BLIND-SPOT,2026-09-12,37.0,10.0,-27.0,L
+Southern Miss,Auburn,FBS,19:45,-14.4,-32.75,18.3,Southern Miss,DOG,32.75,False,True,,2026-09-12,43.0,8.0,-35.0,L
+Western Kentucky,Georgia,FBS,12:45,-22.4,-40.5,18.1,Western Kentucky,DOG,40.5,False,True,,2026-09-12,70.0,20.0,-50.0,L
+Ohio State,Texas,FBS,19:30,15.3,-1.75,17.0,Ohio State,DOG,1.75,False,True,,2026-09-12,24.0,23.0,-1.0,W
+Duquesne,Youngstown State,fcs-only,14:00,-6.2,-22.5,16.3,Duquesne,DOG,22.5,False,True,,2026-09-12,70.0,13.0,-57.0,L
+Maryland,UConn,FBS,15:30,-4.6,11.5,-16.1,UConn,DOG,11.5,False,True,,2026-09-12,14.0,38.0,24.0,L
+North Alabama,SE Louisiana,fcs-only,19:00,-22.5,-6.5,-16.0,SE Louisiana,FAV,6.5,False,True,,2026-09-12,30.0,25.0,-5.0,L
+South Florida,Army,FBS,12:00,12.6,-3.0,15.6,South Florida,DOG,3.0,False,False,NY-RESTRICTED,2026-09-12,24.0,28.0,4.0,W
+UT Martin,West Virginia,FCS,13:00,-25.9,-41.5,15.6,UT Martin,DOG,41.5,False,True,,2026-09-12,52.0,7.0,-45.0,L
+Utah State,Washington,FBS,15:30,-13.0,-28.5,15.5,Utah State,DOG,28.5,False,True,,2026-09-12,16.0,14.0,-2.0,W
+Bowling Green,Nebraska,FBS,19:00,-15.3,-30.5,15.2,Bowling Green,DOG,30.5,False,True,BLIND-SPOT,2026-09-12,56.0,7.0,-49.0,L
+East Tennessee State,North Carolina,FCS,12:00,-20.5,-35.5,15.0,East Tennessee State,DOG,35.5,False,True,,2026-09-12,35.0,3.0,-32.0,W
+San Diego,Idaho State,fcs-only,18:00,-7.6,-22.5,14.9,San Diego,DOG,22.5,False,True,,2026-09-12,59.0,17.0,-42.0,L
+Howard,Indiana,FCS,12:00,-72.0,-57.5,-14.5,Indiana,FAV,57.5,False,True,,2026-09-12,55.0,0.0,-55.0,L
+Drake,Northern Iowa,fcs-only,14:00,1.5,-11.5,13.0,Drake,DOG,11.5,False,True,,2026-09-12,56.0,14.0,-42.0,L
+UAlbany,Long Island University,fcs-only,12:00,-10.3,2.5,-12.8,Long Island University,DOG,2.5,False,False,BLIND-SPOT NY-RESTRICTED,2026-09-12,13.0,35.0,22.0,L
+Illinois State,Northern Illinois,FCS,19:00,-10.3,2.5,-12.8,Northern Illinois,DOG,2.5,False,True,BLIND-SPOT,2026-09-12,24.0,28.0,4.0,L
+Georgia State,Kennesaw State,FBS,19:00,-19.8,-7.25,-12.6,Kennesaw State,FAV,7.25,False,True,BLIND-SPOT,2026-09-12,17.0,31.0,14.0,L
+Washington State,Kansas State,FBS,12:00,-5.2,-17.5,12.3,Washington State,DOG,17.5,False,True,,2026-09-12,34.0,7.0,-27.0,L
+West Georgia,Arkansas State,FCS,19:00,-19.4,-31.5,12.1,West Georgia,DOG,31.5,False,True,,2026-09-12,52.0,7.0,-45.0,L
+Prairie View A&M,Baylor,FCS,20:08,-26.1,-37.5,11.4,Prairie View A&M,DOG,37.5,False,True,,2026-09-12,44.0,3.0,-41.0,L
+UNLV,North Texas,FBS,15:45,-8.6,2.75,-11.3,North Texas,DOG,2.75,False,True,,2026-09-12,44.0,6.0,-38.0,W
+Oregon,Oklahoma State,FBS,12:00,35.2,24.0,11.2,Oregon,FAV,24.0,False,True,BLIND-SPOT,2026-09-12,39.0,31.0,-8.0,L
+Stetson,Bethune-Cookman,fcs-only,16:00,-25.6,-14.5,-11.1,Bethune-Cookman,FAV,14.5,False,True,BLIND-SPOT,2026-09-12,43.0,18.0,-25.0,W
+Towson,South Carolina,FCS,19:00,-33.5,-44.5,11.0,Towson,DOG,44.5,False,True,,2026-09-12,45.0,9.0,-36.0,W
+Texas Tech,Oregon State,FBS,19:30,36.1,25.5,10.6,Texas Tech,FAV,25.5,False,True,BLIND-SPOT,2026-09-12,24.0,35.0,11.0,L
+Campbell,Florida,FCS,17:30,-41.0,-51.5,10.5,Campbell,DOG,51.5,False,True,,2026-09-12,52.0,3.0,-49.0,W
+Lindenwood,Missouri State,FCS,19:00,-26.6,-16.75,-9.9,Missouri State,FAV,16.75,False,True,,2026-09-12,48.0,14.0,-34.0,W
+Morehead State,Austin Peay,fcs-only,17:00,-27.2,-36.5,9.3,Morehead State,DOG,36.5,False,True,BLIND-SPOT,2026-09-12,63.0,7.0,-56.0,L
+Charlotte,Ole Miss,FBS,19:45,-35.3,-44.5,9.2,Charlotte,DOG,44.5,False,True,BLIND-SPOT,2026-09-12,41.0,9.0,-32.0,W
+App State,East Carolina,FBS,12:00,-15.6,-6.5,-9.1,East Carolina,FAV,6.5,False,True,BLIND-SPOT,2026-09-12,24.0,27.0,3.0,L
+Southeast Missouri State,Southern Illinois,fcs-only,19:00,-16.6,-7.5,-9.1,Southern Illinois,FAV,7.5,False,True,,2026-09-12,34.0,20.0,-14.0,W
+Tennessee,Georgia Tech,FBS,19:00,4.1,12.5,-8.4,Georgia Tech,DOG,12.5,False,True,,2026-09-12,24.0,45.0,21.0,L
+Utah Tech,Montana,fcs-only,15:00,-28.1,-36.5,8.4,Utah Tech,DOG,36.5,False,True,,2026-09-12,35.0,14.0,-21.0,W
+Chattanooga,Eastern Kentucky,fcs-only,18:00,-5.3,3.0,-8.3,Eastern Kentucky,DOG,3.0,False,True,,2026-09-12,22.0,17.0,-5.0,W
+Wagner,James Madison,FCS,12:00,-54.7,-46.5,-8.2,James Madison,FAV,46.5,False,False,NY-RESTRICTED,2026-09-12,87.0,3.0,-84.0,W
+Eastern Michigan,Michigan State,FBS,15:30,-9.4,-17.5,8.1,Eastern Michigan,DOG,17.5,False,True,,2026-09-12,35.0,7.0,-28.0,L
+California,Syracuse,FBS,15:30,4.0,-3.75,7.8,California,DOG,3.75,False,False,BLIND-SPOT NY-RESTRICTED,2026-09-12,18.0,21.0,3.0,W
+Colgate,Central Michigan,FCS,13:00,-26.2,-18.5,-7.7,Central Michigan,FAV,18.5,False,False,NY-RESTRICTED,2026-09-12,13.0,10.0,-3.0,L
+Northern Colorado,Wyoming,FCS,16:00,-31.2,-23.5,-7.7,Wyoming,FAV,23.5,False,True,,2026-09-12,21.0,13.0,-8.0,L
+Delaware,Vanderbilt,FBS,16:15,-28.1,-20.75,-7.4,Vanderbilt,FAV,20.75,False,True,BLIND-SPOT,2026-09-12,35.0,26.0,-9.0,L
+Monmouth,Western Michigan,FCS,18:30,-21.9,-29.0,7.1,Monmouth,DOG,29.0,False,True,,2026-09-12,49.0,14.0,-35.0,L
+Arkansas,Utah,FBS,22:15,-19.5,-12.5,-7.0,Utah,FAV,12.5,False,True,,2026-09-12,43.0,10.0,-33.0,W
+Navy,Florida Atlantic,FBS,19:30,10.9,4.0,6.9,Navy,FAV,4.0,False,True,BLIND-SPOT,2026-09-12,38.0,30.0,-8.0,L
+Memphis,Boise State,FBS,18:00,-2.4,-9.25,6.9,Memphis,DOG,9.25,False,True,,2026-09-12,38.0,20.0,-18.0,L
+Sacramento State,Fresno State,FCS,22:30,-24.3,-17.5,-6.8,Fresno State,FAV,17.5,False,True,,2026-09-12,49.0,3.0,-46.0,W
+South Alabama,Tulane,FBS,19:00,-16.3,-9.5,-6.8,Tulane,FAV,9.5,False,True,BLIND-SPOT,2026-09-12,28.0,24.0,-4.0,L
+Fordham,Coastal Carolina,FCS,19:30,-30.2,-37.0,6.8,Fordham,DOG,37.0,False,False,BLIND-SPOT NY-RESTRICTED,2026-09-12,45.0,7.0,-38.0,L
+Penn State,Temple,FBS,12:00,17.8,24.5,-6.7,Temple,DOG,24.5,False,True,,2026-09-12,9.0,27.0,18.0,W
+Tulsa,Sam Houston,FBS,19:00,5.8,12.0,-6.2,Sam Houston,DOG,12.0,False,True,BLIND-SPOT,2026-09-12,17.0,23.0,6.0,W
+Alabama,Kentucky,FBS,15:30,14.4,8.25,6.2,Alabama,FAV,8.25,False,True,,2026-09-12,17.0,45.0,28.0,W
+Jacksonville State,Ohio,FBS,18:00,-7.7,-1.75,-6.0,Ohio,FAV,1.75,False,True,,2026-09-12,29.0,27.0,-2.0,W
+Lamar,Idaho,fcs-only,16:00,2.0,-3.5,5.5,Lamar,DOG,3.5,False,True,,2026-09-12,17.0,23.0,6.0,W
+Alabama State,Troy,FCS,16:00,-18.2,-23.75,5.5,Alabama State,DOG,23.75,False,True,,2026-09-12,34.0,17.0,-17.0,W
+Oklahoma,Michigan,FBS,12:00,0.1,5.5,-5.4,Michigan,DOG,5.5,False,True,,2026-09-12,17.0,10.0,-7.0,W
+Indiana State,Eastern Illinois,fcs-only,19:00,-2.1,3.0,-5.1,Eastern Illinois,DOG,3.0,False,True,,2026-09-12,35.0,42.0,7.0,L
+Bryant,Hampton,fcs-only,18:00,8.6,3.5,5.1,Bryant,FAV,3.5,False,True,BLIND-SPOT,2026-09-12,3.0,31.0,28.0,W
+Rice,Notre Dame,FBS,15:30,-39.5,-44.5,5.0,Rice,DOG,44.5,False,True,BLIND-SPOT,2026-09-12,52.0,0.0,-52.0,L
+Weber State,Colorado,FCS,15:30,-33.6,-38.5,4.9,Weber State,DOG,38.5,False,True,,2026-09-12,52.0,21.0,-31.0,W
+UCF,Pittsburgh,FBS,15:30,-11.7,-7.0,-4.7,Pittsburgh,FAV,7.0,False,True,,2026-09-12,12.0,7.0,-5.0,L
+Western Carolina,Cincinnati,FCS,19:00,-31.8,-36.5,4.7,Western Carolina,DOG,36.5,False,True,,2026-09-12,62.0,10.0,-52.0,L
+Louisiana,USC,FBS,23:00,-26.1,-30.75,4.6,Louisiana,DOG,30.75,False,True,,2026-09-12,49.0,30.0,-19.0,W
+Wofford,Kent State,FCS,12:00,-14.5,-10.0,-4.5,Kent State,FAV,10.0,False,True,BLIND-SPOT,2026-09-12,36.0,15.0,-21.0,W
+Southern Utah,Colorado State,FCS,19:00,-15.6,-19.75,4.2,Southern Utah,DOG,19.75,False,True,,2026-09-12,58.0,24.0,-34.0,L
+Charleston Southern,The Citadel,fcs-only,18:00,1.0,-3.0,4.0,Charleston Southern,DOG,3.0,False,True,,2026-09-12,20.0,26.0,6.0,W
+Mississippi State,Minnesota,FBS,15:30,2.7,-1.25,3.9,Mississippi State,DOG,1.25,False,False,,2026-09-12,13.0,38.0,25.0,W
+Tennessee State,Alabama A&M,fcs-only,19:00,-0.3,3.5,-3.8,Alabama A&M,DOG,3.5,False,False,BLIND-SPOT,2026-09-12,30.0,3.0,-27.0,W
+New Mexico State,Hawai'i,FBS,23:59,-11.2,-7.5,-3.7,Hawai'i,FAV,7.5,False,False,BLIND-SPOT,2026-09-12,29.0,19.0,-10.0,W
+Arkansas-Pine Bluff,Alcorn State,fcs-only,19:00,-12.2,-8.5,-3.7,Alcorn State,FAV,8.5,True,False,NEUTRAL BLIND-SPOT,2026-09-12,53.0,51.0,-2.0,L
+UL Monroe,UAB,FBS,15:30,-5.9,-9.5,3.6,UL Monroe,DOG,9.5,False,False,BLIND-SPOT,2026-09-12,26.0,20.0,-6.0,W
+North Dakota State,Air Force,FCS,22:00,-1.7,1.75,-3.5,Air Force,DOG,1.75,False,False,,2026-09-12,32.0,38.0,6.0,L
+Cal Poly,San José State,FCS,21:00,-18.0,-21.5,3.5,Cal Poly,DOG,21.5,False,False,BLIND-SPOT,2026-09-12,30.0,20.0,-10.0,W
+Wake Forest,Purdue,FBS,12:00,5.9,2.5,3.4,Wake Forest,FAV,2.5,False,False,,2026-09-12,36.0,38.0,2.0,L
+William & Mary,Lehigh,fcs-only,14:00,-16.9,-13.5,-3.4,Lehigh,FAV,13.5,False,False,,2026-09-12,44.0,20.0,-24.0,W
+Arizona State,Texas A&M,FBS,12:00,-11.6,-15.0,3.4,Arizona State,DOG,15.0,False,False,,2026-09-12,48.0,20.0,-28.0,L
+Northwestern State,East Texas A&M,fcs-only,19:00,-17.2,-20.5,3.3,Northwestern State,DOG,20.5,False,False,BLIND-SPOT,2026-09-12,38.0,14.0,-24.0,L
+Middle Tennessee,Marshall,FBS,19:00,-9.5,-12.75,3.3,Middle Tennessee,DOG,12.75,False,False,BLIND-SPOT,2026-09-12,28.0,26.0,-2.0,W
+Western Illinois,Wisconsin,FCS,19:15,-40.0,-43.25,3.2,Western Illinois,DOG,43.25,False,False,,2026-09-12,36.0,9.0,-27.0,W
+Incarnate Word,Northern Arizona,fcs-only,17:00,-1.3,-4.5,3.2,Incarnate Word,DOG,4.5,False,False,,2026-09-12,38.0,28.0,-10.0,L
+UC Davis,SMU,FCS,16:00,-35.2,-32.5,-2.7,SMU,FAV,32.5,False,False,,2026-09-12,56.0,10.0,-46.0,W
+North Dakota,Portland State,fcs-only,22:00,28.2,25.5,2.7,North Dakota,FAV,25.5,False,False,BLIND-SPOT,2026-09-12,23.0,47.0,24.0,L
+Holy Cross,Miami (OH),FCS,13:00,-27.8,-30.5,2.7,Holy Cross,DOG,30.5,False,False,,2026-09-12,45.0,7.0,-38.0,L
+Stonehill,New Hampshire,fcs-only,18:00,-16.1,-13.5,-2.6,New Hampshire,FAV,13.5,False,False,BLIND-SPOT,2026-09-12,42.0,35.0,-7.0,L
+Central Connecticut,Toledo,FCS,15:30,-38.9,-36.5,-2.4,Toledo,FAV,36.5,False,False,,2026-09-12,63.0,10.0,-53.0,W
+Mercyhurst,New Mexico,FCS,16:00,-44.7,-42.25,-2.4,New Mexico,FAV,42.25,False,False,,2026-09-12,70.0,7.0,-63.0,W
+Iowa State,Iowa,FBS,19:30,-11.6,-14.0,2.4,Iowa State,DOG,14.0,False,False,,2026-09-12,16.0,13.0,-3.0,W
+Eastern Washington,South Dakota,fcs-only,14:00,-13.2,-15.5,2.3,Eastern Washington,DOG,15.5,False,False,,2026-09-12,41.0,23.0,-18.0,L
+Elon,Rhode Island,fcs-only,12:00,-10.7,-8.5,-2.2,Rhode Island,FAV,8.5,False,False,,2026-09-12,31.0,10.0,-21.0,W
+Texas Southern,UTEP,FCS,21:00,-25.0,-27.25,2.2,Texas Southern,DOG,27.25,False,False,BLIND-SPOT,2026-09-12,51.0,10.0,-41.0,L
+Duke,Illinois,FBS,15:30,-4.4,-6.5,2.1,Duke,DOG,6.5,False,False,,2026-09-12,27.0,31.0,4.0,W
+Furman,Mercer,fcs-only,18:00,-17.3,-15.5,-1.8,Mercer,FAV,15.5,False,False,,2026-09-12,13.0,20.0,7.0,L
+North Carolina A&T,North Carolina Central,fcs-only,12:00,-23.0,-24.5,1.5,North Carolina A&T,DOG,24.5,False,False,BLIND-SPOT,2026-09-12,30.0,22.0,-8.0,W
+Bucknell,VMI,fcs-only,13:30,10.0,8.5,1.5,Bucknell,FAV,8.5,False,False,BLIND-SPOT,2026-09-12,3.0,14.0,11.0,W
+Buffalo,Florida International,FBS,18:00,-7.7,-8.75,1.1,Buffalo,DOG,8.75,False,False,BLIND-SPOT NY-RESTRICTED,2026-09-12,33.0,20.0,-13.0,L
+Stony Brook,Ball State,FCS,14:00,-12.4,-13.5,1.1,Stony Brook,DOG,13.5,False,False,BLIND-SPOT NY-RESTRICTED,2026-09-12,41.0,17.0,-24.0,L
+UTSA,Texas State,FBS,15:30,-1.0,-2.0,1.0,UTSA,DOG,2.0,False,False,,2026-09-12,26.0,31.0,5.0,W
+Gardner-Webb,Liberty,FCS,12:00,-27.5,-28.5,1.0,Gardner-Webb,DOG,28.5,False,False,,2026-09-12,24.0,23.0,-1.0,W
+Grambling,TCU,FCS,20:00,-45.4,-44.5,-0.9,TCU,FAV,44.5,False,False,,2026-09-12,63.0,7.0,-56.0,W
+Tarleton State,McNeese,fcs-only,19:00,20.4,19.5,0.9,Tarleton State,FAV,19.5,False,False,,2026-09-12,24.0,27.0,3.0,L
+Merrimack,Maine,fcs-only,17:00,-10.8,-10.0,-0.8,Maine,FAV,10.0,False,False,,2026-09-12,14.0,23.0,9.0,L
+Stephen F. Austin,Abilene Christian,fcs-only,20:00,2.3,3.0,-0.7,Abilene Christian,DOG,3.0,False,False,,2026-09-12,7.0,26.0,19.0,L
+Montana State,Nevada,FCS,22:30,5.0,4.25,0.7,Montana State,FAV,4.25,False,False,BLIND-SPOT,2026-09-12,7.0,20.0,13.0,W
+Robert Morris,Akron,FCS,15:30,-25.8,-26.5,0.7,Robert Morris,DOG,26.5,False,False,BLIND-SPOT,2026-09-12,45.0,10.0,-35.0,L
+Arizona,BYU,FBS,15:30,-6.4,-7.0,0.6,Arizona,DOG,7.0,False,False,,2026-09-12,28.0,17.0,-11.0,L
+Samford,Tennessee Tech,fcs-only,19:00,-27.1,-26.5,-0.6,Tennessee Tech,FAV,26.5,False,False,BLIND-SPOT,2026-09-12,45.0,19.0,-26.0,L
+Marist,Lafayette,fcs-only,12:30,-15.0,-15.5,0.5,Marist,DOG,15.5,False,False,NY-RESTRICTED,2026-09-12,13.0,9.0,-4.0,W
+UT Rio Grande Valley,Nicholls,fcs-only,19:00,6.0,5.5,0.5,UT Rio Grande Valley,FAV,5.5,False,False,,2026-09-12,31.0,28.0,-3.0,L
+Valparaiso,Murray State,fcs-only,19:00,-15.0,-14.5,-0.5,Murray State,FAV,14.5,False,False,BLIND-SPOT,2026-09-12,27.0,18.0,-9.0,L
+Georgia Southern,Clemson,FBS,19:30,-19.1,-19.5,0.4,Georgia Southern,DOG,19.5,False,False,BLIND-SPOT,2026-09-12,22.0,7.0,-15.0,W
+Southern,Houston,FCS,19:00,-52.1,-51.75,-0.3,Houston,FAV,51.75,False,False,BLIND-SPOT,2026-09-12,77.0,6.0,-71.0,W

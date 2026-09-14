@@ -1108,4 +1108,4 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-12,825035,694297,Brandon Pfaadt,Arizona Diamondbacks,Texas Rangers,Chase Field,1.02,6.5,5.906,5.819,0.2279,117.3,38.7,5.7,4.29,0.143,0.857,7.0,True
 2026-09-12,824955,693433,Bryan Woo,Seattle Mariners,Athletics,Sutter Health Park,0.92,6.5,9.096,9.621,0.2246,156.3,29.0,5.79,5.752,0.3539,0.6461,5.0,True
 2026-09-12,824955,695611,Gage Jump,Athletics,Seattle Mariners,Sutter Health Park,0.93,6.5,9.869,9.9,0.2334,96.7,30.0,5.09,5.69,0.344,0.656,2.0,True
-2026-09-13,824225,695549,Jackson Jobe,Detroit Tigers,Colorado Rockies,Comerica Park,0.95,6.5,8.259,8.486,0.2295,28.3,23.3,4.72,5.074,0.2487,0.7513,,False
+2026-09-13,824225,695549,Jackson Jobe,Detroit Tigers,Colorado Rockies,Comerica Park,0.95,6.5,8.259,8.486,0.2295,28.3,23.3,4.72,5.074,0.2487,0.7513,8.0,True
