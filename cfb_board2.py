@@ -26,7 +26,13 @@ from pathlib import Path
 # ---------------------------------------------------------------- knobs -----
 SCALE     = 1.00   # <-- set from cfb_earlyscale.py. 1.00 = no correction.
 MIN_EDGE  = 4.0    # below this a disagreement is noise, not a bet
-MAX_EDGE  = 25.0   # above this it is almost certainly an OFFSEASON CHANGE the
+MAX_EDGE  = 12.0   # above this the claimed edge is mostly MODEL ERROR, not value.
+                   # Graded 2026: edge 4-9 went 23-18 (56.1%), 9-15 went 10-13
+                   # (43.5%), 15+ went 5-14 (26.3%). Monotone decline, and it is
+                   # the pattern winners_curse.py predicted BEFORE the season --
+                   # selecting on (model - market) selects for the model's
+                   # largest positive errors. Was 25.0, which kept the 45.7%
+                   # tail on the card. Flagged INFO-GAP, still logged and graded.
                    # 2025 ratings cannot see (new staff, portal haul, departures),
                    # not an edge. Flagged, not filtered -- it still logs and grades
                    # so we find out whether the flag is actually predictive.
