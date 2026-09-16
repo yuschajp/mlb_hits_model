@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15",
+  "generated_at": "2026-09-16",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -374,49 +374,49 @@
   },
   "hr": {
     "today_count": 0,
-    "total_graded": 13634,
+    "total_graded": 13850,
     "since_date": "2026-06-21",
-    "brier_score": 0.1013,
+    "brier_score": 0.1014,
     "naive_brier": 0.1034,
     "avg_predicted": 0.124,
-    "actual_hr_rate": 0.1167,
+    "actual_hr_rate": 0.1168,
     "top10_today": [],
     "calibration": [
       {
         "range": "0.00-0.08",
-        "n": 1110,
+        "n": 1135,
         "predicted": 0.071,
-        "actual": 0.057
+        "actual": 0.056
       },
       {
         "range": "0.08-0.10",
-        "n": 2633,
+        "n": 2677,
         "predicted": 0.091,
         "actual": 0.071
       },
       {
         "range": "0.10-0.12",
-        "n": 3442,
+        "n": 3486,
         "predicted": 0.11,
         "actual": 0.102
       },
       {
         "range": "0.12-0.15",
-        "n": 3569,
+        "n": 3627,
         "predicted": 0.134,
         "actual": 0.132
       },
       {
         "range": "0.15-0.20",
-        "n": 2338,
+        "n": 2378,
         "predicted": 0.169,
         "actual": 0.167
       },
       {
         "range": "0.20-1.00",
-        "n": 542,
-        "predicted": 0.226,
-        "actual": 0.242
+        "n": 547,
+        "predicted": 0.225,
+        "actual": 0.245
       }
     ],
     "returns": [
@@ -895,6 +895,13 @@
         "n_wins": 10,
         "daily_pnl": 2.0,
         "cumulative_pnl": -535.5
+      },
+      {
+        "date": "2026-09-15",
+        "n_bets": 45,
+        "n_wins": 9,
+        "daily_pnl": -4.5,
+        "cumulative_pnl": -540.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1238,6 +1245,11 @@
         "date": "2026-09-14",
         "brier": 0.1106,
         "n": 1080
+      },
+      {
+        "date": "2026-09-15",
+        "brier": 0.1102,
+        "n": 1026
       }
     ]
   },
@@ -1596,8 +1608,8 @@
         "pos": "RB",
         "team": "SF",
         "game": "MIA@SF",
-        "p_td": 0.620437608857016,
-        "fair": -163,
+        "p_td": 0.6167002330161444,
+        "fair": -160,
         "moved": false
       },
       {
@@ -1605,8 +1617,8 @@
         "pos": "RB",
         "team": "ATL",
         "game": "CAR@ATL",
-        "p_td": 0.5527306839638095,
-        "fair": -123,
+        "p_td": 0.5362900838273492,
+        "fair": -115,
         "moved": false
       },
       {
@@ -1614,17 +1626,8 @@
         "pos": "RB",
         "team": "DET",
         "game": "DET@BUF",
-        "p_td": 0.5235442508785666,
-        "fair": -109,
-        "moved": false
-      },
-      {
-        "player": "Rashee Rice",
-        "pos": "WR",
-        "team": "KC",
-        "game": "IND@KC",
-        "p_td": 0.522794282123105,
-        "fair": -109,
+        "p_td": 0.5324183069706372,
+        "fair": -113,
         "moved": false
       },
       {
@@ -1632,8 +1635,17 @@
         "pos": "QB",
         "team": "BUF",
         "game": "DET@BUF",
-        "p_td": 0.5107988639331204,
-        "fair": -104,
+        "p_td": 0.5179674711488568,
+        "fair": -107,
+        "moved": false
+      },
+      {
+        "player": "Rashee Rice",
+        "pos": "WR",
+        "team": "KC",
+        "game": "IND@KC",
+        "p_td": 0.5147824041025941,
+        "fair": -106,
         "moved": false
       },
       {
@@ -1641,17 +1653,8 @@
         "pos": "RB",
         "team": "LA",
         "game": "NYG@LA",
-        "p_td": 0.5081322343513277,
-        "fair": -103,
-        "moved": false
-      },
-      {
-        "player": "Jonathan Taylor",
-        "pos": "RB",
-        "team": "IND",
-        "game": "IND@KC",
-        "p_td": 0.4873730018168125,
-        "fair": 105,
+        "p_td": 0.5043185285031124,
+        "fair": -101,
         "moved": false
       },
       {
@@ -1659,8 +1662,26 @@
         "pos": "RB",
         "team": "BUF",
         "game": "DET@BUF",
-        "p_td": 0.477850137663239,
+        "p_td": 0.4848086970860094,
+        "fair": 106,
+        "moved": false
+      },
+      {
+        "player": "Jonathan Taylor",
+        "pos": "RB",
+        "team": "IND",
+        "game": "IND@KC",
+        "p_td": 0.4763590339526026,
         "fair": 109,
+        "moved": false
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "pos": "WR",
+        "team": "CIN",
+        "game": "CIN@HOU",
+        "p_td": 0.4632217655705865,
+        "fair": 115,
         "moved": false
       },
       {
@@ -1668,8 +1689,8 @@
         "pos": "TE",
         "team": "CHI",
         "game": "MIN@CHI",
-        "p_td": 0.4723595594982062,
-        "fair": 111,
+        "p_td": 0.4611037503823373,
+        "fair": 116,
         "moved": false
       },
       {
@@ -1677,26 +1698,26 @@
         "pos": "WR",
         "team": "SF",
         "game": "MIA@SF",
-        "p_td": 0.4607377140955069,
-        "fair": 117,
-        "moved": true
-      },
-      {
-        "player": "Ja'Marr Chase",
-        "pos": "WR",
-        "team": "CIN",
-        "game": "CIN@HOU",
-        "p_td": 0.4583503388565909,
+        "p_td": 0.4573587769948347,
         "fair": 118,
-        "moved": false
+        "moved": true
       },
       {
         "player": "Tucker Kraft",
         "pos": "TE",
         "team": "GB",
         "game": "GB@NYJ",
-        "p_td": 0.4537190145175452,
-        "fair": 120,
+        "p_td": 0.4494607406106066,
+        "fair": 122,
+        "moved": false
+      },
+      {
+        "player": "De'Von Achane",
+        "pos": "RB",
+        "team": "MIA",
+        "game": "MIA@SF",
+        "p_td": 0.4383962629253144,
+        "fair": 128,
         "moved": false
       },
       {
@@ -1704,17 +1725,8 @@
         "pos": "RB",
         "team": "LAC",
         "game": "LV@LAC",
-        "p_td": 0.4411869827184177,
-        "fair": 126,
-        "moved": false
-      },
-      {
-        "player": "D'Andre Swift",
-        "pos": "RB",
-        "team": "CHI",
-        "game": "MIN@CHI",
-        "p_td": 0.4345692061291453,
-        "fair": 130,
+        "p_td": 0.4372005857938724,
+        "fair": 128,
         "moved": false
       },
       {
@@ -1727,21 +1739,12 @@
         "moved": false
       },
       {
-        "player": "De'Von Achane",
-        "pos": "RB",
-        "team": "MIA",
-        "game": "MIA@SF",
-        "p_td": 0.4312872600282178,
-        "fair": 131,
-        "moved": false
-      },
-      {
         "player": "Bucky Irving",
         "pos": "RB",
         "team": "TB",
         "game": "CLE@TB",
-        "p_td": 0.4289670448760788,
-        "fair": 133,
+        "p_td": 0.4329591166334231,
+        "fair": 130,
         "moved": false
       },
       {
@@ -1749,7 +1752,25 @@
         "pos": "WR",
         "team": "DET",
         "game": "DET@BUF",
-        "p_td": 0.4245448873166049,
+        "p_td": 0.4325526811096659,
+        "fair": 131,
+        "moved": false
+      },
+      {
+        "player": "D'Andre Swift",
+        "pos": "RB",
+        "team": "CHI",
+        "game": "MIN@CHI",
+        "p_td": 0.4238245906012369,
+        "fair": 135,
+        "moved": false
+      },
+      {
+        "player": "RJ Harvey",
+        "pos": "RB",
+        "team": "DEN",
+        "game": "JAX@DEN",
+        "p_td": 0.4238075028578787,
         "fair": 135,
         "moved": false
       },
@@ -1758,26 +1779,8 @@
         "pos": "RB",
         "team": "LV",
         "game": "LV@LAC",
-        "p_td": 0.4173432021402431,
-        "fair": 139,
-        "moved": false
-      },
-      {
-        "player": "RJ Harvey",
-        "pos": "RB",
-        "team": "DEN",
-        "game": "JAX@DEN",
-        "p_td": 0.4154826832083862,
-        "fair": 140,
-        "moved": false
-      },
-      {
-        "player": "Jacory Croskey-Merritt",
-        "pos": "RB",
-        "team": "WAS",
-        "game": "WAS@DAL",
-        "p_td": 0.4119823751628714,
-        "fair": 142,
+        "p_td": 0.4231566565690411,
+        "fair": 136,
         "moved": false
       },
       {
@@ -1785,26 +1788,17 @@
         "pos": "RB",
         "team": "TB",
         "game": "CLE@TB",
-        "p_td": 0.4112776708828538,
-        "fair": 143,
+        "p_td": 0.4151700568728882,
+        "fair": 140,
         "moved": true
       },
       {
-        "player": "Kenneth Walker III",
+        "player": "Jacory Croskey-Merritt",
         "pos": "RB",
-        "team": "KC",
-        "game": "IND@KC",
-        "p_td": 0.4090013510844343,
-        "fair": 144,
-        "moved": true
-      },
-      {
-        "player": "TreVeyon Henderson",
-        "pos": "RB",
-        "team": "NE",
-        "game": "PIT@NE",
-        "p_td": 0.402696495195228,
-        "fair": 148,
+        "team": "WAS",
+        "game": "WAS@DAL",
+        "p_td": 0.4077970030739319,
+        "fair": 145,
         "moved": false
       },
       {
@@ -1812,17 +1806,26 @@
         "pos": "RB",
         "team": "CIN",
         "game": "CIN@HOU",
-        "p_td": 0.4024669112871694,
-        "fair": 148,
+        "p_td": 0.4069835779013736,
+        "fair": 145,
         "moved": false
       },
       {
-        "player": "Aaron Jones",
+        "player": "Kenneth Walker III",
         "pos": "RB",
-        "team": "MIN",
-        "game": "MIN@CHI",
-        "p_td": 0.3977752503502664,
-        "fair": 151,
+        "team": "KC",
+        "game": "IND@KC",
+        "p_td": 0.4019643726898099,
+        "fair": 148,
+        "moved": true
+      },
+      {
+        "player": "TreVeyon Henderson",
+        "pos": "RB",
+        "team": "NE",
+        "game": "PIT@NE",
+        "p_td": 0.3945267079387763,
+        "fair": 153,
         "moved": false
       },
       {
@@ -1830,17 +1833,17 @@
         "pos": "WR",
         "team": "GB",
         "game": "GB@NYJ",
-        "p_td": 0.3941427466178758,
-        "fair": 153,
+        "p_td": 0.3902311970459271,
+        "fair": 156,
         "moved": false
       },
       {
-        "player": "Jaxon Smith-Njigba",
-        "pos": "WR",
-        "team": "SEA",
-        "game": "SEA@ARI",
-        "p_td": 0.3893326703564255,
-        "fair": 156,
+        "player": "Aaron Jones",
+        "pos": "RB",
+        "team": "MIN",
+        "game": "MIN@CHI",
+        "p_td": 0.3843231774691711,
+        "fair": 160,
         "moved": false
       },
       {
@@ -1848,8 +1851,17 @@
         "pos": "TE",
         "team": "SF",
         "game": "MIA@SF",
-        "p_td": 0.3851843220406475,
-        "fair": 159,
+        "p_td": 0.3821519312060236,
+        "fair": 161,
+        "moved": false
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "pos": "WR",
+        "team": "SEA",
+        "game": "SEA@ARI",
+        "p_td": 0.3810098169977891,
+        "fair": 162,
         "moved": false
       },
       {
@@ -1857,26 +1869,17 @@
         "pos": "WR",
         "team": "LA",
         "game": "NYG@LA",
-        "p_td": 0.3841191264910125,
-        "fair": 160,
+        "p_td": 0.3808610753348437,
+        "fair": 162,
         "moved": false
-      },
-      {
-        "player": "A.J. Brown",
-        "pos": "WR",
-        "team": "NE",
-        "game": "PIT@NE",
-        "p_td": 0.3832557143819756,
-        "fair": 160,
-        "moved": true
       },
       {
         "player": "Javonte Williams",
         "pos": "RB",
         "team": "DAL",
         "game": "WAS@DAL",
-        "p_td": 0.3767761111732832,
-        "fair": 165,
+        "p_td": 0.3800833953837403,
+        "fair": 163,
         "moved": false
       },
       {
@@ -1884,8 +1887,17 @@
         "pos": "RB",
         "team": "JAX",
         "game": "JAX@DEN",
-        "p_td": 0.3707937863176858,
-        "fair": 169,
+        "p_td": 0.3797177900588478,
+        "fair": 163,
+        "moved": true
+      },
+      {
+        "player": "A.J. Brown",
+        "pos": "WR",
+        "team": "NE",
+        "game": "PIT@NE",
+        "p_td": 0.375347667754353,
+        "fair": 166,
         "moved": true
       },
       {
@@ -1893,26 +1905,8 @@
         "pos": "RB",
         "team": "NYG",
         "game": "NYG@LA",
-        "p_td": 0.3637797699964514,
-        "fair": 174,
-        "moved": false
-      },
-      {
-        "player": "Justin Fields",
-        "pos": "QB",
-        "team": "KC",
-        "game": "IND@KC",
-        "p_td": 0.3628171752854576,
-        "fair": 175,
-        "moved": true
-      },
-      {
-        "player": "Davante Adams",
-        "pos": "WR",
-        "team": "LA",
-        "game": "NYG@LA",
-        "p_td": 0.3517506859263644,
-        "fair": 184,
+        "p_td": 0.3592590255710053,
+        "fair": 178,
         "moved": false
       },
       {
@@ -1920,7 +1914,25 @@
         "pos": "RB",
         "team": "DEN",
         "game": "JAX@DEN",
-        "p_td": 0.3489118332743576,
+        "p_td": 0.3563328143532845,
+        "fair": 180,
+        "moved": false
+      },
+      {
+        "player": "Justin Fields",
+        "pos": "QB",
+        "team": "KC",
+        "game": "IND@KC",
+        "p_td": 0.3563212026563815,
+        "fair": 180,
+        "moved": true
+      },
+      {
+        "player": "Davante Adams",
+        "pos": "WR",
+        "team": "LA",
+        "game": "NYG@LA",
+        "p_td": 0.3486846553004035,
         "fair": 186,
         "moved": false
       },
@@ -1929,17 +1941,17 @@
         "pos": "RB",
         "team": "NYJ",
         "game": "GB@NYJ",
-        "p_td": 0.3480813997302784,
-        "fair": 187,
+        "p_td": 0.3436996342515039,
+        "fair": 190,
         "moved": false
       },
       {
-        "player": "Rome Odunze",
+        "player": "DK Metcalf",
         "pos": "WR",
-        "team": "CHI",
-        "game": "MIN@CHI",
-        "p_td": 0.3441541799093147,
-        "fair": 190,
+        "team": "PIT",
+        "game": "PIT@NE",
+        "p_td": 0.341943036459172,
+        "fair": 192,
         "moved": false
       }
     ],
@@ -2562,11 +2574,11 @@
       {
         "model": "MLB home runs",
         "today": 0,
-        "graded": 13634,
+        "graded": 13850,
         "metric": "Brier",
-        "value": 0.1013,
+        "value": 0.1014,
         "baseline": 0.1034,
-        "edge_pct": 2.030947775628631,
+        "edge_pct": 1.9342359767891697,
         "verdict": "beats baseline"
       },
       {
@@ -2668,7 +2680,7 @@
       }
     ],
     "total_today": 393,
-    "total_graded": 28733,
+    "total_graded": 28949,
     "model_count": 11
   }
 }
