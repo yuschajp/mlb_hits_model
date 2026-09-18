@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 126,
     "total_graded": 14048,
     "since_date": "2026-06-21",
     "brier_score": 0.1013,
     "naive_brier": 0.1034,
     "avg_predicted": 0.1241,
     "actual_hr_rate": 0.1168,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Zac Thornton",
+        "venue": "Citi Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2336
+      },
+      {
+        "player_name": "Pete Crow-Armstrong",
+        "team": "Chicago Cubs",
+        "opponent_pitcher": "Chase Burns",
+        "venue": "Great American Ball Park",
+        "lineup_spot": 1,
+        "p_hr": 0.2322
+      },
+      {
+        "player_name": "Hunter Goodman",
+        "team": "Colorado Rockies",
+        "opponent_pitcher": "Bryan Woo",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.2019
+      },
+      {
+        "player_name": "Nathaniel Lowe",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Mason Barnett",
+        "venue": "Progressive Field",
+        "lineup_spot": 6,
+        "p_hr": 0.1891
+      },
+      {
+        "player_name": "Travis Bazzana",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Mason Barnett",
+        "venue": "Progressive Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1884
+      },
+      {
+        "player_name": "Cal Raleigh",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Gabriel Hughes",
+        "venue": "Coors Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1759
+      },
+      {
+        "player_name": "Jo Adell",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Mason Barnett",
+        "venue": "Progressive Field",
+        "lineup_spot": 4,
+        "p_hr": 0.173
+      },
+      {
+        "player_name": "Randy Arozarena",
+        "team": "Seattle Mariners",
+        "opponent_pitcher": "Gabriel Hughes",
+        "venue": "Coors Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1692
+      },
+      {
+        "player_name": "Chase DeLauter",
+        "team": "Cleveland Guardians",
+        "opponent_pitcher": "Mason Barnett",
+        "venue": "Progressive Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1682
+      },
+      {
+        "player_name": "Nick Sogard",
+        "team": "Boston Red Sox",
+        "opponent_pitcher": "Ian Seymour",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1681
+      }
+    ],
     "calibration": [
       {
         "range": "0.00-0.08",
@@ -1266,14 +1347,115 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 1148,
     "since_date": "2026-06-27",
     "brier_score": 0.1524,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 4.94,
     "over_rate": 0.231,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Chase Burns",
+        "team": "Cincinnati Reds",
+        "opponent": "Chicago Cubs",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.93,
+        "p_over": 0.3821,
+        "p_under": 0.6179
+      },
+      {
+        "pitcher_name": "Bryan Woo",
+        "team": "Seattle Mariners",
+        "opponent": "Colorado Rockies",
+        "venue": "Coors Field",
+        "line": 6.5,
+        "lambda_k": 5.78,
+        "p_over": 0.3583,
+        "p_under": 0.6417
+      },
+      {
+        "pitcher_name": "Daniel Espino",
+        "team": "Cleveland Guardians",
+        "opponent": "Athletics",
+        "venue": "Progressive Field",
+        "line": 6.5,
+        "lambda_k": 5.73,
+        "p_over": 0.3505,
+        "p_under": 0.6495
+      },
+      {
+        "pitcher_name": "Ian Seymour",
+        "team": "Tampa Bay Rays",
+        "opponent": "Boston Red Sox",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.72,
+        "p_over": 0.3496,
+        "p_under": 0.6504
+      },
+      {
+        "pitcher_name": "Dustin May",
+        "team": "Milwaukee Brewers",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.44,
+        "p_over": 0.3042,
+        "p_under": 0.6958
+      },
+      {
+        "pitcher_name": "Clay Holmes",
+        "team": "Chicago Cubs",
+        "opponent": "Cincinnati Reds",
+        "venue": "Great American Ball Park",
+        "line": 6.5,
+        "lambda_k": 5.29,
+        "p_over": 0.2813,
+        "p_under": 0.7187
+      },
+      {
+        "pitcher_name": "David Sandlin",
+        "team": "Chicago White Sox",
+        "opponent": "Detroit Tigers",
+        "venue": "Rate Field",
+        "line": 6.5,
+        "lambda_k": 5.21,
+        "p_over": 0.2683,
+        "p_under": 0.7317
+      },
+      {
+        "pitcher_name": "Kyle Leahy",
+        "team": "St. Louis Cardinals",
+        "opponent": "Washington Nationals",
+        "venue": "Busch Stadium",
+        "line": 6.5,
+        "lambda_k": 4.96,
+        "p_over": 0.2317,
+        "p_under": 0.7683
+      },
+      {
+        "pitcher_name": "Paul Skenes",
+        "team": "Pittsburgh Pirates",
+        "opponent": "Kansas City Royals",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 4.94,
+        "p_over": 0.2297,
+        "p_under": 0.7703
+      },
+      {
+        "pitcher_name": "Randy Dobnak",
+        "team": "Kansas City Royals",
+        "opponent": "Pittsburgh Pirates",
+        "venue": "PNC Park",
+        "line": 6.5,
+        "lambda_k": 4.84,
+        "p_over": 0.215,
+        "p_under": 0.785
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -1581,8 +1763,8 @@
         "home": "Texas Tech",
         "cls": "FBS",
         "model": -23.2,
-        "market": -7.25,
-        "edge": -16.0,
+        "market": -7.5,
+        "edge": -15.7,
         "side": "Texas Tech",
         "dir": "FAV",
         "playable": false,
@@ -1593,8 +1775,8 @@
         "home": "Oregon",
         "cls": "FCS",
         "model": -71.1,
-        "market": -57.5,
-        "edge": -13.6,
+        "market": -58.0,
+        "edge": -13.1,
         "side": "Oregon",
         "dir": "FAV",
         "playable": false,
@@ -1671,8 +1853,8 @@
         "pos": "RB",
         "team": "ATL",
         "game": "CAR@ATL",
-        "p_td": 0.5362900838273492,
-        "fair": -115,
+        "p_td": 0.5306766711560371,
+        "fair": -113,
         "moved": false
       },
       {
@@ -1703,15 +1885,6 @@
         "moved": false
       },
       {
-        "player": "Ja'Marr Chase",
-        "pos": "WR",
-        "team": "CIN",
-        "game": "CIN@HOU",
-        "p_td": 0.4583503388565909,
-        "fair": 118,
-        "moved": false
-      },
-      {
         "player": "Mike Evans",
         "pos": "WR",
         "team": "SF",
@@ -1726,6 +1899,15 @@
         "team": "CHI",
         "game": "MIN@CHI",
         "p_td": 0.4534667955794834,
+        "fair": 120,
+        "moved": false
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "pos": "WR",
+        "team": "CIN",
+        "game": "CIN@HOU",
+        "p_td": 0.4534347024546691,
         "fair": 120,
         "moved": false
       },
@@ -1752,8 +1934,8 @@
         "pos": "RB",
         "team": "TB",
         "game": "CLE@TB",
-        "p_td": 0.4329591166334231,
-        "fair": 130,
+        "p_td": 0.4349446746221785,
+        "fair": 129,
         "moved": false
       },
       {
@@ -1761,8 +1943,8 @@
         "pos": "RB",
         "team": "PHI",
         "game": "PHI@TEN",
-        "p_td": 0.4308859558388314,
-        "fair": 132,
+        "p_td": 0.433067996960489,
+        "fair": 130,
         "moved": false
       },
       {
@@ -1793,6 +1975,15 @@
         "moved": false
       },
       {
+        "player": "Kenny Gainwell",
+        "pos": "RB",
+        "team": "TB",
+        "game": "CLE@TB",
+        "p_td": 0.4171065886461863,
+        "fair": 139,
+        "moved": true
+      },
+      {
         "player": "D'Andre Swift",
         "pos": "RB",
         "team": "CHI",
@@ -1800,15 +1991,6 @@
         "p_td": 0.4165483210879052,
         "fair": 140,
         "moved": false
-      },
-      {
-        "player": "Kenny Gainwell",
-        "pos": "RB",
-        "team": "TB",
-        "game": "CLE@TB",
-        "p_td": 0.4151700568728882,
-        "fair": 140,
-        "moved": true
       },
       {
         "player": "Jacory Croskey-Merritt",
@@ -1820,15 +2002,6 @@
         "moved": false
       },
       {
-        "player": "Chase Brown",
-        "pos": "RB",
-        "team": "CIN",
-        "game": "CIN@HOU",
-        "p_td": 0.4024669112871694,
-        "fair": 148,
-        "moved": false
-      },
-      {
         "player": "Kenneth Walker III",
         "pos": "RB",
         "team": "KC",
@@ -1836,6 +2009,15 @@
         "p_td": 0.4019643726898099,
         "fair": 148,
         "moved": true
+      },
+      {
+        "player": "Chase Brown",
+        "pos": "RB",
+        "team": "CIN",
+        "game": "CIN@HOU",
+        "p_td": 0.3979158438089358,
+        "fair": 151,
+        "moved": false
       },
       {
         "player": "TreVeyon Henderson",
@@ -1991,21 +2173,21 @@
         "moved": false
       },
       {
-        "player": "Woody Marks",
-        "pos": "RB",
-        "team": "HOU",
-        "game": "CIN@HOU",
-        "p_td": 0.3352967045735617,
-        "fair": 198,
-        "moved": false
-      },
-      {
         "player": "Malik Davis",
         "pos": "RB",
         "team": "DAL",
         "game": "WAS@DAL",
         "p_td": 0.335055657651722,
         "fair": 198,
+        "moved": false
+      },
+      {
+        "player": "Woody Marks",
+        "pos": "RB",
+        "team": "HOU",
+        "game": "CIN@HOU",
+        "p_td": 0.3318011592314825,
+        "fair": 201,
         "moved": false
       }
     ],
@@ -2627,7 +2809,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 0,
+        "today": 126,
         "graded": 14048,
         "metric": "Brier",
         "value": 0.1013,
@@ -2637,7 +2819,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 0,
+        "today": 18,
         "graded": 1148,
         "metric": "Brier",
         "value": 0.1524,
@@ -2733,7 +2915,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 371,
+    "total_today": 515,
     "total_graded": 29170,
     "model_count": 11
   }
