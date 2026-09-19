@@ -14230,3 +14230,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-19,822921,702332,Caleb Durbin,Boston Red Sox,Tampa Bay Rays,7,Tropicana Field,0.97,Freddy Peralta,0.1073,0.0307,3.7,,False
 2026-09-19,822921,680776,Jarren Duran,Boston Red Sox,Tampa Bay Rays,8,Tropicana Field,0.97,Freddy Peralta,0.1317,0.0392,3.6,,False
 2026-09-19,822921,643396,Isiah Kiner-Falefa,Boston Red Sox,Tampa Bay Rays,9,Tropicana Field,0.97,Freddy Peralta,0.0989,0.0297,3.5,,False
+2026-09-19,823571,596019,Francisco Lindor,New York Mets,Philadelphia Phillies,1,Citi Field,0.9,Andrew Painter,0.1936,0.05,4.3,,False
+2026-09-19,823571,665742,Juan Soto,New York Mets,Philadelphia Phillies,2,Citi Field,0.9,Andrew Painter,0.2099,0.0561,4.2,,False
+2026-09-19,823571,666182,Bo Bichette,New York Mets,Philadelphia Phillies,3,Citi Field,0.9,Andrew Painter,0.1299,0.0339,4.1,,False
+2026-09-19,823571,701807,Carson Benge,New York Mets,Philadelphia Phillies,4,Citi Field,0.9,Andrew Painter,0.1331,0.0357,4.0,,False
+2026-09-19,823571,805999,A.J. Ewing,New York Mets,Philadelphia Phillies,5,Citi Field,0.9,Andrew Painter,0.1217,0.0333,3.9,,False
+2026-09-19,823571,543760,Marcus Semien,New York Mets,Philadelphia Phillies,6,Citi Field,0.9,Andrew Painter,0.1128,0.0315,3.8,,False
+2026-09-19,823571,683146,Brett Baty,New York Mets,Philadelphia Phillies,7,Citi Field,0.9,Andrew Painter,0.1199,0.0345,3.7,,False
+2026-09-19,823571,682626,Francisco Alvarez,New York Mets,Philadelphia Phillies,8,Citi Field,0.9,Andrew Painter,0.1359,0.0406,3.6,,False
+2026-09-19,823571,677595,Ronny Mauricio,New York Mets,Philadelphia Phillies,9,Citi Field,0.9,Andrew Painter,0.1159,0.0352,3.5,,False
+2026-09-19,823571,656941,Kyle Schwarber,Philadelphia Phillies,New York Mets,1,Citi Field,0.9,Christian Scott,0.2043,0.0532,4.3,,False
+2026-09-19,823571,607208,Trea Turner,Philadelphia Phillies,New York Mets,2,Citi Field,0.9,Christian Scott,0.1122,0.0283,4.2,,False
+2026-09-19,823571,547180,Bryce Harper,Philadelphia Phillies,New York Mets,3,Citi Field,0.9,Christian Scott,0.1452,0.0383,4.1,,False
+2026-09-19,823571,650333,Luis Arraez,Philadelphia Phillies,New York Mets,4,Citi Field,0.9,Christian Scott,0.0705,0.0183,4.0,,False
+2026-09-19,823571,664761,Alec Bohm,Philadelphia Phillies,New York Mets,5,Citi Field,0.9,Christian Scott,0.094,0.0253,3.9,,False
+2026-09-19,823571,681082,Bryson Stott,Philadelphia Phillies,New York Mets,6,Citi Field,0.9,Christian Scott,0.0839,0.0231,3.8,,False
+2026-09-19,823571,669016,Brandon Marsh,Philadelphia Phillies,New York Mets,7,Citi Field,0.9,Christian Scott,0.0975,0.0277,3.7,,False
+2026-09-19,823571,592663,J.T. Realmuto,Philadelphia Phillies,New York Mets,8,Citi Field,0.9,Christian Scott,0.1001,0.0293,3.6,,False
+2026-09-19,823571,702222,Justin Crawford,Philadelphia Phillies,New York Mets,9,Citi Field,0.9,Christian Scott,0.0681,0.0201,3.5,,False
