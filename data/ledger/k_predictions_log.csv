@@ -1167,3 +1167,8 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-18,824303,687312,Gabriel Hughes,Colorado Rockies,Seattle Mariners,Coors Field,1.13,6.5,7.584,6.662,0.2314,59.3,25.7,4.56,4.487,0.1672,0.8328,6.0,True
 2026-09-18,824138,641816,Tyler Mahle,Atlanta Braves,Houston Astros,Daikin Park,1.01,6.5,8.283,6.319,0.2174,138.0,31.3,5.52,4.693,0.1945,0.8055,6.0,True
 2026-09-18,823005,681517,Kyle Leahy,St. Louis Cardinals,Washington Nationals,Busch Stadium,0.97,6.5,8.533,11.717,0.2186,135.0,17.7,4.82,4.958,0.2317,0.7683,1.0,True
+2026-09-19,824545,695549,Jackson Jobe,Detroit Tigers,Chicago White Sox,Rate Field,0.95,6.5,8.827,9.0,0.2423,34.7,26.0,4.95,5.57,0.325,0.675,,False
+2026-09-19,824545,680732,Sean Burke,Chicago White Sox,Detroit Tigers,Rate Field,1.02,6.5,9.671,7.461,0.2278,161.0,25.3,5.37,5.378,0.2948,0.7052,,False
+2026-09-19,822921,678394,Brayan Bello,Boston Red Sox,Tampa Bay Rays,Tropicana Field,1.06,6.5,6.815,6.532,0.1846,104.3,20.7,4.7,3.392,0.0573,0.9427,,False
+2026-09-19,822921,642547,Freddy Peralta,Tampa Bay Rays,Boston Red Sox,Tropicana Field,0.97,6.5,8.316,6.49,0.2148,158.0,34.7,5.27,4.492,0.1679,0.8321,,False
+2026-09-19,823571,681035,Christian Scott,New York Mets,Philadelphia Phillies,Citi Field,0.97,6.5,10.851,9.667,0.2183,105.3,27.0,4.79,5.284,0.2805,0.7195,,False

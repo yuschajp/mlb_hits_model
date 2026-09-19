@@ -14194,3 +14194,39 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-18,824303,702284,Cole Young,Seattle Mariners,Colorado Rockies,7,Coors Field,1.28,Gabriel Hughes,0.113,0.0324,3.7,0.0,True
 2026-09-18,824303,703155,Lazaro Montes,Seattle Mariners,Colorado Rockies,8,Coors Field,1.28,Gabriel Hughes,0.1369,0.0409,3.6,1.0,True
 2026-09-18,824303,801126,Brock Rodden,Seattle Mariners,Colorado Rockies,9,Coors Field,1.28,Gabriel Hughes,0.0935,0.0281,3.5,0.0,True
+2026-09-19,824545,803011,Sam Antonacci,Chicago White Sox,Detroit Tigers,1,Rate Field,1.07,Jackson Jobe,0.112,0.0276,4.3,,False
+2026-09-19,824545,691019,Kyle Teel,Chicago White Sox,Detroit Tigers,2,Rate Field,1.07,Jackson Jobe,0.1607,0.0417,4.2,,False
+2026-09-19,824545,678246,Miguel Vargas,Chicago White Sox,Detroit Tigers,3,Rate Field,1.07,Jackson Jobe,0.183,0.0493,4.1,,False
+2026-09-19,824545,808959,Munetaka Murakami,Chicago White Sox,Detroit Tigers,4,Rate Field,1.07,Jackson Jobe,0.2023,0.0565,4.0,,False
+2026-09-19,824545,643217,Andrew Benintendi,Chicago White Sox,Detroit Tigers,5,Rate Field,1.07,Jackson Jobe,0.1358,0.0374,3.9,,False
+2026-09-19,824545,695657,Colson Montgomery,Chicago White Sox,Detroit Tigers,6,Rate Field,1.07,Jackson Jobe,0.1806,0.0524,3.8,,False
+2026-09-19,824545,805367,Chase Meidroth,Chicago White Sox,Detroit Tigers,7,Rate Field,1.07,Jackson Jobe,0.1123,0.0322,3.7,,False
+2026-09-19,824545,695731,Braden Montgomery,Chicago White Sox,Detroit Tigers,8,Rate Field,1.07,Jackson Jobe,0.1118,0.0329,3.6,,False
+2026-09-19,824545,686668,Brenton Doyle,Chicago White Sox,Detroit Tigers,9,Rate Field,1.07,Jackson Jobe,0.109,0.033,3.5,,False
+2026-09-19,824545,805808,Kevin McGonigle,Detroit Tigers,Chicago White Sox,1,Rate Field,1.07,Sean Burke,0.1293,0.0322,4.3,,False
+2026-09-19,824545,701678,Hao-Yu Lee,Detroit Tigers,Chicago White Sox,2,Rate Field,1.07,Sean Burke,0.133,0.034,4.2,,False
+2026-09-19,824545,690993,Colt Keith,Detroit Tigers,Chicago White Sox,3,Rate Field,1.07,Sean Burke,0.1127,0.0292,4.1,,False
+2026-09-19,824545,682985,Riley Greene,Detroit Tigers,Chicago White Sox,4,Rate Field,1.07,Sean Burke,0.1484,0.0402,4.0,,False
+2026-09-19,824545,693307,Dillon Dingler,Detroit Tigers,Chicago White Sox,5,Rate Field,1.07,Sean Burke,0.1392,0.0384,3.9,,False
+2026-09-19,824545,703601,Max Clark,Detroit Tigers,Chicago White Sox,6,Rate Field,1.07,Sean Burke,0.1025,0.0285,3.8,,False
+2026-09-19,824545,701162,Ben Malgeri,Detroit Tigers,Chicago White Sox,7,Rate Field,1.07,Sean Burke,0.1064,0.0304,3.7,,False
+2026-09-19,824545,814430,Brett Callahan,Detroit Tigers,Chicago White Sox,8,Rate Field,1.07,Sean Burke,0.0968,0.0283,3.6,,False
+2026-09-19,824545,807726,John Peck,Detroit Tigers,Chicago White Sox,9,Rate Field,1.07,Sean Burke,0.0916,0.0274,3.5,,False
+2026-09-19,822921,641584,Jake Fraley,Tampa Bay Rays,Boston Red Sox,1,Tropicana Field,0.97,Brayan Bello,0.1123,0.0277,4.3,,False
+2026-09-19,822921,666018,Jonathan Aranda,Tampa Bay Rays,Boston Red Sox,2,Tropicana Field,0.97,Brayan Bello,0.1359,0.0348,4.2,,False
+2026-09-19,822921,691406,Junior Caminero,Tampa Bay Rays,Boston Red Sox,3,Tropicana Field,0.97,Brayan Bello,0.1726,0.0462,4.1,,False
+2026-09-19,822921,689414,Liam Hicks,Tampa Bay Rays,Boston Red Sox,4,Tropicana Field,0.97,Brayan Bello,0.1168,0.0311,4.0,,False
+2026-09-19,822921,802415,Chandler Simpson,Tampa Bay Rays,Boston Red Sox,5,Tropicana Field,0.97,Brayan Bello,0.0518,0.0137,3.9,,False
+2026-09-19,822921,683748,Victor Mesa Jr.,Tampa Bay Rays,Boston Red Sox,6,Tropicana Field,0.97,Brayan Bello,0.1339,0.0378,3.8,,False
+2026-09-19,822921,680700,Richie Palacios,Tampa Bay Rays,Boston Red Sox,7,Tropicana Field,0.97,Brayan Bello,0.1143,0.0328,3.7,,False
+2026-09-19,822921,656775,Cedric Mullins,Tampa Bay Rays,Boston Red Sox,8,Tropicana Field,0.97,Brayan Bello,0.0985,0.0288,3.6,,False
+2026-09-19,822921,622761,Jorge Mateo,Tampa Bay Rays,Boston Red Sox,9,Tropicana Field,0.97,Brayan Bello,0.0845,0.0252,3.5,,False
+2026-09-19,822921,701350,Roman Anthony,Boston Red Sox,Tampa Bay Rays,1,Tropicana Field,0.97,Freddy Peralta,0.1448,0.0364,4.3,,False
+2026-09-19,822921,681508,Mickey Gasper,Boston Red Sox,Tampa Bay Rays,2,Tropicana Field,0.97,Freddy Peralta,0.178,0.0467,4.2,,False
+2026-09-19,822921,668939,Adley Rutschman,Boston Red Sox,Tampa Bay Rays,3,Tropicana Field,0.97,Freddy Peralta,0.1424,0.0375,4.1,,False
+2026-09-19,822921,677800,Wilyer Abreu,Boston Red Sox,Tampa Bay Rays,4,Tropicana Field,0.97,Freddy Peralta,0.1423,0.0384,4.0,,False
+2026-09-19,822921,686765,Nick Sogard,Boston Red Sox,Tampa Bay Rays,5,Tropicana Field,0.97,Freddy Peralta,0.1239,0.0339,3.9,,False
+2026-09-19,822921,596115,Trevor Story,Boston Red Sox,Tampa Bay Rays,6,Tropicana Field,0.97,Freddy Peralta,0.1055,0.0293,3.8,,False
+2026-09-19,822921,702332,Caleb Durbin,Boston Red Sox,Tampa Bay Rays,7,Tropicana Field,0.97,Freddy Peralta,0.1073,0.0307,3.7,,False
+2026-09-19,822921,680776,Jarren Duran,Boston Red Sox,Tampa Bay Rays,8,Tropicana Field,0.97,Freddy Peralta,0.1317,0.0392,3.6,,False
+2026-09-19,822921,643396,Isiah Kiner-Falefa,Boston Red Sox,Tampa Bay Rays,9,Tropicana Field,0.97,Freddy Peralta,0.0989,0.0297,3.5,,False
