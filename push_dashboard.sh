@@ -2,6 +2,13 @@
 set -uo pipefail
 cd ~/Desktop/mlb_hits_model
 
+# Push the branch we are actually on. This used to be hardcoded to
+# "master" while the local branch is "main" -- there is no local
+# master ref, so every push died with "src refspec master does not
+# match any" AFTER the commit had already succeeded.
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+echo "Branch: $BRANCH"
+
 echo "Exporting dashboard data..."
 /Users/yuschajp/Desktop/mlb_hits_model/venv/bin/python3 scripts/publish_dashboard.py
 
@@ -30,7 +37,7 @@ if ! git diff --quiet; then
     exit 1
 fi
 
-if ! git pull --rebase -X ours origin master; then
+if ! git pull --rebase -X ours origin "$BRANCH"; then
     echo ""
     echo "!!! git pull --rebase failed -- see the error above. !!!"
     echo "This usually means a conflict outside dashboard_data.json that"
@@ -40,7 +47,7 @@ if ! git pull --rebase -X ours origin master; then
     exit 1
 fi
 
-if ! git push origin master; then
+if ! git push origin "$BRANCH"; then
     echo ""
     echo "!!! git push failed even after a successful rebase. !!!"
     echo "This can happen if someone pushed again in the few seconds"
