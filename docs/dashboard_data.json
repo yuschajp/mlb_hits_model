@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 36,
+    "today_count": 54,
     "total_graded": 14174,
     "since_date": "2026-06-21",
     "brier_score": 0.1014,
@@ -382,12 +382,36 @@
     "actual_hr_rate": 0.1169,
     "top10_today": [
       {
+        "player_name": "Juan Soto",
+        "team": "New York Mets",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citi Field",
+        "lineup_spot": 2,
+        "p_hr": 0.2099
+      },
+      {
+        "player_name": "Kyle Schwarber",
+        "team": "Philadelphia Phillies",
+        "opponent_pitcher": "Christian Scott",
+        "venue": "Citi Field",
+        "lineup_spot": 1,
+        "p_hr": 0.2043
+      },
+      {
         "player_name": "Munetaka Murakami",
         "team": "Chicago White Sox",
         "opponent_pitcher": "Jackson Jobe",
         "venue": "Rate Field",
         "lineup_spot": 4,
         "p_hr": 0.2023
+      },
+      {
+        "player_name": "Francisco Lindor",
+        "team": "New York Mets",
+        "opponent_pitcher": "Andrew Painter",
+        "venue": "Citi Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1936
       },
       {
         "player_name": "Miguel Vargas",
@@ -436,30 +460,6 @@
         "venue": "Rate Field",
         "lineup_spot": 4,
         "p_hr": 0.1484
-      },
-      {
-        "player_name": "Roman Anthony",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Freddy Peralta",
-        "venue": "Tropicana Field",
-        "lineup_spot": 1,
-        "p_hr": 0.1448
-      },
-      {
-        "player_name": "Adley Rutschman",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Freddy Peralta",
-        "venue": "Tropicana Field",
-        "lineup_spot": 3,
-        "p_hr": 0.1424
-      },
-      {
-        "player_name": "Wilyer Abreu",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Freddy Peralta",
-        "venue": "Tropicana Field",
-        "lineup_spot": 4,
-        "p_hr": 0.1423
       }
     ],
     "calibration": [
@@ -1359,12 +1359,12 @@
     ]
   },
   "k": {
-    "today_count": 5,
+    "today_count": 6,
     "total_graded": 1166,
     "since_date": "2026-06-27",
     "brier_score": 0.1515,
     "naive_brier": 0.25,
-    "avg_lambda": 4.82,
+    "avg_lambda": 4.79,
     "over_rate": 0.228,
     "top10_today": [
       {
@@ -1396,6 +1396,16 @@
         "lambda_k": 5.28,
         "p_over": 0.2805,
         "p_under": 0.7195
+      },
+      {
+        "pitcher_name": "Andrew Painter",
+        "team": "Philadelphia Phillies",
+        "opponent": "New York Mets",
+        "venue": "Citi Field",
+        "line": 6.5,
+        "lambda_k": 4.63,
+        "p_over": 0.1866,
+        "p_under": 0.8134
       },
       {
         "pitcher_name": "Freddy Peralta",
@@ -3100,7 +3110,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 36,
+        "today": 54,
         "graded": 14174,
         "metric": "Brier",
         "value": 0.1014,
@@ -3110,7 +3120,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 5,
+        "today": 6,
         "graded": 1166,
         "metric": "Brier",
         "value": 0.1515,
@@ -3206,7 +3216,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 523,
+    "total_today": 542,
     "total_graded": 29317,
     "model_count": 11
   }
