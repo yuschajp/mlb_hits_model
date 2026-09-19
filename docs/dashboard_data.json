@@ -1359,14 +1359,24 @@
     ]
   },
   "k": {
-    "today_count": 6,
+    "today_count": 7,
     "total_graded": 1166,
     "since_date": "2026-06-27",
     "brier_score": 0.1515,
     "naive_brier": 0.25,
-    "avg_lambda": 4.79,
+    "avg_lambda": 4.91,
     "over_rate": 0.228,
     "top10_today": [
+      {
+        "pitcher_name": "Robert Gasser",
+        "team": "Milwaukee Brewers",
+        "opponent": "Baltimore Orioles",
+        "venue": "Oriole Park at Camden Yards",
+        "line": 6.5,
+        "lambda_k": 5.65,
+        "p_over": 0.3382,
+        "p_under": 0.6618
+      },
       {
         "pitcher_name": "Jackson Jobe",
         "team": "Detroit Tigers",
@@ -3120,7 +3130,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 6,
+        "today": 7,
         "graded": 1166,
         "metric": "Brier",
         "value": 0.1515,
@@ -3216,7 +3226,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 542,
+    "total_today": 543,
     "total_graded": 29317,
     "model_count": 11
   }
