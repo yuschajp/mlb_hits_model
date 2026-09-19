@@ -1169,6 +1169,7 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-18,823005,681517,Kyle Leahy,St. Louis Cardinals,Washington Nationals,Busch Stadium,0.97,6.5,8.533,11.717,0.2186,135.0,17.7,4.82,4.958,0.2317,0.7683,1.0,True
 2026-09-19,824545,695549,Jackson Jobe,Detroit Tigers,Chicago White Sox,Rate Field,0.95,6.5,8.827,9.0,0.2423,34.7,26.0,4.95,5.57,0.325,0.675,,False
 2026-09-19,824545,680732,Sean Burke,Chicago White Sox,Detroit Tigers,Rate Field,1.02,6.5,9.671,7.461,0.2278,161.0,25.3,5.37,5.378,0.2948,0.7052,,False
+2026-09-19,824788,688107,Robert Gasser,Milwaukee Brewers,Baltimore Orioles,Oriole Park at Camden Yards,1.02,6.5,8.595,9.391,0.2491,96.3,23.0,5.07,5.653,0.3382,0.6618,,False
 2026-09-19,822921,678394,Brayan Bello,Boston Red Sox,Tampa Bay Rays,Tropicana Field,1.06,6.5,6.815,6.532,0.1846,104.3,20.7,4.7,3.392,0.0573,0.9427,,False
 2026-09-19,822921,642547,Freddy Peralta,Tampa Bay Rays,Boston Red Sox,Tropicana Field,0.97,6.5,8.316,6.49,0.2148,158.0,34.7,5.27,4.492,0.1679,0.8321,,False
 2026-09-19,823571,691725,Andrew Painter,Philadelphia Phillies,New York Mets,Citi Field,1.03,6.5,7.803,7.971,0.2236,115.3,35.0,5.01,4.635,0.1866,0.8134,,False
