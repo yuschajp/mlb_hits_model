@@ -1,0 +1,4 @@
+away,home,cls,kick,model,market,edge,side,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Houston,Texas Tech,FBS,20:00,-23.2,-7.5,-15.7,Texas Tech,FAV,7.5,False,False,INFO-GAP,2026-09-18,28.0,26.0,-2.0,L
+Portland State,Oregon,FCS,22:30,-71.1,-58.0,-13.1,Oregon,FAV,58.0,False,False,BLIND-SPOT INFO-GAP,2026-09-18,84.0,0.0,-84.0,W
+Miami,Wake Forest,FBS,19:30,15.8,20.5,-4.7,Wake Forest,DOG,20.5,False,True,,2026-09-18,20.0,33.0,13.0,W
