@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-09-24",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -373,131 +373,50 @@
     ]
   },
   "hr": {
-    "today_count": 144,
-    "total_graded": 14228,
+    "today_count": 0,
+    "total_graded": 14371,
     "since_date": "2026-06-21",
-    "brier_score": 0.1013,
+    "brier_score": 0.1011,
     "naive_brier": 0.1034,
     "avg_predicted": 0.124,
-    "actual_hr_rate": 0.1167,
-    "top10_today": [
-      {
-        "player_name": "Pete Crow-Armstrong",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Rhett Lowder",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 1,
-        "p_hr": 0.2593
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Jonah Tong",
-        "venue": "Citi Field",
-        "lineup_spot": 1,
-        "p_hr": 0.2008
-      },
-      {
-        "player_name": "Brandon Lowe",
-        "team": "Pittsburgh Pirates",
-        "opponent_pitcher": "Michael Wacha",
-        "venue": "PNC Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1986
-      },
-      {
-        "player_name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Rhett Lowder",
-        "venue": "Great American Ball Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1854
-      },
-      {
-        "player_name": "Kazuma Okamoto",
-        "team": "Toronto Blue Jays",
-        "opponent_pitcher": "Jacob deGrom",
-        "venue": "Globe Life Field",
-        "lineup_spot": 4,
-        "p_hr": 0.1849
-      },
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Hunter Brown",
-        "venue": "Daikin Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1819
-      },
-      {
-        "player_name": "Munetaka Murakami",
-        "team": "Chicago White Sox",
-        "opponent_pitcher": "Troy Melton",
-        "venue": "Rate Field",
-        "lineup_spot": 4,
-        "p_hr": 0.1796
-      },
-      {
-        "player_name": "Shea Langeliers",
-        "team": "Athletics",
-        "opponent_pitcher": "Gavin Williams",
-        "venue": "Progressive Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1795
-      },
-      {
-        "player_name": "Zack Gelof",
-        "team": "Athletics",
-        "opponent_pitcher": "Gavin Williams",
-        "venue": "Progressive Field",
-        "lineup_spot": 4,
-        "p_hr": 0.1773
-      },
-      {
-        "player_name": "Mickey Gasper",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Griffin Jax",
-        "venue": "Tropicana Field",
-        "lineup_spot": 2,
-        "p_hr": 0.1772
-      }
-    ],
+    "actual_hr_rate": 0.1166,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.00-0.08",
-        "n": 1153,
+        "n": 1162,
         "predicted": 0.071,
-        "actual": 0.056
+        "actual": 0.055
       },
       {
         "range": "0.08-0.10",
-        "n": 2747,
+        "n": 2779,
         "predicted": 0.091,
         "actual": 0.07
       },
       {
         "range": "0.10-0.12",
-        "n": 3573,
+        "n": 3608,
         "predicted": 0.11,
-        "actual": 0.1
+        "actual": 0.101
       },
       {
         "range": "0.12-0.15",
-        "n": 3745,
+        "n": 3781,
         "predicted": 0.134,
-        "actual": 0.134
+        "actual": 0.133
       },
       {
         "range": "0.15-0.20",
-        "n": 2445,
+        "n": 2474,
         "predicted": 0.169,
         "actual": 0.167
       },
       {
         "range": "0.20-1.00",
-        "n": 565,
+        "n": 567,
         "predicted": 0.225,
-        "actual": 0.241
+        "actual": 0.242
       }
     ],
     "returns": [
@@ -1004,6 +923,13 @@
         "n_wins": 1,
         "daily_pnl": -4.5,
         "cumulative_pnl": -557.5
+      },
+      {
+        "date": "2026-09-20",
+        "n_bets": 31,
+        "n_wins": 4,
+        "daily_pnl": -13.0,
+        "cumulative_pnl": -570.5
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1367,143 +1293,47 @@
         "date": "2026-09-19",
         "brier": 0.0983,
         "n": 738
+      },
+      {
+        "date": "2026-09-20",
+        "brier": 0.0966,
+        "n": 881
       }
     ]
   },
   "k": {
-    "today_count": 17,
-    "total_graded": 1173,
+    "today_count": 0,
+    "total_graded": 1190,
     "since_date": "2026-06-27",
-    "brier_score": 0.1529,
+    "brier_score": 0.1522,
     "naive_brier": 0.25,
-    "avg_lambda": 4.98,
-    "over_rate": 0.23,
-    "top10_today": [
-      {
-        "pitcher_name": "Gavin Williams",
-        "team": "Cleveland Guardians",
-        "opponent": "Athletics",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 7.57,
-        "p_over": 0.631,
-        "p_under": 0.369
-      },
-      {
-        "pitcher_name": "Cristopher S\u00e1nchez",
-        "team": "Philadelphia Phillies",
-        "opponent": "New York Mets",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 6.11,
-        "p_over": 0.4111,
-        "p_under": 0.5889
-      },
-      {
-        "pitcher_name": "Hunter Brown",
-        "team": "Houston Astros",
-        "opponent": "Atlanta Braves",
-        "venue": "Daikin Park",
-        "line": 6.5,
-        "lambda_k": 5.79,
-        "p_over": 0.3606,
-        "p_under": 0.6394
-      },
-      {
-        "pitcher_name": "Michael Wacha",
-        "team": "Kansas City Royals",
-        "opponent": "Pittsburgh Pirates",
-        "venue": "PNC Park",
-        "line": 6.5,
-        "lambda_k": 5.52,
-        "p_over": 0.3171,
-        "p_under": 0.6829
-      },
-      {
-        "pitcher_name": "Jacob deGrom",
-        "team": "Texas Rangers",
-        "opponent": "Toronto Blue Jays",
-        "venue": "Globe Life Field",
-        "line": 6.5,
-        "lambda_k": 5.48,
-        "p_over": 0.3107,
-        "p_under": 0.6893
-      },
-      {
-        "pitcher_name": "David Peterson",
-        "team": "Chicago Cubs",
-        "opponent": "Cincinnati Reds",
-        "venue": "Great American Ball Park",
-        "line": 6.5,
-        "lambda_k": 5.41,
-        "p_over": 0.2995,
-        "p_under": 0.7005
-      },
-      {
-        "pitcher_name": "Quinn Mathews",
-        "team": "St. Louis Cardinals",
-        "opponent": "Washington Nationals",
-        "venue": "Busch Stadium",
-        "line": 6.5,
-        "lambda_k": 5.16,
-        "p_over": 0.2611,
-        "p_under": 0.7389
-      },
-      {
-        "pitcher_name": "Troy Melton",
-        "team": "Detroit Tigers",
-        "opponent": "Chicago White Sox",
-        "venue": "Rate Field",
-        "line": 6.5,
-        "lambda_k": 5.13,
-        "p_over": 0.2565,
-        "p_under": 0.7435
-      },
-      {
-        "pitcher_name": "Jack Perkins",
-        "team": "Athletics",
-        "opponent": "Cleveland Guardians",
-        "venue": "Progressive Field",
-        "line": 6.5,
-        "lambda_k": 4.96,
-        "p_over": 0.2319,
-        "p_under": 0.7681
-      },
-      {
-        "pitcher_name": "Jonah Tong",
-        "team": "New York Mets",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Citi Field",
-        "line": 6.5,
-        "lambda_k": 4.94,
-        "p_over": 0.2285,
-        "p_under": 0.7715
-      }
-    ],
+    "avg_lambda": null,
+    "over_rate": 0.229,
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 455,
-        "predicted": 0.142,
-        "actual": 0.097
+        "n": 462,
+        "predicted": 0.141,
+        "actual": 0.095
       },
       {
         "range": "0.2-0.4",
-        "n": 581,
+        "n": 589,
         "predicted": 0.28,
         "actual": 0.25
       },
       {
         "range": "0.4-0.6",
-        "n": 122,
+        "n": 123,
         "predicted": 0.473,
-        "actual": 0.566
+        "actual": 0.561
       },
       {
         "range": "0.6-0.8",
-        "n": 15,
-        "predicted": 0.66,
-        "actual": 0.8
+        "n": 16,
+        "predicted": 0.659,
+        "actual": 0.812
       }
     ],
     "trend": [
@@ -1766,6 +1596,11 @@
         "date": "2026-09-19",
         "brier": 0.1625,
         "n": 66
+      },
+      {
+        "date": "2026-09-20",
+        "brier": 0.1453,
+        "n": 82
       }
     ]
   },
@@ -1789,9 +1624,22 @@
     "history": []
   },
   "cfb": {
-    "today_count": 0,
+    "today_count": 1,
     "total_graded": 248,
-    "board": [],
+    "board": [
+      {
+        "away": "Liberty",
+        "home": "Coastal Carolina",
+        "cls": "FBS",
+        "model": 6.3,
+        "market": 2.5,
+        "edge": 3.8,
+        "side": "Liberty",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT"
+      }
+    ],
     "splits": [
       {
         "split": "FBS",
@@ -1824,276 +1672,240 @@
     "mae_market": 11.258964143426295
   },
   "nfl": {
-    "today_count": 368,
+    "today_count": 393,
     "total_graded": 0,
     "board": [
       {
         "player": "Derrick Henry",
         "pos": "RB",
         "team": "BAL",
-        "game": "NO@BAL",
-        "p_td": 0.7263520614742983,
-        "fair": -265,
+        "game": "BAL@DAL",
+        "p_td": 0.7458055499353612,
+        "fair": -293,
         "moved": false
       },
       {
         "player": "Christian McCaffrey",
         "pos": "RB",
         "team": "SF",
-        "game": "MIA@SF",
-        "p_td": 0.6167002330161444,
-        "fair": -160,
+        "game": "ARI@SF",
+        "p_td": 0.6013790860650241,
+        "fair": -150,
         "moved": false
       },
       {
-        "player": "Bijan Robinson",
+        "player": "Jahmyr Gibbs",
         "pos": "RB",
-        "team": "ATL",
-        "game": "CAR@ATL",
-        "p_td": 0.5306766711560371,
-        "fair": -113,
+        "team": "DET",
+        "game": "NYJ@DET",
+        "p_td": 0.5662922239014059,
+        "fair": -130,
         "moved": false
       },
       {
         "player": "Rashee Rice",
         "pos": "WR",
         "team": "KC",
-        "game": "IND@KC",
-        "p_td": 0.5107261631271502,
-        "fair": -104,
+        "game": "KC@MIA",
+        "p_td": 0.5460448683512149,
+        "fair": -120,
         "moved": false
       },
       {
-        "player": "Kyren Williams",
+        "player": "Josh Allen",
+        "pos": "QB",
+        "team": "BUF",
+        "game": "LAC@BUF",
+        "p_td": 0.5071746805516135,
+        "fair": -102,
+        "moved": false
+      },
+      {
+        "player": "Bijan Robinson",
         "pos": "RB",
-        "team": "LA",
-        "game": "NYG@LA",
-        "p_td": 0.4966021786207489,
+        "team": "ATL",
+        "game": "ATL@GB",
+        "p_td": 0.4955400436338961,
         "fair": 101,
+        "moved": false
+      },
+      {
+        "player": "Ja'Marr Chase",
+        "pos": "WR",
+        "team": "CIN",
+        "game": "CIN@PIT",
+        "p_td": 0.4822732742611598,
+        "fair": 107,
         "moved": false
       },
       {
         "player": "Jonathan Taylor",
         "pos": "RB",
         "team": "IND",
-        "game": "IND@KC",
-        "p_td": 0.481895284184151,
-        "fair": 107,
+        "game": "HOU@IND",
+        "p_td": 0.4763590339526026,
+        "fair": 109,
         "moved": false
       },
       {
-        "player": "Mike Evans",
-        "pos": "WR",
-        "team": "SF",
-        "game": "MIA@SF",
-        "p_td": 0.4573587769948347,
-        "fair": 118,
-        "moved": true
-      },
-      {
-        "player": "Ja'Marr Chase",
-        "pos": "WR",
-        "team": "CIN",
-        "game": "CIN@HOU",
-        "p_td": 0.4534347024546691,
-        "fair": 120,
-        "moved": false
-      },
-      {
-        "player": "Colston Loveland",
-        "pos": "TE",
-        "team": "CHI",
-        "game": "MIN@CHI",
-        "p_td": 0.4457216138615189,
-        "fair": 124,
-        "moved": false
-      },
-      {
-        "player": "Tucker Kraft",
-        "pos": "TE",
-        "team": "GB",
-        "game": "GB@NYJ",
-        "p_td": 0.4408443539997899,
-        "fair": 126,
-        "moved": false
-      },
-      {
-        "player": "Omarion Hampton",
+        "player": "James Cook",
         "pos": "RB",
-        "team": "LAC",
-        "game": "LV@LAC",
-        "p_td": 0.4372005857938724,
-        "fair": 128,
-        "moved": false
-      },
-      {
-        "player": "Saquon Barkley",
-        "pos": "RB",
-        "team": "PHI",
-        "game": "PHI@TEN",
-        "p_td": 0.433067996960489,
-        "fair": 130,
-        "moved": false
-      },
-      {
-        "player": "Bucky Irving",
-        "pos": "RB",
-        "team": "TB",
-        "game": "CLE@TB",
-        "p_td": 0.4329591166334231,
-        "fair": 130,
+        "team": "BUF",
+        "game": "LAC@BUF",
+        "p_td": 0.4743356915769399,
+        "fair": 110,
         "moved": false
       },
       {
         "player": "De'Von Achane",
         "pos": "RB",
         "team": "MIA",
-        "game": "MIA@SF",
-        "p_td": 0.4240882685522449,
-        "fair": 135,
+        "game": "KC@MIA",
+        "p_td": 0.4726303307872681,
+        "fair": 111,
         "moved": false
       },
       {
-        "player": "RJ Harvey",
-        "pos": "RB",
-        "team": "DEN",
-        "game": "JAX@DEN",
-        "p_td": 0.4238075028578787,
-        "fair": 135,
+        "player": "Amon-Ra St. Brown",
+        "pos": "WR",
+        "team": "DET",
+        "game": "NYJ@DET",
+        "p_td": 0.463484924011715,
+        "fair": 115,
         "moved": false
       },
       {
         "player": "Ashton Jeanty",
         "pos": "RB",
         "team": "LV",
-        "game": "LV@LAC",
-        "p_td": 0.4231566565690411,
-        "fair": 136,
+        "game": "LV@NO",
+        "p_td": 0.4622587418390335,
+        "fair": 116,
         "moved": false
       },
       {
-        "player": "Kenny Gainwell",
-        "pos": "RB",
-        "team": "TB",
-        "game": "CLE@TB",
-        "p_td": 0.4151700568728882,
-        "fair": 140,
+        "player": "Tucker Kraft",
+        "pos": "TE",
+        "team": "GB",
+        "game": "ATL@GB",
+        "p_td": 0.4494607406106066,
+        "fair": 122,
+        "moved": false
+      },
+      {
+        "player": "Mike Evans",
+        "pos": "WR",
+        "team": "SF",
+        "game": "ARI@SF",
+        "p_td": 0.4436299786680246,
+        "fair": 125,
         "moved": true
       },
       {
-        "player": "Jacory Croskey-Merritt",
+        "player": "Kyren Williams",
         "pos": "RB",
-        "team": "WAS",
-        "game": "WAS@DAL",
-        "p_td": 0.4119823751628714,
-        "fair": 142,
-        "moved": false
-      },
-      {
-        "player": "D'Andre Swift",
-        "pos": "RB",
-        "team": "CHI",
-        "game": "MIN@CHI",
-        "p_td": 0.4091801627206465,
-        "fair": 144,
-        "moved": false
-      },
-      {
-        "player": "TreVeyon Henderson",
-        "pos": "RB",
-        "team": "NE",
-        "game": "PIT@NE",
-        "p_td": 0.3986254749211169,
-        "fair": 150,
+        "team": "LA",
+        "game": "LA@DEN",
+        "p_td": 0.4391175438626975,
+        "fair": 127,
         "moved": false
       },
       {
         "player": "Kenneth Walker III",
         "pos": "RB",
         "team": "KC",
-        "game": "IND@KC",
-        "p_td": 0.3984145247716164,
-        "fair": 150,
+        "game": "KC@MIA",
+        "p_td": 0.4296193549036079,
+        "fair": 132,
+        "moved": true
+      },
+      {
+        "player": "Chris Rodriguez Jr.",
+        "pos": "RB",
+        "team": "JAX",
+        "game": "NE@JAX",
+        "p_td": 0.4265849327920787,
+        "fair": 134,
         "moved": true
       },
       {
         "player": "Chase Brown",
         "pos": "RB",
         "team": "CIN",
-        "game": "CIN@HOU",
-        "p_td": 0.3979158438089358,
-        "fair": 151,
+        "game": "CIN@PIT",
+        "p_td": 0.4247114069474494,
+        "fair": 135,
+        "moved": false
+      },
+      {
+        "player": "Saquon Barkley",
+        "pos": "RB",
+        "team": "PHI",
+        "game": "PHI@CHI",
+        "p_td": 0.4242893128463656,
+        "fair": 135,
         "moved": false
       },
       {
         "player": "Aaron Jones",
         "pos": "RB",
         "team": "MIN",
-        "game": "MIN@CHI",
-        "p_td": 0.3843231774691711,
-        "fair": 160,
-        "moved": false
-      },
-      {
-        "player": "Javonte Williams",
-        "pos": "RB",
-        "team": "DAL",
-        "game": "WAS@DAL",
-        "p_td": 0.3833731287123317,
-        "fair": 160,
-        "moved": false
-      },
-      {
-        "player": "Christian Watson",
-        "pos": "WR",
-        "team": "GB",
-        "game": "GB@NYJ",
-        "p_td": 0.3823321733479565,
-        "fair": 161,
-        "moved": false
-      },
-      {
-        "player": "George Kittle",
-        "pos": "TE",
-        "team": "SF",
-        "game": "MIA@SF",
-        "p_td": 0.3821519312060236,
-        "fair": 161,
+        "game": "MIN@TB",
+        "p_td": 0.3977752503502664,
+        "fair": 151,
         "moved": false
       },
       {
         "player": "Jaxon Smith-Njigba",
         "pos": "WR",
         "team": "SEA",
-        "game": "SEA@ARI",
-        "p_td": 0.3810098169977891,
-        "fair": 162,
+        "game": "SEA@WAS",
+        "p_td": 0.3975436158206693,
+        "fair": 151,
         "moved": false
       },
       {
-        "player": "Chris Rodriguez Jr.",
+        "player": "Christian Watson",
+        "pos": "WR",
+        "team": "GB",
+        "game": "ATL@GB",
+        "p_td": 0.3902311970459271,
+        "fair": 156,
+        "moved": false
+      },
+      {
+        "player": "Quinshon Judkins",
         "pos": "RB",
-        "team": "JAX",
-        "game": "JAX@DEN",
-        "p_td": 0.3797177900588478,
-        "fair": 163,
+        "team": "CLE",
+        "game": "CAR@CLE",
+        "p_td": 0.3842616891519939,
+        "fair": 160,
+        "moved": false
+      },
+      {
+        "player": "Justin Fields",
+        "pos": "QB",
+        "team": "KC",
+        "game": "KC@MIA",
+        "p_td": 0.3819143907993084,
+        "fair": 161,
         "moved": true
       },
       {
-        "player": "A.J. Brown",
-        "pos": "WR",
-        "team": "NE",
-        "game": "PIT@NE",
-        "p_td": 0.3793142853178637,
-        "fair": 163,
-        "moved": true
+        "player": "Harold Fannin Jr.",
+        "pos": "TE",
+        "team": "CLE",
+        "game": "CAR@CLE",
+        "p_td": 0.3751733736443762,
+        "fair": 166,
+        "moved": false
       },
       {
-        "player": "Puka Nacua",
-        "pos": "WR",
-        "team": "LA",
-        "game": "NYG@LA",
-        "p_td": 0.374293175918715,
+        "player": "Omarion Hampton",
+        "pos": "RB",
+        "team": "LAC",
+        "game": "LAC@BUF",
+        "p_td": 0.3738758228337431,
         "fair": 167,
         "moved": false
       },
@@ -2101,90 +1913,126 @@
         "player": "Cam Skattebo",
         "pos": "RB",
         "team": "NYG",
-        "game": "NYG@LA",
-        "p_td": 0.3592590255710053,
-        "fair": 178,
+        "game": "TEN@NYG",
+        "p_td": 0.3727257956276308,
+        "fair": 168,
         "moved": false
       },
       {
-        "player": "J.K. Dobbins",
+        "player": "RJ Harvey",
         "pos": "RB",
         "team": "DEN",
-        "game": "JAX@DEN",
-        "p_td": 0.3563328143532845,
-        "fair": 180,
+        "game": "LA@DEN",
+        "p_td": 0.3720192981672416,
+        "fair": 168,
         "moved": false
       },
       {
-        "player": "Justin Fields",
-        "pos": "QB",
-        "team": "KC",
-        "game": "IND@KC",
-        "p_td": 0.3530484238695328,
-        "fair": 183,
-        "moved": true
-      },
-      {
-        "player": "Ryan Flournoy",
-        "pos": "WR",
-        "team": "DAL",
-        "game": "WAS@DAL",
-        "p_td": 0.3449848267855707,
-        "fair": 189,
-        "moved": false
-      },
-      {
-        "player": "Breece Hall",
-        "pos": "RB",
-        "team": "NYJ",
-        "game": "GB@NYJ",
-        "p_td": 0.3436996342515039,
-        "fair": 190,
-        "moved": false
-      },
-      {
-        "player": "Davante Adams",
-        "pos": "WR",
-        "team": "LA",
-        "game": "NYG@LA",
-        "p_td": 0.3425090211628316,
-        "fair": 191,
-        "moved": false
-      },
-      {
-        "player": "Malik Davis",
-        "pos": "RB",
-        "team": "DAL",
-        "game": "WAS@DAL",
-        "p_td": 0.3380680729145001,
-        "fair": 195,
+        "player": "George Kittle",
+        "pos": "TE",
+        "team": "SF",
+        "game": "ARI@SF",
+        "p_td": 0.3698720649403401,
+        "fair": 170,
         "moved": false
       },
       {
         "player": "DK Metcalf",
         "pos": "WR",
         "team": "PIT",
-        "game": "PIT@NE",
-        "p_td": 0.3368110383295883,
-        "fair": 196,
+        "game": "CIN@PIT",
+        "p_td": 0.3670134387548652,
+        "fair": 172,
         "moved": false
       },
       {
-        "player": "Woody Marks",
+        "player": "TreVeyon Henderson",
         "pos": "RB",
-        "team": "HOU",
-        "game": "CIN@HOU",
-        "p_td": 0.3318011592314825,
-        "fair": 201,
+        "team": "NE",
+        "game": "NE@JAX",
+        "p_td": 0.3607147242125849,
+        "fair": 177,
         "moved": false
+      },
+      {
+        "player": "Bucky Irving",
+        "pos": "RB",
+        "team": "TB",
+        "game": "MIN@TB",
+        "p_td": 0.3566359679845048,
+        "fair": 180,
+        "moved": false
+      },
+      {
+        "player": "Travis Etienne",
+        "pos": "RB",
+        "team": "NO",
+        "game": "LV@NO",
+        "p_td": 0.3496371744454959,
+        "fair": 186,
+        "moved": true
+      },
+      {
+        "player": "Tee Higgins",
+        "pos": "WR",
+        "team": "CIN",
+        "game": "CIN@PIT",
+        "p_td": 0.3448106211822314,
+        "fair": 190,
+        "moved": false
+      },
+      {
+        "player": "Breece Hall",
+        "pos": "RB",
+        "team": "NYJ",
+        "game": "NYJ@DET",
+        "p_td": 0.3436996342515039,
+        "fair": 190,
+        "moved": false
+      },
+      {
+        "player": "Javonte Williams",
+        "pos": "RB",
+        "team": "DAL",
+        "game": "BAL@DAL",
+        "p_td": 0.3427171215154397,
+        "fair": 191,
+        "moved": false
+      },
+      {
+        "player": "A.J. Brown",
+        "pos": "WR",
+        "team": "NE",
+        "game": "NE@JAX",
+        "p_td": 0.3426884069061833,
+        "fair": 191,
+        "moved": true
+      },
+      {
+        "player": "Parker Washington",
+        "pos": "WR",
+        "team": "JAX",
+        "game": "NE@JAX",
+        "p_td": 0.3411024282327399,
+        "fair": 193,
+        "moved": false
+      },
+      {
+        "player": "Kenny Gainwell",
+        "pos": "RB",
+        "team": "TB",
+        "game": "MIN@TB",
+        "p_td": 0.3409992013377989,
+        "fair": 193,
+        "moved": true
       },
       {
         "player": "Jayden Reed",
         "pos": "WR",
         "team": "GB",
-        "game": "GB@NYJ",
-        "p_td": 0.3312394440253553,
-        "fair": 201,
+        "game": "ATL@GB",
+        "p_td": 0.3383886850110376,
+        "fair": 195,
         "moved": false
       }
     ],
@@ -2806,22 +2654,22 @@
       },
       {
         "model": "MLB home runs",
-        "today": 144,
-        "graded": 14228,
+        "today": 0,
+        "graded": 14371,
         "metric": "Brier",
-        "value": 0.1013,
+        "value": 0.1011,
         "baseline": 0.1034,
-        "edge_pct": 2.030947775628631,
+        "edge_pct": 2.2243713733075534,
         "verdict": "beats baseline"
       },
       {
         "model": "MLB strikeouts",
-        "today": 17,
-        "graded": 1173,
+        "today": 0,
+        "graded": 1190,
         "metric": "Brier",
-        "value": 0.1529,
+        "value": 0.1522,
         "baseline": 0.25,
-        "edge_pct": 38.839999999999996,
+        "edge_pct": 39.12,
         "verdict": "beats baseline"
       },
       {
@@ -2836,7 +2684,7 @@
       },
       {
         "model": "College FB spread",
-        "today": 0,
+        "today": 1,
         "graded": 248,
         "metric": "ATS",
         "value": 0.5161290322580645,
@@ -2847,7 +2695,7 @@
       },
       {
         "model": "NFL anytime TD",
-        "today": 368,
+        "today": 393,
         "graded": 0,
         "metric": "AUC",
         "value": 0.7370921803740497,
@@ -2912,8 +2760,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 529,
-    "total_graded": 29489,
+    "total_today": 394,
+    "total_graded": 29649,
     "model_count": 11
   }
 }
