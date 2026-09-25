@@ -14392,3 +14392,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-20,822844,665926,Andrés Giménez,Toronto Blue Jays,Texas Rangers,7,Globe Life Field,1.0,Jacob deGrom,0.0966,0.0274,3.7,0.0,True
 2026-09-20,822844,678218,Brandon Valenzuela,Toronto Blue Jays,Texas Rangers,8,Globe Life Field,1.0,Jacob deGrom,0.1123,0.0331,3.6,0.0,True
 2026-09-20,822844,676391,Ernie Clement,Toronto Blue Jays,Texas Rangers,9,Globe Life Field,1.0,Jacob deGrom,0.0765,0.0227,3.5,0.0,True
+2026-09-25,824703,701350,Roman Anthony,Boston Red Sox,Chicago Cubs,1,Fenway Park,0.92,Clay Holmes,0.0932,0.0227,4.3,,False
+2026-09-25,824703,681508,Mickey Gasper,Boston Red Sox,Chicago Cubs,2,Fenway Park,0.92,Clay Holmes,0.1181,0.0299,4.2,,False
+2026-09-25,824703,668939,Adley Rutschman,Boston Red Sox,Chicago Cubs,3,Fenway Park,0.92,Clay Holmes,0.0933,0.0239,4.1,,False
+2026-09-25,824703,677800,Wilyer Abreu,Boston Red Sox,Chicago Cubs,4,Fenway Park,0.92,Clay Holmes,0.095,0.025,4.0,,False
+2026-09-25,824703,702332,Caleb Durbin,Boston Red Sox,Chicago Cubs,5,Fenway Park,0.92,Clay Holmes,0.0739,0.0197,3.9,,False
+2026-09-25,824703,686765,Nick Sogard,Boston Red Sox,Chicago Cubs,6,Fenway Park,0.92,Clay Holmes,0.0757,0.0207,3.8,,False
+2026-09-25,824703,680776,Jarren Duran,Boston Red Sox,Chicago Cubs,7,Fenway Park,0.92,Clay Holmes,0.0866,0.0245,3.7,,False
+2026-09-25,824703,655316,Andruw Monasterio,Boston Red Sox,Chicago Cubs,8,Fenway Park,0.92,Clay Holmes,0.064,0.0184,3.6,,False
+2026-09-25,824703,643396,Isiah Kiner-Falefa,Boston Red Sox,Chicago Cubs,9,Fenway Park,0.92,Clay Holmes,0.0634,0.0187,3.5,,False
+2026-09-25,824703,691718,Pete Crow-Armstrong,Chicago Cubs,Boston Red Sox,1,Fenway Park,0.92,Alec Gamboa,0.1717,0.0438,4.3,,False
+2026-09-25,824703,673548,Seiya Suzuki,Chicago Cubs,Boston Red Sox,2,Fenway Park,0.92,Alec Gamboa,0.1212,0.0308,4.2,,False
+2026-09-25,824703,608324,Alex Bregman,Chicago Cubs,Boston Red Sox,3,Fenway Park,0.92,Alec Gamboa,0.1259,0.0328,4.1,,False
+2026-09-25,824703,621438,Tyrone Taylor,Chicago Cubs,Boston Red Sox,4,Fenway Park,0.92,Alec Gamboa,0.1037,0.0274,4.0,,False
+2026-09-25,824703,663538,Nico Hoerner,Chicago Cubs,Boston Red Sox,5,Fenway Park,0.92,Alec Gamboa,0.0666,0.0177,3.9,,False
+2026-09-25,824703,807713,Matt Shaw,Chicago Cubs,Boston Red Sox,6,Fenway Park,0.92,Alec Gamboa,0.0889,0.0245,3.8,,False
+2026-09-25,824703,683737,Michael Busch,Chicago Cubs,Boston Red Sox,7,Fenway Park,0.92,Alec Gamboa,0.0949,0.0269,3.7,,False
+2026-09-25,824703,621020,Dansby Swanson,Chicago Cubs,Boston Red Sox,8,Fenway Park,0.92,Alec Gamboa,0.0991,0.029,3.6,,False
+2026-09-25,824703,665804,Miguel Amaya,Chicago Cubs,Boston Red Sox,9,Fenway Park,0.92,Alec Gamboa,0.0821,0.0245,3.5,,False

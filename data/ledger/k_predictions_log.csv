@@ -1191,3 +1191,6 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-20,823001,687273,Quinn Mathews,St. Louis Cardinals,Washington Nationals,Busch Stadium,0.97,6.5,8.679,9.186,0.2176,37.3,32.3,5.33,5.157,0.2611,0.7389,3.0,True
 2026-09-20,822844,693686,Spencer Miles,Toronto Blue Jays,Texas Rangers,Globe Life Field,1.0,6.5,8.542,9.219,0.2289,91.7,13.7,3.29,4.155,0.1275,0.8725,4.0,True
 2026-09-20,822844,594798,Jacob deGrom,Texas Rangers,Toronto Blue Jays,Globe Life Field,1.02,6.5,11.313,12.564,0.1911,154.3,33.7,5.32,5.479,0.3107,0.6893,2.0,True
+2026-09-25,824703,605280,Clay Holmes,Chicago Cubs,Boston Red Sox,Fenway Park,1.0,6.5,6.959,7.941,0.2171,97.0,28.3,5.71,4.73,0.1995,0.8005,,False
+2026-09-25,824703,687941,Alec Gamboa,Boston Red Sox,Chicago Cubs,Fenway Park,1.06,6.5,6.387,6.395,0.2114,31.0,12.7,2.53,3.704,0.0821,0.9179,,False
+2026-09-25,823491,694341,Brendan Beck,New York Yankees,Baltimore Orioles,Yankee Stadium,1.04,6.5,5.869,9.0,0.2486,7.7,1.0,3.33,5.415,0.3007,0.6993,,False
