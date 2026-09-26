@@ -373,7 +373,7 @@
     ]
   },
   "hr": {
-    "today_count": 18,
+    "today_count": 108,
     "total_graded": 14371,
     "since_date": "2026-06-21",
     "brier_score": 0.1011,
@@ -381,6 +381,46 @@
     "avg_predicted": 0.124,
     "actual_hr_rate": 0.1166,
     "top10_today": [
+      {
+        "player_name": "Yordan Alvarez",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 2,
+        "p_hr": 0.2369
+      },
+      {
+        "player_name": "Carter Jensen",
+        "team": "Kansas City Royals",
+        "opponent_pitcher": "Gavin Williams",
+        "venue": "Kauffman Stadium",
+        "lineup_spot": 1,
+        "p_hr": 0.2065
+      },
+      {
+        "player_name": "Isaac Paredes",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 3,
+        "p_hr": 0.1932
+      },
+      {
+        "player_name": "Jeremy Pe\u00f1a",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 1,
+        "p_hr": 0.1881
+      },
+      {
+        "player_name": "Christian Walker",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 6,
+        "p_hr": 0.1817
+      },
       {
         "player_name": "Pete Crow-Armstrong",
         "team": "Chicago Cubs",
@@ -390,76 +430,36 @@
         "p_hr": 0.1717
       },
       {
-        "player_name": "Alex Bregman",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Alec Gamboa",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hr": 0.1259
-      },
-      {
-        "player_name": "Seiya Suzuki",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Alec Gamboa",
-        "venue": "Fenway Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1212
-      },
-      {
-        "player_name": "Mickey Gasper",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Clay Holmes",
-        "venue": "Fenway Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1181
-      },
-      {
-        "player_name": "Tyrone Taylor",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Alec Gamboa",
-        "venue": "Fenway Park",
-        "lineup_spot": 4,
-        "p_hr": 0.1037
-      },
-      {
-        "player_name": "Dansby Swanson",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Alec Gamboa",
-        "venue": "Fenway Park",
-        "lineup_spot": 8,
-        "p_hr": 0.0991
-      },
-      {
-        "player_name": "Wilyer Abreu",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Clay Holmes",
-        "venue": "Fenway Park",
-        "lineup_spot": 4,
-        "p_hr": 0.095
-      },
-      {
-        "player_name": "Michael Busch",
-        "team": "Chicago Cubs",
-        "opponent_pitcher": "Alec Gamboa",
-        "venue": "Fenway Park",
-        "lineup_spot": 7,
-        "p_hr": 0.0949
-      },
-      {
-        "player_name": "Adley Rutschman",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Clay Holmes",
-        "venue": "Fenway Park",
-        "lineup_spot": 3,
-        "p_hr": 0.0933
-      },
-      {
-        "player_name": "Roman Anthony",
-        "team": "Boston Red Sox",
-        "opponent_pitcher": "Clay Holmes",
-        "venue": "Fenway Park",
+        "player_name": "Zach Neto",
+        "team": "Los Angeles Angels",
+        "opponent_pitcher": "Bryce Miller",
+        "venue": "T-Mobile Park",
         "lineup_spot": 1,
-        "p_hr": 0.0932
+        "p_hr": 0.1715
+      },
+      {
+        "player_name": "Nolan Arenado",
+        "team": "Arizona Diamondbacks",
+        "opponent_pitcher": "Casey Mize",
+        "venue": "Petco Park",
+        "lineup_spot": 6,
+        "p_hr": 0.1672
+      },
+      {
+        "player_name": "Yainer Diaz",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 5,
+        "p_hr": 0.1668
+      },
+      {
+        "player_name": "Lucas Spence",
+        "team": "Houston Astros",
+        "opponent_pitcher": "Jacob Lopez",
+        "venue": "Sutter Health Park",
+        "lineup_spot": 8,
+        "p_hr": 0.1666
       }
     ],
     "calibration": [
@@ -1383,14 +1383,64 @@
     ]
   },
   "k": {
-    "today_count": 3,
+    "today_count": 13,
     "total_graded": 1190,
     "since_date": "2026-06-27",
     "brier_score": 0.1522,
     "naive_brier": 0.25,
-    "avg_lambda": 4.62,
+    "avg_lambda": 5.07,
     "over_rate": 0.229,
     "top10_today": [
+      {
+        "pitcher_name": "Gavin Williams",
+        "team": "Cleveland Guardians",
+        "opponent": "Kansas City Royals",
+        "venue": "Kauffman Stadium",
+        "line": 6.5,
+        "lambda_k": 6.83,
+        "p_over": 0.5252,
+        "p_under": 0.4748
+      },
+      {
+        "pitcher_name": "Tarik Skubal",
+        "team": "Los Angeles Dodgers",
+        "opponent": "San Francisco Giants",
+        "venue": "Oracle Park",
+        "line": 6.5,
+        "lambda_k": 6.21,
+        "p_over": 0.4275,
+        "p_under": 0.5725
+      },
+      {
+        "pitcher_name": "Hunter Brown",
+        "team": "Houston Astros",
+        "opponent": "Athletics",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 6.14,
+        "p_over": 0.4155,
+        "p_under": 0.5845
+      },
+      {
+        "pitcher_name": "Bryce Miller",
+        "team": "Seattle Mariners",
+        "opponent": "Los Angeles Angels",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 6.13,
+        "p_over": 0.415,
+        "p_under": 0.585
+      },
+      {
+        "pitcher_name": "Reid Detmers",
+        "team": "Los Angeles Angels",
+        "opponent": "Seattle Mariners",
+        "venue": "T-Mobile Park",
+        "line": 6.5,
+        "lambda_k": 6.12,
+        "p_over": 0.4125,
+        "p_under": 0.5875
+      },
       {
         "pitcher_name": "Brendan Beck",
         "team": "New York Yankees",
@@ -1412,14 +1462,34 @@
         "p_under": 0.8005
       },
       {
-        "pitcher_name": "Alec Gamboa",
-        "team": "Boston Red Sox",
-        "opponent": "Chicago Cubs",
-        "venue": "Fenway Park",
+        "pitcher_name": "Noah Cameron",
+        "team": "Kansas City Royals",
+        "opponent": "Cleveland Guardians",
+        "venue": "Kauffman Stadium",
         "line": 6.5,
-        "lambda_k": 3.7,
-        "p_over": 0.0821,
-        "p_under": 0.9179
+        "lambda_k": 4.7,
+        "p_over": 0.195,
+        "p_under": 0.805
+      },
+      {
+        "pitcher_name": "Jacob Lopez",
+        "team": "Athletics",
+        "opponent": "Houston Astros",
+        "venue": "Sutter Health Park",
+        "line": 6.5,
+        "lambda_k": 4.44,
+        "p_over": 0.161,
+        "p_under": 0.839
+      },
+      {
+        "pitcher_name": "Brandon Pfaadt",
+        "team": "Arizona Diamondbacks",
+        "opponent": "San Diego Padres",
+        "venue": "Petco Park",
+        "line": 6.5,
+        "lambda_k": 4.04,
+        "p_over": 0.1152,
+        "p_under": 0.8848
       }
     ],
     "calibration": [
@@ -1737,7 +1807,7 @@
   },
   "cfb": {
     "today_count": 6,
-    "total_graded": 249,
+    "total_graded": 253,
     "board": [
       {
         "away": "Northwestern",
@@ -1768,11 +1838,23 @@
         "home": "California",
         "cls": "FBS",
         "model": 8.4,
-        "market": 1.5,
-        "edge": 6.9,
+        "market": 2.5,
+        "edge": 5.9,
         "side": "Clemson",
         "dir": "FAV",
         "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Howard",
+        "home": "Rutgers",
+        "cls": "FCS",
+        "model": -45.5,
+        "market": -42.25,
+        "edge": -3.3,
+        "side": "Rutgers",
+        "dir": "FAV",
+        "playable": false,
         "flag": ""
       },
       {
@@ -1788,24 +1870,12 @@
         "flag": ""
       },
       {
-        "away": "Howard",
-        "home": "Rutgers",
-        "cls": "FCS",
-        "model": -39.5,
-        "market": -41.75,
-        "edge": 2.2,
-        "side": "Howard",
-        "dir": "DOG",
-        "playable": false,
-        "flag": ""
-      },
-      {
         "away": "Army",
         "home": "Temple",
         "cls": "FBS",
         "model": 4.6,
-        "market": 3.5,
-        "edge": 1.1,
+        "market": 4.0,
+        "edge": 0.6,
         "side": "Army",
         "dir": "FAV",
         "playable": false,
@@ -1815,33 +1885,33 @@
     "splits": [
       {
         "split": "FBS",
-        "record": "58-54",
-        "win_pct": 0.5178571428571429,
-        "n": 112
+        "record": "59-55",
+        "win_pct": 0.5175438596491229,
+        "n": 114
       },
       {
         "split": "FCS",
-        "record": "33-27",
-        "win_pct": 0.55,
-        "n": 60
+        "record": "33-28",
+        "win_pct": 0.5409836065573771,
+        "n": 61
       },
       {
         "split": "FAV",
-        "record": "45-39",
-        "win_pct": 0.5357142857142857,
-        "n": 84
+        "record": "46-40",
+        "win_pct": 0.5348837209302325,
+        "n": 86
       },
       {
         "split": "DOG",
-        "record": "84-81",
-        "win_pct": 0.509090909090909,
-        "n": 165
+        "record": "85-82",
+        "win_pct": 0.5089820359281437,
+        "n": 167
       }
     ],
-    "record": "129-120",
-    "win_pct": 0.5180722891566265,
-    "mae_model": 13.559126984126987,
-    "mae_market": 11.271825396825397
+    "record": "131-122",
+    "win_pct": 0.5177865612648221,
+    "mae_model": 13.4921875,
+    "mae_market": 11.2119140625
   },
   "nfl": {
     "today_count": 370,
@@ -1852,8 +1922,8 @@
         "pos": "RB",
         "team": "BAL",
         "game": "BAL@DAL",
-        "p_td": 0.7495270441993895,
-        "fair": -299,
+        "p_td": 0.7531940545061415,
+        "fair": -305,
         "moved": false
       },
       {
@@ -1956,15 +2026,6 @@
         "moved": true
       },
       {
-        "player": "Kyren Williams",
-        "pos": "RB",
-        "team": "LA",
-        "game": "LA@DEN",
-        "p_td": 0.4347687313311195,
-        "fair": 130,
-        "moved": false
-      },
-      {
         "player": "Chris Rodriguez Jr.",
         "pos": "RB",
         "team": "JAX",
@@ -1972,6 +2033,15 @@
         "p_td": 0.4306658144018513,
         "fair": 132,
         "moved": true
+      },
+      {
+        "player": "Kyren Williams",
+        "pos": "RB",
+        "team": "LA",
+        "game": "LA@DEN",
+        "p_td": 0.43038620020088,
+        "fair": 132,
+        "moved": false
       },
       {
         "player": "Saquon Barkley",
@@ -2055,21 +2125,21 @@
         "moved": true
       },
       {
+        "player": "RJ Harvey",
+        "pos": "RB",
+        "team": "DEN",
+        "game": "LA@DEN",
+        "p_td": 0.3720192981672416,
+        "fair": 168,
+        "moved": false
+      },
+      {
         "player": "George Kittle",
         "pos": "TE",
         "team": "SF",
         "game": "ARI@SF",
         "p_td": 0.3698720649403401,
         "fair": 170,
-        "moved": false
-      },
-      {
-        "player": "RJ Harvey",
-        "pos": "RB",
-        "team": "DEN",
-        "game": "LA@DEN",
-        "p_td": 0.3674990393855399,
-        "fair": 172,
         "moved": false
       },
       {
@@ -2091,21 +2161,30 @@
         "moved": false
       },
       {
-        "player": "Cam Skattebo",
-        "pos": "RB",
-        "team": "NYG",
-        "game": "TEN@NYG",
-        "p_td": 0.3592590255710053,
-        "fair": 178,
-        "moved": false
-      },
-      {
         "player": "Bucky Irving",
         "pos": "RB",
         "team": "TB",
         "game": "MIN@TB",
         "p_td": 0.3566359679845048,
         "fair": 180,
+        "moved": false
+      },
+      {
+        "player": "Cam Skattebo",
+        "pos": "RB",
+        "team": "NYG",
+        "game": "TEN@NYG",
+        "p_td": 0.3547061584163588,
+        "fair": 181,
+        "moved": false
+      },
+      {
+        "player": "Javonte Williams",
+        "pos": "RB",
+        "team": "DAL",
+        "game": "BAL@DAL",
+        "p_td": 0.3496746639896894,
+        "fair": 185,
         "moved": false
       },
       {
@@ -2134,15 +2213,6 @@
         "p_td": 0.3468624147106395,
         "fair": 188,
         "moved": true
-      },
-      {
-        "player": "Javonte Williams",
-        "pos": "RB",
-        "team": "DAL",
-        "game": "BAL@DAL",
-        "p_td": 0.3462051477685866,
-        "fair": 188,
-        "moved": false
       },
       {
         "player": "Tee Higgins",
@@ -2181,12 +2251,12 @@
         "moved": false
       },
       {
-        "player": "Puka Nacua",
-        "pos": "WR",
-        "team": "LA",
-        "game": "LA@DEN",
-        "p_td": 0.3227613057556923,
-        "fair": 209,
+        "player": "Mark Andrews",
+        "pos": "TE",
+        "team": "BAL",
+        "game": "BAL@DAL",
+        "p_td": 0.323762866803876,
+        "fair": 208,
         "moved": false
       },
       {
@@ -2199,12 +2269,12 @@
         "moved": false
       },
       {
-        "player": "Mark Andrews",
-        "pos": "TE",
-        "team": "BAL",
-        "game": "BAL@DAL",
-        "p_td": 0.3209684501113694,
-        "fair": 211,
+        "player": "Puka Nacua",
+        "pos": "WR",
+        "team": "LA",
+        "game": "LA@DEN",
+        "p_td": 0.3191786676097575,
+        "fair": 213,
         "moved": false
       }
     ],
@@ -2826,7 +2896,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 18,
+        "today": 108,
         "graded": 14371,
         "metric": "Brier",
         "value": 0.1011,
@@ -2836,7 +2906,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 3,
+        "today": 13,
         "graded": 1190,
         "metric": "Brier",
         "value": 0.1522,
@@ -2857,13 +2927,13 @@
       {
         "model": "College FB spread",
         "today": 6,
-        "graded": 249,
+        "graded": 253,
         "metric": "ATS",
-        "value": 0.5180722891566265,
+        "value": 0.5177865612648221,
         "baseline": 0.5238,
-        "edge_pct": -0.5727710843373535,
-        "note": "MAE 13.56 vs market 11.27",
-        "verdict": "129-120"
+        "edge_pct": -0.6013438735177901,
+        "note": "MAE 13.49 vs market 11.21",
+        "verdict": "131-122"
       },
       {
         "model": "NFL anytime TD",
@@ -2932,8 +3002,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 397,
-    "total_graded": 29650,
+    "total_today": 497,
+    "total_graded": 29654,
     "model_count": 11
   }
 }
