@@ -1,0 +1,7 @@
+away,home,cls,kick,model,market,edge,side,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Northwestern,Indiana,FBS,20:00,-30.1,-20.25,-9.8,Indiana,FAV,20.25,False,True,,2026-09-25,,,,
+Navy,UAB,FBS,19:00,14.2,6.5,7.7,Navy,FAV,6.5,False,True,BLIND-SPOT,2026-09-25,24.0,20.0,-4.0,L
+Clemson,California,FBS,22:30,8.4,1.5,6.9,Clemson,FAV,1.5,False,True,,2026-09-25,,,,
+Harvard,Brown,fcs-only,19:00,10.8,13.5,-2.7,Brown,DOG,13.5,False,False,,2026-09-25,10.0,14.0,4.0,W
+Howard,Rutgers,FCS,19:00,-39.5,-41.75,2.2,Howard,DOG,41.75,False,False,,2026-09-25,58.0,7.0,-51.0,L
+Army,Temple,FBS,16:00,4.6,3.5,1.1,Army,FAV,3.5,False,False,NY-RESTRICTED,2026-09-25,17.0,21.0,4.0,W

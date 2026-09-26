@@ -14410,3 +14410,93 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-25,824703,683737,Michael Busch,Chicago Cubs,Boston Red Sox,7,Fenway Park,0.92,Alec Gamboa,0.0949,0.0269,3.7,,False
 2026-09-25,824703,621020,Dansby Swanson,Chicago Cubs,Boston Red Sox,8,Fenway Park,0.92,Alec Gamboa,0.0991,0.029,3.6,,False
 2026-09-25,824703,665804,Miguel Amaya,Chicago Cubs,Boston Red Sox,9,Fenway Park,0.92,Alec Gamboa,0.0821,0.0245,3.5,,False
+2026-09-25,824058,695600,Carter Jensen,Kansas City Royals,Cleveland Guardians,1,Kauffman Stadium,0.85,Gavin Williams,0.2065,0.0538,4.3,,False
+2026-09-25,824058,677951,Bobby Witt Jr.,Kansas City Royals,Cleveland Guardians,2,Kauffman Stadium,0.85,Gavin Williams,0.1345,0.0344,4.2,,False
+2026-09-25,824058,695506,Jac Caglianone,Kansas City Royals,Cleveland Guardians,3,Kauffman Stadium,0.85,Gavin Williams,0.1504,0.0397,4.1,,False
+2026-09-25,824058,672580,Maikel Garcia,Kansas City Royals,Cleveland Guardians,4,Kauffman Stadium,0.85,Gavin Williams,0.0986,0.0259,4.0,,False
+2026-09-25,824058,686469,Vinnie Pasquantino,Kansas City Royals,Cleveland Guardians,5,Kauffman Stadium,0.85,Gavin Williams,0.157,0.0438,3.9,,False
+2026-09-25,824058,521692,Salvador Perez,Kansas City Royals,Cleveland Guardians,6,Kauffman Stadium,0.85,Gavin Williams,0.1316,0.0371,3.8,,False
+2026-09-25,824058,686681,Michael Massey,Kansas City Royals,Cleveland Guardians,7,Kauffman Stadium,0.85,Gavin Williams,0.1198,0.0345,3.7,,False
+2026-09-25,824058,670231,John Rave,Kansas City Royals,Cleveland Guardians,8,Kauffman Stadium,0.85,Gavin Williams,0.1322,0.0394,3.6,,False
+2026-09-25,824058,664728,Kyle Isbel,Kansas City Royals,Cleveland Guardians,9,Kauffman Stadium,0.85,Gavin Williams,0.0956,0.0287,3.5,,False
+2026-09-25,824058,680757,Steven Kwan,Cleveland Guardians,Kansas City Royals,1,Kauffman Stadium,0.85,Noah Cameron,0.073,0.0176,4.3,,False
+2026-09-25,824058,608070,José Ramírez,Cleveland Guardians,Kansas City Royals,2,Kauffman Stadium,0.85,Noah Cameron,0.1047,0.0263,4.2,,False
+2026-09-25,824058,800050,Chase DeLauter,Cleveland Guardians,Kansas City Royals,3,Kauffman Stadium,0.85,Noah Cameron,0.1057,0.0272,4.1,,False
+2026-09-25,824058,666176,Jo Adell,Cleveland Guardians,Kansas City Royals,4,Kauffman Stadium,0.85,Noah Cameron,0.1122,0.0298,4.0,,False
+2026-09-25,824058,682657,Angel Martínez,Cleveland Guardians,Kansas City Royals,5,Kauffman Stadium,0.85,Noah Cameron,0.1383,0.0382,3.9,,False
+2026-09-25,824058,681807,David Fry,Cleveland Guardians,Kansas City Royals,6,Kauffman Stadium,0.85,Noah Cameron,0.1148,0.0321,3.8,,False
+2026-09-25,824058,683953,Travis Bazzana,Cleveland Guardians,Kansas City Royals,7,Kauffman Stadium,0.85,Noah Cameron,0.1142,0.0328,3.7,,False
+2026-09-25,824058,595978,Austin Hedges,Cleveland Guardians,Kansas City Royals,8,Kauffman Stadium,0.85,Noah Cameron,0.0941,0.0275,3.6,,False
+2026-09-25,824058,677587,Brayan Rocchio,Cleveland Guardians,Kansas City Royals,9,Kauffman Stadium,0.85,Noah Cameron,0.0895,0.0268,3.5,,False
+2026-09-25,824947,703607,Henry Bolte,Athletics,Houston Astros,1,Sutter Health Park,1.0,Hunter Brown,0.1181,0.0292,4.3,,False
+2026-09-25,824947,671732,Lawrence Butler,Athletics,Houston Astros,2,Sutter Health Park,1.0,Hunter Brown,0.1372,0.0351,4.2,,False
+2026-09-25,824947,669127,Shea Langeliers,Athletics,Houston Astros,3,Sutter Health Park,1.0,Hunter Brown,0.1344,0.0352,4.1,,False
+2026-09-25,824947,643446,Jeff McNeil,Athletics,Houston Astros,4,Sutter Health Park,1.0,Hunter Brown,0.0981,0.0258,4.0,,False
+2026-09-25,824947,680869,Zack Gelof,Athletics,Houston Astros,5,Sutter Health Park,1.0,Hunter Brown,0.1552,0.0432,3.9,,False
+2026-09-25,824947,622268,Donovan Walton,Athletics,Houston Astros,6,Sutter Health Park,1.0,Hunter Brown,0.1251,0.0352,3.8,,False
+2026-09-25,824947,666126,Carlos Cortes,Athletics,Houston Astros,7,Sutter Health Park,1.0,Hunter Brown,0.1037,0.0296,3.7,,False
+2026-09-25,824947,695720,Tommy White,Athletics,Houston Astros,8,Sutter Health Park,1.0,Hunter Brown,0.0912,0.0266,3.6,,False
+2026-09-25,824947,641680,Jonah Heim,Athletics,Houston Astros,9,Sutter Health Park,1.0,Hunter Brown,0.1008,0.0303,3.5,,False
+2026-09-25,824947,665161,Jeremy Peña,Houston Astros,Athletics,1,Sutter Health Park,1.0,Jacob Lopez,0.1881,0.0485,4.3,,False
+2026-09-25,824947,670541,Yordan Alvarez,Houston Astros,Athletics,2,Sutter Health Park,1.0,Jacob Lopez,0.2369,0.0644,4.2,,False
+2026-09-25,824947,670623,Isaac Paredes,Houston Astros,Athletics,3,Sutter Health Park,1.0,Jacob Lopez,0.1932,0.0524,4.1,,False
+2026-09-25,824947,514888,Jose Altuve,Houston Astros,Athletics,4,Sutter Health Park,1.0,Jacob Lopez,0.1469,0.0397,4.0,,False
+2026-09-25,824947,673237,Yainer Diaz,Houston Astros,Athletics,5,Sutter Health Park,1.0,Jacob Lopez,0.1668,0.0468,3.9,,False
+2026-09-25,824947,572233,Christian Walker,Houston Astros,Athletics,6,Sutter Health Park,1.0,Jacob Lopez,0.1817,0.0528,3.8,,False
+2026-09-25,824947,701358,Cam Smith,Houston Astros,Athletics,7,Sutter Health Park,1.0,Jacob Lopez,0.1606,0.0473,3.7,,False
+2026-09-25,824947,828599,Lucas Spence,Houston Astros,Athletics,8,Sutter Health Park,1.0,Jacob Lopez,0.1666,0.0506,3.6,,False
+2026-09-25,824947,678489,Jorge Barrosa,Houston Astros,Athletics,9,Sutter Health Park,1.0,Jacob Lopez,0.1267,0.0387,3.5,,False
+2026-09-25,823248,665487,Fernando Tatis Jr.,San Diego Padres,Arizona Diamondbacks,1,Petco Park,0.85,Brandon Pfaadt,0.1346,0.0336,4.3,,False
+2026-09-25,823248,687957,Dustin Harris,San Diego Padres,Arizona Diamondbacks,2,Petco Park,0.85,Brandon Pfaadt,0.0811,0.0201,4.2,,False
+2026-09-25,823248,592518,Manny Machado,San Diego Padres,Arizona Diamondbacks,3,Petco Park,0.85,Brandon Pfaadt,0.1361,0.0357,4.1,,False
+2026-09-25,823248,664034,Ty France,San Diego Padres,Arizona Diamondbacks,4,Petco Park,0.85,Brandon Pfaadt,0.1216,0.0324,4.0,,False
+2026-09-25,823248,701538,Jackson Merrill,San Diego Padres,Arizona Diamondbacks,5,Petco Park,0.85,Brandon Pfaadt,0.1198,0.0327,3.9,,False
+2026-09-25,823248,593428,Xander Bogaerts,San Diego Padres,Arizona Diamondbacks,6,Petco Park,0.85,Brandon Pfaadt,0.0825,0.0227,3.8,,False
+2026-09-25,823248,669134,Luis Campusano,San Diego Padres,Arizona Diamondbacks,7,Petco Park,0.85,Brandon Pfaadt,0.102,0.0291,3.7,,False
+2026-09-25,823248,630105,Jake Cronenworth,San Diego Padres,Arizona Diamondbacks,8,Petco Park,0.85,Brandon Pfaadt,0.0814,0.0236,3.6,,False
+2026-09-25,823248,669392,Samad Taylor,San Diego Padres,Arizona Diamondbacks,9,Petco Park,0.85,Brandon Pfaadt,0.0786,0.0234,3.5,,False
+2026-09-25,823248,663457,Lars Nootbaar,Arizona Diamondbacks,San Diego Padres,1,Petco Park,0.85,Casey Mize,0.1357,0.0339,4.3,,False
+2026-09-25,823248,606466,Ketel Marte,Arizona Diamondbacks,San Diego Padres,2,Petco Park,0.85,Casey Mize,0.1258,0.032,4.2,,False
+2026-09-25,823248,672515,Gabriel Moreno,Arizona Diamondbacks,San Diego Padres,3,Petco Park,0.85,Casey Mize,0.1383,0.0363,4.1,,False
+2026-09-25,823248,672695,Geraldo Perdomo,Arizona Diamondbacks,San Diego Padres,4,Petco Park,0.85,Casey Mize,0.0857,0.0224,4.0,,False
+2026-09-25,823248,682998,Corbin Carroll,Arizona Diamondbacks,San Diego Padres,5,Petco Park,0.85,Casey Mize,0.1317,0.0362,3.9,,False
+2026-09-25,823248,571448,Nolan Arenado,Arizona Diamondbacks,San Diego Padres,6,Petco Park,0.85,Casey Mize,0.1672,0.0481,3.8,,False
+2026-09-25,823248,694374,Tim Tawa,Arizona Diamondbacks,San Diego Padres,7,Petco Park,0.85,Casey Mize,0.119,0.0342,3.7,,False
+2026-09-25,823248,656976,Pavin Smith,Arizona Diamondbacks,San Diego Padres,8,Petco Park,0.85,Casey Mize,0.1144,0.0338,3.6,,False
+2026-09-25,823248,691783,Jordan Lawlar,Arizona Diamondbacks,San Diego Padres,9,Petco Park,0.85,Casey Mize,0.1212,0.0369,3.5,,False
+2026-09-25,823085,668227,Randy Arozarena,Seattle Mariners,Los Angeles Angels,1,T-Mobile Park,0.85,Reid Detmers,0.1436,0.0361,4.3,,False
+2026-09-25,823085,686527,Dominic Canzone,Seattle Mariners,Los Angeles Angels,2,T-Mobile Park,0.85,Reid Detmers,0.1224,0.0311,4.2,,False
+2026-09-25,823085,677594,Julio Rodríguez,Seattle Mariners,Los Angeles Angels,3,T-Mobile Park,0.85,Reid Detmers,0.1087,0.0281,4.1,,False
+2026-09-25,823085,647304,Josh Naylor,Seattle Mariners,Los Angeles Angels,4,T-Mobile Park,0.85,Reid Detmers,0.0732,0.019,4.0,,False
+2026-09-25,823085,703197,Michael Arroyo,Seattle Mariners,Los Angeles Angels,5,T-Mobile Park,0.85,Reid Detmers,0.1016,0.0275,3.9,,False
+2026-09-25,823085,702284,Cole Young,Seattle Mariners,Los Angeles Angels,6,T-Mobile Park,0.85,Reid Detmers,0.0868,0.0239,3.8,,False
+2026-09-25,823085,640902,Jhonny Pereda,Seattle Mariners,Los Angeles Angels,7,T-Mobile Park,0.85,Reid Detmers,0.0924,0.0262,3.7,,False
+2026-09-25,823085,642215,Weston Wilson,Seattle Mariners,Los Angeles Angels,8,T-Mobile Park,0.85,Reid Detmers,0.085,0.0247,3.6,,False
+2026-09-25,823085,660844,Leo Rivas,Seattle Mariners,Los Angeles Angels,9,T-Mobile Park,0.85,Reid Detmers,0.0786,0.0234,3.5,,False
+2026-09-25,823085,687263,Zach Neto,Los Angeles Angels,Seattle Mariners,1,T-Mobile Park,0.85,Bryce Miller,0.1715,0.0438,4.3,,False
+2026-09-25,823085,545361,Mike Trout,Los Angeles Angels,Seattle Mariners,2,T-Mobile Park,0.85,Bryce Miller,0.159,0.0412,4.2,,False
+2026-09-25,823085,685133,Wade Meckler,Los Angeles Angels,Seattle Mariners,3,T-Mobile Park,0.85,Bryce Miller,0.1007,0.0259,4.1,,False
+2026-09-25,823085,687093,Vaughn Grissom,Los Angeles Angels,Seattle Mariners,4,T-Mobile Park,0.85,Bryce Miller,0.1451,0.0392,4.0,,False
+2026-09-25,823085,694208,Moisés Ballesteros,Los Angeles Angels,Seattle Mariners,5,T-Mobile Park,0.85,Bryce Miller,0.1376,0.038,3.9,,False
+2026-09-25,823085,666139,Josh Lowe,Los Angeles Angels,Seattle Mariners,6,T-Mobile Park,0.85,Bryce Miller,0.145,0.0412,3.8,,False
+2026-09-25,823085,695681,Christian Moore,Los Angeles Angels,Seattle Mariners,7,T-Mobile Park,0.85,Bryce Miller,0.1009,0.0287,3.7,,False
+2026-09-25,823085,518595,Travis d'Arnaud,Los Angeles Angels,Seattle Mariners,8,T-Mobile Park,0.85,Bryce Miller,0.1145,0.0338,3.6,,False
+2026-09-25,823085,669326,Bryce Teodosio,Los Angeles Angels,Seattle Mariners,9,T-Mobile Park,0.85,Bryce Miller,0.111,0.0336,3.5,,False
+2026-09-25,823167,813841,Jonah Cox,San Francisco Giants,Los Angeles Dodgers,1,Oracle Park,0.78,Tarik Skubal,0.0942,0.023,4.3,,False
+2026-09-25,823167,695391,Brett Harris,San Francisco Giants,Los Angeles Dodgers,2,Oracle Park,0.78,Tarik Skubal,0.0866,0.0216,4.2,,False
+2026-09-25,823167,682674,Victor Bericoto,San Francisco Giants,Los Angeles Dodgers,3,Oracle Park,0.78,Tarik Skubal,0.1007,0.0259,4.1,,False
+2026-09-25,823167,815589,Bo Davidson,San Francisco Giants,Los Angeles Dodgers,4,Oracle Park,0.78,Tarik Skubal,0.0884,0.0231,4.0,,False
+2026-09-25,823167,668800,Andrew Knizner,San Francisco Giants,Los Angeles Dodgers,5,Oracle Park,0.78,Tarik Skubal,0.0854,0.0229,3.9,,False
+2026-09-25,823167,691785,Marcelo Mayer,San Francisco Giants,Los Angeles Dodgers,6,Oracle Park,0.78,Tarik Skubal,0.0804,0.0221,3.8,,False
+2026-09-25,823167,694376,Shay Whitcomb,San Francisco Giants,Los Angeles Dodgers,7,Oracle Park,0.78,Tarik Skubal,0.0826,0.0233,3.7,,False
+2026-09-25,823167,814154,Scott Bandura,San Francisco Giants,Los Angeles Dodgers,8,Oracle Park,0.78,Tarik Skubal,0.0773,0.0224,3.6,,False
+2026-09-25,823167,683766,Christian Koss,San Francisco Giants,Los Angeles Dodgers,9,Oracle Park,0.78,Tarik Skubal,0.0827,0.0247,3.5,,False
+2026-09-25,823167,660271,Shohei Ohtani,Los Angeles Dodgers,San Francisco Giants,1,Oracle Park,0.78,Yunior Marte,0.1618,0.0411,4.3,,False
+2026-09-25,823167,605141,Mookie Betts,Los Angeles Dodgers,San Francisco Giants,2,Oracle Park,0.78,Yunior Marte,0.1631,0.0424,4.2,,False
+2026-09-25,823167,518692,Freddie Freeman,Los Angeles Dodgers,San Francisco Giants,3,Oracle Park,0.78,Yunior Marte,0.1127,0.0292,4.1,,False
+2026-09-25,823167,669257,Will Smith,Los Angeles Dodgers,San Francisco Giants,4,Oracle Park,0.78,Yunior Marte,0.1473,0.0398,4.0,,False
+2026-09-25,823167,663656,Kyle Tucker,Los Angeles Dodgers,San Francisco Giants,5,Oracle Park,0.78,Yunior Marte,0.1358,0.0374,3.9,,False
+2026-09-25,823167,606192,Teoscar Hernández,Los Angeles Dodgers,San Francisco Giants,6,Oracle Park,0.78,Yunior Marte,0.1286,0.0362,3.8,,False
+2026-09-25,823167,571970,Max Muncy,Los Angeles Dodgers,San Francisco Giants,7,Oracle Park,0.78,Yunior Marte,0.1523,0.0447,3.7,,False
+2026-09-25,823167,681624,Andy Pages,Los Angeles Dodgers,San Francisco Giants,8,Oracle Park,0.78,Yunior Marte,0.129,0.0384,3.6,,False
+2026-09-25,823167,571771,Enrique Hernández,Los Angeles Dodgers,San Francisco Giants,9,Oracle Park,0.78,Yunior Marte,0.1082,0.0327,3.5,,False

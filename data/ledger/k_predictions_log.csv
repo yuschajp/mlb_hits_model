@@ -1194,3 +1194,13 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-25,824703,605280,Clay Holmes,Chicago Cubs,Boston Red Sox,Fenway Park,1.0,6.5,6.959,7.941,0.2171,97.0,28.3,5.71,4.73,0.1995,0.8005,,False
 2026-09-25,824703,687941,Alec Gamboa,Boston Red Sox,Chicago Cubs,Fenway Park,1.06,6.5,6.387,6.395,0.2114,31.0,12.7,2.53,3.704,0.0821,0.9179,,False
 2026-09-25,823491,694341,Brendan Beck,New York Yankees,Baltimore Orioles,Yankee Stadium,1.04,6.5,5.869,9.0,0.2486,7.7,1.0,3.33,5.415,0.3007,0.6993,,False
+2026-09-25,824058,668909,Gavin Williams,Cleveland Guardians,Kansas City Royals,Kauffman Stadium,0.99,6.5,12.109,14.258,0.2095,184.3,29.7,5.76,6.834,0.5252,0.4748,,False
+2026-09-25,824058,702070,Noah Cameron,Kansas City Royals,Cleveland Guardians,Kauffman Stadium,0.94,6.5,8.019,7.385,0.2094,177.3,39.0,5.72,4.697,0.195,0.805,,False
+2026-09-25,824947,686613,Hunter Brown,Houston Astros,Athletics,Sutter Health Park,1.0,6.5,10.443,12.295,0.2243,106.0,37.3,5.3,6.136,0.4155,0.5845,,False
+2026-09-25,824947,682052,Jacob Lopez,Athletics,Houston Astros,Sutter Health Park,0.93,6.5,8.285,8.206,0.2191,121.7,34.0,4.65,4.438,0.161,0.839,,False
+2026-09-25,823248,694297,Brandon Pfaadt,Arizona Diamondbacks,San Diego Padres,Petco Park,1.02,6.5,6.121,5.559,0.2164,132.3,34.0,5.61,4.043,0.1152,0.8848,,False
+2026-09-25,823248,663554,Casey Mize,San Diego Padres,Arizona Diamondbacks,Petco Park,0.92,6.5,7.538,4.602,0.1943,131.3,29.3,5.05,3.587,0.0722,0.9278,,False
+2026-09-25,823085,672282,Reid Detmers,Los Angeles Angels,Seattle Mariners,T-Mobile Park,0.99,6.5,10.236,9.231,0.2303,182.0,39.0,5.69,6.117,0.4125,0.5875,,False
+2026-09-25,823085,682243,Bryce Miller,Seattle Mariners,Los Angeles Angels,T-Mobile Park,0.92,6.5,9.026,10.0,0.2547,116.7,27.0,5.27,6.133,0.415,0.585,,False
+2026-09-25,823167,669373,Tarik Skubal,Los Angeles Dodgers,San Francisco Giants,Oracle Park,0.96,6.5,10.474,10.152,0.2189,154.7,41.7,5.95,6.21,0.4275,0.5725,,False
+2026-09-25,823167,805074,Yunior Marte,San Francisco Giants,Los Angeles Dodgers,Oracle Park,0.91,6.5,5.4,5.4,0.2038,23.3,23.3,4.67,3.896,0.1001,0.8999,,False
