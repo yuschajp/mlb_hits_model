@@ -1,0 +1,3 @@
+away,home,cls,kick,model,market,edge,side,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+North Texas,Tulsa,FBS,21:00,21.4,1.75,19.6,North Texas,FAV,1.75,False,False,BLIND-SPOT INFO-GAP,2026-10-01,44.0,45.0,1.0,L
+Western Kentucky,New Mexico State,FBS,20:00,5.0,-2.25,7.3,Western Kentucky,DOG,2.25,False,True,BLIND-SPOT,2026-10-01,34.0,13.0,-21.0,L

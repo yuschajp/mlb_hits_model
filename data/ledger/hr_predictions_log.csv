@@ -14626,21 +14626,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-09-27,823731,665877,José Fermín,St. Louis Cardinals,Milwaukee Brewers,7,American Family Field,1.08,Jacob Misiorowski,0.0735,0.0206,3.7,0.0,True
 2026-09-27,823731,693409,César Prieto,St. Louis Cardinals,Milwaukee Brewers,8,American Family Field,1.08,Jacob Misiorowski,0.0857,0.0249,3.6,0.0,True
 2026-09-27,823731,686780,Pedro Pagés,St. Louis Cardinals,Milwaukee Brewers,9,American Family Field,1.08,Jacob Misiorowski,0.0845,0.0252,3.5,0.0,True
-2026-10-01,849844,686948,Drake Baldwin,Atlanta Braves,Philadelphia Phillies,1,Truist Park,1.02,Aaron Nola,0.218,0.0572,4.3,,False
-2026-10-01,849844,660670,Ronald Acuña Jr.,Atlanta Braves,Philadelphia Phillies,2,Truist Park,1.02,Aaron Nola,0.2411,0.0657,4.2,,False
-2026-10-01,849844,621566,Matt Olson,Atlanta Braves,Philadelphia Phillies,3,Truist Park,1.02,Aaron Nola,0.2548,0.0717,4.1,,False
-2026-10-01,849844,671739,Michael Harris II,Atlanta Braves,Philadelphia Phillies,4,Truist Park,1.02,Aaron Nola,0.2022,0.0565,4.0,,False
-2026-10-01,849844,643289,Mauricio Dubón,Atlanta Braves,Philadelphia Phillies,5,Truist Park,1.02,Aaron Nola,0.1453,0.0403,3.9,,False
-2026-10-01,849844,573262,Mike Yastrzemski,Atlanta Braves,Philadelphia Phillies,6,Truist Park,1.02,Aaron Nola,0.1783,0.0517,3.8,,False
-2026-10-01,849844,663586,Austin Riley,Atlanta Braves,Philadelphia Phillies,7,Truist Park,1.02,Aaron Nola,0.1782,0.053,3.7,,False
-2026-10-01,849844,645277,Ozzie Albies,Atlanta Braves,Philadelphia Phillies,8,Truist Park,1.02,Aaron Nola,0.1627,0.0493,3.6,,False
-2026-10-01,849844,642086,Dominic Smith,Atlanta Braves,Philadelphia Phillies,9,Truist Park,1.02,Aaron Nola,0.1644,0.0513,3.5,,False
-2026-10-01,849844,607208,Trea Turner,Philadelphia Phillies,Atlanta Braves,1,Truist Park,1.02,Ray Kerr,0.1167,0.0289,4.3,,False
-2026-10-01,849844,656941,Kyle Schwarber,Philadelphia Phillies,Atlanta Braves,2,Truist Park,1.02,Ray Kerr,0.1972,0.0523,4.2,,False
-2026-10-01,849844,547180,Bryce Harper,Philadelphia Phillies,Atlanta Braves,3,Truist Park,1.02,Ray Kerr,0.1358,0.0356,4.1,,False
-2026-10-01,849844,664761,Alec Bohm,Philadelphia Phillies,Atlanta Braves,4,Truist Park,1.02,Ray Kerr,0.111,0.0294,4.0,,False
-2026-10-01,849844,681082,Bryson Stott,Philadelphia Phillies,Atlanta Braves,5,Truist Park,1.02,Ray Kerr,0.0907,0.0244,3.9,,False
-2026-10-01,849844,650559,Bryan De La Cruz,Philadelphia Phillies,Atlanta Braves,6,Truist Park,1.02,Ray Kerr,0.1091,0.0304,3.8,,False
-2026-10-01,849844,624641,Edmundo Sosa,Philadelphia Phillies,Atlanta Braves,7,Truist Park,1.02,Ray Kerr,0.1262,0.0364,3.7,,False
-2026-10-01,849844,592663,J.T. Realmuto,Philadelphia Phillies,Atlanta Braves,8,Truist Park,1.02,Ray Kerr,0.0982,0.0287,3.6,,False
-2026-10-01,849844,702222,Justin Crawford,Philadelphia Phillies,Atlanta Braves,9,Truist Park,1.02,Ray Kerr,0.0815,0.0243,3.5,,False
+2026-10-01,849844,686948,Drake Baldwin,Atlanta Braves,Philadelphia Phillies,1,Truist Park,1.02,Aaron Nola,0.218,0.0572,4.3,0.0,True
+2026-10-01,849844,660670,Ronald Acuña Jr.,Atlanta Braves,Philadelphia Phillies,2,Truist Park,1.02,Aaron Nola,0.2411,0.0657,4.2,0.0,True
+2026-10-01,849844,621566,Matt Olson,Atlanta Braves,Philadelphia Phillies,3,Truist Park,1.02,Aaron Nola,0.2548,0.0717,4.1,1.0,True
+2026-10-01,849844,671739,Michael Harris II,Atlanta Braves,Philadelphia Phillies,4,Truist Park,1.02,Aaron Nola,0.2022,0.0565,4.0,1.0,True
+2026-10-01,849844,643289,Mauricio Dubón,Atlanta Braves,Philadelphia Phillies,5,Truist Park,1.02,Aaron Nola,0.1453,0.0403,3.9,0.0,True
+2026-10-01,849844,573262,Mike Yastrzemski,Atlanta Braves,Philadelphia Phillies,6,Truist Park,1.02,Aaron Nola,0.1783,0.0517,3.8,0.0,True
+2026-10-01,849844,663586,Austin Riley,Atlanta Braves,Philadelphia Phillies,7,Truist Park,1.02,Aaron Nola,0.1782,0.053,3.7,0.0,True
+2026-10-01,849844,645277,Ozzie Albies,Atlanta Braves,Philadelphia Phillies,8,Truist Park,1.02,Aaron Nola,0.1627,0.0493,3.6,1.0,True
+2026-10-01,849844,642086,Dominic Smith,Atlanta Braves,Philadelphia Phillies,9,Truist Park,1.02,Aaron Nola,0.1644,0.0513,3.5,0.0,True
+2026-10-01,849844,607208,Trea Turner,Philadelphia Phillies,Atlanta Braves,1,Truist Park,1.02,Ray Kerr,0.1167,0.0289,4.3,0.0,True
+2026-10-01,849844,656941,Kyle Schwarber,Philadelphia Phillies,Atlanta Braves,2,Truist Park,1.02,Ray Kerr,0.1972,0.0523,4.2,0.0,True
+2026-10-01,849844,547180,Bryce Harper,Philadelphia Phillies,Atlanta Braves,3,Truist Park,1.02,Ray Kerr,0.1358,0.0356,4.1,0.0,True
+2026-10-01,849844,664761,Alec Bohm,Philadelphia Phillies,Atlanta Braves,4,Truist Park,1.02,Ray Kerr,0.111,0.0294,4.0,0.0,True
+2026-10-01,849844,681082,Bryson Stott,Philadelphia Phillies,Atlanta Braves,5,Truist Park,1.02,Ray Kerr,0.0907,0.0244,3.9,0.0,True
+2026-10-01,849844,650559,Bryan De La Cruz,Philadelphia Phillies,Atlanta Braves,6,Truist Park,1.02,Ray Kerr,0.1091,0.0304,3.8,0.0,True
+2026-10-01,849844,624641,Edmundo Sosa,Philadelphia Phillies,Atlanta Braves,7,Truist Park,1.02,Ray Kerr,0.1262,0.0364,3.7,0.0,True
+2026-10-01,849844,592663,J.T. Realmuto,Philadelphia Phillies,Atlanta Braves,8,Truist Park,1.02,Ray Kerr,0.0982,0.0287,3.6,0.0,True
+2026-10-01,849844,702222,Justin Crawford,Philadelphia Phillies,Atlanta Braves,9,Truist Park,1.02,Ray Kerr,0.0815,0.0243,3.5,0.0,True
