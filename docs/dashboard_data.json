@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01",
+  "generated_at": "2026-10-02",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -373,95 +373,14 @@
     ]
   },
   "hr": {
-    "today_count": 18,
-    "total_graded": 14605,
+    "today_count": 0,
+    "total_graded": 14623,
     "since_date": "2026-06-21",
     "brier_score": 0.1009,
     "naive_brier": 0.1034,
     "avg_predicted": 0.124,
     "actual_hr_rate": 0.1163,
-    "top10_today": [
-      {
-        "player_name": "Matt Olson",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 3,
-        "p_hr": 0.2548
-      },
-      {
-        "player_name": "Ronald Acu\u00f1a Jr.",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 2,
-        "p_hr": 0.2411
-      },
-      {
-        "player_name": "Drake Baldwin",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 1,
-        "p_hr": 0.218
-      },
-      {
-        "player_name": "Michael Harris II",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 4,
-        "p_hr": 0.2022
-      },
-      {
-        "player_name": "Kyle Schwarber",
-        "team": "Philadelphia Phillies",
-        "opponent_pitcher": "Ray Kerr",
-        "venue": "Truist Park",
-        "lineup_spot": 2,
-        "p_hr": 0.1972
-      },
-      {
-        "player_name": "Mike Yastrzemski",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 6,
-        "p_hr": 0.1783
-      },
-      {
-        "player_name": "Austin Riley",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 7,
-        "p_hr": 0.1782
-      },
-      {
-        "player_name": "Dominic Smith",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 9,
-        "p_hr": 0.1644
-      },
-      {
-        "player_name": "Ozzie Albies",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 8,
-        "p_hr": 0.1627
-      },
-      {
-        "player_name": "Mauricio Dub\u00f3n",
-        "team": "Atlanta Braves",
-        "opponent_pitcher": "Aaron Nola",
-        "venue": "Truist Park",
-        "lineup_spot": 5,
-        "p_hr": 0.1453
-      }
-    ],
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.00-0.08",
@@ -471,33 +390,33 @@
       },
       {
         "range": "0.08-0.10",
-        "n": 2830,
+        "n": 2833,
         "predicted": 0.091,
         "actual": 0.069
       },
       {
         "range": "0.10-0.12",
-        "n": 3663,
+        "n": 3666,
         "predicted": 0.11,
         "actual": 0.1
       },
       {
         "range": "0.12-0.15",
-        "n": 3843,
+        "n": 3846,
         "predicted": 0.134,
         "actual": 0.133
       },
       {
         "range": "0.15-0.20",
-        "n": 2511,
+        "n": 2516,
         "predicted": 0.169,
         "actual": 0.167
       },
       {
         "range": "0.20-1.00",
-        "n": 574,
+        "n": 578,
         "predicted": 0.225,
-        "actual": 0.24
+        "actual": 0.242
       }
     ],
     "returns": [
@@ -1025,6 +944,13 @@
         "n_wins": 3,
         "daily_pnl": -12.5,
         "cumulative_pnl": -578.5
+      },
+      {
+        "date": "2026-10-01",
+        "n_bets": 9,
+        "n_wins": 3,
+        "daily_pnl": 4.5,
+        "cumulative_pnl": -574.0
       }
     ],
     "returns_label": "p_hr \u2265 15% \u00b7 flat +350",
@@ -1403,51 +1329,35 @@
         "date": "2026-09-27",
         "brier": 0.0861,
         "n": 234
+      },
+      {
+        "date": "2026-10-01",
+        "brier": 0.0888,
+        "n": 252
       }
     ]
   },
   "k": {
-    "today_count": 2,
-    "total_graded": 1217,
+    "today_count": 0,
+    "total_graded": 1219,
     "since_date": "2026-06-27",
-    "brier_score": 0.1528,
+    "brier_score": 0.1526,
     "naive_brier": 0.25,
-    "avg_lambda": 4.41,
+    "avg_lambda": null,
     "over_rate": 0.231,
-    "top10_today": [
-      {
-        "pitcher_name": "Aaron Nola",
-        "team": "Philadelphia Phillies",
-        "opponent": "Atlanta Braves",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 4.79,
-        "p_over": 0.2075,
-        "p_under": 0.7925
-      },
-      {
-        "pitcher_name": "Ray Kerr",
-        "team": "Atlanta Braves",
-        "opponent": "Philadelphia Phillies",
-        "venue": "Truist Park",
-        "line": 6.5,
-        "lambda_k": 4.03,
-        "p_over": 0.1137,
-        "p_under": 0.8863
-      }
-    ],
+    "top10_today": [],
     "calibration": [
       {
         "range": "0.0-0.2",
-        "n": 475,
+        "n": 476,
         "predicted": 0.141,
         "actual": 0.095
       },
       {
         "range": "0.2-0.4",
-        "n": 596,
+        "n": 597,
         "predicted": 0.28,
-        "actual": 0.252
+        "actual": 0.251
       },
       {
         "range": "0.4-0.6",
@@ -1737,6 +1647,11 @@
         "date": "2026-09-27",
         "brier": 0.1786,
         "n": 27
+      },
+      {
+        "date": "2026-10-01",
+        "brier": 0.1682,
+        "n": 29
       }
     ]
   },
@@ -1760,40 +1675,64 @@
     "history": []
   },
   "cfb": {
-    "today_count": 2,
-    "total_graded": 362,
+    "today_count": 4,
+    "total_graded": 364,
     "board": [
       {
-        "away": "North Texas",
-        "home": "Tulsa",
+        "away": "Pittsburgh",
+        "home": "Virginia Tech",
         "cls": "FBS",
-        "model": 21.4,
-        "market": 1.75,
-        "edge": 19.6,
-        "side": "North Texas",
-        "dir": "FAV",
+        "model": 13.7,
+        "market": -2.5,
+        "edge": 16.2,
+        "side": "Pittsburgh",
+        "dir": "DOG",
         "playable": false,
-        "flag": "BLIND-SPOT INFO-GAP"
+        "flag": "INFO-GAP"
       },
       {
-        "away": "Western Kentucky",
-        "home": "New Mexico State",
-        "cls": "FBS",
-        "model": 5.0,
-        "market": -2.25,
-        "edge": 7.3,
-        "side": "Western Kentucky",
-        "dir": "DOG",
+        "away": "Montana State",
+        "home": "Idaho",
+        "cls": "fcs-only",
+        "model": 25.8,
+        "market": 16.5,
+        "edge": 9.3,
+        "side": "Montana State",
+        "dir": "FAV",
         "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Penn State",
+        "home": "Northwestern",
+        "cls": "FBS",
+        "model": 7.9,
+        "market": 2.75,
+        "edge": 5.2,
+        "side": "Penn State",
+        "dir": "FAV",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "Liberty",
+        "home": "Delaware",
+        "cls": "FBS",
+        "model": 3.2,
+        "market": 6.75,
+        "edge": -3.5,
+        "side": "Delaware",
+        "dir": "DOG",
+        "playable": false,
         "flag": "BLIND-SPOT"
       }
     ],
     "splits": [
       {
         "split": "FBS",
-        "record": "83-82",
-        "win_pct": 0.503030303030303,
-        "n": 165
+        "record": "83-84",
+        "win_pct": 0.49700598802395207,
+        "n": 167
       },
       {
         "split": "FCS",
@@ -1803,24 +1742,24 @@
       },
       {
         "split": "FAV",
-        "record": "68-64",
-        "win_pct": 0.5151515151515151,
-        "n": 132
+        "record": "68-65",
+        "win_pct": 0.5112781954887218,
+        "n": 133
       },
       {
         "split": "DOG",
-        "record": "114-116",
-        "win_pct": 0.4956521739130435,
-        "n": 230
+        "record": "114-117",
+        "win_pct": 0.4935064935064935,
+        "n": 231
       }
     ],
-    "record": "182-180",
-    "win_pct": 0.5027624309392266,
-    "mae_model": 13.607356948228881,
-    "mae_market": 11.388283378746594
+    "record": "182-182",
+    "win_pct": 0.5,
+    "mae_model": 13.659349593495936,
+    "mae_market": 11.379403794037941
   },
   "nfl": {
-    "today_count": 393,
+    "today_count": 372,
     "total_graded": 0,
     "board": [
       {
@@ -1891,8 +1830,8 @@
         "pos": "QB",
         "team": "BUF",
         "game": "NE@BUF",
-        "p_td": 0.49240745761031,
-        "fair": 103,
+        "p_td": 0.4961402375307181,
+        "fair": 101,
         "moved": false
       },
       {
@@ -1927,8 +1866,8 @@
         "pos": "RB",
         "team": "BUF",
         "game": "NE@BUF",
-        "p_td": 0.4600397620988891,
-        "fair": 117,
+        "p_td": 0.4636497868132195,
+        "fair": 115,
         "moved": false
       },
       {
@@ -1941,6 +1880,15 @@
         "moved": false
       },
       {
+        "player": "Kyren Williams",
+        "pos": "RB",
+        "team": "LA",
+        "game": "LA@PHI",
+        "p_td": 0.4347687313311195,
+        "fair": 130,
+        "moved": false
+      },
+      {
         "player": "Chris Rodriguez Jr.",
         "pos": "RB",
         "team": "JAX",
@@ -1948,15 +1896,6 @@
         "p_td": 0.4306658144018513,
         "fair": 132,
         "moved": true
-      },
-      {
-        "player": "Kyren Williams",
-        "pos": "RB",
-        "team": "LA",
-        "game": "LA@PHI",
-        "p_td": 0.43038620020088,
-        "fair": 132,
-        "moved": false
       },
       {
         "player": "Jaxon Smith-Njigba",
@@ -2049,21 +1988,12 @@
         "moved": false
       },
       {
-        "player": "DK Metcalf",
-        "pos": "WR",
-        "team": "PIT",
-        "game": "PIT@CLE",
-        "p_td": 0.3767720959433337,
-        "fair": 165,
-        "moved": false
-      },
-      {
         "player": "Saquon Barkley",
         "pos": "RB",
         "team": "PHI",
         "game": "LA@PHI",
-        "p_td": 0.3735195236654275,
-        "fair": 167,
+        "p_td": 0.3686877736119749,
+        "fair": 171,
         "moved": false
       },
       {
@@ -2094,21 +2024,21 @@
         "moved": false
       },
       {
+        "player": "TreVeyon Henderson",
+        "pos": "RB",
+        "team": "NE",
+        "game": "NE@BUF",
+        "p_td": 0.3563575702736976,
+        "fair": 180,
+        "moved": false
+      },
+      {
         "player": "Woody Marks",
         "pos": "RB",
         "team": "HOU",
         "game": "DAL@HOU",
         "p_td": 0.3525020435665538,
         "fair": 183,
-        "moved": false
-      },
-      {
-        "player": "TreVeyon Henderson",
-        "pos": "RB",
-        "team": "NE",
-        "game": "NE@BUF",
-        "p_td": 0.3519707194355289,
-        "fair": 184,
         "moved": false
       },
       {
@@ -2130,15 +2060,6 @@
         "moved": false
       },
       {
-        "player": "Quinshon Judkins",
-        "pos": "RB",
-        "team": "CLE",
-        "game": "PIT@CLE",
-        "p_td": 0.3423162060645879,
-        "fair": 192,
-        "moved": false
-      },
-      {
         "player": "Christian Watson",
         "pos": "WR",
         "team": "GB",
@@ -2146,6 +2067,15 @@
         "p_td": 0.3412754107642088,
         "fair": 193,
         "moved": false
+      },
+      {
+        "player": "A.J. Brown",
+        "pos": "WR",
+        "team": "NE",
+        "game": "NE@BUF",
+        "p_td": 0.3384877242608604,
+        "fair": 195,
+        "moved": true
       },
       {
         "player": "J.K. Dobbins",
@@ -2175,13 +2105,22 @@
         "moved": false
       },
       {
-        "player": "A.J. Brown",
-        "pos": "WR",
-        "team": "NE",
-        "game": "NE@BUF",
-        "p_td": 0.3342601963037065,
-        "fair": 199,
-        "moved": true
+        "player": "George Kittle",
+        "pos": "TE",
+        "team": "SF",
+        "game": "DEN@SF",
+        "p_td": 0.3315485760877484,
+        "fair": 201,
+        "moved": false
+      },
+      {
+        "player": "AJ Barner",
+        "pos": "TE",
+        "team": "SEA",
+        "game": "LAC@SEA",
+        "p_td": 0.3292908497033459,
+        "fair": 203,
+        "moved": false
       }
     ],
     "week_file": "td_board_w1.csv",
@@ -2802,8 +2741,8 @@
       },
       {
         "model": "MLB home runs",
-        "today": 18,
-        "graded": 14605,
+        "today": 0,
+        "graded": 14623,
         "metric": "Brier",
         "value": 0.1009,
         "baseline": 0.1034,
@@ -2812,12 +2751,12 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 2,
-        "graded": 1217,
+        "today": 0,
+        "graded": 1219,
         "metric": "Brier",
-        "value": 0.1528,
+        "value": 0.1526,
         "baseline": 0.25,
-        "edge_pct": 38.88,
+        "edge_pct": 38.959999999999994,
         "verdict": "beats baseline"
       },
       {
@@ -2832,18 +2771,18 @@
       },
       {
         "model": "College FB spread",
-        "today": 2,
-        "graded": 362,
+        "today": 4,
+        "graded": 364,
         "metric": "ATS",
-        "value": 0.5027624309392266,
+        "value": 0.5,
         "baseline": 0.5238,
-        "edge_pct": -2.1037569060773476,
-        "note": "MAE 13.61 vs market 11.39",
-        "verdict": "182-180"
+        "edge_pct": -2.3800000000000043,
+        "note": "MAE 13.66 vs market 11.38",
+        "verdict": "182-182"
       },
       {
         "model": "NFL anytime TD",
-        "today": 393,
+        "today": 372,
         "graded": 0,
         "metric": "AUC",
         "value": 0.7370921803740497,
@@ -2908,8 +2847,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 415,
-    "total_graded": 30024,
+    "total_today": 376,
+    "total_graded": 30046,
     "model_count": 11
   }
 }
