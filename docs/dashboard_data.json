@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06",
+  "generated_at": "2026-10-07",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -1675,28 +1675,40 @@
     "history": []
   },
   "cfb": {
-    "today_count": 1,
-    "total_graded": 472,
+    "today_count": 2,
+    "total_graded": 473,
     "board": [
       {
-        "away": "Southern Miss",
-        "home": "Troy",
+        "away": "Jacksonville State",
+        "home": "Kennesaw State",
         "cls": "FBS",
-        "model": -3.0,
-        "market": -9.75,
-        "edge": 6.7,
-        "side": "Southern Miss",
+        "model": -8.6,
+        "market": 2.75,
+        "edge": -11.4,
+        "side": "Kennesaw State",
         "dir": "DOG",
-        "playable": true,
+        "playable": false,
         "flag": ""
+      },
+      {
+        "away": "New Mexico State",
+        "home": "Florida International",
+        "cls": "FBS",
+        "model": -6.4,
+        "market": -6.5,
+        "edge": 0.1,
+        "side": "New Mexico State",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT"
       }
     ],
     "splits": [
       {
         "split": "FBS",
-        "record": "108-111",
-        "win_pct": 0.4931506849315068,
-        "n": 219
+        "record": "108-112",
+        "win_pct": 0.4909090909090909,
+        "n": 220
       },
       {
         "split": "FCS",
@@ -1712,36 +1724,27 @@
       },
       {
         "split": "DOG",
-        "record": "154-144",
-        "win_pct": 0.5167785234899329,
-        "n": 298
+        "record": "154-145",
+        "win_pct": 0.5150501672240803,
+        "n": 299
       }
     ],
-    "record": "238-234",
-    "win_pct": 0.5042372881355932,
-    "mae_model": 13.931380753138077,
-    "mae_market": 11.82531380753138
+    "record": "238-235",
+    "win_pct": 0.5031712473572939,
+    "mae_model": 13.939874739039668,
+    "mae_market": 11.8241127348643
   },
   "nfl": {
     "today_count": 366,
     "total_graded": 0,
     "board": [
       {
-        "player": "Derrick Henry",
-        "pos": "RB",
-        "team": "BAL",
-        "game": "BAL@ATL",
-        "p_td": 0.6781528724851572,
-        "fair": -210,
-        "moved": false
-      },
-      {
         "player": "Jahmyr Gibbs",
         "pos": "RB",
         "team": "DET",
         "game": "DET@ARI",
-        "p_td": 0.6052048161970086,
-        "fair": -153,
+        "p_td": 0.6125579326457182,
+        "fair": -158,
         "moved": false
       },
       {
@@ -1749,8 +1752,17 @@
         "pos": "RB",
         "team": "ATL",
         "game": "BAL@ATL",
-        "p_td": 0.5527306839638095,
-        "fair": -123,
+        "p_td": 0.5937783823921234,
+        "fair": -146,
+        "moved": false
+      },
+      {
+        "player": "Derrick Henry",
+        "pos": "RB",
+        "team": "BAL",
+        "game": "BAL@ATL",
+        "p_td": 0.592494747768038,
+        "fair": -145,
         "moved": false
       },
       {
@@ -1767,8 +1779,8 @@
         "pos": "WR",
         "team": "CIN",
         "game": "CIN@MIA",
-        "p_td": 0.5095902287465852,
-        "fair": -103,
+        "p_td": 0.5140008200048631,
+        "fair": -105,
         "moved": false
       },
       {
@@ -1776,8 +1788,8 @@
         "pos": "WR",
         "team": "DET",
         "game": "DET@ARI",
-        "p_td": 0.4997899568213861,
-        "fair": 100,
+        "p_td": 0.5067506715508361,
+        "fair": -102,
         "moved": false
       },
       {
@@ -1794,8 +1806,17 @@
         "pos": "RB",
         "team": "SF",
         "game": "SF@SEA",
-        "p_td": 0.4907340806671052,
-        "fair": 103,
+        "p_td": 0.4857195739933471,
+        "fair": 105,
+        "moved": false
+      },
+      {
+        "player": "De'Von Achane",
+        "pos": "RB",
+        "team": "MIA",
+        "game": "CIN@MIA",
+        "p_td": 0.4792225384920933,
+        "fair": 108,
         "moved": false
       },
       {
@@ -1804,15 +1825,6 @@
         "team": "LV",
         "game": "LV@NE",
         "p_td": 0.4729358293384478,
-        "fair": 111,
-        "moved": false
-      },
-      {
-        "player": "De'Von Achane",
-        "pos": "RB",
-        "team": "MIA",
-        "game": "CIN@MIA",
-        "p_td": 0.4726303307872681,
         "fair": 111,
         "moved": false
       },
@@ -1830,8 +1842,8 @@
         "pos": "RB",
         "team": "CIN",
         "game": "CIN@MIA",
-        "p_td": 0.4503144421037415,
-        "fair": 122,
+        "p_td": 0.4544694361192335,
+        "fair": 120,
         "moved": false
       },
       {
@@ -1848,8 +1860,8 @@
         "pos": "RB",
         "team": "JAX",
         "game": "PHI@JAX",
-        "p_td": 0.4387406558318418,
-        "fair": 127,
+        "p_td": 0.4347176531844203,
+        "fair": 130,
         "moved": true
       },
       {
@@ -1862,20 +1874,20 @@
         "moved": false
       },
       {
-        "player": "Jaxon Smith-Njigba",
-        "pos": "WR",
-        "team": "SEA",
-        "game": "SF@SEA",
-        "p_td": 0.4215199509345684,
-        "fair": 137,
-        "moved": false
-      },
-      {
         "player": "Colston Loveland",
         "pos": "TE",
         "team": "CHI",
         "game": "CHI@GB",
-        "p_td": 0.4177388506307362,
+        "p_td": 0.421821260882134,
+        "fair": 137,
+        "moved": false
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "pos": "WR",
+        "team": "SEA",
+        "game": "SF@SEA",
+        "p_td": 0.4175912072982659,
         "fair": 139,
         "moved": false
       },
@@ -1907,21 +1919,12 @@
         "moved": false
       },
       {
-        "player": "Puka Nacua",
-        "pos": "WR",
-        "team": "LA",
-        "game": "BUF@LA",
-        "p_td": 0.3969807848020394,
-        "fair": 151,
-        "moved": false
-      },
-      {
         "player": "Tucker Kraft",
         "pos": "TE",
         "team": "GB",
         "game": "CHI@GB",
-        "p_td": 0.3956969092912699,
-        "fair": 152,
+        "p_td": 0.400371032052109,
+        "fair": 149,
         "moved": false
       },
       {
@@ -1929,8 +1932,17 @@
         "pos": "RB",
         "team": "MIN",
         "game": "MIN@NO",
-        "p_td": 0.3933242048011408,
-        "fair": 154,
+        "p_td": 0.3977752503502664,
+        "fair": 151,
+        "moved": false
+      },
+      {
+        "player": "Puka Nacua",
+        "pos": "WR",
+        "team": "LA",
+        "game": "BUF@LA",
+        "p_td": 0.3969807848020394,
+        "fair": 151,
         "moved": false
       },
       {
@@ -1952,21 +1964,21 @@
         "moved": false
       },
       {
-        "player": "Michael Wilson",
-        "pos": "WR",
-        "team": "ARI",
-        "game": "DET@ARI",
-        "p_td": 0.3832759152872813,
-        "fair": 160,
-        "moved": false
-      },
-      {
         "player": "D'Andre Swift",
         "pos": "RB",
         "team": "CHI",
         "game": "CHI@GB",
-        "p_td": 0.3826510973462661,
-        "fair": 161,
+        "p_td": 0.3865126767926631,
+        "fair": 158,
+        "moved": false
+      },
+      {
+        "player": "Michael Wilson",
+        "pos": "WR",
+        "team": "ARI",
+        "game": "DET@ARI",
+        "p_td": 0.3758594874433609,
+        "fair": 166,
         "moved": false
       },
       {
@@ -1983,8 +1995,8 @@
         "pos": "WR",
         "team": "CIN",
         "game": "CIN@MIA",
-        "p_td": 0.3672295843103066,
-        "fair": 172,
+        "p_td": 0.3708907766777457,
+        "fair": 169,
         "moved": false
       },
       {
@@ -2015,12 +2027,21 @@
         "moved": false
       },
       {
+        "player": "Jameson Williams",
+        "pos": "WR",
+        "team": "DET",
+        "game": "DET@ARI",
+        "p_td": 0.3572000363518343,
+        "fair": 179,
+        "moved": false
+      },
+      {
         "player": "Trey McBride",
         "pos": "TE",
         "team": "ARI",
         "game": "DET@ARI",
-        "p_td": 0.3602347354886787,
-        "fair": 177,
+        "p_td": 0.3531283069083785,
+        "fair": 183,
         "moved": false
       },
       {
@@ -2030,24 +2051,6 @@
         "game": "CLE@NYJ",
         "p_td": 0.352433910511489,
         "fair": 183,
-        "moved": false
-      },
-      {
-        "player": "Parker Washington",
-        "pos": "WR",
-        "team": "JAX",
-        "game": "PHI@JAX",
-        "p_td": 0.3516082754206729,
-        "fair": 184,
-        "moved": false
-      },
-      {
-        "player": "Jameson Williams",
-        "pos": "WR",
-        "team": "DET",
-        "game": "DET@ARI",
-        "p_td": 0.3515427761135461,
-        "fair": 184,
         "moved": false
       },
       {
@@ -2069,21 +2072,30 @@
         "moved": false
       },
       {
+        "player": "Parker Washington",
+        "pos": "WR",
+        "team": "JAX",
+        "game": "PHI@JAX",
+        "p_td": 0.3481250718670149,
+        "fair": 187,
+        "moved": false
+      },
+      {
         "player": "Mike Evans",
         "pos": "WR",
         "team": "SF",
         "game": "SF@SEA",
-        "p_td": 0.349597675804509,
-        "fair": 186,
+        "p_td": 0.3455223517905155,
+        "fair": 189,
         "moved": true
       },
       {
-        "player": "Malik Davis",
-        "pos": "RB",
-        "team": "DAL",
-        "game": "TB@DAL",
-        "p_td": 0.344052023588461,
-        "fair": 190,
+        "player": "Christian Watson",
+        "pos": "WR",
+        "team": "GB",
+        "game": "CHI@GB",
+        "p_td": 0.3455010022877087,
+        "fair": 189,
         "moved": false
       }
     ],
@@ -2735,14 +2747,14 @@
       },
       {
         "model": "College FB spread",
-        "today": 1,
-        "graded": 472,
+        "today": 2,
+        "graded": 473,
         "metric": "ATS",
-        "value": 0.5042372881355932,
+        "value": 0.5031712473572939,
         "baseline": 0.5238,
-        "edge_pct": -1.9562711864406834,
-        "note": "MAE 13.93 vs market 11.83",
-        "verdict": "238-234"
+        "edge_pct": -2.062875264270614,
+        "note": "MAE 13.94 vs market 11.82",
+        "verdict": "238-235"
       },
       {
         "model": "NFL anytime TD",
@@ -2811,8 +2823,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 367,
-    "total_graded": 30154,
+    "total_today": 368,
+    "total_graded": 30155,
     "model_count": 11
   }
 }
