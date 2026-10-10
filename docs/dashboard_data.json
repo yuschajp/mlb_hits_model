@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09",
+  "generated_at": "2026-10-10",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -1675,100 +1675,376 @@
     "history": []
   },
   "cfb": {
-    "today_count": 7,
-    "total_graded": 478,
+    "today_count": 90,
+    "total_graded": 485,
     "board": [
       {
-        "away": "Florida A&M",
-        "home": "Alabama State",
-        "cls": "fcs-only",
-        "model": -27.1,
-        "market": -14.5,
-        "edge": -12.6,
-        "side": "Alabama State",
+        "away": "San Diego State",
+        "home": "Oregon State",
+        "cls": "FBS",
+        "model": 16.8,
+        "market": -16.25,
+        "edge": 33.0,
+        "side": "San Diego State",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Old Dominion",
+        "home": "App State",
+        "cls": "FBS",
+        "model": 13.0,
+        "market": -10.0,
+        "edge": 23.0,
+        "side": "Old Dominion",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "UCLA",
+        "home": "Oregon",
+        "cls": "FBS",
+        "model": -33.4,
+        "market": -10.5,
+        "edge": -22.9,
+        "side": "Oregon",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "North Dakota State",
+        "home": "UNLV",
+        "cls": "FCS",
+        "model": -17.2,
+        "market": 2.5,
+        "edge": -19.7,
+        "side": "UNLV",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "UCF",
+        "home": "Oklahoma State",
+        "cls": "FBS",
+        "model": 9.1,
+        "market": -10.25,
+        "edge": 19.4,
+        "side": "UCF",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Miami (OH)",
+        "home": "Massachusetts",
+        "cls": "FBS",
+        "model": 23.9,
+        "market": 4.75,
+        "edge": 19.1,
+        "side": "Miami (OH)",
         "dir": "FAV",
         "playable": false,
         "flag": "BLIND-SPOT INFO-GAP"
       },
       {
-        "away": "Washington State",
-        "home": "Utah State",
+        "away": "Princeton",
+        "home": "Wagner",
+        "cls": "fcs-only",
+        "model": 5.7,
+        "market": 24.5,
+        "edge": -18.8,
+        "side": "Wagner",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP NY-RESTRICTED"
+      },
+      {
+        "away": "Indiana",
+        "home": "Nebraska",
         "cls": "FBS",
-        "model": 2.4,
-        "market": -5.5,
-        "edge": 7.9,
-        "side": "Washington State",
+        "model": 25.8,
+        "market": 8.25,
+        "edge": 17.6,
+        "side": "Indiana",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "Virginia Tech",
+        "home": "California",
+        "cls": "FBS",
+        "model": -5.7,
+        "market": 10.0,
+        "edge": -15.7,
+        "side": "California",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "James Madison",
+        "home": "Georgia Southern",
+        "cls": "FBS",
+        "model": 22.9,
+        "market": 7.5,
+        "edge": 15.4,
+        "side": "James Madison",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Ball State",
+        "home": "Northwestern",
+        "cls": "FBS",
+        "model": -20.4,
+        "market": -35.75,
+        "edge": 15.3,
+        "side": "Ball State",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "North Carolina",
+        "home": "Pittsburgh",
+        "cls": "FBS",
+        "model": -18.4,
+        "market": -3.75,
+        "edge": -14.7,
+        "side": "Pittsburgh",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "Drake",
+        "home": "Valparaiso",
+        "cls": "fcs-only",
+        "model": 22.7,
+        "market": 8.5,
+        "edge": 14.2,
+        "side": "Drake",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Davidson",
+        "home": "Presbyterian",
+        "cls": "fcs-only",
+        "model": -29.6,
+        "market": -15.5,
+        "edge": -14.1,
+        "side": "Presbyterian",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Hawai'i",
+        "home": "Arizona State",
+        "cls": "FBS",
+        "model": -7.3,
+        "market": -21.0,
+        "edge": 13.7,
+        "side": "Hawai'i",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "Tulsa",
+        "home": "Navy",
+        "cls": "FBS",
+        "model": -15.1,
+        "market": -1.75,
+        "edge": -13.3,
+        "side": "Navy",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "New Hampshire",
+        "home": "North Carolina A&T",
+        "cls": "fcs-only",
+        "model": 18.6,
+        "market": 5.5,
+        "edge": 13.1,
+        "side": "New Hampshire",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Utah Tech",
+        "home": "Portland State",
+        "cls": "fcs-only",
+        "model": 3.5,
+        "market": -9.5,
+        "edge": 13.0,
+        "side": "Utah Tech",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Sacramento State",
+        "home": "Bowling Green",
+        "cls": "FCS",
+        "model": -21.7,
+        "market": -8.75,
+        "edge": -12.9,
+        "side": "Bowling Green",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Ole Miss",
+        "home": "Vanderbilt",
+        "cls": "FBS",
+        "model": -3.3,
+        "market": 9.25,
+        "edge": -12.6,
+        "side": "Vanderbilt",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "Tarleton State",
+        "home": "Austin Peay",
+        "cls": "fcs-only",
+        "model": 10.9,
+        "market": -1.5,
+        "edge": 12.4,
+        "side": "Tarleton State",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "INFO-GAP"
+      },
+      {
+        "away": "Stetson",
+        "home": "St. Thomas (MN)",
+        "cls": "fcs-only",
+        "model": -34.8,
+        "market": -22.5,
+        "edge": -12.3,
+        "side": "St. Thomas (MN)",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "South Carolina",
+        "home": "Florida",
+        "cls": "FBS",
+        "model": 0.2,
+        "market": -11.0,
+        "edge": 11.2,
+        "side": "South Carolina",
         "dir": "DOG",
         "playable": false,
         "flag": ""
       },
       {
-        "away": "Wyoming",
-        "home": "San Jos\u00e9 State",
+        "away": "Arizona",
+        "home": "West Virginia",
         "cls": "FBS",
-        "model": 2.7,
-        "market": -4.5,
-        "edge": 7.2,
-        "side": "Wyoming",
-        "dir": "DOG",
+        "model": 14.5,
+        "market": 3.5,
+        "edge": 11.0,
+        "side": "Arizona",
+        "dir": "FAV",
+        "playable": false,
+        "flag": ""
+      },
+      {
+        "away": "Rice",
+        "home": "East Carolina",
+        "cls": "FBS",
+        "model": -20.7,
+        "market": -10.0,
+        "edge": -10.7,
+        "side": "East Carolina",
+        "dir": "FAV",
         "playable": false,
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "Iowa",
-        "home": "Washington",
+        "away": "Texas",
+        "home": "Oklahoma",
         "cls": "FBS",
-        "model": 2.6,
-        "market": -2.75,
-        "edge": 5.3,
-        "side": "Iowa",
+        "model": -3.2,
+        "market": 7.5,
+        "edge": -10.7,
+        "side": "Oklahoma",
         "dir": "DOG",
-        "playable": true,
-        "flag": ""
+        "playable": false,
+        "flag": "NEUTRAL"
       },
       {
-        "away": "Columbia",
-        "home": "Marist",
+        "away": "Southern Illinois",
+        "home": "South Dakota",
         "cls": "fcs-only",
-        "model": -2.0,
-        "market": 1.5,
-        "edge": -3.5,
-        "side": "Marist",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "NY-RESTRICTED"
-      },
-      {
-        "away": "Florida State",
-        "home": "Louisville",
-        "cls": "FBS",
-        "model": -0.5,
-        "market": -3.5,
-        "edge": 3.0,
-        "side": "Florida State",
-        "dir": "DOG",
-        "playable": false,
-        "flag": ""
-      },
-      {
-        "away": "Iowa State",
-        "home": "BYU",
-        "cls": "FBS",
-        "model": -10.6,
+        "model": -0.3,
         "market": -10.5,
-        "edge": -0.1,
-        "side": "BYU",
-        "dir": "FAV",
+        "edge": 10.2,
+        "side": "Southern Illinois",
+        "dir": "DOG",
         "playable": false,
         "flag": ""
+      },
+      {
+        "away": "Tennessee",
+        "home": "Arkansas",
+        "cls": "FBS",
+        "model": 3.5,
+        "market": 13.5,
+        "edge": -10.0,
+        "side": "Arkansas",
+        "dir": "DOG",
+        "playable": false,
+        "flag": ""
+      },
+      {
+        "away": "Cal Poly",
+        "home": "Idaho State",
+        "cls": "fcs-only",
+        "model": -4.9,
+        "market": -14.5,
+        "edge": 9.6,
+        "side": "Cal Poly",
+        "dir": "DOG",
+        "playable": false,
+        "flag": ""
+      },
+      {
+        "away": "Bethune-Cookman",
+        "home": "Alabama A&M",
+        "cls": "fcs-only",
+        "model": 6.5,
+        "market": -3.0,
+        "edge": 9.5,
+        "side": "Bethune-Cookman",
+        "dir": "DOG",
+        "playable": false,
+        "flag": "BLIND-SPOT"
       }
     ],
     "splits": [
       {
         "split": "FBS",
-        "record": "111-114",
-        "win_pct": 0.49333333333333335,
-        "n": 225
+        "record": "115-115",
+        "win_pct": 0.5,
+        "n": 230
       },
       {
         "split": "FCS",
@@ -1778,21 +2054,21 @@
       },
       {
         "split": "FAV",
-        "record": "86-91",
-        "win_pct": 0.4858757062146893,
-        "n": 177
+        "record": "87-92",
+        "win_pct": 0.4860335195530726,
+        "n": 179
       },
       {
         "split": "DOG",
-        "record": "155-146",
-        "win_pct": 0.5149501661129569,
-        "n": 301
+        "record": "158-148",
+        "win_pct": 0.5163398692810458,
+        "n": 306
       }
     ],
-    "record": "241-237",
-    "win_pct": 0.50418410041841,
-    "mae_model": 13.935670103092784,
-    "mae_market": 11.80618556701031
+    "record": "245-240",
+    "win_pct": 0.5051546391752577,
+    "mae_model": 13.916463414634148,
+    "mae_market": 11.80640243902439
   },
   "nfl": {
     "today_count": 341,
@@ -1808,21 +2084,21 @@
         "moved": false
       },
       {
-        "player": "Derrick Henry",
-        "pos": "RB",
-        "team": "BAL",
-        "game": "BAL@ATL",
-        "p_td": 0.5984607649582523,
-        "fair": -149,
-        "moved": false
-      },
-      {
         "player": "Bijan Robinson",
         "pos": "RB",
         "team": "ATL",
         "game": "BAL@ATL",
-        "p_td": 0.5888608908826429,
-        "fair": -143,
+        "p_td": 0.5937783823921234,
+        "fair": -146,
+        "moved": false
+      },
+      {
+        "player": "Derrick Henry",
+        "pos": "RB",
+        "team": "BAL",
+        "game": "BAL@ATL",
+        "p_td": 0.592494747768038,
+        "fair": -145,
         "moved": false
       },
       {
@@ -1839,8 +2115,8 @@
         "pos": "WR",
         "team": "CIN",
         "game": "CIN@MIA",
-        "p_td": 0.5095902287465852,
-        "fair": -103,
+        "p_td": 0.5227033568659817,
+        "fair": -109,
         "moved": false
       },
       {
@@ -1853,20 +2129,20 @@
         "moved": false
       },
       {
-        "player": "Jonathan Taylor",
-        "pos": "RB",
-        "team": "IND",
-        "game": "IND@PIT",
-        "p_td": 0.4927928056927619,
-        "fair": 102,
-        "moved": false
-      },
-      {
         "player": "De'Von Achane",
         "pos": "RB",
         "team": "MIA",
         "game": "CIN@MIA",
-        "p_td": 0.485732342515098,
+        "p_td": 0.492160772915874,
+        "fair": 103,
+        "moved": false
+      },
+      {
+        "player": "Jonathan Taylor",
+        "pos": "RB",
+        "team": "IND",
+        "game": "IND@PIT",
+        "p_td": 0.4873730018168125,
         "fair": 105,
         "moved": false
       },
@@ -1889,6 +2165,15 @@
         "moved": false
       },
       {
+        "player": "Chase Brown",
+        "pos": "RB",
+        "team": "CIN",
+        "game": "CIN@MIA",
+        "p_td": 0.4626854405460275,
+        "fair": 116,
+        "moved": false
+      },
+      {
         "player": "Josh Allen",
         "pos": "QB",
         "team": "BUF",
@@ -1898,31 +2183,22 @@
         "moved": false
       },
       {
-        "player": "Chase Brown",
+        "player": "Chris Rodriguez Jr.",
         "pos": "RB",
-        "team": "CIN",
-        "game": "CIN@MIA",
-        "p_td": 0.4503144421037415,
-        "fair": 122,
-        "moved": false
+        "team": "JAX",
+        "game": "PHI@JAX",
+        "p_td": 0.4326953511936833,
+        "fair": 131,
+        "moved": true
       },
       {
         "player": "DK Metcalf",
         "pos": "WR",
         "team": "PIT",
         "game": "IND@PIT",
-        "p_td": 0.4366380753901637,
-        "fair": 129,
+        "p_td": 0.4322445767972461,
+        "fair": 131,
         "moved": false
-      },
-      {
-        "player": "Chris Rodriguez Jr.",
-        "pos": "RB",
-        "team": "JAX",
-        "game": "PHI@JAX",
-        "p_td": 0.4347176531844203,
-        "fair": 130,
-        "moved": true
       },
       {
         "player": "James Cook",
@@ -1938,8 +2214,8 @@
         "pos": "TE",
         "team": "GB",
         "game": "CHI@GB",
-        "p_td": 0.4187087777497723,
-        "fair": 138,
+        "p_td": 0.4141775981740188,
+        "fair": 141,
         "moved": false
       },
       {
@@ -1965,17 +2241,8 @@
         "pos": "TE",
         "team": "CHI",
         "game": "CHI@GB",
-        "p_td": 0.4053178535846151,
-        "fair": 146,
-        "moved": false
-      },
-      {
-        "player": "Jacory Croskey-Merritt",
-        "pos": "RB",
-        "team": "WAS",
-        "game": "NYG@WAS",
-        "p_td": 0.403581840484193,
-        "fair": 147,
+        "p_td": 0.4094873512292361,
+        "fair": 144,
         "moved": false
       },
       {
@@ -1992,8 +2259,17 @@
         "pos": "RB",
         "team": "MIN",
         "game": "MIN@NO",
-        "p_td": 0.4021936395669039,
-        "fair": 148,
+        "p_td": 0.3977752503502664,
+        "fair": 151,
+        "moved": false
+      },
+      {
+        "player": "Jacory Croskey-Merritt",
+        "pos": "RB",
+        "team": "WAS",
+        "game": "NYG@WAS",
+        "p_td": 0.3972027751566959,
+        "fair": 151,
         "moved": false
       },
       {
@@ -2015,6 +2291,15 @@
         "moved": true
       },
       {
+        "player": "Tee Higgins",
+        "pos": "WR",
+        "team": "CIN",
+        "game": "CIN@MIA",
+        "p_td": 0.3781497333025638,
+        "fair": 164,
+        "moved": false
+      },
+      {
         "player": "Michael Wilson",
         "pos": "WR",
         "team": "ARI",
@@ -2028,8 +2313,8 @@
         "pos": "RB",
         "team": "CHI",
         "game": "CHI@GB",
-        "p_td": 0.3709199064074409,
-        "fair": 169,
+        "p_td": 0.3748548656324629,
+        "fair": 166,
         "moved": false
       },
       {
@@ -2037,17 +2322,8 @@
         "pos": "RB",
         "team": "CLE",
         "game": "CLE@NYJ",
-        "p_td": 0.368855157501245,
-        "fair": 171,
-        "moved": false
-      },
-      {
-        "player": "Tee Higgins",
-        "pos": "WR",
-        "team": "CIN",
-        "game": "CIN@MIA",
-        "p_td": 0.3672295843103066,
-        "fair": 172,
+        "p_td": 0.3662501815322259,
+        "fair": 173,
         "moved": false
       },
       {
@@ -2060,30 +2336,30 @@
         "moved": false
       },
       {
-        "player": "Christian Watson",
-        "pos": "WR",
-        "team": "GB",
-        "game": "CHI@GB",
-        "p_td": 0.3621340380647898,
-        "fair": 176,
-        "moved": false
-      },
-      {
         "player": "Rico Dowdle",
         "pos": "RB",
         "team": "PIT",
         "game": "IND@PIT",
-        "p_td": 0.3620294426773349,
-        "fair": 176,
+        "p_td": 0.3581357097071259,
+        "fair": 179,
         "moved": true
+      },
+      {
+        "player": "Christian Watson",
+        "pos": "WR",
+        "team": "GB",
+        "game": "CHI@GB",
+        "p_td": 0.3580158331304756,
+        "fair": 179,
+        "moved": false
       },
       {
         "player": "Harold Fannin Jr.",
         "pos": "TE",
         "team": "CLE",
         "game": "CLE@NYJ",
-        "p_td": 0.360017499799122,
-        "fair": 177,
+        "p_td": 0.3574560178955162,
+        "fair": 179,
         "moved": false
       },
       {
@@ -2105,21 +2381,21 @@
         "moved": false
       },
       {
-        "player": "Parker Washington",
-        "pos": "WR",
-        "team": "JAX",
-        "game": "PHI@JAX",
-        "p_td": 0.3481250718670149,
-        "fair": 187,
-        "moved": false
-      },
-      {
         "player": "Breece Hall",
         "pos": "RB",
         "team": "NYJ",
         "game": "CLE@NYJ",
-        "p_td": 0.3480813997302784,
-        "fair": 187,
+        "p_td": 0.3502612997200434,
+        "fair": 185,
+        "moved": false
+      },
+      {
+        "player": "Parker Washington",
+        "pos": "WR",
+        "team": "JAX",
+        "game": "PHI@JAX",
+        "p_td": 0.3463764593595908,
+        "fair": 188,
         "moved": false
       },
       {
@@ -2150,12 +2426,12 @@
         "moved": false
       },
       {
-        "player": "Jaylen Warren",
+        "player": "Cam Skattebo",
         "pos": "RB",
-        "team": "PIT",
-        "game": "IND@PIT",
-        "p_td": 0.3320541477841806,
-        "fair": 201,
+        "team": "NYG",
+        "game": "NYG@WAS",
+        "p_td": 0.3338145792491129,
+        "fair": 199,
         "moved": false
       }
     ],
@@ -2807,14 +3083,14 @@
       },
       {
         "model": "College FB spread",
-        "today": 7,
-        "graded": 478,
+        "today": 90,
+        "graded": 485,
         "metric": "ATS",
-        "value": 0.50418410041841,
+        "value": 0.5051546391752577,
         "baseline": 0.5238,
-        "edge_pct": -1.9615899581590046,
-        "note": "MAE 13.94 vs market 11.81",
-        "verdict": "241-237"
+        "edge_pct": -1.864536082474233,
+        "note": "MAE 13.92 vs market 11.81",
+        "verdict": "245-240"
       },
       {
         "model": "NFL anytime TD",
@@ -2883,8 +3159,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 348,
-    "total_graded": 30160,
+    "total_today": 431,
+    "total_graded": 30167,
     "model_count": 11
   }
 }
