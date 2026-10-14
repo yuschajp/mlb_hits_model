@@ -1,0 +1,5 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+South Florida,UTSA,FBS,19:30,9.5,-7.0,16.5,South Florida,7.0,DOG,7.0,False,False,INFO-GAP,2026-10-08,31.0,24.0,-7.0,P
+Missouri State,Western Kentucky,FBS,19:00,-5.0,-1.5,-3.5,Western Kentucky,-1.5,FAV,1.5,False,False,,2026-10-08,34.0,13.0,-21.0,W
+Sam Houston,Liberty,FBS,19:00,-16.2,-13.5,-2.7,Liberty,-13.5,FAV,13.5,False,False,BLIND-SPOT,2026-10-08,35.0,3.0,-32.0,W
+South Alabama,Arkansas State,FBS,19:30,-4.1,-3.0,-1.1,Arkansas State,-3.0,FAV,3.0,False,False,BLIND-SPOT,2026-10-08,49.0,56.0,7.0,L

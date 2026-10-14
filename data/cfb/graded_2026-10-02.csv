@@ -1,0 +1,5 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Pittsburgh,Virginia Tech,FBS,19:00,13.7,-2.5,16.2,Pittsburgh,2.5,DOG,2.5,False,False,INFO-GAP,2026-10-02,33.0,35.0,2.0,W
+Montana State,Idaho,fcs-only,22:30,25.8,16.5,9.3,Montana State,-16.5,FAV,16.5,False,True,,2026-10-02,33.0,34.0,1.0,L
+Penn State,Northwestern,FBS,20:00,7.9,2.75,5.2,Penn State,-2.75,FAV,2.75,False,True,,2026-10-02,34.0,13.0,-21.0,L
+Liberty,Delaware,FBS,19:00,3.2,6.75,-3.5,Delaware,6.75,DOG,6.75,False,False,BLIND-SPOT,2026-10-02,14.0,30.0,16.0,L
