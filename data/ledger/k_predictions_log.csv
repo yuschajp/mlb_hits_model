@@ -1220,4 +1220,4 @@ date,game_pk,pitcher_id,pitcher_name,team,opponent,venue,park_factor,line,season
 2026-09-27,823731,694819,Jacob Misiorowski,Milwaukee Brewers,St. Louis Cardinals,American Family Field,1.02,6.5,12.985,10.921,0.2127,174.7,29.7,5.82,6.748,0.5121,0.4879,5.0,True
 2026-10-01,849844,605400,Aaron Nola,Philadelphia Phillies,Atlanta Braves,Truist Park,1.03,6.5,9.086,6.68,0.2164,175.3,32.3,5.31,4.788,0.2075,0.7925,1.0,True
 2026-10-01,849844,678061,Ray Kerr,Atlanta Braves,Philadelphia Phillies,Truist Park,1.01,6.5,5.4,6.188,0.2168,18.3,16.0,3.17,4.029,0.1137,0.8863,2.0,True
-2026-10-14,849811,605483,Blake Snell,Los Angeles Dodgers,Milwaukee Brewers,UNIQLO Field at Dodger Stadium,0.96,6.5,11.601,10.125,0.2196,42.7,10.7,4.74,5.424,0.3021,0.6979,,False
+2026-10-14,849811,605483,Blake Snell,Los Angeles Dodgers,Milwaukee Brewers,UNIQLO Field at Dodger Stadium,0.96,6.5,11.601,10.125,0.2196,42.7,10.7,4.74,5.424,0.3021,0.6979,9.0,True
