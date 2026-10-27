@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24",
+  "generated_at": "2026-10-27",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -1675,400 +1675,64 @@
     "history": []
   },
   "cfb": {
-    "today_count": 96,
-    "total_graded": 694,
+    "today_count": 2,
+    "total_graded": 789,
     "board": [
       {
-        "away": "Florida",
-        "home": "Eastern Kentucky",
-        "cls": "FCS",
-        "model": 35.6,
-        "market": 1.5,
-        "edge": 34.1,
-        "side": "Florida",
+        "away": "Sam Houston",
+        "home": "Missouri State",
+        "cls": "FBS",
+        "model": -15.5,
+        "market": -4.5,
+        "edge": -11.0,
+        "side": "Missouri State",
         "dir": "FAV",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Presbyterian",
-        "home": "Valparaiso",
-        "cls": "fcs-only",
-        "model": 22.3,
-        "market": -4.0,
-        "edge": 26.3,
-        "side": "Presbyterian",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "BLIND-SPOT INFO-GAP"
-      },
-      {
-        "away": "Vanderbilt",
-        "home": "Kentucky",
-        "cls": "FBS",
-        "model": 14.5,
-        "market": -10.5,
-        "edge": 25.0,
-        "side": "Vanderbilt",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Colorado",
-        "home": "Oklahoma State",
-        "cls": "FBS",
-        "model": 7.5,
-        "market": -13.5,
-        "edge": 21.0,
-        "side": "Colorado",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "BLIND-SPOT INFO-GAP"
-      },
-      {
-        "away": "Michigan State",
-        "home": "UCLA",
-        "cls": "FBS",
-        "model": 3.8,
-        "market": -16.5,
-        "edge": 20.3,
-        "side": "Michigan State",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Campbell",
-        "home": "Maine",
-        "cls": "fcs-only",
-        "model": -10.3,
-        "market": 10.0,
-        "edge": -20.3,
-        "side": "Maine",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Murray State",
-        "home": "South Dakota State",
-        "cls": "fcs-only",
-        "model": -23.1,
-        "market": -42.5,
-        "edge": 19.4,
-        "side": "Murray State",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "BLIND-SPOT INFO-GAP"
-      },
-      {
-        "away": "SE Louisiana",
-        "home": "Stephen F. Austin",
-        "cls": "fcs-only",
-        "model": -1.7,
-        "market": -20.5,
-        "edge": 18.8,
-        "side": "SE Louisiana",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Old Dominion",
-        "home": "Louisiana Tech",
-        "cls": "FBS",
-        "model": 3.4,
-        "market": -13.5,
-        "edge": 16.9,
-        "side": "Old Dominion",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "UAlbany",
-        "home": "Rhode Island",
-        "cls": "fcs-only",
-        "model": -23.3,
-        "market": -6.5,
-        "edge": -16.8,
-        "side": "Rhode Island",
-        "dir": "FAV",
-        "playable": false,
-        "flag": "BLIND-SPOT INFO-GAP NY-RESTRICTED"
-      },
-      {
-        "away": "Butler",
-        "home": "Drake",
-        "cls": "fcs-only",
-        "model": -12.5,
-        "market": 3.0,
-        "edge": -15.5,
-        "side": "Drake",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "BLIND-SPOT INFO-GAP"
-      },
-      {
-        "away": "Louisiana",
-        "home": "Southern Miss",
-        "cls": "FBS",
-        "model": -5.5,
-        "market": 10.0,
-        "edge": -15.5,
-        "side": "Southern Miss",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Boise State",
-        "home": "Washington State",
-        "cls": "FBS",
-        "model": -0.6,
-        "market": 14.25,
-        "edge": -14.8,
-        "side": "Washington State",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Georgia State",
-        "home": "Arkansas State",
-        "cls": "FBS",
-        "model": -11.1,
-        "market": 2.5,
-        "edge": -13.6,
-        "side": "Arkansas State",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "BLIND-SPOT INFO-GAP"
-      },
-      {
-        "away": "Houston",
-        "home": "Utah",
-        "cls": "FBS",
-        "model": -19.8,
-        "market": -6.5,
-        "edge": -13.3,
-        "side": "Utah",
-        "dir": "FAV",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Virginia Tech",
-        "home": "Clemson",
-        "cls": "FBS",
-        "model": -16.1,
-        "market": -3.0,
-        "edge": -13.1,
-        "side": "Clemson",
-        "dir": "FAV",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Prairie View A&M",
-        "home": "East Texas A&M",
-        "cls": "fcs-only",
-        "model": 10.1,
-        "market": -3.0,
-        "edge": 13.1,
-        "side": "Prairie View A&M",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "UT Rio Grande Valley",
-        "home": "Central Arkansas",
-        "cls": "fcs-only",
-        "model": 9.1,
-        "market": -3.5,
-        "edge": 12.6,
-        "side": "UT Rio Grande Valley",
-        "dir": "DOG",
-        "playable": false,
-        "flag": "INFO-GAP"
-      },
-      {
-        "away": "Stetson",
-        "home": "Morehead State",
-        "cls": "fcs-only",
-        "model": -13.9,
-        "market": -1.5,
-        "edge": -12.4,
-        "side": "Morehead State",
-        "dir": "FAV",
-        "playable": false,
-        "flag": "BLIND-SPOT INFO-GAP"
-      },
-      {
-        "away": "San Diego State",
-        "home": "Colorado State",
-        "cls": "FBS",
-        "model": 13.1,
-        "market": 1.25,
-        "edge": 11.8,
-        "side": "San Diego State",
-        "dir": "FAV",
-        "playable": false,
-        "flag": ""
-      },
-      {
-        "away": "Northern Iowa",
-        "home": "Southern Illinois",
-        "cls": "fcs-only",
-        "model": -15.3,
-        "market": -3.5,
-        "edge": -11.8,
-        "side": "Southern Illinois",
-        "dir": "FAV",
-        "playable": false,
-        "flag": ""
-      },
-      {
-        "away": "USC",
-        "home": "Wisconsin",
-        "cls": "FBS",
-        "model": 14.5,
-        "market": 3.0,
-        "edge": 11.5,
-        "side": "USC",
-        "dir": "FAV",
-        "playable": false,
-        "flag": ""
-      },
-      {
-        "away": "LSU",
-        "home": "Auburn",
-        "cls": "FBS",
-        "model": -4.4,
-        "market": 7.0,
-        "edge": -11.4,
-        "side": "Auburn",
-        "dir": "DOG",
-        "playable": false,
-        "flag": ""
-      },
-      {
-        "away": "East Tennessee State",
-        "home": "VMI",
-        "cls": "fcs-only",
-        "model": 22.1,
-        "market": 33.5,
-        "edge": -11.4,
-        "side": "VMI",
-        "dir": "DOG",
         "playable": false,
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "Lafayette",
-        "home": "Fordham",
-        "cls": "fcs-only",
-        "model": 13.8,
-        "market": 2.5,
-        "edge": 11.3,
-        "side": "Lafayette",
-        "dir": "FAV",
-        "playable": false,
-        "flag": "BLIND-SPOT NY-RESTRICTED"
-      },
-      {
-        "away": "Utah State",
-        "home": "Texas State",
+        "away": "Delaware",
+        "home": "Western Kentucky",
         "cls": "FBS",
-        "model": -2.5,
-        "market": -13.75,
-        "edge": 11.2,
-        "side": "Utah State",
+        "model": -9.5,
+        "market": 1.25,
+        "edge": -10.7,
+        "side": "Western Kentucky",
         "dir": "DOG",
         "playable": false,
-        "flag": ""
-      },
-      {
-        "away": "New Hampshire",
-        "home": "Merrimack",
-        "cls": "fcs-only",
-        "model": 9.2,
-        "market": -1.5,
-        "edge": 10.7,
-        "side": "New Hampshire",
-        "dir": "DOG",
-        "playable": false,
-        "flag": ""
-      },
-      {
-        "away": "North Dakota State",
-        "home": "New Mexico",
-        "cls": "FCS",
-        "model": -14.8,
-        "market": -4.5,
-        "edge": -10.3,
-        "side": "New Mexico",
-        "dir": "FAV",
-        "playable": false,
-        "flag": ""
-      },
-      {
-        "away": "Dartmouth",
-        "home": "Columbia",
-        "cls": "fcs-only",
-        "model": 11.6,
-        "market": 1.5,
-        "edge": 10.1,
-        "side": "Dartmouth",
-        "dir": "FAV",
-        "playable": false,
-        "flag": "NY-RESTRICTED"
-      },
-      {
-        "away": "Iowa",
-        "home": "Minnesota",
-        "cls": "FBS",
-        "model": 17.6,
-        "market": 7.5,
-        "edge": 10.1,
-        "side": "Iowa",
-        "dir": "FAV",
-        "playable": false,
-        "flag": ""
+        "flag": "BLIND-SPOT"
       }
     ],
     "splits": [
       {
         "split": "FBS",
-        "record": "172-162",
-        "win_pct": 0.5149700598802395,
-        "n": 334
+        "record": "186-190",
+        "win_pct": 0.4946808510638298,
+        "n": 376
       },
       {
         "split": "FCS",
-        "record": "45-40",
-        "win_pct": 0.5294117647058824,
-        "n": 85
+        "record": "47-40",
+        "win_pct": 0.5402298850574713,
+        "n": 87
       },
       {
         "split": "FAV",
-        "record": "126-151",
-        "win_pct": 0.4548736462093863,
-        "n": 277
+        "record": "149-175",
+        "win_pct": 0.45987654320987653,
+        "n": 324
       },
       {
         "split": "DOG",
-        "record": "226-191",
-        "win_pct": 0.5419664268585132,
-        "n": 417
+        "record": "245-220",
+        "win_pct": 0.5268817204301075,
+        "n": 465
       }
     ],
-    "record": "352-342",
-    "win_pct": 0.5072046109510087,
-    "mae_model": 13.881418439716311,
-    "mae_market": 11.713475177304964
+    "record": "394-395",
+    "win_pct": 0.49936628643852976,
+    "mae_model": 13.9795,
+    "mae_market": 11.6415625
   },
   "nfl": {
     "today_count": 317,
@@ -3083,14 +2747,14 @@
       },
       {
         "model": "College FB spread",
-        "today": 96,
-        "graded": 694,
+        "today": 2,
+        "graded": 789,
         "metric": "ATS",
-        "value": 0.5072046109510087,
+        "value": 0.49936628643852976,
         "baseline": 0.5238,
-        "edge_pct": -1.6595389048991382,
-        "note": "MAE 13.88 vs market 11.71",
-        "verdict": "352-342"
+        "edge_pct": -2.4433713561470283,
+        "note": "MAE 13.98 vs market 11.64",
+        "verdict": "394-395"
       },
       {
         "model": "NFL anytime TD",
@@ -3159,8 +2823,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 413,
-    "total_graded": 30377,
+    "total_today": 319,
+    "total_graded": 30472,
     "model_count": 11
   }
 }
