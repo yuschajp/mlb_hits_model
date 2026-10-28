@@ -1,0 +1,4 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Liberty,Kennesaw State,FBS,19:00,-7.8,9.5,-17.3,Kennesaw State,9.5,DOG,9.5,False,False,INFO-GAP,2026-10-22,6.0,34.0,28.0,L
+James Madison,App State,FBS,19:00,20.9,11.25,9.6,James Madison,-11.25,FAV,11.25,False,False,BLIND-SPOT,2026-10-22,34.0,31.0,-3.0,L
+East Carolina,Memphis,FBS,19:30,-4.1,-10.5,6.4,East Carolina,10.5,DOG,10.5,False,True,,2026-10-22,41.0,34.0,-7.0,W

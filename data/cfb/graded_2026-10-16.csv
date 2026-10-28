@@ -1,0 +1,5 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Washington,Purdue,FBS,20:00,15.6,-3.5,19.1,Washington,3.5,DOG,3.5,False,False,INFO-GAP,2026-10-16,26.0,38.0,12.0,W
+Memphis,Tulane,FBS,19:30,-0.1,7.0,-7.1,Tulane,7.0,DOG,7.0,False,False,,2026-10-16,31.0,17.0,-14.0,W
+Columbia,Pennsylvania,fcs-only,19:00,-11.5,-6.5,-5.0,Pennsylvania,-6.5,FAV,6.5,False,False,NY-RESTRICTED,2026-10-16,27.0,28.0,1.0,L
+App State,Coastal Carolina,FBS,20:00,1.8,1.5,0.3,App State,-1.5,FAV,1.5,False,False,BLIND-SPOT,2026-10-16,32.0,35.0,3.0,W

@@ -1,0 +1,8 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Massachusetts,UConn,FBS,19:00,-31.9,-14.5,-17.4,UConn,-14.5,FAV,14.5,False,False,BLIND-SPOT INFO-GAP,2026-10-23,35.0,16.0,-19.0,W
+Army,Tulsa,FBS,20:30,8.5,-1.5,10.0,Army,1.5,DOG,1.5,False,False,BLIND-SPOT NY-RESTRICTED,2026-10-23,35.0,38.0,3.0,W
+North Carolina Central,Delaware State,fcs-only,17:00,1.0,-5.5,6.5,North Carolina Central,5.5,DOG,5.5,False,True,,2026-10-23,12.0,31.0,19.0,W
+Air Force,Wyoming,FBS,21:00,2.0,5.75,-3.7,Wyoming,5.75,DOG,5.75,False,False,,2026-10-23,28.0,14.0,-14.0,W
+Yale,Pennsylvania,fcs-only,19:00,7.6,5.5,2.1,Yale,-5.5,FAV,5.5,False,False,,2026-10-23,24.0,21.0,-3.0,L
+Duke,Virginia,FBS,19:00,-3.9,-2.5,-1.4,Virginia,-2.5,FAV,2.5,False,False,,2026-10-23,16.0,19.0,3.0,L
+NC State,Stanford,FBS,22:30,6.1,6.75,-0.7,Stanford,6.75,DOG,6.75,False,False,,2026-10-23,31.0,28.0,-3.0,W

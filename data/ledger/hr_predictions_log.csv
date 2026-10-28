@@ -14644,3 +14644,21 @@ date,game_pk,player_id,player_name,team,opponent,lineup_spot,venue,park_factor,o
 2026-10-01,849844,624641,Edmundo Sosa,Philadelphia Phillies,Atlanta Braves,7,Truist Park,1.02,Ray Kerr,0.1262,0.0364,3.7,0.0,True
 2026-10-01,849844,592663,J.T. Realmuto,Philadelphia Phillies,Atlanta Braves,8,Truist Park,1.02,Ray Kerr,0.0982,0.0287,3.6,0.0,True
 2026-10-01,849844,702222,Justin Crawford,Philadelphia Phillies,Atlanta Braves,9,Truist Park,1.02,Ray Kerr,0.0815,0.0243,3.5,0.0,True
+2026-10-28,849799,650490,Yandy Díaz,Tampa Bay Rays,Milwaukee Brewers,1,Tropicana Field,0.97,Jacob Misiorowski,0.1076,0.0265,4.3,,False
+2026-10-28,849799,666018,Jonathan Aranda,Tampa Bay Rays,Milwaukee Brewers,2,Tropicana Field,0.97,Jacob Misiorowski,0.1117,0.0282,4.2,,False
+2026-10-28,849799,691406,Junior Caminero,Tampa Bay Rays,Milwaukee Brewers,3,Tropicana Field,0.97,Jacob Misiorowski,0.1455,0.0384,4.1,,False
+2026-10-28,849799,689414,Liam Hicks,Tampa Bay Rays,Milwaukee Brewers,4,Tropicana Field,0.97,Jacob Misiorowski,0.1026,0.0271,4.0,,False
+2026-10-28,849799,676356,Jonny DeLuca,Tampa Bay Rays,Milwaukee Brewers,5,Tropicana Field,0.97,Jacob Misiorowski,0.0973,0.0262,3.9,,False
+2026-10-28,849799,802415,Chandler Simpson,Tampa Bay Rays,Milwaukee Brewers,6,Tropicana Field,0.97,Jacob Misiorowski,0.0562,0.0152,3.8,,False
+2026-10-28,849799,810938,Ben Williamson,Tampa Bay Rays,Milwaukee Brewers,7,Tropicana Field,0.97,Jacob Misiorowski,0.0763,0.0214,3.7,,False
+2026-10-28,849799,668723,Ryan Vilade,Tampa Bay Rays,Milwaukee Brewers,8,Tropicana Field,0.97,Jacob Misiorowski,0.0956,0.0279,3.6,,False
+2026-10-28,849799,670764,Taylor Walls,Tampa Bay Rays,Milwaukee Brewers,9,Tropicana Field,0.97,Jacob Misiorowski,0.0627,0.0185,3.5,,False
+2026-10-28,849799,694192,Jackson Chourio,Milwaukee Brewers,Tampa Bay Rays,1,Tropicana Field,0.97,Drew Rasmussen,0.1194,0.0296,4.3,,False
+2026-10-28,849799,641343,Jake Bauers,Milwaukee Brewers,Tampa Bay Rays,2,Tropicana Field,0.97,Drew Rasmussen,0.1243,0.0316,4.2,,False
+2026-10-28,849799,592885,Christian Yelich,Milwaukee Brewers,Tampa Bay Rays,3,Tropicana Field,0.97,Drew Rasmussen,0.0937,0.024,4.1,,False
+2026-10-28,849799,661388,William Contreras,Milwaukee Brewers,Tampa Bay Rays,4,Tropicana Field,0.97,Drew Rasmussen,0.096,0.0252,4.0,,False
+2026-10-28,849799,668930,Brice Turang,Milwaukee Brewers,Tampa Bay Rays,5,Tropicana Field,0.97,Drew Rasmussen,0.1004,0.0271,3.9,,False
+2026-10-28,849799,686217,Sal Frelick,Milwaukee Brewers,Tampa Bay Rays,6,Tropicana Field,0.97,Drew Rasmussen,0.0732,0.02,3.8,,False
+2026-10-28,849799,806198,Cooper Pratt,Milwaukee Brewers,Tampa Bay Rays,7,Tropicana Field,0.97,Drew Rasmussen,0.0756,0.0212,3.7,,False
+2026-10-28,849799,669003,Garrett Mitchell,Milwaukee Brewers,Tampa Bay Rays,8,Tropicana Field,0.97,Drew Rasmussen,0.0796,0.023,3.6,,False
+2026-10-28,849799,666152,David Hamilton,Milwaukee Brewers,Tampa Bay Rays,9,Tropicana Field,0.97,Drew Rasmussen,0.0673,0.0199,3.5,,False
