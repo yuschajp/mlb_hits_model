@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27",
+  "generated_at": "2026-10-28",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -373,14 +373,95 @@
     ]
   },
   "hr": {
-    "today_count": 0,
+    "today_count": 18,
     "total_graded": 14623,
     "since_date": "2026-06-21",
     "brier_score": 0.1009,
     "naive_brier": 0.1034,
     "avg_predicted": 0.124,
     "actual_hr_rate": 0.1163,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "player_name": "Junior Caminero",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Tropicana Field",
+        "lineup_spot": 3,
+        "p_hr": 0.1455
+      },
+      {
+        "player_name": "Jake Bauers",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1243
+      },
+      {
+        "player_name": "Jackson Chourio",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1194
+      },
+      {
+        "player_name": "Jonathan Aranda",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Tropicana Field",
+        "lineup_spot": 2,
+        "p_hr": 0.1117
+      },
+      {
+        "player_name": "Yandy D\u00edaz",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Tropicana Field",
+        "lineup_spot": 1,
+        "p_hr": 0.1076
+      },
+      {
+        "player_name": "Liam Hicks",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Tropicana Field",
+        "lineup_spot": 4,
+        "p_hr": 0.1026
+      },
+      {
+        "player_name": "Brice Turang",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 5,
+        "p_hr": 0.1004
+      },
+      {
+        "player_name": "Jonny DeLuca",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Tropicana Field",
+        "lineup_spot": 5,
+        "p_hr": 0.0973
+      },
+      {
+        "player_name": "William Contreras",
+        "team": "Milwaukee Brewers",
+        "opponent_pitcher": "Drew Rasmussen",
+        "venue": "Tropicana Field",
+        "lineup_spot": 4,
+        "p_hr": 0.096
+      },
+      {
+        "player_name": "Ryan Vilade",
+        "team": "Tampa Bay Rays",
+        "opponent_pitcher": "Jacob Misiorowski",
+        "venue": "Tropicana Field",
+        "lineup_spot": 8,
+        "p_hr": 0.0956
+      }
+    ],
     "calibration": [
       {
         "range": "0.00-0.08",
@@ -1338,14 +1419,35 @@
     ]
   },
   "k": {
-    "today_count": 0,
+    "today_count": 2,
     "total_graded": 1220,
     "since_date": "2026-06-27",
     "brier_score": 0.1529,
     "naive_brier": 0.25,
-    "avg_lambda": null,
+    "avg_lambda": 5.58,
     "over_rate": 0.231,
-    "top10_today": [],
+    "top10_today": [
+      {
+        "pitcher_name": "Jacob Misiorowski",
+        "team": "Milwaukee Brewers",
+        "opponent": "Tampa Bay Rays",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.67,
+        "p_over": 0.3414,
+        "p_under": 0.6586
+      },
+      {
+        "pitcher_name": "Drew Rasmussen",
+        "team": "Tampa Bay Rays",
+        "opponent": "Milwaukee Brewers",
+        "venue": "Tropicana Field",
+        "line": 6.5,
+        "lambda_k": 5.49,
+        "p_over": 0.3119,
+        "p_under": 0.6881
+      }
+    ],
     "calibration": [
       {
         "range": "0.0-0.2",
@@ -1676,28 +1778,28 @@
   },
   "cfb": {
     "today_count": 2,
-    "total_graded": 789,
+    "total_graded": 791,
     "board": [
       {
-        "away": "Sam Houston",
-        "home": "Missouri State",
+        "away": "Kennesaw State",
+        "home": "Middle Tennessee",
         "cls": "FBS",
-        "model": -15.5,
-        "market": -4.5,
-        "edge": -11.0,
-        "side": "Missouri State",
+        "model": 9.5,
+        "market": 1.25,
+        "edge": 8.2,
+        "side": "Kennesaw State",
         "dir": "FAV",
         "playable": false,
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "Delaware",
-        "home": "Western Kentucky",
+        "away": "Jacksonville State",
+        "home": "New Mexico State",
         "cls": "FBS",
-        "model": -9.5,
-        "market": 1.25,
-        "edge": -10.7,
-        "side": "Western Kentucky",
+        "model": 2.0,
+        "market": 3.0,
+        "edge": -1.0,
+        "side": "New Mexico State",
         "dir": "DOG",
         "playable": false,
         "flag": "BLIND-SPOT"
@@ -1706,9 +1808,9 @@
     "splits": [
       {
         "split": "FBS",
-        "record": "186-190",
-        "win_pct": 0.4946808510638298,
-        "n": 376
+        "record": "187-191",
+        "win_pct": 0.4947089947089947,
+        "n": 378
       },
       {
         "split": "FCS",
@@ -1718,21 +1820,21 @@
       },
       {
         "split": "FAV",
-        "record": "149-175",
-        "win_pct": 0.45987654320987653,
-        "n": 324
+        "record": "150-175",
+        "win_pct": 0.46153846153846156,
+        "n": 325
       },
       {
         "split": "DOG",
-        "record": "245-220",
-        "win_pct": 0.5268817204301075,
-        "n": 465
+        "record": "245-221",
+        "win_pct": 0.5257510729613734,
+        "n": 466
       }
     ],
-    "record": "394-395",
-    "win_pct": 0.49936628643852976,
-    "mae_model": 13.9795,
-    "mae_market": 11.6415625
+    "record": "395-396",
+    "win_pct": 0.4993678887484197,
+    "mae_model": 13.980798004987532,
+    "mae_market": 11.649002493765586
   },
   "nfl": {
     "today_count": 317,
@@ -2717,7 +2819,7 @@
       },
       {
         "model": "MLB home runs",
-        "today": 0,
+        "today": 18,
         "graded": 14623,
         "metric": "Brier",
         "value": 0.1009,
@@ -2727,7 +2829,7 @@
       },
       {
         "model": "MLB strikeouts",
-        "today": 0,
+        "today": 2,
         "graded": 1220,
         "metric": "Brier",
         "value": 0.1529,
@@ -2748,13 +2850,13 @@
       {
         "model": "College FB spread",
         "today": 2,
-        "graded": 789,
+        "graded": 791,
         "metric": "ATS",
-        "value": 0.49936628643852976,
+        "value": 0.4993678887484197,
         "baseline": 0.5238,
-        "edge_pct": -2.4433713561470283,
-        "note": "MAE 13.98 vs market 11.64",
-        "verdict": "394-395"
+        "edge_pct": -2.443211125158035,
+        "note": "MAE 13.98 vs market 11.65",
+        "verdict": "395-396"
       },
       {
         "model": "NFL anytime TD",
@@ -2823,8 +2925,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 319,
-    "total_graded": 30472,
+    "total_today": 339,
+    "total_graded": 30474,
     "model_count": 11
   }
 }
