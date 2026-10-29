@@ -1,0 +1,3 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Kennesaw State,Middle Tennessee,FBS,19:00,9.5,1.25,8.2,Kennesaw State,-1.25,FAV,1.25,False,False,BLIND-SPOT,2026-10-28,28.0,44.0,16.0,W
+Jacksonville State,New Mexico State,FBS,20:00,2.0,3.0,-1.0,New Mexico State,3.0,DOG,3.0,False,False,BLIND-SPOT,2026-10-28,0.0,24.0,24.0,L
