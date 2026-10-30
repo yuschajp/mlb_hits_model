@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29",
+  "generated_at": "2026-10-30",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -1680,41 +1680,53 @@
     "history": []
   },
   "cfb": {
-    "today_count": 3,
-    "total_graded": 793,
+    "today_count": 4,
+    "total_graded": 796,
     "board": [
       {
-        "away": "Florida Atlantic",
-        "home": "North Texas",
+        "away": "Tulane",
+        "home": "Charlotte",
         "cls": "FBS",
-        "model": -25.2,
-        "market": -14.0,
-        "edge": -11.2,
-        "side": "North Texas",
+        "model": 21.1,
+        "market": 8.25,
+        "edge": 12.8,
+        "side": "Tulane",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT INFO-GAP"
+      },
+      {
+        "away": "Kent State",
+        "home": "Sacramento State",
+        "cls": "FCS",
+        "model": 14.3,
+        "market": 7.25,
+        "edge": 7.1,
+        "side": "Kent State",
         "dir": "FAV",
         "playable": false,
         "flag": "BLIND-SPOT"
       },
       {
-        "away": "South Carolina State",
-        "home": "Morgan State",
+        "away": "Harvard",
+        "home": "Dartmouth",
         "cls": "fcs-only",
-        "model": 7.3,
-        "market": 7.0,
-        "edge": 0.3,
-        "side": "South Carolina State",
-        "dir": "FAV",
-        "playable": false,
+        "model": 4.9,
+        "market": 10.5,
+        "edge": -5.6,
+        "side": "Dartmouth",
+        "dir": "DOG",
+        "playable": true,
         "flag": ""
       },
       {
-        "away": "Troy",
-        "home": "James Madison",
+        "away": "Baylor",
+        "home": "UCF",
         "cls": "FBS",
-        "model": -19.2,
-        "market": -19.5,
-        "edge": 0.3,
-        "side": "Troy",
+        "model": 1.1,
+        "market": 1.5,
+        "edge": -0.4,
+        "side": "UCF",
         "dir": "DOG",
         "playable": false,
         "flag": ""
@@ -1723,9 +1735,9 @@
     "splits": [
       {
         "split": "FBS",
-        "record": "188-192",
-        "win_pct": 0.49473684210526314,
-        "n": 380
+        "record": "189-193",
+        "win_pct": 0.49476439790575916,
+        "n": 382
       },
       {
         "split": "FCS",
@@ -1735,21 +1747,21 @@
       },
       {
         "split": "FAV",
-        "record": "151-175",
-        "win_pct": 0.46319018404907975,
-        "n": 326
+        "record": "152-176",
+        "win_pct": 0.4634146341463415,
+        "n": 328
       },
       {
         "split": "DOG",
-        "record": "245-222",
-        "win_pct": 0.5246252676659529,
-        "n": 467
+        "record": "246-222",
+        "win_pct": 0.5256410256410257,
+        "n": 468
       }
     ],
-    "record": "396-397",
-    "win_pct": 0.49936948297604034,
-    "mae_model": 13.981467661691543,
-    "mae_market": 11.664490049751244
+    "record": "398-398",
+    "win_pct": 0.5,
+    "mae_model": 14.021313506815366,
+    "mae_market": 11.699814126394052
   },
   "nfl": {
     "today_count": 317,
@@ -2764,14 +2776,14 @@
       },
       {
         "model": "College FB spread",
-        "today": 3,
-        "graded": 793,
+        "today": 4,
+        "graded": 796,
         "metric": "ATS",
-        "value": 0.49936948297604034,
+        "value": 0.5,
         "baseline": 0.5238,
-        "edge_pct": -2.443051702395971,
-        "note": "MAE 13.98 vs market 11.66",
-        "verdict": "396-397"
+        "edge_pct": -2.3800000000000043,
+        "note": "MAE 14.02 vs market 11.70",
+        "verdict": "398-398"
       },
       {
         "model": "NFL anytime TD",
@@ -2840,8 +2852,8 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 320,
-    "total_graded": 30496,
+    "total_today": 321,
+    "total_graded": 30499,
     "model_count": 11
   }
 }
