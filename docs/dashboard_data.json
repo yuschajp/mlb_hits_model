@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01",
+  "generated_at": "2026-11-05",
   "hits": {
     "today_count": 0,
     "total_graded": 5225,
@@ -1680,9 +1680,46 @@
     "history": []
   },
   "cfb": {
-    "today_count": 0,
+    "today_count": 3,
     "total_graded": 901,
-    "board": [],
+    "board": [
+      {
+        "away": "South Carolina State",
+        "home": "Howard",
+        "cls": "fcs-only",
+        "model": 10.6,
+        "market": 15.5,
+        "edge": -4.9,
+        "side": "Howard",
+        "dir": "DOG",
+        "playable": true,
+        "flag": ""
+      },
+      {
+        "away": "UTSA",
+        "home": "Florida Atlantic",
+        "cls": "FBS",
+        "model": 11.4,
+        "market": 6.75,
+        "edge": 4.7,
+        "side": "UTSA",
+        "dir": "FAV",
+        "playable": false,
+        "flag": "BLIND-SPOT RE-CHECK-LINE"
+      },
+      {
+        "away": "James Madison",
+        "home": "Southern Miss",
+        "cls": "FBS",
+        "model": 16.2,
+        "market": 14.25,
+        "edge": 2.0,
+        "side": "James Madison",
+        "dir": "FAV",
+        "playable": false,
+        "flag": ""
+      }
+    ],
     "splits": [
       {
         "split": "FBS",
@@ -1715,368 +1752,368 @@
     "mae_market": 11.875
   },
   "nfl": {
-    "today_count": 319,
+    "today_count": 369,
     "total_graded": 0,
     "board": [
       {
-        "player": "Derrick Henry",
+        "player": "Christian McCaffrey",
         "pos": "RB",
-        "team": "BAL",
-        "game": "BAL@BUF",
-        "p_td": 0.7097227004934205,
-        "fair": -244,
-        "moved": false
-      },
-      {
-        "player": "Ja'Marr Chase",
-        "pos": "WR",
-        "team": "CIN",
-        "game": "TEN@CIN",
-        "p_td": 0.5906568292266168,
-        "fair": -144,
+        "team": "SF",
+        "game": "LV@SF",
+        "p_td": 0.649054140182896,
+        "fair": -184,
         "moved": false
       },
       {
         "player": "Bijan Robinson",
         "pos": "RB",
         "team": "ATL",
-        "game": "ATL@TB",
-        "p_td": 0.5306766711560371,
-        "fair": -113,
+        "game": "CIN@ATL",
+        "p_td": 0.6174975379634224,
+        "fair": -161,
         "moved": false
       },
       {
         "player": "Jahmyr Gibbs",
         "pos": "RB",
         "team": "DET",
-        "game": "MIN@DET",
-        "p_td": 0.5280021336618427,
-        "fair": -111,
-        "moved": false
-      },
-      {
-        "player": "Chase Brown",
-        "pos": "RB",
-        "team": "CIN",
-        "game": "TEN@CIN",
-        "p_td": 0.5277091413601329,
-        "fair": -111,
-        "moved": false
-      },
-      {
-        "player": "Ashton Jeanty",
-        "pos": "RB",
-        "team": "LV",
-        "game": "LV@NYJ",
-        "p_td": 0.5086635678634092,
-        "fair": -103,
-        "moved": false
-      },
-      {
-        "player": "Josh Allen",
-        "pos": "QB",
-        "team": "BUF",
-        "game": "BAL@BUF",
-        "p_td": 0.5071746805516135,
-        "fair": -102,
-        "moved": false
-      },
-      {
-        "player": "Chris Rodriguez Jr.",
-        "pos": "RB",
-        "team": "JAX",
-        "game": "IND@JAX",
-        "p_td": 0.4885070147769516,
-        "fair": 104,
-        "moved": true
-      },
-      {
-        "player": "Kyren Williams",
-        "pos": "RB",
-        "team": "LA",
-        "game": "LAC@LA",
-        "p_td": 0.4808072440798542,
-        "fair": 107,
-        "moved": false
-      },
-      {
-        "player": "James Cook",
-        "pos": "RB",
-        "team": "BUF",
-        "game": "BAL@BUF",
-        "p_td": 0.4743356915769399,
-        "fair": 110,
+        "game": "DET@MIA",
+        "p_td": 0.5939126557888987,
+        "fair": -146,
         "moved": false
       },
       {
         "player": "De'Von Achane",
         "pos": "RB",
         "team": "MIA",
-        "game": "NE@MIA",
-        "p_td": 0.4659546763021278,
-        "fair": 114,
+        "game": "DET@MIA",
+        "p_td": 0.5741617284348128,
+        "fair": -134,
         "moved": false
       },
       {
-        "player": "Tee Higgins",
+        "player": "Ja'Marr Chase",
         "pos": "WR",
         "team": "CIN",
-        "game": "TEN@CIN",
-        "p_td": 0.4365649091268924,
-        "fair": 129,
-        "moved": false
-      },
-      {
-        "player": "Jonathan Taylor",
-        "pos": "RB",
-        "team": "IND",
-        "game": "IND@JAX",
-        "p_td": 0.4359129801897108,
-        "fair": 129,
-        "moved": false
-      },
-      {
-        "player": "Amon-Ra St. Brown",
-        "pos": "WR",
-        "team": "DET",
-        "game": "MIN@DET",
-        "p_td": 0.4285628111210056,
-        "fair": 133,
-        "moved": false
-      },
-      {
-        "player": "Javonte Williams",
-        "pos": "RB",
-        "team": "DAL",
-        "game": "ARI@DAL",
-        "p_td": 0.4245842426166683,
-        "fair": 135,
+        "game": "CIN@ATL",
+        "p_td": 0.5639336273979325,
+        "fair": -129,
         "moved": false
       },
       {
         "player": "Rashee Rice",
         "pos": "WR",
         "team": "KC",
-        "game": "KC@DEN",
-        "p_td": 0.4220889176850073,
-        "fair": 136,
+        "game": "NYJ@KC",
+        "p_td": 0.5498083056479557,
+        "fair": -122,
         "moved": false
       },
       {
-        "player": "Jaxon Smith-Njigba",
-        "pos": "WR",
-        "team": "SEA",
-        "game": "CHI@SEA",
-        "p_td": 0.4175912072982659,
-        "fair": 139,
-        "moved": false
-      },
-      {
-        "player": "Jacory Croskey-Merritt",
+        "player": "Jonathan Taylor",
         "pos": "RB",
-        "team": "WAS",
-        "game": "PHI@WAS",
-        "p_td": 0.4119823751628714,
-        "fair": 142,
+        "team": "IND",
+        "game": "DAL@IND",
+        "p_td": 0.539063845925615,
+        "fair": -116,
         "moved": false
       },
       {
-        "player": "TreVeyon Henderson",
+        "player": "Chase Brown",
         "pos": "RB",
-        "team": "NE",
-        "game": "NE@MIA",
-        "p_td": 0.4107560456754405,
-        "fair": 143,
+        "team": "CIN",
+        "game": "CIN@ATL",
+        "p_td": 0.5019462490869808,
+        "fair": -100,
         "moved": false
       },
       {
-        "player": "Breece Hall",
+        "player": "Amon-Ra St. Brown",
+        "pos": "WR",
+        "team": "DET",
+        "game": "DET@MIA",
+        "p_td": 0.4891642723100369,
+        "fair": 104,
+        "moved": false
+      },
+      {
+        "player": "Ashton Jeanty",
         "pos": "RB",
-        "team": "NYJ",
-        "game": "LV@NYJ",
-        "p_td": 0.40245198111959,
-        "fair": 148,
+        "team": "LV",
+        "game": "LV@SF",
+        "p_td": 0.4885552825935511,
+        "fair": 104,
         "moved": false
       },
       {
-        "player": "DK Metcalf",
+        "player": "Mike Evans",
         "pos": "WR",
-        "team": "PIT",
-        "game": "CLE@PIT",
-        "p_td": 0.4005155940632089,
-        "fair": 149,
-        "moved": false
-      },
-      {
-        "player": "Parker Washington",
-        "pos": "WR",
-        "team": "JAX",
-        "game": "IND@JAX",
-        "p_td": 0.3952319018810099,
-        "fair": 153,
-        "moved": false
-      },
-      {
-        "player": "Bucky Irving",
-        "pos": "RB",
-        "team": "TB",
-        "game": "ATL@TB",
-        "p_td": 0.3917496391313714,
-        "fair": 155,
-        "moved": false
-      },
-      {
-        "player": "A.J. Brown",
-        "pos": "WR",
-        "team": "NE",
-        "game": "NE@MIA",
-        "p_td": 0.3910636457963246,
-        "fair": 155,
+        "team": "SF",
+        "game": "LV@SF",
+        "p_td": 0.4870226708903805,
+        "fair": 105,
         "moved": true
       },
       {
-        "player": "Aaron Jones",
+        "player": "Kyren Williams",
         "pos": "RB",
-        "team": "MIN",
-        "game": "MIN@DET",
-        "p_td": 0.3843231774691711,
-        "fair": 160,
-        "moved": false
-      },
-      {
-        "player": "Ryan Flournoy",
-        "pos": "WR",
-        "team": "DAL",
-        "game": "ARI@DAL",
-        "p_td": 0.3834573336845426,
-        "fair": 160,
+        "team": "LA",
+        "game": "LA@WAS",
+        "p_td": 0.484801842553798,
+        "fair": 106,
         "moved": false
       },
       {
         "player": "Colston Loveland",
         "pos": "TE",
         "team": "CHI",
-        "game": "CHI@SEA",
-        "p_td": 0.3796753000135023,
-        "fair": 163,
+        "game": "TB@CHI",
+        "p_td": 0.4611037503823373,
+        "fair": 116,
         "moved": false
       },
       {
-        "player": "Malik Davis",
+        "player": "Derrick Henry",
         "pos": "RB",
-        "team": "DAL",
-        "game": "ARI@DAL",
-        "p_td": 0.3760098007221689,
-        "fair": 165,
+        "team": "BAL",
+        "game": "JAX@BAL",
+        "p_td": 0.4445526482712184,
+        "fair": 124,
         "moved": false
       },
       {
-        "player": "Kenny Gainwell",
+        "player": "Josh Allen",
+        "pos": "QB",
+        "team": "BUF",
+        "game": "BUF@MIN",
+        "p_td": 0.4371495662382971,
+        "fair": 128,
+        "moved": false
+      },
+      {
+        "player": "Chris Rodriguez Jr.",
         "pos": "RB",
-        "team": "TB",
-        "game": "ATL@TB",
-        "p_td": 0.3750594886698218,
-        "fair": 166,
+        "team": "JAX",
+        "game": "JAX@BAL",
+        "p_td": 0.4347176531844203,
+        "fair": 130,
         "moved": true
       },
       {
-        "player": "CeeDee Lamb",
-        "pos": "WR",
-        "team": "DAL",
-        "game": "ARI@DAL",
-        "p_td": 0.3662339489008398,
-        "fair": 173,
+        "player": "Kenneth Walker III",
+        "pos": "RB",
+        "team": "KC",
+        "game": "NYJ@KC",
+        "p_td": 0.432985068719761,
+        "fair": 130,
+        "moved": true
+      },
+      {
+        "player": "D'Andre Swift",
+        "pos": "RB",
+        "team": "CHI",
+        "game": "TB@CHI",
+        "p_td": 0.4238245906012369,
+        "fair": 135,
         "moved": false
       },
       {
-        "player": "Michael Wilson",
-        "pos": "WR",
-        "team": "ARI",
-        "game": "ARI@DAL",
-        "p_td": 0.3645672865160041,
-        "fair": 174,
+        "player": "TreVeyon Henderson",
+        "pos": "RB",
+        "team": "NE",
+        "game": "GB@NE",
+        "p_td": 0.4147449477396542,
+        "fair": 141,
         "moved": false
       },
       {
-        "player": "Puka Nacua",
+        "player": "Tee Higgins",
         "pos": "WR",
-        "team": "LA",
-        "game": "LAC@LA",
-        "p_td": 0.3609476188097771,
-        "fair": 177,
+        "team": "CIN",
+        "game": "CIN@ATL",
+        "p_td": 0.4132073199566048,
+        "fair": 142,
         "moved": false
       },
       {
         "player": "RJ Harvey",
         "pos": "RB",
         "team": "DEN",
-        "game": "KC@DEN",
-        "p_td": 0.3583606759889972,
-        "fair": 179,
+        "game": "DEN@CAR",
+        "p_td": 0.4112752775881612,
+        "fair": 143,
         "moved": false
+      },
+      {
+        "player": "George Kittle",
+        "pos": "TE",
+        "team": "SF",
+        "game": "LV@SF",
+        "p_td": 0.408913753821267,
+        "fair": 144,
+        "moved": false
+      },
+      {
+        "player": "James Cook",
+        "pos": "RB",
+        "team": "BUF",
+        "game": "BUF@MIN",
+        "p_td": 0.4068721806847184,
+        "fair": 145,
+        "moved": false
+      },
+      {
+        "player": "Jaxon Smith-Njigba",
+        "pos": "WR",
+        "team": "SEA",
+        "game": "ARI@SEA",
+        "p_td": 0.4056441580880431,
+        "fair": 146,
+        "moved": false
+      },
+      {
+        "player": "Tucker Kraft",
+        "pos": "TE",
+        "team": "GB",
+        "game": "GB@NE",
+        "p_td": 0.4050090017236798,
+        "fair": 146,
+        "moved": false
+      },
+      {
+        "player": "Javonte Williams",
+        "pos": "RB",
+        "team": "DAL",
+        "game": "DAL@IND",
+        "p_td": 0.3963584085675777,
+        "fair": 152,
+        "moved": false
+      },
+      {
+        "player": "A.J. Brown",
+        "pos": "WR",
+        "team": "NE",
+        "game": "GB@NE",
+        "p_td": 0.3949304650059174,
+        "fair": 153,
+        "moved": true
       },
       {
         "player": "Quinshon Judkins",
         "pos": "RB",
         "team": "CLE",
-        "game": "CLE@PIT",
-        "p_td": 0.3477118033230834,
-        "fair": 187,
+        "game": "CLE@NO",
+        "p_td": 0.3893131682557778,
+        "fair": 156,
         "moved": false
       },
       {
-        "player": "D'Andre Swift",
+        "player": "Justin Fields",
+        "pos": "QB",
+        "team": "KC",
+        "game": "NYJ@KC",
+        "p_td": 0.3850411433181716,
+        "fair": 159,
+        "moved": true
+      },
+      {
+        "player": "Aaron Jones",
         "pos": "RB",
-        "team": "CHI",
-        "game": "CHI@SEA",
-        "p_td": 0.3467845215247198,
-        "fair": 188,
+        "team": "MIN",
+        "game": "BUF@MIN",
+        "p_td": 0.3843231774691711,
+        "fair": 160,
         "moved": false
       },
       {
-        "player": "Trey McBride",
-        "pos": "TE",
-        "team": "ARI",
-        "game": "ARI@DAL",
-        "p_td": 0.3423203830171134,
-        "fair": 192,
-        "moved": false
-      },
-      {
-        "player": "Omarion Hampton",
+        "player": "Jacory Croskey-Merritt",
         "pos": "RB",
-        "team": "LAC",
-        "game": "LAC@LA",
-        "p_td": 0.3419326689152894,
-        "fair": 192,
+        "team": "WAS",
+        "game": "LA@WAS",
+        "p_td": 0.3820516955092375,
+        "fair": 161,
         "moved": false
       },
       {
         "player": "Harold Fannin Jr.",
         "pos": "TE",
         "team": "CLE",
-        "game": "CLE@PIT",
-        "p_td": 0.3392362752740567,
-        "fair": 194,
+        "game": "CLE@NO",
+        "p_td": 0.3801451483535325,
+        "fair": 163,
         "moved": false
       },
       {
-        "player": "Rico Dowdle",
-        "pos": "RB",
-        "team": "PIT",
-        "game": "CLE@PIT",
-        "p_td": 0.3302059836145292,
-        "fair": 202,
-        "moved": true
-      },
-      {
-        "player": "Davante Adams",
+        "player": "Puka Nacua",
         "pos": "WR",
         "team": "LA",
-        "game": "LAC@LA",
-        "p_td": 0.3299815295072498,
-        "fair": 203,
+        "game": "LA@WAS",
+        "p_td": 0.3643104591456763,
+        "fair": 174,
         "moved": false
+      },
+      {
+        "player": "Cam Skattebo",
+        "pos": "RB",
+        "team": "NYG",
+        "game": "NYG@PHI",
+        "p_td": 0.3637797699964514,
+        "fair": 174,
+        "moved": false
+      },
+      {
+        "player": "Bucky Irving",
+        "pos": "RB",
+        "team": "TB",
+        "game": "TB@CHI",
+        "p_td": 0.3611337038136791,
+        "fair": 176,
+        "moved": false
+      },
+      {
+        "player": "Ryan Flournoy",
+        "pos": "WR",
+        "team": "DAL",
+        "game": "DAL@IND",
+        "p_td": 0.3570715025571388,
+        "fair": 180,
+        "moved": false
+      },
+      {
+        "player": "Malik Davis",
+        "pos": "RB",
+        "team": "DAL",
+        "game": "DAL@IND",
+        "p_td": 0.3499818785703978,
+        "fair": 185,
+        "moved": false
+      },
+      {
+        "player": "Christian Watson",
+        "pos": "WR",
+        "team": "GB",
+        "game": "GB@NE",
+        "p_td": 0.3496994874544469,
+        "fair": 185,
+        "moved": false
+      },
+      {
+        "player": "Parker Washington",
+        "pos": "WR",
+        "team": "JAX",
+        "game": "JAX@BAL",
+        "p_td": 0.3481250718670149,
+        "fair": 187,
+        "moved": false
+      },
+      {
+        "player": "Kenny Gainwell",
+        "pos": "RB",
+        "team": "TB",
+        "game": "TB@CHI",
+        "p_td": 0.3453562391963439,
+        "fair": 189,
+        "moved": true
       }
     ],
     "week_file": "td_board_w1.csv",
@@ -2727,7 +2764,7 @@
       },
       {
         "model": "College FB spread",
-        "today": 0,
+        "today": 3,
         "graded": 901,
         "metric": "ATS",
         "value": 0.5049944506104328,
@@ -2738,7 +2775,7 @@
       },
       {
         "model": "NFL anytime TD",
-        "today": 319,
+        "today": 369,
         "graded": 0,
         "metric": "AUC",
         "value": 0.7370921803740497,
@@ -2803,7 +2840,7 @@
         "verdict": "calibrated, never priced"
       }
     ],
-    "total_today": 319,
+    "total_today": 372,
     "total_graded": 30604,
     "model_count": 11
   }
