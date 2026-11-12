@@ -147,8 +147,15 @@ if args:
 d = pd.concat(frames, ignore_index=True)
 d = d[d.result.isin(["W", "L", "P"])]
 if missed:
+    # FAIL LOUDLY. A grader that quietly drops games it cannot name-match turns
+    # your record into "the subset that happened to match", which is not your
+    # record. Indiana and Clemson vanished from the 2026-09-25 slate this way and
+    # the two picks I had most confidence in were simply never counted.
+    print("\n" + "!" * 66)
+    print(f"!!  {len(missed)} PICKS COULD NOT BE GRADED -- these are NOT in the record  !!")
+    print("!" * 66)
     print(f"\n  {len(missed)} games had no CFBD final (not played yet, or name drift):")
-    for m in missed[:10]:
+    for m in missed[:25]:
         print(f"    {m}")
 
 def wilson(k, m, z=1.96):

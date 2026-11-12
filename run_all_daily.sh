@@ -83,6 +83,11 @@ run_optional "Pull CFB lines" "data/cfb"                  cfb_lines.py "$TODAY"
 run_optional "Pull NFL lines" "data/nfl"                  nfl_lines.py
 
 run_optional "Grade CFB"  "data/cfb"                      cfb_grade.py
+# Keep the 2026 ratings current: re-download this season's games, then refit
+# with 2025 as the prior. If the fetch fails the fit reuses the last download,
+# so the board still runs -- on ratings that are a day or two older.
+run_optional "Fetch CFB games" "data/cfb"                 cfb_fetch.py 2026
+run_optional "Fit CFB ratings" "data/cfb"                 cfb_fit.py 2026 --prior 2025
 run_optional "Run CFB"    "data/cfb/lines_${TODAY}.txt"   cfb_board2.py "$TODAY"
 
 # NFL boards are weekly, not daily. Symlink or copy the current week's file to

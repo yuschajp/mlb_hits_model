@@ -26,7 +26,15 @@ from pathlib import Path
 # ---------------------------------------------------------------- knobs -----
 SCALE     = 1.00   # <-- set from cfb_earlyscale.py. 1.00 = no correction.
 MIN_EDGE  = 4.0    # below this a disagreement is noise, not a bet
-MAX_EDGE  = 12.0   # above this the claimed edge is mostly MODEL ERROR, not value.
+MAX_EDGE  = 7.0    # RECALIBRATED 2026-10-06 on 472 graded games.
+                   # Was 12.0. Measured records by |edge| bucket (playable):
+                   #   4-5  19-15  55.9%      7-9   16-27  37.2%  (z=-1.99)
+                   #   5-6  21-11  65.6%      9-12  23-26  46.9%
+                   #   6-7  20-12  62.5%
+                   # 7-12 combined is 39-53. Everything above 7 is the model
+                   # being confidently wrong. None of the 4-7 buckets is
+                   # individually significant -- their CIs all contain 52.4%
+                   # -- so 4-7 is the least-bad window, NOT a proven edge.
                    # Graded 2026: edge 4-9 went 23-18 (56.1%), 9-15 went 10-13
                    # (43.5%), 15+ went 5-14 (26.3%). Monotone decline, and it is
                    # the pattern winners_curse.py predicted BEFORE the season --
@@ -36,7 +44,11 @@ MAX_EDGE  = 12.0   # above this the claimed edge is mostly MODEL ERROR, not valu
                    # 2025 ratings cannot see (new staff, portal haul, departures),
                    # not an edge. Flagged, not filtered -- it still logs and grades
                    # so we find out whether the flag is actually predictive.
-OFFSET    = 32.6   # FBS -> FCS bridge, median of 126 bridge games (mean 31.2 +/- 2.4)
+OFFSET    = 37.2   # FBS -> FCS bridge. REMEASURED 2026-11-12 against the 2026
+                   # ratings on 123 bridge games: median 37.2, mean 36.2 +/- 2.8.
+                   # Walk-forward by week it sat at 37.4-38.6 -- the switch to
+                   # 2026 ratings did not move the bridge. (Was 38.6, fitted
+                   # 2026-09-26 against the 2025 carryover ratings.)
 HFA       = 2.0    # home-field, points
 
 # New York prohibits wagering on any game involving a NY college team, wherever
@@ -67,7 +79,15 @@ if not SRC.exists():
     SRC.write_text("# Away, Home, home_line[, N]   negative = home favoured, N = neutral\n")
     sys.exit(f"created {SRC} -- paste the slate into it, then re-run")
 
-R = {d: pd.read_csv(f"data/cfb/ratings_2025_{d}.csv", index_col=0) for d in ("fbs", "fcs")}
+# RATINGS: 2026 in-season fit (2025 as prior), refreshed daily by cfb_fit.py.
+# Switched 2026-11-12. Walk-forward in this board's exact structure, 886 games:
+#   MAE  2025 carryover 14.14  ->  2026 in-season 12.62   (market 12.00)
+# NOTE the 4-7 window and BLIND-SPOT block were tuned on the 2025 ratings. On
+# the 2026 ratings, out of sample, playable went 71-62 (53.4%) -- no bucket
+# stood out. Rules kept as-is rather than re-tuned on 133 games (winner's
+# curse); the fresh paper record from 2026-11-12 is the test.
+RATINGS_YEAR = 2026
+R = {d: pd.read_csv(f"data/cfb/ratings_{RATINGS_YEAR}_{d}.csv", index_col=0) for d in ("fbs", "fcs")}
 _a = pd.read_csv("data/cfb/games_2025_all.csv")
 gp = pd.concat([_a.home_team, _a.away_team]).value_counts()
 
@@ -133,7 +153,20 @@ for raw in SRC.read_text().splitlines():
     if neutral:                                        flags.append("NEUTRAL")
     if kh in weak or ka in weak:                       flags.append("BLIND-SPOT")
     if gp.get(kh, 0) < 10 or gp.get(ka, 0) < 10:       flags.append("thin-data")
-    if abs(model - line) >= MAX_EDGE:                  flags.append("INFO-GAP")
+    if abs(model - line) >= 12.0:                      flags.append("INFO-GAP")
+    # RE-CHECK-LINE: this pick only qualifies on the number it was fed. A half
+    # point of market movement pushes it out of the 4-7 window entirely. This
+    # is not a model judgement -- it is a reminder that the board runs on a
+    # morning pull and the market keeps moving. NC State on 2026-10-10 passed
+    # at a stale 3.2 and was 3.0 by kickoff: it was never a play.
+    # ONLY the lower boundary. Asymmetric on purpose: drifting BELOW MIN_EDGE
+    # kills the pick outright, while drifting ABOVE MAX_EDGE means the model
+    # likes it more -- a different situation, and one the INFO-GAP flag already
+    # covers. A symmetric 1.0pt band fired on 11 of 13 picks on 2026-10-10,
+    # which is wallpaper, not a warning: the 4-7 window is only 3pts wide.
+    _e = abs(model - line)
+    if MIN_EDGE <= _e <= MIN_EDGE + 0.75:
+        flags.append("RE-CHECK-LINE")
     ny = (kh in NY_TEAMS or ka in NY_TEAMS) and not ALLOW_NY
     if ny:                                             flags.append("NY-RESTRICTED")
 
@@ -145,10 +178,24 @@ for raw in SRC.read_text().splitlines():
     rows.append(dict(away=ka, home=kh, cls=cls, kick=kick,
                      model=round(model, 1), market=line,
                      edge=round(edge, 1), side=take,
+                     # THE NUMBER YOU ACTUALLY BET. `market` is a HOME-perspective
+                     # spread (negative = home favoured), so the line for the side
+                     # we take is `market` when that side is HOME and `-market`
+                     # when it is AWAY. Deriving this by hand has produced a
+                     # reversed-sign error three separate times -- store it once,
+                     # here, and never flip a sign downstream again.
+                     bet_line=round(line if take == kh else -line, 2),
                      dir=("FAV" if take == fav else "DOG"),
                      spread_size=abs(line), neutral=neutral,
+                     # BLIND-SPOT is a HARD BLOCK, not a warning. Measured
+                     # 25-40 (38.5%) on 65 playable games, z=-2.24, and stable
+                     # week to week: 28%, 57%, 33%, 36%. It is the ONLY split in
+                     # the whole dataset that is statistically distinguishable
+                     # from noise. A bottom-quintile rating means the model does
+                     # not know the team; it should not bet it at any edge.
                      playable=(abs(edge) >= MIN_EDGE and abs(edge) < MAX_EDGE
-                               and not ny),
+                               and not ny
+                               and "BLIND-SPOT" not in flags),
                      flag=" ".join(flags)))
 
 if bad:
@@ -163,11 +210,12 @@ d = pd.DataFrame(rows)
 d = d.reindex(d.edge.abs().sort_values(ascending=False).index)
 
 hdr = (f"{'away':<22}{'home':<20}{'cls':<5}{'kick':>6}{'model':>8}{'mkt':>8}{'edge':>7} "
-       f"{'take':<20}{'dir':<5}flag")
+       f"{'take':<20}{'BET':>7} {'dir':<5}flag")
 def show(sub):
     for _, r in sub.iterrows():
         print(f"{r.away[:21]:<22}{r.home[:19]:<20}{r.cls:<5}{str(r.kick):>6}{r.model:>+8.1f}"
-              f"{r.market:>+8.1f}{r.edge:>+7.1f} {r.side[:19]:<20}{r['dir']:<5}{r.flag}")
+              f"{r.market:>+8.1f}{r.edge:>+7.1f} {r.side[:19]:<20}{r.bet_line:>+7.1f} "
+              f"{r['dir']:<5}{r.flag}")
 
 plays, ref = d[d.playable], d[~d.playable]
 print(f"{DATE}   {len(d)} games   SCALE={SCALE:.2f}  edge window {MIN_EDGE:.0f}-{MAX_EDGE:.0f}\n")

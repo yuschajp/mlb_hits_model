@@ -1,6 +1,14 @@
 """Fit ratings and write the files the board reads.
 
     python3 cfb_fit.py 2025
+    python3 cfb_fit.py 2026 --prior 2025     # in-season: 2025 as the prior
+
+IN-SEASON (--prior)
+  Each division is fitted on this season's games with last season's fit as the
+  prior (prior_weight_g). Validated walk-forward 2026-11-12 in the board's own
+  two-scale structure on 886 graded games: MAE 14.14 -> 12.62 (market 12.00);
+  weeks 6+ 14.40 -> 12.48. The daily pipeline re-runs this so ratings stay
+  current. The bridge OFFSET did not move (walk-forward 37.4-38.6).
 
 Writes:
     data/cfb/ratings_<year>_fbs.csv    index=team, column net (POINTS)
@@ -20,8 +28,14 @@ import numpy as np, pandas as pd
 from pathlib import Path
 from cfb_model import fit_ratings, net_points, PARAMS
 
-YEAR = int(sys.argv[1]) if len(sys.argv) > 1 else 2025
+_pos = [a for a in sys.argv[1:] if not a.startswith("--")]
+YEAR = int(_pos[0]) if _pos else 2025
+PRIOR_YEAR = int(sys.argv[sys.argv.index("--prior") + 1]) if "--prior" in sys.argv else None
+if PRIOR_YEAR is not None:
+    _pos = [a for a in _pos if a != str(PRIOR_YEAR)]
+    YEAR = int(_pos[0]) if _pos else YEAR
 OUT = Path("data/cfb")
+HFA_BOARD = 2.0   # must match HFA in cfb_board2.py, or the OFFSET absorbs the gap
 
 g = pd.read_csv(OUT / f"games_{YEAR}_all.csv")
 dv = pd.read_csv(OUT / f"division_{YEAR}.csv", index_col=0)["division"] \
@@ -37,12 +51,22 @@ cross = g[g.hdiv != g.adiv]
 print(f"{YEAR}: {len(g)} games  |  fbs-only {len(within['fbs'])}  "
       f"fcs-only {len(within['fcs'])}  cross {len(cross)}")
 
+priors = {"fbs": None, "fcs": None}
+if PRIOR_YEAR is not None:
+    pg = pd.read_csv(OUT / f"games_{PRIOR_YEAR}_all.csv")
+    pdv = pd.read_csv(OUT / f"division_{PRIOR_YEAR}.csv", index_col=0)["division"] \
+            .astype(str).str.lower().to_dict()
+    pg["hdiv"], pg["adiv"] = pg.home_team.map(pdv), pg.away_team.map(pdv)
+    for d in ("fbs", "fcs"):
+        priors[d] = fit_ratings(pg[(pg.hdiv == d) & (pg.adiv == d)], params=PARAMS)
+    print(f"  prior: {PRIOR_YEAR} per-division fits, weight {PARAMS['prior_weight_g']} games")
+
 nets = {}
 for d in ("fbs", "fcs"):
     sub = within[d]
     if len(sub) < 50:
         sys.exit(f"only {len(sub)} {d} games -- not enough to fit")
-    R = fit_ratings(sub, params=PARAMS)
+    R = fit_ratings(sub, params=PARAMS, prior=priors[d])
     net = net_points(R, PARAMS).sort_values(ascending=False)
     nets[d] = net
     p = OUT / f"ratings_{YEAR}_{d}.csv"
@@ -57,7 +81,7 @@ for _, r in cross.iterrows():
     hd, ad = r.hdiv, r.adiv
     if r.home_team not in nets[hd].index or r.away_team not in nets[ad].index:
         continue
-    hfa = 0.0 if r.get("neutral", False) else PARAMS["hfa_points"]
+    hfa = 0.0 if r.get("neutral", False) else HFA_BOARD
     fbs_is_home = (hd == "fbs")
     rating_gap = (nets[hd][r.home_team] - nets[ad][r.away_team])
     actual = r.home_points - r.away_points
