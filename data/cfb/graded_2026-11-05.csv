@@ -1,0 +1,4 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+South Carolina State,Howard,fcs-only,19:30,10.6,15.5,-4.9,Howard,15.5,DOG,15.5,False,True,,2026-11-05,28.0,35.0,7.0,W
+UTSA,Florida Atlantic,FBS,19:30,11.4,6.75,4.7,UTSA,-6.75,FAV,6.75,False,False,BLIND-SPOT RE-CHECK-LINE,2026-11-05,60.0,29.0,-31.0,L
+James Madison,Southern Miss,FBS,20:00,16.2,14.25,2.0,James Madison,-14.25,FAV,14.25,False,False,,2026-11-05,23.0,54.0,31.0,W

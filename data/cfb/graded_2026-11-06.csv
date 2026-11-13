@@ -1,0 +1,6 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Virginia Tech,SMU,FBS,19:00,-20.1,-6.25,-13.8,SMU,-6.25,FAV,6.25,False,False,INFO-GAP,2026-11-06,51.0,28.0,-23.0,W
+Nebraska,Illinois,FBS,20:00,-7.4,4.5,-11.9,Illinois,4.5,DOG,4.5,False,False,,2026-11-06,24.0,13.0,-11.0,W
+South Florida,East Carolina,FBS,19:30,7.6,-2.5,10.1,South Florida,2.5,DOG,2.5,False,False,,2026-11-06,20.0,17.0,-3.0,L
+New Mexico,Nevada,FBS,21:00,11.0,10.0,1.0,New Mexico,-10.0,FAV,10.0,False,False,BLIND-SPOT,2026-11-06,3.0,31.0,28.0,W
+TCU,Arizona,FBS,22:15,-6.6,-7.5,0.9,TCU,7.5,DOG,7.5,False,False,,2026-11-06,29.0,28.0,-1.0,W
