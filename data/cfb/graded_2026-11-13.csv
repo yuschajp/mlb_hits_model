@@ -1,0 +1,5 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Illinois,UCLA,FBS,21:00,-5.8,-10.0,4.2,Illinois,10.0,DOG,10.0,False,True,RE-CHECK-LINE,2026-11-13,22.0,14.0,-8.0,W
+Florida State,Pittsburgh,FBS,19:00,-2.1,-3.5,1.4,Florida State,3.5,DOG,3.5,False,False,,2026-11-13,10.0,16.0,6.0,W
+Houston,Colorado,FBS,22:15,10.8,9.5,1.3,Houston,-9.5,FAV,9.5,False,False,,2026-11-13,42.0,32.0,-10.0,L
+Southern Utah,Portland State,fcs-only,22:00,13.2,12.5,0.7,Southern Utah,-12.5,FAV,12.5,False,False,BLIND-SPOT,2026-11-13,21.0,23.0,2.0,L
