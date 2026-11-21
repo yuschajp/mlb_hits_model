@@ -1,0 +1,7 @@
+away,home,cls,kick,model,market,edge,side,bet_line,dir,spread_size,neutral,playable,flag,date,actual_home,actual_away,actual_margin,result
+Iowa State,UCF,FBS,18:00,4.4,-1.5,5.9,Iowa State,1.5,DOG,1.5,False,True,,2026-11-20,48.0,17.0,-31.0,L
+Oregon,Michigan State,FBS,20:00,12.3,17.75,-5.4,Michigan State,17.75,DOG,17.75,False,True,,2026-11-20,7.0,45.0,38.0,L
+New Mexico,Wyoming,FBS,21:00,11.3,7.5,3.8,New Mexico,-7.5,FAV,7.5,False,False,,2026-11-20,17.0,24.0,7.0,L
+Bowling Green,Toledo,FBS,19:30,-14.1,-16.5,2.4,Bowling Green,16.5,DOG,16.5,False,False,BLIND-SPOT,2026-11-20,19.0,0.0,-19.0,L
+UTEP,Air Force,FBS,20:00,-23.3,-21.75,-1.5,Air Force,-21.75,FAV,21.75,False,False,BLIND-SPOT,2026-11-20,52.0,3.0,-49.0,W
+Clemson,Duke,FBS,19:30,-12.4,-13.5,1.1,Clemson,13.5,DOG,13.5,False,False,,2026-11-20,10.0,20.0,10.0,W
